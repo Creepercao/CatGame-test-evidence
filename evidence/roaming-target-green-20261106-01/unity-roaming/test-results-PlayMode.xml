@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-06 06:56:42Z" end-time="2026-11-06 06:56:42Z" duration="0.2220551">
+  <test-suite type="TestSuite" id="1000" name="喵屋" fullname="喵屋" runstate="Runnable" testcasecount="85" result="Passed" start-time="2026-11-06 06:56:42Z" end-time="2026-11-06 06:56:42Z" duration="0.222055" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1106" name="CatGame.Tests.dll" fullname="&lt;PROJECT&gt;/Library/ScriptAssemblies/CatGame.Tests.dll" runstate="Runnable" testcasecount="85" result="Passed" start-time="2026-11-06 06:56:42Z" end-time="2026-11-06 06:56:42Z" duration="0.188321" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="49504" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+      </properties>
+      <test-suite type="TestSuite" id="1107" name="CatGame" fullname="CatGame" runstate="Runnable" testcasecount="85" result="Passed" start-time="2026-11-06 06:56:42Z" end-time="2026-11-06 06:56:42Z" duration="0.185836" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1108" name="Tests" fullname="CatGame.Tests" runstate="Runnable" testcasecount="85" result="Passed" start-time="2026-11-06 06:56:42Z" end-time="2026-11-06 06:56:42Z" duration="0.184565" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1003" name="AnimationTests" fullname="CatGame.Tests.AnimationTests" classname="CatGame.Tests.AnimationTests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-11-06 06:56:42Z" end-time="2026-11-06 06:56:42Z" duration="0.177359" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1013" name="Assigning_open_walk_surface_preserves_initial_roaming_distance" fullname="CatGame.Tests.AnimationTests.Assigning_open_walk_surface_preserves_initial_roaming_distance" methodname="Assigning_open_walk_surface_preserves_initial_roaming_distance" classname="CatGame.Tests.AnimationTests" runstate="Runnable" seed="1581691083" result="Passed" start-time="2026-11-06 06:56:42Z" end-time="2026-11-06 06:56:42Z" duration="0.144730" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

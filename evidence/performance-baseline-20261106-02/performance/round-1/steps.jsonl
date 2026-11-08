@@ -1,0 +1,6 @@
+{"step":1,"utc":"2026-11-06T09:00:01.3701025Z","scene":"Home","type":"performance-phase","message":"single; frames=3596; seconds=60.0068799","realtime":75.39613342285156,"timeScale":1.0,"passed":true}
+{"step":2,"utc":"2026-11-06T09:01:41.5687518Z","scene":"Home","type":"performance-phase","message":"hundred; frames=5377; seconds=90.0049759","realtime":175.58343505859376,"timeScale":1.0,"passed":true}
+{"step":3,"utc":"2026-11-06T09:02:51.6186336Z","scene":"Home","type":"performance-phase","message":"input; frames=3588; seconds=60.006689","realtime":245.6329345703125,"timeScale":1.0,"passed":true}
+{"step":4,"utc":"2026-11-06T09:02:55.0268373Z","scene":"Home","type":"performance-phase","message":"cg-cold; frames=22; seconds=0.393880699999983","realtime":249.04129028320313,"timeScale":1.0,"passed":true}
+{"step":5,"utc":"2026-11-06T09:03:08.7044545Z","scene":"Home","type":"performance-phase","message":"cg-warm; frames=220; seconds=3.6673045","realtime":262.7191467285156,"timeScale":1.0,"passed":true}
+{"step":6,"utc":"2026-11-06T09:03:40.7862331Z","scene":"Home","type":"performance-phase","message":"save; frames=1000; seconds=22.0453693","realtime":294.8012390136719,"timeScale":1.0,"passed":true}

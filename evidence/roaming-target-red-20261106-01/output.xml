@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-06T14:52:25.912343" rpa="false" schemaversion="5">
+<suite id="s1" name="Roaming Target" source="&lt;PROJECT&gt;\Tests\robot\tests\roaming_target.robot">
+<test id="s1-t1" name="Surface Assignment Keeps Initial Roaming Target" line="10">
+<kw name="Run Tests" owner="UnityTestRunner">
+<msg time="2026-11-06T14:53:16.701095" level="FAIL">Unity exited with code 2 despite producing XML; result=Failed(Child). Log: &lt;PROJECT&gt;\Tests\robot\results\roaming-target-red-20261106-01/unity-roaming\test-PlayMode.log</msg>
+<var>${result}</var>
+<arg>PlayMode</arg>
+<arg>Assigning_open_walk_surface_preserves_initial_roaming_distance</arg>
+<doc>跑指定平台的测试套件，返回统计字典。</doc>
+<status status="FAIL" start="2026-11-06T14:52:25.999488" elapsed="50.716855">Unity exited with code 2 despite producing XML; result=Failed(Child). Log: &lt;PROJECT&gt;\Tests\robot\results\roaming-target-red-20261106-01/unity-roaming\test-PlayMode.log</status>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<arg>${result}[failed]</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="NOT RUN" start="2026-11-06T14:53:16.724404" elapsed="0.001002"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<arg>${result}[passed]</arg>
+<arg>1</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="NOT RUN" start="2026-11-06T14:53:16.725406" elapsed="0.000000"/>
+</kw>
+<tag>regression</tag>
+<tag>roaming</tag>
+<status status="FAIL" start="2026-11-06T14:52:25.997345" elapsed="50.732547">Unity exited with code 2 despite producing XML; result=Failed(Child). Log: &lt;PROJECT&gt;\Tests\robot\results\roaming-target-red-20261106-01/unity-roaming\test-PlayMode.log</status>
+</test>
+<status status="FAIL" start="2026-11-06T14:52:25.919469" elapsed="50.820019"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">regression</stat>
+<stat pass="0" fail="1" skip="0">roaming</stat>
+</tag>
+<suite>
+<stat name="Roaming Target" id="s1" pass="0" fail="1" skip="0">Roaming Target</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

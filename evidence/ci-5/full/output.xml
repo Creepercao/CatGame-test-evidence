@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-06T17:29:56.941202" rpa="false" schemaversion="5">
+<suite id="s1" name="Unity Tests" source="&lt;PROJECT&gt;\Tests\robot\tests\unity_tests.robot">
+<kw name="Run All Unity Suites" type="SETUP">
+<kw name="Run Tests" owner="UnityTestRunner">
+<msg time="2026-11-06T17:33:24.166665" level="INFO">${pm} = {'total': 86, 'passed': 86, 'failed': 0, 'skipped': 0, 'duration': 155.3551328, 'result': 'Passed', 'cases': [{'name': 'Achievement_toast_fades_and_next_queued_message_restores_opacity', 'result': 'Pa...</msg>
+<var>${pm}</var>
+<arg>PlayMode</arg>
+<doc>跑指定平台的测试套件，返回统计字典。</doc>
+<status status="PASS" start="2026-11-06T17:29:57.014917" elapsed="207.156739"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2026-11-06T17:33:24.195242" level="INFO">${PM} = {'total': 86, 'passed': 86, 'failed': 0, 'skipped': 0, 'duration': 155.3551328, 'result': 'Passed', 'cases': [{'name': 'Achievement_toast_fades_and_next_queued_message_restores_opacity', 'result': 'Pa...</msg>
+<arg>${PM}</arg>
+<arg>${pm}</arg>
+<doc>Makes the variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2026-11-06T17:33:24.182705" elapsed="0.012537"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-11-06T17:33:24.198238" level="INFO">{'total': 86, 'passed': 86, 'failed': 0, 'skipped': 0, 'duration': 155.3551328, 'result': 'Passed', 'cases': [{'name': 'Achievement_toast_fades_and_next_queued_message_restores_opacity', 'result': 'Passed', 'duration': '5.779017'}, {'name': 'Assigning_open_walk_surface_preserves_initial_roaming_distance', 'result': 'Passed', 'duration': '0.077218'}, {'name': '切到不存在的品种_拒绝并保持当前', 'result': 'Passed', 'duration': '0.080495'}, {'name': '切回自动模式后恢复待机', 'result': 'Passed', 'duration': '0.691629'}, {'name': '切换预览品种不改变已拥有猫_绑定预览使用新品种帧', 'result': 'Passed', 'duration': '0.116490'}, {'name': '原地动作不会移动猫', 'result': 'Passed', 'duration': '0.641073'}, {'name': '启动后加载三个品种并选中墨墨', 'result': 'Passed', 'duration': '0.082658'}, {'name': '强制播放每个动作都能出帧', 'result': 'Passed', 'duration': '2.326626'}, {'name': '每个品种的七套动画都齐全', 'result': 'Passed', 'duration': '0.083279'}, {'name': '猫是按y排序的实体', 'result': 'Passed', 'duration': '0.132688'}, {'name': '猫默认在自动模式下播待机', 'result': 'Passed', 'duration': '0.109567'}, {'name': '自动模式下猫会自己走动', 'result': 'Passed', 'duration': '3.329183'}, {'name': '走路动作会让猫在地板里移动', 'result': 'Passed', 'duration': '0.975163'}, {'name': 'Cat_frames_stay_inside_floor_at_all_four_edges', 'result': 'Passed', 'duration': '0.799776'}, {'name': 'Cat_visuals_scale_32px_art_to_the_same_height_as_64px_art', 'result': 'Passed', 'duration': '0.205128'}, {'name': 'Licking_a_cat_adds_click_value_and_shows_a_reward', 'result': 'Passed', 'duration': '1.129814'}, {'name': 'Newly_purchased_breed_gets_a_visible_actor_when_roster_is_full', 'result': 'Passed', 'duration': '0.097989'}, {'name': 'Roster_keeps_one_actor_per_owned_breed_and_caps_at_100', 'result': 'Passed', 'duration': '0.101475'}, {'name': 'Stress_440_owned_cats_survive_100_roster_rebuilds', 'result': 'Passed', 'duration': '0.176505'}, {'name': 'Stress_ten_thousand_click_and_purchase_requests_apply_once', 'result': 'Passed', 'duration': '83.567719'}, {'name': 'Debugger_cat_and_item_edits_refresh_roster_income_and_enforce_caps_without_rewriting_ending', 'result': 'Passed', 'duration': '0.486165'}, {'name': 'Debugger_currency_keeps_lifetime_separate_rejects_bad_values_and_backs_up_each_change', 'result': 'Passed', 'duration': '0.218538'}, {'name': 'Debugger_menu_opens_window_and_commands_update_the_live_save_owner', 'result': 'Passed', 'duration': '2.363879'}, {'name': 'Debugger_modal_pause_and_backup_failure_block_edits_then_normal_rocket_flow_still_works', 'result': 'Passed', 'duration': '0.134346'}, {'name': 'Debugger_repeated_item_edits_keep_auditable_backups_and_persist_reloadable_progress', 'result': 'Passed', 'duration': '1.162605'}, {'name': 'Finished_intro_does_not_repeat_and_interrupted_intro_restarts_without_marking_done', 'result': 'Passed', 'duration': '0.190636'}, {'name': 'Fresh_intro_shows_Momo_teaches_both_incomes_and_blocks_gameplay_until_skip', 'result': 'Passed', 'duration': '0.467924'}, {'name': 'Modal_gate_restores_original_speed_only_for_its_owner', 'result': 'Passed', 'duration': '0.037637'}, {'name': 'Offline_summary_keeps_modal_ownership_then_pending_intro_can_open', 'result': 'Passed', 'duration': '0.122370'}, {'name': 'Quit_before_intro_completion_updates_clock_but_first_menu_does_not_create_save', 'result': 'Passed', 'duration': '0.109301'}, {'name': 'All_twenty_items_purchase_five_levels_and_share_card_marker_art', 'result': 'Passed', 'duration': '0.314284'}, {'name': 'Two_hundred_CG_pointer_closes_with_one_hundred_cats_block_modal_and_same_frame_inputs', 'result': 'Passed', 'duration': '4.012562'}, {'name': 'Pixel_Egypt_loads_all_new_frames_without_changing_other_breeds', 'result': 'Passed', 'duration': '0.032057'}, {'name': 'Pixel_Egypt_roams_with_Walk_stops_with_Idle_and_clicks_Jump_once', 'result': 'Passed', 'duration': '1.748848'}, {'name': 'Pixel_Egypt_runtime_capture_keeps_size_and_shows_each_action', 'result': 'Passed', 'duration': '0.922084'}, {'name': 'Clicking_sleeping_Egypt_wakes_Jumps_once_and_resumes_Walk', 'result': 'Passed', 'duration': '3.131678'}, {'name': 'Egypt_long_rest_enters_Sleep_and_pause_freezes_it', 'result': 'Passed', 'duration': '3.049671'}, {'name': 'Legacy_forced_Idle_keeps_its_existing_rest_timer', 'result': 'Passed', 'duration': '0.783334'}, {'name': 'Rest_expires_and_missing_Sleep_or_short_stops_do_not_sleep', 'result': 'Passed', 'duration': '2.215969'}, {'name': 'All_eleven_breeds_use_new_four_clips_and_old_Calico_Walk_stays_deleted', 'result': 'Passed', 'duration': '0.050370'}, {'name': 'Final_four_actions_render_with_patches_cowls_and_Santa_hat', 'result': 'Passed', 'duration': '3.442375'}, {'name': 'Final_four_purchases_jump_click_once_and_use_new_Walk', 'result': 'Passed', 'duration': '3.794720'}, {'name': 'Milk_preview_and_economy_share_new_four_action_frames', 'result': 'Passed', 'duration': '0.032695'}, {'name': 'Milk_world_sleeps_produces_clicks_once_and_resumes_roaming', 'result': 'Passed', 'duration': '1.790844'}, {'name': 'Patterned_breeds_four_actions_render_with_preserved_identity', 'result': 'Passed', 'duration': '2.546726'}, {'name': 'Patterned_breeds_purchase_jump_click_once_and_walk', 'result': 'Passed', 'duration': '2.867733'}, {'name': 'Seven_new_breeds_have_matching_frame_metadata_and_assets', 'result': 'Passed', 'duration': '0.029239'}, {'name': 'All_three_starters_share_preview_economy_and_new_frame_contracts', 'result': 'Passed', 'duration': '0.032569'}, {'name': 'Tabby_Snow_four_actions_render_with_their_color_roles', 'result': 'Passed', 'duration': '1.741019'}, {'name': 'Tabby_Snow_purchases_click_once_and_resume_new_Walk', 'result': 'Passed', 'duration': '1.964421'}, {'name': 'Both_settings_windows_share_preferences_and_resolution_survives_reapply', 'result': 'Passed', 'duration': '0.299612'}, {'name': 'CG_background_pointer_closes_once_blocks_same_frame_clicks_and_preserves_ending_choices', 'result': 'Passed', 'duration': '0.187251'}, {'name': 'Interrupted_ending_recovers_from_both_screens_without_paying_again_and_menu_marks_done', 'result': 'Passed', 'duration': '0.200884'}, {'name': 'Rocket_cancel_insufficient_balance_confirm_and_continue_preserve_progress', 'result': 'Passed', 'duration': '0.277706'}, {'name': 'Rocket_shop_is_same_scroll_pixel_icon_and_fifty_confirmation_cancels_do_not_leak_modals', 'result': 'Passed', 'duration': '0.963687'}, {'name': 'Floor_boundary_move_keeps_pixel_snapped_feet_on_floor', 'result': 'Passed', 'duration': '0.029340'}, {'name': 'One_hundred_cats_move_on_floor_without_crossing_furniture', 'result': 'Passed', 'duration': '1.277580'}, {'name': 'Room_surface_rejects_walls_props_and_crossing_segments_after_resize', 'result': 'Passed', 'duration': '0.032854'}, {'name': 'Items_use_cat_sized_opaque_bounds_ground_anchors_and_feeder_depth', 'result': 'Passed', 'duration': '0.132129'}, {'name': 'One_shop_scroll_jumps_sections_keeps_free_offset_and_partial_cards', 'result': 'Passed', 'duration': '0.793625'}, {'name': 'Main_menu_places_CG_left_and_existing_options_right', 'result': 'Passed', 'duration': '0.083086'}, {'name': 'First_real_pet_unlocks_its_own_CG_and_returns_to_play_without_repeating', 'result': 'Passed', 'duration': '0.293752'}, {'name': 'Historical_seen_milestones_do_not_replay_but_new_one_still_opens', 'result': 'Passed', 'duration': '0.148343'}, {'name': 'Interrupted_memory_remains_pending_and_reopens_before_later_memories', 'result': 'Passed', 'duration': '0.185157'}, {'name': 'Offline_and_intro_ownership_precede_pending_memories', 'result': 'Passed', 'duration': '0.159331'}, {'name': 'Simultaneous_memories_play_in_order_once_and_pause_all_gameplay', 'result': 'Passed', 'duration': '1.820252'}, {'name': 'Revision_numbers_use_scientific_only_from_one_hundred_million', 'result': 'Passed', 'duration': '0.032801'}, {'name': 'Revision_price_gates_sidebar_and_hidden_grid', 'result': 'Passed', 'duration': '0.161861'}, {'name': '主菜单提供继续新游戏设置与退出入口', 'result': 'Passed', 'duration': '0.099751'}, {'name': '成就条件满足时只解锁一次并排入提示', 'result': 'Passed', 'duration': '0.760068'}, {'name': '暂停面板图鉴列出全部猫咪', 'result': 'Passed', 'duration': '0.162665'}, {'name': '暂停面板显示全部二十项成就', 'result': 'Passed', 'duration': '0.184371'}, {'name': '有足够猫毛时购买按钮能完成升级', 'result': 'Passed', 'duration': '0.750729'}, {'name': '点击猫通过当前点击值增加猫毛', 'result': 'Passed', 'duration': '0.109643'}, {'name': '猫窝HUD保留暂停入口并移除公园场景入口', 'result': 'Passed', 'duration': '0.116755'}, {'name': '猫窝平台使用单个Tilemap渲染四十二格', 'result': 'Passed', 'duration': '0.128575'}, {'name': '猫窝显示猫毛产量阶段及全部购买卡片', 'result': 'Passed', 'duration': '0.108204'}, {'name': '猫达到四十只上限后购买卡禁用', 'result': 'Passed', 'duration': '0.742315'}, {'name': '界面可以接收点击_事件系统与射线检测都在', 'result': 'Passed', 'duration': '0.130405'}, {'name': '离线结算弹窗暂停产出并可收下奖励', 'result': 'Passed', 'duration': '0.437843'}, {'name': '积累足够猫毛后可购买首件产量道具', 'result': 'Passed', 'duration': '2.655648'}, {'name': '设置页可以切换数字格式和音量', 'result': 'Passed', 'duration': '0.115156'}, {'name': '购买物品升级扣款并提升等级和产量', 'result': 'Passed', 'duration': '0.110334'}, {'name': '购买猫咪扣除价格并增加实体', 'result': 'Passed', 'duration': '0.113207'}, {'name': '超过实体上限时堆叠角标显示猫只数量', 'result': 'Passed', 'duration': '0.739760'}, {'name': '齿轮打开暂停菜单并能恢复游戏', 'result': 'Passed', 'duration': '0.114957'}], 'failed_cases': [], 'exit_code': 0, 'platform': 'PlayMode'}</msg>
+<arg>${pm}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-11-06T17:33:24.196243" elapsed="0.010530"/>
+</kw>
+<kw name="Run Tests" owner="UnityTestRunner">
+<msg time="2026-11-06T17:34:27.777498" level="INFO">${em} = {'total': 51, 'passed': 51, 'failed': 0, 'skipped': 0, 'duration': 23.736103, 'result': 'Passed', 'cases': [{'name': 'Every_achievement_has_a_unique_imported_CG_with_matching_title_and_order', 'result...</msg>
+<var>${em}</var>
+<arg>EditMode</arg>
+<doc>跑指定平台的测试套件，返回统计字典。</doc>
+<status status="PASS" start="2026-11-06T17:33:24.207775" elapsed="63.569723"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2026-11-06T17:34:27.779497" level="INFO">${EM} = {'total': 51, 'passed': 51, 'failed': 0, 'skipped': 0, 'duration': 23.736103, 'result': 'Passed', 'cases': [{'name': 'Every_achievement_has_a_unique_imported_CG_with_matching_title_and_order', 'result...</msg>
+<arg>${EM}</arg>
+<arg>${em}</arg>
+<doc>Makes the variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2026-11-06T17:34:27.778497" elapsed="0.002004"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-11-06T17:34:27.781496" level="INFO">{'total': 51, 'passed': 51, 'failed': 0, 'skipped': 0, 'duration': 23.736103, 'result': 'Passed', 'cases': [{'name': 'Every_achievement_has_a_unique_imported_CG_with_matching_title_and_order', 'result': 'Passed', 'duration': '0.476818'}, {'name': 'Genuine_all_twenty_unlocks_queue_once_and_remain_seen_after_repeated_evaluations', 'result': 'Passed', 'duration': '1.622314'}, {'name': 'Ending_save_rejects_missing_snapshot_and_invalid_statistics', 'result': 'Passed', 'duration': '0.009425'}, {'name': 'Purchased_interrupted_ending_and_pending_CGs_round_trip_without_a_second_charge', 'result': 'Passed', 'duration': '0.132990'}, {'name': 'Rocket_checks_balance_not_lifetime_income_and_ten_thousand_requests_charge_once', 'result': 'Passed', 'duration': '0.013046'}, {'name': 'Story_queue_is_stable_and_deduplicates_many_offline_unlock_evaluations', 'result': 'Passed', 'duration': '0.033939'}, {'name': 'Achievement_catalog_has_twenty_unique_entries', 'result': 'Passed', 'duration': '0.001092'}, {'name': 'Achievement_rules_unlock_once_and_record_id', 'result': 'Passed', 'duration': '0.005576'}, {'name': 'Cat_price_caps_at_forty', 'result': 'Passed', 'duration': '0.001041'}, {'name': 'Cat_prices_form_natural_progression_and_keep_growth', 'result': 'Passed', 'duration': '0.001493'}, {'name': 'Catalog_has_eleven_cats_and_twenty_items', 'result': 'Passed', 'duration': '0.000649'}, {'name': 'Click_value_ignores_cumulative_thresholds_and_offline_is_capped', 'result': 'Passed', 'duration': '0.003622'}, {'name': 'Curve_simulator_rejects_invalid_click_rates', 'result': 'Passed', 'duration': '0.006458'}, {'name': 'Game_state_has_versioned_save_fields_and_defaults', 'result': 'Passed', 'duration': '0.001804'}, {'name': 'Item_prices_and_effects_follow_generation_and_level_curves', 'result': 'Passed', 'duration': '0.002109'}, {'name': 'New_game_starts_with_one_Milk_cat', 'result': 'Passed', 'duration': '0.001939'}, {'name': 'Offline_earnings_are_capped_and_clock_never_moves_save_backwards', 'result': 'Passed', 'duration': '0.001605'}, {'name': 'Price_progression_reaches_goal_without_clicks_or_stage_gates', 'result': 'Passed', 'duration': '0.199476'}, {'name': 'Production_items_add_with_effects_matching_each_level', 'result': 'Passed', 'duration': '0.000708'}, {'name': 'Production_remains_finite_after_one_hundred_thousand_ticks', 'result': 'Passed', 'duration': '0.151084'}, {'name': 'Corrupt_save_is_quarantined_and_new_game_is_returned', 'result': 'Passed', 'duration': '0.032139'}, {'name': 'Future_save_version_is_quarantined_instead_of_overwritten', 'result': 'Passed', 'duration': '0.015415'}, {'name': 'Save_path_is_inside_the_CatGame_folder', 'result': 'Passed', 'duration': '0.006495'}, {'name': 'Save_rejects_out_of_range_cat_counts', 'result': 'Passed', 'duration': '0.007482'}, {'name': 'Save_round_trips_fields_and_replaces_existing_file', 'result': 'Passed', 'duration': '0.030882'}, {'name': 'Save_with_missing_fields_is_quarantined', 'result': 'Passed', 'duration': '0.015429'}, {'name': 'Stress_save_load_round_trips_one_thousand_cycles_and_recovers_midway_corruption', 'result': 'Passed', 'duration': '16.952830'}, {'name': 'Home_pixel_room_has_architecture_six_furniture_pieces_and_bound_surface', 'result': 'Passed', 'duration': '0.423145'}, {'name': 'Pixel_item_icons_and_UI_masks_are_imported_without_smoothing', 'result': 'Passed', 'duration': '0.070855'}, {'name': 'Story_CG_and_Momo_portrait_are_single_uncompressed_illustration_sprites', 'result': 'Passed', 'duration': '0.036692'}, {'name': '三个场景都存在且能打开', 'result': 'Passed', 'duration': '0.926185'}, {'name': '主菜单场景有菜单与事件系统', 'result': 'Passed', 'duration': '0.388223'}, {'name': '公园场景有地面和摆件', 'result': 'Passed', 'duration': '0.404243'}, {'name': '所有品种的动画资源都齐全', 'result': 'Passed', 'duration': '0.223273'}, {'name': '构建产物存在', 'result': 'Passed', 'duration': '0.001510'}, {'name': '构建列表只包含主菜单和猫窝且主菜单排第一', 'result': 'Passed', 'duration': '0.004247'}, {'name': '猫咪动画切帧数量正确("Milk","Idle",5,64)', 'result': 'Passed', 'duration': '0.016829'}, {'name': '猫咪动画切帧数量正确("Milk","Walk",6,64)', 'result': 'Passed', 'duration': '0.006046'}, {'name': '猫咪动画切帧数量正确("Milk","Jump",5,64)', 'result': 'Passed', 'duration': '0.026396'}, {'name': '猫咪动画切帧数量正确("Snow","Idle",5,64)', 'result': 'Passed', 'duration': '0.015135'}, {'name': '猫咪图鉴公园背景是单张Sprite并可从Resources加载', 'result': 'Passed', 'duration': '0.006048'}, {'name': '猫咪贴图没有被降采样', 'result': 'Passed', 'duration': '0.018268'}, {'name': '猫咪贴图用点采样_房间图用双线性', 'result': 'Passed', 'duration': '0.009770'}, {'name': '猫窝与公园有世界根与相机', 'result': 'Passed', 'duration': '0.722167'}, {'name': '猫窝场景有房间背景', 'result': 'Passed', 'duration': '0.292884'}, {'name': 'B4_v2_history_without_CG_markers_is_normalized_but_real_pending_memory_survives', 'result': 'Passed', 'duration': '0.058316'}, {'name': 'Existing_twenty_achievement_save_normalizes_new_historical_CGs_but_preserves_pending_first_pet', 'result': 'Passed', 'duration': '0.047321'}, {'name': 'Story_save_rejects_repeated_events_or_nonfinite_playtime', 'result': 'Passed', 'duration': '0.004576'}, {'name': 'V1_save_migrates_without_replaying_intro_or_historical_CG_and_preserves_progress', 'result': 'Passed', 'duration': '0.054007'}, {'name': 'V2_intro_and_pending_story_progress_survive_save_round_trip', 'result': 'Passed', 'duration': '0.088122'}, {'name': 'V2_missing_intro_field_is_quarantined_instead_of_silently_resetting_story', 'result': 'Passed', 'duration': '0.026122'}], 'failed_cases': [], 'exit_code': 0, 'platform': 'EditMode'}</msg>
+<arg>${em}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-11-06T17:34:27.780501" elapsed="0.000995"/>
+</kw>
+<if>
+<branch type="IF" condition="${pm}[failed] &gt; 0">
+<kw name="Log" owner="BuiltIn">
+<arg>失败用例: ${PM}[failed_cases]</arg>
+<arg>level=WARN</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-11-06T17:34:27.827960" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2026-11-06T17:34:27.801535" elapsed="0.026425"/>
+</branch>
+<status status="PASS" start="2026-11-06T17:34:27.800535" elapsed="0.028426"/>
+</if>
+<doc>两个平台各跑一次，结果在用例之间共享</doc>
+<status status="PASS" start="2026-11-06T17:29:57.014917" elapsed="270.828988"/>
+</kw>
+<test id="s1-t1" name="PlayMode 套件全部通过" line="16">
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-06T17:34:27.895059" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${PM}[failed]</arg>
+<arg>0</arg>
+<arg>msg=有 ${PM}[failed] 个用例失败：${PM}[failed_cases]</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-11-06T17:34:27.888536" elapsed="0.007523"/>
+</kw>
+<doc>玩法与界面交互，一个失败都不允许</doc>
+<status status="PASS" start="2026-11-06T17:34:27.873004" elapsed="0.024051"/>
+</test>
+<test id="s1-t2" name="EditMode 套件全部通过" line="21">
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-06T17:34:27.914100" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${EM}[failed]</arg>
+<arg>0</arg>
+<arg>msg=有 ${EM}[failed] 个用例失败：${EM}[failed_cases]</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-11-06T17:34:27.913095" elapsed="0.001005"/>
+</kw>
+<doc>场景配置与美术导入检查</doc>
+<status status="PASS" start="2026-11-06T17:34:27.903571" elapsed="0.010529"/>
+</test>
+<test id="s1-t3" name="测试用例数量没有意外减少" line="26">
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${PM}[total] &gt;= ${MIN_PLAYMODE}</arg>
+<arg>msg=PlayMode 只跑到了 ${PM}[total] 个用例，少于预期的 ${MIN_PLAYMODE} 个</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-06T17:34:27.917105" elapsed="0.009521"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${EM}[total] &gt;= ${MIN_EDITMODE}</arg>
+<arg>msg=EditMode 只跑到了 ${EM}[total] 个用例，少于预期的 ${MIN_EDITMODE} 个</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-06T17:34:27.927624" elapsed="0.000997"/>
+</kw>
+<doc>防止用例被误删或漏发现</doc>
+<status status="PASS" start="2026-11-06T17:34:27.915103" elapsed="0.013518"/>
+</test>
+<test id="s1-t4" name="核心玩法与界面链路都被覆盖" line="33">
+<kw name="Get Test Case Names" owner="UnityTestRunner">
+<msg time="2026-11-06T17:34:27.932623" level="INFO">${names} = ['Achievement_toast_fades_and_next_queued_message_restores_opacity', 'Assigning_open_walk_surface_preserves_initial_roaming_distance', '切到不存在的品种_拒绝并保持当前', '切回自动模式后恢复待机', '切换预览品种不改变已拥有猫_绑定预览使用新品种帧', '原...</msg>
+<var>${names}</var>
+<arg>PlayMode</arg>
+<status status="PASS" start="2026-11-06T17:34:27.931620" elapsed="0.008520"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:27.955263" elapsed="0.038102"/>
+</kw>
+<var name="${required}">启动后加载三个品种并选中墨墨</var>
+<status status="PASS" start="2026-11-06T17:34:27.955263" elapsed="0.038102"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:27.993365" elapsed="0.000998"/>
+</kw>
+<var name="${required}">All_twenty_items_purchase_five_levels_and_share_card_marker_art</var>
+<status status="PASS" start="2026-11-06T17:34:27.993365" elapsed="0.000998"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:27.994363" elapsed="0.001003"/>
+</kw>
+<var name="${required}">Achievement_toast_fades_and_next_queued_message_restores_opacity</var>
+<status status="PASS" start="2026-11-06T17:34:27.994363" elapsed="0.001003"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:27.995366" elapsed="0.000998"/>
+</kw>
+<var name="${required}">One_shop_scroll_jumps_sections_keeps_free_offset_and_partial_cards</var>
+<status status="PASS" start="2026-11-06T17:34:27.995366" elapsed="0.000998"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:27.996364" elapsed="0.000997"/>
+</kw>
+<var name="${required}">Items_use_cat_sized_opaque_bounds_ground_anchors_and_feeder_depth</var>
+<status status="PASS" start="2026-11-06T17:34:27.996364" elapsed="0.000997"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:27.997361" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Main_menu_places_CG_left_and_existing_options_right</var>
+<status status="PASS" start="2026-11-06T17:34:27.997361" elapsed="0.001000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:27.998361" elapsed="0.007512"/>
+</kw>
+<var name="${required}">Simultaneous_memories_play_in_order_once_and_pause_all_gameplay</var>
+<status status="PASS" start="2026-11-06T17:34:27.998361" elapsed="0.007512"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.005873" elapsed="0.001000"/>
+</kw>
+<var name="${required}">First_real_pet_unlocks_its_own_CG_and_returns_to_play_without_repeating</var>
+<status status="PASS" start="2026-11-06T17:34:28.005873" elapsed="0.001000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.006873" elapsed="0.001001"/>
+</kw>
+<var name="${required}">Interrupted_memory_remains_pending_and_reopens_before_later_memories</var>
+<status status="PASS" start="2026-11-06T17:34:28.006873" elapsed="0.001001"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.007874" elapsed="0.000999"/>
+</kw>
+<var name="${required}">Offline_and_intro_ownership_precede_pending_memories</var>
+<status status="PASS" start="2026-11-06T17:34:28.007874" elapsed="0.000999"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.009873" elapsed="0.001000"/>
+</kw>
+<var name="${required}">Historical_seen_milestones_do_not_replay_but_new_one_still_opens</var>
+<status status="PASS" start="2026-11-06T17:34:28.009873" elapsed="0.001000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.010873" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Rocket_cancel_insufficient_balance_confirm_and_continue_preserve_progress</var>
+<status status="PASS" start="2026-11-06T17:34:28.010873" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.010873" elapsed="0.001505"/>
+</kw>
+<var name="${required}">Interrupted_ending_recovers_from_both_screens_without_paying_again_and_menu_marks_done</var>
+<status status="PASS" start="2026-11-06T17:34:28.010873" elapsed="0.001505"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.012378" elapsed="0.001005"/>
+</kw>
+<var name="${required}">Rocket_shop_is_same_scroll_pixel_icon_and_fifty_confirmation_cancels_do_not_leak_modals</var>
+<status status="PASS" start="2026-11-06T17:34:28.012378" elapsed="0.001005"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.013383" elapsed="0.001001"/>
+</kw>
+<var name="${required}">Fresh_intro_shows_Momo_teaches_both_incomes_and_blocks_gameplay_until_skip</var>
+<status status="PASS" start="2026-11-06T17:34:28.013383" elapsed="0.001001"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.014384" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Finished_intro_does_not_repeat_and_interrupted_intro_restarts_without_marking_done</var>
+<status status="PASS" start="2026-11-06T17:34:28.014384" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.015388" elapsed="0.001004"/>
+</kw>
+<var name="${required}">Offline_summary_keeps_modal_ownership_then_pending_intro_can_open</var>
+<status status="PASS" start="2026-11-06T17:34:28.015388" elapsed="0.001004"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.017394" elapsed="0.000996"/>
+</kw>
+<var name="${required}">Modal_gate_restores_original_speed_only_for_its_owner</var>
+<status status="PASS" start="2026-11-06T17:34:28.017394" elapsed="0.000996"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.018390" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Quit_before_intro_completion_updates_clock_but_first_menu_does_not_create_save</var>
+<status status="PASS" start="2026-11-06T17:34:28.018390" elapsed="0.001000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.019390" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Floor_boundary_move_keeps_pixel_snapped_feet_on_floor</var>
+<status status="PASS" start="2026-11-06T17:34:28.019390" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.020389" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Room_surface_rejects_walls_props_and_crossing_segments_after_resize</var>
+<status status="PASS" start="2026-11-06T17:34:28.019390" elapsed="0.000999"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.020389" elapsed="0.001003"/>
+</kw>
+<var name="${required}">One_hundred_cats_move_on_floor_without_crossing_furniture</var>
+<status status="PASS" start="2026-11-06T17:34:28.020389" elapsed="0.001003"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.021392" elapsed="0.000998"/>
+</kw>
+<var name="${required}">Pixel_Egypt_loads_all_new_frames_without_changing_other_breeds</var>
+<status status="PASS" start="2026-11-06T17:34:28.021392" elapsed="0.001506"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.022898" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Pixel_Egypt_roams_with_Walk_stops_with_Idle_and_clicks_Jump_once</var>
+<status status="PASS" start="2026-11-06T17:34:28.022898" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.023910" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Pixel_Egypt_runtime_capture_keeps_size_and_shows_each_action</var>
+<status status="PASS" start="2026-11-06T17:34:28.023910" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.023910" elapsed="0.001012"/>
+</kw>
+<var name="${required}">Egypt_long_rest_enters_Sleep_and_pause_freezes_it</var>
+<status status="PASS" start="2026-11-06T17:34:28.023910" elapsed="0.001012"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.024922" elapsed="0.000996"/>
+</kw>
+<var name="${required}">Clicking_sleeping_Egypt_wakes_Jumps_once_and_resumes_Walk</var>
+<status status="PASS" start="2026-11-06T17:34:28.024922" elapsed="0.000996"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.025918" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Rest_expires_and_missing_Sleep_or_short_stops_do_not_sleep</var>
+<status status="PASS" start="2026-11-06T17:34:28.025918" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.026918" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Legacy_forced_Idle_keeps_its_existing_rest_timer</var>
+<status status="PASS" start="2026-11-06T17:34:28.026918" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.026918" elapsed="0.001000"/>
+</kw>
+<var name="${required}">Milk_preview_and_economy_share_new_four_action_frames</var>
+<status status="PASS" start="2026-11-06T17:34:28.026918" elapsed="0.001000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.027918" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Milk_world_sleeps_produces_clicks_once_and_resumes_roaming</var>
+<status status="PASS" start="2026-11-06T17:34:28.027918" elapsed="0.001000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.028918" elapsed="0.001001"/>
+</kw>
+<var name="${required}">All_three_starters_share_preview_economy_and_new_frame_contracts</var>
+<status status="PASS" start="2026-11-06T17:34:28.028918" elapsed="0.001001"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.030919" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Tabby_Snow_purchases_click_once_and_resume_new_Walk</var>
+<status status="PASS" start="2026-11-06T17:34:28.029919" elapsed="0.001000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.032436" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Tabby_Snow_four_actions_render_with_their_color_roles</var>
+<status status="PASS" start="2026-11-06T17:34:28.030919" elapsed="0.001517"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.033449" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Seven_new_breeds_have_matching_frame_metadata_and_assets</var>
+<status status="PASS" start="2026-11-06T17:34:28.033449" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.034448" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Patterned_breeds_purchase_jump_click_once_and_walk</var>
+<status status="PASS" start="2026-11-06T17:34:28.033449" elapsed="0.000999"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.034448" elapsed="0.000999"/>
+</kw>
+<var name="${required}">Patterned_breeds_four_actions_render_with_preserved_identity</var>
+<status status="PASS" start="2026-11-06T17:34:28.034448" elapsed="0.000999"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.035447" elapsed="0.001002"/>
+</kw>
+<var name="${required}">All_eleven_breeds_use_new_four_clips_and_old_Calico_Walk_stays_deleted</var>
+<status status="PASS" start="2026-11-06T17:34:28.035447" elapsed="0.001002"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.036449" elapsed="0.000999"/>
+</kw>
+<var name="${required}">Final_four_purchases_jump_click_once_and_use_new_Walk</var>
+<status status="PASS" start="2026-11-06T17:34:28.036449" elapsed="0.000999"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.037448" elapsed="0.001001"/>
+</kw>
+<var name="${required}">Final_four_actions_render_with_patches_cowls_and_Santa_hat</var>
+<status status="PASS" start="2026-11-06T17:34:28.037448" elapsed="0.001001"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.038449" elapsed="0.000999"/>
+</kw>
+<var name="${required}">每个品种的七套动画都齐全</var>
+<status status="PASS" start="2026-11-06T17:34:28.038449" elapsed="0.000999"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.039448" elapsed="0.000000"/>
+</kw>
+<var name="${required}">强制播放每个动作都能出帧</var>
+<status status="PASS" start="2026-11-06T17:34:28.039448" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.040445" elapsed="0.000000"/>
+</kw>
+<var name="${required}">猫窝显示猫毛产量阶段及全部购买卡片</var>
+<status status="PASS" start="2026-11-06T17:34:28.039448" elapsed="0.000997"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.040445" elapsed="0.001001"/>
+</kw>
+<var name="${required}">购买猫咪扣除价格并增加实体</var>
+<status status="PASS" start="2026-11-06T17:34:28.040445" elapsed="0.001001"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.041446" elapsed="0.000000"/>
+</kw>
+<var name="${required}">购买物品升级扣款并提升等级和产量</var>
+<status status="PASS" start="2026-11-06T17:34:28.041446" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.042445" elapsed="0.000000"/>
+</kw>
+<var name="${required}">点击猫通过当前点击值增加猫毛</var>
+<status status="PASS" start="2026-11-06T17:34:28.041446" elapsed="0.001503"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.042949" elapsed="0.000000"/>
+</kw>
+<var name="${required}">界面可以接收点击_事件系统与射线检测都在</var>
+<status status="PASS" start="2026-11-06T17:34:28.042949" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.043958" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Cat_frames_stay_inside_floor_at_all_four_edges</var>
+<status status="PASS" start="2026-11-06T17:34:28.042949" elapsed="0.001009"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.044956" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Roster_keeps_one_actor_per_owned_breed_and_caps_at_100</var>
+<status status="PASS" start="2026-11-06T17:34:28.044956" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.045955" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Stress_440_owned_cats_survive_100_roster_rebuilds</var>
+<status status="PASS" start="2026-11-06T17:34:28.044956" elapsed="0.000999"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.046956" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Assigning_open_walk_surface_preserves_initial_roaming_distance</var>
+<status status="PASS" start="2026-11-06T17:34:28.045955" elapsed="0.001001"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.046956" elapsed="0.001000"/>
+</kw>
+<var name="${required}">Two_hundred_CG_pointer_closes_with_one_hundred_cats_block_modal_and_same_frame_inputs</var>
+<status status="PASS" start="2026-11-06T17:34:28.046956" elapsed="0.001000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.048460" elapsed="0.000504"/>
+</kw>
+<var name="${required}">Stress_ten_thousand_click_and_purchase_requests_apply_once</var>
+<status status="PASS" start="2026-11-06T17:34:28.047956" elapsed="0.001008"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.048964" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Newly_purchased_breed_gets_a_visible_actor_when_roster_is_full</var>
+<status status="PASS" start="2026-11-06T17:34:28.048964" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.049969" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Cat_visuals_scale_32px_art_to_the_same_height_as_64px_art</var>
+<status status="PASS" start="2026-11-06T17:34:28.049969" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.050968" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Licking_a_cat_adds_click_value_and_shows_a_reward</var>
+<status status="PASS" start="2026-11-06T17:34:28.050968" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.050968" elapsed="0.001504"/>
+</kw>
+<var name="${required}">超过实体上限时堆叠角标显示猫只数量</var>
+<status status="PASS" start="2026-11-06T17:34:28.050968" elapsed="0.001504"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.052472" elapsed="0.001005"/>
+</kw>
+<var name="${required}">猫达到四十只上限后购买卡禁用</var>
+<status status="PASS" start="2026-11-06T17:34:28.052472" elapsed="0.001005"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.053477" elapsed="0.000504"/>
+</kw>
+<var name="${required}">有足够猫毛时购买按钮能完成升级</var>
+<status status="PASS" start="2026-11-06T17:34:28.053477" elapsed="0.000504"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.053981" elapsed="0.001004"/>
+</kw>
+<var name="${required}">积累足够猫毛后可购买首件产量道具</var>
+<status status="PASS" start="2026-11-06T17:34:28.053981" elapsed="0.001004"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.054985" elapsed="0.000504"/>
+</kw>
+<var name="${required}">成就条件满足时只解锁一次并排入提示</var>
+<status status="PASS" start="2026-11-06T17:34:28.054985" elapsed="0.000504"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.055489" elapsed="0.000000"/>
+</kw>
+<var name="${required}">离线结算弹窗暂停产出并可收下奖励</var>
+<status status="PASS" start="2026-11-06T17:34:28.055489" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.056494" elapsed="0.000557"/>
+</kw>
+<var name="${required}">切换预览品种不改变已拥有猫_绑定预览使用新品种帧</var>
+<status status="PASS" start="2026-11-06T17:34:28.056494" elapsed="0.001066"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.057560" elapsed="0.000000"/>
+</kw>
+<var name="${required}">齿轮打开暂停菜单并能恢复游戏</var>
+<status status="PASS" start="2026-11-06T17:34:28.057560" elapsed="0.001006"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.058566" elapsed="0.000000"/>
+</kw>
+<var name="${required}">暂停面板图鉴列出全部猫咪</var>
+<status status="PASS" start="2026-11-06T17:34:28.058566" elapsed="0.001001"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.059567" elapsed="0.000000"/>
+</kw>
+<var name="${required}">暂停面板显示全部二十项成就</var>
+<status status="PASS" start="2026-11-06T17:34:28.059567" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.060570" elapsed="0.000000"/>
+</kw>
+<var name="${required}">设置页可以切换数字格式和音量</var>
+<status status="PASS" start="2026-11-06T17:34:28.060570" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.061574" elapsed="0.000000"/>
+</kw>
+<var name="${required}">主菜单提供继续新游戏设置与退出入口</var>
+<status status="PASS" start="2026-11-06T17:34:28.060570" elapsed="0.001004"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.062571" elapsed="0.001086"/>
+</kw>
+<var name="${required}">猫窝HUD保留暂停入口并移除公园场景入口</var>
+<status status="PASS" start="2026-11-06T17:34:28.062571" elapsed="0.001086"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.064664" elapsed="0.001015"/>
+</kw>
+<var name="${required}">猫窝平台使用单个Tilemap渲染四十二格</var>
+<status status="PASS" start="2026-11-06T17:34:28.063657" elapsed="0.002022"/>
+</iter>
+<var>${required}</var>
+<value>启动后加载三个品种并选中墨墨</value>
+<value>All_twenty_items_purchase_five_levels_and_share_card_marker_art</value>
+<value>Achievement_toast_fades_and_next_queued_message_restores_opacity</value>
+<value>One_shop_scroll_jumps_sections_keeps_free_offset_and_partial_cards</value>
+<value>Items_use_cat_sized_opaque_bounds_ground_anchors_and_feeder_depth</value>
+<value>Main_menu_places_CG_left_and_existing_options_right</value>
+<value>Simultaneous_memories_play_in_order_once_and_pause_all_gameplay</value>
+<value>First_real_pet_unlocks_its_own_CG_and_returns_to_play_without_repeating</value>
+<value>Interrupted_memory_remains_pending_and_reopens_before_later_memories</value>
+<value>Offline_and_intro_ownership_precede_pending_memories</value>
+<value>Historical_seen_milestones_do_not_replay_but_new_one_still_opens</value>
+<value>Rocket_cancel_insufficient_balance_confirm_and_continue_preserve_progress</value>
+<value>Interrupted_ending_recovers_from_both_screens_without_paying_again_and_menu_marks_done</value>
+<value>Rocket_shop_is_same_scroll_pixel_icon_and_fifty_confirmation_cancels_do_not_leak_modals</value>
+<value>Fresh_intro_shows_Momo_teaches_both_incomes_and_blocks_gameplay_until_skip</value>
+<value>Finished_intro_does_not_repeat_and_interrupted_intro_restarts_without_marking_done</value>
+<value>Offline_summary_keeps_modal_ownership_then_pending_intro_can_open</value>
+<value>Modal_gate_restores_original_speed_only_for_its_owner</value>
+<value>Quit_before_intro_completion_updates_clock_but_first_menu_does_not_create_save</value>
+<value>Floor_boundary_move_keeps_pixel_snapped_feet_on_floor</value>
+<value>Room_surface_rejects_walls_props_and_crossing_segments_after_resize</value>
+<value>One_hundred_cats_move_on_floor_without_crossing_furniture</value>
+<value>Pixel_Egypt_loads_all_new_frames_without_changing_other_breeds</value>
+<value>Pixel_Egypt_roams_with_Walk_stops_with_Idle_and_clicks_Jump_once</value>
+<value>Pixel_Egypt_runtime_capture_keeps_size_and_shows_each_action</value>
+<value>Egypt_long_rest_enters_Sleep_and_pause_freezes_it</value>
+<value>Clicking_sleeping_Egypt_wakes_Jumps_once_and_resumes_Walk</value>
+<value>Rest_expires_and_missing_Sleep_or_short_stops_do_not_sleep</value>
+<value>Legacy_forced_Idle_keeps_its_existing_rest_timer</value>
+<value>Milk_preview_and_economy_share_new_four_action_frames</value>
+<value>Milk_world_sleeps_produces_clicks_once_and_resumes_roaming</value>
+<value>All_three_starters_share_preview_economy_and_new_frame_contracts</value>
+<value>Tabby_Snow_purchases_click_once_and_resume_new_Walk</value>
+<value>Tabby_Snow_four_actions_render_with_their_color_roles</value>
+<value>Seven_new_breeds_have_matching_frame_metadata_and_assets</value>
+<value>Patterned_breeds_purchase_jump_click_once_and_walk</value>
+<value>Patterned_breeds_four_actions_render_with_preserved_identity</value>
+<value>All_eleven_breeds_use_new_four_clips_and_old_Calico_Walk_stays_deleted</value>
+<value>Final_four_purchases_jump_click_once_and_use_new_Walk</value>
+<value>Final_four_actions_render_with_patches_cowls_and_Santa_hat</value>
+<value>每个品种的七套动画都齐全</value>
+<value>强制播放每个动作都能出帧</value>
+<value>猫窝显示猫毛产量阶段及全部购买卡片</value>
+<value>购买猫咪扣除价格并增加实体</value>
+<value>购买物品升级扣款并提升等级和产量</value>
+<value>点击猫通过当前点击值增加猫毛</value>
+<value>界面可以接收点击_事件系统与射线检测都在</value>
+<value>Cat_frames_stay_inside_floor_at_all_four_edges</value>
+<value>Roster_keeps_one_actor_per_owned_breed_and_caps_at_100</value>
+<value>Stress_440_owned_cats_survive_100_roster_rebuilds</value>
+<value>Assigning_open_walk_surface_preserves_initial_roaming_distance</value>
+<value>Two_hundred_CG_pointer_closes_with_one_hundred_cats_block_modal_and_same_frame_inputs</value>
+<value>Stress_ten_thousand_click_and_purchase_requests_apply_once</value>
+<value>Newly_purchased_breed_gets_a_visible_actor_when_roster_is_full</value>
+<value>Cat_visuals_scale_32px_art_to_the_same_height_as_64px_art</value>
+<value>Licking_a_cat_adds_click_value_and_shows_a_reward</value>
+<value>超过实体上限时堆叠角标显示猫只数量</value>
+<value>猫达到四十只上限后购买卡禁用</value>
+<value>有足够猫毛时购买按钮能完成升级</value>
+<value>积累足够猫毛后可购买首件产量道具</value>
+<value>成就条件满足时只解锁一次并排入提示</value>
+<value>离线结算弹窗暂停产出并可收下奖励</value>
+<value>切换预览品种不改变已拥有猫_绑定预览使用新品种帧</value>
+<value>齿轮打开暂停菜单并能恢复游戏</value>
+<value>暂停面板图鉴列出全部猫咪</value>
+<value>暂停面板显示全部二十项成就</value>
+<value>设置页可以切换数字格式和音量</value>
+<value>主菜单提供继续新游戏设置与退出入口</value>
+<value>猫窝HUD保留暂停入口并移除公园场景入口</value>
+<value>猫窝平台使用单个Tilemap渲染四十二格</value>
+<status status="PASS" start="2026-11-06T17:34:27.941138" elapsed="0.124541"/>
+</for>
+<doc>抽查关键猫实体、购买、HUD 与点击链路</doc>
+<status status="PASS" start="2026-11-06T17:34:27.929620" elapsed="0.137054"/>
+</test>
+<test id="s1-t5" name="数值模型关键用例已纳入 EditMode" line="110">
+<kw name="Get Test Case Names" owner="UnityTestRunner">
+<msg time="2026-11-06T17:34:28.071184" level="INFO">${names} = ['Every_achievement_has_a_unique_imported_CG_with_matching_title_and_order', 'Genuine_all_twenty_unlocks_queue_once_and_remain_seen_after_repeated_evaluations', 'Ending_save_rejects_missing_snapshot_a...</msg>
+<var>${names}</var>
+<arg>EditMode</arg>
+<status status="PASS" start="2026-11-06T17:34:28.069674" elapsed="0.001510"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.073024" elapsed="0.000700"/>
+</kw>
+<var name="${required}">Cat_price_caps_at_forty</var>
+<status status="PASS" start="2026-11-06T17:34:28.072717" elapsed="0.001007"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.073724" elapsed="0.001004"/>
+</kw>
+<var name="${required}">Item_prices_and_effects_follow_generation_and_level_curves</var>
+<status status="PASS" start="2026-11-06T17:34:28.073724" elapsed="0.001004"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.074728" elapsed="0.001011"/>
+</kw>
+<var name="${required}">Production_items_add_with_effects_matching_each_level</var>
+<status status="PASS" start="2026-11-06T17:34:28.074728" elapsed="0.001011"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.075739" elapsed="0.001003"/>
+</kw>
+<var name="${required}">Production_remains_finite_after_one_hundred_thousand_ticks</var>
+<status status="PASS" start="2026-11-06T17:34:28.075739" elapsed="0.001003"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.076742" elapsed="0.000995"/>
+</kw>
+<var name="${required}">Click_value_ignores_cumulative_thresholds_and_offline_is_capped</var>
+<status status="PASS" start="2026-11-06T17:34:28.076742" elapsed="0.000995"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.078741" elapsed="0.000997"/>
+</kw>
+<var name="${required}">Price_progression_reaches_goal_without_clicks_or_stage_gates</var>
+<status status="PASS" start="2026-11-06T17:34:28.077737" elapsed="0.002001"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.079738" elapsed="0.000997"/>
+</kw>
+<var name="${required}">Catalog_has_eleven_cats_and_twenty_items</var>
+<status status="PASS" start="2026-11-06T17:34:28.079738" elapsed="0.000997"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.080735" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Cat_prices_form_natural_progression_and_keep_growth</var>
+<status status="PASS" start="2026-11-06T17:34:28.080735" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.080735" elapsed="0.001531"/>
+</kw>
+<var name="${required}">Curve_simulator_rejects_invalid_click_rates</var>
+<status status="PASS" start="2026-11-06T17:34:28.080735" elapsed="0.001531"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.082266" elapsed="0.001021"/>
+</kw>
+<var name="${required}">Game_state_has_versioned_save_fields_and_defaults</var>
+<status status="PASS" start="2026-11-06T17:34:28.082266" elapsed="0.001021"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.084285" elapsed="0.000000"/>
+</kw>
+<var name="${required}">New_game_starts_with_one_Milk_cat</var>
+<status status="PASS" start="2026-11-06T17:34:28.083287" elapsed="0.000998"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.085296" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Achievement_catalog_has_twenty_unique_entries</var>
+<status status="PASS" start="2026-11-06T17:34:28.084285" elapsed="0.001011"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.085296" elapsed="0.001000"/>
+</kw>
+<var name="${required}">Achievement_rules_unlock_once_and_record_id</var>
+<status status="PASS" start="2026-11-06T17:34:28.085296" elapsed="0.001000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.086296" elapsed="0.001001"/>
+</kw>
+<var name="${required}">Offline_earnings_are_capped_and_clock_never_moves_save_backwards</var>
+<status status="PASS" start="2026-11-06T17:34:28.086296" elapsed="0.001001"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.087297" elapsed="0.001004"/>
+</kw>
+<var name="${required}">Save_path_is_inside_the_CatGame_folder</var>
+<status status="PASS" start="2026-11-06T17:34:28.087297" elapsed="0.001004"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.089293" elapsed="0.000507"/>
+</kw>
+<var name="${required}">Save_round_trips_fields_and_replaces_existing_file</var>
+<status status="PASS" start="2026-11-06T17:34:28.088301" elapsed="0.001499"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.089800" elapsed="0.001013"/>
+</kw>
+<var name="${required}">Stress_save_load_round_trips_one_thousand_cycles_and_recovers_midway_corruption</var>
+<status status="PASS" start="2026-11-06T17:34:28.089800" elapsed="0.001013"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.092323" elapsed="0.001055"/>
+</kw>
+<var name="${required}">Corrupt_save_is_quarantined_and_new_game_is_returned</var>
+<status status="PASS" start="2026-11-06T17:34:28.090813" elapsed="0.002565"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.094337" elapsed="0.000998"/>
+</kw>
+<var name="${required}">Save_with_missing_fields_is_quarantined</var>
+<status status="PASS" start="2026-11-06T17:34:28.093378" elapsed="0.001957"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.095335" elapsed="0.001004"/>
+</kw>
+<var name="${required}">Future_save_version_is_quarantined_instead_of_overwritten</var>
+<status status="PASS" start="2026-11-06T17:34:28.095335" elapsed="0.001004"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.096339" elapsed="0.001004"/>
+</kw>
+<var name="${required}">Save_rejects_out_of_range_cat_counts</var>
+<status status="PASS" start="2026-11-06T17:34:28.096339" elapsed="0.001004"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.097343" elapsed="0.001995"/>
+</kw>
+<var name="${required}">构建列表只包含主菜单和猫窝且主菜单排第一</var>
+<status status="PASS" start="2026-11-06T17:34:28.097343" elapsed="0.001995"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.100339" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Home_pixel_room_has_architecture_six_furniture_pieces_and_bound_surface</var>
+<status status="PASS" start="2026-11-06T17:34:28.099338" elapsed="0.001001"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.101342" elapsed="0.000000"/>
+</kw>
+<var name="${required}">V1_save_migrates_without_replaying_intro_or_historical_CG_and_preserves_progress</var>
+<status status="PASS" start="2026-11-06T17:34:28.101342" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.102337" elapsed="0.000517"/>
+</kw>
+<var name="${required}">V2_intro_and_pending_story_progress_survive_save_round_trip</var>
+<status status="PASS" start="2026-11-06T17:34:28.101342" elapsed="0.001512"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.102854" elapsed="0.000000"/>
+</kw>
+<var name="${required}">Story_save_rejects_repeated_events_or_nonfinite_playtime</var>
+<status status="PASS" start="2026-11-06T17:34:28.102854" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.103860" elapsed="0.000000"/>
+</kw>
+<var name="${required}">V2_missing_intro_field_is_quarantined_instead_of_silently_resetting_story</var>
+<status status="PASS" start="2026-11-06T17:34:28.103860" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.104860" elapsed="0.000000"/>
+</kw>
+<var name="${required}">B4_v2_history_without_CG_markers_is_normalized_but_real_pending_memory_survives</var>
+<status status="PASS" start="2026-11-06T17:34:28.103860" elapsed="0.001000"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.105858" elapsed="0.001004"/>
+</kw>
+<var name="${required}">Every_achievement_has_a_unique_imported_CG_with_matching_title_and_order</var>
+<status status="PASS" start="2026-11-06T17:34:28.105858" elapsed="0.001004"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.106862" elapsed="0.001997"/>
+</kw>
+<var name="${required}">Genuine_all_twenty_unlocks_queue_once_and_remain_seen_after_repeated_evaluations</var>
+<status status="PASS" start="2026-11-06T17:34:28.106862" elapsed="0.001997"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.108859" elapsed="0.000999"/>
+</kw>
+<var name="${required}">Existing_twenty_achievement_save_normalizes_new_historical_CGs_but_preserves_pending_first_pet</var>
+<status status="PASS" start="2026-11-06T17:34:28.108859" elapsed="0.000999"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.109858" elapsed="0.000999"/>
+</kw>
+<var name="${required}">Rocket_checks_balance_not_lifetime_income_and_ten_thousand_requests_charge_once</var>
+<status status="PASS" start="2026-11-06T17:34:28.109858" elapsed="0.000999"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.110857" elapsed="0.001506"/>
+</kw>
+<var name="${required}">Purchased_interrupted_ending_and_pending_CGs_round_trip_without_a_second_charge</var>
+<status status="PASS" start="2026-11-06T17:34:28.110857" elapsed="0.001506"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.113378" elapsed="0.000993"/>
+</kw>
+<var name="${required}">Story_queue_is_stable_and_deduplicates_many_offline_unlock_evaluations</var>
+<status status="PASS" start="2026-11-06T17:34:28.112363" elapsed="0.002008"/>
+</iter>
+<iter>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${names}</arg>
+<arg>${required}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-06T17:34:28.114371" elapsed="0.029923"/>
+</kw>
+<var name="${required}">Ending_save_rejects_missing_snapshot_and_invalid_statistics</var>
+<status status="PASS" start="2026-11-06T17:34:28.114371" elapsed="0.029923"/>
+</iter>
+<var>${required}</var>
+<value>Cat_price_caps_at_forty</value>
+<value>Item_prices_and_effects_follow_generation_and_level_curves</value>
+<value>Production_items_add_with_effects_matching_each_level</value>
+<value>Production_remains_finite_after_one_hundred_thousand_ticks</value>
+<value>Click_value_ignores_cumulative_thresholds_and_offline_is_capped</value>
+<value>Price_progression_reaches_goal_without_clicks_or_stage_gates</value>
+<value>Catalog_has_eleven_cats_and_twenty_items</value>
+<value>Cat_prices_form_natural_progression_and_keep_growth</value>
+<value>Curve_simulator_rejects_invalid_click_rates</value>
+<value>Game_state_has_versioned_save_fields_and_defaults</value>
+<value>New_game_starts_with_one_Milk_cat</value>
+<value>Achievement_catalog_has_twenty_unique_entries</value>
+<value>Achievement_rules_unlock_once_and_record_id</value>
+<value>Offline_earnings_are_capped_and_clock_never_moves_save_backwards</value>
+<value>Save_path_is_inside_the_CatGame_folder</value>
+<value>Save_round_trips_fields_and_replaces_existing_file</value>
+<value>Stress_save_load_round_trips_one_thousand_cycles_and_recovers_midway_corruption</value>
+<value>Corrupt_save_is_quarantined_and_new_game_is_returned</value>
+<value>Save_with_missing_fields_is_quarantined</value>
+<value>Future_save_version_is_quarantined_instead_of_overwritten</value>
+<value>Save_rejects_out_of_range_cat_counts</value>
+<value>构建列表只包含主菜单和猫窝且主菜单排第一</value>
+<value>Home_pixel_room_has_architecture_six_furniture_pieces_and_bound_surface</value>
+<value>V1_save_migrates_without_replaying_intro_or_historical_CG_and_preserves_progress</value>
+<value>V2_intro_and_pending_story_progress_survive_save_round_trip</value>
+<value>Story_save_rejects_repeated_events_or_nonfinite_playtime</value>
+<value>V2_missing_intro_field_is_quarantined_instead_of_silently_resetting_story</value>
+<value>B4_v2_history_without_CG_markers_is_normalized_but_real_pending_memory_survives</value>
+<value>Every_achievement_has_a_unique_imported_CG_with_matching_title_and_order</value>
+<value>Genuine_all_twenty_unlocks_queue_once_and_remain_seen_after_repeated_evaluations</value>
+<value>Existing_twenty_achievement_save_normalizes_new_historical_CGs_but_preserves_pending_first_pet</value>
+<value>Rocket_checks_balance_not_lifetime_income_and_ten_thousand_requests_charge_once</value>
+<value>Purchased_interrupted_ending_and_pending_CGs_round_trip_without_a_second_charge</value>
+<value>Story_queue_is_stable_and_deduplicates_many_offline_unlock_evaluations</value>
+<value>Ending_save_rejects_missing_snapshot_and_invalid_statistics</value>
+<status status="PASS" start="2026-11-06T17:34:28.071184" elapsed="0.073110"/>
+</for>
+<doc>检查猫价、物品递推、加法产量倍数、阶段点击与离线收益测试均可被发现</doc>
+<status status="PASS" start="2026-11-06T17:34:28.066674" elapsed="0.078624"/>
+</test>
+<doc>喵屋（养猫放置游戏）的自动化测试。
+全部在 Unity 后台进程里跑：不弹窗口、不占鼠标、不抢焦点。
+PlayMode 验证玩法与界面链路，EditMode 验证场景与美术导入。</doc>
+<status status="PASS" start="2026-11-06T17:29:56.945727" elapsed="271.211126"/>
+</suite>
+<statistics>
+<total>
+<stat pass="5" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Unity Tests" id="s1" pass="5" fail="0" skip="0">Unity Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

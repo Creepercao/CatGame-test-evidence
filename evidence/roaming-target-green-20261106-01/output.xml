@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-06T14:55:28.355394" rpa="false" schemaversion="5">
+<suite id="s1" name="Roaming Target" source="&lt;PROJECT&gt;\Tests\robot\tests\roaming_target.robot">
+<test id="s1-t1" name="Surface Assignment Keeps Initial Roaming Target" line="10">
+<kw name="Run Tests" owner="UnityTestRunner">
+<msg time="2026-11-06T14:56:44.982450" level="INFO">${result} = {'total': 1, 'passed': 1, 'failed': 0, 'skipped': 0, 'duration': 0.2220551, 'result': 'Passed', 'cases': [{'name': 'Assigning_open_walk_surface_preserves_initial_roaming_distance', 'result': 'Passed',...</msg>
+<var>${result}</var>
+<arg>PlayMode</arg>
+<arg>Assigning_open_walk_surface_preserves_initial_roaming_distance</arg>
+<doc>跑指定平台的测试套件，返回统计字典。</doc>
+<status status="PASS" start="2026-11-06T14:55:28.485119" elapsed="76.500340"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-06T14:56:45.005513" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${result}[failed]</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-11-06T14:56:44.995978" elapsed="0.010522"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-06T14:56:45.008010" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${result}[passed]</arg>
+<arg>1</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-11-06T14:56:45.006500" elapsed="0.002522"/>
+</kw>
+<tag>regression</tag>
+<tag>roaming</tag>
+<status status="PASS" start="2026-11-06T14:55:28.483126" elapsed="76.527905"/>
+</test>
+<status status="PASS" start="2026-11-06T14:55:28.361922" elapsed="76.654109"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">regression</stat>
+<stat pass="1" fail="0" skip="0">roaming</stat>
+</tag>
+<suite>
+<stat name="Roaming Target" id="s1" pass="1" fail="0" skip="0">Roaming Target</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,1 @@
+{"utc": "2026-11-06T06:49:17.155735+00:00", "classification": "expected-failure", "reason": "Explicit contract fixture expects 99 Milk cats in a fresh game with one cat; validates failure evidence, not a product defect", "evidence": ["output.xml", "business-da0c2f3c\\failures.json"], "releaseAllowed": false}

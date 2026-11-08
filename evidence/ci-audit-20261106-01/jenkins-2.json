@@ -1,0 +1,118 @@
+{
+  "_class": "hudson.model.FreeStyleBuild",
+  "artifacts": [
+    {
+      "fileName": "ci-gate.robot",
+      "relativePath": "Tests/robot/results/ci-2/ci-gate.robot"
+    },
+    {
+      "fileName": "command.json",
+      "relativePath": "Tests/robot/results/ci-2/compile/command.json"
+    },
+    {
+      "fileName": "result.json",
+      "relativePath": "Tests/robot/results/ci-2/compile/result.json"
+    },
+    {
+      "fileName": "unity.log",
+      "relativePath": "Tests/robot/results/ci-2/compile/unity.log"
+    },
+    {
+      "fileName": "compile.log",
+      "relativePath": "Tests/robot/results/ci-2/compile.log"
+    },
+    {
+      "fileName": "artifacts.json",
+      "relativePath": "Tests/robot/results/ci-2/configuration-gate/artifacts.json"
+    },
+    {
+      "fileName": "console.log",
+      "relativePath": "Tests/robot/results/ci-2/configuration-gate/console.log"
+    },
+    {
+      "fileName": "log.html",
+      "relativePath": "Tests/robot/results/ci-2/configuration-gate/log.html"
+    },
+    {
+      "fileName": "output.xml",
+      "relativePath": "Tests/robot/results/ci-2/configuration-gate/output.xml"
+    },
+    {
+      "fileName": "report.html",
+      "relativePath": "Tests/robot/results/ci-2/configuration-gate/report.html"
+    },
+    {
+      "fileName": "result.json",
+      "relativePath": "Tests/robot/results/ci-2/configuration-gate/result.json"
+    },
+    {
+      "fileName": "run.json",
+      "relativePath": "Tests/robot/results/ci-2/configuration-gate/run.json"
+    },
+    {
+      "fileName": "configuration-gate.log",
+      "relativePath": "Tests/robot/results/ci-2/configuration-gate.log"
+    },
+    {
+      "fileName": "pipeline.json",
+      "relativePath": "Tests/robot/results/ci-2/pipeline.json"
+    },
+    {
+      "fileName": "artifacts.json",
+      "relativePath": "Tests/robot/results/ci-2/smoke/artifacts.json"
+    },
+    {
+      "fileName": "console.log",
+      "relativePath": "Tests/robot/results/ci-2/smoke/console.log"
+    },
+    {
+      "fileName": "log.html",
+      "relativePath": "Tests/robot/results/ci-2/smoke/log.html"
+    },
+    {
+      "fileName": "output.xml",
+      "relativePath": "Tests/robot/results/ci-2/smoke/output.xml"
+    },
+    {
+      "fileName": "report.html",
+      "relativePath": "Tests/robot/results/ci-2/smoke/report.html"
+    },
+    {
+      "fileName": "result.json",
+      "relativePath": "Tests/robot/results/ci-2/smoke/result.json"
+    },
+    {
+      "fileName": "run.json",
+      "relativePath": "Tests/robot/results/ci-2/smoke/run.json"
+    },
+    {
+      "fileName": "test-EditMode.log",
+      "relativePath": "Tests/robot/results/ci-2/smoke/unity-smoke/test-EditMode.log"
+    },
+    {
+      "fileName": "test-PlayMode.log",
+      "relativePath": "Tests/robot/results/ci-2/smoke/unity-smoke/test-PlayMode.log"
+    },
+    {
+      "fileName": "test-results-EditMode.xml",
+      "relativePath": "Tests/robot/results/ci-2/smoke/unity-smoke/test-results-EditMode.xml"
+    },
+    {
+      "fileName": "test-results-PlayMode.xml",
+      "relativePath": "Tests/robot/results/ci-2/smoke/unity-smoke/test-results-PlayMode.xml"
+    },
+    {
+      "fileName": "smoke.log",
+      "relativePath": "Tests/robot/results/ci-2/smoke.log"
+    },
+    {
+      "fileName": "source-hashes.json",
+      "relativePath": "Tests/robot/results/ci-2/source-hashes.json"
+    }
+  ],
+  "building": false,
+  "duration": 95949,
+  "number": 2,
+  "result": "FAILURE",
+  "url": "http://127.0.0.1:18880/job/CatGame-Quality/2/"
+}

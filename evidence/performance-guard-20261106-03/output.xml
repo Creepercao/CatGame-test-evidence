@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-06T17:24:24.350611" rpa="false" schemaversion="5">
+<suite id="s1" name="Performance Guard" source="&lt;PROJECT&gt;\Tests\robot\tests\performance_guard.robot">
+<test id="s1-t1" name="CG Repeated Pointer Closing Preserves Gameplay Guard Under Hundred Cats" line="11">
+<kw name="Run Tests" owner="UnityTestRunner">
+<msg time="2026-11-06T17:25:19.878037" level="INFO">${result} = {'total': 1, 'passed': 1, 'failed': 0, 'skipped': 0, 'duration': 6.230452, 'result': 'Passed', 'cases': [{'name': 'Two_hundred_CG_pointer_closes_with_one_hundred_cats_block_modal_and_same_frame_inputs...</msg>
+<var>${result}</var>
+<arg>PlayMode</arg>
+<arg>CatGame.Tests.PerformanceGuardTests.Two_hundred_CG_pointer_closes_with_one_hundred_cats_block_modal_and_same_frame_inputs</arg>
+<doc>跑指定平台的测试套件，返回统计字典。</doc>
+<status status="PASS" start="2026-11-06T17:24:24.396313" elapsed="55.483730"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-06T17:25:19.896095" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${result}[exit_code]</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-11-06T17:25:19.889559" elapsed="0.007533"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-06T17:25:19.898090" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${result}[passed]</arg>
+<arg>1</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-11-06T17:25:19.897092" elapsed="0.000998"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-06T17:25:19.899089" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${result}[failed]</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-11-06T17:25:19.898090" elapsed="0.000999"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-06T17:25:19.900089" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${result}[skipped]</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-11-06T17:25:19.899089" elapsed="0.001000"/>
+</kw>
+<tag>cg</tag>
+<tag>input</tag>
+<tag>stress</tag>
+<tag>unity</tag>
+<status status="PASS" start="2026-11-06T17:24:24.395314" elapsed="55.505775"/>
+</test>
+<doc>Functional stress supplement; Editor pointer dispatch, separate from Player timing samples.</doc>
+<status status="PASS" start="2026-11-06T17:24:24.353138" elapsed="55.554476"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">cg</stat>
+<stat pass="1" fail="0" skip="0">input</stat>
+<stat pass="1" fail="0" skip="0">stress</stat>
+<stat pass="1" fail="0" skip="0">unity</stat>
+</tag>
+<suite>
+<stat name="Performance Guard" id="s1" pass="1" fail="0" skip="0">Performance Guard</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

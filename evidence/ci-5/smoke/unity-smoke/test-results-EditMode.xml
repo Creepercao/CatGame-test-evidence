@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="14" result="Passed" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-06 09:29:16Z" end-time="2026-11-06 09:29:17Z" duration="1.1350958">
+  <test-suite type="TestSuite" id="1066" name="喵屋" fullname="喵屋" runstate="Runnable" testcasecount="51" result="Passed" start-time="2026-11-06 09:29:16Z" end-time="2026-11-06 09:29:17Z" duration="1.135096" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1125" name="CatGame.EditTests.dll" fullname="&lt;PROJECT&gt;/Library/ScriptAssemblies/CatGame.EditTests.dll" runstate="Runnable" testcasecount="51" result="Passed" start-time="2026-11-06 09:29:16Z" end-time="2026-11-06 09:29:17Z" duration="1.101499" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="49976" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <test-suite type="TestSuite" id="1126" name="CatGame" fullname="CatGame" runstate="Runnable" testcasecount="51" result="Passed" start-time="2026-11-06 09:29:16Z" end-time="2026-11-06 09:29:17Z" duration="1.100368" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1127" name="EditTests" fullname="CatGame.EditTests" runstate="Runnable" testcasecount="51" result="Passed" start-time="2026-11-06 09:29:16Z" end-time="2026-11-06 09:29:17Z" duration="1.095987" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1075" name="IdleMathTests" fullname="CatGame.EditTests.IdleMathTests" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-11-06 09:29:16Z" end-time="2026-11-06 09:29:17Z" duration="1.089486" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1078" name="Achievement_catalog_has_twenty_unique_entries" fullname="CatGame.EditTests.IdleMathTests.Achievement_catalog_has_twenty_unique_entries" methodname="Achievement_catalog_has_twenty_unique_entries" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="122100111" result="Passed" start-time="2026-11-06 09:29:16Z" end-time="2026-11-06 09:29:16Z" duration="0.038672" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1079" name="Achievement_rules_unlock_once_and_record_id" fullname="CatGame.EditTests.IdleMathTests.Achievement_rules_unlock_once_and_record_id" methodname="Achievement_rules_unlock_once_and_record_id" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="67192971" result="Passed" start-time="2026-11-06 09:29:16Z" end-time="2026-11-06 09:29:16Z" duration="0.024168" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1083" name="Cat_price_caps_at_forty" fullname="CatGame.EditTests.IdleMathTests.Cat_price_caps_at_forty" methodname="Cat_price_caps_at_forty" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="1242742681" result="Passed" start-time="2026-11-06 09:29:16Z" end-time="2026-11-06 09:29:16Z" duration="0.002831" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1082" name="Cat_prices_form_natural_progression_and_keep_growth" fullname="CatGame.EditTests.IdleMathTests.Cat_prices_form_natural_progression_and_keep_growth" methodname="Cat_prices_form_natural_progression_and_keep_growth" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="1831194815" result="Passed" start-time="2026-11-06 09:29:16Z" end-time="2026-11-06 09:29:16Z" duration="0.012419" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1076" name="Catalog_has_eleven_cats_and_twenty_items" fullname="CatGame.EditTests.IdleMathTests.Catalog_has_eleven_cats_and_twenty_items" methodname="Catalog_has_eleven_cats_and_twenty_items" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="618954028" result="Passed" start-time="2026-11-06 09:29:16Z" end-time="2026-11-06 09:29:16Z" duration="0.000547" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1088" name="Click_value_ignores_cumulative_thresholds_and_offline_is_capped" fullname="CatGame.EditTests.IdleMathTests.Click_value_ignores_cumulative_thresholds_and_offline_is_capped" methodname="Click_value_ignores_cumulative_thresholds_and_offline_is_capped" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="1461846993" result="Passed" start-time="2026-11-06 09:29:16Z" end-time="2026-11-06 09:29:16Z" duration="0.005955" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1089" name="Curve_simulator_rejects_invalid_click_rates" fullname="CatGame.EditTests.IdleMathTests.Curve_simulator_rejects_invalid_click_rates" methodname="Curve_simulator_rejects_invalid_click_rates" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="489007735" result="Passed" start-time="2026-11-06 09:29:16Z" end-time="2026-11-06 09:29:16Z" duration="0.008972" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1081" name="Game_state_has_versioned_save_fields_and_defaults" fullname="CatGame.EditTests.IdleMathTests.Game_state_has_versioned_save_fields_and_defaults" methodname="Game_state_has_versioned_save_fields_and_defaults" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="338317654" result="Passed" start-time="2026-11-06 09:29:16Z" end-time="2026-11-06 09:29:16Z" duration="0.002713" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1084" name="Item_prices_and_effects_follow_generation_and_level_curves" fullname="CatGame.EditTests.IdleMathTests.Item_prices_and_effects_follow_generation_and_level_curves" methodname="Item_prices_and_effects_follow_generation_and_level_curves" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="1390270283" result="Passed" start-time="2026-11-06 09:29:16Z" end-time="2026-11-06 09:29:16Z" duration="0.001463" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1077" name="New_game_starts_with_one_Milk_cat" fullname="CatGame.EditTests.IdleMathTests.New_game_starts_with_one_Milk_cat" methodname="New_game_starts_with_one_Milk_cat" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="1167400729" result="Passed" start-time="2026-11-06 09:29:16Z" end-time="2026-11-06 09:29:16Z" duration="0.000663" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1080" name="Offline_earnings_are_capped_and_clock_never_moves_save_backwards" fullname="CatGame.EditTests.IdleMathTests.Offline_earnings_are_capped_and_clock_never_moves_save_backwards" methodname="Offline_earnings_are_capped_and_clock_never_moves_save_backwards" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="475118067" result="Passed" start-time="2026-11-06 09:29:16Z" end-time="2026-11-06 09:29:16Z" duration="0.000851" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1087" name="Price_progression_reaches_goal_without_clicks_or_stage_gates" fullname="CatGame.EditTests.IdleMathTests.Price_progression_reaches_goal_without_clicks_or_stage_gates" methodname="Price_progression_reaches_goal_without_clicks_or_stage_gates" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="1524235110" result="Passed" start-time="2026-11-06 09:29:16Z" end-time="2026-11-06 09:29:16Z" duration="0.488599" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1085" name="Production_items_add_with_effects_matching_each_level" fullname="CatGame.EditTests.IdleMathTests.Production_items_add_with_effects_matching_each_level" methodname="Production_items_add_with_effects_matching_each_level" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="676329029" result="Passed" start-time="2026-11-06 09:29:16Z" end-time="2026-11-06 09:29:16Z" duration="0.001545" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1086" name="Production_remains_finite_after_one_hundred_thousand_ticks" fullname="CatGame.EditTests.IdleMathTests.Production_remains_finite_after_one_hundred_thousand_ticks" methodname="Production_remains_finite_after_one_hundred_thousand_ticks" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="1028312483" result="Passed" start-time="2026-11-06 09:29:16Z" end-time="2026-11-06 09:29:17Z" duration="0.459506" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

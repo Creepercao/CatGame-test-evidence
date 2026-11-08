@@ -1,0 +1,899 @@
+{
+  "passed": true,
+  "utc": "2026-11-06T09:26:00.019738+00:00",
+  "run": "<PROJECT>\\Tests\\robot\\results\\performance-baseline-20261106-02",
+  "guard": "<PROJECT>\\Tests\\robot\\results\\performance-guard-20261106-03",
+  "commit": "cf8f2308fb12654adb15df39042bb3c0614b6530",
+  "runtimeSha256": "4bcefc7fc682798aa8ef44a3c3ce665184840213f41a7f8f9996e6516b49922c",
+  "started": "2026-11-06T08:58:42.481304+00:00",
+  "ended": "2026-11-06T09:08:41.341741+00:00",
+  "elapsedSeconds": 598.860437,
+  "environment": {
+    "unity": "2022.3.21f1",
+    "cpu": "12th Gen Intel(R) Core(TM) i5-12500H",
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "graphicsApi": "Direct3D11",
+    "os": "Windows 11  (10.0.26200) 64bit",
+    "quality": "Ultra",
+    "width": 1280,
+    "height": 720,
+    "targetFps": 60,
+    "vsync": 0,
+    "refreshRate": 144,
+    "ramMb": 16088,
+    "logicalProcessors": 16,
+    "development": true,
+    "mainThreadValid": true,
+    "gcValid": true,
+    "profilerEnabled": false
+  },
+  "archivedFilesVerified": 54,
+  "rounds": [
+    {
+      "number": 1,
+      "pid": 40876,
+      "started": "2026-11-06T08:58:44.400228+00:00",
+      "ended": "2026-11-06T09:03:44.957226+00:00",
+      "exitCode": 0,
+      "frames": 13803,
+      "operations": 4241,
+      "phases": {
+        "single": {
+          "elapsed": 60.0068799,
+          "frames": {
+            "count": 3596,
+            "mean": 16.691080216075957,
+            "p50": 16.667500138282776,
+            "p95": 16.750000417232513,
+            "p99": 17.010699957609177,
+            "maximum": 36.03740036487579
+          },
+          "slowFrameRatio": 0.00027808676307007786,
+          "processCpuMs": 13718.75,
+          "processWorkingSetBefore": 255373312,
+          "processWorkingSetAfter": 260431872,
+          "mainThreadMs": {
+            "count": 3596,
+            "mean": 16.682710706340377,
+            "p50": 16.6619,
+            "p95": 16.8635,
+            "p99": 17.15,
+            "maximum": 36.0124
+          },
+          "gcBytes": {
+            "count": 3596,
+            "mean": 1203.5572858731925,
+            "p50": 40.0,
+            "p95": 9570.0,
+            "p99": 9570.0,
+            "maximum": 43783.0
+          },
+          "boundaryChecks": 59,
+          "visible": 1,
+          "owned": 1,
+          "processCpuPercentOneCore": 22.861961866475912,
+          "processCpuPercentMachine": 1.4288726166547445,
+          "mono_bytes": {
+            "first": 5132288.0,
+            "last": 5066752.0,
+            "minimum": 4845568.0,
+            "maximum": 5222400.0,
+            "delta": -65536.0
+          },
+          "unity_allocated_bytes": {
+            "first": 53224635.0,
+            "last": 53405578.0,
+            "minimum": 53224635.0,
+            "maximum": 53406143.0,
+            "delta": 180943.0
+          },
+          "unity_reserved_bytes": {
+            "first": 199311360.0,
+            "last": 199311360.0,
+            "minimum": 199311360.0,
+            "maximum": 199311360.0,
+            "delta": 0.0
+          }
+        },
+        "hundred": {
+          "elapsed": 90.00497590000002,
+          "frames": {
+            "count": 5377,
+            "mean": 16.738337982686364,
+            "p50": 16.667399555444717,
+            "p95": 16.7309008538723,
+            "p99": 17.033899202942848,
+            "maximum": 72.23639637231827
+          },
+          "slowFrameRatio": 0.0014878184861446904,
+          "processCpuMs": 36562.5,
+          "processWorkingSetBefore": 268509184,
+          "processWorkingSetAfter": 268861440,
+          "mainThreadMs": {
+            "count": 5377,
+            "mean": 16.73072936581737,
+            "p50": 16.6616,
+            "p95": 16.8195,
+            "p99": 17.2997,
+            "maximum": 72.1785
+          },
+          "gcBytes": {
+            "count": 5377,
+            "mean": 1199.3321554770318,
+            "p50": 40.0,
+            "p95": 9470.0,
+            "p99": 9470.0,
+            "maximum": 34395.0
+          },
+          "boundaryChecks": 89,
+          "visible": 100,
+          "owned": 440,
+          "processCpuPercentOneCore": 40.6227540582009,
+          "processCpuPercentMachine": 2.538922128637556,
+          "mono_bytes": {
+            "first": 5386240.0,
+            "last": 5509120.0,
+            "minimum": 5218304.0,
+            "maximum": 5574656.0,
+            "delta": 122880.0
+          },
+          "unity_allocated_bytes": {
+            "first": 54525651.0,
+            "last": 54975848.0,
+            "minimum": 54525414.0,
+            "maximum": 54979310.0,
+            "delta": 450197.0
+          },
+          "unity_reserved_bytes": {
+            "first": 199311360.0,
+            "last": 199311360.0,
+            "minimum": 199311360.0,
+            "maximum": 199311360.0,
+            "delta": 0.0
+          }
+        },
+        "input": {
+          "elapsed": 60.006688999999994,
+          "frames": {
+            "count": 3588,
+            "mean": 16.724648482063444,
+            "p50": 16.66720025241375,
+            "p95": 16.70439913868904,
+            "p99": 16.851799562573433,
+            "maximum": 90.14719724655151
+          },
+          "slowFrameRatio": 0.0011148272017837235,
+          "processCpuMs": 30078.125,
+          "processWorkingSetBefore": 77697024,
+          "processWorkingSetAfter": 96264192,
+          "mainThreadMs": {
+            "count": 3588,
+            "mean": 16.71760030657748,
+            "p50": 16.6614,
+            "p95": 16.7857,
+            "p99": 17.046,
+            "maximum": 90.1064
+          },
+          "gcBytes": {
+            "count": 3588,
+            "mean": 1465.9760312151616,
+            "p50": 40.0,
+            "p95": 8772.0,
+            "p99": 11022.0,
+            "maximum": 34591.0
+          },
+          "boundaryChecks": 59,
+          "visible": 100,
+          "owned": 440,
+          "processCpuPercentOneCore": 50.124620273583176,
+          "processCpuPercentMachine": 3.1327887670989485,
+          "mono_bytes": {
+            "first": 6467584.0,
+            "last": 6713344.0,
+            "minimum": 6365184.0,
+            "maximum": 6770688.0,
+            "delta": 245760.0
+          },
+          "unity_allocated_bytes": {
+            "first": 55006037.0,
+            "last": 55214879.0,
+            "minimum": 55006037.0,
+            "maximum": 55238651.0,
+            "delta": 208842.0
+          },
+          "unity_reserved_bytes": {
+            "first": 199311360.0,
+            "last": 199311360.0,
+            "minimum": 199311360.0,
+            "maximum": 199311360.0,
+            "delta": 0.0
+          }
+        },
+        "cg-cold": {
+          "elapsed": 0.39388069999998265,
+          "frames": {
+            "count": 22,
+            "mean": 18.122750080444597,
+            "p50": 16.667300835251808,
+            "p95": 16.80620014667511,
+            "p99": 48.55319857597351,
+            "maximum": 48.55319857597351
+          },
+          "slowFrameRatio": 0.045454545454545456,
+          "processCpuMs": 359.375,
+          "processWorkingSetBefore": 96751616,
+          "processWorkingSetAfter": 127455232,
+          "mainThreadMs": {
+            "count": 22,
+            "mean": 18.115468181818184,
+            "p50": 16.6592,
+            "p95": 16.8572,
+            "p99": 48.5707,
+            "maximum": 48.5707
+          },
+          "gcBytes": {
+            "count": 22,
+            "mean": 131125.31818181818,
+            "p50": 78218.0,
+            "p95": 86686.0,
+            "p99": 1293845.0,
+            "maximum": 1293845.0
+          },
+          "boundaryChecks": 0,
+          "visible": 100,
+          "owned": 440,
+          "processCpuPercentOneCore": 91.23955553039686,
+          "processCpuPercentMachine": 5.7024722206498035,
+          "mono_bytes": {
+            "first": 5386240.0,
+            "last": 6004736.0,
+            "minimum": 5386240.0,
+            "maximum": 6725632.0,
+            "delta": 618496.0
+          },
+          "unity_allocated_bytes": {
+            "first": 55089969.0,
+            "last": 55111831.0,
+            "minimum": 55089969.0,
+            "maximum": 55128275.0,
+            "delta": 21862.0
+          },
+          "unity_reserved_bytes": {
+            "first": 199311360.0,
+            "last": 199311360.0,
+            "minimum": 199311360.0,
+            "maximum": 199311360.0,
+            "delta": 0.0
+          }
+        },
+        "cg-warm": {
+          "elapsed": 3.6673045,
+          "frames": {
+            "count": 220,
+            "mean": 16.670309972356666,
+            "p50": 16.666900366544724,
+            "p95": 16.688700765371323,
+            "p99": 16.773900017142296,
+            "maximum": 16.806799918413162
+          },
+          "slowFrameRatio": 0.0,
+          "processCpuMs": 1765.625,
+          "processWorkingSetBefore": 114208768,
+          "processWorkingSetAfter": 114733056,
+          "mainThreadMs": {
+            "count": 220,
+            "mean": 16.663949545454546,
+            "p50": 16.662,
+            "p95": 16.7275,
+            "p99": 16.8337,
+            "maximum": 16.9034
+          },
+          "gcBytes": {
+            "count": 220,
+            "mean": 72197.08181818182,
+            "p50": 78170.0,
+            "p95": 86640.0,
+            "p99": 86922.0,
+            "maximum": 87308.0
+          },
+          "boundaryChecks": 3,
+          "visible": 100,
+          "owned": 440,
+          "processCpuPercentOneCore": 48.14503404339617,
+          "processCpuPercentMachine": 3.009064627712261,
+          "mono_bytes": {
+            "first": 5427200.0,
+            "last": 6234112.0,
+            "minimum": 5427200.0,
+            "maximum": 7540736.0,
+            "delta": 806912.0
+          },
+          "unity_allocated_bytes": {
+            "first": 55121536.0,
+            "last": 55112833.0,
+            "minimum": 55112614.0,
+            "maximum": 55124834.0,
+            "delta": -8703.0
+          },
+          "unity_reserved_bytes": {
+            "first": 199311360.0,
+            "last": 199311360.0,
+            "minimum": 199311360.0,
+            "maximum": 199311360.0,
+            "delta": 0.0
+          }
+        },
+        "save": {
+          "elapsed": 22.045369300000004,
+          "frames": {
+            "count": 1000,
+            "mean": 22.04614096879959,
+            "p50": 20.03379911184311,
+            "p95": 32.44959935545921,
+            "p99": 56.38350173830986,
+            "maximum": 244.13420259952545
+          },
+          "slowFrameRatio": 0.043,
+          "processCpuMs": 23718.75,
+          "processWorkingSetBefore": 115535872,
+          "processWorkingSetAfter": 115269632,
+          "mainThreadMs": {
+            "count": 1000,
+            "mean": 22.0394237,
+            "p50": 20.0299,
+            "p95": 32.4475,
+            "p99": 56.3831,
+            "maximum": 244.0717
+          },
+          "gcBytes": {
+            "count": 1000,
+            "mean": 149266.204,
+            "p50": 147921.0,
+            "p95": 156391.0,
+            "p99": 156391.0,
+            "maximum": 182212.0
+          },
+          "boundaryChecks": 16,
+          "visible": 100,
+          "owned": 440,
+          "processCpuPercentOneCore": 107.59062221742866,
+          "processCpuPercentMachine": 6.724413888589291,
+          "mono_bytes": {
+            "first": 5488640.0,
+            "last": 5906432.0,
+            "minimum": 5443584.0,
+            "maximum": 6582272.0,
+            "delta": 417792.0
+          },
+          "unity_allocated_bytes": {
+            "first": 55118594.0,
+            "last": 55117941.0,
+            "minimum": 55116676.0,
+            "maximum": 55120970.0,
+            "delta": -653.0
+          },
+          "unity_reserved_bytes": {
+            "first": 199311360.0,
+            "last": 199311360.0,
+            "minimum": 199311360.0,
+            "maximum": 199311360.0,
+            "delta": 0.0
+          }
+        }
+      },
+      "timings": {
+        "cg-cold/complete": {
+          "count": 20,
+          "mean": 0.11213500000000001,
+          "p50": 0.0376,
+          "p95": 0.1268,
+          "p99": 1.272,
+          "maximum": 1.272
+        },
+        "cg-cold/open": {
+          "count": 20,
+          "mean": 7.9935,
+          "p50": 5.7276,
+          "p95": 10.3672,
+          "p99": 38.0587,
+          "maximum": 38.0587
+        },
+        "cg-warm/complete": {
+          "count": 200,
+          "mean": 0.04661800000000001,
+          "p50": 0.031,
+          "p95": 0.0945,
+          "p99": 0.1778,
+          "maximum": 1.0495
+        },
+        "cg-warm/open": {
+          "count": 200,
+          "mean": 0.901017,
+          "p50": 0.7092,
+          "p95": 1.9033,
+          "p99": 2.3767,
+          "maximum": 3.2595
+        },
+        "input/buy": {
+          "count": 600,
+          "mean": 0.18431750000000002,
+          "p50": 0.0024,
+          "p95": 0.969,
+          "p99": 2.0171,
+          "maximum": 11.9159
+        },
+        "input/click": {
+          "count": 1200,
+          "mean": 0.25950425,
+          "p50": 0.1777,
+          "p95": 0.3207,
+          "p99": 0.5489,
+          "maximum": 69.1263
+        },
+        "save/read": {
+          "count": 1000,
+          "mean": 3.1089179,
+          "p50": 2.6701,
+          "p95": 4.9723,
+          "p99": 6.0734,
+          "maximum": 228.2933
+        },
+        "save/write": {
+          "count": 1000,
+          "mean": 13.6430512,
+          "p50": 12.2204,
+          "p95": 23.0401,
+          "p99": 41.1805,
+          "maximum": 106.4558
+        },
+        "startup/new-game-home-ready": {
+          "count": 1,
+          "mean": 425.8074,
+          "p50": 425.8074,
+          "p95": 425.8074,
+          "p99": 425.8074,
+          "maximum": 425.8074
+        }
+      }
+    },
+    {
+      "number": 2,
+      "pid": 60196,
+      "started": "2026-11-06T09:03:45.107336+00:00",
+      "ended": "2026-11-06T09:08:41.114672+00:00",
+      "exitCode": 0,
+      "frames": 13804,
+      "operations": 4241,
+      "phases": {
+        "single": {
+          "elapsed": 60.0139385,
+          "frames": {
+            "count": 3598,
+            "mean": 16.681735302368722,
+            "p50": 16.667300835251808,
+            "p95": 16.711300238966942,
+            "p99": 16.85279980301857,
+            "maximum": 36.21109947562218
+          },
+          "slowFrameRatio": 0.00027793218454697053,
+          "processCpuMs": 13453.125,
+          "processWorkingSetBefore": 256741376,
+          "processWorkingSetAfter": 260775936,
+          "mainThreadMs": {
+            "count": 3598,
+            "mean": 16.674835464146746,
+            "p50": 16.6621,
+            "p95": 16.799,
+            "p99": 17.0811,
+            "maximum": 36.0275
+          },
+          "gcBytes": {
+            "count": 3598,
+            "mean": 1203.869927737632,
+            "p50": 40.0,
+            "p95": 9570.0,
+            "p99": 9570.0,
+            "maximum": 34305.0
+          },
+          "boundaryChecks": 59,
+          "visible": 1,
+          "owned": 1,
+          "processCpuPercentOneCore": 22.416667421352457,
+          "processCpuPercentMachine": 1.4010417138345286,
+          "mono_bytes": {
+            "first": 5169152.0,
+            "last": 5058560.0,
+            "minimum": 4857856.0,
+            "maximum": 5226496.0,
+            "delta": -110592.0
+          },
+          "unity_allocated_bytes": {
+            "first": 53191810.0,
+            "last": 53226451.0,
+            "minimum": 53190419.0,
+            "maximum": 53226586.0,
+            "delta": 34641.0
+          },
+          "unity_reserved_bytes": {
+            "first": 199311360.0,
+            "last": 199311360.0,
+            "minimum": 199311360.0,
+            "maximum": 199311360.0,
+            "delta": 0.0
+          }
+        },
+        "hundred": {
+          "elapsed": 90.0050422,
+          "frames": {
+            "count": 5365,
+            "mean": 16.776678965488607,
+            "p50": 16.667399555444717,
+            "p95": 16.76259934902191,
+            "p99": 18.809400498867035,
+            "maximum": 62.07900121808052
+          },
+          "slowFrameRatio": 0.0009319664492078285,
+          "processCpuMs": 38187.5,
+          "processWorkingSetBefore": 269606912,
+          "processWorkingSetAfter": 235298816,
+          "mainThreadMs": {
+            "count": 5365,
+            "mean": 16.768196029822928,
+            "p50": 16.6618,
+            "p95": 16.8784,
+            "p99": 19.0148,
+            "maximum": 62.0494
+          },
+          "gcBytes": {
+            "count": 5365,
+            "mean": 1202.5384902143524,
+            "p50": 40.0,
+            "p95": 9470.0,
+            "p99": 9470.0,
+            "maximum": 43753.0
+          },
+          "boundaryChecks": 89,
+          "visible": 100,
+          "owned": 440,
+          "processCpuPercentOneCore": 42.428178540424035,
+          "processCpuPercentMachine": 2.651761158776502,
+          "mono_bytes": {
+            "first": 5382144.0,
+            "last": 5509120.0,
+            "minimum": 5197824.0,
+            "maximum": 5570560.0,
+            "delta": 126976.0
+          },
+          "unity_allocated_bytes": {
+            "first": 54539311.0,
+            "last": 54976137.0,
+            "minimum": 54535522.0,
+            "maximum": 54979378.0,
+            "delta": 436826.0
+          },
+          "unity_reserved_bytes": {
+            "first": 199311360.0,
+            "last": 199311360.0,
+            "minimum": 199311360.0,
+            "maximum": 199311360.0,
+            "delta": 0.0
+          }
+        },
+        "input": {
+          "elapsed": 60.014249500000005,
+          "frames": {
+            "count": 3599,
+            "mean": 16.67525623926324,
+            "p50": 16.66720025241375,
+            "p95": 16.6958998888731,
+            "p99": 16.794100403785706,
+            "maximum": 29.01040017604828
+          },
+          "slowFrameRatio": 0.0,
+          "processCpuMs": 28750.0,
+          "processWorkingSetBefore": 238297088,
+          "processWorkingSetAfter": 243175424,
+          "mainThreadMs": {
+            "count": 3599,
+            "mean": 16.668707196443457,
+            "p50": 16.6616,
+            "p95": 16.769,
+            "p99": 16.8912,
+            "maximum": 29.041
+          },
+          "gcBytes": {
+            "count": 3599,
+            "mean": 1460.388441233676,
+            "p50": 40.0,
+            "p95": 8772.0,
+            "p99": 11024.0,
+            "maximum": 34593.0
+          },
+          "boundaryChecks": 59,
+          "visible": 100,
+          "owned": 440,
+          "processCpuPercentOneCore": 47.905289559607,
+          "processCpuPercentMachine": 2.9940805974754374,
+          "mono_bytes": {
+            "first": 6430720.0,
+            "last": 6709248.0,
+            "minimum": 6332416.0,
+            "maximum": 6770688.0,
+            "delta": 278528.0
+          },
+          "unity_allocated_bytes": {
+            "first": 55000418.0,
+            "last": 55206165.0,
+            "minimum": 55000418.0,
+            "maximum": 55219897.0,
+            "delta": 205747.0
+          },
+          "unity_reserved_bytes": {
+            "first": 199311360.0,
+            "last": 199311360.0,
+            "minimum": 199311360.0,
+            "maximum": 199311360.0,
+            "delta": 0.0
+          }
+        },
+        "cg-cold": {
+          "elapsed": 0.36356149999997456,
+          "frames": {
+            "count": 22,
+            "mean": 16.66715910488909,
+            "p50": 16.666699200868607,
+            "p95": 16.670500859618187,
+            "p99": 16.672000288963318,
+            "maximum": 16.672000288963318
+          },
+          "slowFrameRatio": 0.0,
+          "processCpuMs": 437.5,
+          "processWorkingSetBefore": 243195904,
+          "processWorkingSetAfter": 266104832,
+          "mainThreadMs": {
+            "count": 22,
+            "mean": 16.661177272727272,
+            "p50": 16.6634,
+            "p95": 16.7354,
+            "p99": 16.7976,
+            "maximum": 16.7976
+          },
+          "gcBytes": {
+            "count": 22,
+            "mean": 130739.77272727272,
+            "p50": 78218.0,
+            "p95": 86670.0,
+            "p99": 1293845.0,
+            "maximum": 1293845.0
+          },
+          "boundaryChecks": 0,
+          "visible": 100,
+          "owned": 440,
+          "processCpuPercentOneCore": 120.337274436383,
+          "processCpuPercentMachine": 7.521079652273937,
+          "mono_bytes": {
+            "first": 5341184.0,
+            "last": 5914624.0,
+            "minimum": 5341184.0,
+            "maximum": 6680576.0,
+            "delta": 573440.0
+          },
+          "unity_allocated_bytes": {
+            "first": 55082535.0,
+            "last": 55104358.0,
+            "minimum": 55082535.0,
+            "maximum": 55120408.0,
+            "delta": 21823.0
+          },
+          "unity_reserved_bytes": {
+            "first": 199311360.0,
+            "last": 199311360.0,
+            "minimum": 199311360.0,
+            "maximum": 199311360.0,
+            "delta": 0.0
+          }
+        },
+        "cg-warm": {
+          "elapsed": 3.667178799999988,
+          "frames": {
+            "count": 220,
+            "mean": 16.669904576106504,
+            "p50": 16.66720025241375,
+            "p95": 16.68109931051731,
+            "p99": 16.770999878644943,
+            "maximum": 16.802100464701653
+          },
+          "slowFrameRatio": 0.0,
+          "processCpuMs": 1828.125,
+          "processWorkingSetBefore": 252174336,
+          "processWorkingSetAfter": 252219392,
+          "mainThreadMs": {
+            "count": 220,
+            "mean": 16.663933181818184,
+            "p50": 16.661,
+            "p95": 16.7394,
+            "p99": 16.8546,
+            "maximum": 17.2735
+          },
+          "gcBytes": {
+            "count": 220,
+            "mean": 72197.51818181819,
+            "p50": 78170.0,
+            "p95": 86638.0,
+            "p99": 86640.0,
+            "maximum": 86642.0
+          },
+          "boundaryChecks": 3,
+          "visible": 100,
+          "owned": 440,
+          "processCpuPercentOneCore": 49.85099172148372,
+          "processCpuPercentMachine": 3.1156869825927327,
+          "mono_bytes": {
+            "first": 5435392.0,
+            "last": 6328320.0,
+            "minimum": 5435392.0,
+            "maximum": 7553024.0,
+            "delta": 892928.0
+          },
+          "unity_allocated_bytes": {
+            "first": 55113646.0,
+            "last": 55105286.0,
+            "minimum": 55105128.0,
+            "maximum": 55117162.0,
+            "delta": -8360.0
+          },
+          "unity_reserved_bytes": {
+            "first": 199311360.0,
+            "last": 199311360.0,
+            "minimum": 199311360.0,
+            "maximum": 199311360.0,
+            "delta": 0.0
+          }
+        },
+        "save": {
+          "elapsed": 17.456761299999982,
+          "frames": {
+            "count": 1000,
+            "mean": 17.455902194604278,
+            "p50": 16.67330041527748,
+            "p95": 20.37540078163147,
+            "p99": 22.81240001320839,
+            "maximum": 73.88070225715637
+          },
+          "slowFrameRatio": 0.001,
+          "processCpuMs": 18562.5,
+          "processWorkingSetBefore": 252248064,
+          "processWorkingSetAfter": 174673920,
+          "mainThreadMs": {
+            "count": 1000,
+            "mean": 17.449951000000002,
+            "p50": 16.6935,
+            "p95": 20.4274,
+            "p99": 22.7636,
+            "maximum": 73.8603
+          },
+          "gcBytes": {
+            "count": 1000,
+            "mean": 149019.303,
+            "p50": 147921.0,
+            "p95": 156391.0,
+            "p99": 156391.0,
+            "maximum": 182214.0
+          },
+          "boundaryChecks": 16,
+          "visible": 100,
+          "owned": 440,
+          "processCpuPercentOneCore": 106.33415718412795,
+          "processCpuPercentMachine": 6.645884824007997,
+          "mono_bytes": {
+            "first": 5427200.0,
+            "last": 5857280.0,
+            "minimum": 5423104.0,
+            "maximum": 6586368.0,
+            "delta": 430080.0
+          },
+          "unity_allocated_bytes": {
+            "first": 55110164.0,
+            "last": 55110085.0,
+            "minimum": 55109410.0,
+            "maximum": 55111347.0,
+            "delta": -79.0
+          },
+          "unity_reserved_bytes": {
+            "first": 199311360.0,
+            "last": 199311360.0,
+            "minimum": 199311360.0,
+            "maximum": 199311360.0,
+            "delta": 0.0
+          }
+        }
+      },
+      "timings": {
+        "cg-cold/complete": {
+          "count": 20,
+          "mean": 0.0826,
+          "p50": 0.0487,
+          "p95": 0.1675,
+          "p99": 0.6004,
+          "maximum": 0.6004
+        },
+        "cg-cold/open": {
+          "count": 20,
+          "mean": 6.220255,
+          "p50": 5.8081,
+          "p95": 8.4682,
+          "p99": 8.4718,
+          "maximum": 8.4718
+        },
+        "cg-warm/complete": {
+          "count": 200,
+          "mean": 0.0368195,
+          "p50": 0.029,
+          "p95": 0.0663,
+          "p99": 0.1257,
+          "maximum": 0.3104
+        },
+        "cg-warm/open": {
+          "count": 200,
+          "mean": 0.803567,
+          "p50": 0.5949,
+          "p95": 1.7077,
+          "p99": 2.217,
+          "maximum": 2.5865
+        },
+        "input/buy": {
+          "count": 600,
+          "mean": 0.12412633333333334,
+          "p50": 0.0023,
+          "p95": 0.744,
+          "p99": 1.1468,
+          "maximum": 1.7291
+        },
+        "input/click": {
+          "count": 1200,
+          "mean": 0.19784058333333335,
+          "p50": 0.1756,
+          "p95": 0.2991,
+          "p99": 0.4025,
+          "maximum": 5.8692
+        },
+        "save/read": {
+          "count": 1000,
+          "mean": 2.2771586000000004,
+          "p50": 2.0731,
+          "p95": 3.8545,
+          "p99": 4.6125,
+          "maximum": 66.2624
+        },
+        "save/write": {
+          "count": 1000,
+          "mean": 9.8267456,
+          "p50": 9.7944,
+          "p95": 12.8395,
+          "p99": 14.4985,
+          "maximum": 16.5849
+        },
+        "startup/new-game-home-ready": {
+          "count": 1,
+          "mean": 460.9911,
+          "p50": 460.9911,
+          "p95": 460.9911,
+          "p99": 460.9911,
+          "maximum": 460.9911
+        }
+      }
+    }
+  ],
+  "inputGuard": {
+    "run": "<PROJECT>\\Tests\\robot\\results\\performance-guard-20261106-03",
+    "passed": 1,
+    "steps": 200,
+    "scope": "Editor EventSystem dispatch; functional stress, separate from Player timing"
+  },
+  "limits": [
+    "Repeat run is not optimization A/B",
+    "No native input claim",
+    "No thermal/power time series or GPU duration capture",
+    "RSS endpoints and short sequences do not prove absence of leaks"
+  ]
+}

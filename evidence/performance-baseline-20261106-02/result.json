@@ -1,0 +1,13 @@
+{
+  "releaseAllowed": true,
+  "passed": 1,
+  "failed": 0,
+  "skipped": 0,
+  "robotErrors": [],
+  "reason": "passed",
+  "runId": "20261106-165840-f6e18381",
+  "ended": "2026-11-06T09:08:42.277575+00:00",
+  "exitCode": 0,
+  "launchError": null,
+  "classification": "passed"
+}

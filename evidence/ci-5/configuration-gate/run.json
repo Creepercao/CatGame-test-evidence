@@ -1,0 +1,25 @@
+{
+  "runId": "20261106-172953-c678d7c4",
+  "started": "2026-11-06T09:29:53.904610+00:00",
+  "profile": "smoke",
+  "explicitSuites": true,
+  "commit": "42de242d40aa7cf3127bdc6f1877c46ffdc5ca3b",
+  "worktree": "",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "unity": "D:\\Unity\\2022.3.21f1\\Editor\\Unity.exe",
+  "command": [
+    "D:\\python\\python.exe",
+    "-m",
+    "robot",
+    "--outputdir",
+    "<PROJECT>\\Tests\\robot\\results\\ci-5\\configuration-gate",
+    "<PROJECT>\\Tests\\robot\\results\\ci-5\\ci-gate.robot"
+  ],
+  "suites": [
+    {
+      "path": "<PROJECT>\\Tests\\robot\\results\\ci-5\\ci-gate.robot",
+      "sha256": "6853efc2ed873b13350f1fcaaf2f4463fc6ce048e0118fb55118ced7bdea342a"
+    }
+  ]
+}

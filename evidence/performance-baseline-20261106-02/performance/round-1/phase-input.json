@@ -1,0 +1,13 @@
+{
+    "name": "input",
+    "started": 185.60364650000003,
+    "elapsed": 60.006688999999997,
+    "cpuMilliseconds": 30078.125,
+    "workingSetBefore": 77697024,
+    "workingSetAfter": 96264192,
+    "frames": 3588,
+    "visible": 100,
+    "owned": 440,
+    "boundaryChecks": 59,
+    "boundaryErrors": 0
+}

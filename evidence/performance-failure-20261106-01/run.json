@@ -1,0 +1,25 @@
+{
+  "runId": "20261106-165257-f96cc019",
+  "started": "2026-11-06T08:52:57.413207+00:00",
+  "profile": "smoke",
+  "explicitSuites": true,
+  "commit": "07afc1d98114c3834944384b4020d812232181c6",
+  "worktree": "M Assets/Scripts/PlayerPerformanceQA.cs\n M tools/qa/run_performance.py\n?? Tests/robot/tests/performance_failure.robot\n?? tools/qa/verify_performance_failure.py",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "unity": "D:\\Unity\\2022.3.21f1\\Editor\\Unity.exe",
+  "command": [
+    "D:\\python\\python.exe",
+    "-m",
+    "robot",
+    "--outputdir",
+    "<PROJECT>\\Tests\\robot\\results\\performance-failure-20261106-01",
+    "<PROJECT>\\Tests\\robot\\tests\\performance_failure.robot"
+  ],
+  "suites": [
+    {
+      "path": "<PROJECT>\\Tests\\robot\\tests\\performance_failure.robot",
+      "sha256": "d2f2329c18b7054a3f18b9df8510af4293ed7e73470ccfada0e53d68577e6bee"
+    }
+  ]
+}

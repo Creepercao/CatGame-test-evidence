@@ -1,0 +1,13 @@
+{
+  "releaseAllowed": false,
+  "passed": 0,
+  "failed": 1,
+  "skipped": 0,
+  "robotErrors": [],
+  "reason": "test-or-execution-failure",
+  "runId": "20261106-144633-062cd0dc",
+  "ended": "2026-11-06T06:46:39.547073+00:00",
+  "exitCode": 1,
+  "launchError": null,
+  "classification": "needs-triage"
+}

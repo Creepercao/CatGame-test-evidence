@@ -1,0 +1,830 @@
+{
+  "_class": "hudson.model.FreeStyleBuild",
+  "artifacts": [
+    {
+      "fileName": "command.json",
+      "relativePath": "Tests/robot/results/ci-3/build/command.json"
+    },
+    {
+      "fileName": "result.json",
+      "relativePath": "Tests/robot/results/ci-3/build/result.json"
+    },
+    {
+      "fileName": "unity.log",
+      "relativePath": "Tests/robot/results/ci-3/build/unity.log"
+    },
+    {
+      "fileName": "build.log",
+      "relativePath": "Tests/robot/results/ci-3/build.log"
+    },
+    {
+      "fileName": "ci-gate.robot",
+      "relativePath": "Tests/robot/results/ci-3/ci-gate.robot"
+    },
+    {
+      "fileName": "command.json",
+      "relativePath": "Tests/robot/results/ci-3/compile/command.json"
+    },
+    {
+      "fileName": "result.json",
+      "relativePath": "Tests/robot/results/ci-3/compile/result.json"
+    },
+    {
+      "fileName": "unity.log",
+      "relativePath": "Tests/robot/results/ci-3/compile/unity.log"
+    },
+    {
+      "fileName": "compile.log",
+      "relativePath": "Tests/robot/results/ci-3/compile.log"
+    },
+    {
+      "fileName": "artifacts.json",
+      "relativePath": "Tests/robot/results/ci-3/configuration-gate/artifacts.json"
+    },
+    {
+      "fileName": "console.log",
+      "relativePath": "Tests/robot/results/ci-3/configuration-gate/console.log"
+    },
+    {
+      "fileName": "log.html",
+      "relativePath": "Tests/robot/results/ci-3/configuration-gate/log.html"
+    },
+    {
+      "fileName": "output.xml",
+      "relativePath": "Tests/robot/results/ci-3/configuration-gate/output.xml"
+    },
+    {
+      "fileName": "report.html",
+      "relativePath": "Tests/robot/results/ci-3/configuration-gate/report.html"
+    },
+    {
+      "fileName": "result.json",
+      "relativePath": "Tests/robot/results/ci-3/configuration-gate/result.json"
+    },
+    {
+      "fileName": "run.json",
+      "relativePath": "Tests/robot/results/ci-3/configuration-gate/run.json"
+    },
+    {
+      "fileName": "configuration-gate.log",
+      "relativePath": "Tests/robot/results/ci-3/configuration-gate.log"
+    },
+    {
+      "fileName": "artifacts.json",
+      "relativePath": "Tests/robot/results/ci-3/full/artifacts.json"
+    },
+    {
+      "fileName": "console.log",
+      "relativePath": "Tests/robot/results/ci-3/full/console.log"
+    },
+    {
+      "fileName": "log.html",
+      "relativePath": "Tests/robot/results/ci-3/full/log.html"
+    },
+    {
+      "fileName": "output.xml",
+      "relativePath": "Tests/robot/results/ci-3/full/output.xml"
+    },
+    {
+      "fileName": "report.html",
+      "relativePath": "Tests/robot/results/ci-3/full/report.html"
+    },
+    {
+      "fileName": "result.json",
+      "relativePath": "Tests/robot/results/ci-3/full/result.json"
+    },
+    {
+      "fileName": "run.json",
+      "relativePath": "Tests/robot/results/ci-3/full/run.json"
+    },
+    {
+      "fileName": "test-EditMode.log",
+      "relativePath": "Tests/robot/results/ci-3/full/unity-main/test-EditMode.log"
+    },
+    {
+      "fileName": "test-PlayMode.log",
+      "relativePath": "Tests/robot/results/ci-3/full/unity-main/test-PlayMode.log"
+    },
+    {
+      "fileName": "test-results-EditMode.xml",
+      "relativePath": "Tests/robot/results/ci-3/full/unity-main/test-results-EditMode.xml"
+    },
+    {
+      "fileName": "test-results-PlayMode.xml",
+      "relativePath": "Tests/robot/results/ci-3/full/unity-main/test-results-PlayMode.xml"
+    },
+    {
+      "fileName": "full.log",
+      "relativePath": "Tests/robot/results/ci-3/full.log"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/blocked-f0ae842addfb46f48baafcd5147a456f/20261106-073707552-8f20a12b738842f29bbbb33e097a56b7/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/blocked-f0ae842addfb46f48baafcd5147a456f/20261106-073707552-8f20a12b738842f29bbbb33e097a56b7/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/blocked-f0ae842addfb46f48baafcd5147a456f/20261106-073707552-8f20a12b738842f29bbbb33e097a56b7/requested.json"
+    },
+    {
+      "fileName": "occupied",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/blocked-f0ae842addfb46f48baafcd5147a456f/occupied"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/currency-7bfdf7978edb48c2ae34fc6f5ed46d90/20261106-073705401-fd77e035c4c3456884e1548b9a7bdb4d/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/currency-7bfdf7978edb48c2ae34fc6f5ed46d90/20261106-073705401-fd77e035c4c3456884e1548b9a7bdb4d/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/currency-7bfdf7978edb48c2ae34fc6f5ed46d90/20261106-073705401-fd77e035c4c3456884e1548b9a7bdb4d/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/currency-7bfdf7978edb48c2ae34fc6f5ed46d90/20261106-073705430-376fe1d4bcc24df98fa0a787a90e7767/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/currency-7bfdf7978edb48c2ae34fc6f5ed46d90/20261106-073705430-376fe1d4bcc24df98fa0a787a90e7767/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/currency-7bfdf7978edb48c2ae34fc6f5ed46d90/20261106-073705430-376fe1d4bcc24df98fa0a787a90e7767/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/currency-7bfdf7978edb48c2ae34fc6f5ed46d90/20261106-073705459-6c6cb6944f4f4b09834958c349a62acf/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/currency-7bfdf7978edb48c2ae34fc6f5ed46d90/20261106-073705459-6c6cb6944f4f4b09834958c349a62acf/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/currency-7bfdf7978edb48c2ae34fc6f5ed46d90/20261106-073705459-6c6cb6944f4f4b09834958c349a62acf/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/currency-7bfdf7978edb48c2ae34fc6f5ed46d90/20261106-073705488-62e53d7929af4cd09c1786f3f9d9ac90/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/currency-7bfdf7978edb48c2ae34fc6f5ed46d90/20261106-073705488-62e53d7929af4cd09c1786f3f9d9ac90/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/currency-7bfdf7978edb48c2ae34fc6f5ed46d90/20261106-073705488-62e53d7929af4cd09c1786f3f9d9ac90/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/live-save-1ee4c610245c443bbb3c7b3c082bc781/20261106-073707296-6c49d607311f40c7a3c4fcf92d2bc140/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/live-save-1ee4c610245c443bbb3c7b3c082bc781/20261106-073707296-6c49d607311f40c7a3c4fcf92d2bc140/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/live-save-1ee4c610245c443bbb3c7b3c082bc781/20261106-073707296-6c49d607311f40c7a3c4fcf92d2bc140/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/live-save-1ee4c610245c443bbb3c7b3c082bc781/20261106-073707314-159c9ec09e964bacacf07c8fe6e315e0/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/live-save-1ee4c610245c443bbb3c7b3c082bc781/20261106-073707314-159c9ec09e964bacacf07c8fe6e315e0/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/live-save-1ee4c610245c443bbb3c7b3c082bc781/20261106-073707314-159c9ec09e964bacacf07c8fe6e315e0/requested.json"
+    },
+    {
+      "fileName": "save.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/live-save-1ee4c610245c443bbb3c7b3c082bc781/CatGame/save.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707676-8c31ade2cd04449f8f20a99316993ee2/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707676-8c31ade2cd04449f8f20a99316993ee2/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707676-8c31ade2cd04449f8f20a99316993ee2/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707696-add23ad9f2d746fc874d100da2dea5cf/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707696-add23ad9f2d746fc874d100da2dea5cf/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707696-add23ad9f2d746fc874d100da2dea5cf/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707715-aded3a7bbfec4e42a10e19bd8ccfb75f/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707715-aded3a7bbfec4e42a10e19bd8ccfb75f/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707715-aded3a7bbfec4e42a10e19bd8ccfb75f/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707734-81b90867aff8421d9673a2932b3247dc/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707734-81b90867aff8421d9673a2932b3247dc/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707734-81b90867aff8421d9673a2932b3247dc/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707754-59ed8b5d031c428fbf70d57dbc0a064e/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707754-59ed8b5d031c428fbf70d57dbc0a064e/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707754-59ed8b5d031c428fbf70d57dbc0a064e/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707770-2677d9046a2d4fc49ed4d41bea15dd09/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707770-2677d9046a2d4fc49ed4d41bea15dd09/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707770-2677d9046a2d4fc49ed4d41bea15dd09/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707792-54db1cbaf6d64eb79600b88563c3653d/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707792-54db1cbaf6d64eb79600b88563c3653d/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707792-54db1cbaf6d64eb79600b88563c3653d/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707809-45f2c4de4f804701bc239d972e8f833d/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707809-45f2c4de4f804701bc239d972e8f833d/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707809-45f2c4de4f804701bc239d972e8f833d/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707827-e48906bf961344c38277c8b2bf971c39/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707827-e48906bf961344c38277c8b2bf971c39/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707827-e48906bf961344c38277c8b2bf971c39/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707848-d209f9e7aba6489ba83de59b46d587ca/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707848-d209f9e7aba6489ba83de59b46d587ca/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707848-d209f9e7aba6489ba83de59b46d587ca/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707866-4126f08bca864b76997cde1937a29e32/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707866-4126f08bca864b76997cde1937a29e32/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707866-4126f08bca864b76997cde1937a29e32/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707883-c1efae6142a24660aafc00093ba7c7c2/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707883-c1efae6142a24660aafc00093ba7c7c2/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707883-c1efae6142a24660aafc00093ba7c7c2/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707905-905bfb59d7214d56a05e6a8581327490/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707905-905bfb59d7214d56a05e6a8581327490/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707905-905bfb59d7214d56a05e6a8581327490/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707930-a25acc217ad34e45896b4b9fc3805024/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707930-a25acc217ad34e45896b4b9fc3805024/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707930-a25acc217ad34e45896b4b9fc3805024/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707959-9e25690af2f04f76a9bb3f9ffacd07d9/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707959-9e25690af2f04f76a9bb3f9ffacd07d9/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707959-9e25690af2f04f76a9bb3f9ffacd07d9/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707986-dcc9ec11d67b4d928de7eb67f2f6545b/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707986-dcc9ec11d67b4d928de7eb67f2f6545b/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073707986-dcc9ec11d67b4d928de7eb67f2f6545b/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708008-6754f21778224fe9a94a33d6c91e97e1/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708008-6754f21778224fe9a94a33d6c91e97e1/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708008-6754f21778224fe9a94a33d6c91e97e1/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708025-ba35da95cda147eb8cc2ceb73080e872/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708025-ba35da95cda147eb8cc2ceb73080e872/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708025-ba35da95cda147eb8cc2ceb73080e872/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708045-1a5f58a1665d4e68b33d1e26526adcdb/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708045-1a5f58a1665d4e68b33d1e26526adcdb/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708045-1a5f58a1665d4e68b33d1e26526adcdb/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708063-7ba76aaa17a645c199a3bb4cdc6ab5df/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708063-7ba76aaa17a645c199a3bb4cdc6ab5df/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708063-7ba76aaa17a645c199a3bb4cdc6ab5df/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708085-34e09f30a66c4bea88f3fe36c57738d7/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708085-34e09f30a66c4bea88f3fe36c57738d7/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708085-34e09f30a66c4bea88f3fe36c57738d7/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708105-7096d09cc5594bcc866849027690c6b5/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708105-7096d09cc5594bcc866849027690c6b5/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708105-7096d09cc5594bcc866849027690c6b5/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708125-ab7545499806447797ccd23b638a7f69/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708125-ab7545499806447797ccd23b638a7f69/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708125-ab7545499806447797ccd23b638a7f69/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708147-4b76b5cc6262422f8fc7166c4ccf77d9/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708147-4b76b5cc6262422f8fc7166c4ccf77d9/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708147-4b76b5cc6262422f8fc7166c4ccf77d9/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708172-624d4aea726648b6bf621db31b80c5cc/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708172-624d4aea726648b6bf621db31b80c5cc/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708172-624d4aea726648b6bf621db31b80c5cc/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708198-10965bc0cb464332b67b4c3e0c88844a/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708198-10965bc0cb464332b67b4c3e0c88844a/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708198-10965bc0cb464332b67b4c3e0c88844a/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708223-455c7d916c8a4def9bd2164c7e1e8a6c/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708223-455c7d916c8a4def9bd2164c7e1e8a6c/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708223-455c7d916c8a4def9bd2164c7e1e8a6c/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708249-b871fa1e90b24f50adf0f40d780b12d9/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708249-b871fa1e90b24f50adf0f40d780b12d9/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708249-b871fa1e90b24f50adf0f40d780b12d9/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708268-0a38624816e943d9a8b3ea5131917ac4/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708268-0a38624816e943d9a8b3ea5131917ac4/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708268-0a38624816e943d9a8b3ea5131917ac4/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708293-4bcdd4b97c64499fa74692034c974980/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708293-4bcdd4b97c64499fa74692034c974980/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708293-4bcdd4b97c64499fa74692034c974980/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708313-4974d7a565a54f5380e38860e0f07a9c/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708313-4974d7a565a54f5380e38860e0f07a9c/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708313-4974d7a565a54f5380e38860e0f07a9c/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708335-1dcfd18bb01f4a918a3940a7f0e35a9e/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708335-1dcfd18bb01f4a918a3940a7f0e35a9e/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708335-1dcfd18bb01f4a918a3940a7f0e35a9e/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708357-351cfcf6c3124f4c937f129e950964fa/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708357-351cfcf6c3124f4c937f129e950964fa/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708357-351cfcf6c3124f4c937f129e950964fa/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708379-b1da2d7fd21b4740861f146cb5bbb560/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708379-b1da2d7fd21b4740861f146cb5bbb560/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708379-b1da2d7fd21b4740861f146cb5bbb560/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708401-e428952e78764bbfb6ec9f7278fa8f9a/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708401-e428952e78764bbfb6ec9f7278fa8f9a/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708401-e428952e78764bbfb6ec9f7278fa8f9a/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708426-071707d2b2d14531a0b1a3706614d142/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708426-071707d2b2d14531a0b1a3706614d142/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708426-071707d2b2d14531a0b1a3706614d142/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708449-6ec6e05dfa1d43fba3a1300d3f1502a5/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708449-6ec6e05dfa1d43fba3a1300d3f1502a5/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708449-6ec6e05dfa1d43fba3a1300d3f1502a5/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708465-e8a7ce9178a749519d846d0b513a3b18/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708465-e8a7ce9178a749519d846d0b513a3b18/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708465-e8a7ce9178a749519d846d0b513a3b18/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708486-24e29ddf0efa4c3a95454e840f52e256/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708486-24e29ddf0efa4c3a95454e840f52e256/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708486-24e29ddf0efa4c3a95454e840f52e256/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708503-4a4201d8b65449858604673d99dcae1c/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708503-4a4201d8b65449858604673d99dcae1c/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/20261106-073708503-4a4201d8b65449858604673d99dcae1c/requested.json"
+    },
+    {
+      "fileName": "final-save.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/repeat-9ac44851bac54329b865e1c39b759674/final-save.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/roster-items-28ceb5073dec4f01a996d9d84eabb6e5/20261106-073705143-7048b4c0f4124e83977899c546981c5d/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/roster-items-28ceb5073dec4f01a996d9d84eabb6e5/20261106-073705143-7048b4c0f4124e83977899c546981c5d/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/roster-items-28ceb5073dec4f01a996d9d84eabb6e5/20261106-073705143-7048b4c0f4124e83977899c546981c5d/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/roster-items-28ceb5073dec4f01a996d9d84eabb6e5/20261106-073705181-5cdff8eb683d4a4ab1e350772362beb4/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/roster-items-28ceb5073dec4f01a996d9d84eabb6e5/20261106-073705181-5cdff8eb683d4a4ab1e350772362beb4/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/roster-items-28ceb5073dec4f01a996d9d84eabb6e5/20261106-073705181-5cdff8eb683d4a4ab1e350772362beb4/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/roster-items-28ceb5073dec4f01a996d9d84eabb6e5/20261106-073705202-4e2d2159cf1844aaa83c345b02c92485/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/roster-items-28ceb5073dec4f01a996d9d84eabb6e5/20261106-073705202-4e2d2159cf1844aaa83c345b02c92485/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/roster-items-28ceb5073dec4f01a996d9d84eabb6e5/20261106-073705202-4e2d2159cf1844aaa83c345b02c92485/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/roster-items-28ceb5073dec4f01a996d9d84eabb6e5/20261106-073705255-4c2cae0fdef54482aef8180b4bbbdf71/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/roster-items-28ceb5073dec4f01a996d9d84eabb6e5/20261106-073705255-4c2cae0fdef54482aef8180b4bbbdf71/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/roster-items-28ceb5073dec4f01a996d9d84eabb6e5/20261106-073705255-4c2cae0fdef54482aef8180b4bbbdf71/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/roster-items-28ceb5073dec4f01a996d9d84eabb6e5/20261106-073705269-efe43c25dff04504b09012d801e76c36/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/roster-items-28ceb5073dec4f01a996d9d84eabb6e5/20261106-073705269-efe43c25dff04504b09012d801e76c36/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/roster-items-28ceb5073dec4f01a996d9d84eabb6e5/20261106-073705269-efe43c25dff04504b09012d801e76c36/requested.json"
+    },
+    {
+      "fileName": "before.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/roster-items-28ceb5073dec4f01a996d9d84eabb6e5/20261106-073705289-856d169d6e6b49e9b8766f17cc3211e1/before.json"
+    },
+    {
+      "fileName": "operation.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/roster-items-28ceb5073dec4f01a996d9d84eabb6e5/20261106-073705289-856d169d6e6b49e9b8766f17cc3211e1/operation.json"
+    },
+    {
+      "fileName": "requested.json",
+      "relativePath": "Tests/robot/results/ci-3/isolated-editor/debugger-evidence/roster-items-28ceb5073dec4f01a996d9d84eabb6e5/20261106-073705289-856d169d6e6b49e9b8766f17cc3211e1/requested.json"
+    },
+    {
+      "fileName": "pipeline.json",
+      "relativePath": "Tests/robot/results/ci-3/pipeline.json"
+    },
+    {
+      "fileName": "artifacts.json",
+      "relativePath": "Tests/robot/results/ci-3/smoke/artifacts.json"
+    },
+    {
+      "fileName": "console.log",
+      "relativePath": "Tests/robot/results/ci-3/smoke/console.log"
+    },
+    {
+      "fileName": "log.html",
+      "relativePath": "Tests/robot/results/ci-3/smoke/log.html"
+    },
+    {
+      "fileName": "output.xml",
+      "relativePath": "Tests/robot/results/ci-3/smoke/output.xml"
+    },
+    {
+      "fileName": "report.html",
+      "relativePath": "Tests/robot/results/ci-3/smoke/report.html"
+    },
+    {
+      "fileName": "result.json",
+      "relativePath": "Tests/robot/results/ci-3/smoke/result.json"
+    },
+    {
+      "fileName": "run.json",
+      "relativePath": "Tests/robot/results/ci-3/smoke/run.json"
+    },
+    {
+      "fileName": "test-EditMode.log",
+      "relativePath": "Tests/robot/results/ci-3/smoke/unity-smoke/test-EditMode.log"
+    },
+    {
+      "fileName": "test-PlayMode.log",
+      "relativePath": "Tests/robot/results/ci-3/smoke/unity-smoke/test-PlayMode.log"
+    },
+    {
+      "fileName": "test-results-EditMode.xml",
+      "relativePath": "Tests/robot/results/ci-3/smoke/unity-smoke/test-results-EditMode.xml"
+    },
+    {
+      "fileName": "test-results-PlayMode.xml",
+      "relativePath": "Tests/robot/results/ci-3/smoke/unity-smoke/test-results-PlayMode.xml"
+    },
+    {
+      "fileName": "smoke.log",
+      "relativePath": "Tests/robot/results/ci-3/smoke.log"
+    },
+    {
+      "fileName": "source-hashes.json",
+      "relativePath": "Tests/robot/results/ci-3/source-hashes.json"
+    }
+  ],
+  "building": false,
+  "duration": 350244,
+  "number": 3,
+  "result": "FAILURE",
+  "url": "http://127.0.0.1:18880/job/CatGame-Quality/3/"
+}

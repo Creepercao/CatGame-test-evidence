@@ -1,0 +1,101 @@
+{
+  "started": "2026-11-06T09:28:04.679939+00:00",
+  "number": 5,
+  "url": "http://127.0.0.1:18880/job/CatGame-Quality/5/",
+  "trigger": "manual",
+  "commit": "42de242d40aa7cf3127bdc6f1877c46ffdc5ca3b",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "stages": [
+    {
+      "name": "compile",
+      "started": "2026-11-06T09:28:09.050261+00:00",
+      "command": [
+        "D:\\python\\python.exe",
+        "tools/qa/run_unity.py",
+        "--output",
+        "<PROJECT>\\Tests\\robot\\results\\ci-5\\compile",
+        "--method",
+        "CatGame.EditorTools.CatGameSetup.CICompileCheck"
+      ],
+      "exitCode": 0,
+      "ended": "2026-11-06T09:28:45.416927+00:00"
+    },
+    {
+      "name": "smoke",
+      "started": "2026-11-06T09:28:45.419929+00:00",
+      "command": [
+        "D:\\python\\python.exe",
+        "tools/qa/run_suite.py",
+        "--output",
+        "<PROJECT>\\Tests\\robot\\results\\ci-5\\smoke",
+        "--profile",
+        "smoke"
+      ],
+      "exitCode": 0,
+      "ended": "2026-11-06T09:29:53.578717+00:00"
+    },
+    {
+      "name": "configuration-gate",
+      "started": "2026-11-06T09:29:53.585248+00:00",
+      "command": [
+        "D:\\python\\python.exe",
+        "tools/qa/run_suite.py",
+        "--output",
+        "<PROJECT>\\Tests\\robot\\results\\ci-5\\configuration-gate",
+        "--suite",
+        "<PROJECT>\\Tests\\robot\\results\\ci-5\\ci-gate.robot"
+      ],
+      "exitCode": 0,
+      "ended": "2026-11-06T09:29:55.404192+00:00"
+    },
+    {
+      "name": "full",
+      "started": "2026-11-06T09:29:55.406192+00:00",
+      "command": [
+        "D:\\python\\python.exe",
+        "tools/qa/run_suite.py",
+        "--output",
+        "<PROJECT>\\Tests\\robot\\results\\ci-5\\full",
+        "--profile",
+        "full"
+      ],
+      "exitCode": 0,
+      "ended": "2026-11-06T09:34:29.069489+00:00"
+    },
+    {
+      "name": "build",
+      "started": "2026-11-06T09:34:29.090549+00:00",
+      "command": [
+        "D:\\python\\python.exe",
+        "tools/qa/run_unity.py",
+        "--output",
+        "<PROJECT>\\Tests\\robot\\results\\ci-5\\build",
+        "--method",
+        "CatGame.EditorTools.CatGameSetup.BuildCIPackage"
+      ],
+      "exitCode": 0,
+      "ended": "2026-11-06T09:36:35.711114+00:00"
+    },
+    {
+      "name": "business",
+      "started": "2026-11-06T09:36:35.722631+00:00",
+      "command": [
+        "D:\\python\\python.exe",
+        "tools/qa/run_suite.py",
+        "--output",
+        "<PROJECT>\\Tests\\robot\\results\\ci-5\\business",
+        "--profile",
+        "business"
+      ],
+      "exitCode": 0,
+      "ended": "2026-11-06T09:36:55.557562+00:00"
+    }
+  ],
+  "releaseAllowed": true,
+  "archive": "<PROJECT>\\Build\\ci\\deliveries\\5\\CatGame-Windows.zip",
+  "archiveSha256": "805ebc4415d07806474fb1531e4e8480eb7197161737bcc84b45df8d631209ff",
+  "binaryFiles": 387,
+  "ended": "2026-11-06T09:37:13.834094+00:00",
+  "exitCode": 0
+}

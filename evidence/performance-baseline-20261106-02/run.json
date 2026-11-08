@@ -1,0 +1,25 @@
+{
+  "runId": "20261106-165840-f6e18381",
+  "started": "2026-11-06T08:58:40.629732+00:00",
+  "profile": "performance",
+  "explicitSuites": false,
+  "commit": "cf8f2308fb12654adb15df39042bb3c0614b6530",
+  "worktree": "",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "unity": "D:\\Unity\\2022.3.21f1\\Editor\\Unity.exe",
+  "command": [
+    "D:\\python\\python.exe",
+    "-m",
+    "robot",
+    "--outputdir",
+    "<PROJECT>\\Tests\\robot\\results\\performance-baseline-20261106-02",
+    "<PROJECT>\\Tests\\robot\\tests\\performance.robot"
+  ],
+  "suites": [
+    {
+      "path": "<PROJECT>\\Tests\\robot\\tests\\performance.robot",
+      "sha256": "ce4b58dec8838dfd930cbc9deb6a22be56f5b3026b43b6a056ed571635de3286"
+    }
+  ]
+}

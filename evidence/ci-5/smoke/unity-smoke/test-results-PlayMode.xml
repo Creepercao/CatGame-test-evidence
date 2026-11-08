@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-06 09:29:49Z" end-time="2026-11-06 09:29:51Z" duration="2.5582129">
+  <test-suite type="TestSuite" id="1000" name="喵屋" fullname="喵屋" runstate="Runnable" testcasecount="86" result="Passed" start-time="2026-11-06 09:29:49Z" end-time="2026-11-06 09:29:51Z" duration="2.558213" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1108" name="CatGame.Tests.dll" fullname="&lt;PROJECT&gt;/Library/ScriptAssemblies/CatGame.Tests.dll" runstate="Runnable" testcasecount="86" result="Passed" start-time="2026-11-06 09:29:49Z" end-time="2026-11-06 09:29:51Z" duration="2.546270" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="58580" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+      </properties>
+      <test-suite type="TestSuite" id="1109" name="CatGame" fullname="CatGame" runstate="Runnable" testcasecount="86" result="Passed" start-time="2026-11-06 09:29:49Z" end-time="2026-11-06 09:29:51Z" duration="2.544279" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1110" name="Tests" fullname="CatGame.Tests" runstate="Runnable" testcasecount="86" result="Passed" start-time="2026-11-06 09:29:49Z" end-time="2026-11-06 09:29:51Z" duration="2.542143" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1076" name="ShopAndItemUpgradeTests" fullname="CatGame.Tests.ShopAndItemUpgradeTests" classname="CatGame.Tests.ShopAndItemUpgradeTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-06 09:29:49Z" end-time="2026-11-06 09:29:51Z" duration="2.536956" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1078" name="Items_use_cat_sized_opaque_bounds_ground_anchors_and_feeder_depth" fullname="CatGame.Tests.ShopAndItemUpgradeTests.Items_use_cat_sized_opaque_bounds_ground_anchors_and_feeder_depth" methodname="Items_use_cat_sized_opaque_bounds_ground_anchors_and_feeder_depth" classname="CatGame.Tests.ShopAndItemUpgradeTests" runstate="Runnable" seed="1455626887" result="Passed" start-time="2026-11-06 09:29:49Z" end-time="2026-11-06 09:29:51Z" duration="1.724071" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1077" name="One_shop_scroll_jumps_sections_keeps_free_offset_and_partial_cards" fullname="CatGame.Tests.ShopAndItemUpgradeTests.One_shop_scroll_jumps_sections_keeps_free_offset_and_partial_cards" methodname="One_shop_scroll_jumps_sections_keeps_free_offset_and_partial_cards" classname="CatGame.Tests.ShopAndItemUpgradeTests" runstate="Runnable" seed="1824464931" result="Passed" start-time="2026-11-06 09:29:51Z" end-time="2026-11-06 09:29:51Z" duration="0.791494" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,9 @@
+[
+  {
+    "keyword": "Assert Milk Count",
+    "error": "PRODUCT: expected Milk=99, actual=1",
+    "classification": "needs-triage",
+    "lastStepScreenshot": "<PROJECT>\\Tests\\robot\\results\\business-failure-20261106-01\\business-da0c2f3c\\player\\99f316b97ce74183a40607daf859d6af.png",
+    "screenshot": "<PROJECT>\\Tests\\robot\\results\\business-failure-20261106-01\\business-da0c2f3c\\player\\6debcadb957d40a7ab7c6994cb5a8cb0.png"
+  }
+]

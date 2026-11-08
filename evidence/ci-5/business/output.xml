@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-06T17:36:39.069631" rpa="false" schemaversion="5">
+<suite id="s1" name="Business" source="&lt;PROJECT&gt;\Tests\robot\tests\business.robot">
+<kw name="Prepare Isolated Game" owner="GameBusiness" type="SETUP">
+<status status="PASS" start="2026-11-06T17:36:39.204706" elapsed="0.013564"/>
+</kw>
+<test id="s1-t1" name="Pet Purchase Save And Restart" line="9">
+<kw name="Launch Game" owner="GameBusiness">
+<status status="PASS" start="2026-11-06T17:36:39.220258" elapsed="7.799114"/>
+</kw>
+<kw name="Start New Game" owner="GameBusiness">
+<status status="PASS" start="2026-11-06T17:36:47.019372" elapsed="0.677597"/>
+</kw>
+<kw name="Pet Cat" owner="GameBusiness">
+<arg>200</arg>
+<status status="PASS" start="2026-11-06T17:36:47.696969" elapsed="0.367499"/>
+</kw>
+<kw name="Buy Milk Cat" owner="GameBusiness">
+<status status="PASS" start="2026-11-06T17:36:48.064468" elapsed="0.379396"/>
+</kw>
+<kw name="Assert Milk Count" owner="GameBusiness">
+<arg>2</arg>
+<status status="PASS" start="2026-11-06T17:36:48.444873" elapsed="0.000000"/>
+</kw>
+<kw name="Save And Quit Game" owner="GameBusiness">
+<status status="PASS" start="2026-11-06T17:36:48.444873" elapsed="0.637736"/>
+</kw>
+<kw name="Launch Game" owner="GameBusiness">
+<status status="PASS" start="2026-11-06T17:36:49.082609" elapsed="5.328403"/>
+</kw>
+<kw name="Continue Saved Game" owner="GameBusiness">
+<status status="PASS" start="2026-11-06T17:36:54.411012" elapsed="0.364981"/>
+</kw>
+<kw name="Assert Milk Count" owner="GameBusiness">
+<arg>2</arg>
+<status status="PASS" start="2026-11-06T17:36:54.775993" elapsed="0.001001"/>
+</kw>
+<kw name="Save And Quit Game" owner="GameBusiness">
+<status status="PASS" start="2026-11-06T17:36:54.776994" elapsed="0.564282"/>
+</kw>
+<tag>business</tag>
+<tag>player</tag>
+<tag>regression</tag>
+<status status="PASS" start="2026-11-06T17:36:39.219264" elapsed="16.122012"/>
+</test>
+<kw name="Close Owned Game" owner="GameBusiness" type="TEARDOWN">
+<status status="PASS" start="2026-11-06T17:36:55.342786" elapsed="0.000000"/>
+</kw>
+<doc>Development Player callbacks; isolated saves; actual process restart. No native pointer claim.</doc>
+<status status="PASS" start="2026-11-06T17:36:39.074160" elapsed="16.268626"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">business</stat>
+<stat pass="1" fail="0" skip="0">player</stat>
+<stat pass="1" fail="0" skip="0">regression</stat>
+</tag>
+<suite>
+<stat name="Business" id="s1" pass="1" fail="0" skip="0">Business</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

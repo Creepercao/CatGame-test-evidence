@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "scope": "expected sampling failure contract, not game performance",
+  "ownedPid": 46392,
+  "realExitCode": 1,
+  "partialFrames": 5,
+  "complete": false
+}

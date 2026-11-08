@@ -1,0 +1,13 @@
+{
+    "name": "single",
+    "started": 15.349585700000003,
+    "elapsed": 60.0068799,
+    "cpuMilliseconds": 13718.75,
+    "workingSetBefore": 255373312,
+    "workingSetAfter": 260431872,
+    "frames": 3596,
+    "visible": 1,
+    "owned": 1,
+    "boundaryChecks": 59,
+    "boundaryErrors": 0
+}

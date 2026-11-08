@@ -1,0 +1,12 @@
+{
+  "number": 1,
+  "command": [
+    "<PROJECT>\\Build\\Performance\\QA\\CatGameQA.exe",
+    "-screen-fullscreen",
+    "0",
+    "-logFile",
+    "<PROJECT>\\Tests\\robot\\results\\performance-failure-20261106-01\\failure-proof\\case\\round-1\\player.log"
+  ],
+  "started": "2026-11-06T08:53:02.330082+00:00",
+  "pid": 46392
+}

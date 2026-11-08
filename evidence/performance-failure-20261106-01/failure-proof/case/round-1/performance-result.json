@@ -1,0 +1,26 @@
+{
+    "complete": false,
+    "probe": true,
+    "errors": 1,
+    "clicks": 0,
+    "purchases": 0,
+    "attempts": 0,
+    "coldCG": 0,
+    "warmCG": 0,
+    "roundTrips": 0,
+    "corruptRecovery": 0,
+    "phases": [],
+    "operations": [
+        {
+            "phase": "startup",
+            "action": "new-game-home-ready",
+            "id": "",
+            "index": 0,
+            "frame": 2,
+            "success": true,
+            "elapsedMs": 416.177,
+            "realtime": 4.1083001,
+            "utcTicks": 639295519882061019
+        }
+    ]
+}

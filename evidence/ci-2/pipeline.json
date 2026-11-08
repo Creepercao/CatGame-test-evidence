@@ -1,0 +1,57 @@
+{
+  "started": "2026-11-06T07:30:11.793070+00:00",
+  "number": 2,
+  "url": "http://127.0.0.1:18880/job/CatGame-Quality/2/",
+  "trigger": "manual",
+  "commit": "e387f3ca575ca16e035679f4ffc254021e4796d4",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "stages": [
+    {
+      "name": "compile",
+      "started": "2026-11-06T07:30:15.320182+00:00",
+      "command": [
+        "D:\\python\\python.exe",
+        "tools/qa/run_unity.py",
+        "--output",
+        "<PROJECT>\\Tests\\robot\\results\\ci-2\\compile",
+        "--method",
+        "CatGame.EditorTools.CatGameSetup.CICompileCheck"
+      ],
+      "exitCode": 0,
+      "ended": "2026-11-06T07:30:46.075645+00:00"
+    },
+    {
+      "name": "smoke",
+      "started": "2026-11-06T07:30:46.077645+00:00",
+      "command": [
+        "D:\\python\\python.exe",
+        "tools/qa/run_suite.py",
+        "--output",
+        "<PROJECT>\\Tests\\robot\\results\\ci-2\\smoke",
+        "--profile",
+        "smoke"
+      ],
+      "exitCode": 0,
+      "ended": "2026-11-06T07:31:45.238487+00:00"
+    },
+    {
+      "name": "configuration-gate",
+      "started": "2026-11-06T07:31:45.247752+00:00",
+      "command": [
+        "D:\\python\\python.exe",
+        "tools/qa/run_suite.py",
+        "--output",
+        "<PROJECT>\\Tests\\robot\\results\\ci-2\\configuration-gate",
+        "--suite",
+        "<PROJECT>\\Tests\\robot\\results\\ci-2\\ci-gate.robot"
+      ],
+      "exitCode": 1,
+      "ended": "2026-11-06T07:31:47.044180+00:00"
+    }
+  ],
+  "releaseAllowed": false,
+  "error": "Stage failed: configuration-gate",
+  "ended": "2026-11-06T07:31:47.047145+00:00",
+  "exitCode": 1
+}

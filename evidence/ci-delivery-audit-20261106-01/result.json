@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "utc": "2026-11-06T11:49:37.232876+00:00",
+  "number": 5,
+  "commit": "42de242d40aa7cf3127bdc6f1877c46ffdc5ca3b",
+  "durationMs": 554798,
+  "stages": [
+    "compile",
+    "smoke",
+    "configuration-gate",
+    "full",
+    "build",
+    "business"
+  ],
+  "nunit": {
+    "PlayMode": {
+      "total": "86",
+      "passed": "86",
+      "failed": "0",
+      "skipped": "0",
+      "duration": "155.3551328"
+    },
+    "EditMode": {
+      "total": "51",
+      "passed": "51",
+      "failed": "0",
+      "skipped": "0",
+      "duration": "23.736103"
+    }
+  },
+  "robotPassed": {
+    "smoke": 2,
+    "configuration-gate": 1,
+    "full": 5,
+    "business": 1
+  },
+  "sourceFilesVerified": 2106,
+  "businessSteps": 12,
+  "screenshots": 6,
+  "businessPids": [
+    62176,
+    41856
+  ],
+  "runtimeSha256": "4bcefc7fc682798aa8ef44a3c3ce665184840213f41a7f8f9996e6516b49922c",
+  "archivedArtifacts": 232,
+  "deliveryFiles": 387,
+  "zipBytes": 257758786,
+  "zipSha256": "805ebc4415d07806474fb1531e4e8480eb7197161737bcc84b45df8d631209ff",
+  "scope": "Build 5 only; previous same-source failure gates remain separately proven by builds 2/3/4"
+}

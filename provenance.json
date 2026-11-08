@@ -1,0 +1,1686 @@
+{
+  "prepared": "2026-11-08",
+  "originCommit": "42de242d40aa7cf3127bdc6f1877c46ffdc5ca3b",
+  "files": [
+    {
+      "source": "Assets/Editor/CatGameSetup.cs",
+      "path": "harness/Assets/Editor/CatGameSetup.cs",
+      "sourceSha256": "46b213ee16ecb7435f2c107a5a403cf2df0972f71e5c5b3d5c40cd90cb233d3c",
+      "publishedSha256": "950d9cdb2c0d41842078939dc3201ad234ef58e5bc3eab89d3936aa1bf94b4e7",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Scripts/PlayerBusinessQA.cs",
+      "path": "harness/Assets/Scripts/PlayerBusinessQA.cs",
+      "sourceSha256": "0ab77f3f203b93402e2d0b433af05647b8f2f0c9744ce3d85080b2ba5efd61dc",
+      "publishedSha256": "8d200bacfa6b576ac91b8568c364b4566b4ec2954929520baea6cb1f4a44e781",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Scripts/PlayerBusinessQA.cs.meta",
+      "path": "harness/Assets/Scripts/PlayerBusinessQA.cs.meta",
+      "sourceSha256": "f9662fbd303c5420d616917c95e65a478c04dee7afb08604c056357b35c462f8",
+      "publishedSha256": "e91a6dd48002dafd11896d1d91dbbe8f2fa73752bde770120cdcfd392986f60c",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Scripts/PlayerExternalDebugQA.cs",
+      "path": "harness/Assets/Scripts/PlayerExternalDebugQA.cs",
+      "sourceSha256": "af30af39494298b4ae4ddb2e5770b6ba044874d4b87a9c235c99b1802f032a10",
+      "publishedSha256": "4a692574af8d33f4aa174f0b6cd7886d4bee4cfda888b879ca52a3e01ce94772",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Scripts/PlayerExternalDebugQA.cs.meta",
+      "path": "harness/Assets/Scripts/PlayerExternalDebugQA.cs.meta",
+      "sourceSha256": "a874765bf2400fd53c1e9968dc6be013fc85dc134f8e30f3c9bd910ce32fb5bd",
+      "publishedSha256": "a874765bf2400fd53c1e9968dc6be013fc85dc134f8e30f3c9bd910ce32fb5bd",
+      "transformed": false
+    },
+    {
+      "source": "Assets/Scripts/PlayerPerformanceQA.cs",
+      "path": "harness/Assets/Scripts/PlayerPerformanceQA.cs",
+      "sourceSha256": "9f428d95a3674d4742692f705d96c44959ed5fafc331e41004191f39954ca72d",
+      "publishedSha256": "2c3a108211b1e5d884fd0b8c38d7a1badccbb974b074592176c74efc783f67cf",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Scripts/PlayerPerformanceQA.cs.meta",
+      "path": "harness/Assets/Scripts/PlayerPerformanceQA.cs.meta",
+      "sourceSha256": "1701e303e1f1c1b22ab01fe54cd6bd3ced1c8b286626d177b22db60bfcb9bd1e",
+      "publishedSha256": "4f3a8d4f90e0a295cbba5fef3d1e430015fa57a8914ea5a8caeea0cfe1f56bf5",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Scripts/PlayerSettingsQA.cs",
+      "path": "harness/Assets/Scripts/PlayerSettingsQA.cs",
+      "sourceSha256": "9f29c4e64f3d21cc1cf03ccbfb057ac2828b8bcbc96a6761df53df172145b565",
+      "publishedSha256": "1a42e9d92b46795aae00d5a2dc83717af34a9dab19f43e59554709320ad32486",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Scripts/PlayerSettingsQA.cs.meta",
+      "path": "harness/Assets/Scripts/PlayerSettingsQA.cs.meta",
+      "sourceSha256": "56bfa8064dd50103393f3d68ad736cb798c0592d2b51a5fd28b86ce979865350",
+      "publishedSha256": "56bfa8064dd50103393f3d68ad736cb798c0592d2b51a5fd28b86ce979865350",
+      "transformed": false
+    },
+    {
+      "source": "Assets/Scripts/PlayerStoryQA.cs",
+      "path": "harness/Assets/Scripts/PlayerStoryQA.cs",
+      "sourceSha256": "13c9623f949a24144d39d09cd8959276a303775bd33bdf89829e340b969df4ea",
+      "publishedSha256": "13c9623f949a24144d39d09cd8959276a303775bd33bdf89829e340b969df4ea",
+      "transformed": false
+    },
+    {
+      "source": "Assets/Scripts/PlayerStoryQA.cs.meta",
+      "path": "harness/Assets/Scripts/PlayerStoryQA.cs.meta",
+      "sourceSha256": "27034088d65af78f59ed2b6729bd1cffecde1cfade262c5020c67b5d538f2a51",
+      "publishedSha256": "08bc04638ef3469167ba49c7e66965e2ba1e7dc91d5ac060c2b3ff5d8518177b",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Scripts/PlayerVisualQA.cs",
+      "path": "harness/Assets/Scripts/PlayerVisualQA.cs",
+      "sourceSha256": "ce9b71f3e84dc0f375fd29368a9b17bc9b37a10b7a0d25f38c791699518449e7",
+      "publishedSha256": "ce9b71f3e84dc0f375fd29368a9b17bc9b37a10b7a0d25f38c791699518449e7",
+      "transformed": false
+    },
+    {
+      "source": "Assets/Scripts/PlayerVisualQA.cs.meta",
+      "path": "harness/Assets/Scripts/PlayerVisualQA.cs.meta",
+      "sourceSha256": "247c2d909ff00db76338431cf59aa9c93f5326e678377b8cacbeba37c8e32c15",
+      "publishedSha256": "01ca728361520759a09a9f4c3ed54f0e6b11d45b22f8dbe19d66e9828e577fe5",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/EditMode.meta",
+      "path": "harness/Assets/Tests/EditMode.meta",
+      "sourceSha256": "f954b9fbc52674aa391890f24f13a9fc4e9df22ddeb20da4af4c07aa11566451",
+      "publishedSha256": "9a1dc8d56ebef00d53853b17f395bf24db1c056b5fd91d45614057b7a42df7af",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/EditMode/AllAchievementCGTests.cs",
+      "path": "harness/Assets/Tests/EditMode/AllAchievementCGTests.cs",
+      "sourceSha256": "bf8f1491efc0d1a46bd2c076d5b576cbd96b401b97591b304f8f7ea3dc886c4a",
+      "publishedSha256": "97567b19173f8e0774cf98ee944ce3fe4c3afd521fbf20139d37c85b4cc0b8b9",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/EditMode/AllAchievementCGTests.cs.meta",
+      "path": "harness/Assets/Tests/EditMode/AllAchievementCGTests.cs.meta",
+      "sourceSha256": "098579e6e1e0694fce387d4ec44354a07591248eb3f9991951128736e36aaac4",
+      "publishedSha256": "51e770fc7c68f03e9576deaa4309567a2e3d5ff4deb62f12bf112e3c03da1f2c",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/EditMode/CatGame.EditTests.asmdef",
+      "path": "harness/Assets/Tests/EditMode/CatGame.EditTests.asmdef",
+      "sourceSha256": "5be32abb9ba6c14129e94037a37718ffd9c687973c9d45e0961f322ccb0ec4ff",
+      "publishedSha256": "5bcefed86b670888759d82a25fb736155743abd984fdd889046266a48e4a6620",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/EditMode/CatGame.EditTests.asmdef.meta",
+      "path": "harness/Assets/Tests/EditMode/CatGame.EditTests.asmdef.meta",
+      "sourceSha256": "5e2df9fd29db1c1850643158acd538c5f99ada3768f5d74e207cfbad2781b193",
+      "publishedSha256": "94ebc42e960bf949f0eb9b12b6355e9ec0ff35d7a2e14333dcf6e9f768c17f30",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/EditMode/EndingRulesTests.cs",
+      "path": "harness/Assets/Tests/EditMode/EndingRulesTests.cs",
+      "sourceSha256": "b9561c81101c0757de09baceeb9b5a1ff7947a7dfe078489ae4b368a54ddbfb0",
+      "publishedSha256": "18f55aa29fab0eddef4c6df725628c5dec1f3398767e917de9509058f54ba523",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/EditMode/EndingRulesTests.cs.meta",
+      "path": "harness/Assets/Tests/EditMode/EndingRulesTests.cs.meta",
+      "sourceSha256": "89590f7e328ca7c021cb1d096664d66cf395574f99136c39977a0c826547c3f2",
+      "publishedSha256": "9f02cb8eeeff20df9dbb6d918e45e31f1d0d4062204a12c16ac6d0e82e3423c4",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/EditMode/IdleMathTests.cs",
+      "path": "harness/Assets/Tests/EditMode/IdleMathTests.cs",
+      "sourceSha256": "e84b563cf43036ec77bc1d1bf359bdafee7db2faf033ddbdac4640d7618909aa",
+      "publishedSha256": "a2835592e10c1e0c03cacd9334c1eae98c5d612cd9197fbcf6bf8a64c87ec595",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/EditMode/IdleMathTests.cs.meta",
+      "path": "harness/Assets/Tests/EditMode/IdleMathTests.cs.meta",
+      "sourceSha256": "012c7bd7c7128cfaaa6e2671e6f2966ab9e0638461b105f9e832340649bedcd2",
+      "publishedSha256": "702d7fd26added6d1d6614116f06f386aae5f4b4c1e9e2479e2966170586136f",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/EditMode/SaveSystemTests.cs",
+      "path": "harness/Assets/Tests/EditMode/SaveSystemTests.cs",
+      "sourceSha256": "6577c0d2b143133cd3767e77689f79c9d5f109bcbc2fc0068b86bc33d42f8cb1",
+      "publishedSha256": "5c54ea13b42bc906bfc314011bffd69a508ae0a2b6d838162696a26ac0aae6d0",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/EditMode/SaveSystemTests.cs.meta",
+      "path": "harness/Assets/Tests/EditMode/SaveSystemTests.cs.meta",
+      "sourceSha256": "f90818a1c755ef401532edf832bdde05619bc541ebbba2f24bec1b7317e498c0",
+      "publishedSha256": "36bd49efc446f8ff06b407e7a00a49f8bf48247d4cadd2e8c304195af0b754f9",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/EditMode/SceneAndAssetTests.cs",
+      "path": "harness/Assets/Tests/EditMode/SceneAndAssetTests.cs",
+      "sourceSha256": "cb1525863d46f2fe2da376fdd2f3b25a9e5727619e47186a510db93adc6d4ebf",
+      "publishedSha256": "f9de019dbf2dd6dd5c6a6b51658b48df79235183634c1618c66c50a784bfff84",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/EditMode/SceneAndAssetTests.cs.meta",
+      "path": "harness/Assets/Tests/EditMode/SceneAndAssetTests.cs.meta",
+      "sourceSha256": "0f6acc29cbb59b4e0575062e8bea1965de1e655cf4380d0f93b61e816dbe9b1d",
+      "publishedSha256": "729da5487c42560f5992a32de0997c3e4f54fe99721fb0eb8121258d57164f01",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/EditMode/StorySaveTests.cs",
+      "path": "harness/Assets/Tests/EditMode/StorySaveTests.cs",
+      "sourceSha256": "66f9825616bdbacdb82ed90d2b6a536a0cbd0e4078f3d4c6c71a5d8ee7ad7bbb",
+      "publishedSha256": "a9b9687cfb928bc3968be70bf9f0858ab06b47a39b7f751bd793cc95bffa865b",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/EditMode/StorySaveTests.cs.meta",
+      "path": "harness/Assets/Tests/EditMode/StorySaveTests.cs.meta",
+      "sourceSha256": "0252c18568b018e6281c55f62f30bfa045c7e01e6e4d5dfe1b9df2a0b783394e",
+      "publishedSha256": "249d4d3bee2edf441569df3d7ba8cc0a15eff69d580a3070a1a42542b09cba00",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode.meta",
+      "path": "harness/Assets/Tests/PlayMode.meta",
+      "sourceSha256": "ca0f24b37768b3e80462fcd2aceeb8e22a899ca32e45aac63917f7bb130b7c5c",
+      "publishedSha256": "c989e538c8b0f4d7cfd15fc43f98c9d2cea08b8cc67c52bc06a9057e16fa7e8d",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/AchievementToastVisualTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/AchievementToastVisualTests.cs",
+      "sourceSha256": "7500867e5144d1748c67a075612fbbcc816690f6aeb01f32ee4d14d4da01c943",
+      "publishedSha256": "0c60d006a4f5dd673a014a4a3c5caf4eef92f3c8fa4acbbae2ae533dc5cf2ccc",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/AchievementToastVisualTests.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/AchievementToastVisualTests.cs.meta",
+      "sourceSha256": "478798a977a25481e52632a21edd7e9ce0d2383bcace8fba60d34621c7abd00b",
+      "publishedSha256": "9ba8175f12a38aa00401ac1e0926a0b17427ea2fb5be0e44de9062b0f278357a",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/AnimationTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/AnimationTests.cs",
+      "sourceSha256": "08b740fbe7402da35874d0b32675d114dc8cdeb444e548a5423f48893b279739",
+      "publishedSha256": "f878e7a4bcff7532b6702ad0e78743b2d98bbecc07c888ca88ab26acbe1e6578",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/AnimationTests.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/AnimationTests.cs.meta",
+      "sourceSha256": "3c90b33c833f07b6b878308aa1701c4779e2cd0bfaf4870045aabca26c147cf9",
+      "publishedSha256": "08af9a313752bb63294888ca1ac9d2e12552f3d8ec163247de204df60d554892",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/CatGame.Tests.asmdef",
+      "path": "harness/Assets/Tests/PlayMode/CatGame.Tests.asmdef",
+      "sourceSha256": "e54d8448fc759cf931267d28ec85b53d5ea92212c39da8362c651cb8f26479dd",
+      "publishedSha256": "5acfd6dda4fec5c0d921ece89a523b718e52f8868137fd3e9706a10b182d1ad4",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/CatGame.Tests.asmdef.meta",
+      "path": "harness/Assets/Tests/PlayMode/CatGame.Tests.asmdef.meta",
+      "sourceSha256": "045b00c892b09bae930054fd822aff8a03b419be0d88c1bf2df8ef8513677f69",
+      "publishedSha256": "c907f9cc9d429a2df4d6b374d851c7a72a5414ab3638c1fd174ec18083971aba",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/CatGameTestBase.cs",
+      "path": "harness/Assets/Tests/PlayMode/CatGameTestBase.cs",
+      "sourceSha256": "98b65be5715be3623d075685193cb4c8443ecce0177aa8216b831df6b2e9d73d",
+      "publishedSha256": "4262e388a12db2a55aad83c200130d3b8461ec24c52dddeaa758eb649bbb4c23",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/CatGameTestBase.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/CatGameTestBase.cs.meta",
+      "sourceSha256": "e0923ade8003152a221450efd0a7cf182470002051d4cba7d9d9113fcc1c95ad",
+      "publishedSha256": "f6dad82e92e1e1416412a7e5eda0f72f532281cd71d2921ae48ba71bd31285aa",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/CatRosterTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/CatRosterTests.cs",
+      "sourceSha256": "d8e6367015ef7dc7c824e9f700e830404b5e0af24cec4217ed01a1ffb627f5c3",
+      "publishedSha256": "b2754a5ff15fcbc5e3f520344a220a574dd9253fc98bd7cbe4a792ca33be8b01",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/CatRosterTests.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/CatRosterTests.cs.meta",
+      "sourceSha256": "b9ac45a7e8073ba12db3cd049d00e6c36bcce2c3dc83962aa59dec8ee21b5c03",
+      "publishedSha256": "b1ae3670134446af8bbe2e4437bcbb5a94bc8e75f083664d0098ba52455ff9aa",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/EditorDebuggerTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/EditorDebuggerTests.cs",
+      "sourceSha256": "5d27e3829fef3532c29415cbf4cf6c236b443d950acbac2c2c4ee1a2ed5a5eee",
+      "publishedSha256": "64a717dc1f5975d9b7a30bd3ecb8b721fac5f06980d837b1fff9713eb2992197",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/EditorDebuggerTests.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/EditorDebuggerTests.cs.meta",
+      "sourceSha256": "452582b591c6f797258b67d378938325976820832d5603d2bb5ee87e57ae7d46",
+      "publishedSha256": "5f7355b613a4d8088db058fdd0d1351a0ca2d44a9c4aa9bd8166edd85aca228d",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/IntroDialogueTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/IntroDialogueTests.cs",
+      "sourceSha256": "4cb5fa6fc6f28425f0109c8b9f482ed8ba60eb8470ccf2c473e352ea4856045c",
+      "publishedSha256": "fbe5c3d030d9d57419185cb89542ba1722e3dda7effedee1eaced9f15e8c70c1",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/IntroDialogueTests.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/IntroDialogueTests.cs.meta",
+      "sourceSha256": "b603785b12202956ed8f0a988f3e9b0273e1efb7e2bd660eb60f70ff2db711aa",
+      "publishedSha256": "f3def7c52e5a897a4195e0acc72d0531440cab98a9fdb2a8d9cd77ce0a2c174e",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/IntroSaveLifecycleTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/IntroSaveLifecycleTests.cs",
+      "sourceSha256": "7f92b3176006e4c981b842d520f7ddf7dcb06e84b30b9f607f25e97a99e729a8",
+      "publishedSha256": "b40fb359b0e34b8a7e8ef153f848921347c22a9d84575b53a09651f466311179",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/IntroSaveLifecycleTests.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/IntroSaveLifecycleTests.cs.meta",
+      "sourceSha256": "b0fb32086b0282615368f6a2e564cad6785a13e2b5c0bc55a6fde718b85cc326",
+      "publishedSha256": "9ac697d95b6ef0b61374cdc8585d8f921f2019631c29228f3094480a125bdad3",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/ItemVisualTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/ItemVisualTests.cs",
+      "sourceSha256": "1be5c1aeb729d8348e059cbe686abff95e55374a912eee4dc752c5173cd37f6e",
+      "publishedSha256": "f59596c673d0fc5318c4e7dba0b50da8e248dac89e299bd3f780f92adb021044",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/ItemVisualTests.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/ItemVisualTests.cs.meta",
+      "sourceSha256": "38b929b1b59478af7a1a95356861fc2bce4ed6c769140f2f91b3161731d70498",
+      "publishedSha256": "0ddfa1749ffc6367dcfd71ce3d9b47147e276c2cd6a91caeeee67e15c138e5d4",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/PerformanceGuardTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/PerformanceGuardTests.cs",
+      "sourceSha256": "0857b5cc1052ab7b8acf6d8f6e99cc440e35e97e43195375c9f51b0e1ba615ea",
+      "publishedSha256": "8d5a5470e53f9e569f259379133c384c906a63b70bae7856176d819a83e46589",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/PerformanceGuardTests.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/PerformanceGuardTests.cs.meta",
+      "sourceSha256": "b03da528358b9579d51640b6cd3443b5a6118347a8eeee61a0f2240e030b4485",
+      "publishedSha256": "e1a69535379e6e700f3712bdd38be5270d8b3de33591fbbed96f68387d56cfad",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/PixelCatIntegrationTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/PixelCatIntegrationTests.cs",
+      "sourceSha256": "dbc880637555c767b0e6872112f38defce88339aabd96edd717093451e8e8f6f",
+      "publishedSha256": "ad85d82142a361d00fffac8945c7e349087f78a8fa06452d0231ea927163f4e2",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/PixelCatIntegrationTests.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/PixelCatIntegrationTests.cs.meta",
+      "sourceSha256": "cdad7fb46c497e02bea3dad226c472c6388b9d634f4e2ca8f0fa6c6772dad1ff",
+      "publishedSha256": "0f598faa7f841f5427b0f42b4677439a9fd32a32e6b2a1052018838371f30050",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/PixelCatSleepTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/PixelCatSleepTests.cs",
+      "sourceSha256": "d7f0fb90e1cf944b2c2530d855ace2f03f7ceb7d36504e5114a22010d3d6037a",
+      "publishedSha256": "4958fb25e4a87c6b8c2afcf472552941bda49ce73e1e4c4ba80e9f4bd6bb2182",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/PixelCatSleepTests.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/PixelCatSleepTests.cs.meta",
+      "sourceSha256": "7216a5f30ed7797e7280d5c677e5f0c26daafdac400d5df87bc01ad0cffc52f9",
+      "publishedSha256": "fcd5fcb96de7da9ac40873b3860a025ae9c6d0029f65619b252621feee9b44c8",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/PixelFinalIntegrationTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/PixelFinalIntegrationTests.cs",
+      "sourceSha256": "1b93bc06c3457ba0a9729f8346d8a68302675d527b245be684620b2a5e8698e9",
+      "publishedSha256": "b0ec25c6f4d54e6814bb2027ecdf16a8659ce34aec0cd744974d9a819eca89ef",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/PixelFinalIntegrationTests.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/PixelFinalIntegrationTests.cs.meta",
+      "sourceSha256": "14a61c00a76e6f52d1294f65d11bfede44e828383c1edf2c225b83a6ee215464",
+      "publishedSha256": "20890a2209d351ea7ff53fcb9be1e03831a162c04db3f87aaff85cf2dd3156cc",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/PixelMilkIntegrationTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/PixelMilkIntegrationTests.cs",
+      "sourceSha256": "a2e8a41be30d4f2f663eb5b7206b0807bcda6802cdfab078684ece4555fd53e4",
+      "publishedSha256": "c6275ffde8e96c63ebb5d6f75eaf2814ea74174d50cbb78af94f7ef620e7c66f",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/PixelMilkIntegrationTests.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/PixelMilkIntegrationTests.cs.meta",
+      "sourceSha256": "f594da15fca5282e634e5892f83b384fdb92b11653ca4e49b7b0bde057232c3b",
+      "publishedSha256": "d2c8bba52228662df1a7e10d6e579c1f193cbe8051b6b0a40208c2d478ac6162",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/PixelPatternIntegrationTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/PixelPatternIntegrationTests.cs",
+      "sourceSha256": "db46f6b075034433ae3be7fbe482d9480b65ac903ee48aaadbd70a51c84b4360",
+      "publishedSha256": "f0350dfb2f067e477436a5e8b90c60eab58af5df6c39050a995895ddc0b4f711",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/PixelPatternIntegrationTests.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/PixelPatternIntegrationTests.cs.meta",
+      "sourceSha256": "ddb7929191b97f196b9f3e8fcaf7a5ed95b81ab09ee98aadca1cec18a39a7f4e",
+      "publishedSha256": "31ea807bba422fd9f810df0e5072704f2965d63988f44ef3cc0caef5635fe8a0",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/PixelStarterIntegrationTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/PixelStarterIntegrationTests.cs",
+      "sourceSha256": "ccc4cc876f17aee6bad288f2e25c22892bf994ffa1bf7ac3c3a5e80297bd54a5",
+      "publishedSha256": "0ef6733686c0f58a306e8fce9d176642a6c6ad52de77145306c62145fa698f52",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/PixelStarterIntegrationTests.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/PixelStarterIntegrationTests.cs.meta",
+      "sourceSha256": "70cc5161f3d1c9576a759b6b148e9e989a87696ef6b7a6738448631cbb3c87a5",
+      "publishedSha256": "b267e4a026cc33b521c61c92c7c89232141fb3aa9e0cb5a92eeb8ed8f061eea8",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/PreferenceAndPointerTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/PreferenceAndPointerTests.cs",
+      "sourceSha256": "3d0d3ceeac28b4ff7bba76f24e67a052430112c39c028efa38fcca3e4fc0d113",
+      "publishedSha256": "3d0d3ceeac28b4ff7bba76f24e67a052430112c39c028efa38fcca3e4fc0d113",
+      "transformed": false
+    },
+    {
+      "source": "Assets/Tests/PlayMode/PreferenceAndPointerTests.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/PreferenceAndPointerTests.cs.meta",
+      "sourceSha256": "292bb350138ebb5eb3cb9e508d76acf9c6ca34e5deaf6667a3a1fd0fd7b4c8d9",
+      "publishedSha256": "292bb350138ebb5eb3cb9e508d76acf9c6ca34e5deaf6667a3a1fd0fd7b4c8d9",
+      "transformed": false
+    },
+    {
+      "source": "Assets/Tests/PlayMode/RocketEndingTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/RocketEndingTests.cs",
+      "sourceSha256": "5d92f525d1436bba82d7f7c5d2c45af9b1d0c4b257b62d596b45bc42656fa65b",
+      "publishedSha256": "23516dc4d89d6a1a782df26038bd010b3ef9c9e7d0b49933153e4b14bc3550c5",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/RocketEndingTests.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/RocketEndingTests.cs.meta",
+      "sourceSha256": "aa085c42f48860a1c4f0aea4c3c57ab5ef9ce00b992e824f1cd4d4345da01d63",
+      "publishedSha256": "62cdb4032febc7bef637705fe04d0ca13e2e74e5a95723dabc8d1894f0f270c7",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/RoomWalkTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/RoomWalkTests.cs",
+      "sourceSha256": "429664720e14bd660131b89d53716f2faf4239a10992805eced999c3c4dc2866",
+      "publishedSha256": "23cf547351c44a6ff40b8ba129c49715da7093844b9937047d447cdb0b7639de",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/RoomWalkTests.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/RoomWalkTests.cs.meta",
+      "sourceSha256": "e868de143a72b271713f8c8b63a0e0fd606230d500170c474f66c690ab62e19f",
+      "publishedSha256": "3a1defbdcc77ece70ff0a85a7e4316345b8febb08e8cf7bd4b984abe9b2796b5",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/ShopAndItemUpgradeTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/ShopAndItemUpgradeTests.cs",
+      "sourceSha256": "19d70aca4ebce8c1e8d329ba9e8e6104c2054678d43146ff690b320949a57cf2",
+      "publishedSha256": "19d70aca4ebce8c1e8d329ba9e8e6104c2054678d43146ff690b320949a57cf2",
+      "transformed": false
+    },
+    {
+      "source": "Assets/Tests/PlayMode/ShopAndItemUpgradeTests.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/ShopAndItemUpgradeTests.cs.meta",
+      "sourceSha256": "0255dc4de215bc37028730c4e3e3c63bf42f371ab742c8d49dbf0cb85a5eec37",
+      "publishedSha256": "712c35203112501e7a71f0c46d5cd60b8e39f29969d1506a0d4b2d11949ad77c",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/StoryMenuLayoutTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/StoryMenuLayoutTests.cs",
+      "sourceSha256": "c1a896474a2e36b82f2d7f264be4f73e4b4eaa32ceb0691f9f0fa6178a162dc5",
+      "publishedSha256": "40c103e4d0fd820be62a94916b69f12656cef4e09fc003847600ee646cbb506e",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/StoryMenuLayoutTests.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/StoryMenuLayoutTests.cs.meta",
+      "sourceSha256": "4f04c4ddc446990a62835e762679b5ab34c2c1c70a22c5fd7296f540f25432f8",
+      "publishedSha256": "3001ef0e08a58c7d92d119fc8ea957cf5545b24dccd6d187d784ca44dab80ca3",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/StoryPlayerTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/StoryPlayerTests.cs",
+      "sourceSha256": "8e3456c226551cf374e739fcb0d5369e9544ffda5a30bafe3ee60e0c27991d9c",
+      "publishedSha256": "58e1d4a49ab92a3944c126eaa5c05e76345a185e488a2b9fb0a24cedd87799ad",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/StoryPlayerTests.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/StoryPlayerTests.cs.meta",
+      "sourceSha256": "e0573afe5c199666c7569ef8ad753c290b1695520569625166b6bd9e8084a7c0",
+      "publishedSha256": "18be25194915694470a4cd28dea2c4a6e90cd5eaf2c41ffb329f6e0a75ed4b8f",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/UiFlowTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/UiFlowTests.cs",
+      "sourceSha256": "1597201416f066faac8e2cc4ad973f2e36c2352a4c7eb5de274c667357edf66b",
+      "publishedSha256": "1597201416f066faac8e2cc4ad973f2e36c2352a4c7eb5de274c667357edf66b",
+      "transformed": false
+    },
+    {
+      "source": "Assets/Tests/PlayMode/UiFlowTests.cs.meta",
+      "path": "harness/Assets/Tests/PlayMode/UiFlowTests.cs.meta",
+      "sourceSha256": "2c458dd54424c67ad4aae7203fd0f528291ee1777be909dd0ec7130a559ec943",
+      "publishedSha256": "ec2272111a71c0877939a624d958a29516484681324bcfc0ec224785c25e5f4e",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/libraries/GameBusiness.py",
+      "path": "harness/Tests/robot/libraries/GameBusiness.py",
+      "sourceSha256": "9ca64c20a8312645c1cbb048e2c6e369f77260353d5aa04bc6649a26068aa48d",
+      "publishedSha256": "3dc9fd8ca52e122db4175c10ffb5867da5a400204c6bb8a6608bc8cc4c3c1de7",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/libraries/UnityTestRunner.py",
+      "path": "harness/Tests/robot/libraries/UnityTestRunner.py",
+      "sourceSha256": "47fb918412ebc724624bce599f65e02387ef6251ae7124ce6b1f6f9ddd932962",
+      "publishedSha256": "05eec8ded946425cfe631b8af6a4159a49c121b2333efc3ae3bf55997e6867e1",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/requirements.txt",
+      "path": "harness/Tests/robot/requirements.txt",
+      "sourceSha256": "2ae023ac5b7c693577bd7641d200b8a212fcadf85c9624798e297252b51a4139",
+      "publishedSha256": "44007bcc2158fd2a6e79ef8c6fe7870aa324459a777bac4ea02beeaae7f90ebf",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/art_assets.robot",
+      "path": "harness/Tests/robot/tests/art_assets.robot",
+      "sourceSha256": "0a3421e6f91bdb853284520750f5bcc78429a8cbb1ba85fa1967e69ca21b8cb9",
+      "publishedSha256": "641fd347a54d12beda6e0924227335350b925d9d551e9f758c67944eb85983c9",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/business.robot",
+      "path": "harness/Tests/robot/tests/business.robot",
+      "sourceSha256": "555f4f1daf53e5b3de4f536e4e3ee76b7e9944181c3d83844b981a61db0ffb88",
+      "publishedSha256": "8a07a4c9583ae7c86847062ccb55a6c8954aea8536ab7f9f7bc02abf80957f11",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/business_failure.robot",
+      "path": "harness/Tests/robot/tests/business_failure.robot",
+      "sourceSha256": "bb557618aac981bdcd08f4b3d10cea58156157550375f203ae9190bcfae9690c",
+      "publishedSha256": "cd25d3bf79d3da06c86df8ef70b793d429a556952f1c16051450683ed6b75f92",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/debugger.robot",
+      "path": "harness/Tests/robot/tests/debugger.robot",
+      "sourceSha256": "4cce08982289b2a448e38ac014979a15bc4a3f64d8d2cf38851a039b6acc6ccb",
+      "publishedSha256": "6c55ea4be3d47a918c21b3baf32908df5939e1ed4f791c362a7a3a5a649ce63a",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/external_debugger.robot",
+      "path": "harness/Tests/robot/tests/external_debugger.robot",
+      "sourceSha256": "cc0432e8a472327c1e9aace2107617aea76f97c76264b77a5b0f23efd013a67e",
+      "publishedSha256": "2ecb5c427bb5652f001360d950caf80c9d45a8e5e379d728b85734b5f3224cc5",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/global_settings.robot",
+      "path": "harness/Tests/robot/tests/global_settings.robot",
+      "sourceSha256": "504ccd6d6913ca928b6ca29ea50a117356b214ad17778cb042cdafb7e5ab50ae",
+      "publishedSha256": "7ff409a722e9d64cd3d0d15291dbe64593cc7818c042712e09994356cdcc3760",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/idle_model.robot",
+      "path": "harness/Tests/robot/tests/idle_model.robot",
+      "sourceSha256": "ee337a41d0f3625f072915315bd642ad00c8492bc3553bf7cf55ea50147b75af",
+      "publishedSha256": "e954d6ffd508eecf4da9a5e8a1cf1a1695b6344e703684f6ab858c6558e303a6",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/intro_player.robot",
+      "path": "harness/Tests/robot/tests/intro_player.robot",
+      "sourceSha256": "6735431934b57e7fc32a95243eb2104c76c0ad08f78e324f1bc0c8f1c3bf6917",
+      "publishedSha256": "a6a217af118408f5e071633c26e21f79acdcf7c3bcbef96ca6654d0d0d125812",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/intro_visual.robot",
+      "path": "harness/Tests/robot/tests/intro_visual.robot",
+      "sourceSha256": "0e1a5a20a08c7e96f984c22b135521b81d93fbf0795286c8f86768f42b142681",
+      "publishedSha256": "73ae1db239f628819b0de9aff12f9c2882a831b0e13b6fc49023d259764f4ba6",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/menu_visual.robot",
+      "path": "harness/Tests/robot/tests/menu_visual.robot",
+      "sourceSha256": "d52e82dc6f49a80514cdb308c4df3d626b7a9dbdd7165955456a4dcc7ba39cd4",
+      "publishedSha256": "d6ded3c59358f5062ae6048d8c8af1400cc0302409989f1b7c569c6aeb404e34",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/performance.robot",
+      "path": "harness/Tests/robot/tests/performance.robot",
+      "sourceSha256": "ce4b58dec8838dfd930cbc9deb6a22be56f5b3026b43b6a056ed571635de3286",
+      "publishedSha256": "0b5b7112ee83a79fd304d1e38b65693e9767751868ec689e831024eded67a71f",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/performance_failure.robot",
+      "path": "harness/Tests/robot/tests/performance_failure.robot",
+      "sourceSha256": "d2f2329c18b7054a3f18b9df8510af4293ed7e73470ccfada0e53d68577e6bee",
+      "publishedSha256": "4ec4c3b8e242d214e8b46cd8640179340fca99f8040970ad02a90f1b7d5ba2df",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/performance_guard.robot",
+      "path": "harness/Tests/robot/tests/performance_guard.robot",
+      "sourceSha256": "5b55a53a5cce517fa9b82521674583370a0b898bcb4fa667164eae75d0cc8e22",
+      "publishedSha256": "bd4aef69b684f732504c73782cf901c034b071b712159a5fc9785b537a520006",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/performance_probe.robot",
+      "path": "harness/Tests/robot/tests/performance_probe.robot",
+      "sourceSha256": "5bb6afcfea6d35ecb7fab61c09bbd0ed36d1b369e7f6137743134d99276b600d",
+      "publishedSha256": "1986af5d276a0a362799660c25c7eea233eaa917dde62d18d3a0c7b9818adab7",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/pixel_cat.robot",
+      "path": "harness/Tests/robot/tests/pixel_cat.robot",
+      "sourceSha256": "7fb461e207cd71430f0bab1ecb0cc85ad808d65a9720e8262f359ae8e293fc0b",
+      "publishedSha256": "1658165a8ca9dad7feec1e2da7fd381b402537336a4561dcf4cf563ed532acb3",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/pixel_sleep.robot",
+      "path": "harness/Tests/robot/tests/pixel_sleep.robot",
+      "sourceSha256": "2b9cd19f61de4d17a07d366a34e18a78534225935774546940dcb7ff77b9eefe",
+      "publishedSha256": "03c8105ebe7028cc68f59d166ec2b4cea2badabddc8008fcdabafbdcb1c54526",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/player_visual.robot",
+      "path": "harness/Tests/robot/tests/player_visual.robot",
+      "sourceSha256": "1af3c612923dbfc70676132c2ff0cb3cbfd4e4a98c4b19e9053b046d58f74af7",
+      "publishedSha256": "99664a9c4698e93d35e7539ca68920dc742db5273dac44b05486c1b1a735e279",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/revision.robot",
+      "path": "harness/Tests/robot/tests/revision.robot",
+      "sourceSha256": "5903fdc24e412cc0f0df912fb9c2862dfcb1d6973933de26f934b1743cc33f96",
+      "publishedSha256": "12bede3e5e73e27dbd4257823514bd7d0dda2d6dd95e212e58e8613d874b8e71",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/roaming_target.robot",
+      "path": "harness/Tests/robot/tests/roaming_target.robot",
+      "sourceSha256": "a4db0a91be9afe386fb1cac5dced304334799ff7707a7b82d791876aa76318b0",
+      "publishedSha256": "2c178a41ba7b9ed4f14e0ccdad0c4c78107e758eb547d6daace57639330daca1",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/rocket.robot",
+      "path": "harness/Tests/robot/tests/rocket.robot",
+      "sourceSha256": "d5046cff5b7840937bec26954a0a2912dec931eb7de1f50ee120bed2980f95bc",
+      "publishedSha256": "bb2e5a020fe2ba0ded58956f96dcf0eaef188acd2c2fa9df620be275e6a10778",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/rocket_model.robot",
+      "path": "harness/Tests/robot/tests/rocket_model.robot",
+      "sourceSha256": "35ea43bd1546286f1441c356383b421e5aad4639b457f7dcf1b92eebfa46d095",
+      "publishedSha256": "7a12f58b9ede39a7be91ee921d076f108b4bdf586f2c77a72dd9faad1c2f5feb",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/room_boundary.robot",
+      "path": "harness/Tests/robot/tests/room_boundary.robot",
+      "sourceSha256": "c0b91600194282edf9fddc00697400b5b324b2cab847e896924a1d63e4f8648d",
+      "publishedSha256": "fe20921817c2c860d6b47113a494bc102ce72a7bbcc1d4518e5ef7e1167cfe32",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/smoke.robot",
+      "path": "harness/Tests/robot/tests/smoke.robot",
+      "sourceSha256": "9ac68e011a0a14228e215149c583a21952e2a05711bf019c0540f674d3650afd",
+      "publishedSha256": "f645b72e6b2dcbf06d9c57f7d5a16d858f3f21fa1154745b0797ae0ec8644c97",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/story_player.robot",
+      "path": "harness/Tests/robot/tests/story_player.robot",
+      "sourceSha256": "83985c0158e7c618e45ad7fe887e1f3784380a74cf6c564145c2346e0c888725",
+      "publishedSha256": "efc6eadde9e8edb6aa7fc4590d2bce8880552630be789c426a25c029d24c25aa",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/story_sources.robot",
+      "path": "harness/Tests/robot/tests/story_sources.robot",
+      "sourceSha256": "b8b06cf4bbe37ccc7215622f4264847b98d4f070ed5934d5ae2eba2d6c640755",
+      "publishedSha256": "cc40bfaedbc82ecf480e09c23133752c8c845609bf59de54be52d223d9d100c6",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/story_visual.robot",
+      "path": "harness/Tests/robot/tests/story_visual.robot",
+      "sourceSha256": "bfc4764f69dcb967fb967b625f5e072adecc4678880fab7322115be89bd76d2d",
+      "publishedSha256": "e3be87a21153cd21f9aa755c8ef6b5be4d01cc25e53814abdaaf38adb65b6de7",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/toast_visual.robot",
+      "path": "harness/Tests/robot/tests/toast_visual.robot",
+      "sourceSha256": "1cb783eee455ec41d508100dc78852cd9a8024b5194ce34c0c35e47a18cc5287",
+      "publishedSha256": "58ddb456b95bed42ad09a34ecb396a027f6e7ccd2e1a1d2ed4f7470a7ebf6b50",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tests/unity_tests.robot",
+      "path": "harness/Tests/robot/tests/unity_tests.robot",
+      "sourceSha256": "4f8664a67c88ddd423fd5fad91e675040ce0eab197234b0e24d76cbbf506a60d",
+      "publishedSha256": "347db400e2cd12c7de8b45c14e10d46369f0201d8b7f8ed860ce0118c022983c",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tools/RunNUnitMethods.cs",
+      "path": "harness/Tests/robot/tools/RunNUnitMethods.cs",
+      "sourceSha256": "36fa10cd45f822df382026ff3c9aa6763db91daf4de2cd80073a23086983d961",
+      "publishedSha256": "5f31107cc76060494cc5d0c656ea89eda8f5b912fde80c71134c744926133509",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/tools/ScanItemPrices.py",
+      "path": "harness/Tests/robot/tools/ScanItemPrices.py",
+      "sourceSha256": "7926355a2a417d1a73f4bc77a266a2e93c8617c1e8eca804261b3b1796ed4bcb",
+      "publishedSha256": "b8bf7f9dc7c4d1a6b8dd7ffbe2007a6cd20a76711cfae42f1dcee8e7397d776f",
+      "transformed": true
+    },
+    {
+      "source": "tools/ci/job_pipeline.py",
+      "path": "harness/tools/ci/job_pipeline.py",
+      "sourceSha256": "9d6c4638664b39f1eec226bba54bf59bd2e01d59bd0026775dbaba54da6e6a21",
+      "publishedSha256": "8b20040bb32f2092949d2c8f18d54b82b2375355299959f206585e2fc948d397",
+      "transformed": true
+    },
+    {
+      "source": "tools/qa/audit_business.py",
+      "path": "harness/tools/qa/audit_business.py",
+      "sourceSha256": "73b3a127070c7a945965caa29d5f9590e6b1fc8a52ac86dd2674c424cd9cfaef",
+      "publishedSha256": "e1a315cb767b89b90e905aebf9480c0f3682bf30928d1e6b84fd4328d4fe8525",
+      "transformed": true
+    },
+    {
+      "source": "tools/qa/audit_delivery.py",
+      "path": "harness/tools/qa/audit_delivery.py",
+      "sourceSha256": "3e957601e0868285c2b8927c81827c5e97f1daeec475af2d412ea0c0465f1343",
+      "publishedSha256": "a5a426d281c1bba2c400bf25ca8cba64b151206ab59b9347df130bd261c39950",
+      "transformed": true
+    },
+    {
+      "source": "tools/qa/audit_performance.py",
+      "path": "harness/tools/qa/audit_performance.py",
+      "sourceSha256": "8ac913cd2d3219c2d8cfc573e523e30ece6adb7dd0e7170113486d609fc258eb",
+      "publishedSha256": "0fc61396e5a56eb3ed17a83d81cacd4575a2165b620e36473fb894e3789203aa",
+      "transformed": true
+    },
+    {
+      "source": "tools/qa/performance_stats.py",
+      "path": "harness/tools/qa/performance_stats.py",
+      "sourceSha256": "c679abe41599dfbe19c77b8afee445da2ac975c4af88908781ca1d93545c59aa",
+      "publishedSha256": "e54da74338560509120745da1edf6218c665b9f426616caa83d61e027ff38de7",
+      "transformed": true
+    },
+    {
+      "source": "tools/qa/run_performance.py",
+      "path": "harness/tools/qa/run_performance.py",
+      "sourceSha256": "5f8f8ec6060feb8bd142ec863dbab714d0760395c83af391a1d4532d279ae4a0",
+      "publishedSha256": "378be52f98cacd8bea8034e013732e729413c663ca325fbe01ac4b81c3d08505",
+      "transformed": true
+    },
+    {
+      "source": "tools/qa/run_suite.py",
+      "path": "harness/tools/qa/run_suite.py",
+      "sourceSha256": "afff2f7042593da78ac73f5b453cdefc580efdd27b79ea3609533e83870d3d69",
+      "publishedSha256": "2307d466c25e1b913cd457852687bf0e1453ff5383fbd0d2e42b01bbd3a448cf",
+      "transformed": true
+    },
+    {
+      "source": "tools/qa/run_unity.py",
+      "path": "harness/tools/qa/run_unity.py",
+      "sourceSha256": "9d38c91439866318d5dee6b414cf9e3c0468d73e75fc05d595ebc9472c0f82e8",
+      "publishedSha256": "70c2ebf12370648dec0df67d1bf48f7d048e59cd6689bb887a136e314c3f2b4c",
+      "transformed": true
+    },
+    {
+      "source": "tools/qa/snapshot_delivery.py",
+      "path": "harness/tools/qa/snapshot_delivery.py",
+      "sourceSha256": "3cfa58e39537c52f147d8161a503eed2646a66b0b43ee9bb6ffaa60ca737f3db",
+      "publishedSha256": "3465ba254a1f62b294a02e08901d27fb246374b2c4da1f32735d8b5b5e9d1c16",
+      "transformed": true
+    },
+    {
+      "source": "tools/qa/test_performance_stats.py",
+      "path": "harness/tools/qa/test_performance_stats.py",
+      "sourceSha256": "ba3c5eba89514572a578214fcb5f3fef6b85365da3e150e8992b8491bf62b500",
+      "publishedSha256": "08c88bfb7c6806baaf9a85b71d2c84e0635a868cf7944f4176ac852cd9b66f16",
+      "transformed": true
+    },
+    {
+      "source": "tools/qa/test_quality_gate.py",
+      "path": "harness/tools/qa/test_quality_gate.py",
+      "sourceSha256": "4a9e79028f3adeca4cc5219945c9ad52a62de09a0b2e440c96f0166193acbbed",
+      "publishedSha256": "4f48b182e96b6a41ee91159154b54d9a99790fafb8f07a3ef57a4bb642619056",
+      "transformed": true
+    },
+    {
+      "source": "tools/qa/test_unity_runner_contract.py",
+      "path": "harness/tools/qa/test_unity_runner_contract.py",
+      "sourceSha256": "dfc6273ea8507e6df1d1d169e1d98e246165f86b4db77cb5cfad73523da5df9b",
+      "publishedSha256": "8a2c7dd8c3f0ce26f3386d787a23074d9bfcdebc194ea735fb5b901fdb69ff06",
+      "transformed": true
+    },
+    {
+      "source": "tools/qa/triage_run.py",
+      "path": "harness/tools/qa/triage_run.py",
+      "sourceSha256": "8568eaf68fc2be82efab34cdfe355b19733055a11c4e2a9835c5430b1e953a48",
+      "publishedSha256": "9284702daa581b56cad037929a01e15fce73deeb307c886f3a32c55a3d3303cb",
+      "transformed": true
+    },
+    {
+      "source": "tools/qa/verify_performance_failure.py",
+      "path": "harness/tools/qa/verify_performance_failure.py",
+      "sourceSha256": "f8791f44cf9af8dedb2f9264772b7d489647779244cbb25ff8e5894da1affffb",
+      "publishedSha256": "5be878cd791cc1b4870525b69d0fb07d243295c769c9e2929e531083aebe72c1",
+      "transformed": true
+    },
+    {
+      "source": "tools/qa/verify_story_and_items.py",
+      "path": "harness/tools/qa/verify_story_and_items.py",
+      "sourceSha256": "b3484cdd1a3f531c1a6e1f6262c66bf0bd737a04030087e3f954a7e0e74d3385",
+      "publishedSha256": "b5f03ae17886905e00145c4d928f35fe3808cbf2257087ecffd833f9d918f66d",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-5/pipeline.json",
+      "path": "evidence/ci-5/pipeline.json",
+      "sourceSha256": "64cdab3c4a42cd128a3d81cd2a70024ca0d9694cff557fb6f6d9f637e8360fe5",
+      "publishedSha256": "5c98c8cdc25e405eecf5470a8950a8440f13cee0da2dbdc0effa7e5f07dc2bc2",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-5/build/command.json",
+      "path": "evidence/ci-5/build/command.json",
+      "sourceSha256": "c6435e46aa00cfbc9effe9fab18bf6d7d98172e15d0ccd0478ca03d721491deb",
+      "publishedSha256": "9fa29aad848cbd26ebad3feec4aa1c19b29daa99f62d8676f300f246c1d85f05",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-5/build/result.json",
+      "path": "evidence/ci-5/build/result.json",
+      "sourceSha256": "fea4231edc5e4966183067bd7bd20febace03f4062947d08a8b023d888872bc9",
+      "publishedSha256": "fc8972bf028850d6d10e6f0985756e6c1c8b140928cc5f648eaacc0ba6e18c93",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-5/business/output.xml",
+      "path": "evidence/ci-5/business/output.xml",
+      "sourceSha256": "b2eb41b22668e1d23caba540cb2837ffd2bb35d6991adc2b79ebc92a4fe673c4",
+      "publishedSha256": "bc5032d9c843c72b22e101db76e543be935bb636e9828d35edda4df3766ed802",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-5/business/result.json",
+      "path": "evidence/ci-5/business/result.json",
+      "sourceSha256": "f17f8729bef7b39c65531ed98e478dd6ccce7746fc8a667666dee747e227cc24",
+      "publishedSha256": "f17f8729bef7b39c65531ed98e478dd6ccce7746fc8a667666dee747e227cc24",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/ci-5/business/run.json",
+      "path": "evidence/ci-5/business/run.json",
+      "sourceSha256": "bec12e572b4125c27f94ab500fccde4eff718686c325e2887f470d8fdc11660b",
+      "publishedSha256": "fd20b75f5dd7eee8618477f137185718339dad0782f91b7877fa9945357b0280",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-5/compile/command.json",
+      "path": "evidence/ci-5/compile/command.json",
+      "sourceSha256": "a867c8de118247e5f6d212985e77685b89fbf6d32865618cfa11abe8fc6d4f87",
+      "publishedSha256": "d3aa836eceb5d26939e9141f8a336dce8e730814d5fab851981c1490cf1950b8",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-5/compile/result.json",
+      "path": "evidence/ci-5/compile/result.json",
+      "sourceSha256": "2ef1b01d061380b6c433b9a8406cd08dc814e68f868cd4978616cb76544a55bb",
+      "publishedSha256": "611a024062fd7b32fe9035b9a501ef6e70412296e6391dbeb83ad2562d9681d2",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-5/configuration-gate/output.xml",
+      "path": "evidence/ci-5/configuration-gate/output.xml",
+      "sourceSha256": "c31400bf1aa10ee6dab373a5f5b0eedcd89bf2535877eb682944c9f404950239",
+      "publishedSha256": "4b07bdc0cf5ba35540bcb2172dcf75a5ef85c320cf8123e253d99aa4f8b41487",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-5/configuration-gate/result.json",
+      "path": "evidence/ci-5/configuration-gate/result.json",
+      "sourceSha256": "02e89cd0bcd11cc627188a03fcfa976358f84d293b2e083c9782c6c2b87115a5",
+      "publishedSha256": "02e89cd0bcd11cc627188a03fcfa976358f84d293b2e083c9782c6c2b87115a5",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/ci-5/configuration-gate/run.json",
+      "path": "evidence/ci-5/configuration-gate/run.json",
+      "sourceSha256": "5f958c16b2cde2b981426e94eb3e07407f98994090e51f8660a0daf07165a434",
+      "publishedSha256": "6e81a1918e58b269a8b3cc4a4a94f3258926f70f6f50ff738e49419eac793aaf",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-5/full/output.xml",
+      "path": "evidence/ci-5/full/output.xml",
+      "sourceSha256": "f57370ed2ae9116a3b67b8e12c195cf6aa673ce998d1d97cd3c82b69dfa60013",
+      "publishedSha256": "40c2d61df2ac475f423471ef9d2f56018855d7b15944e85328a80e52f9c5dd0a",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-5/full/result.json",
+      "path": "evidence/ci-5/full/result.json",
+      "sourceSha256": "f26131f7f156a2888434073c89df21565d3db39144cbdc1504e4aee5b9e558b4",
+      "publishedSha256": "f26131f7f156a2888434073c89df21565d3db39144cbdc1504e4aee5b9e558b4",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/ci-5/full/run.json",
+      "path": "evidence/ci-5/full/run.json",
+      "sourceSha256": "5a22209ed05b0b4ad3f2f407a49181efbb13273d685b70becdf649cbb4b5e6b8",
+      "publishedSha256": "285b38a0a16e195cd1f8d3e6c9da5564c17991564f924fd165d63a26f0fc4471",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-5/smoke/output.xml",
+      "path": "evidence/ci-5/smoke/output.xml",
+      "sourceSha256": "b96ecb3bdb11736118cdde92dde4240596cbb5f7e24ea3f71728dbbdae6c2a68",
+      "publishedSha256": "f323ca1e81eb73b522f9bc1cd921c0dd0d657928959601671c4d1a52734ff810",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-5/smoke/result.json",
+      "path": "evidence/ci-5/smoke/result.json",
+      "sourceSha256": "72ced05f86459aff3e051c6d6662a26866010b849aa8fe620403cfe28bca83bf",
+      "publishedSha256": "72ced05f86459aff3e051c6d6662a26866010b849aa8fe620403cfe28bca83bf",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/ci-5/smoke/run.json",
+      "path": "evidence/ci-5/smoke/run.json",
+      "sourceSha256": "ace1cf68f148f2ddb752bbd4a65fa12ad8c5fbdb20e38e5d2ad2b4e7b9581f21",
+      "publishedSha256": "8092c63b91591e86f535abbd466bf151b61ccb3b57357fb44915dfacc99fca80",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-5/business/business-b2cbf81a/steps.jsonl",
+      "path": "evidence/ci-5/business/business-b2cbf81a/steps.jsonl",
+      "sourceSha256": "ef9fbe536adf38d26fb5ffe082c1ac90b5e54177fd3a6223f4b7ab4ecceecbbc",
+      "publishedSha256": "42d009603c57aa0f12239d18fe39b281657c9b5c11ca00ab289d85ffcaf35e60",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-5/business/business-b2cbf81a/player/CatGame/save.json",
+      "path": "evidence/ci-5/business/business-b2cbf81a/player/CatGame/save.json",
+      "sourceSha256": "e522f4a85ce3b395852a3aec9551549682a523332c0fcd472b1d80e888634c81",
+      "publishedSha256": "044811a3ebd2888d91971b7150fe61ead5f1deb3562a1195ff9d7e86a35d0f57",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-5/full/unity-main/test-results-EditMode.xml",
+      "path": "evidence/ci-5/full/unity-main/test-results-EditMode.xml",
+      "sourceSha256": "e73469dbfe5a85e2a75d9d96e9a63d9587685ca9bb952223ddfc18c209510d14",
+      "publishedSha256": "6e47bb995f867f6f742ba074e0b0e188b53a617c8d64e57d46b9b4a7424bfedd",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-5/full/unity-main/test-results-PlayMode.xml",
+      "path": "evidence/ci-5/full/unity-main/test-results-PlayMode.xml",
+      "sourceSha256": "34d23b6f491561c90f055c95fc22b43d26213acc811dbf07af8694f6e4a3a378",
+      "publishedSha256": "6aa4b311924823c002ebc6fb0db5a0e3b1e8c308564dc46b956b44aafc567cbc",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-5/smoke/unity-smoke/test-results-EditMode.xml",
+      "path": "evidence/ci-5/smoke/unity-smoke/test-results-EditMode.xml",
+      "sourceSha256": "2cab9fc829b5f0c595d819b5c3013c5f576b9f32c1bf8f35792869abeaaddda0",
+      "publishedSha256": "4a1462f40d0076eb175cce294363a7fa68eb89319a63e1d9ce389a9b6ab57b81",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-5/smoke/unity-smoke/test-results-PlayMode.xml",
+      "path": "evidence/ci-5/smoke/unity-smoke/test-results-PlayMode.xml",
+      "sourceSha256": "6c1333dbb30f5415e010c80255be042f2557ff2223590d1885821a1cab749b13",
+      "publishedSha256": "880d554a5f2772be387b2feb2e3c0daa9322c9f521523093efc03aba4884ce05",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-delivery-audit-20261106-01/archived-pipeline.json",
+      "path": "evidence/ci-delivery-audit-20261106-01/archived-pipeline.json",
+      "sourceSha256": "64cdab3c4a42cd128a3d81cd2a70024ca0d9694cff557fb6f6d9f637e8360fe5",
+      "publishedSha256": "5c98c8cdc25e405eecf5470a8950a8440f13cee0da2dbdc0effa7e5f07dc2bc2",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-delivery-audit-20261106-01/jenkins.json",
+      "path": "evidence/ci-delivery-audit-20261106-01/jenkins.json",
+      "sourceSha256": "7c0ed0c56d37b6d7db0fa4613610ad91fe5a1bebc1af232791c4e07539479e59",
+      "publishedSha256": "7c0ed0c56d37b6d7db0fa4613610ad91fe5a1bebc1af232791c4e07539479e59",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/ci-delivery-audit-20261106-01/result.json",
+      "path": "evidence/ci-delivery-audit-20261106-01/result.json",
+      "sourceSha256": "2a8d1a95a20392017ad21abd752256ce04afe03a9d9a38875437b1aeb2f5671b",
+      "publishedSha256": "2a8d1a95a20392017ad21abd752256ce04afe03a9d9a38875437b1aeb2f5671b",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/ci-audit-20261106-01/jenkins-2.json",
+      "path": "evidence/ci-audit-20261106-01/jenkins-2.json",
+      "sourceSha256": "072f9b5c84396decd467ded3e452e5bf68987e9893562b8397ad937c0a15ab44",
+      "publishedSha256": "072f9b5c84396decd467ded3e452e5bf68987e9893562b8397ad937c0a15ab44",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/ci-audit-20261106-01/jenkins-3.json",
+      "path": "evidence/ci-audit-20261106-01/jenkins-3.json",
+      "sourceSha256": "a353ed239a65aeada92d98dfc00cef26356244f9675dacbdc3395f708cd9f2c9",
+      "publishedSha256": "a353ed239a65aeada92d98dfc00cef26356244f9675dacbdc3395f708cd9f2c9",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/ci-audit-20261106-01/jenkins-4.json",
+      "path": "evidence/ci-audit-20261106-01/jenkins-4.json",
+      "sourceSha256": "3c0b6246cca1b85b94c83930a466cf874a9c65a31e15bbdea1f18980d258d2bc",
+      "publishedSha256": "3c0b6246cca1b85b94c83930a466cf874a9c65a31e15bbdea1f18980d258d2bc",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/ci-audit-20261106-01/result.json",
+      "path": "evidence/ci-audit-20261106-01/result.json",
+      "sourceSha256": "a69c04a6967ef418d6d552c692ac3823a30e2e316f63dbd7ff04b9264ee2df21",
+      "publishedSha256": "a69c04a6967ef418d6d552c692ac3823a30e2e316f63dbd7ff04b9264ee2df21",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/roaming-target-red-20261106-01/output.xml",
+      "path": "evidence/roaming-target-red-20261106-01/output.xml",
+      "sourceSha256": "147c77773003c9a630d2b12efa393f48a8d64b2804b50acc0afc6b4164c4e153",
+      "publishedSha256": "c17d330bd2d187fadaee87e2d5ed387579c39d68bdc44e08c91e62b5d8f751cc",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/roaming-target-red-20261106-01/result.json",
+      "path": "evidence/roaming-target-red-20261106-01/result.json",
+      "sourceSha256": "6b1ddbebfd8f9a8321d150a2cc097064e93259f35ee2ba9db75471211afb9078",
+      "publishedSha256": "6b1ddbebfd8f9a8321d150a2cc097064e93259f35ee2ba9db75471211afb9078",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/roaming-target-red-20261106-01/run.json",
+      "path": "evidence/roaming-target-red-20261106-01/run.json",
+      "sourceSha256": "935fc3709f0b78527360736712268265b371e2e442c4b7a08e58c154128342d6",
+      "publishedSha256": "af62849f98b365c593ab7a767db78be5c377b686c4d05bc88b3e8b06ffa69a6f",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/roaming-target-red-20261106-01/triage.jsonl",
+      "path": "evidence/roaming-target-red-20261106-01/triage.jsonl",
+      "sourceSha256": "732e2d859e42374108560d0d1c7de61d46fe0308125685c01d6cbbad53c35b9a",
+      "publishedSha256": "732e2d859e42374108560d0d1c7de61d46fe0308125685c01d6cbbad53c35b9a",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/roaming-target-red-20261106-01/unity-roaming/test-results-PlayMode.xml",
+      "path": "evidence/roaming-target-red-20261106-01/unity-roaming/test-results-PlayMode.xml",
+      "sourceSha256": "e08385c09273b9605bbd79ad02313e0e2f0eb390e7a7fafafd00c91b052d9717",
+      "publishedSha256": "0a49c4520c62a34f053bef80572ae3f12152da6759c3bc96df62057a598bc3cb",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/roaming-target-green-20261106-01/output.xml",
+      "path": "evidence/roaming-target-green-20261106-01/output.xml",
+      "sourceSha256": "418f8c6bf42ad2a6f4cfc1bcbd91d6fda3c6b6cdda5365fd69b7adf0bd6619ce",
+      "publishedSha256": "d6ad73805cb88bc2351ed9cdd6518d3752c6a904f05f76b63a08a2f7a1671997",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/roaming-target-green-20261106-01/result.json",
+      "path": "evidence/roaming-target-green-20261106-01/result.json",
+      "sourceSha256": "1a39af964f29d75a19a538ebc8253087bd6b79859ec744bdc2b17d39379e4595",
+      "publishedSha256": "1a39af964f29d75a19a538ebc8253087bd6b79859ec744bdc2b17d39379e4595",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/roaming-target-green-20261106-01/run.json",
+      "path": "evidence/roaming-target-green-20261106-01/run.json",
+      "sourceSha256": "2147c5bbda9116213552deb5912298c413d91ce4af39a05930193c29dfaa36e9",
+      "publishedSha256": "1d83b6190ffaeab398e022a720d9d47d5d5217602764ce35b4fffb99e7feb901",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/roaming-target-green-20261106-01/unity-roaming/test-results-PlayMode.xml",
+      "path": "evidence/roaming-target-green-20261106-01/unity-roaming/test-results-PlayMode.xml",
+      "sourceSha256": "770a6d0fe1f15baf8e46006cc78a9f68ffeec6788c50bd82efcc694ca966de80",
+      "publishedSha256": "059e7e98d6706f5dfe9c99193d305061cd6dab052a4e2fea67627917d1c58915",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/business-failure-20261106-01/output.xml",
+      "path": "evidence/business-failure-20261106-01/output.xml",
+      "sourceSha256": "2ba7b9e24a4e6878854ae88da8812ab6f296a1d01e0c238edc8158afbe7922c4",
+      "publishedSha256": "80f9f474eb3c9b4a2ac4fd95b74f4daf4f19ca1e5d7f9fe6522885c90ea41b24",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/business-failure-20261106-01/result.json",
+      "path": "evidence/business-failure-20261106-01/result.json",
+      "sourceSha256": "0f064a60d47bc36d8f78a996634872a73d0ac6d723a207b5d517586d80770ba6",
+      "publishedSha256": "0f064a60d47bc36d8f78a996634872a73d0ac6d723a207b5d517586d80770ba6",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/business-failure-20261106-01/run.json",
+      "path": "evidence/business-failure-20261106-01/run.json",
+      "sourceSha256": "9e4c000dfc78154dc66c42d30eba6c9a13aa389cfce381b176632012d88ec5ea",
+      "publishedSha256": "fdb1c968df0c438a64b2fa1a78281a1e4153a67fbdcbc3156ff5b113f9988ae5",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/business-failure-20261106-01/triage.jsonl",
+      "path": "evidence/business-failure-20261106-01/triage.jsonl",
+      "sourceSha256": "d4ffd1aed83dec1479c1dba7d35b8bd6e00d9be0ea92e1fbfe0f0c081b983917",
+      "publishedSha256": "d4ffd1aed83dec1479c1dba7d35b8bd6e00d9be0ea92e1fbfe0f0c081b983917",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/business-failure-20261106-01/business-da0c2f3c/failures.json",
+      "path": "evidence/business-failure-20261106-01/business-da0c2f3c/failures.json",
+      "sourceSha256": "5689faa7280f6546efad238e877f241aa7f146545b0f74736469b119b5059d0c",
+      "publishedSha256": "027e47ec1bc873d663e6789dabf64c05843bf957e749bacebd338a38f590be08",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/business-failure-20261106-01/business-da0c2f3c/steps.jsonl",
+      "path": "evidence/business-failure-20261106-01/business-da0c2f3c/steps.jsonl",
+      "sourceSha256": "e8f955d952decb564ba18ef585d11ccc235e58d08da49f54fc60527bfa788b44",
+      "publishedSha256": "d94bf2564b224cf1ff8fc205ee525dbee07f395f612bbf459d5c638d238f5fbd",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/business-failure-20261106-01/business-da0c2f3c/player/CatGame/save.json",
+      "path": "evidence/business-failure-20261106-01/business-da0c2f3c/player/CatGame/save.json",
+      "sourceSha256": "fca1c4dcd758c522d2c589a7696dedcb95cd76e86559b75f368fb9d7af3ff95d",
+      "publishedSha256": "286b89168f47dce57bb9d3ba9788f82cdec119ced2486c6a95925199b7c5b4ab",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/output.xml",
+      "path": "evidence/performance-baseline-20261106-02/output.xml",
+      "sourceSha256": "1358d8eacd62c022cdb458177e3fa51bec670eda7defd2e961c563fd0cbcc268",
+      "publishedSha256": "c8e9b8c928c2d0ee1f744223f07c11a0e1a7cc82390527ae04f0d26aa6e7d35c",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/result.json",
+      "path": "evidence/performance-baseline-20261106-02/result.json",
+      "sourceSha256": "6cc6c413f4812d1f4ca29191cbbce07acfb20977de2faa3d967772d4fdd19e89",
+      "publishedSha256": "6cc6c413f4812d1f4ca29191cbbce07acfb20977de2faa3d967772d4fdd19e89",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/run.json",
+      "path": "evidence/performance-baseline-20261106-02/run.json",
+      "sourceSha256": "f7a378f94870a750b8fe498078f8941f23858c4579f4ec04aeafaa122995d89a",
+      "publishedSha256": "d92e141093e44026547572fcf18968e98ea02ca69e043ce517c66412565e147f",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/result.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/result.json",
+      "sourceSha256": "c3ade772446de887c779100578e52666e3b8fe320a7332bab07a4e9bc89e70ee",
+      "publishedSha256": "522d7e04f0a19933afa32e8011034b9c653cd2d618c8197dde7547cc48dfbc32",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-1/analysis.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-1/analysis.json",
+      "sourceSha256": "de626cc754d6c99c54ef1c3b907f2a8f836908baa1824208108437c63e76f16c",
+      "publishedSha256": "971f6253b57da6eba33ae942869ef4e31ddc779985b904d496896b190605ae6e",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-1/command.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-1/command.json",
+      "sourceSha256": "4dff198934c03ebf4e6d79edc2d0526150c256fe2086c1cf6c50bc2775b17c8d",
+      "publishedSha256": "3059ab2be6b3b66ef30c686c00bfcfd6803b705db0f42b6dd6aad6b325090351",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-1/frames-cg-cold.csv",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-1/frames-cg-cold.csv",
+      "sourceSha256": "5cf381ea655e89037c8606fb43eb3cd49a559d08b848983e495b1a050fa95a12",
+      "publishedSha256": "5cf381ea655e89037c8606fb43eb3cd49a559d08b848983e495b1a050fa95a12",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-1/frames-cg-warm.csv",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-1/frames-cg-warm.csv",
+      "sourceSha256": "94bc050dbb7dbb17db52b32c036c61fb3b2e82cd09a2aec42b7d9f235174cce4",
+      "publishedSha256": "94bc050dbb7dbb17db52b32c036c61fb3b2e82cd09a2aec42b7d9f235174cce4",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-1/frames-hundred.csv",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-1/frames-hundred.csv",
+      "sourceSha256": "b00350d4c231f2dfeb97a083a0fcdf06d95049e8ce274527c38b94606fb935d8",
+      "publishedSha256": "b00350d4c231f2dfeb97a083a0fcdf06d95049e8ce274527c38b94606fb935d8",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-1/frames-input.csv",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-1/frames-input.csv",
+      "sourceSha256": "819d96e65452da9ae0867f4a36d2548bf207f8d37565caaa292280955842c713",
+      "publishedSha256": "819d96e65452da9ae0867f4a36d2548bf207f8d37565caaa292280955842c713",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-1/frames-save.csv",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-1/frames-save.csv",
+      "sourceSha256": "989cdf1f7cb655e0cfac633cbadfbad79a5545d9025e604392880407d1a360e3",
+      "publishedSha256": "989cdf1f7cb655e0cfac633cbadfbad79a5545d9025e604392880407d1a360e3",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-1/frames-single.csv",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-1/frames-single.csv",
+      "sourceSha256": "4850a76c87732cac6d3d0a2845a4c35e32054cfbcb603cc22d068b403f4334a4",
+      "publishedSha256": "4850a76c87732cac6d3d0a2845a4c35e32054cfbcb603cc22d068b403f4334a4",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-1/performance-environment.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-1/performance-environment.json",
+      "sourceSha256": "112f78aadd40395428a24b4a70da9a91705f11ca681b55c9fcdf7d75cc9322f3",
+      "publishedSha256": "39efec27ba91390fe5b5fd4d882b1c94b67d8526d24875271cc7fb974f7ecfc4",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-1/performance-result.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-1/performance-result.json",
+      "sourceSha256": "3efe14c80f802dd9e24948d3cb7f8de42be1c7b173834496313dca6a8d5cfec7",
+      "publishedSha256": "80083bcc8539f93317fe30dae0049e0aa38189b2fc4a6761a456e95320e4b1ea",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-1/phase-cg-cold.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-1/phase-cg-cold.json",
+      "sourceSha256": "35d2183a1d190bdf721a7c26a0296fec8bda866d4b0f722b67fcc7d449e96717",
+      "publishedSha256": "a9405b4dd04ec268723d4f7f2daed5077ed96a50f69367a79f4c80c36d0f10a8",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-1/phase-cg-warm.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-1/phase-cg-warm.json",
+      "sourceSha256": "be64c69a5748c935aeda97ba11a6193ea78431cab6ff17d1f8be966c5f916d0b",
+      "publishedSha256": "093aaeefdf0446cac0e6191df249add86b3c1d5ddb5a2ee0943c2f0930cde5a4",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-1/phase-hundred.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-1/phase-hundred.json",
+      "sourceSha256": "f4c71545842d6fdd85f091e3ae50d7a73aa84bb8650c4015ddba8b3421a26831",
+      "publishedSha256": "96acbe732897d27102347340bd9efbd10f55e8a385b10f665db5629985923a7f",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-1/phase-input.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-1/phase-input.json",
+      "sourceSha256": "f2dbaaa84ac9fffad15d37b7610d9629ec199fc95ef8a38e03e7d49fe32dbc49",
+      "publishedSha256": "ec3d25a8f5db01d1f31697f9efa854e2cace32b52f160058259731dcfda55872",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-1/phase-save.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-1/phase-save.json",
+      "sourceSha256": "084dfe1055ebdfb239144071c85da5e1f5286ec6b51b55d97c988bf9a73df2d4",
+      "publishedSha256": "6090b5e58d8d77e34536454367c363116f61fdaf63d7d5213139ea47d79270ba",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-1/phase-single.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-1/phase-single.json",
+      "sourceSha256": "3fece3f90e384d227d41a0f937b16d3224cb1f437561098d6a28fd43f5717987",
+      "publishedSha256": "b7b15e1c4b592d77fe7ad551f6fa8e79edc9067167127391721c6ebcc220ac91",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-1/progress.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-1/progress.json",
+      "sourceSha256": "ba750c3dbc5c9545cd4fa71dd2c2221604a3e1f678ca147de3d5d015edc7a564",
+      "publishedSha256": "ba750c3dbc5c9545cd4fa71dd2c2221604a3e1f678ca147de3d5d015edc7a564",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-1/steps.jsonl",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-1/steps.jsonl",
+      "sourceSha256": "b8f4e54b3b9e00151ac39af89b0677f5bf11b6b1d5ec64108103db4a51c51691",
+      "publishedSha256": "0d03d7da2f26c12cf9ea6537986c891ddb841f497b0b07be44db076331d32755",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-2/analysis.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-2/analysis.json",
+      "sourceSha256": "e3502e9c4ec76b0052aa6a2ce3a06729bdc693d99fcdd339cd97c88c915c6bd9",
+      "publishedSha256": "f56a1d18d033c3c3ca074c8651f1d2d7955e015719862d3c9b2b19493cb70006",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-2/command.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-2/command.json",
+      "sourceSha256": "fd6043de56682e5c550666b1d3a72d4e61ef815bc70ab48f41c8c67078ca8dba",
+      "publishedSha256": "36c261d69188887b66a1b2b826cd590a802d855d5fc732de618ceff6fdfbc98d",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-2/frames-cg-cold.csv",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-2/frames-cg-cold.csv",
+      "sourceSha256": "5d3dc6d95f39528364bbc4f91caac89b1bd6d8cd01eba8a5cc109b9847afe2d2",
+      "publishedSha256": "5d3dc6d95f39528364bbc4f91caac89b1bd6d8cd01eba8a5cc109b9847afe2d2",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-2/frames-cg-warm.csv",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-2/frames-cg-warm.csv",
+      "sourceSha256": "2cba054b1db80b406fc34b11579c93966c2ec2840b6b72336084ddabce7bc633",
+      "publishedSha256": "2cba054b1db80b406fc34b11579c93966c2ec2840b6b72336084ddabce7bc633",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-2/frames-hundred.csv",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-2/frames-hundred.csv",
+      "sourceSha256": "e50991ae99eac8ded569e92d09072cecb2aaec35d636a275308013d1a2288647",
+      "publishedSha256": "e50991ae99eac8ded569e92d09072cecb2aaec35d636a275308013d1a2288647",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-2/frames-input.csv",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-2/frames-input.csv",
+      "sourceSha256": "f639e66268bbfcbdaf71a34ddf6f3aadcd74f058833d60eca3ffe93cf7bbf62b",
+      "publishedSha256": "f639e66268bbfcbdaf71a34ddf6f3aadcd74f058833d60eca3ffe93cf7bbf62b",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-2/frames-save.csv",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-2/frames-save.csv",
+      "sourceSha256": "3571eb7cf02b3bc6d5385ab93b88e9905d1ff5c96e8791aed3eede0d2a155c60",
+      "publishedSha256": "3571eb7cf02b3bc6d5385ab93b88e9905d1ff5c96e8791aed3eede0d2a155c60",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-2/frames-single.csv",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-2/frames-single.csv",
+      "sourceSha256": "f6df80802c8b4a286c2df638d0bd6635b171184352333c499a951ebac89b6453",
+      "publishedSha256": "f6df80802c8b4a286c2df638d0bd6635b171184352333c499a951ebac89b6453",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-2/performance-environment.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-2/performance-environment.json",
+      "sourceSha256": "aa150149e28c991acd39e9525b3baf965b5d910a373510e011a714068d620362",
+      "publishedSha256": "cbcecbc651e6691a6fb746ed00ab6fd38a8f065bc2caaffa83a192d32d056579",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-2/performance-result.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-2/performance-result.json",
+      "sourceSha256": "d3cac3e97771606dd08aa2a44eccf5dedc09215ee7d4623eab703d1ccc1a7114",
+      "publishedSha256": "36c99b4a2a292ed8daad0fea92f90a9239000c4ad88dd175264f364584795b41",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-2/phase-cg-cold.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-2/phase-cg-cold.json",
+      "sourceSha256": "edf0718f424b1e19a66dce890e4fa334bb44f313ed024c2b3a76555d0e4c2920",
+      "publishedSha256": "04845453d0e5d36d55576ace51efeb2842674f12da0c1461ce8d2cd9aab3ef3e",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-2/phase-cg-warm.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-2/phase-cg-warm.json",
+      "sourceSha256": "25251bf1e007e0b4997f35ebd58227a303f3f2ac0bcfa7a3336591e9953ecae2",
+      "publishedSha256": "c6dd7a561edde2005ab33ba8f51b869c5c8269b4cb2338c19492fd3b68bc36e9",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-2/phase-hundred.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-2/phase-hundred.json",
+      "sourceSha256": "b8e7800386d77104f3c9305835780dd361ccac8b710686ab529f14b2617f88dc",
+      "publishedSha256": "4feb53d1d07d34073ab4815aa2cc219180c2a2d6d8d8803a0d234d266ea68451",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-2/phase-input.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-2/phase-input.json",
+      "sourceSha256": "360c28c26a0e99d0074818ebcec9cb09dc17e2f7c3fa6b28a6d70c4af15ca6cc",
+      "publishedSha256": "6866fb3ee72df6fa6859597a51c569d2271ccbb305a58d706df4fd0ea57ae57f",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-2/phase-save.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-2/phase-save.json",
+      "sourceSha256": "1026511d3c68e70d24025af2865dfdb1b61c346f179b449f85fa21d510c94a29",
+      "publishedSha256": "ca88974784248f4b4f8edac2700977f75e58e2e922e5f11440785ddda723ca4e",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-2/phase-single.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-2/phase-single.json",
+      "sourceSha256": "6050c71e847860d94145e4657e5dc1e64da4835690d09534ab51ef8d784778bb",
+      "publishedSha256": "ca7df587565be46640e2ebbdd38b71a30f3a0ad8eab50dd3bc9b8a15757e39de",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-2/progress.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-2/progress.json",
+      "sourceSha256": "ba750c3dbc5c9545cd4fa71dd2c2221604a3e1f678ca147de3d5d015edc7a564",
+      "publishedSha256": "ba750c3dbc5c9545cd4fa71dd2c2221604a3e1f678ca147de3d5d015edc7a564",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-2/steps.jsonl",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-2/steps.jsonl",
+      "sourceSha256": "78d150767f24bb14bd65d41835e8723da581a908c476e481effc41fdca434a8c",
+      "publishedSha256": "1c415e4ebcfdb3dd6ce8c8460e6d8a29411bc83cfd3b331c32ed9e7d39a3de44",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-1/CatGame/save.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-1/CatGame/save.json",
+      "sourceSha256": "d69bc0929656ecbade71785dacdf223827e508a4ebdd87c0d00f342e1905013d",
+      "publishedSha256": "d6dc7743f1665877c529b7861b2bba42be03c3a4faf7cc012679474cd0ed788f",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-1/save-stress/CatGame/save.bad.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-1/save-stress/CatGame/save.bad.json",
+      "sourceSha256": "8c0707e2f5d51150b4d421210a20fbc5b813d21f3bbde0a1dbe5417c17ca0924",
+      "publishedSha256": "8c0707e2f5d51150b4d421210a20fbc5b813d21f3bbde0a1dbe5417c17ca0924",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-1/save-stress/CatGame/save.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-1/save-stress/CatGame/save.json",
+      "sourceSha256": "f53b98f5625c4253a2f5af8dd7b0cc6853df47f903cb4fe15f7ae2e095d58d36",
+      "publishedSha256": "e9d2f5ef62af9ceb217bc118716973817dcde050737e7df2157b84dd6f336da3",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-2/CatGame/save.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-2/CatGame/save.json",
+      "sourceSha256": "904b6a283a28f62ef0c84c2f7ef3d0b851ba0373db6b4ca56265eddf99b3ce02",
+      "publishedSha256": "73059698c5fbd0038b6d4aa2042ac45c1756c154e7baf0e8355bec37108f8bf4",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-2/save-stress/CatGame/save.bad.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-2/save-stress/CatGame/save.bad.json",
+      "sourceSha256": "8c0707e2f5d51150b4d421210a20fbc5b813d21f3bbde0a1dbe5417c17ca0924",
+      "publishedSha256": "8c0707e2f5d51150b4d421210a20fbc5b813d21f3bbde0a1dbe5417c17ca0924",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/performance-baseline-20261106-02/performance/round-2/save-stress/CatGame/save.json",
+      "path": "evidence/performance-baseline-20261106-02/performance/round-2/save-stress/CatGame/save.json",
+      "sourceSha256": "f53b98f5625c4253a2f5af8dd7b0cc6853df47f903cb4fe15f7ae2e095d58d36",
+      "publishedSha256": "e9d2f5ef62af9ceb217bc118716973817dcde050737e7df2157b84dd6f336da3",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-audit-20261106-01/audit.json",
+      "path": "evidence/performance-audit-20261106-01/audit.json",
+      "sourceSha256": "992141fefa8056261640c3a010cb057b3fdc86dbbb03e23a8d358ba510507283",
+      "publishedSha256": "10d82da19bf3769caa0a3042b21fa0a2df9eb91f2fb9e937f715c11d32a4759a",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-failure-20261106-01/output.xml",
+      "path": "evidence/performance-failure-20261106-01/output.xml",
+      "sourceSha256": "e985f86121d15727cdc48a4c201605b7511dc19373135aeb327c417a75d6e15a",
+      "publishedSha256": "499462ba0cbd2e8452257a68d48bf49618f71777650a1b9d43e5994c31a2248b",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-failure-20261106-01/result.json",
+      "path": "evidence/performance-failure-20261106-01/result.json",
+      "sourceSha256": "315f1f4436aef22e0f239190e9482d8bf5df94f151648bbb1ba21515d191dae7",
+      "publishedSha256": "315f1f4436aef22e0f239190e9482d8bf5df94f151648bbb1ba21515d191dae7",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/performance-failure-20261106-01/run.json",
+      "path": "evidence/performance-failure-20261106-01/run.json",
+      "sourceSha256": "18fc0cdd0fc667fca97d87007867ada4302a423984c362b2720b3d4daee880ff",
+      "publishedSha256": "b100148409ba1bb5ade1928ecdc61d495c2752bf43b8188ddd3141ca4dddb4e2",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-failure-20261106-01/failure-proof/verification.json",
+      "path": "evidence/performance-failure-20261106-01/failure-proof/verification.json",
+      "sourceSha256": "0d0aa0ca64ad425178b07212efc637e1a8f26767a932b50a3f5b2c22c3e37003",
+      "publishedSha256": "0d0aa0ca64ad425178b07212efc637e1a8f26767a932b50a3f5b2c22c3e37003",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/performance-failure-20261106-01/failure-proof/case/result.json",
+      "path": "evidence/performance-failure-20261106-01/failure-proof/case/result.json",
+      "sourceSha256": "7ef904506d368ebf4fa70e50bf73dbe23765616a6e09d5126103290b882ca957",
+      "publishedSha256": "1757f05b15b52e60f260c39ca4c721a37eac6fbb748073666383a0e611bb5f73",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-failure-20261106-01/failure-proof/case/round-1/command.json",
+      "path": "evidence/performance-failure-20261106-01/failure-proof/case/round-1/command.json",
+      "sourceSha256": "53f951089250d07f3845083d0172a307fd8f9cef1d4eafdd422ace8b813497d6",
+      "publishedSha256": "1af1db4fbf3a0a4870e1a97969182e29017122749d85a082db1bc3de73bcdba0",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-failure-20261106-01/failure-proof/case/round-1/performance-environment.json",
+      "path": "evidence/performance-failure-20261106-01/failure-proof/case/round-1/performance-environment.json",
+      "sourceSha256": "31b0f3dbe72486d45cd99828f9ff34958d68d9d22399ca6f48bb996e19ad38df",
+      "publishedSha256": "10c7157ed939d19d7dce3f32a9ec217bbce984c8f0d1ba536e4e13fce4aefb84",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-failure-20261106-01/failure-proof/case/round-1/performance-partial.json",
+      "path": "evidence/performance-failure-20261106-01/failure-proof/case/round-1/performance-partial.json",
+      "sourceSha256": "cd581b205569719668cf4b87e120bcf1d7a97e23a501d67a5bbcffdcdd6e04b6",
+      "publishedSha256": "0423bf9c964388230323f0b75dd46fa463400f5cbf4f85643b36294dbca7f6b4",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-failure-20261106-01/failure-proof/case/round-1/performance-result.json",
+      "path": "evidence/performance-failure-20261106-01/failure-proof/case/round-1/performance-result.json",
+      "sourceSha256": "01e593729be63311356a19334b3c9cf1130dd3ea51c6af58eeed748507211673",
+      "publishedSha256": "9b5eb1a2845c2e2c088c349ecf25e2616882aa970401441c79676aefcf2b018c",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-failure-20261106-01/failure-proof/case/round-1/progress.json",
+      "path": "evidence/performance-failure-20261106-01/failure-proof/case/round-1/progress.json",
+      "sourceSha256": "6111cdbd9676ce86ffce81edc272867be2c517906c5a1d9dc67b78e42bf722d6",
+      "publishedSha256": "6111cdbd9676ce86ffce81edc272867be2c517906c5a1d9dc67b78e42bf722d6",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/performance-failure-20261106-01/failure-proof/case/round-1/CatGame/save.json",
+      "path": "evidence/performance-failure-20261106-01/failure-proof/case/round-1/CatGame/save.json",
+      "sourceSha256": "04aeba15a1826b212793947a55ed33f44ff9739e5a219ff4aba1d55cb5d06ca6",
+      "publishedSha256": "a21c5b9770aaad5b4e367256a48f31a77fc5e4992f1e0da2f0801661024a0967",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-guard-20261106-03/output.xml",
+      "path": "evidence/performance-guard-20261106-03/output.xml",
+      "sourceSha256": "df083cacb123cd11efd717f1db8a8e9ea213fdcf3a61bfe74928d5152dccc8f7",
+      "publishedSha256": "31e75a8d2bc3ffc9cde88afe00c7833854b409ecfcc8cfb2efef1b3e9a662682",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-guard-20261106-03/result.json",
+      "path": "evidence/performance-guard-20261106-03/result.json",
+      "sourceSha256": "b5d618bb0ac450f89b443278d48634341458d88e44f731aadbd62e4ab9f04765",
+      "publishedSha256": "b5d618bb0ac450f89b443278d48634341458d88e44f731aadbd62e4ab9f04765",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/performance-guard-20261106-03/run.json",
+      "path": "evidence/performance-guard-20261106-03/run.json",
+      "sourceSha256": "34ba56c2b02347ab19216c03d4e8be628ede834397463c749073be560493ff5a",
+      "publishedSha256": "ac97a81f774b988e1b1d882f5ff4a5a6a6a26774f674b5f8486dc053b4e180c8",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/performance-guard-20261106-03/unity-guard/test-results-PlayMode.xml",
+      "path": "evidence/performance-guard-20261106-03/unity-guard/test-results-PlayMode.xml",
+      "sourceSha256": "5b21d971f7513e4643ec843cb168c7db9ce69749138c9d60953619a22d231b3e",
+      "publishedSha256": "48cdb5aa4e2599516844d7cd716f86f7aa0f0775ef119e2c2c945d90f12cf7e0",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/distribution-20261107-robot/output.xml",
+      "path": "evidence/distribution-20261107-robot/output.xml",
+      "sourceSha256": "c4d9b5e04d0042c86d009107974845befb06fa6417a224d511f23d8a6558982a",
+      "publishedSha256": "9643550a0f49837425f0f4922a1a2a6a44b10e26f3e42ccde77d35ab5a4e6cae",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/distribution-20261107-robot/result.json",
+      "path": "evidence/distribution-20261107-robot/result.json",
+      "sourceSha256": "9331d764290ff48916c7f8f7eeed028ee0b57edb5a4e0ea399c78bb1b1744b72",
+      "publishedSha256": "9331d764290ff48916c7f8f7eeed028ee0b57edb5a4e0ea399c78bb1b1744b72",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/distribution-20261107-robot/run.json",
+      "path": "evidence/distribution-20261107-robot/run.json",
+      "sourceSha256": "6d6dcc0f2e1b22942f2394f1db53c4eeb9d7fe53a6f2a4d6c17ffb7152c0ef12",
+      "publishedSha256": "92d4e1866eb333d1e2de8facf462e37fcf709febb3799839d1b5405f2e33d7cc",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-2/pipeline.json",
+      "path": "evidence/ci-2/pipeline.json",
+      "sourceSha256": "e6341462953006eca6e10245fd1fbac9460537c8cf949630435e121e539ed573",
+      "publishedSha256": "d29a3de21d6c1c8ea34eb181c29a4b3ae3b670f375810f52aa5ab2124b8a6237",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-3/pipeline.json",
+      "path": "evidence/ci-3/pipeline.json",
+      "sourceSha256": "02664ab8b5ea91d8ae2df668c605d113dc9caf049806c416a505700cd932aa82",
+      "publishedSha256": "48f42ef8c9b80a77837f3bb7f403f648a49b1a6ab2fb3082a22113c789931e67",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/ci-4/pipeline.json",
+      "path": "evidence/ci-4/pipeline.json",
+      "sourceSha256": "9ac2472346706ed36488208066597b7b1f88c97bfa2fe83a6734f420f5412d50",
+      "publishedSha256": "7c01b641f5f665655b7ed5d50f8f4d1273f15f4d92a0aab5dea11207552f2eb1",
+      "transformed": true
+    },
+    {
+      "source": "docs/质量交付/性能专项报告-2026-11-06.md",
+      "path": "reports/性能专项报告-2026-11-06.md",
+      "sourceSha256": "fb85955473d1871d6be5075900d9ace2ff15d151418de127b78b13d13831d701",
+      "publishedSha256": "a2444f2ad59c608ebcef3e60b210ee920b764077c1032f0e8a7df9807b18e9c9",
+      "transformed": true
+    },
+    {
+      "source": "docs/质量交付/性能专项方案.md",
+      "path": "reports/性能专项方案.md",
+      "sourceSha256": "ac7d7f163076d9e31517539d38ce4eec37f09a2c89d35779276ae261f5f1efb8",
+      "publishedSha256": "7f09b35a9809f6ed0b5a2a5a0239c17241ea092a6d088ed85d99fc2c8ceae72e",
+      "transformed": true
+    },
+    {
+      "source": "docs/质量交付/缺陷与追溯.md",
+      "path": "reports/缺陷与追溯.md",
+      "sourceSha256": "b3fad7f14685df993abceb082c8634616e949ed511c40aabaa659b5d7a5ef0ad",
+      "publishedSha256": "cd0cc2f1aee9e44ebb8b0cbb6e2f8c54804ac4db8269d0b5195bb7592b82a39d",
+      "transformed": true
+    }
+  ]
+}

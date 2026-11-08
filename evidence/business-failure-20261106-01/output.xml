@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-06T14:46:33.792749" rpa="false" schemaversion="5">
+<suite id="s1" name="Business Failure" source="&lt;PROJECT&gt;\Tests\robot\tests\business_failure.robot">
+<kw name="Prepare Isolated Game" owner="GameBusiness" type="SETUP">
+<status status="PASS" start="2026-11-06T14:46:33.837645" elapsed="0.004999"/>
+</kw>
+<test id="s1-t1" name="Deliberate Wrong Ownership Expectation" line="9">
+<kw name="Launch Game" owner="GameBusiness">
+<status status="PASS" start="2026-11-06T14:46:33.842644" elapsed="4.517349"/>
+</kw>
+<kw name="Start New Game" owner="GameBusiness">
+<status status="PASS" start="2026-11-06T14:46:38.359993" elapsed="0.358794"/>
+</kw>
+<kw name="Assert Milk Count" owner="GameBusiness">
+<msg time="2026-11-06T14:46:38.719785" level="FAIL">PRODUCT: expected Milk=99, actual=1</msg>
+<arg>99</arg>
+<status status="FAIL" start="2026-11-06T14:46:38.719785" elapsed="0.000000">PRODUCT: expected Milk=99, actual=1</status>
+</kw>
+<tag>expected-failure</tag>
+<tag>harness-contract</tag>
+<status status="FAIL" start="2026-11-06T14:46:33.842644" elapsed="5.188860">PRODUCT: expected Milk=99, actual=1</status>
+</test>
+<kw name="Close Owned Game" owner="GameBusiness" type="TEARDOWN">
+<status status="PASS" start="2026-11-06T14:46:39.032504" elapsed="0.424129"/>
+</kw>
+<doc>Deliberate assertion failure for evidence validation; excluded from normal profiles.</doc>
+<status status="FAIL" start="2026-11-06T14:46:33.794755" elapsed="5.661878"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">expected-failure</stat>
+<stat pass="0" fail="1" skip="0">harness-contract</stat>
+</tag>
+<suite>
+<stat name="Business Failure" id="s1" pass="0" fail="1" skip="0">Business Failure</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

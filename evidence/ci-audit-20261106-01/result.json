@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "commit": "e387f3ca575ca16e035679f4ffc254021e4796d4",
+  "observations": [
+    {
+      "number": 2,
+      "result": "FAILURE",
+      "failedStage": "configuration-gate",
+      "artifacts": 27,
+      "durationMs": 95949,
+      "archivedPipelineSha256": "e6341462953006eca6e10245fd1fbac9460537c8cf949630435e121e539ed573"
+    },
+    {
+      "number": 3,
+      "result": "FAILURE",
+      "failedStage": "build",
+      "artifacts": 205,
+      "durationMs": 350244,
+      "archivedPipelineSha256": "02664ab8b5ea91d8ae2df668c605d113dc9caf049806c416a505700cd932aa82"
+    },
+    {
+      "number": 4,
+      "result": "SUCCESS",
+      "failedStage": null,
+      "artifacts": 232,
+      "durationMs": 471964,
+      "archivedPipelineSha256": "9ac2472346706ed36488208066597b7b1f88c97bfa2fe83a6734f420f5412d50"
+    }
+  ],
+  "deliveryFiles": 387,
+  "deliverySha256": "51c09b8de69e5e619fa29bb6313ad75e000f3c778a2c5ec7c421e8f0ca0da641",
+  "scope": "manual Jenkins test/build gates and actual archived delivery bytes"
+}

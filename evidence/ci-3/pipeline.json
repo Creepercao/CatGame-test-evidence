@@ -1,0 +1,85 @@
+{
+  "started": "2026-11-06T07:33:22.364411+00:00",
+  "number": 3,
+  "url": "http://127.0.0.1:18880/job/CatGame-Quality/3/",
+  "trigger": "manual",
+  "commit": "e387f3ca575ca16e035679f4ffc254021e4796d4",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "stages": [
+    {
+      "name": "compile",
+      "started": "2026-11-06T07:33:25.332765+00:00",
+      "command": [
+        "D:\\python\\python.exe",
+        "tools/qa/run_unity.py",
+        "--output",
+        "<PROJECT>\\Tests\\robot\\results\\ci-3\\compile",
+        "--method",
+        "CatGame.EditorTools.CatGameSetup.CICompileCheck"
+      ],
+      "exitCode": 0,
+      "ended": "2026-11-06T07:33:50.986748+00:00"
+    },
+    {
+      "name": "smoke",
+      "started": "2026-11-06T07:33:50.989257+00:00",
+      "command": [
+        "D:\\python\\python.exe",
+        "tools/qa/run_suite.py",
+        "--output",
+        "<PROJECT>\\Tests\\robot\\results\\ci-3\\smoke",
+        "--profile",
+        "smoke"
+      ],
+      "exitCode": 0,
+      "ended": "2026-11-06T07:34:49.583104+00:00"
+    },
+    {
+      "name": "configuration-gate",
+      "started": "2026-11-06T07:34:49.587105+00:00",
+      "command": [
+        "D:\\python\\python.exe",
+        "tools/qa/run_suite.py",
+        "--output",
+        "<PROJECT>\\Tests\\robot\\results\\ci-3\\configuration-gate",
+        "--suite",
+        "<PROJECT>\\Tests\\robot\\results\\ci-3\\ci-gate.robot"
+      ],
+      "exitCode": 0,
+      "ended": "2026-11-06T07:34:52.126470+00:00"
+    },
+    {
+      "name": "full",
+      "started": "2026-11-06T07:34:52.130509+00:00",
+      "command": [
+        "D:\\python\\python.exe",
+        "tools/qa/run_suite.py",
+        "--output",
+        "<PROJECT>\\Tests\\robot\\results\\ci-3\\full",
+        "--profile",
+        "full"
+      ],
+      "exitCode": 0,
+      "ended": "2026-11-06T07:38:44.306192+00:00"
+    },
+    {
+      "name": "build",
+      "started": "2026-11-06T07:38:44.310706+00:00",
+      "command": [
+        "D:\\python\\python.exe",
+        "tools/qa/run_unity.py",
+        "--output",
+        "<PROJECT>\\Tests\\robot\\results\\ci-3\\build",
+        "--method",
+        "CatGame.EditorTools.CatGameSetup.CIControlledBuildFailure"
+      ],
+      "exitCode": 1,
+      "ended": "2026-11-06T07:39:10.165002+00:00"
+    }
+  ],
+  "releaseAllowed": false,
+  "error": "Stage failed: build",
+  "ended": "2026-11-06T07:39:10.169003+00:00",
+  "exitCode": 1
+}

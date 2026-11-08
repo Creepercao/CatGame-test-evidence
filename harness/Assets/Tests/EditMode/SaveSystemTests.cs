@@ -1,0 +1,177 @@
+using System;
+using System.Diagnostics;
+using System.IO;
+using System.Text.RegularExpressions;
+using CatGame.Idle;
+using NUnit.Framework;
+using UnityEngine;
+using UnityEngine.TestTools;
+
+namespace CatGame.EditTests
+{
+    public class SaveSystemTests
+    {
+        string _directory;
+        string _savePath;
+
+        [SetUp]
+        public void SetUp()
+        {
+            _directory = Path.Combine(Application.temporaryCachePath, "CatGameSaveTests-" + Guid.NewGuid().ToString("N"));
+            Directory.CreateDirectory(_directory);
+            _savePath = Path.Combine(_directory, "save.json");
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+            if (Directory.Exists(_directory)) Directory.Delete(_directory, true);
+        }
+
+        [Test]
+        public void Save_path_is_inside_the_CatGame_folder()
+        {
+            var path = SaveSystem.GetSavePath("C:/PlayerData");
+            Assert.AreEqual(Path.Combine("C:/PlayerData", "CatGame", "save.json"), path);
+        }
+
+        [Test]
+        public void Save_round_trips_fields_and_replaces_existing_file()
+        {
+            var state = SaveSystem.CreateNewGame();
+            state.catHair = 123456.75;
+            state.totalEarned = 987654.5;
+            state.clicks = 42;
+            state.cats[0].count = 3;
+            state.items[4].level = 2;
+            state.achievements.Add("first_fur");
+            state.lastSeenUnix = 1793290000;
+            state.prestigeLevel = 2;
+            state.prestigeMultiplier = 1.5;
+
+            SaveSystem.SaveToPath(_savePath, state);
+            state.catHair = 20;
+            SaveSystem.SaveToPath(_savePath, state);
+            var loaded = SaveSystem.LoadOrCreate(_savePath);
+
+            Assert.AreEqual(SaveSystem.CurrentVersion, loaded.version);
+            Assert.AreEqual(20, loaded.catHair);
+            Assert.AreEqual(state.totalEarned, loaded.totalEarned);
+            Assert.AreEqual(state.clicks, loaded.clicks);
+            Assert.AreEqual(3, loaded.cats[0].count);
+            Assert.AreEqual(2, loaded.items[4].level);
+            CollectionAssert.AreEqual(state.achievements, loaded.achievements);
+            Assert.AreEqual(state.lastSeenUnix, loaded.lastSeenUnix);
+            Assert.AreEqual(2, loaded.prestigeLevel);
+            Assert.AreEqual(1.5, loaded.prestigeMultiplier);
+            Assert.IsFalse(File.Exists(_savePath + ".tmp"));
+        }
+
+        [Test]
+        public void Stress_save_load_round_trips_one_thousand_cycles_and_recovers_midway_corruption()
+        {
+            var state = SaveSystem.CreateNewGame();
+            var stopwatch = Stopwatch.StartNew();
+            long memoryBefore = GC.GetTotalMemory(false);
+            long finalFileBytes = 0;
+
+            for (int i = 0; i < 1000; i++)
+            {
+                state.catHair = i + 0.125;
+                state.totalEarned = i + 1000.25;
+                state.clicks = i;
+                state.cats[0].count = i % (IdleBalance.CatMaxOwned + 1);
+                state.items[0].level = i % (ItemCatalog.LevelsPerItem + 1);
+                state.achievements.Clear();
+                if ((i & 1) == 0) state.achievements.Add("first_fur");
+                state.lastSeenUnix = i + 1700000000L;
+                state.prestigeLevel = i % 5;
+                state.prestigeMultiplier = 1.0 + i / 1000.0;
+
+                SaveSystem.SaveToPath(_savePath, state);
+                var loaded = SaveSystem.LoadOrCreate(_savePath);
+
+                Assert.AreEqual(state.version, loaded.version, "version at cycle " + i);
+                Assert.AreEqual(state.catHair, loaded.catHair, "catHair at cycle " + i);
+                Assert.AreEqual(state.totalEarned, loaded.totalEarned, "totalEarned at cycle " + i);
+                Assert.AreEqual(state.clicks, loaded.clicks, "clicks at cycle " + i);
+                Assert.AreEqual(state.cats[0].count, loaded.cats[0].count, "cat count at cycle " + i);
+                Assert.AreEqual(state.items[0].level, loaded.items[0].level, "item level at cycle " + i);
+                CollectionAssert.AreEqual(state.achievements, loaded.achievements, "achievements at cycle " + i);
+                Assert.AreEqual(state.lastSeenUnix, loaded.lastSeenUnix, "lastSeenUnix at cycle " + i);
+                Assert.AreEqual(state.prestigeLevel, loaded.prestigeLevel, "prestigeLevel at cycle " + i);
+                Assert.AreEqual(state.prestigeMultiplier, loaded.prestigeMultiplier, 1e-12,
+                    "JSON decimal round-trip tolerance; prestigeMultiplier at cycle " + i);
+                Assert.IsFalse(File.Exists(_savePath + ".tmp"), "temporary file leaked at cycle " + i);
+
+                if (i == 499)
+                {
+                    File.WriteAllText(_savePath, "{ broken in the middle of stress run");
+                    LogAssert.Expect(LogType.Warning, new Regex("Save data could not be loaded"));
+                    var recovered = SaveSystem.LoadOrCreate(_savePath);
+                    Assert.AreEqual(1, recovered.cats[0].count, "corrupt save should recover to the default Milk cat");
+                    Assert.IsTrue(File.Exists(Path.Combine(_directory, "save.bad.json")), "corrupt mid-run file should be quarantined");
+                    Assert.IsFalse(File.Exists(_savePath), "corrupt save should not remain active");
+                }
+            }
+
+            stopwatch.Stop();
+            long memoryAfter = GC.GetTotalMemory(false);
+            finalFileBytes = new FileInfo(_savePath).Length;
+            UnityEngine.Debug.Log(string.Format(
+                "STR-02 save stress: roundTrips=1000, corruptRecovery=1, elapsedMs={0}, fileBytes={1}, managedBytesBefore={2}, managedBytesAfter={3}",
+                stopwatch.ElapsedMilliseconds, finalFileBytes, memoryBefore, memoryAfter));
+        }
+
+        [Test]
+        public void Corrupt_save_is_quarantined_and_new_game_is_returned()
+        {
+            File.WriteAllText(_savePath, "{ definitely not json");
+            LogAssert.Expect(LogType.Warning, new Regex("Save data could not be loaded"));
+
+            var state = SaveSystem.LoadOrCreate(_savePath);
+
+            Assert.AreEqual(SaveSystem.CurrentVersion, state.version);
+            Assert.AreEqual(CatCatalog.All.Length, state.cats.Count);
+            Assert.AreEqual(ItemCatalog.All.Length, state.items.Count);
+            Assert.IsTrue(File.Exists(Path.Combine(_directory, "save.bad.json")));
+            Assert.IsFalse(File.Exists(_savePath));
+        }
+
+        [Test]
+        public void Save_with_missing_fields_is_quarantined()
+        {
+            File.WriteAllText(_savePath, "{\"version\":1,\"catHair\":0}");
+            LogAssert.Expect(LogType.Warning, new Regex("Save data could not be loaded"));
+
+            SaveSystem.LoadOrCreate(_savePath);
+
+            Assert.IsTrue(File.Exists(Path.Combine(_directory, "save.bad.json")));
+            Assert.IsFalse(File.Exists(_savePath));
+        }
+
+        [Test]
+        public void Future_save_version_is_quarantined_instead_of_overwritten()
+        {
+            var state = SaveSystem.CreateNewGame();
+            state.version = SaveSystem.CurrentVersion + 1;
+            File.WriteAllText(_savePath, JsonUtility.ToJson(state));
+            LogAssert.Expect(LogType.Warning, new Regex("Save data could not be loaded"));
+
+            var loaded = SaveSystem.LoadOrCreate(_savePath);
+
+            Assert.AreEqual(SaveSystem.CurrentVersion, loaded.version);
+            Assert.IsTrue(File.Exists(Path.Combine(_directory, "save.bad.json")));
+            Assert.IsFalse(File.Exists(_savePath));
+        }
+
+        [Test]
+        public void Save_rejects_out_of_range_cat_counts()
+        {
+            var state = SaveSystem.CreateNewGame();
+            state.cats[0].count = IdleBalance.CatMaxOwned + 1;
+            Assert.Throws<InvalidDataException>(() => SaveSystem.SaveToPath(_savePath, state));
+            Assert.IsFalse(File.Exists(_savePath));
+        }
+    }
+}

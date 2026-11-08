@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-06T17:29:55.160823" rpa="false" schemaversion="5">
+<suite id="s1" name="Ci-Gate" source="&lt;PROJECT&gt;\Tests\robot\results\ci-5\ci-gate.robot">
+<test id="s1-t1" name="Configured Ownership Contract" line="2">
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<arg>2</arg>
+<arg>2</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-11-06T17:29:55.219981" elapsed="0.001001"/>
+</kw>
+<status status="PASS" start="2026-11-06T17:29:55.217984" elapsed="0.002998"/>
+</test>
+<status status="PASS" start="2026-11-06T17:29:55.164348" elapsed="0.056634"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Ci-Gate" id="s1" pass="1" fail="0" skip="0">Ci-Gate</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

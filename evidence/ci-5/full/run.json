@@ -1,0 +1,25 @@
+{
+  "runId": "20261106-172955-ed66f760",
+  "started": "2026-11-06T09:29:55.721398+00:00",
+  "profile": "full",
+  "explicitSuites": false,
+  "commit": "42de242d40aa7cf3127bdc6f1877c46ffdc5ca3b",
+  "worktree": "",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "unity": "D:\\Unity\\2022.3.21f1\\Editor\\Unity.exe",
+  "command": [
+    "D:\\python\\python.exe",
+    "-m",
+    "robot",
+    "--outputdir",
+    "<PROJECT>\\Tests\\robot\\results\\ci-5\\full",
+    "<PROJECT>\\Tests\\robot\\tests\\unity_tests.robot"
+  ],
+  "suites": [
+    {
+      "path": "<PROJECT>\\Tests\\robot\\tests\\unity_tests.robot",
+      "sha256": "4f8664a67c88ddd423fd5fad91e675040ce0eab197234b0e24d76cbbf506a60d"
+    }
+  ]
+}

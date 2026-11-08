@@ -1,0 +1,61 @@
+{
+    "phase": "probe",
+    "elapsed": 0.0877845999999991,
+    "frames": [
+        {
+            "frame": 126,
+            "gcCollections": 21,
+            "realtime": 6.3107517,
+            "frameMs": 16.664400696754457,
+            "mainThreadNs": 16643800,
+            "gcBytes": 876,
+            "monoBytes": 4956160,
+            "unityBytes": 53189978,
+            "reservedBytes": 199311360
+        },
+        {
+            "frame": 127,
+            "gcCollections": 21,
+            "realtime": 6.3264477999999999,
+            "frameMs": 16.67110063135624,
+            "mainThreadNs": 16636100,
+            "gcBytes": 160,
+            "monoBytes": 4956160,
+            "unityBytes": 53189978,
+            "reservedBytes": 199311360
+        },
+        {
+            "frame": 128,
+            "gcCollections": 21,
+            "realtime": 6.3436911,
+            "frameMs": 16.667500138282777,
+            "mainThreadNs": 16656900,
+            "gcBytes": 40,
+            "monoBytes": 4960256,
+            "unityBytes": 53189978,
+            "reservedBytes": 199311360
+        },
+        {
+            "frame": 129,
+            "gcCollections": 21,
+            "realtime": 6.359577799999999,
+            "frameMs": 16.663499176502229,
+            "mainThreadNs": 16653900,
+            "gcBytes": 9526,
+            "monoBytes": 4960256,
+            "unityBytes": 53190041,
+            "reservedBytes": 199311360
+        },
+        {
+            "frame": 130,
+            "gcCollections": 21,
+            "realtime": 6.3764194000000009,
+            "frameMs": 16.668999567627908,
+            "mainThreadNs": 16668700,
+            "gcBytes": 40,
+            "monoBytes": 4960256,
+            "unityBytes": 53189962,
+            "reservedBytes": 199311360
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-06 06:53:14Z" end-time="2026-11-06 06:53:14Z" duration="0.140444">
+  <test-suite type="TestSuite" id="1000" name="喵屋" fullname="喵屋" runstate="Runnable" testcasecount="85" result="Failed" site="Child" start-time="2026-11-06 06:53:14Z" end-time="2026-11-06 06:53:14Z" duration="0.140444" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1106" name="CatGame.Tests.dll" fullname="&lt;PROJECT&gt;/Library/ScriptAssemblies/CatGame.Tests.dll" runstate="Runnable" testcasecount="85" result="Failed" site="Child" start-time="2026-11-06 06:53:14Z" end-time="2026-11-06 06:53:14Z" duration="0.129414" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="56556" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1107" name="CatGame" fullname="CatGame" runstate="Runnable" testcasecount="85" result="Failed" site="Child" start-time="2026-11-06 06:53:14Z" end-time="2026-11-06 06:53:14Z" duration="0.128214" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1108" name="Tests" fullname="CatGame.Tests" runstate="Runnable" testcasecount="85" result="Failed" site="Child" start-time="2026-11-06 06:53:14Z" end-time="2026-11-06 06:53:14Z" duration="0.126676" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1003" name="AnimationTests" fullname="CatGame.Tests.AnimationTests" classname="CatGame.Tests.AnimationTests" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2026-11-06 06:53:14Z" end-time="2026-11-06 06:53:14Z" duration="0.123518" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1013" name="Assigning_open_walk_surface_preserves_initial_roaming_distance" fullname="CatGame.Tests.AnimationTests.Assigning_open_walk_surface_preserves_initial_roaming_distance" methodname="Assigning_open_walk_surface_preserves_initial_roaming_distance" classname="CatGame.Tests.AnimationTests" runstate="Runnable" seed="1609514562" result="Failed" start-time="2026-11-06 06:53:14Z" end-time="2026-11-06 06:53:14Z" duration="0.106608" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[  seed=3; attaching an open surface shortened the initial target
+  Expected: greater than or equal to 0.800000012f
+  But was:  0.428000391f
+]]></message>
+                <stack-trace><![CDATA[at CatGame.Tests.AnimationTests.Assigning_open_walk_surface_preserves_initial_roaming_distance () [0x00089] in &lt;PROJECT&gt;\Assets\Tests\PlayMode\AnimationTests.cs:205
+]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

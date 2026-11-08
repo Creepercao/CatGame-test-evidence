@@ -1,0 +1,16 @@
+{
+  "command": [
+    "D:\\Unity\\2022.3.21f1\\Editor\\Unity.exe",
+    "-batchmode",
+    "-quit",
+    "-projectPath",
+    "<PROJECT>",
+    "-executeMethod",
+    "CatGame.EditorTools.CatGameSetup.CICompileCheck",
+    "-logFile",
+    "<PROJECT>\\Tests\\robot\\results\\ci-5\\compile\\unity.log"
+  ],
+  "started": "2026-11-06T09:28:09.434307+00:00",
+  "exit_code": 0,
+  "finished": "2026-11-06T09:28:45.381096+00:00"
+}

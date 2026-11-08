@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-06T16:58:42.113229" rpa="false" schemaversion="5">
+<suite id="s1" name="Performance" source="&lt;PROJECT&gt;\Tests\robot\tests\performance.robot">
+<test id="s1-t1" name="Five Performance Workloads And Repeated Baseline" line="9">
+<kw name="Run Process" owner="Process">
+<msg time="2026-11-06T16:58:42.193066" level="INFO">Starting process:
+python tools/qa/run_performance.py &lt;PROJECT&gt;\Tests\robot\results\performance-baseline-20261106-02/performance --rounds 2</msg>
+<msg time="2026-11-06T16:58:42.227400" level="INFO">Waiting for process to complete.</msg>
+<msg time="2026-11-06T17:08:41.854020" level="INFO">Process completed.</msg>
+<msg time="2026-11-06T17:08:41.892290" level="INFO">${run} = &lt;result object with rc 0&gt;</msg>
+<var>${run}</var>
+<arg>python</arg>
+<arg>tools/qa/run_performance.py</arg>
+<arg>${OUTPUT DIR}/performance</arg>
+<arg>--rounds</arg>
+<arg>${ROUNDS}</arg>
+<arg>stdout=${OUTPUT DIR}/performance.log</arg>
+<arg>stderr=STDOUT</arg>
+<arg>timeout=1250s</arg>
+<arg>on_timeout=terminate</arg>
+<doc>Runs a process and waits for it to complete.</doc>
+<status status="PASS" start="2026-11-06T16:58:42.188546" elapsed="599.705747"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-06T17:08:41.919357" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${run.rc}</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-11-06T17:08:41.905818" elapsed="0.013539"/>
+</kw>
+<tag>performance</tag>
+<tag>player</tag>
+<tag>stress</tag>
+<status status="PASS" start="2026-11-06T16:58:42.187545" elapsed="599.732808"/>
+</test>
+<status status="PASS" start="2026-11-06T16:58:42.117227" elapsed="599.809654"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">performance</stat>
+<stat pass="1" fail="0" skip="0">player</stat>
+<stat pass="1" fail="0" skip="0">stress</stat>
+</tag>
+<suite>
+<stat name="Performance" id="s1" pass="1" fail="0" skip="0">Performance</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

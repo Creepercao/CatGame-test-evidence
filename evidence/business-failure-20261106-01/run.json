@@ -1,0 +1,25 @@
+{
+  "runId": "20261106-144633-062cd0dc",
+  "started": "2026-11-06T06:46:33.180477+00:00",
+  "profile": "smoke",
+  "explicitSuites": true,
+  "commit": "9c9a40871c7b4afd164e6157f27a00cf6897156f",
+  "worktree": "M Assets/Editor/CatGameSetup.cs\n M Assets/Scripts/PlayerVisualQA.cs\n M tools/qa/run_suite.py\n?? Assets/Scripts/PlayerBusinessQA.cs\n?? Assets/Scripts/PlayerBusinessQA.cs.meta\n?? Tests/robot/libraries/GameBusiness.py\n?? Tests/robot/tests/business.robot\n?? Tests/robot/tests/business_failure.robot",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "unity": "D:\\Unity\\2022.3.21f1\\Editor\\Unity.exe",
+  "command": [
+    "D:\\python\\python.exe",
+    "-m",
+    "robot",
+    "--outputdir",
+    "<PROJECT>\\Tests\\robot\\results\\business-failure-20261106-01",
+    "<PROJECT>\\Tests\\robot\\tests\\business_failure.robot"
+  ],
+  "suites": [
+    {
+      "path": "<PROJECT>\\Tests\\robot\\tests\\business_failure.robot",
+      "sha256": "bb557618aac981bdcd08f4b3d10cea58156157550375f203ae9190bcfae9690c"
+    }
+  ]
+}
