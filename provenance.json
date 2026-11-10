@@ -1961,12 +1961,41 @@
       "sourceSha256": "ae52b9f6efecd3af88537bb4b54db96dd57a047fc7884d473c33e4dbcbc1d37b",
       "publishedSha256": "d18aca104205adcbbb685b8b41b163e25d4509e76e95a15c17114d56395cb2a6",
       "transformed": true
+    },
+    {
+      "source": "Build/Android/ending/run-02/ending-result.json",
+      "path": "evidence/android/ending/ending-result.json",
+      "sourceSha256": "e99e721b05789c7c2a4395e6424e75c18718180e9d3152357a8cae9d53a8b740",
+      "publishedSha256": "e99e721b05789c7c2a4395e6424e75c18718180e9d3152357a8cae9d53a8b740",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/ending/run-02/1200-statistics.png",
+      "path": "evidence/android/ending/1200-statistics.png",
+      "sourceSha256": "34495cee04e3f62cf9ce4744ef55d2e3034c8b38858d1eca4f412b13c83ff8d3",
+      "publishedSha256": "34495cee04e3f62cf9ce4744ef55d2e3034c8b38858d1eca4f412b13c83ff8d3",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/ending/run-02/2000-statistics.png",
+      "path": "evidence/android/ending/2000-statistics.png",
+      "sourceSha256": "a7dc93f54e78bea56c1f3b230d6d57192e5bdba58bf7814d4b707339fd3c6b31",
+      "publishedSha256": "a7dc93f54e78bea56c1f3b230d6d57192e5bdba58bf7814d4b707339fd3c6b31",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/check_ending.py",
+      "path": "harness/android/check_ending.py",
+      "sourceSha256": "428f28e5d69ef654fba1e6e925fd563e1e14f8be651c7bf339bf5538d1ba0a78",
+      "publishedSha256": "428f28e5d69ef654fba1e6e925fd563e1e14f8be651c7bf339bf5538d1ba0a78",
+      "transformed": false
     }
   ],
   "androidOriginCommits": {
     "playerConfiguration": "fcafadf",
     "robotSnapshot": "7859a32",
     "saveRecovery": "d092c98",
-    "screenshotRotationWait": "da4141b"
+    "screenshotRotationWait": "da4141b",
+    "endingAppium": "0887a9b"
   }
 }

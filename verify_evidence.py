@@ -72,6 +72,13 @@ def verify_android():
         assert 'Recovered CatGame progress from backup.' in (backup / f'{scenario}-unity.txt').read_text(encoding='utf-8')
     print('PASS Android v3 Player recovery after corrupt and missing primary')
 
+    cases = read('evidence/android/ending/ending-result.json')
+    assert [(case['width'], case['height'], case['action']) for case in cases] == [
+        (2000, 900, 'continue'), (1200, 900, 'menu'),
+    ]
+    assert all(case['completed'] and case['firstEnding']['totalCats'] == 2 for case in cases)
+    print('PASS Android v3 ending in two aspect ratios with both exit branches')
+
 def main():
     manifest=read('provenance.json')
     for row in manifest['files']:

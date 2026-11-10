@@ -1,0 +1,36 @@
+[
+  {
+    "width": 2000,
+    "height": 900,
+    "action": "continue",
+    "completed": true,
+    "firstEnding": {
+      "playSeconds": 114.76649080961944,
+      "totalEarned": 62.55733069330445,
+      "clicks": 0,
+      "totalCats": 2,
+      "breeds": 1,
+      "itemLevels": 0,
+      "achievementCount": 1,
+      "completedUnix": 1794314364,
+      "hasFullPlaytimeHistory": true
+    }
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "action": "menu",
+    "completed": true,
+    "firstEnding": {
+      "playSeconds": 109.56649107486011,
+      "totalEarned": 58.62399758249512,
+      "clicks": 0,
+      "totalCats": 2,
+      "breeds": 1,
+      "itemLevels": 0,
+      "achievementCount": 1,
+      "completedUnix": 1794314401,
+      "hasFullPlaytimeHistory": true
+    }
+  }
+]

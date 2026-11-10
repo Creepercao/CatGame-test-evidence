@@ -22,6 +22,8 @@ v3 首轮冒烟被系统无响应弹窗遮挡，第二轮在 Launcher → 游戏
 
 ## 复跑
 
+Android v3 的结局用例沿用 AVD 内的两猫测试档，只为测试准备火箭购买余额。20:9 下先取消，确认未购买，再购买并从 CG 按钮以外的区域进入统计页，选择继续游玩。4:3 下购买后从统计页返回主菜单。两组均检查单次扣款、结局完成标志与统计快照，并人工检查画面边缘。首轮创建测试档后进程以 `SIGNALED`（status 9）退出，现有日志不足以确定退出原因。使用已创建的隔离测试档复跑后，两组通过。[结果 JSON 与统计页截图](../evidence/android/ending) · [Appium 脚本](../harness/android/check_ending.py)
+
 用例快照在 [Android Robot 用例目录](../harness/android)。环境需有可运行 APK 的 Android 模拟器、ADB、Appium UiAutomator2、Robot Framework 和 Pillow。为游戏和 UiAutomator2 安装包启用独立 Android 用户 `CatGame-Appium-QA`，切换该用户后运行对应套件。将实际 ADB 路径、端口、设备序列和 QA 用户号传给 `${ADB}`、`${ADB_PORT}`、`${SERIAL}`、`${QA_USER}`。Appium 默认地址为 `http://127.0.0.1:4723`。16:9 用例以 1600×900 为基准，冒烟用例使用新档，布局和锁屏用例沿用冒烟产生的两猫存档。屏幕锁需要支持系统电源键的测试设备。
 
 ```powershell
