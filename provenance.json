@@ -1989,6 +1989,111 @@
       "sourceSha256": "428f28e5d69ef654fba1e6e925fd563e1e14f8be651c7bf339bf5538d1ba0a78",
       "publishedSha256": "428f28e5d69ef654fba1e6e925fd563e1e14f8be651c7bf339bf5538d1ba0a78",
       "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/collect_performance.py",
+      "path": "harness/android/collect_performance.py",
+      "sourceSha256": "2f5660878cc3732d340a07ce18ae3a70a759dda6a711fca3bad7b0186af18a66",
+      "publishedSha256": "2f5660878cc3732d340a07ce18ae3a70a759dda6a711fca3bad7b0186af18a66",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/performance/avd-probe-01/01-single/result.json",
+      "path": "evidence/android/performance/single-probe/result.json",
+      "sourceSha256": "9ea9ea37ae2c03fe0ce5398c47ef2610a370645a968ca0be6ce7b788911fc03d",
+      "publishedSha256": "9ea9ea37ae2c03fe0ce5398c47ef2610a370645a968ca0be6ce7b788911fc03d",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/performance/avd-probe-01/01-single/frames.csv",
+      "path": "evidence/android/performance/single-probe/frames.csv",
+      "sourceSha256": "20cb84cfc0b0e1e2f8cda302fce0ba8c09de38306d25bb8004ec3e32c3f1250f",
+      "publishedSha256": "20cb84cfc0b0e1e2f8cda302fce0ba8c09de38306d25bb8004ec3e32c3f1250f",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/performance/avd-probe-01/01-single/meminfo-before.txt",
+      "path": "evidence/android/performance/single-probe/meminfo-before.txt",
+      "sourceSha256": "61f09c8b61e2a5cc86f550db00b77a2609fa420d46ca628c638b7db76ecf1721",
+      "publishedSha256": "a59d674dd31bc39d0362ad2fa6bdf2257e655c3abadc3002959227ca94691049",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/performance/avd-probe-01/01-single/meminfo-after.txt",
+      "path": "evidence/android/performance/single-probe/meminfo-after.txt",
+      "sourceSha256": "837a806adcb39d46680def3eb93bb317a29e51fe786e2c8df1cfad0823c6c08e",
+      "publishedSha256": "b07617d6613a23471293b0a8e9c2195491d70f5e4d714f767d93e133ae53c792",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/performance/avd-probe-01/01-single/metrics.json",
+      "path": "evidence/android/performance/single-probe/metrics.json",
+      "sourceSha256": "2bec48eb7428584c18dfcfda8bc5eefda4ef116846862f4f8ec496b8505e7256",
+      "publishedSha256": "2bec48eb7428584c18dfcfda8bc5eefda4ef116846862f4f8ec496b8505e7256",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/performance/avd-probe-01/01-hundred/result.json",
+      "path": "evidence/android/performance/hundred-probe/result.json",
+      "sourceSha256": "a6dba54e2c4b93261635582d72e679c907a7117f660325a1cb18924bcc30e968",
+      "publishedSha256": "a6dba54e2c4b93261635582d72e679c907a7117f660325a1cb18924bcc30e968",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/performance/avd-probe-01/01-hundred/frames.csv",
+      "path": "evidence/android/performance/hundred-probe/frames.csv",
+      "sourceSha256": "c7972f4226009f1ec3606ab8c63ebe0cb4cb252322ef117ce6334ebeb2eaa81e",
+      "publishedSha256": "c7972f4226009f1ec3606ab8c63ebe0cb4cb252322ef117ce6334ebeb2eaa81e",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/performance/avd-probe-01/01-hundred/meminfo-before.txt",
+      "path": "evidence/android/performance/hundred-probe/meminfo-before.txt",
+      "sourceSha256": "84eda91c2350958824b6b930c2a812c6c657d162274243ea862e90650a91bd56",
+      "publishedSha256": "2217b66226bcaa83a39aa50d110bea408dfc0487605b2409a24dea6d1158234c",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/performance/avd-probe-01/01-hundred/meminfo-after.txt",
+      "path": "evidence/android/performance/hundred-probe/meminfo-after.txt",
+      "sourceSha256": "7bba92828f850993a3e0cf4eb431fd266a8233004d6df680b231bfc9804b4401",
+      "publishedSha256": "1b36cbfc82cf2532fcea3e3d60dbd0d83336f902bbf95a7e946543b109206948",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/performance/avd-hundred-02/01-hundred/result.json",
+      "path": "evidence/android/performance/hundred-60s/result.json",
+      "sourceSha256": "6e33ada679d90f77817c3643b33684cc396e4050f554750997ce47ab6f3f0141",
+      "publishedSha256": "6e33ada679d90f77817c3643b33684cc396e4050f554750997ce47ab6f3f0141",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/performance/avd-hundred-02/01-hundred/frames.csv",
+      "path": "evidence/android/performance/hundred-60s/frames.csv",
+      "sourceSha256": "67962b6ba49ca32914b0d040b9adfed27a80b271c4cdc78574a15a9d054fe802",
+      "publishedSha256": "67962b6ba49ca32914b0d040b9adfed27a80b271c4cdc78574a15a9d054fe802",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/performance/avd-hundred-02/01-hundred/meminfo-before.txt",
+      "path": "evidence/android/performance/hundred-60s/meminfo-before.txt",
+      "sourceSha256": "69021abc24e93733b09fa991f591af3f74b408aee614087716c1e37b511ffef8",
+      "publishedSha256": "603892efe88ec6ba6f7611b76f55eb3d8eb62612629912ac4ac698d644d92625",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/performance/avd-hundred-02/01-hundred/meminfo-after.txt",
+      "path": "evidence/android/performance/hundred-60s/meminfo-after.txt",
+      "sourceSha256": "70e31b91bb13552b8342ab1e5cd85b45e8a6dba1e9624acf92d0ae5aaf426953",
+      "publishedSha256": "2a8d03ec8007f80509e765d91794313003ed9d50cca4569df32bccacb8c9d0f9",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/performance/avd-hundred-02/01-hundred/metrics.json",
+      "path": "evidence/android/performance/hundred-60s/metrics.json",
+      "sourceSha256": "53a694db62c3a7d4953bb153c4f830c482fd0b6a349332cb0a44ae90b4698140",
+      "publishedSha256": "53a694db62c3a7d4953bb153c4f830c482fd0b6a349332cb0a44ae90b4698140",
+      "transformed": false
     }
   ],
   "androidOriginCommits": {
@@ -1996,6 +2101,7 @@
     "robotSnapshot": "7859a32",
     "saveRecovery": "d092c98",
     "screenshotRotationWait": "da4141b",
-    "endingAppium": "0887a9b"
+    "endingAppium": "0887a9b",
+    "performanceSampling": "dd0dee0"
   }
 }

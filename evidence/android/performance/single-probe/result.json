@@ -1,0 +1,19 @@
+{
+  "mode": "single",
+  "state": "complete",
+  "error": "",
+  "unity": "2022.3.21f1",
+  "gpu": "Android Emulator OpenGL ES Translator (Google SwiftShader)",
+  "graphicsApi": "OpenGLES3",
+  "os": "Android OS 14 / API-34 (UE1A.230829.050/12077443)",
+  "width": 1600,
+  "height": 900,
+  "refreshRate": 60,
+  "targetFps": 60,
+  "warmupSeconds": 10,
+  "requestedSeconds": 3,
+  "visibleCats": 1,
+  "ownedCats": 1,
+  "frameCount": 22,
+  "elapsedSeconds": 3.0240279999998165
+}

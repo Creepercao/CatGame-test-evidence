@@ -79,6 +79,29 @@ def verify_android():
     assert all(case['completed'] and case['firstEnding']['totalCats'] == 2 for case in cases)
     print('PASS Android v3 ending in two aspect ratios with both exit branches')
 
+    base = 'evidence/android/performance'
+    for case, cats, seconds, count in [('single-probe', 1, 3, 22), ('hundred-probe', 100, 3, 9), ('hundred-60s', 100, 60, 145)]:
+        folder = f'{base}/{case}'
+        result = read(f'{folder}/result.json')
+        assert result['visibleCats'] == cats and result['elapsedSeconds'] >= seconds
+        with (ROOT / folder / 'frames.csv').open(newline='', encoding='utf-8') as sample:
+            rows = list(csv.DictReader(sample))
+        frames = [int(row['frame']) for row in rows]
+        assert len(frames) == count == result['frameCount']
+        assert frames == list(range(frames[0], frames[0] + count))
+        if case == 'hundred-probe':
+            assert count < 10 and not (ROOT / folder / 'metrics.json').exists()
+            continue
+        metrics = read(f'{folder}/metrics.json')
+        times = sorted(float(row['frame_ms']) for row in rows)
+        assert metrics['p95Ms'] == times[math.ceil(.95 * count) - 1]
+        for suffix, key in [('before', 'pssBeforeKiB'), ('after', 'pssAfterKiB')]:
+            snapshot = (ROOT / folder / f'meminfo-{suffix}.txt').read_text(encoding='utf-8')
+            assert f"MEMINFO in pid {metrics['pid']}" in snapshot
+            assert int(re.search(r'TOTAL PSS:\s*(\d+)', snapshot).group(1)) == metrics[key] > 0
+        assert metrics['withinReferenceBudget'] is (False if seconds == 60 else None)
+    print('PASS Android performance probe, insufficient sample, and 60-second retry evidence')
+
 def main():
     manifest=read('provenance.json')
     for row in manifest['files']:

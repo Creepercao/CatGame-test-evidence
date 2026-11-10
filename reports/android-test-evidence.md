@@ -20,9 +20,23 @@ Robot Framework 7.5 编排。Python 调用 Appium 3.4.2 与 UiAutomator2 8.6.0 �
 
 v3 首轮冒烟被系统无响应弹窗遮挡，第二轮在 Launcher → 游戏旋转期间取得竖屏截图而失败。截图断言改成在同一截止时间内等待正确尺寸，后续使用相同的像素误差门限，第三轮通过。故障注入由 ADB 操作 AVD 内的独立 QA 存档；Appium 通过正常的继续入口验证画面。恢复采用上一份已提交备份，最后一次主档新增的进度可能回退。[三轮 Robot XML 与备份恢复证据](../evidence/android/backup)
 
-## 复跑
+## v3 结局验收
 
 Android v3 的结局用例沿用 AVD 内的两猫测试档，只为测试准备火箭购买余额。20:9 下先取消，确认未购买，再购买并从 CG 按钮以外的区域进入统计页，选择继续游玩。4:3 下购买后从统计页返回主菜单。两组均检查单次扣款、结局完成标志与统计快照，并人工检查画面边缘。首轮创建测试档后进程以 `SIGNALED`（status 9）退出，现有日志不足以确定退出原因。使用已创建的隔离测试档复跑后，两组通过。[结果 JSON 与统计页截图](../evidence/android/ending) · [Appium 脚本](../harness/android/check_ending.py)
+
+## 性能采样链路
+
+用独立包名的 Unity 开发构建在 Android 14 AVD 测试。环境为 ARM64 兼容层、SwiftShader 和 1600×900。采样器确认实际可见猫数、画面前台及同一进程，采前后两次 Android PSS。采样中暂停 ADB 查询，原始 Unity 帧间隔保存为 CSV，验证帧号连续、采样时长和数据有效性。[独立采集脚本](../harness/android/collect_performance.py)
+
+| 场景 | 结果 |
+|---|---|
+| 单猫 3 秒 | 22 帧且 PSS 前后有效，采样链路通过。[原始数据](../evidence/android/performance/single-probe) |
+| 100 猫 3 秒 | 实际可见 100 只，只有 9 帧，低于 10 帧门槛。结果无效。[原始数据](../evidence/android/performance/hundred-probe) |
+| 100 猫 60 秒复测 | 145 帧、P95 600.00 ms、100% 帧超过 33.3 ms，PSS 282481 → 305146 KiB。采样链路通过，模拟器未达到帧时间参考预算。[原始数据](../evidence/android/performance/hundred-60s) |
+
+上述数据反映这一模拟器环境。真机帧时间、内存和长期稳定性尚待实测。
+
+## 复跑
 
 用例快照在 [Android Robot 用例目录](../harness/android)。环境需有可运行 APK 的 Android 模拟器、ADB、Appium UiAutomator2、Robot Framework 和 Pillow。为游戏和 UiAutomator2 安装包启用独立 Android 用户 `CatGame-Appium-QA`，切换该用户后运行对应套件。将实际 ADB 路径、端口、设备序列和 QA 用户号传给 `${ADB}`、`${ADB_PORT}`、`${SERIAL}`、`${QA_USER}`。Appium 默认地址为 `http://127.0.0.1:4723`。16:9 用例以 1600×900 为基准，冒烟用例使用新档，布局和锁屏用例沿用冒烟产生的两猫存档。屏幕锁需要支持系统电源键的测试设备。
 
