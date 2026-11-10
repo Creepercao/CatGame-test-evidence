@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="11" result="Failed(Child)" total="11" passed="6" failed="5" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-10 09:31:39Z" end-time="2026-11-10 09:31:44Z" duration="4.8849862">
+  <test-suite type="TestSuite" id="1071" name="喵屋" fullname="喵屋" runstate="Runnable" testcasecount="55" result="Failed" site="Child" start-time="2026-11-10 09:31:39Z" end-time="2026-11-10 09:31:44Z" duration="4.884986" total="11" passed="6" failed="5" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1135" name="CatGame.EditTests.dll" fullname="[PROJECT]/Library/ScriptAssemblies/CatGame.EditTests.dll" runstate="Runnable" testcasecount="55" result="Failed" site="Child" start-time="2026-11-10 09:31:39Z" end-time="2026-11-10 09:31:44Z" duration="4.853431" total="11" passed="6" failed="5" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="75580" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1136" name="CatGame" fullname="CatGame" runstate="Runnable" testcasecount="55" result="Failed" site="Child" start-time="2026-11-10 09:31:39Z" end-time="2026-11-10 09:31:44Z" duration="4.849944" total="11" passed="6" failed="5" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1137" name="EditTests" fullname="CatGame.EditTests" runstate="Runnable" testcasecount="55" result="Failed" site="Child" start-time="2026-11-10 09:31:39Z" end-time="2026-11-10 09:31:44Z" duration="4.846913" total="11" passed="6" failed="5" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1095" name="SaveSystemTests" fullname="CatGame.EditTests.SaveSystemTests" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" testcasecount="11" result="Failed" site="Child" start-time="2026-11-10 09:31:39Z" end-time="2026-11-10 09:31:44Z" duration="4.842380" total="11" passed="6" failed="5" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1101" name="Corrupt_primary_and_backup_start_fresh_and_keep_the_backup_for_diagnosis" fullname="CatGame.EditTests.SaveSystemTests.Corrupt_primary_and_backup_start_fresh_and_keep_the_backup_for_diagnosis" methodname="Corrupt_primary_and_backup_start_fresh_and_keep_the_backup_for_diagnosis" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="2063131129" result="Failed" start-time="2026-11-10 09:31:39Z" end-time="2026-11-10 09:31:39Z" duration="0.050250" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[Expected log did not appear: [Warning] Regex: Save backup could not be restored]]></message>
+              </failure>
+              <output><![CDATA[Save data could not be loaded; starting a new game. Save file is missing required field 'version'.
+]]></output>
+            </test-case>
+            <test-case id="1104" name="Corrupt_save_is_quarantined_and_new_game_is_returned" fullname="CatGame.EditTests.SaveSystemTests.Corrupt_save_is_quarantined_and_new_game_is_returned" methodname="Corrupt_save_is_quarantined_and_new_game_is_returned" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="1981669349" result="Passed" start-time="2026-11-10 09:31:39Z" end-time="2026-11-10 09:31:39Z" duration="0.013224" asserts="0">
+              <properties />
+              <output><![CDATA[Save data could not be loaded; starting a new game. Save file is missing required field 'version'.
+]]></output>
+            </test-case>
+            <test-case id="1102" name="Failed_replacement_preserves_last_committed_save_and_allows_retry" fullname="CatGame.EditTests.SaveSystemTests.Failed_replacement_preserves_last_committed_save_and_allows_retry" methodname="Failed_replacement_preserves_last_committed_save_and_allows_retry" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="1086185041" result="Passed" start-time="2026-11-10 09:31:39Z" end-time="2026-11-10 09:31:39Z" duration="0.057961" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1106" name="Future_save_version_is_quarantined_instead_of_overwritten" fullname="CatGame.EditTests.SaveSystemTests.Future_save_version_is_quarantined_instead_of_overwritten" methodname="Future_save_version_is_quarantined_instead_of_overwritten" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="139817352" result="Passed" start-time="2026-11-10 09:31:39Z" end-time="2026-11-10 09:31:39Z" duration="0.012438" asserts="0">
+              <properties />
+              <output><![CDATA[Save data could not be loaded; starting a new game. Save version 3 is newer than supported version 2.
+]]></output>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1100" name="Load_restores_previous_save_when_primary_is_missing_or_corrupt" fullname="CatGame.EditTests.SaveSystemTests.Load_restores_previous_save_when_primary_is_missing_or_corrupt" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-11-10 09:31:39Z" end-time="2026-11-10 09:31:39Z" duration="0.053009" total="2" passed="0" failed="2" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1098" name="Load_restores_previous_save_when_primary_is_missing_or_corrupt(False)" fullname="CatGame.EditTests.SaveSystemTests.Load_restores_previous_save_when_primary_is_missing_or_corrupt(False)" methodname="Load_restores_previous_save_when_primary_is_missing_or_corrupt" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="1248343156" result="Failed" start-time="2026-11-10 09:31:39Z" end-time="2026-11-10 09:31:39Z" duration="0.021174" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[  Expected: 2
+  But was:  1
+]]></message>
+                  <stack-trace><![CDATA[at CatGame.EditTests.SaveSystemTests.Load_restores_previous_save_when_primary_is_missing_or_corrupt (System.Boolean corrupt) [0x000c8] in [PROJECT]\Assets\Tests\EditMode\SaveSystemTests.cs:91
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1099" name="Load_restores_previous_save_when_primary_is_missing_or_corrupt(True)" fullname="CatGame.EditTests.SaveSystemTests.Load_restores_previous_save_when_primary_is_missing_or_corrupt(True)" methodname="Load_restores_previous_save_when_primary_is_missing_or_corrupt" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="1350899716" result="Failed" start-time="2026-11-10 09:31:39Z" end-time="2026-11-10 09:31:39Z" duration="0.024756" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[  Expected: 2
+  But was:  1
+]]></message>
+                  <stack-trace><![CDATA[at CatGame.EditTests.SaveSystemTests.Load_restores_previous_save_when_primary_is_missing_or_corrupt (System.Boolean corrupt) [0x000c8] in [PROJECT]\Assets\Tests\EditMode\SaveSystemTests.cs:91
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Save data could not be loaded; starting a new game. Save file is missing required field 'version'.
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-case id="1096" name="Save_path_is_inside_the_CatGame_folder" fullname="CatGame.EditTests.SaveSystemTests.Save_path_is_inside_the_CatGame_folder" methodname="Save_path_is_inside_the_CatGame_folder" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="981831991" result="Passed" start-time="2026-11-10 09:31:39Z" end-time="2026-11-10 09:31:39Z" duration="0.002572" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1107" name="Save_rejects_out_of_range_cat_counts" fullname="CatGame.EditTests.SaveSystemTests.Save_rejects_out_of_range_cat_counts" methodname="Save_rejects_out_of_range_cat_counts" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="857386468" result="Passed" start-time="2026-11-10 09:31:39Z" end-time="2026-11-10 09:31:39Z" duration="0.004691" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1097" name="Save_round_trips_fields_and_replaces_existing_file" fullname="CatGame.EditTests.SaveSystemTests.Save_round_trips_fields_and_replaces_existing_file" methodname="Save_round_trips_fields_and_replaces_existing_file" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="346457862" result="Failed" label="Error" start-time="2026-11-10 09:31:39Z" end-time="2026-11-10 09:31:39Z" duration="0.024699" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[System.IO.FileNotFoundException : Could not find file "[PROJECT]\Build\Android\build-temp\CatGameStudio\喵屋\CatGameSaveTests-11be36e54a1c4693989c5039045446b6\save.json.bak"]]></message>
+                <stack-trace><![CDATA[  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <4b234520e36749be9cf6b053d911690f>:0
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <4b234520e36749be9cf6b053d911690f>:0
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0
+  at System.IO.File.ReadAllText (System.String path) [0x0002c] in <4b234520e36749be9cf6b053d911690f>:0
+  at CatGame.EditTests.SaveSystemTests.Save_round_trips_fields_and_replaces_existing_file () [0x001d4] in [PROJECT]\Assets\Tests\EditMode\SaveSystemTests.cs:68
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 ]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1105" name="Save_with_missing_fields_is_quarantined" fullname="CatGame.EditTests.SaveSystemTests.Save_with_missing_fields_is_quarantined" methodname="Save_with_missing_fields_is_quarantined" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="332722046" result="Passed" start-time="2026-11-10 09:31:39Z" end-time="2026-11-10 09:31:39Z" duration="0.010923" asserts="0">
+              <properties />
+              <output><![CDATA[Save data could not be loaded; starting a new game. Save file is missing required field 'totalEarned'.
+]]></output>
+            </test-case>
+            <test-case id="1103" name="Stress_save_load_round_trips_one_thousand_cycles_and_recovers_midway_corruption" fullname="CatGame.EditTests.SaveSystemTests.Stress_save_load_round_trips_one_thousand_cycles_and_recovers_midway_corruption" methodname="Stress_save_load_round_trips_one_thousand_cycles_and_recovers_midway_corruption" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="855362365" result="Failed" start-time="2026-11-10 09:31:39Z" end-time="2026-11-10 09:31:44Z" duration="4.592177" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[  restore the last committed backup, not the interrupted save
+  Expected: 498
+  But was:  0
+]]></message>
+                <stack-trace><![CDATA[at CatGame.EditTests.SaveSystemTests.Stress_save_load_round_trips_one_thousand_cycles_and_recovers_midway_corruption () [0x00366] in [PROJECT]\Assets\Tests\EditMode\SaveSystemTests.cs:190
+]]></stack-trace>
+              </failure>
+              <output><![CDATA[Save data could not be loaded; starting a new game. Save file is missing required field 'version'.
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

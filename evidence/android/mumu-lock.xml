@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-10T16:53:49.350562" rpa="false" schemaversion="5">
+<suite id="s1" name="Android Lifecycle" source="[PROJECT]\Tests\robot\android\android_lifecycle.robot">
+<kw name="Open Appium" owner="AndroidGame" type="SETUP">
+<msg time="2026-11-10T16:53:53.007564" level="INFO">Appium session [SESSION], Android test user 13</msg>
+<status status="PASS" start="2026-11-10T16:53:49.668509" elapsed="3.339055"/>
+</kw>
+<test id="s1-t1" name="ANDROID-LIFECYCLE-01 Lock Screen And Resume Touch Input" line="13">
+<kw name="Force Stop Cat Game" owner="AndroidGame">
+<status status="PASS" start="2026-11-10T16:53:53.008523" elapsed="0.199523"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-10T16:53:55.208703" level="INFO">Slept 2 seconds.</msg>
+<msg time="2026-11-10T16:53:55.208703" level="INFO">Ensure a positive elapsed time for the offline summary.</msg>
+<arg>2s</arg>
+<arg>Ensure a positive elapsed time for the offline summary.</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-10T16:53:53.208046" elapsed="2.001256"/>
+</kw>
+<kw name="Start Cat Game" owner="AndroidGame">
+<msg time="2026-11-10T16:53:56.315110" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 991
+WaitTime: 994
+Complete</msg>
+<status status="PASS" start="2026-11-10T16:53:55.209302" elapsed="1.105808"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-10T16:54:00.989558" level="INFO">Visual check menu passed (RGB error 0.00): 01-menu.png</msg>
+<arg>menu</arg>
+<arg>01-menu.png</arg>
+<status status="PASS" start="2026-11-10T16:53:56.316097" elapsed="4.674464"/>
+</kw>
+<kw name="Tap" owner="AndroidGame">
+<msg time="2026-11-10T16:54:00.991519" level="INFO">Appium clickGesture (1320, 372)</msg>
+<arg>1320</arg>
+<arg>372</arg>
+<status status="PASS" start="2026-11-10T16:54:00.990561" elapsed="0.072878"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-10T16:54:02.597535" level="INFO">Visual check offline passed (RGB error 0.00): 02-offline.png</msg>
+<arg>offline</arg>
+<arg>02-offline.png</arg>
+<status status="PASS" start="2026-11-10T16:54:01.064945" elapsed="1.532590"/>
+</kw>
+<kw name="Tap" owner="AndroidGame">
+<msg time="2026-11-10T16:54:02.598516" level="INFO">Appium clickGesture (800, 519)</msg>
+<arg>800</arg>
+<arg>519</arg>
+<status status="PASS" start="2026-11-10T16:54:02.598516" elapsed="0.049035"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-10T16:54:02.873595" level="INFO">Visual check two-cats passed (RGB error 0.00): 03-before-lock.png</msg>
+<arg>two-cats</arg>
+<arg>03-before-lock.png</arg>
+<status status="PASS" start="2026-11-10T16:54:02.648520" elapsed="0.225075"/>
+</kw>
+<kw name="Cat Game Pid" owner="AndroidGame">
+<msg time="2026-11-10T16:54:03.006439" level="INFO">CatGame QA PID 8159</msg>
+<msg time="2026-11-10T16:54:03.006439" level="INFO">${before} = 8159</msg>
+<var>${before}</var>
+<status status="PASS" start="2026-11-10T16:54:02.873595" elapsed="0.132844"/>
+</kw>
+<kw name="Should Not Be Empty" owner="BuiltIn">
+<msg time="2026-11-10T16:54:03.007414" level="INFO">Length is 4.</msg>
+<arg>${before}</arg>
+<doc>Verifies that the given item is not empty.</doc>
+<status status="PASS" start="2026-11-10T16:54:03.007414" elapsed="0.000000"/>
+</kw>
+<kw name="Lock Screen" owner="AndroidGame">
+<msg time="2026-11-10T16:54:08.490340" level="FAIL">Appium POST /session/[SESSION]/execute/sync: {"value":{"error":"unknown error","message":"The device screen is still not locked after 5000ms timeout","stacktrace":"UnknownError: The device screen is still not locked after 5000ms timeout\n    at getResponseForW3CError ([PROJECT]\\Build\\Android\\appium\\server-clean\\node_modules\\@appium\\base-driver\\build\\lib\\protocol\\errors.js:850:36)\n    at asyncHandler ([PROJECT]\\Build\\Android\\appium\\server-clean\\node_modules\\@appium\\base-driver\\build\\lib\\protocol\\protocol.js:476:77)\nThe above error is caused by\nError: The device screen is still not locked after 5000ms timeout\n    at ADB.lock (file:///[PROJECT]/Build/Android/appium/server-clean/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/build/lib/tools/lockmgmt.js:223:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async AndroidUiautomator2Driver.lock (file:///[PROJECT]/Build/Android/appium/server-clean/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/lock/exports.js:9:5)\n    at async AndroidUiautomator2Driver.executeMethod ([PROJECT]\\Build\\Android\\appium\\server-clean\\node_modules\\@appium\\base-driver\\build\\lib\\basedriver\\commands\\execute.js:32:16)\n    at async AndroidUiautomator2Driver.execute (file:///[PROJECT]/Build/Android/appium/server-clean/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/execute.js:17:16)"}}</msg>
+<status status="FAIL" start="2026-11-10T16:54:03.008391" elapsed="5.500991">Appium POST /session/[SESSION]/execute/sync: {"value":{"error":"unknown error","message":"The device screen is still not locked after 5000ms timeout","stacktrace":"UnknownError: The device screen is still not locked after 5000ms timeout\n    at getResponseForW3CError ([PROJECT]\\Build\\Android\\appium\\server-clean\\node_modules\\@appium\\base-driver\\build\\lib\\protocol\\errors.js:850:36)\n    at asyncHandler ([PROJECT]\\Build\\Android\\appium\\server-clean\\node_modules\\@appium\\base-driver\\build\\lib\\protocol\\protocol.js:476:77)\nThe above error is caused by\nError: The device screen is still not locked after 5000ms timeout\n    at ADB.lock (file:///[PROJECT]/Build/Android/appium/server-clean/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/build/lib/tools/lockmgmt.js:223:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async AndroidUiautomator2Driver.lock (file:///[PROJECT]/Build/Android/appium/server-clean/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/lock/exports.js:9:5)\n    at async AndroidUiautomator2Driver.executeMethod ([PROJECT]\\Build\\Android\\appium\\server-clean\\node_modules\\@appium\\base-driver\\build\\lib\\basedriver\\commands\\execute.js:32:16)\n    at async AndroidUiautomator2Driver.execute (file:///[PROJECT]/Build/Android/appium/server-clean/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/execute.js:17:16)"}}</status>
+</kw>
+<kw name="Wait Until Keyword Succeeds" owner="BuiltIn">
+<arg>8s</arg>
+<arg>500ms</arg>
+<arg>Screen Should Be Locked</arg>
+<arg>true</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<status status="NOT RUN" start="2026-11-10T16:54:08.510367" elapsed="0.000000"/>
+</kw>
+<kw name="Unlock Screen" owner="AndroidGame">
+<status status="NOT RUN" start="2026-11-10T16:54:08.510367" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" owner="BuiltIn">
+<arg>8s</arg>
+<arg>500ms</arg>
+<arg>Screen Should Be Locked</arg>
+<arg>false</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<status status="NOT RUN" start="2026-11-10T16:54:08.510367" elapsed="0.000000"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<arg>two-cats</arg>
+<arg>04-unlocked.png</arg>
+<status status="NOT RUN" start="2026-11-10T16:54:08.510367" elapsed="0.000000"/>
+</kw>
+<kw name="Cat Game Pid" owner="AndroidGame">
+<var>${resumed}</var>
+<status status="NOT RUN" start="2026-11-10T16:54:08.510367" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${resumed}</arg>
+<arg>${before}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="NOT RUN" start="2026-11-10T16:54:08.510367" elapsed="0.000000"/>
+</kw>
+<kw name="Tap" owner="AndroidGame">
+<arg>330</arg>
+<arg>43</arg>
+<status status="NOT RUN" start="2026-11-10T16:54:08.511359" elapsed="0.000000"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<arg>pause</arg>
+<arg>05-touch-after-unlock.png</arg>
+<status status="NOT RUN" start="2026-11-10T16:54:08.511359" elapsed="0.000000"/>
+</kw>
+<kw name="Press Key" owner="AndroidGame">
+<arg>4</arg>
+<status status="NOT RUN" start="2026-11-10T16:54:08.511359" elapsed="0.000000"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<arg>two-cats</arg>
+<arg>06-back-to-game.png</arg>
+<status status="NOT RUN" start="2026-11-10T16:54:08.511359" elapsed="0.000000"/>
+</kw>
+<kw name="Unlock Screen" owner="AndroidGame" type="TEARDOWN">
+<status status="PASS" start="2026-11-10T16:54:08.511359" elapsed="0.194527"/>
+</kw>
+<tag>android</tag>
+<tag>appium</tag>
+<tag>save-lifecycle</tag>
+<status status="FAIL" start="2026-11-10T16:53:53.007564" elapsed="15.698912">Appium POST /session/[SESSION]/execute/sync: {"value":{"error":"unknown error","message":"The device screen is still not locked after 5000ms timeout","stacktrace":"UnknownError: The device screen is still not locked after 5000ms timeout\n    at getResponseForW3CError ([PROJECT]\\Build\\Android\\appium\\server-clean\\node_modules\\@appium\\base-driver\\build\\lib\\protocol\\errors.js:850:36)\n    at asyncHandler ([PROJECT]\\Build\\Android\\appium\\server-clean\\node_modules\\@appium\\base-driver\\build\\lib\\protocol\\protocol.js:476:77)\nThe above error is caused by\nError: The device screen is still not locked after 5000ms timeout\n    at ADB.lock (file:///[PROJECT]/Build/Android/appium/server-clean/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/build/lib/tools/lockmgmt.js:223:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async AndroidUiautomator2Driver.lock (file:///[PROJECT]/Build/Android/appium/server-clean/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/lock/exports.js:9:5)\n    at async AndroidUiautomator2Driver.executeMethod ([PROJECT]\\Build\\Android\\appium\\server-clean\\node_modules\\@appium\\base-driver\\build\\lib\\basedriver\\commands\\execute.js:32:16)\n    at async AndroidUiautomator2Driver.execute (file:///[PROJECT]/Build/Android/appium/server-clean/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/build/lib/commands/execute.js:17:16)"}}</status>
+</test>
+<kw name="Close Appium" owner="AndroidGame" type="TEARDOWN">
+<status status="PASS" start="2026-11-10T16:54:08.707015" elapsed="0.740308"/>
+</kw>
+<doc>Lock/unlock with Appium. Requires the existing two-cat save on the dedicated Android QA user.</doc>
+<status status="FAIL" start="2026-11-10T16:53:49.359544" elapsed="20.087779"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">android</stat>
+<stat pass="0" fail="1" skip="0">appium</stat>
+<stat pass="0" fail="1" skip="0">save-lifecycle</stat>
+</tag>
+<suite>
+<stat name="Android Lifecycle" id="s1" pass="0" fail="1" skip="0">Android Lifecycle</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

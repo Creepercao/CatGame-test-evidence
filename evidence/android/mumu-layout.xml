@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-09T22:17:23.548350" rpa="false" schemaversion="5">
+<suite id="s1" name="Android Layout" source="[PROJECT]\Tests\robot\android\android_layout.robot">
+<kw name="Open Appium" owner="AndroidGame" type="SETUP">
+<msg time="2026-11-09T22:17:26.373389" level="INFO">Appium session [SESSION], Android test user 13</msg>
+<status status="PASS" start="2026-11-09T22:17:23.608377" elapsed="2.765975"/>
+</kw>
+<test id="s1-t1" name="ANDROID-LAYOUT-01 20 By 9 Landscape" line="14">
+<kw name="Check Landscape Layout">
+<kw name="Force Stop Cat Game" owner="AndroidGame">
+<status status="PASS" start="2026-11-09T22:17:26.376339" elapsed="0.218831"/>
+</kw>
+<kw name="Set Display Width" owner="AndroidGame">
+<msg time="2026-11-09T22:17:27.090963" level="INFO">Physical size: 900x1600
+Override size: 900x2000</msg>
+<arg>${width}</arg>
+<status status="PASS" start="2026-11-09T22:17:26.595170" elapsed="0.495793"/>
+</kw>
+<kw name="Start Cat Game" owner="AndroidGame">
+<msg time="2026-11-09T22:17:28.134642" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 950
+WaitTime: 956
+Complete</msg>
+<status status="PASS" start="2026-11-09T22:17:27.090963" elapsed="1.045182"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-09T22:17:33.813393" level="INFO">Visual check menu passed (RGB error 0.00): wide-01-menu.png</msg>
+<arg>menu</arg>
+<arg>${tag}-01-menu.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${{int($menu_x) - 1320}}</arg>
+<status status="PASS" start="2026-11-09T22:17:28.136145" elapsed="5.677248"/>
+</kw>
+<kw name="Tap" owner="AndroidGame">
+<msg time="2026-11-09T22:17:33.814352" level="INFO">Appium clickGesture (1650, 372)</msg>
+<arg>${menu_x}</arg>
+<arg>372</arg>
+<status status="PASS" start="2026-11-09T22:17:33.814352" elapsed="0.056290"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-09T22:17:35.578077" level="INFO">Visual check offline passed (RGB error 0.00): wide-02-offline.png</msg>
+<arg>offline</arg>
+<arg>${tag}-02-offline.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${offset}</arg>
+<status status="PASS" start="2026-11-09T22:17:33.870642" elapsed="1.708396"/>
+</kw>
+<kw name="Tap" owner="AndroidGame">
+<msg time="2026-11-09T22:17:35.579038" level="INFO">Appium clickGesture (1000, 519)</msg>
+<arg>${center}</arg>
+<arg>519</arg>
+<status status="PASS" start="2026-11-09T22:17:35.579038" elapsed="0.041504"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-09T22:17:35.856291" level="INFO">Visual check two-cats passed (RGB error 0.00): wide-03-shop.png</msg>
+<arg>two-cats</arg>
+<arg>${tag}-03-shop.png</arg>
+<arg>width=${width}</arg>
+<status status="PASS" start="2026-11-09T22:17:35.620542" elapsed="0.235749"/>
+</kw>
+<kw name="Swipe" owner="AndroidGame">
+<msg time="2026-11-09T22:17:35.857314" level="INFO">Appium touch swipe (190, 675) -&gt; (190, 330)</msg>
+<arg>190</arg>
+<arg>675</arg>
+<arg>190</arg>
+<arg>330</arg>
+<status status="PASS" start="2026-11-09T22:17:35.856291" elapsed="0.506973"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-09T22:17:36.864562" level="INFO">Slept 500 milliseconds.</msg>
+<msg time="2026-11-09T22:17:36.864562" level="INFO">Wait for scroll deceleration before capturing the list.</msg>
+<arg>500ms</arg>
+<arg>Wait for scroll deceleration before capturing the list.</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-09T22:17:36.363264" elapsed="0.501298"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-09T22:17:37.091677" level="INFO">Visual check two-cats passed (RGB error 0.00): wide-04-scrolled.png</msg>
+<arg>two-cats</arg>
+<arg>${tag}-04-scrolled.png</arg>
+<arg>width=${width}</arg>
+<status status="PASS" start="2026-11-09T22:17:36.864562" elapsed="0.227656"/>
+</kw>
+<kw name="Shop Scroll Should Move" owner="AndroidGame">
+<msg time="2026-11-09T22:17:37.120575" level="INFO">Shop region moved after touch swipe (RGB error 21.05)</msg>
+<arg>${tag}-03-shop.png</arg>
+<arg>${tag}-04-scrolled.png</arg>
+<status status="PASS" start="2026-11-09T22:17:37.092218" elapsed="0.029338"/>
+</kw>
+<kw name="Press Key" owner="AndroidGame">
+<msg time="2026-11-09T22:17:37.121556" level="INFO">Appium Android key 4</msg>
+<arg>4</arg>
+<status status="PASS" start="2026-11-09T22:17:37.121556" elapsed="0.040679"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-09T22:17:38.005915" level="INFO">Visual check pause passed (RGB error 0.00): wide-05-pause.png</msg>
+<arg>pause</arg>
+<arg>${tag}-05-pause.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${offset}</arg>
+<status status="PASS" start="2026-11-09T22:17:37.163217" elapsed="0.844230"/>
+</kw>
+<kw name="Tap" owner="AndroidGame">
+<msg time="2026-11-09T22:17:38.008513" level="INFO">Appium clickGesture (705, 402)</msg>
+<arg>${nav_x}</arg>
+<arg>402</arg>
+<status status="PASS" start="2026-11-09T22:17:38.008513" elapsed="0.045642"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-09T22:17:38.405621" level="INFO">Slept 350 milliseconds.</msg>
+<msg time="2026-11-09T22:17:38.405621" level="INFO">Wait for the achievements page to render.</msg>
+<arg>350ms</arg>
+<arg>Wait for the achievements page to render.</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-09T22:17:38.054155" elapsed="0.351466"/>
+</kw>
+<kw name="Capture" owner="AndroidGame">
+<msg time="2026-11-09T22:17:38.685597" level="INFO">Appium screenshot wide-06-achievements.png, 2000x900</msg>
+<arg>${tag}-06-achievements.png</arg>
+<status status="PASS" start="2026-11-09T22:17:38.405621" elapsed="0.280952"/>
+</kw>
+<kw name="Press Key" owner="AndroidGame">
+<msg time="2026-11-09T22:17:38.686573" level="INFO">Appium Android key 4</msg>
+<arg>4</arg>
+<status status="PASS" start="2026-11-09T22:17:38.686573" elapsed="0.042586"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-09T22:17:38.965410" level="INFO">Visual check two-cats passed (RGB error 0.00): wide-07-resumed.png</msg>
+<arg>two-cats</arg>
+<arg>${tag}-07-resumed.png</arg>
+<arg>width=${width}</arg>
+<status status="PASS" start="2026-11-09T22:17:38.729159" elapsed="0.236251"/>
+</kw>
+<arg>2000</arg>
+<arg>1650</arg>
+<arg>1000</arg>
+<arg>200</arg>
+<arg>705</arg>
+<arg>wide</arg>
+<status status="PASS" start="2026-11-09T22:17:26.375331" elapsed="12.590079"/>
+</kw>
+<kw name="Restore Display Size" owner="AndroidGame" type="TEARDOWN">
+<msg time="2026-11-09T22:17:39.297549" level="INFO">Restored device display: Physical size: 900x1600</msg>
+<status status="PASS" start="2026-11-09T22:17:38.966915" elapsed="0.330634"/>
+</kw>
+<status status="PASS" start="2026-11-09T22:17:26.374352" elapsed="12.923197"/>
+</test>
+<test id="s1-t2" name="ANDROID-LAYOUT-02 4 By 3 Landscape" line="15">
+<kw name="Check Landscape Layout">
+<kw name="Force Stop Cat Game" owner="AndroidGame">
+<status status="PASS" start="2026-11-09T22:17:39.300585" elapsed="0.265940"/>
+</kw>
+<kw name="Set Display Width" owner="AndroidGame">
+<msg time="2026-11-09T22:17:39.969331" level="INFO">Physical size: 900x1600
+Override size: 900x1200</msg>
+<arg>${width}</arg>
+<status status="PASS" start="2026-11-09T22:17:39.566525" elapsed="0.402806"/>
+</kw>
+<kw name="Start Cat Game" owner="AndroidGame">
+<msg time="2026-11-09T22:17:41.920372" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1849
+WaitTime: 1853
+Complete</msg>
+<status status="PASS" start="2026-11-09T22:17:39.969331" elapsed="1.951041"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-09T22:17:46.608322" level="INFO">Visual check menu passed (RGB error 0.00): compact-01-menu.png</msg>
+<arg>menu</arg>
+<arg>${tag}-01-menu.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${{int($menu_x) - 1320}}</arg>
+<status status="PASS" start="2026-11-09T22:17:41.920372" elapsed="4.688932"/>
+</kw>
+<kw name="Tap" owner="AndroidGame">
+<msg time="2026-11-09T22:17:46.610282" level="INFO">Appium clickGesture (990, 372)</msg>
+<arg>${menu_x}</arg>
+<arg>372</arg>
+<status status="PASS" start="2026-11-09T22:17:46.609304" elapsed="0.044325"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-09T22:17:48.026421" level="INFO">Visual check offline passed (RGB error 0.00): compact-02-offline.png</msg>
+<arg>offline</arg>
+<arg>${tag}-02-offline.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${offset}</arg>
+<status status="PASS" start="2026-11-09T22:17:46.653629" elapsed="1.373798"/>
+</kw>
+<kw name="Tap" owner="AndroidGame">
+<msg time="2026-11-09T22:17:48.027427" level="INFO">Appium clickGesture (600, 519)</msg>
+<arg>${center}</arg>
+<arg>519</arg>
+<status status="PASS" start="2026-11-09T22:17:48.027427" elapsed="0.043176"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-09T22:17:48.252993" level="INFO">Visual check two-cats passed (RGB error 0.00): compact-03-shop.png</msg>
+<arg>two-cats</arg>
+<arg>${tag}-03-shop.png</arg>
+<arg>width=${width}</arg>
+<status status="PASS" start="2026-11-09T22:17:48.070603" elapsed="0.183371"/>
+</kw>
+<kw name="Swipe" owner="AndroidGame">
+<msg time="2026-11-09T22:17:48.253974" level="INFO">Appium touch swipe (190, 675) -&gt; (190, 330)</msg>
+<arg>190</arg>
+<arg>675</arg>
+<arg>190</arg>
+<arg>330</arg>
+<status status="PASS" start="2026-11-09T22:17:48.253974" elapsed="0.500038"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-09T22:17:49.254572" level="INFO">Slept 500 milliseconds.</msg>
+<msg time="2026-11-09T22:17:49.254572" level="INFO">Wait for scroll deceleration before capturing the list.</msg>
+<arg>500ms</arg>
+<arg>Wait for scroll deceleration before capturing the list.</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-09T22:17:48.754012" elapsed="0.500560"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-09T22:17:49.480265" level="INFO">Visual check two-cats passed (RGB error 0.00): compact-04-scrolled.png</msg>
+<arg>two-cats</arg>
+<arg>${tag}-04-scrolled.png</arg>
+<arg>width=${width}</arg>
+<status status="PASS" start="2026-11-09T22:17:49.255566" elapsed="0.225680"/>
+</kw>
+<kw name="Shop Scroll Should Move" owner="AndroidGame">
+<msg time="2026-11-09T22:17:49.502886" level="INFO">Shop region moved after touch swipe (RGB error 16.89)</msg>
+<arg>${tag}-03-shop.png</arg>
+<arg>${tag}-04-scrolled.png</arg>
+<status status="PASS" start="2026-11-09T22:17:49.481246" elapsed="0.023232"/>
+</kw>
+<kw name="Press Key" owner="AndroidGame">
+<msg time="2026-11-09T22:17:49.504478" level="INFO">Appium Android key 4</msg>
+<arg>4</arg>
+<status status="PASS" start="2026-11-09T22:17:49.504478" elapsed="0.041018"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-09T22:17:50.279538" level="INFO">Visual check pause passed (RGB error 0.00): compact-05-pause.png</msg>
+<arg>pause</arg>
+<arg>${tag}-05-pause.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${offset}</arg>
+<status status="PASS" start="2026-11-09T22:17:49.545496" elapsed="0.734042"/>
+</kw>
+<kw name="Tap" owner="AndroidGame">
+<msg time="2026-11-09T22:17:50.280544" level="INFO">Appium clickGesture (305, 402)</msg>
+<arg>${nav_x}</arg>
+<arg>402</arg>
+<status status="PASS" start="2026-11-09T22:17:50.280544" elapsed="0.040115"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-09T22:17:50.671961" level="INFO">Slept 350 milliseconds.</msg>
+<msg time="2026-11-09T22:17:50.671961" level="INFO">Wait for the achievements page to render.</msg>
+<arg>350ms</arg>
+<arg>Wait for the achievements page to render.</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-09T22:17:50.320659" elapsed="0.351858"/>
+</kw>
+<kw name="Capture" owner="AndroidGame">
+<msg time="2026-11-09T22:17:50.846238" level="INFO">Appium screenshot compact-06-achievements.png, 1200x900</msg>
+<arg>${tag}-06-achievements.png</arg>
+<status status="PASS" start="2026-11-09T22:17:50.672517" elapsed="0.173721"/>
+</kw>
+<kw name="Press Key" owner="AndroidGame">
+<msg time="2026-11-09T22:17:50.847787" level="INFO">Appium Android key 4</msg>
+<arg>4</arg>
+<status status="PASS" start="2026-11-09T22:17:50.847243" elapsed="0.048968"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-09T22:17:51.124599" level="INFO">Visual check two-cats passed (RGB error 0.00): compact-07-resumed.png</msg>
+<arg>two-cats</arg>
+<arg>${tag}-07-resumed.png</arg>
+<arg>width=${width}</arg>
+<status status="PASS" start="2026-11-09T22:17:50.897262" elapsed="0.227337"/>
+</kw>
+<arg>1200</arg>
+<arg>990</arg>
+<arg>600</arg>
+<arg>-200</arg>
+<arg>305</arg>
+<arg>compact</arg>
+<status status="PASS" start="2026-11-09T22:17:39.299540" elapsed="11.826043"/>
+</kw>
+<kw name="Restore Display Size" owner="AndroidGame" type="TEARDOWN">
+<msg time="2026-11-09T22:17:51.478302" level="INFO">Restored device display: Physical size: 900x1600</msg>
+<status status="PASS" start="2026-11-09T22:17:51.125583" elapsed="0.353695"/>
+</kw>
+<status status="PASS" start="2026-11-09T22:17:39.298532" elapsed="12.180746"/>
+</test>
+<kw name="Close Appium" owner="AndroidGame" type="TEARDOWN">
+<status status="PASS" start="2026-11-09T22:17:51.480317" elapsed="0.712039"/>
+</kw>
+<doc>Two extra landscape shapes. Requires the two-cat QA save from android_smoke.robot.</doc>
+<status status="PASS" start="2026-11-09T22:17:23.551314" elapsed="28.642027"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Android Layout" id="s1" pass="2" fail="0" skip="0">Android Layout</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

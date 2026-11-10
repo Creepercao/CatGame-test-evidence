@@ -1,0 +1,14 @@
+[
+  {
+    "scenario": "corrupt-primary",
+    "pid": "11636",
+    "result": "pass",
+    "milkCount": 2
+  },
+  {
+    "scenario": "missing-primary",
+    "pid": "11811",
+    "result": "pass",
+    "milkCount": 2
+  }
+]

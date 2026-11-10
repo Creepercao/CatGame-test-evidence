@@ -1681,6 +1681,292 @@
       "sourceSha256": "b3fad7f14685df993abceb082c8634616e949ed511c40aabaa659b5d7a5ef0ad",
       "publishedSha256": "cd0cc2f1aee9e44ebb8b0cbb6e2f8c54804ac4db8269d0b5195bb7592b82a39d",
       "transformed": true
+    },
+    {
+      "source": "Build/Android/appium/smoke-05/output.xml",
+      "path": "evidence/android/mumu-smoke.xml",
+      "sourceSha256": "ede447c3785e33126f6ebcbb51c9ea56b4d619329f58764442bd1dd0a886cd27",
+      "publishedSha256": "204cc8ea7c1d074084eb5e0ccfdd4a80c6aba0b4bf4b0bc86cdadb5ed531eefd",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/appium/layout-01/output.xml",
+      "path": "evidence/android/mumu-layout.xml",
+      "sourceSha256": "741fb4f9ed3d36a5c372b5d354e95d7e57a298d5e9b729f42c697c40829bf470",
+      "publishedSha256": "10296cf90d9929d83a5834c541da4dea95958d4ad4608f9ee0609cea288ffd13",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/lockscreen/lock-01/output.xml",
+      "path": "evidence/android/mumu-lock.xml",
+      "sourceSha256": "d8a1f984b689c5c218da1a5f3e6089dc919c07dd3b762fc8ac7b95e3a8dcdacc",
+      "publishedSha256": "97f620b13f50d48c3993ee3d5c337d7a04789d2b0565ee5ba9e15e921ba759da",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/lockscreen/avd-smoke-02/output.xml",
+      "path": "evidence/android/avd-smoke.xml",
+      "sourceSha256": "1452f5117a0b381bc71bf4eaac42e5ec34b2923092bdb41bfa09191b28eba1e4",
+      "publishedSha256": "3940c1ff84d5c63915703ac0971b5b129253810ad89dae60d8be1b35ef2df8ab",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/lockscreen/avd-lock-v2/output.xml",
+      "path": "evidence/android/avd-lock-v2.xml",
+      "sourceSha256": "67c49855e694aa00bcee82f10c4bbc69c82a3a5edd0b4475982775aa0835d42b",
+      "publishedSha256": "05a847721f7d5de16184e18030b0d46ba3280b94513727b8c8ac73d1b0ee8171",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/lockscreen/upgrade-v1-save.json",
+      "path": "evidence/android/upgrade/v1-save.json",
+      "sourceSha256": "952f7f79f9b06d781841c8e4ed38f048eff11d37ff8a0a2e3fc4a9657dbc76c1",
+      "publishedSha256": "952f7f79f9b06d781841c8e4ed38f048eff11d37ff8a0a2e3fc4a9657dbc76c1",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/lockscreen/upgrade-v1-settings.xml",
+      "path": "evidence/android/upgrade/v1-settings.json",
+      "sourceSha256": "208722f6ffe5741c6e4f83654988401ca5238b0133ffc99c9ffadbe74e525468",
+      "publishedSha256": "271690e5b4878d8042ca3d5b13c041557a26ac7976c31dd15e8246f6c70a9139",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/lockscreen/upgrade-v2-before-launch-save.json",
+      "path": "evidence/android/upgrade/v2-before-launch-save.json",
+      "sourceSha256": "952f7f79f9b06d781841c8e4ed38f048eff11d37ff8a0a2e3fc4a9657dbc76c1",
+      "publishedSha256": "952f7f79f9b06d781841c8e4ed38f048eff11d37ff8a0a2e3fc4a9657dbc76c1",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/lockscreen/upgrade-v2-before-launch-settings.xml",
+      "path": "evidence/android/upgrade/v2-before-launch-settings.json",
+      "sourceSha256": "208722f6ffe5741c6e4f83654988401ca5238b0133ffc99c9ffadbe74e525468",
+      "publishedSha256": "271690e5b4878d8042ca3d5b13c041557a26ac7976c31dd15e8246f6c70a9139",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/lockscreen/upgrade-v2-after-launch-save.json",
+      "path": "evidence/android/upgrade/v2-after-launch-save.json",
+      "sourceSha256": "8e236915530446844a26c0864b686b9a0be6eed38cef6aa77bfe8af140e060af",
+      "publishedSha256": "8e236915530446844a26c0864b686b9a0be6eed38cef6aa77bfe8af140e060af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/lockscreen/upgrade-v2-after-launch-settings.xml",
+      "path": "evidence/android/upgrade/v2-after-launch-settings.json",
+      "sourceSha256": "208722f6ffe5741c6e4f83654988401ca5238b0133ffc99c9ffadbe74e525468",
+      "publishedSha256": "271690e5b4878d8042ca3d5b13c041557a26ac7976c31dd15e8246f6c70a9139",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/android/AndroidGame.py",
+      "path": "harness/android/AndroidGame.py",
+      "sourceSha256": "5fe2a942c17f57a438363da1fc7bcd847d181a497834cc12da703ccc32db794c",
+      "publishedSha256": "5fe2a942c17f57a438363da1fc7bcd847d181a497834cc12da703ccc32db794c",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/android_layout.robot",
+      "path": "harness/android/android_layout.robot",
+      "sourceSha256": "0b2170cfe892b003afbfdfc63837f14fd64c9fd83f3c41f8c84c27d81392ace0",
+      "publishedSha256": "0b2170cfe892b003afbfdfc63837f14fd64c9fd83f3c41f8c84c27d81392ace0",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/android_lifecycle.robot",
+      "path": "harness/android/android_lifecycle.robot",
+      "sourceSha256": "f1b67f8b08ec46129746bbdb9b0b170928f78c83bced82b21135fd08eb0fe6ef",
+      "publishedSha256": "f1b67f8b08ec46129746bbdb9b0b170928f78c83bced82b21135fd08eb0fe6ef",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/android_smoke.robot",
+      "path": "harness/android/android_smoke.robot",
+      "sourceSha256": "96dc4f881eecb1cccdc84ff114051126df7faa039e67b666a7fa94a83f425493",
+      "publishedSha256": "96dc4f881eecb1cccdc84ff114051126df7faa039e67b666a7fa94a83f425493",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/references/intro.png",
+      "path": "harness/android/references/intro.png",
+      "sourceSha256": "f5fbf2d45f0131af13ef53fd29ee6fad9daebc879d938059181135c84a2e2613",
+      "publishedSha256": "f5fbf2d45f0131af13ef53fd29ee6fad9daebc879d938059181135c84a2e2613",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/references/menu.png",
+      "path": "harness/android/references/menu.png",
+      "sourceSha256": "8de1ae2d4d53e91a56e2a1576a595eb9b2ded816888d34f98562a638e553fb11",
+      "publishedSha256": "8de1ae2d4d53e91a56e2a1576a595eb9b2ded816888d34f98562a638e553fb11",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/references/milk-affordable.png",
+      "path": "harness/android/references/milk-affordable.png",
+      "sourceSha256": "2b95290e2e217aa2bfa4862ae454ea11ac81dc9f31fdf7bdff30aa2ae613e352",
+      "publishedSha256": "2b95290e2e217aa2bfa4862ae454ea11ac81dc9f31fdf7bdff30aa2ae613e352",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/references/offline.png",
+      "path": "harness/android/references/offline.png",
+      "sourceSha256": "4d43d6e595af9d5ce653ee8857cafd22840896f11201a57c4b23e81eb2d37b05",
+      "publishedSha256": "4d43d6e595af9d5ce653ee8857cafd22840896f11201a57c4b23e81eb2d37b05",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/references/one-cat.png",
+      "path": "harness/android/references/one-cat.png",
+      "sourceSha256": "23059be969c502b83bc7cad280ffd0839b396aa5ddb2a540a2ce68ee2792a0e7",
+      "publishedSha256": "23059be969c502b83bc7cad280ffd0839b396aa5ddb2a540a2ce68ee2792a0e7",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/references/pause.png",
+      "path": "harness/android/references/pause.png",
+      "sourceSha256": "0595421817292892011b75f430a03119f635632635699fd7a484b0000470edac",
+      "publishedSha256": "0595421817292892011b75f430a03119f635632635699fd7a484b0000470edac",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/references/regions.json",
+      "path": "harness/android/references/regions.json",
+      "sourceSha256": "df6b6b90ac5be8f264af935d9bd147d52e024f974466c9a47ca96fba40b936b9",
+      "publishedSha256": "df6b6b90ac5be8f264af935d9bd147d52e024f974466c9a47ca96fba40b936b9",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/references/story-continue.png",
+      "path": "harness/android/references/story-continue.png",
+      "sourceSha256": "1764aff7eeff750c4887a94ba24dab67239c598e3af2fa69763cd84b57631416",
+      "publishedSha256": "1764aff7eeff750c4887a94ba24dab67239c598e3af2fa69763cd84b57631416",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/references/two-cats.png",
+      "path": "harness/android/references/two-cats.png",
+      "sourceSha256": "606465fc249e368026393073db4279e41da21d904523fe34ec98a8172bf110eb",
+      "publishedSha256": "606465fc249e368026393073db4279e41da21d904523fe34ec98a8172bf110eb",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/backup-recovery/editmode-red.xml",
+      "path": "evidence/android/backup/editmode-red.xml",
+      "sourceSha256": "36d66df3d88acab871c67fdf78836135cb09a2898c8601095901fc11b55f8e78",
+      "publishedSha256": "a9e7e0228a092ffc57ec126cb4d566e005af64891f1dedd1581b8982f6d700b8",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/backup-recovery/EditMode.xml",
+      "path": "evidence/android/backup/EditMode.xml",
+      "sourceSha256": "cfb792b78a6391e243c7f177e546caa466182a5ac685b80117219fc4c95d26e7",
+      "publishedSha256": "7e8ddc8534d05fd8bde799f3d31ac70ceea7af8fc24fde0296200339f94736ce",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/backup-recovery/PlayMode.xml",
+      "path": "evidence/android/backup/PlayMode.xml",
+      "sourceSha256": "04fe04b985a8c9d22358a337d0423736a391e1baadfa1791eef6b3f17dda507e",
+      "publishedSha256": "a612b21ce6ace6a261b662807597e40b9b0fdd9469f8af2003c64a3369c81d36",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/EditMode/SaveSystemTests.cs",
+      "path": "harness/android/unity/SaveSystemTests.cs",
+      "sourceSha256": "2e14d952e68722a40a8a7242c91ee8bb5750a551ca6f267c8d22dfc7cc42ea12",
+      "publishedSha256": "2e14d952e68722a40a8a7242c91ee8bb5750a551ca6f267c8d22dfc7cc42ea12",
+      "transformed": false
+    },
+    {
+      "source": "Assets/Tests/PlayMode/IntroSaveLifecycleTests.cs",
+      "path": "harness/android/unity/IntroSaveLifecycleTests.cs",
+      "sourceSha256": "f9cad48b46844a6cc8cf034aaa0dfda171dc4545691ecb58cf1a26979b14ac2f",
+      "publishedSha256": "f9cad48b46844a6cc8cf034aaa0dfda171dc4545691ecb58cf1a26979b14ac2f",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/backup-recovery/avd-v3-smoke/output.xml",
+      "path": "evidence/android/backup/avd-v3-smoke.xml",
+      "sourceSha256": "8982bfa4e9cbfd7f02776c2d63da81c84880ade35a754956402ee9395b9f541e",
+      "publishedSha256": "c646eae6333a64a1ed92a31c9839e8320034263838e50253f1bb5b6a67588b77",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/backup-recovery/avd-v3-smoke-02/output.xml",
+      "path": "evidence/android/backup/avd-v3-smoke-02.xml",
+      "sourceSha256": "c2e9dc93ac88ec63c0b0a5fbc74d7f96d41a43960ead1aa9fb1b110090429129",
+      "publishedSha256": "64e38752e560801e0d0a3d8c855fc1d77baad98b22eb2d3aa17a23fca99a9425",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/backup-recovery/avd-v3-smoke-03/output.xml",
+      "path": "evidence/android/backup/avd-v3-smoke-03.xml",
+      "sourceSha256": "529579f60c4809fa6afc492fad8970f203bdf92c0525ee2e1bec76fe730b4b39",
+      "publishedSha256": "b9b51cecd3c2ffd92fe85f9a7b75721d32c45dc3153f2ae740dea2f2bb5213a6",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/backup-recovery/recovery-result.json",
+      "path": "evidence/android/backup/recovery-result.json",
+      "sourceSha256": "30017ea57f7db77701a032a9a6879786e1a61911656206b9a2fd962a699e9110",
+      "publishedSha256": "30017ea57f7db77701a032a9a6879786e1a61911656206b9a2fd962a699e9110",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/backup-recovery/corrupt-primary-quarantined.txt",
+      "path": "evidence/android/backup/corrupt-primary-quarantined.txt",
+      "sourceSha256": "c8fc5976f79434cd83f01c1547619d0faa58bccd62b05ca0a074680336ad35c1",
+      "publishedSha256": "c8fc5976f79434cd83f01c1547619d0faa58bccd62b05ca0a074680336ad35c1",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/backup-recovery/corrupt-primary-backup-before.json",
+      "path": "evidence/android/backup/corrupt-primary-backup-before.json",
+      "sourceSha256": "bf34c359faff8604941302804715d9c2f0d57ebf00f9c43880853d6bf46a6a6b",
+      "publishedSha256": "bf34c359faff8604941302804715d9c2f0d57ebf00f9c43880853d6bf46a6a6b",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/backup-recovery/corrupt-primary-restored-primary.json",
+      "path": "evidence/android/backup/corrupt-primary-restored-primary.json",
+      "sourceSha256": "23996a1261c6886ab975a75f11585bc3b048797d47c2165b17d975329de482c9",
+      "publishedSha256": "23996a1261c6886ab975a75f11585bc3b048797d47c2165b17d975329de482c9",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/backup-recovery/corrupt-primary-unity.log",
+      "path": "evidence/android/backup/corrupt-primary-unity.txt",
+      "sourceSha256": "8372ae8355b7a7384e37aecf0c5300a93057ae9e59c48a16d89fb6cf4b30b9b2",
+      "publishedSha256": "c5bf3167a182b9374176a30bd5e9214e60311803de1f8e16dd3632a55a373b23",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/backup-recovery/missing-primary-backup-before.json",
+      "path": "evidence/android/backup/missing-primary-backup-before.json",
+      "sourceSha256": "219f4b95f44faa27d0fd0fbee54112fe7ed75d7645352a779ad436b880be6fc2",
+      "publishedSha256": "219f4b95f44faa27d0fd0fbee54112fe7ed75d7645352a779ad436b880be6fc2",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/backup-recovery/missing-primary-restored-primary.json",
+      "path": "evidence/android/backup/missing-primary-restored-primary.json",
+      "sourceSha256": "bfd8366b8865eb6338f9f73968d29ad3dcdb5c34a221ae3b00a8038bd389bbb2",
+      "publishedSha256": "bfd8366b8865eb6338f9f73968d29ad3dcdb5c34a221ae3b00a8038bd389bbb2",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/backup-recovery/missing-primary-unity.log",
+      "path": "evidence/android/backup/missing-primary-unity.txt",
+      "sourceSha256": "ae52b9f6efecd3af88537bb4b54db96dd57a047fc7884d473c33e4dbcbc1d37b",
+      "publishedSha256": "d18aca104205adcbbb685b8b41b163e25d4509e76e95a15c17114d56395cb2a6",
+      "transformed": true
     }
-  ]
+  ],
+  "androidOriginCommits": {
+    "playerConfiguration": "fcafadf",
+    "robotSnapshot": "7859a32",
+    "saveRecovery": "d092c98",
+    "screenshotRotationWait": "da4141b"
+  }
 }

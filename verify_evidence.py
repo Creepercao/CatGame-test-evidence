@@ -1,11 +1,76 @@
 """Read-only verification of curated historical evidence (not a game test run)."""
 from pathlib import Path
-import json, hashlib, csv, math
+import json, hashlib, csv, math, re
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent
 def read(path):
     return json.loads((ROOT/path).read_text(encoding='utf-8'))
+
+def verify_android():
+    android = ROOT / 'evidence/android'
+    for filename, names, expected in [
+        ('mumu-smoke.xml', ['ANDROID-SMOKE-01'], 'PASS'),
+        ('mumu-layout.xml', ['ANDROID-LAYOUT-01', 'ANDROID-LAYOUT-02'], 'PASS'),
+        ('mumu-lock.xml', ['ANDROID-LIFECYCLE-01'], 'FAIL'),
+        ('avd-smoke.xml', ['ANDROID-SMOKE-01'], 'PASS'),
+        ('avd-lock-v2.xml', ['ANDROID-LIFECYCLE-01'], 'PASS'),
+    ]:
+        report = ET.parse(android / filename)
+        tests = report.findall('.//test')
+        assert [test.attrib['name'].split()[0] for test in tests] == names, filename
+        assert all(test.find('status').attrib['status'] == expected for test in tests), filename
+
+    failed_lock = (android / 'mumu-lock.xml').read_text(encoding='utf-8')
+    assert 'The device screen is still not locked after 5000ms timeout' in failed_lock
+    passed_lock = (android / 'avd-lock-v2.xml').read_text(encoding='utf-8')
+    assert 'isLocked=True; Android mWakefulness=Asleep' in passed_lock
+    assert 'isLocked=False; Android mWakefulness=Awake' in passed_lock
+    pids = re.findall(r'CatGame QA PID (\d+)', passed_lock)
+    assert len(pids) == 2 and pids[0] == pids[1]
+
+    base = 'evidence/android/upgrade'
+    initial = read(f'{base}/v1-save.json')
+    assert initial == read(f'{base}/v2-before-launch-save.json')
+    restored = read(f'{base}/v2-after-launch-save.json')
+    for field in ('cats', 'items', 'achievements', 'introCompleted', 'seenStoryEvents'):
+        assert initial[field] == restored[field], field
+    assert initial['cats'][0] == {'id': 'Milk', 'count': 2}
+    assert initial['items'][0] == {'id': 'item_1_1', 'level': 1}
+    for phase in ('v1', 'v2-before-launch', 'v2-after-launch'):
+        assert read(f'{base}/{phase}-settings.json')['numberFormat'] == 1
+    print('PASS Android Robot outcomes, lock/wake continuity, and v1 to v2 save retention')
+
+    backup = android / 'backup'
+    red = ET.parse(backup / 'editmode-red.xml').getroot()
+    assert int(red.attrib['failed']) == 5
+    for mode, total, method in [
+        ('EditMode', 55, 'Load_restores_previous_save_when_primary_is_missing_or_corrupt'),
+        ('PlayMode', 87, 'Recovered_save_enables_continue_and_new_game_discards_previous_backup'),
+    ]:
+        report = ET.parse(backup / f'{mode}.xml').getroot()
+        assert int(report.attrib['passed']) == total and int(report.attrib['failed']) == 0
+        cases = report.findall(f'.//test-case[@methodname="{method}"]')
+        assert len(cases) == (2 if mode == 'EditMode' else 1)
+        assert all(case.attrib['result'] == 'Passed' for case in cases)
+    print('PASS save recovery red/green and runtime lifecycle evidence')
+
+    for filename, verdict in [('avd-v3-smoke.xml', 'FAIL'), ('avd-v3-smoke-02.xml', 'FAIL'), ('avd-v3-smoke-03.xml', 'PASS')]:
+        test = ET.parse(backup / filename).find('.//test')
+        assert test.attrib['name'].startswith('ANDROID-SMOKE-01 ')
+        assert test.find('status').attrib['status'] == verdict
+    cases = read('evidence/android/backup/recovery-result.json')
+    assert [case['scenario'] for case in cases] == ['corrupt-primary', 'missing-primary']
+    assert len({case['pid'] for case in cases}) == 2
+    for case in cases:
+        assert case['result'] == 'pass' and case['milkCount'] == 2
+        scenario = case['scenario']
+        before = read(f'evidence/android/backup/{scenario}-backup-before.json')
+        after = read(f'evidence/android/backup/{scenario}-restored-primary.json')
+        for field in ('cats', 'items', 'clicks', 'introCompleted', 'achievements', 'seenStoryEvents'):
+            assert before[field] == after[field], (scenario, field)
+        assert 'Recovered CatGame progress from backup.' in (backup / f'{scenario}-unity.txt').read_text(encoding='utf-8')
+    print('PASS Android v3 Player recovery after corrupt and missing primary')
 
 def main():
     manifest=read('provenance.json')
@@ -53,6 +118,7 @@ def main():
         assert abs(p95-expected)<1e-6
         assert p95<=20 and sum(x>33.3 for x in vals)/len(vals)<=.01
         print(f'PASS round {n} hundred-cat P95={p95:.6f}ms, frames={len(vals)}')
+    verify_android()
     print('All evidence checks passed; no new Unity/Robot execution performed.')
 
 if __name__=='__main__': main()
