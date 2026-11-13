@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="7" result="Failed(Child)" total="7" passed="5" failed="2" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-13 09:20:07Z" end-time="2026-11-13 09:20:07Z" duration="0.1337022">
+  <test-suite type="TestSuite" id="1080" name="喵屋" fullname="喵屋" runstate="Runnable" testcasecount="62" result="Failed" site="Child" start-time="2026-11-13 09:20:07Z" end-time="2026-11-13 09:20:07Z" duration="0.133702" total="7" passed="5" failed="2" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1153" name="CatGame.EditTests.dll" fullname="PROJECT_ROOT/Library/ScriptAssemblies/CatGame.EditTests.dll" runstate="Runnable" testcasecount="62" result="Failed" site="Child" start-time="2026-11-13 09:20:07Z" end-time="2026-11-13 09:20:07Z" duration="0.118903" total="7" passed="5" failed="2" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="42976" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1154" name="CatGame" fullname="CatGame" runstate="Runnable" testcasecount="62" result="Failed" site="Child" start-time="2026-11-13 09:20:07Z" end-time="2026-11-13 09:20:07Z" duration="0.118078" total="7" passed="5" failed="2" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1155" name="EditTests" fullname="CatGame.EditTests" runstate="Runnable" testcasecount="62" result="Failed" site="Child" start-time="2026-11-13 09:20:07Z" end-time="2026-11-13 09:20:07Z" duration="0.114122" total="7" passed="5" failed="2" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1104" name="RoomViewportTests" fullname="CatGame.EditTests.RoomViewportTests" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2026-11-13 09:20:07Z" end-time="2026-11-13 09:20:07Z" duration="0.109533" total="7" passed="5" failed="2" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="ParameterizedMethod" id="1112" name="Room_covers_the_actual_pixel_perfect_projection" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2026-11-13 09:20:07Z" end-time="2026-11-13 09:20:07Z" duration="0.103607" total="7" passed="5" failed="2" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1105" name="Room_covers_the_actual_pixel_perfect_projection(1600,900)" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection(1600,900)" methodname="Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" seed="1374602956" result="Passed" start-time="2026-11-13 09:20:07Z" end-time="2026-11-13 09:20:07Z" duration="0.030675" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1106" name="Room_covers_the_actual_pixel_perfect_projection(2000,900)" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection(2000,900)" methodname="Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" seed="1309725777" result="Passed" start-time="2026-11-13 09:20:07Z" end-time="2026-11-13 09:20:07Z" duration="0.009304" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1107" name="Room_covers_the_actual_pixel_perfect_projection(1200,900)" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection(1200,900)" methodname="Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" seed="954630307" result="Passed" start-time="2026-11-13 09:20:07Z" end-time="2026-11-13 09:20:07Z" duration="0.008892" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1108" name="Room_covers_the_actual_pixel_perfect_projection(1920,1080)" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection(1920,1080)" methodname="Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" seed="1545038601" result="Passed" start-time="2026-11-13 09:20:07Z" end-time="2026-11-13 09:20:07Z" duration="0.010757" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1109" name="Room_covers_the_actual_pixel_perfect_projection(2712,1220)" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection(2712,1220)" methodname="Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" seed="633346389" result="Failed" start-time="2026-11-13 09:20:07Z" end-time="2026-11-13 09:20:07Z" duration="0.013366" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[  Expected: greater than or equal to 27.1189995f
+  But was:  24.0078697f
+]]></message>
+                  <stack-trace><![CDATA[at CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection (System.Int32 width, System.Int32 height) [0x001bb] in PROJECT_ROOT\Assets\Tests\EditMode\RoomViewportTests.cs:55
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1110" name="Room_covers_the_actual_pixel_perfect_projection(2560,1440)" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection(2560,1440)" methodname="Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" seed="956489013" result="Failed" start-time="2026-11-13 09:20:07Z" end-time="2026-11-13 09:20:07Z" duration="0.009605" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[  Expected: greater than or equal to 14.3989992f
+  But was:  10.8000011f
+]]></message>
+                  <stack-trace><![CDATA[at CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection (System.Int32 width, System.Int32 height) [0x00189] in PROJECT_ROOT\Assets\Tests\EditMode\RoomViewportTests.cs:54
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1111" name="Room_covers_the_actual_pixel_perfect_projection(3840,2160)" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection(3840,2160)" methodname="Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" seed="1997701839" result="Passed" start-time="2026-11-13 09:20:07Z" end-time="2026-11-13 09:20:07Z" duration="0.009072" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

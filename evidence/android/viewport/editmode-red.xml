@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="7" result="Failed(Child)" total="7" passed="0" failed="7" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-13 09:15:54Z" end-time="2026-11-13 09:15:54Z" duration="0.1128574">
+  <test-suite type="TestSuite" id="1080" name="喵屋" fullname="喵屋" runstate="Runnable" testcasecount="62" result="Failed" site="Child" start-time="2026-11-13 09:15:54Z" end-time="2026-11-13 09:15:54Z" duration="0.112857" total="7" passed="0" failed="7" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1153" name="CatGame.EditTests.dll" fullname="PROJECT_ROOT/Library/ScriptAssemblies/CatGame.EditTests.dll" runstate="Runnable" testcasecount="62" result="Failed" site="Child" start-time="2026-11-13 09:15:54Z" end-time="2026-11-13 09:15:54Z" duration="0.102527" total="7" passed="0" failed="7" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="48304" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1154" name="CatGame" fullname="CatGame" runstate="Runnable" testcasecount="62" result="Failed" site="Child" start-time="2026-11-13 09:15:54Z" end-time="2026-11-13 09:15:54Z" duration="0.101938" total="7" passed="0" failed="7" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1155" name="EditTests" fullname="CatGame.EditTests" runstate="Runnable" testcasecount="62" result="Failed" site="Child" start-time="2026-11-13 09:15:54Z" end-time="2026-11-13 09:15:54Z" duration="0.098291" total="7" passed="0" failed="7" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1104" name="RoomViewportTests" fullname="CatGame.EditTests.RoomViewportTests" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2026-11-13 09:15:54Z" end-time="2026-11-13 09:15:54Z" duration="0.093195" total="7" passed="0" failed="7" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="ParameterizedMethod" id="1112" name="Room_covers_the_actual_pixel_perfect_projection" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2026-11-13 09:15:54Z" end-time="2026-11-13 09:15:54Z" duration="0.089182" total="7" passed="0" failed="7" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1105" name="Room_covers_the_actual_pixel_perfect_projection(1600,900)" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection(1600,900)" methodname="Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" seed="496371538" result="Failed" start-time="2026-11-13 09:15:54Z" end-time="2026-11-13 09:15:54Z" duration="0.028444" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[Unhandled log message: '[Assert] Assertion failed on expression: 'ShouldRunBehaviour()''. Use UnityEngine.TestTools.LogAssert.Expect]]></message>
+                  <stack-trace><![CDATA[UnityEngine.Component:SendMessage (string)
+CatGame.EditTests.RoomViewportTests:Room_covers_the_actual_pixel_perfect_projection (int,int) (at Assets/Tests/EditMode/RoomViewportTests.cs:34)
+System.Reflection.MethodBase:Invoke (object,object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod (System.Reflection.MethodInfo,object,object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke (object,object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod (NUnit.Framework.Internal.ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod (NUnit.Framework.Internal.ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute (NUnit.Framework.Internal.ITestExecutionContext)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Assertion failed on expression: 'ShouldRunBehaviour()'
+]]></output>
+              </test-case>
+              <test-case id="1106" name="Room_covers_the_actual_pixel_perfect_projection(2000,900)" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection(2000,900)" methodname="Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" seed="1367276664" result="Failed" start-time="2026-11-13 09:15:54Z" end-time="2026-11-13 09:15:54Z" duration="0.009533" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[Unhandled log message: '[Assert] Assertion failed on expression: 'ShouldRunBehaviour()''. Use UnityEngine.TestTools.LogAssert.Expect]]></message>
+                  <stack-trace><![CDATA[UnityEngine.Component:SendMessage (string)
+CatGame.EditTests.RoomViewportTests:Room_covers_the_actual_pixel_perfect_projection (int,int) (at Assets/Tests/EditMode/RoomViewportTests.cs:34)
+System.Reflection.MethodBase:Invoke (object,object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod (System.Reflection.MethodInfo,object,object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke (object,object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod (NUnit.Framework.Internal.ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod (NUnit.Framework.Internal.ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute (NUnit.Framework.Internal.ITestExecutionContext)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Assertion failed on expression: 'ShouldRunBehaviour()'
+]]></output>
+              </test-case>
+              <test-case id="1107" name="Room_covers_the_actual_pixel_perfect_projection(1200,900)" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection(1200,900)" methodname="Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" seed="96509264" result="Failed" start-time="2026-11-13 09:15:54Z" end-time="2026-11-13 09:15:54Z" duration="0.008264" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[Unhandled log message: '[Assert] Assertion failed on expression: 'ShouldRunBehaviour()''. Use UnityEngine.TestTools.LogAssert.Expect]]></message>
+                  <stack-trace><![CDATA[UnityEngine.Component:SendMessage (string)
+CatGame.EditTests.RoomViewportTests:Room_covers_the_actual_pixel_perfect_projection (int,int) (at Assets/Tests/EditMode/RoomViewportTests.cs:34)
+System.Reflection.MethodBase:Invoke (object,object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod (System.Reflection.MethodInfo,object,object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke (object,object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod (NUnit.Framework.Internal.ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod (NUnit.Framework.Internal.ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute (NUnit.Framework.Internal.ITestExecutionContext)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Assertion failed on expression: 'ShouldRunBehaviour()'
+]]></output>
+              </test-case>
+              <test-case id="1108" name="Room_covers_the_actual_pixel_perfect_projection(1920,1080)" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection(1920,1080)" methodname="Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" seed="1661895326" result="Failed" start-time="2026-11-13 09:15:54Z" end-time="2026-11-13 09:15:54Z" duration="0.008485" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[Unhandled log message: '[Assert] Assertion failed on expression: 'ShouldRunBehaviour()''. Use UnityEngine.TestTools.LogAssert.Expect]]></message>
+                  <stack-trace><![CDATA[UnityEngine.Component:SendMessage (string)
+CatGame.EditTests.RoomViewportTests:Room_covers_the_actual_pixel_perfect_projection (int,int) (at Assets/Tests/EditMode/RoomViewportTests.cs:34)
+System.Reflection.MethodBase:Invoke (object,object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod (System.Reflection.MethodInfo,object,object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke (object,object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod (NUnit.Framework.Internal.ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod (NUnit.Framework.Internal.ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute (NUnit.Framework.Internal.ITestExecutionContext)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Assertion failed on expression: 'ShouldRunBehaviour()'
+]]></output>
+              </test-case>
+              <test-case id="1109" name="Room_covers_the_actual_pixel_perfect_projection(2712,1220)" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection(2712,1220)" methodname="Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" seed="1569720466" result="Failed" start-time="2026-11-13 09:15:54Z" end-time="2026-11-13 09:15:54Z" duration="0.009750" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[  Expected: greater than or equal to 27.1189995f
+  But was:  24.0078697f
+]]></message>
+                  <stack-trace><![CDATA[at CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection (System.Int32 width, System.Int32 height) [0x001a8] in PROJECT_ROOT\Assets\Tests\EditMode\RoomViewportTests.cs:55
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Assertion failed on expression: 'ShouldRunBehaviour()'
+]]></output>
+              </test-case>
+              <test-case id="1110" name="Room_covers_the_actual_pixel_perfect_projection(2560,1440)" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection(2560,1440)" methodname="Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" seed="269727540" result="Failed" start-time="2026-11-13 09:15:54Z" end-time="2026-11-13 09:15:54Z" duration="0.007583" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[  Expected: greater than or equal to 14.3989992f
+  But was:  10.8000011f
+]]></message>
+                  <stack-trace><![CDATA[at CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection (System.Int32 width, System.Int32 height) [0x00176] in PROJECT_ROOT\Assets\Tests\EditMode\RoomViewportTests.cs:54
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Assertion failed on expression: 'ShouldRunBehaviour()'
+]]></output>
+              </test-case>
+              <test-case id="1111" name="Room_covers_the_actual_pixel_perfect_projection(3840,2160)" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection(3840,2160)" methodname="Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" seed="1933239275" result="Failed" start-time="2026-11-13 09:15:54Z" end-time="2026-11-13 09:15:54Z" duration="0.007693" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[Unhandled log message: '[Assert] Assertion failed on expression: 'ShouldRunBehaviour()''. Use UnityEngine.TestTools.LogAssert.Expect]]></message>
+                  <stack-trace><![CDATA[UnityEngine.Component:SendMessage (string)
+CatGame.EditTests.RoomViewportTests:Room_covers_the_actual_pixel_perfect_projection (int,int) (at Assets/Tests/EditMode/RoomViewportTests.cs:34)
+System.Reflection.MethodBase:Invoke (object,object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod (System.Reflection.MethodInfo,object,object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke (object,object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod (NUnit.Framework.Internal.ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod (NUnit.Framework.Internal.ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute (NUnit.Framework.Internal.ITestExecutionContext)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[Assertion failed on expression: 'ShouldRunBehaviour()'
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

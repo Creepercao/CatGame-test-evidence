@@ -65,6 +65,88 @@ namespace CatGame.EditTests
             Assert.AreEqual(2, loaded.prestigeLevel);
             Assert.AreEqual(1.5, loaded.prestigeMultiplier);
             Assert.IsFalse(File.Exists(_savePath + ".tmp"));
+            var previous = JsonUtility.FromJson<GameState>(File.ReadAllText(_savePath + ".bak"));
+            Assert.AreEqual(123456.75, previous.catHair);
+        }
+
+        [TestCase(false)]
+        [TestCase(true)]
+        public void Load_restores_previous_save_when_primary_is_missing_or_corrupt(bool corrupt)
+        {
+            var state = SaveSystem.CreateNewGame();
+            state.cats[0].count = 2;
+            state.items[0].level = 1;
+            state.catHair = 50;
+            SaveSystem.SaveToPath(_savePath, state);
+            state.cats[0].count = 3;
+            state.catHair = 20;
+            SaveSystem.SaveToPath(_savePath, state);
+            File.WriteAllText(_savePath + ".tmp", "{ interrupted write");
+
+            if (corrupt) File.WriteAllText(_savePath, "{ corrupt main");
+            else File.Delete(_savePath);
+
+            LogAssert.Expect(LogType.Warning, new Regex("Recovered CatGame progress from backup"));
+            var restored = SaveSystem.LoadOrCreate(_savePath);
+            Assert.AreEqual(2, restored.cats[0].count);
+            Assert.AreEqual(1, restored.items[0].level);
+            Assert.AreEqual(50, restored.catHair);
+            Assert.AreEqual(corrupt, File.Exists(Path.Combine(_directory, "save.bad.json")));
+            Assert.IsTrue(File.Exists(_savePath + ".bak"));
+            Assert.IsFalse(File.Exists(_savePath + ".tmp"));
+            Assert.AreEqual(50, SaveSystem.LoadOrCreate(_savePath).catHair);
+        }
+
+        [Test]
+        public void Corrupt_primary_and_backup_start_fresh_and_keep_the_backup_for_diagnosis()
+        {
+            const string damagedBackup = "{ invalid backup";
+            File.WriteAllText(_savePath, "{ invalid primary");
+            File.WriteAllText(_savePath + ".bak", damagedBackup);
+            LogAssert.Expect(LogType.Warning, new Regex("Save backup could not be restored"));
+            LogAssert.Expect(LogType.Warning, new Regex("Save data could not be loaded"));
+
+            Assert.AreEqual(1, SaveSystem.LoadOrCreate(_savePath).cats[0].count);
+            Assert.IsFalse(File.Exists(_savePath));
+            Assert.IsTrue(File.Exists(Path.Combine(_directory, "save.bad.json")));
+            Assert.AreEqual(damagedBackup, File.ReadAllText(_savePath + ".bak"));
+        }
+
+        [Test]
+        public void Failed_replacement_preserves_last_committed_save_and_allows_retry()
+        {
+            if (Application.platform != RuntimePlatform.WindowsEditor)
+                Assert.Ignore("This case relies on Windows file sharing to block the replacement.");
+
+            var state = SaveSystem.CreateNewGame();
+            state.catHair = 80;
+            SaveSystem.SaveToPath(_savePath, state);
+            state.cats[0].count = 2;
+            state.catHair = 50;
+            SaveSystem.SaveToPath(_savePath, state);
+            byte[] committed = File.ReadAllBytes(_savePath);
+            byte[] previous = File.ReadAllBytes(_savePath + ".bak");
+
+            state.cats[0].count = 3;
+            state.catHair = 20;
+            using (File.Open(_savePath, FileMode.Open, FileAccess.Read, FileShare.Read))
+            {
+                Assert.Catch<IOException>(() => SaveSystem.SaveToPath(_savePath, state));
+                CollectionAssert.AreEqual(committed, File.ReadAllBytes(_savePath));
+                CollectionAssert.AreEqual(previous, File.ReadAllBytes(_savePath + ".bak"));
+                var pending = JsonUtility.FromJson<GameState>(File.ReadAllText(_savePath + ".tmp"));
+                Assert.AreEqual(3, pending.cats[0].count, "The new state reached the temporary file before replacement failed.");
+            }
+
+            var reopened = SaveSystem.LoadOrCreate(_savePath);
+            Assert.AreEqual(2, reopened.cats[0].count);
+            Assert.AreEqual(50, reopened.catHair);
+
+            SaveSystem.SaveToPath(_savePath, state);
+            var retried = SaveSystem.LoadOrCreate(_savePath);
+            Assert.AreEqual(3, retried.cats[0].count);
+            Assert.AreEqual(20, retried.catHair);
+            Assert.IsFalse(File.Exists(_savePath + ".tmp"));
         }
 
         [Test]
@@ -88,7 +170,28 @@ namespace CatGame.EditTests
                 state.prestigeLevel = i % 5;
                 state.prestigeMultiplier = 1.0 + i / 1000.0;
 
-                SaveSystem.SaveToPath(_savePath, state);
+                try
+                {
+                    SaveSystem.SaveToPath(_savePath, state);
+                }
+                catch (IOException exception)
+                {
+                    TestContext.WriteLine("STR-02 failed cycle=" + i + ", HResult=0x" + exception.HResult.ToString("X8")
+                        + ", primary=" + File.Exists(_savePath) + ", backup=" + File.Exists(_savePath + ".bak")
+                        + ", temporary=" + File.Exists(_savePath + ".tmp"));
+                    string evidenceRoot = Environment.GetEnvironmentVariable("CATGAME_SAVE_FAILURE_ROOT");
+                    if (!string.IsNullOrEmpty(evidenceRoot))
+                    {
+                        string evidenceDirectory = Path.Combine(evidenceRoot, "cycle-" + i + "-" + Guid.NewGuid().ToString("N"));
+                        Directory.CreateDirectory(evidenceDirectory);
+                        foreach (string source in Directory.GetFiles(_directory))
+                            File.Copy(source, Path.Combine(evidenceDirectory, Path.GetFileName(source)));
+                        File.WriteAllText(Path.Combine(evidenceDirectory, "failure.txt"),
+                            "cycle=" + i + Environment.NewLine + "savePath=" + _savePath + Environment.NewLine + exception);
+                        TestContext.WriteLine("STR-02 failure files: " + evidenceDirectory);
+                    }
+                    throw;
+                }
                 var loaded = SaveSystem.LoadOrCreate(_savePath);
 
                 Assert.AreEqual(state.version, loaded.version, "version at cycle " + i);
@@ -107,11 +210,11 @@ namespace CatGame.EditTests
                 if (i == 499)
                 {
                     File.WriteAllText(_savePath, "{ broken in the middle of stress run");
-                    LogAssert.Expect(LogType.Warning, new Regex("Save data could not be loaded"));
+                    LogAssert.Expect(LogType.Warning, new Regex("Recovered CatGame progress from backup"));
                     var recovered = SaveSystem.LoadOrCreate(_savePath);
-                    Assert.AreEqual(1, recovered.cats[0].count, "corrupt save should recover to the default Milk cat");
+                    Assert.AreEqual(498, recovered.clicks, "restore the last committed backup, not the interrupted save");
                     Assert.IsTrue(File.Exists(Path.Combine(_directory, "save.bad.json")), "corrupt mid-run file should be quarantined");
-                    Assert.IsFalse(File.Exists(_savePath), "corrupt save should not remain active");
+                    Assert.IsTrue(File.Exists(_savePath), "the restored backup should become the active save");
                 }
             }
 

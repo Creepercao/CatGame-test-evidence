@@ -11,7 +11,7 @@
 | 设计文档评审、方案与用例设计 | [测试设计与覆盖](reports/test-design.md) | 前置、预期、边界、状态与风险；需求到用例的映射 |
 | 自动化用例编写维护 | [业务Robot用例](harness/Tests/robot/tests/business.robot)、[Python业务库](harness/Tests/robot/libraries/GameBusiness.py)、[引擎内测试](harness/Assets/Tests) | 关键字分层、进程管理、断言与测试隔离 |
 | 移动端 Robot + Appium | [Android 用例与实测](reports/android-test-evidence.md)、[复跑套件](harness/android) | Appium 实际触摸、滑动和锁屏，覆盖安装前后比较存档，记录 MuMu 失败和 Android 14 AVD 复测 |
-| Android 真机验收 | [真机过程和结果](reports/android-phone-test-evidence.md) | Xiaomi / Android 15 的原生尺寸操作、离线购买、摸猫和结局，六轮帧时间与 PSS、100 猫 5 分钟观察；保留自动化失败和房间露边缺陷 |
+| Android 真机验收 | [真机过程和结果](reports/android-phone-test-evidence.md)、[超宽屏修复回归](reports/android-viewport-regression.md) | 原生尺寸操作、离线购买和结局；v3→v4 存档字节不变、房间露边红绿对照与三个 AVD 比例复验 |
 | 版本质量与CI/CD | [最终交付审计](evidence/ci-delivery-audit-20261106-01/result.json)、[同源失败门禁](evidence/ci-audit-20261106-01/result.json) | 测试失败/构建失败阻断，以及纠正后的成功交付 |
 | Bug复现、评级、追踪与闭环 | [缺陷与追溯](reports/缺陷与追溯.md)、[失败](evidence/roaming-target-red-20261106-01)、[复测](evidence/roaming-target-green-20261106-01) | 固定种子复现、保留阈值、修复与回归证据 |
 | 客户端性能、压力测试 | [执行前方案](reports/性能专项方案.md)、[专项报告](reports/性能专项报告-2026-11-06.md)、[两轮原始数据](evidence/performance-baseline-20261106-02/performance) | 环境、预热、帧时间分布、操作耗时和结论边界 |
@@ -51,4 +51,4 @@ python verify_evidence.py
 
 `provenance.json`分别记录转换前后摘要；原始哈希不能用于校验已脱敏副本。保留历史时间、数值、失败结果和版本，不将脱敏处理伪装为原始字节。
 
-**真机首轮已执行**　Xiaomi / Android 15 已覆盖核心功能、结局和六轮性能采样；超宽屏房间右侧露边待修复。其他机型、GPU 调用栈、长期内存泄漏、耗电专项与数小时实际通关尚未实测。弱网和账号支付缺少对应的在线游戏业务。[真机报告](reports/android-phone-test-evidence.md)
+**真机与显示修复进度**　v3 已覆盖核心功能、结局和六轮性能采样；普通 v4 已通过房间露边的真机红绿、覆盖升级及三种 AVD 比例复验，QA v4 性能复采待完成。Windows 存档压力间歇 I/O 失败仍保留并跟踪。其他机型、GPU 调用栈、长期泄漏、耗电和数小时通关尚未实测。弱网和账号支付缺少对应的在线游戏业务。[真机报告](reports/android-phone-test-evidence.md)、[本轮回归](reports/android-viewport-regression.md)

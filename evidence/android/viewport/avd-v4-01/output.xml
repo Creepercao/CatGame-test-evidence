@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-13T23:10:55.270160" rpa="false" schemaversion="5">
+<suite id="s1" name="Android Room Viewport" source="PROJECT_ROOT\Tests\robot\android\android_room_viewport.robot">
+<kw name="Open Appium" owner="AvdRoomGame" type="SETUP">
+<msg time="2026-11-13T23:10:57.938226" level="INFO">Appium session SESSION_ID, Android test user 10</msg>
+<status status="PASS" start="2026-11-13T23:10:55.328326" elapsed="2.609900"/>
+</kw>
+<test id="s1-t1" name="ROOM-VIEWPORT-01 16 By 9" line="11">
+<kw name="Check Room Coverage">
+<kw name="Force Stop Cat Game" owner="AvdRoomGame">
+<status status="PASS" start="2026-11-13T23:10:57.938226" elapsed="0.129683"/>
+</kw>
+<kw name="Restore Room Fixture" owner="AvdRoomGame">
+<msg time="2026-11-13T23:10:58.350147" level="INFO">Restored two-cat room fixture only in the isolated AVD user</msg>
+<arg>${FIXTURE}</arg>
+<arg>${width}-fixture.json</arg>
+<status status="PASS" start="2026-11-13T23:10:58.068909" elapsed="0.281238"/>
+</kw>
+<kw name="Set Display Width" owner="AvdRoomGame">
+<msg time="2026-11-13T23:10:58.581703" level="INFO">Physical size: 1080x2220
+Override size: 900x1600</msg>
+<arg>${width}</arg>
+<status status="PASS" start="2026-11-13T23:10:58.351146" elapsed="0.230557"/>
+</kw>
+<kw name="Start Cat Game" owner="AvdRoomGame">
+<msg time="2026-11-13T23:10:59.435414" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 791
+WaitTime: 796
+Complete</msg>
+<status status="PASS" start="2026-11-13T23:10:58.582667" elapsed="0.852747"/>
+</kw>
+<kw name="Wait For Visual" owner="AvdRoomGame">
+<msg time="2026-11-13T23:11:05.440174" level="INFO">Visual check menu passed (RGB error 0.51): 1600-01-menu.png</msg>
+<arg>menu</arg>
+<arg>${width}-01-menu.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${menu_offset}</arg>
+<status status="PASS" start="2026-11-13T23:10:59.435414" elapsed="6.005770"/>
+</kw>
+<kw name="Tap" owner="AvdRoomGame">
+<msg time="2026-11-13T23:11:05.441184" level="INFO">Appium clickGesture (1320, 372)</msg>
+<arg>${menu_x}</arg>
+<arg>372</arg>
+<status status="PASS" start="2026-11-13T23:11:05.441184" elapsed="0.101070"/>
+</kw>
+<kw name="Wait For Visual" owner="AvdRoomGame">
+<msg time="2026-11-13T23:11:07.074750" level="INFO">Visual check two-cats passed (RGB error 0.92): 1600-02-room.png</msg>
+<arg>two-cats</arg>
+<arg>${width}-02-room.png</arg>
+<arg>width=${width}</arg>
+<status status="PASS" start="2026-11-13T23:11:05.543254" elapsed="1.531496"/>
+</kw>
+<kw name="Room Right Edge Should Be Covered" owner="check_room_coverage">
+<arg>${OUTPUT DIR}/${width}-02-room.png</arg>
+<status status="PASS" start="2026-11-13T23:11:07.075748" elapsed="0.013015"/>
+</kw>
+<arg>1600</arg>
+<arg>1320</arg>
+<arg>0</arg>
+<status status="PASS" start="2026-11-13T23:10:57.938226" elapsed="9.150537"/>
+</kw>
+<kw name="Restore Display Size" owner="AvdRoomGame" type="TEARDOWN">
+<msg time="2026-11-13T23:11:07.313535" level="INFO">Restored device display: Physical size: 1080x2220
+Override size: 900x1600</msg>
+<status status="PASS" start="2026-11-13T23:11:07.088763" elapsed="0.224772"/>
+</kw>
+<status status="PASS" start="2026-11-13T23:10:57.938226" elapsed="9.375309"/>
+</test>
+<test id="s1-t2" name="ROOM-VIEWPORT-02 20 By 9" line="12">
+<kw name="Check Room Coverage">
+<kw name="Force Stop Cat Game" owner="AvdRoomGame">
+<status status="PASS" start="2026-11-13T23:11:07.314534" elapsed="0.334077"/>
+</kw>
+<kw name="Restore Room Fixture" owner="AvdRoomGame">
+<msg time="2026-11-13T23:11:08.366433" level="INFO">Restored two-cat room fixture only in the isolated AVD user</msg>
+<arg>${FIXTURE}</arg>
+<arg>${width}-fixture.json</arg>
+<status status="PASS" start="2026-11-13T23:11:07.648611" elapsed="0.717822"/>
+</kw>
+<kw name="Set Display Width" owner="AvdRoomGame">
+<msg time="2026-11-13T23:11:08.900979" level="INFO">Physical size: 1080x2220
+Override size: 900x2000</msg>
+<arg>${width}</arg>
+<status status="PASS" start="2026-11-13T23:11:08.366433" elapsed="0.534546"/>
+</kw>
+<kw name="Start Cat Game" owner="AvdRoomGame">
+<msg time="2026-11-13T23:11:10.033022" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1009
+WaitTime: 1014
+Complete</msg>
+<status status="PASS" start="2026-11-13T23:11:08.900979" elapsed="1.132043"/>
+</kw>
+<kw name="Wait For Visual" owner="AvdRoomGame">
+<msg time="2026-11-13T23:11:16.992537" level="INFO">Visual check menu passed (RGB error 0.55): 2000-01-menu.png</msg>
+<arg>menu</arg>
+<arg>${width}-01-menu.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${menu_offset}</arg>
+<status status="PASS" start="2026-11-13T23:11:10.033022" elapsed="6.961498"/>
+</kw>
+<kw name="Tap" owner="AvdRoomGame">
+<msg time="2026-11-13T23:11:16.995520" level="INFO">Appium clickGesture (1650, 372)</msg>
+<arg>${menu_x}</arg>
+<arg>372</arg>
+<status status="PASS" start="2026-11-13T23:11:16.994520" elapsed="0.088913"/>
+</kw>
+<kw name="Wait For Visual" owner="AvdRoomGame">
+<msg time="2026-11-13T23:11:18.772887" level="INFO">Visual check two-cats passed (RGB error 0.89): 2000-02-room.png</msg>
+<arg>two-cats</arg>
+<arg>${width}-02-room.png</arg>
+<arg>width=${width}</arg>
+<status status="PASS" start="2026-11-13T23:11:17.083433" elapsed="1.689454"/>
+</kw>
+<kw name="Room Right Edge Should Be Covered" owner="check_room_coverage">
+<arg>${OUTPUT DIR}/${width}-02-room.png</arg>
+<status status="PASS" start="2026-11-13T23:11:18.772887" elapsed="0.020525"/>
+</kw>
+<arg>2000</arg>
+<arg>1650</arg>
+<arg>330</arg>
+<status status="PASS" start="2026-11-13T23:11:07.314534" elapsed="11.479882"/>
+</kw>
+<kw name="Restore Display Size" owner="AvdRoomGame" type="TEARDOWN">
+<msg time="2026-11-13T23:11:19.119130" level="INFO">Restored device display: Physical size: 1080x2220
+Override size: 900x1600</msg>
+<status status="PASS" start="2026-11-13T23:11:18.794416" elapsed="0.324714"/>
+</kw>
+<status status="PASS" start="2026-11-13T23:11:07.314534" elapsed="11.804596"/>
+</test>
+<test id="s1-t3" name="ROOM-VIEWPORT-03 4 By 3" line="13">
+<kw name="Check Room Coverage">
+<kw name="Force Stop Cat Game" owner="AvdRoomGame">
+<status status="PASS" start="2026-11-13T23:11:19.120131" elapsed="0.395706"/>
+</kw>
+<kw name="Restore Room Fixture" owner="AvdRoomGame">
+<msg time="2026-11-13T23:11:20.203239" level="INFO">Restored two-cat room fixture only in the isolated AVD user</msg>
+<arg>${FIXTURE}</arg>
+<arg>${width}-fixture.json</arg>
+<status status="PASS" start="2026-11-13T23:11:19.515837" elapsed="0.687402"/>
+</kw>
+<kw name="Set Display Width" owner="AvdRoomGame">
+<msg time="2026-11-13T23:11:20.703288" level="INFO">Physical size: 1080x2220
+Override size: 900x1200</msg>
+<arg>${width}</arg>
+<status status="PASS" start="2026-11-13T23:11:20.203239" elapsed="0.500049"/>
+</kw>
+<kw name="Start Cat Game" owner="AvdRoomGame">
+<msg time="2026-11-13T23:11:21.935976" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1101
+WaitTime: 1123
+Complete</msg>
+<status status="PASS" start="2026-11-13T23:11:20.704793" elapsed="1.231183"/>
+</kw>
+<kw name="Wait For Visual" owner="AvdRoomGame">
+<msg time="2026-11-13T23:11:27.001234" level="INFO">Visual check menu passed (RGB error 0.51): 1200-01-menu.png</msg>
+<arg>menu</arg>
+<arg>${width}-01-menu.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${menu_offset}</arg>
+<status status="PASS" start="2026-11-13T23:11:21.935976" elapsed="5.066162"/>
+</kw>
+<kw name="Tap" owner="AvdRoomGame">
+<msg time="2026-11-13T23:11:27.002138" level="INFO">Appium clickGesture (990, 372)</msg>
+<arg>${menu_x}</arg>
+<arg>372</arg>
+<status status="PASS" start="2026-11-13T23:11:27.002138" elapsed="0.082423"/>
+</kw>
+<kw name="Wait For Visual" owner="AvdRoomGame">
+<msg time="2026-11-13T23:11:29.567345" level="INFO">Visual check two-cats passed (RGB error 0.90): 1200-02-room.png</msg>
+<arg>two-cats</arg>
+<arg>${width}-02-room.png</arg>
+<arg>width=${width}</arg>
+<status status="PASS" start="2026-11-13T23:11:27.084561" elapsed="2.482784"/>
+</kw>
+<kw name="Room Right Edge Should Be Covered" owner="check_room_coverage">
+<arg>${OUTPUT DIR}/${width}-02-room.png</arg>
+<status status="PASS" start="2026-11-13T23:11:29.567345" elapsed="0.008103"/>
+</kw>
+<arg>1200</arg>
+<arg>990</arg>
+<arg>-330</arg>
+<status status="PASS" start="2026-11-13T23:11:19.119130" elapsed="10.456318"/>
+</kw>
+<kw name="Restore Display Size" owner="AvdRoomGame" type="TEARDOWN">
+<msg time="2026-11-13T23:11:29.931734" level="INFO">Restored device display: Physical size: 1080x2220
+Override size: 900x1600</msg>
+<status status="PASS" start="2026-11-13T23:11:29.575448" elapsed="0.356286"/>
+</kw>
+<status status="PASS" start="2026-11-13T23:11:19.119130" elapsed="10.812604"/>
+</test>
+<kw name="Close Appium" owner="AvdRoomGame" type="TEARDOWN">
+<status status="PASS" start="2026-11-13T23:11:29.932739" elapsed="0.989823"/>
+</kw>
+<doc>Room coverage at three landscape ratios in the isolated AVD test user.</doc>
+<status status="PASS" start="2026-11-13T23:10:55.272664" elapsed="35.649898"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Android Room Viewport" id="s1" pass="3" fail="0" skip="0">Android Room Viewport</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

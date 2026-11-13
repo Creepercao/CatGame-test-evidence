@@ -159,6 +159,56 @@ def verify_android():
     assert read(f'{phone}/network-restored.json') == {'airplane': '0', 'wifi': '1'}
     print('PASS native phone functional reruns, six frame samples, and 300-second idle evidence')
 
+def verify_android_viewport():
+    base = 'evidence/android/viewport'
+    for name, passed, failed in [('editmode-red-02.xml', 5, 2), ('EditMode.xml', 61, 1),
+                                 ('EditMode-02.xml', 61, 1), ('EditMode-03.xml', 62, 0),
+                                 ('PlayMode-01.xml', 87, 0), ('save-isolated-01.xml', 1, 0)]:
+        report = ET.parse(ROOT / base / name).getroot()
+        assert int(report.get('passed')) == passed and int(report.get('failed')) == failed, name
+    red = ET.parse(ROOT / base / 'editmode-red-02.xml')
+    failed_cases = red.findall('.//test-case[@result="Failed"]')
+    assert len(failed_cases) == 2
+    assert all('RoomViewportTests' in case.get('classname') for case in failed_cases)
+    assert any('(2712,1220)' in case.get('name') for case in failed_cases)
+    assert any('(2560,1440)' in case.get('name') for case in failed_cases)
+    green = ET.parse(ROOT / base / 'EditMode-03.xml')
+    cameras = green.findall('.//test-case[@classname="CatGame.EditTests.RoomViewportTests"]')
+    assert len(cameras) == 7 and all(case.get('result') == 'Passed' for case in cameras)
+    for name in ('EditMode.xml', 'EditMode-02.xml'):
+        cases = ET.parse(ROOT / base / name).findall('.//test-case[@result="Failed"]')
+        assert len(cases) == 1 and cases[0].get('methodname').startswith('Stress_save_load')
+    diagnostic = (ROOT / base / 'EditMode-02.xml').read_text(encoding='utf-8')
+    assert 'HResult=0x80070497' in diagnostic and 'failed cycle=874' in diagnostic
+    assert read(f'{base}/test-exits-03.json') == {'editModeExit': 0, 'playModeExit': 0}
+    for run, statuses in [('phone-v3-red-01', ['FAIL']), ('phone-v4-01', ['PASS']),
+                          ('avd-v4-01', ['PASS', 'PASS', 'PASS'])]:
+        tests = ET.parse(ROOT / base / run / 'output.xml').findall('.//test')
+        assert [test.find('status').get('status') for test in tests] == statuses
+    for run, name, size, widths in [
+        ('phone-v3-red-01', '03-room', (2712, 1220), [156] * 3),
+        ('phone-v4-01', '03-room', (2712, 1220), [0] * 3),
+        *[('avd-v4-01', f'{width}-02-room', (width, 900), [0] * 3) for width in (1600, 2000, 1200)],
+    ]:
+        coverage = read(f'{base}/{run}/{name}.coverage.json')
+        png = (ROOT / base / run / f'{name}.png').read_bytes()
+        assert hashlib.sha256(png).hexdigest() == coverage['imageSha256']
+        assert (int.from_bytes(png[16:20], 'big'), int.from_bytes(png[20:24], 'big')) == size
+        assert (coverage['width'], coverage['height']) == size
+        assert coverage['rightClearWidths'] == widths and coverage['covered'] == (max(widths) == 0)
+    upgrade = read(f'{base}/phone-upgrade-v4/result.json')
+    before = (ROOT / base / 'phone-upgrade-v4/before-save.json').read_bytes()
+    after = (ROOT / base / 'phone-upgrade-v4/before-launch-save.json').read_bytes()
+    assert before == after and hashlib.sha256(before).hexdigest() == upgrade['saveSha256']
+    assert upgrade['fromVersionCode'] == 3 and upgrade['toVersionCode'] == 4
+    assert upgrade['totalCats'] == 3 and upgrade['clicks'] == 2
+    artifact = read(f'{base}/artifact.json')
+    assert upgrade['installedReleaseSha256'] == upgrade['localReleaseSha256'] == artifact['apkSha256']
+    assert artifact['versionCode'] == 4 and not artifact['developmentBuild']
+    assert artifact['buildCliExit'] == artifact['buildEditorExit'] == 0
+    print('PASS viewport red/green, retained save-stress failures, phone upgrade and three AVD ratios')
+
+
 def main():
     manifest=read('provenance.json')
     for row in manifest['files']:
@@ -206,6 +256,7 @@ def main():
         assert p95<=20 and sum(x>33.3 for x in vals)/len(vals)<=.01
         print(f'PASS round {n} hundred-cat P95={p95:.6f}ms, frames={len(vals)}')
     verify_android()
+    verify_android_viewport()
     print('All evidence checks passed; no new Unity/Robot execution performed.')
 
 if __name__=='__main__': main()

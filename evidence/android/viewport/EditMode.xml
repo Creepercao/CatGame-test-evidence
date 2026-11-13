@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="62" result="Failed(Child)" total="62" passed="61" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-13 09:22:03Z" end-time="2026-11-13 09:22:09Z" duration="6.6223279">
+  <test-suite type="TestSuite" id="1080" name="喵屋" fullname="喵屋" runstate="Runnable" testcasecount="62" result="Failed" site="Child" start-time="2026-11-13 09:22:03Z" end-time="2026-11-13 09:22:09Z" duration="6.622328" total="62" passed="61" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1153" name="CatGame.EditTests.dll" fullname="PROJECT_ROOT/Library/ScriptAssemblies/CatGame.EditTests.dll" runstate="Runnable" testcasecount="62" result="Failed" site="Child" start-time="2026-11-13 09:22:03Z" end-time="2026-11-13 09:22:09Z" duration="6.603977" total="62" passed="61" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="44408" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1154" name="CatGame" fullname="CatGame" runstate="Runnable" testcasecount="62" result="Failed" site="Child" start-time="2026-11-13 09:22:03Z" end-time="2026-11-13 09:22:09Z" duration="6.603417" total="62" passed="61" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1155" name="EditTests" fullname="CatGame.EditTests" runstate="Runnable" testcasecount="62" result="Failed" site="Child" start-time="2026-11-13 09:22:03Z" end-time="2026-11-13 09:22:09Z" duration="6.598594" total="62" passed="61" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1081" name="AllAchievementCGTests" fullname="CatGame.EditTests.AllAchievementCGTests" classname="CatGame.EditTests.AllAchievementCGTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-13 09:22:03Z" end-time="2026-11-13 09:22:03Z" duration="0.774229" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1082" name="Every_achievement_has_a_unique_imported_CG_with_matching_title_and_order" fullname="CatGame.EditTests.AllAchievementCGTests.Every_achievement_has_a_unique_imported_CG_with_matching_title_and_order" methodname="Every_achievement_has_a_unique_imported_CG_with_matching_title_and_order" classname="CatGame.EditTests.AllAchievementCGTests" runstate="Runnable" seed="1155104889" result="Passed" start-time="2026-11-13 09:22:03Z" end-time="2026-11-13 09:22:03Z" duration="0.315831" asserts="0">
+              <properties />
+              <output><![CDATA[CG ASSET STEP: first_tuft -> Art/Story/AchievementFirstTuft_v1 (1672.00, 941.00)
+CG ASSET STEP: ten_thousand -> Art/Story/AchievementTenThousand_v1 (1672.00, 941.00)
+CG ASSET STEP: hundred_thousand -> Art/Story/AchievementHundredThousand_v1 (1672.00, 941.00)
+CG ASSET STEP: millionaire -> Art/Story/AchievementMillionaire_v1 (1672.00, 941.00)
+CG ASSET STEP: lots_of_points -> Art/Story/AchievementLotsOfPoints_v1 (1672.00, 941.00)
+CG ASSET STEP: unstoppable -> Art/Story/AchievementUnstoppable_v1 (1672.00, 941.00)
+CG ASSET STEP: family_of_ten -> Art/Story/AchievementFamilyOfTen_v1 (1672.00, 941.00)
+CG ASSET STEP: thirty_cats -> Art/Story/AchievementThirtyCats_v1 (1672.00, 941.00)
+CG ASSET STEP: hundred_cats -> Art/Story/AchievementHundredCats_v1 (1672.00, 941.00)
+CG ASSET STEP: crowded_nest -> Art/Story/AchievementCrowdedNest_v1 (1672.00, 941.00)
+CG ASSET STEP: three_breeds -> Art/Story/MilestoneThree_v1 (1672.00, 941.00)
+CG ASSET STEP: six_breeds -> Art/Story/MilestoneSix_v1 (1672.00, 941.00)
+CG ASSET STEP: all_breeds -> Art/Story/MilestoneEleven_v1 (1672.00, 941.00)
+CG ASSET STEP: first_click -> Art/Story/AchievementFirstClick_v1 (1672.00, 941.00)
+CG ASSET STEP: thousand_clicks -> Art/Story/AchievementThousandClicks_v1 (1672.00, 941.00)
+CG ASSET STEP: max_scratcher -> Art/Story/AchievementMaxScratcher_v1 (1672.00, 941.00)
+CG ASSET STEP: stage_two -> Art/Story/AchievementNewNeighbor_v1 (1672.00, 941.00)
+CG ASSET STEP: stage_three -> Art/Story/AchievementCityLights_v1 (1672.00, 941.00)
+CG ASSET STEP: stage_four -> Art/Story/AchievementCloudNest_v1 (1672.00, 941.00)
+CG ASSET STEP: planet_cats -> Art/Story/MilestonePlanet_v1 (1672.00, 941.00)
+]]></output>
+            </test-case>
+            <test-case id="1083" name="Genuine_all_twenty_unlocks_queue_once_and_remain_seen_after_repeated_evaluations" fullname="CatGame.EditTests.AllAchievementCGTests.Genuine_all_twenty_unlocks_queue_once_and_remain_seen_after_repeated_evaluations" methodname="Genuine_all_twenty_unlocks_queue_once_and_remain_seen_after_repeated_evaluations" classname="CatGame.EditTests.AllAchievementCGTests" runstate="Runnable" seed="1518018389" result="Passed" start-time="2026-11-13 09:22:03Z" end-time="2026-11-13 09:22:03Z" duration="0.444444" asserts="0">
+              <properties />
+              <output><![CDATA[CG RULE STEP: 20 real unlock conditions, fixed queue, 10,000 duplicate checks passed.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1084" name="EndingRulesTests" fullname="CatGame.EditTests.EndingRulesTests" classname="CatGame.EditTests.EndingRulesTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-11-13 09:22:03Z" end-time="2026-11-13 09:22:04Z" duration="0.068387" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1088" name="Ending_save_rejects_missing_snapshot_and_invalid_statistics" fullname="CatGame.EditTests.EndingRulesTests.Ending_save_rejects_missing_snapshot_and_invalid_statistics" methodname="Ending_save_rejects_missing_snapshot_and_invalid_statistics" classname="CatGame.EditTests.EndingRulesTests" runstate="Runnable" seed="1331337073" result="Passed" start-time="2026-11-13 09:22:03Z" end-time="2026-11-13 09:22:03Z" duration="0.002533" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1086" name="Purchased_interrupted_ending_and_pending_CGs_round_trip_without_a_second_charge" fullname="CatGame.EditTests.EndingRulesTests.Purchased_interrupted_ending_and_pending_CGs_round_trip_without_a_second_charge" methodname="Purchased_interrupted_ending_and_pending_CGs_round_trip_without_a_second_charge" classname="CatGame.EditTests.EndingRulesTests" runstate="Runnable" seed="1413457734" result="Passed" start-time="2026-11-13 09:22:03Z" end-time="2026-11-13 09:22:03Z" duration="0.043837" asserts="0">
+              <properties />
+              <output><![CDATA[SNAPSHOT before={"playSeconds":2.562422018032521,"totalEarned":1000000002867.6625,"clicks":0,"totalCats":1,"breeds":1,"itemLevels":0,"achievementCount":7,"completedUnix":1794561723,"hasFullPlaytimeHistory":false} restored={"playSeconds":2.562422018032521,"totalEarned":1000000002867.6624,"clicks":0,"totalCats":1,"breeds":1,"itemLevels":0,"achievementCount":7,"completedUnix":1794561723,"hasFullPlaytimeHistory":false}
+]]></output>
+            </test-case>
+            <test-case id="1085" name="Rocket_checks_balance_not_lifetime_income_and_ten_thousand_requests_charge_once" fullname="CatGame.EditTests.EndingRulesTests.Rocket_checks_balance_not_lifetime_income_and_ten_thousand_requests_charge_once" methodname="Rocket_checks_balance_not_lifetime_income_and_ten_thousand_requests_charge_once" classname="CatGame.EditTests.EndingRulesTests" runstate="Runnable" seed="575094785" result="Passed" start-time="2026-11-13 09:22:03Z" end-time="2026-11-13 09:22:03Z" duration="0.006268" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1087" name="Story_queue_is_stable_and_deduplicates_many_offline_unlock_evaluations" fullname="CatGame.EditTests.EndingRulesTests.Story_queue_is_stable_and_deduplicates_many_offline_unlock_evaluations" methodname="Story_queue_is_stable_and_deduplicates_many_offline_unlock_evaluations" classname="CatGame.EditTests.EndingRulesTests" runstate="Runnable" seed="1833110512" result="Passed" start-time="2026-11-13 09:22:03Z" end-time="2026-11-13 09:22:04Z" duration="0.013457" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1089" name="IdleMathTests" fullname="CatGame.EditTests.IdleMathTests" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.169363" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1092" name="Achievement_catalog_has_twenty_unique_entries" fullname="CatGame.EditTests.IdleMathTests.Achievement_catalog_has_twenty_unique_entries" methodname="Achievement_catalog_has_twenty_unique_entries" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="1127169176" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.000524" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1093" name="Achievement_rules_unlock_once_and_record_id" fullname="CatGame.EditTests.IdleMathTests.Achievement_rules_unlock_once_and_record_id" methodname="Achievement_rules_unlock_once_and_record_id" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="1726309512" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.002600" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1097" name="Cat_price_caps_at_forty" fullname="CatGame.EditTests.IdleMathTests.Cat_price_caps_at_forty" methodname="Cat_price_caps_at_forty" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="865757282" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.000320" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1096" name="Cat_prices_form_natural_progression_and_keep_growth" fullname="CatGame.EditTests.IdleMathTests.Cat_prices_form_natural_progression_and_keep_growth" methodname="Cat_prices_form_natural_progression_and_keep_growth" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="1326853375" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.000545" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1090" name="Catalog_has_eleven_cats_and_twenty_items" fullname="CatGame.EditTests.IdleMathTests.Catalog_has_eleven_cats_and_twenty_items" methodname="Catalog_has_eleven_cats_and_twenty_items" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="716386247" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.000133" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1102" name="Click_value_ignores_cumulative_thresholds_and_offline_is_capped" fullname="CatGame.EditTests.IdleMathTests.Click_value_ignores_cumulative_thresholds_and_offline_is_capped" methodname="Click_value_ignores_cumulative_thresholds_and_offline_is_capped" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="782201635" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.002154" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1103" name="Curve_simulator_rejects_invalid_click_rates" fullname="CatGame.EditTests.IdleMathTests.Curve_simulator_rejects_invalid_click_rates" methodname="Curve_simulator_rejects_invalid_click_rates" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="339801183" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.001921" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1095" name="Game_state_has_versioned_save_fields_and_defaults" fullname="CatGame.EditTests.IdleMathTests.Game_state_has_versioned_save_fields_and_defaults" methodname="Game_state_has_versioned_save_fields_and_defaults" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="1240388612" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.000489" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1098" name="Item_prices_and_effects_follow_generation_and_level_curves" fullname="CatGame.EditTests.IdleMathTests.Item_prices_and_effects_follow_generation_and_level_curves" methodname="Item_prices_and_effects_follow_generation_and_level_curves" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="1049977924" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.000370" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1091" name="New_game_starts_with_one_Milk_cat" fullname="CatGame.EditTests.IdleMathTests.New_game_starts_with_one_Milk_cat" methodname="New_game_starts_with_one_Milk_cat" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="665795200" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.000200" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1094" name="Offline_earnings_are_capped_and_clock_never_moves_save_backwards" fullname="CatGame.EditTests.IdleMathTests.Offline_earnings_are_capped_and_clock_never_moves_save_backwards" methodname="Offline_earnings_are_capped_and_clock_never_moves_save_backwards" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="593762061" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.000425" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1101" name="Price_progression_reaches_goal_without_clicks_or_stage_gates" fullname="CatGame.EditTests.IdleMathTests.Price_progression_reaches_goal_without_clicks_or_stage_gates" methodname="Price_progression_reaches_goal_without_clicks_or_stage_gates" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="806572685" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.096357" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1099" name="Production_items_add_with_effects_matching_each_level" fullname="CatGame.EditTests.IdleMathTests.Production_items_add_with_effects_matching_each_level" methodname="Production_items_add_with_effects_matching_each_level" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="1703085312" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.000688" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1100" name="Production_remains_finite_after_one_hundred_thousand_ticks" fullname="CatGame.EditTests.IdleMathTests.Production_remains_finite_after_one_hundred_thousand_ticks" methodname="Production_remains_finite_after_one_hundred_thousand_ticks" classname="CatGame.EditTests.IdleMathTests" runstate="Runnable" seed="1369840116" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.060476" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1104" name="RoomViewportTests" fullname="CatGame.EditTests.RoomViewportTests" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.070460" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="ParameterizedMethod" id="1112" name="Room_covers_the_actual_pixel_perfect_projection" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.069267" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1105" name="Room_covers_the_actual_pixel_perfect_projection(1600,900)" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection(1600,900)" methodname="Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" seed="1457949712" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.020220" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1106" name="Room_covers_the_actual_pixel_perfect_projection(2000,900)" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection(2000,900)" methodname="Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" seed="408380819" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.007919" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1107" name="Room_covers_the_actual_pixel_perfect_projection(1200,900)" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection(1200,900)" methodname="Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" seed="390749791" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.007610" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1108" name="Room_covers_the_actual_pixel_perfect_projection(1920,1080)" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection(1920,1080)" methodname="Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" seed="1549412247" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.008212" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1109" name="Room_covers_the_actual_pixel_perfect_projection(2712,1220)" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection(2712,1220)" methodname="Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" seed="231807572" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.006601" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1110" name="Room_covers_the_actual_pixel_perfect_projection(2560,1440)" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection(2560,1440)" methodname="Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" seed="235642615" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.007253" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1111" name="Room_covers_the_actual_pixel_perfect_projection(3840,2160)" fullname="CatGame.EditTests.RoomViewportTests.Room_covers_the_actual_pixel_perfect_projection(3840,2160)" methodname="Room_covers_the_actual_pixel_perfect_projection" classname="CatGame.EditTests.RoomViewportTests" runstate="Runnable" seed="2087668207" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.007671" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+          </test-suite>
+          <test-suite type="TestFixture" id="1113" name="SaveSystemTests" fullname="CatGame.EditTests.SaveSystemTests" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" testcasecount="11" result="Failed" site="Child" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:07Z" duration="3.409434" total="11" passed="10" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1119" name="Corrupt_primary_and_backup_start_fresh_and_keep_the_backup_for_diagnosis" fullname="CatGame.EditTests.SaveSystemTests.Corrupt_primary_and_backup_start_fresh_and_keep_the_backup_for_diagnosis" methodname="Corrupt_primary_and_backup_start_fresh_and_keep_the_backup_for_diagnosis" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="778633943" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.013761" asserts="0">
+              <properties />
+              <output><![CDATA[Save backup could not be restored. Save file is missing required field 'version'.
+Save data could not be loaded; starting a new game. Save file is missing required field 'version'.
+]]></output>
+            </test-case>
+            <test-case id="1122" name="Corrupt_save_is_quarantined_and_new_game_is_returned" fullname="CatGame.EditTests.SaveSystemTests.Corrupt_save_is_quarantined_and_new_game_is_returned" methodname="Corrupt_save_is_quarantined_and_new_game_is_returned" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="189211082" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.006726" asserts="0">
+              <properties />
+              <output><![CDATA[Save data could not be loaded; starting a new game. Save file is missing required field 'version'.
+]]></output>
+            </test-case>
+            <test-case id="1120" name="Failed_replacement_preserves_last_committed_save_and_allows_retry" fullname="CatGame.EditTests.SaveSystemTests.Failed_replacement_preserves_last_committed_save_and_allows_retry" methodname="Failed_replacement_preserves_last_committed_save_and_allows_retry" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="1590019642" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.028109" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1124" name="Future_save_version_is_quarantined_instead_of_overwritten" fullname="CatGame.EditTests.SaveSystemTests.Future_save_version_is_quarantined_instead_of_overwritten" methodname="Future_save_version_is_quarantined_instead_of_overwritten" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="677948450" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.007920" asserts="0">
+              <properties />
+              <output><![CDATA[Save data could not be loaded; starting a new game. Save version 3 is newer than supported version 2.
+]]></output>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1118" name="Load_restores_previous_save_when_primary_is_missing_or_corrupt" fullname="CatGame.EditTests.SaveSystemTests.Load_restores_previous_save_when_primary_is_missing_or_corrupt" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.041680" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1116" name="Load_restores_previous_save_when_primary_is_missing_or_corrupt(False)" fullname="CatGame.EditTests.SaveSystemTests.Load_restores_previous_save_when_primary_is_missing_or_corrupt(False)" methodname="Load_restores_previous_save_when_primary_is_missing_or_corrupt" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="1716492276" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.020178" asserts="0">
+                <properties />
+                <output><![CDATA[Recovered CatGame progress from backup.
+]]></output>
+              </test-case>
+              <test-case id="1117" name="Load_restores_previous_save_when_primary_is_missing_or_corrupt(True)" fullname="CatGame.EditTests.SaveSystemTests.Load_restores_previous_save_when_primary_is_missing_or_corrupt(True)" methodname="Load_restores_previous_save_when_primary_is_missing_or_corrupt" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="1601321881" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.020430" asserts="0">
+                <properties />
+                <output><![CDATA[Recovered CatGame progress from backup.
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-case id="1114" name="Save_path_is_inside_the_CatGame_folder" fullname="CatGame.EditTests.SaveSystemTests.Save_path_is_inside_the_CatGame_folder" methodname="Save_path_is_inside_the_CatGame_folder" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="908722997" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.001874" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1125" name="Save_rejects_out_of_range_cat_counts" fullname="CatGame.EditTests.SaveSystemTests.Save_rejects_out_of_range_cat_counts" methodname="Save_rejects_out_of_range_cat_counts" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="1236160891" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.002111" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1115" name="Save_round_trips_fields_and_replaces_existing_file" fullname="CatGame.EditTests.SaveSystemTests.Save_round_trips_fields_and_replaces_existing_file" methodname="Save_round_trips_fields_and_replaces_existing_file" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="683284319" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.011788" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1123" name="Save_with_missing_fields_is_quarantined" fullname="CatGame.EditTests.SaveSystemTests.Save_with_missing_fields_is_quarantined" methodname="Save_with_missing_fields_is_quarantined" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="782253336" result="Passed" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:04Z" duration="0.007256" asserts="0">
+              <properties />
+              <output><![CDATA[Save data could not be loaded; starting a new game. Save file is missing required field 'totalEarned'.
+]]></output>
+            </test-case>
+            <test-case id="1121" name="Stress_save_load_round_trips_one_thousand_cycles_and_recovers_midway_corruption" fullname="CatGame.EditTests.SaveSystemTests.Stress_save_load_round_trips_one_thousand_cycles_and_recovers_midway_corruption" methodname="Stress_save_load_round_trips_one_thousand_cycles_and_recovers_midway_corruption" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="1094114226" result="Failed" label="Error" start-time="2026-11-13 09:22:04Z" end-time="2026-11-13 09:22:07Z" duration="3.285174" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[System.IO.IOException : 无法删除要被替换的文件。]]></message>
+                <stack-trace><![CDATA[  at System.IO.FileSystem.ReplaceFile (System.String sourceFullPath, System.String destFullPath, System.String destBackupFullPath, System.Boolean ignoreMetadataErrors) [0x0002c] in <4b234520e36749be9cf6b053d911690f>:0 
+  at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors) [0x00034] in <4b234520e36749be9cf6b053d911690f>:0 
+  at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
+  at CatGame.Idle.SaveSystem.WriteSave (System.String path, CatGame.Idle.GameState state, System.Boolean keepPrevious) [0x00077] in PROJECT_ROOT\Assets\Scripts\Idle\SaveSystem.cs:245 
+  at CatGame.Idle.SaveSystem.SaveToPath (System.String path, CatGame.Idle.GameState state) [0x00000] in PROJECT_ROOT\Assets\Scripts\Idle\SaveSystem.cs:228 
+  at CatGame.EditTests.SaveSystemTests.Stress_save_load_round_trips_one_thousand_cycles_and_recovers_midway_corruption () [0x000cf] in PROJECT_ROOT\Assets\Tests\EditMode\SaveSystemTests.cs:173 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 ]]></stack-trace>
+              </failure>
+              <output><![CDATA[Recovered CatGame progress from backup.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1126" name="SceneAndAssetTests" fullname="CatGame.EditTests.SceneAndAssetTests" classname="CatGame.EditTests.SceneAndAssetTests" runstate="Runnable" testcasecount="18" result="Passed" start-time="2026-11-13 09:22:07Z" end-time="2026-11-13 09:22:09Z" duration="2.035333" total="18" passed="18" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1129" name="Home_pixel_room_has_architecture_six_furniture_pieces_and_bound_surface" fullname="CatGame.EditTests.SceneAndAssetTests.Home_pixel_room_has_architecture_six_furniture_pieces_and_bound_surface" methodname="Home_pixel_room_has_architecture_six_furniture_pieces_and_bound_surface" classname="CatGame.EditTests.SceneAndAssetTests" runstate="Runnable" seed="1202649108" result="Passed" start-time="2026-11-13 09:22:07Z" end-time="2026-11-13 09:22:07Z" duration="0.237814" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1128" name="Pixel_item_icons_and_UI_masks_are_imported_without_smoothing" fullname="CatGame.EditTests.SceneAndAssetTests.Pixel_item_icons_and_UI_masks_are_imported_without_smoothing" methodname="Pixel_item_icons_and_UI_masks_are_imported_without_smoothing" classname="CatGame.EditTests.SceneAndAssetTests" runstate="Runnable" seed="1667385725" result="Passed" start-time="2026-11-13 09:22:07Z" end-time="2026-11-13 09:22:07Z" duration="0.030399" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1127" name="Story_CG_and_Momo_portrait_are_single_uncompressed_illustration_sprites" fullname="CatGame.EditTests.SceneAndAssetTests.Story_CG_and_Momo_portrait_are_single_uncompressed_illustration_sprites" methodname="Story_CG_and_Momo_portrait_are_single_uncompressed_illustration_sprites" classname="CatGame.EditTests.SceneAndAssetTests" runstate="Runnable" seed="2031176739" result="Passed" start-time="2026-11-13 09:22:07Z" end-time="2026-11-13 09:22:07Z" duration="0.025261" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1130" name="三个场景都存在且能打开" fullname="CatGame.EditTests.SceneAndAssetTests.三个场景都存在且能打开" methodname="三个场景都存在且能打开" classname="CatGame.EditTests.SceneAndAssetTests" runstate="Runnable" seed="601098252" result="Passed" start-time="2026-11-13 09:22:07Z" end-time="2026-11-13 09:22:08Z" duration="0.605279" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1132" name="主菜单场景有菜单与事件系统" fullname="CatGame.EditTests.SceneAndAssetTests.主菜单场景有菜单与事件系统" methodname="主菜单场景有菜单与事件系统" classname="CatGame.EditTests.SceneAndAssetTests" runstate="Runnable" seed="378877248" result="Passed" start-time="2026-11-13 09:22:08Z" end-time="2026-11-13 09:22:08Z" duration="0.195636" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1133" name="公园场景有地面和摆件" fullname="CatGame.EditTests.SceneAndAssetTests.公园场景有地面和摆件" methodname="公园场景有地面和摆件" classname="CatGame.EditTests.SceneAndAssetTests" runstate="Runnable" seed="51911423" result="Passed" start-time="2026-11-13 09:22:08Z" end-time="2026-11-13 09:22:08Z" duration="0.198731" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1143" name="所有品种的动画资源都齐全" fullname="CatGame.EditTests.SceneAndAssetTests.所有品种的动画资源都齐全" methodname="所有品种的动画资源都齐全" classname="CatGame.EditTests.SceneAndAssetTests" runstate="Runnable" seed="1696974126" result="Passed" start-time="2026-11-13 09:22:08Z" end-time="2026-11-13 09:22:09Z" duration="0.051525" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1145" name="构建产物存在" fullname="CatGame.EditTests.SceneAndAssetTests.构建产物存在" methodname="构建产物存在" classname="CatGame.EditTests.SceneAndAssetTests" runstate="Runnable" seed="347006012" result="Passed" start-time="2026-11-13 09:22:09Z" end-time="2026-11-13 09:22:09Z" duration="0.000759" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1136" name="构建列表只包含主菜单和猫窝且主菜单排第一" fullname="CatGame.EditTests.SceneAndAssetTests.构建列表只包含主菜单和猫窝且主菜单排第一" methodname="构建列表只包含主菜单和猫窝且主菜单排第一" classname="CatGame.EditTests.SceneAndAssetTests" runstate="Runnable" seed="577027052" result="Passed" start-time="2026-11-13 09:22:09Z" end-time="2026-11-13 09:22:09Z" duration="0.001066" asserts="0">
+              <properties />
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1141" name="猫咪动画切帧数量正确" fullname="CatGame.EditTests.SceneAndAssetTests.猫咪动画切帧数量正确" classname="CatGame.EditTests.SceneAndAssetTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-11-13 09:22:09Z" end-time="2026-11-13 09:22:09Z" duration="0.011876" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1137" name="猫咪动画切帧数量正确(&quot;Milk&quot;,&quot;Idle&quot;,5,64)" fullname="CatGame.EditTests.SceneAndAssetTests.猫咪动画切帧数量正确(&quot;Milk&quot;,&quot;Idle&quot;,5,64)" methodname="猫咪动画切帧数量正确" classname="CatGame.EditTests.SceneAndAssetTests" runstate="Runnable" seed="2002416941" result="Passed" start-time="2026-11-13 09:22:09Z" end-time="2026-11-13 09:22:09Z" duration="0.003208" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1138" name="猫咪动画切帧数量正确(&quot;Milk&quot;,&quot;Walk&quot;,6,64)" fullname="CatGame.EditTests.SceneAndAssetTests.猫咪动画切帧数量正确(&quot;Milk&quot;,&quot;Walk&quot;,6,64)" methodname="猫咪动画切帧数量正确" classname="CatGame.EditTests.SceneAndAssetTests" runstate="Runnable" seed="2039926931" result="Passed" start-time="2026-11-13 09:22:09Z" end-time="2026-11-13 09:22:09Z" duration="0.002413" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1139" name="猫咪动画切帧数量正确(&quot;Milk&quot;,&quot;Jump&quot;,5,64)" fullname="CatGame.EditTests.SceneAndAssetTests.猫咪动画切帧数量正确(&quot;Milk&quot;,&quot;Jump&quot;,5,64)" methodname="猫咪动画切帧数量正确" classname="CatGame.EditTests.SceneAndAssetTests" runstate="Runnable" seed="1703926" result="Passed" start-time="2026-11-13 09:22:09Z" end-time="2026-11-13 09:22:09Z" duration="0.002167" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1140" name="猫咪动画切帧数量正确(&quot;Snow&quot;,&quot;Idle&quot;,5,64)" fullname="CatGame.EditTests.SceneAndAssetTests.猫咪动画切帧数量正确(&quot;Snow&quot;,&quot;Idle&quot;,5,64)" methodname="猫咪动画切帧数量正确" classname="CatGame.EditTests.SceneAndAssetTests" runstate="Runnable" seed="1674847145" result="Passed" start-time="2026-11-13 09:22:09Z" end-time="2026-11-13 09:22:09Z" duration="0.001742" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+            <test-case id="1135" name="猫咪图鉴公园背景是单张Sprite并可从Resources加载" fullname="CatGame.EditTests.SceneAndAssetTests.猫咪图鉴公园背景是单张Sprite并可从Resources加载" methodname="猫咪图鉴公园背景是单张Sprite并可从Resources加载" classname="CatGame.EditTests.SceneAndAssetTests" runstate="Runnable" seed="1694130469" result="Passed" start-time="2026-11-13 09:22:09Z" end-time="2026-11-13 09:22:09Z" duration="0.003017" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1144" name="猫咪贴图没有被降采样" fullname="CatGame.EditTests.SceneAndAssetTests.猫咪贴图没有被降采样" methodname="猫咪贴图没有被降采样" classname="CatGame.EditTests.SceneAndAssetTests" runstate="Runnable" seed="1222254555" result="Passed" start-time="2026-11-13 09:22:09Z" end-time="2026-11-13 09:22:09Z" duration="0.002711" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1142" name="猫咪贴图用点采样_房间图用双线性" fullname="CatGame.EditTests.SceneAndAssetTests.猫咪贴图用点采样_房间图用双线性" methodname="猫咪贴图用点采样_房间图用双线性" classname="CatGame.EditTests.SceneAndAssetTests" runstate="Runnable" seed="328099253" result="Passed" start-time="2026-11-13 09:22:09Z" end-time="2026-11-13 09:22:09Z" duration="0.001394" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1131" name="猫窝与公园有世界根与相机" fullname="CatGame.EditTests.SceneAndAssetTests.猫窝与公园有世界根与相机" methodname="猫窝与公园有世界根与相机" classname="CatGame.EditTests.SceneAndAssetTests" runstate="Runnable" seed="285604312" result="Passed" start-time="2026-11-13 09:22:09Z" end-time="2026-11-13 09:22:09Z" duration="0.443613" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1134" name="猫窝场景有房间背景" fullname="CatGame.EditTests.SceneAndAssetTests.猫窝场景有房间背景" methodname="猫窝场景有房间背景" classname="CatGame.EditTests.SceneAndAssetTests" runstate="Runnable" seed="444618196" result="Passed" start-time="2026-11-13 09:22:09Z" end-time="2026-11-13 09:22:09Z" duration="0.223717" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1146" name="StorySaveTests" fullname="CatGame.EditTests.StorySaveTests" classname="CatGame.EditTests.StorySaveTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-11-13 09:22:09Z" end-time="2026-11-13 09:22:09Z" duration="0.066330" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1149" name="B4_v2_history_without_CG_markers_is_normalized_but_real_pending_memory_survives" fullname="CatGame.EditTests.StorySaveTests.B4_v2_history_without_CG_markers_is_normalized_but_real_pending_memory_survives" methodname="B4_v2_history_without_CG_markers_is_normalized_but_real_pending_memory_survives" classname="CatGame.EditTests.StorySaveTests" runstate="Runnable" seed="1715094289" result="Passed" start-time="2026-11-13 09:22:09Z" end-time="2026-11-13 09:22:09Z" duration="0.012430" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1151" name="Existing_twenty_achievement_save_normalizes_new_historical_CGs_but_preserves_pending_first_pet" fullname="CatGame.EditTests.StorySaveTests.Existing_twenty_achievement_save_normalizes_new_historical_CGs_but_preserves_pending_first_pet" methodname="Existing_twenty_achievement_save_normalizes_new_historical_CGs_but_preserves_pending_first_pet" classname="CatGame.EditTests.StorySaveTests" runstate="Runnable" seed="2097569286" result="Passed" start-time="2026-11-13 09:22:09Z" end-time="2026-11-13 09:22:09Z" duration="0.012204" asserts="0">
+              <properties />
+              <output><![CDATA[CG SAVE STEP: old 20-achievement save: 19 historical seen + 1 genuine pending; completion round-trips.
+]]></output>
+            </test-case>
+            <test-case id="1150" name="Story_save_rejects_repeated_events_or_nonfinite_playtime" fullname="CatGame.EditTests.StorySaveTests.Story_save_rejects_repeated_events_or_nonfinite_playtime" methodname="Story_save_rejects_repeated_events_or_nonfinite_playtime" classname="CatGame.EditTests.StorySaveTests" runstate="Runnable" seed="1511876595" result="Passed" start-time="2026-11-13 09:22:09Z" end-time="2026-11-13 09:22:09Z" duration="0.002882" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1147" name="V1_save_migrates_without_replaying_intro_or_historical_CG_and_preserves_progress" fullname="CatGame.EditTests.StorySaveTests.V1_save_migrates_without_replaying_intro_or_historical_CG_and_preserves_progress" methodname="V1_save_migrates_without_replaying_intro_or_historical_CG_and_preserves_progress" classname="CatGame.EditTests.StorySaveTests" runstate="Runnable" seed="423251841" result="Passed" start-time="2026-11-13 09:22:09Z" end-time="2026-11-13 09:22:09Z" duration="0.013014" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1148" name="V2_intro_and_pending_story_progress_survive_save_round_trip" fullname="CatGame.EditTests.StorySaveTests.V2_intro_and_pending_story_progress_survive_save_round_trip" methodname="V2_intro_and_pending_story_progress_survive_save_round_trip" classname="CatGame.EditTests.StorySaveTests" runstate="Runnable" seed="2062426716" result="Passed" start-time="2026-11-13 09:22:09Z" end-time="2026-11-13 09:22:09Z" duration="0.015197" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1152" name="V2_missing_intro_field_is_quarantined_instead_of_silently_resetting_story" fullname="CatGame.EditTests.StorySaveTests.V2_missing_intro_field_is_quarantined_instead_of_silently_resetting_story" methodname="V2_missing_intro_field_is_quarantined_instead_of_silently_resetting_story" classname="CatGame.EditTests.StorySaveTests" runstate="Runnable" seed="228878557" result="Passed" start-time="2026-11-13 09:22:09Z" end-time="2026-11-13 09:22:09Z" duration="0.007865" asserts="0">
+              <properties />
+              <output><![CDATA[Save data could not be loaded; starting a new game. Story save field missing: introCompleted
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

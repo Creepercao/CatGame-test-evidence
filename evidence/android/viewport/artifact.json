@@ -1,0 +1,14 @@
+{
+  "publicGameCommit": "0076ec50b2e6c4a3168493aadb51fadf7577e588",
+  "testCommit": "d4a1d55",
+  "apkSha256": "bbd62c49d9e97be964933e13ab72cbc7bdc2a14645cf849ca92f7f92d39edf80",
+  "apkBytes": 111702778,
+  "catWorldSha256": "f48a15a8c18226ba98dcf1b41015f046072fa8e9fe4926a4ce23046f1a14599e",
+  "versionCode": 4,
+  "developmentBuild": false,
+  "buildCliExit": 0,
+  "buildEditorExit": 0,
+  "build01CancelledByOperator": true,
+  "build01CliExit": 6,
+  "qaV4AndPerformancePending": true
+}

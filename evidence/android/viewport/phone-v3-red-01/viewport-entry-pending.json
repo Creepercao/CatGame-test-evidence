@@ -1,0 +1,166 @@
+{
+  "version": 2,
+  "catHair": 13933.995021705665,
+  "totalEarned": 13993.79502170566,
+  "clicks": 2,
+  "cats": [
+    {
+      "id": "Milk",
+      "count": 3
+    },
+    {
+      "id": "Tabby",
+      "count": 0
+    },
+    {
+      "id": "Snow",
+      "count": 0
+    },
+    {
+      "id": "Calico",
+      "count": 0
+    },
+    {
+      "id": "Tuxedo",
+      "count": 0
+    },
+    {
+      "id": "Siamese",
+      "count": 0
+    },
+    {
+      "id": "Tiger",
+      "count": 0
+    },
+    {
+      "id": "Egypt",
+      "count": 0
+    },
+    {
+      "id": "Batcat",
+      "count": 0
+    },
+    {
+      "id": "Demon",
+      "count": 0
+    },
+    {
+      "id": "Xmas",
+      "count": 0
+    }
+  ],
+  "items": [
+    {
+      "id": "item_1_1",
+      "level": 0
+    },
+    {
+      "id": "item_1_2",
+      "level": 0
+    },
+    {
+      "id": "item_1_3",
+      "level": 0
+    },
+    {
+      "id": "item_1_4",
+      "level": 0
+    },
+    {
+      "id": "item_2_1",
+      "level": 0
+    },
+    {
+      "id": "item_2_2",
+      "level": 0
+    },
+    {
+      "id": "item_2_3",
+      "level": 0
+    },
+    {
+      "id": "item_2_4",
+      "level": 0
+    },
+    {
+      "id": "item_3_1",
+      "level": 0
+    },
+    {
+      "id": "item_3_2",
+      "level": 0
+    },
+    {
+      "id": "item_3_3",
+      "level": 0
+    },
+    {
+      "id": "item_3_4",
+      "level": 0
+    },
+    {
+      "id": "item_4_1",
+      "level": 0
+    },
+    {
+      "id": "item_4_2",
+      "level": 0
+    },
+    {
+      "id": "item_4_3",
+      "level": 0
+    },
+    {
+      "id": "item_4_4",
+      "level": 0
+    },
+    {
+      "id": "item_5_1",
+      "level": 0
+    },
+    {
+      "id": "item_5_2",
+      "level": 0
+    },
+    {
+      "id": "item_5_3",
+      "level": 0
+    },
+    {
+      "id": "item_5_4",
+      "level": 0
+    }
+  ],
+  "achievements": [
+    "first_tuft",
+    "first_click",
+    "ten_thousand"
+  ],
+  "lastSeenUnix": 1794581418,
+  "introCompleted": true,
+  "seenStoryEvents": [
+    "first_tuft",
+    "first_click"
+  ],
+  "pendingStoryEvents": [
+    "ten_thousand"
+  ],
+  "playSeconds": 2121.7111708187513,
+  "hasFullPlaytimeHistory": true,
+  "rocketPurchased": false,
+  "endingCompleted": false,
+  "hasEndingSnapshot": false,
+  "firstEnding": {
+    "playSeconds": 0.0,
+    "totalEarned": 0.0,
+    "clicks": 0,
+    "totalCats": 0,
+    "breeds": 0,
+    "itemLevels": 0,
+    "achievementCount": 0,
+    "completedUnix": 0,
+    "hasFullPlaytimeHistory": false
+  },
+  "prestigeLevel": 0,
+  "prestigeMultiplier": 1.0
+}

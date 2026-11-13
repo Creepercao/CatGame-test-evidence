@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-13T23:02:51.170912" rpa="false" schemaversion="5">
+<suite id="s1" name="Phone Viewport" source="PROJECT_ROOT\Tests\robot\android\phone_viewport.robot">
+<kw name="Open Appium" owner="PhoneGame" type="SETUP">
+<msg time="2026-11-13T23:02:55.747852" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 314
+WaitTime: 320
+Complete</msg>
+<msg time="2026-11-13T23:02:57.073371" level="INFO">Phone uses native 2712x1220, left cutout inset 88 pixels</msg>
+<status status="PASS" start="2026-11-13T23:02:51.249859" elapsed="5.823512"/>
+</kw>
+<test id="s1-t1" name="PHONE-VIEWPORT-01 Room Covers Native Phone And Preserves Save" line="9">
+<kw name="Force Stop Cat Game" owner="PhoneGame">
+<status status="PASS" start="2026-11-13T23:02:57.074875" elapsed="0.284519"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-13T23:02:59.359523" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-13T23:02:57.359394" elapsed="2.000129"/>
+</kw>
+<kw name="Start Cat Game" owner="PhoneGame">
+<msg time="2026-11-13T23:02:59.741699" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 299
+WaitTime: 304
+Complete</msg>
+<status status="PASS" start="2026-11-13T23:02:59.359523" elapsed="0.383181"/>
+</kw>
+<kw name="Wait For Visual" owner="PhoneGame">
+<msg time="2026-11-13T23:03:04.903117" level="INFO">Phone visual menu: error=8.47, other=None</msg>
+<arg>menu</arg>
+<arg>01-menu.png</arg>
+<status status="PASS" start="2026-11-13T23:02:59.742704" elapsed="5.161415"/>
+</kw>
+<kw name="Tap Ui" owner="PhoneGame">
+<msg time="2026-11-13T23:03:04.905117" level="INFO">Appium clickGesture (2253, 504)</msg>
+<arg>menu</arg>
+<arg>1320</arg>
+<arg>372</arg>
+<status status="PASS" start="2026-11-13T23:03:04.904119" elapsed="0.081124"/>
+</kw>
+<kw name="Wait For Visual" owner="PhoneGame">
+<msg time="2026-11-13T23:03:07.571809" level="INFO">Phone visual offline: error=6.98, other=None</msg>
+<arg>offline</arg>
+<arg>02-offline.png</arg>
+<status status="PASS" start="2026-11-13T23:03:04.985243" elapsed="2.586566"/>
+</kw>
+<kw name="Tap Ui" owner="PhoneGame">
+<msg time="2026-11-13T23:03:07.572785" level="INFO">Appium clickGesture (1400, 704)</msg>
+<arg>center</arg>
+<arg>800</arg>
+<arg>519</arg>
+<status status="PASS" start="2026-11-13T23:03:07.572785" elapsed="0.072395"/>
+</kw>
+<kw name="Complete Pending Memories" owner="PhoneGame">
+<arg>viewport-entry</arg>
+<status status="PASS" start="2026-11-13T23:03:07.645180" elapsed="0.078046"/>
+</kw>
+<kw name="Wait For Visual" owner="PhoneGame">
+<msg time="2026-11-13T23:03:08.188713" level="INFO">Phone visual three-cats: error=0.00, other=9.739880952380952</msg>
+<arg>three-cats</arg>
+<arg>03-room.png</arg>
+<status status="PASS" start="2026-11-13T23:03:07.723226" elapsed="0.466488"/>
+</kw>
+<kw name="Room Right Edge Should Be Covered" owner="check_room_coverage">
+<arg>${OUTPUT DIR}/03-room.png</arg>
+<status status="PASS" start="2026-11-13T23:03:08.189714" elapsed="0.018530"/>
+</kw>
+<kw name="Saved Cat Count Should Be" owner="PhoneGame">
+<arg>3</arg>
+<arg>04-save.json</arg>
+<status status="PASS" start="2026-11-13T23:03:08.208244" elapsed="0.072737"/>
+</kw>
+<status status="PASS" start="2026-11-13T23:02:57.073371" elapsed="11.207610"/>
+</test>
+<kw name="Close Appium" owner="PhoneGame" type="TEARDOWN">
+<status status="PASS" start="2026-11-13T23:03:08.281981" elapsed="0.704512"/>
+</kw>
+<doc>Regression for the release APK room clear-color strip at native phone resolution.</doc>
+<status status="PASS" start="2026-11-13T23:02:51.172911" elapsed="17.813582"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Phone Viewport" id="s1" pass="1" fail="0" skip="0">Phone Viewport</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

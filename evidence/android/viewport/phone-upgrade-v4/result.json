@@ -1,0 +1,11 @@
+{
+  "fromVersionCode": 3,
+  "toVersionCode": 4,
+  "saveBytesUnchangedBeforeLaunch": true,
+  "saveSha256": "7d2275187d1cd5f2985d2582d044e0626bc35a8a9bd409e24f17c2f9d5dba4b3",
+  "totalCats": 3,
+  "clicks": 2,
+  "installedReleaseSha256": "bbd62c49d9e97be964933e13ab72cbc7bdc2a14645cf849ca92f7f92d39edf80",
+  "localReleaseSha256": "bbd62c49d9e97be964933e13ab72cbc7bdc2a14645cf849ca92f7f92d39edf80",
+  "matches": true
+}

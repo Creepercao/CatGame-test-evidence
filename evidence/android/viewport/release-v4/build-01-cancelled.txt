@@ -1,0 +1,1 @@
+Cancelled by test operator after verifying direct SDK HTTPS wait and missing proxy properties; not an APK functional failure.

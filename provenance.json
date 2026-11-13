@@ -117,9 +117,9 @@
     {
       "source": "Assets/Tests/EditMode/CatGame.EditTests.asmdef",
       "path": "harness/Assets/Tests/EditMode/CatGame.EditTests.asmdef",
-      "sourceSha256": "5be32abb9ba6c14129e94037a37718ffd9c687973c9d45e0961f322ccb0ec4ff",
-      "publishedSha256": "5bcefed86b670888759d82a25fb736155743abd984fdd889046266a48e4a6620",
-      "transformed": true
+      "sourceSha256": "00488f471b4c67df61d6b4191b2a9dc68c65a83a120f063999b071a5a781d6fd",
+      "publishedSha256": "00488f471b4c67df61d6b4191b2a9dc68c65a83a120f063999b071a5a781d6fd",
+      "transformed": false
     },
     {
       "source": "Assets/Tests/EditMode/CatGame.EditTests.asmdef.meta",
@@ -159,9 +159,9 @@
     {
       "source": "Assets/Tests/EditMode/SaveSystemTests.cs",
       "path": "harness/Assets/Tests/EditMode/SaveSystemTests.cs",
-      "sourceSha256": "6577c0d2b143133cd3767e77689f79c9d5f109bcbc2fc0068b86bc33d42f8cb1",
-      "publishedSha256": "5c54ea13b42bc906bfc314011bffd69a508ae0a2b6d838162696a26ac0aae6d0",
-      "transformed": true
+      "sourceSha256": "c910c4f01dbfd1a4e59804dd3117a3ebd13bddcd4ca2409adea8db636cc96536",
+      "publishedSha256": "c910c4f01dbfd1a4e59804dd3117a3ebd13bddcd4ca2409adea8db636cc96536",
+      "transformed": false
     },
     {
       "source": "Assets/Tests/EditMode/SaveSystemTests.cs.meta",
@@ -2924,8 +2924,8 @@
     {
       "source": "docs/Android真机测试记录.md",
       "path": "reports/android-phone-test-evidence.md",
-      "sourceSha256": "27af992a2cd23fce05e57075f59b0effbae847c7a9ad48178c52dc0039859fba",
-      "publishedSha256": "7e5b7b972e61af0cb7048bcd61b4fc71ddf262415609b82e810c905abba5aee4",
+      "sourceSha256": "932c2917cc4da24ae6ce4a94e46e02a364b8db45b2ff65e76fdc0b771f312744",
+      "publishedSha256": "ce0004ee6a42a678f0e3000b03429a2a1bc471300e19bd00142ac10fbc2b911f",
       "transformed": true
     },
     {
@@ -2983,6 +2983,391 @@
       "sourceSha256": "c4aa470acafcf8576c15b0f0b5ae7e852d1ec5413372d0e6a9272e788e1306d3",
       "publishedSha256": "781a31c82430c97897af612ece5e0ca2205e301cb5ff121ce2660541ea5182c7",
       "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/editmode-red.xml",
+      "path": "evidence/android/viewport/editmode-red.xml",
+      "sourceSha256": "befe2bdf44b1eef56151a755186fb92b32be4afd2f3afba09f9ead83b9026e2e",
+      "publishedSha256": "93ab45b10d7fe3551ea7fe5efdec953772af5ac18f20499334f3af33a877e8ec",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/editmode-red-02.xml",
+      "path": "evidence/android/viewport/editmode-red-02.xml",
+      "sourceSha256": "d454b0271b62f142b0adddaaa73b3073ab34189af525c5c25d62ce89c881bb5c",
+      "publishedSha256": "aa2fb24e957a2cf678d434f9dc859fbb973aad1f2634294a1c52258b116128f1",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/EditMode.xml",
+      "path": "evidence/android/viewport/EditMode.xml",
+      "sourceSha256": "de09a7c049606e457a1eea3d7c24acd8be235df07b61000291e6c256983e0cad",
+      "publishedSha256": "91f9a74a36edc40817db0e88ae6f86480bde95e6e9d72853a1bd84d32ef5f2a9",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/EditMode-02.xml",
+      "path": "evidence/android/viewport/EditMode-02.xml",
+      "sourceSha256": "452a87f526a45dc185422d6a9ec1dab91b757b614e64b1d1a3d8820a0ef06b8f",
+      "publishedSha256": "bab47f86ecbca98f78d9edc9057b0f720733c528613d6aec024588a764c5c8b6",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/EditMode-03.xml",
+      "path": "evidence/android/viewport/EditMode-03.xml",
+      "sourceSha256": "a43565d6d60d497d2292bc31161e55af26243f458380199461426520ed6f966c",
+      "publishedSha256": "f862244e946e30727c6c4f958013ab8cebdb9d1ba50a157677ad697e57bd4c7c",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/PlayMode-01.xml",
+      "path": "evidence/android/viewport/PlayMode-01.xml",
+      "sourceSha256": "65ca631e4ef916ed789f023a2022a8fcfce20f3904a96703c5771b08842527e6",
+      "publishedSha256": "6a2215ecc0a0ee703a443d4b0cc748a2c9a5a4290d306ee4bc2baac3b976131a",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/save-isolated-01.xml",
+      "path": "evidence/android/viewport/save-isolated-01.xml",
+      "sourceSha256": "4cb945a3506e767347326fe0c12b0be86777190ecab4a361234f4e65401bfe63",
+      "publishedSha256": "0c1aa861cfced8779b3662406aaf73aeb89b77733c1e17b16632cbc6ed80c481",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/test-exits-03.json",
+      "path": "evidence/android/viewport/test-exits-03.json",
+      "sourceSha256": "c626db4f528c9f03b440b732783e5b3125e078388bd91192e10f14dcf34ca82e",
+      "publishedSha256": "c626db4f528c9f03b440b732783e5b3125e078388bd91192e10f14dcf34ca82e",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/check_room_coverage.py",
+      "path": "harness/android/check_room_coverage.py",
+      "sourceSha256": "463370232580db37e96a2c05505a9c0221b708815e490a5d0b7cba91a6bdec20",
+      "publishedSha256": "463370232580db37e96a2c05505a9c0221b708815e490a5d0b7cba91a6bdec20",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/phone_viewport.robot",
+      "path": "harness/android/phone_viewport.robot",
+      "sourceSha256": "7ca395482993bb8a089491b906298d45834818668935504cb98ce8d9dfcd8ce8",
+      "publishedSha256": "7ca395482993bb8a089491b906298d45834818668935504cb98ce8d9dfcd8ce8",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/AvdRoomGame.py",
+      "path": "harness/android/AvdRoomGame.py",
+      "sourceSha256": "6a160c39fcb08dcb3b15224b9081e4e9f7eb07205a03e8394ca68618505ef80f",
+      "publishedSha256": "6a160c39fcb08dcb3b15224b9081e4e9f7eb07205a03e8394ca68618505ef80f",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/android_room_viewport.robot",
+      "path": "harness/android/android_room_viewport.robot",
+      "sourceSha256": "5f7a13c1fc28b36a9cf8e3f21835e0e52c891417159f5f578bfd0ff0a3f4eee8",
+      "publishedSha256": "5f7a13c1fc28b36a9cf8e3f21835e0e52c891417159f5f578bfd0ff0a3f4eee8",
+      "transformed": false
+    },
+    {
+      "source": "Assets/Tests/EditMode/RoomViewportTests.cs",
+      "path": "harness/Assets/Tests/EditMode/RoomViewportTests.cs",
+      "sourceSha256": "f3855793f3a6227a6469a1bfa2163044a6ef554dfbd508f533af3ec4a747356e",
+      "publishedSha256": "f3855793f3a6227a6469a1bfa2163044a6ef554dfbd508f533af3ec4a747356e",
+      "transformed": false
+    },
+    {
+      "source": "Assets/Tests/EditMode/RoomViewportTests.cs.meta",
+      "path": "harness/Assets/Tests/EditMode/RoomViewportTests.cs.meta",
+      "sourceSha256": "a62b0f45df9a7c5061e2c5ee6d91de820e199f55bbd6988032ad9ebc93f821c6",
+      "publishedSha256": "a62b0f45df9a7c5061e2c5ee6d91de820e199f55bbd6988032ad9ebc93f821c6",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-v3-red-01/01-menu.png",
+      "path": "evidence/android/viewport/phone-v3-red-01/01-menu.png",
+      "sourceSha256": "bc12816ca5a9df42327ab585ec63d62ae8ca1f911a73edb825a3e31478b196e5",
+      "publishedSha256": "bc12816ca5a9df42327ab585ec63d62ae8ca1f911a73edb825a3e31478b196e5",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-v3-red-01/02-offline.png",
+      "path": "evidence/android/viewport/phone-v3-red-01/02-offline.png",
+      "sourceSha256": "45fe21d227dd232502813dce40b11797d1335fb4e789ab173c227310dd6c669d",
+      "publishedSha256": "45fe21d227dd232502813dce40b11797d1335fb4e789ab173c227310dd6c669d",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-v3-red-01/03-room.coverage.json",
+      "path": "evidence/android/viewport/phone-v3-red-01/03-room.coverage.json",
+      "sourceSha256": "18a694e4d486fe3f621e23445723a956430d1dbcb1a1e3605bbd517bc830f7d2",
+      "publishedSha256": "18a694e4d486fe3f621e23445723a956430d1dbcb1a1e3605bbd517bc830f7d2",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-v3-red-01/03-room.png",
+      "path": "evidence/android/viewport/phone-v3-red-01/03-room.png",
+      "sourceSha256": "c511900c6c181677a9b72f2328174cbfa91df3724ecd40e08f18890c0555cc1b",
+      "publishedSha256": "c511900c6c181677a9b72f2328174cbfa91df3724ecd40e08f18890c0555cc1b",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-v3-red-01/exit-code.txt",
+      "path": "evidence/android/viewport/phone-v3-red-01/exit-code.txt",
+      "sourceSha256": "f1b2f662800122bed0ff255693df89c4487fbdcf453d3524a42d4ec20c3d9c04",
+      "publishedSha256": "f1b2f662800122bed0ff255693df89c4487fbdcf453d3524a42d4ec20c3d9c04",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-v3-red-01/output.xml",
+      "path": "evidence/android/viewport/phone-v3-red-01/output.xml",
+      "sourceSha256": "24b981e0bf29524e23511139915cbfb2d5c94a6e4aaa8b3062d260a54ddccdc2",
+      "publishedSha256": "d047189a586909eb30725fbd20a88e8f1382493a5de8df89aae15c69c09baa0d",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-v3-red-01/viewport-entry-0-cg.png",
+      "path": "evidence/android/viewport/phone-v3-red-01/viewport-entry-0-cg.png",
+      "sourceSha256": "038872e5adea243d8b314d9349bacfb1c7f46e31802e10334189f0236368dea7",
+      "publishedSha256": "038872e5adea243d8b314d9349bacfb1c7f46e31802e10334189f0236368dea7",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-v3-red-01/viewport-entry-0-completed.json",
+      "path": "evidence/android/viewport/phone-v3-red-01/viewport-entry-0-completed.json",
+      "sourceSha256": "14cffa5a91df2c5e01df1a69e5b0dbe8196395bcc753e6c4b52f6e6bc8dde6b8",
+      "publishedSha256": "14cffa5a91df2c5e01df1a69e5b0dbe8196395bcc753e6c4b52f6e6bc8dde6b8",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-v3-red-01/viewport-entry-pending.json",
+      "path": "evidence/android/viewport/phone-v3-red-01/viewport-entry-pending.json",
+      "sourceSha256": "eb49da89eae89516e827ffcfac77d2c57c2d6e24603e179950a57b52bc1915ec",
+      "publishedSha256": "eb49da89eae89516e827ffcfac77d2c57c2d6e24603e179950a57b52bc1915ec",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-v4-01/01-menu.png",
+      "path": "evidence/android/viewport/phone-v4-01/01-menu.png",
+      "sourceSha256": "bc12816ca5a9df42327ab585ec63d62ae8ca1f911a73edb825a3e31478b196e5",
+      "publishedSha256": "bc12816ca5a9df42327ab585ec63d62ae8ca1f911a73edb825a3e31478b196e5",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-v4-01/02-offline.png",
+      "path": "evidence/android/viewport/phone-v4-01/02-offline.png",
+      "sourceSha256": "f5b5781960fa1fe93ff6760f2f7ad58119675034b4d5c965b996affcfc567158",
+      "publishedSha256": "f5b5781960fa1fe93ff6760f2f7ad58119675034b4d5c965b996affcfc567158",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-v4-01/03-room.coverage.json",
+      "path": "evidence/android/viewport/phone-v4-01/03-room.coverage.json",
+      "sourceSha256": "df658d81db7dbaa20e786c9ff8da07a572509c8db664c65c8fbd27b15c51bcf4",
+      "publishedSha256": "df658d81db7dbaa20e786c9ff8da07a572509c8db664c65c8fbd27b15c51bcf4",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-v4-01/03-room.png",
+      "path": "evidence/android/viewport/phone-v4-01/03-room.png",
+      "sourceSha256": "37838ffd4804fabcf302eec5285877173b449a8b75a942da53b3ee13bfbc8245",
+      "publishedSha256": "37838ffd4804fabcf302eec5285877173b449a8b75a942da53b3ee13bfbc8245",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-v4-01/04-save.json",
+      "path": "evidence/android/viewport/phone-v4-01/04-save.json",
+      "sourceSha256": "07bde1a0ff8921a1e472169c63af9fbe7e79e794aa1900c35c46cceec80569c6",
+      "publishedSha256": "07bde1a0ff8921a1e472169c63af9fbe7e79e794aa1900c35c46cceec80569c6",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-v4-01/exit-code.txt",
+      "path": "evidence/android/viewport/phone-v4-01/exit-code.txt",
+      "sourceSha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+      "publishedSha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-v4-01/output.xml",
+      "path": "evidence/android/viewport/phone-v4-01/output.xml",
+      "sourceSha256": "2b6528ce5667e6aad3c428c662425f2cadf278b34dc454c4ca5964922b58175a",
+      "publishedSha256": "a38ede3053900b7d76694721c830b75365a4f95532e9517d14d21c4403a5f480",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-v4-01/viewport-entry-pending.json",
+      "path": "evidence/android/viewport/phone-v4-01/viewport-entry-pending.json",
+      "sourceSha256": "07bde1a0ff8921a1e472169c63af9fbe7e79e794aa1900c35c46cceec80569c6",
+      "publishedSha256": "07bde1a0ff8921a1e472169c63af9fbe7e79e794aa1900c35c46cceec80569c6",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/avd-v4-01/1200-01-menu.png",
+      "path": "evidence/android/viewport/avd-v4-01/1200-01-menu.png",
+      "sourceSha256": "140020383559768233a9afb5b8d9cccaadfdbce32bd68886ea278e10cf76db72",
+      "publishedSha256": "140020383559768233a9afb5b8d9cccaadfdbce32bd68886ea278e10cf76db72",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/avd-v4-01/1200-02-room.coverage.json",
+      "path": "evidence/android/viewport/avd-v4-01/1200-02-room.coverage.json",
+      "sourceSha256": "43ae775e02fe2cc54ec189e33ded71aff1d59176bc733c0463308c5accce4db0",
+      "publishedSha256": "43ae775e02fe2cc54ec189e33ded71aff1d59176bc733c0463308c5accce4db0",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/avd-v4-01/1200-02-room.png",
+      "path": "evidence/android/viewport/avd-v4-01/1200-02-room.png",
+      "sourceSha256": "786ad7cfc9eafd046d2861061a5e06ab436f1b60f7f2ede051755d8998bfff12",
+      "publishedSha256": "786ad7cfc9eafd046d2861061a5e06ab436f1b60f7f2ede051755d8998bfff12",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/avd-v4-01/1200-fixture.json",
+      "path": "evidence/android/viewport/avd-v4-01/1200-fixture.json",
+      "sourceSha256": "e1e2e8be6ee642d9896332aa47cbb7dda43012ca1d84f4bc8033886912260bb4",
+      "publishedSha256": "e1e2e8be6ee642d9896332aa47cbb7dda43012ca1d84f4bc8033886912260bb4",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/avd-v4-01/1600-01-menu.png",
+      "path": "evidence/android/viewport/avd-v4-01/1600-01-menu.png",
+      "sourceSha256": "b586fb6c9825b6c2d77283354effb4bb86ec696c501e7500b21865e7bcc08872",
+      "publishedSha256": "b586fb6c9825b6c2d77283354effb4bb86ec696c501e7500b21865e7bcc08872",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/avd-v4-01/1600-02-room.coverage.json",
+      "path": "evidence/android/viewport/avd-v4-01/1600-02-room.coverage.json",
+      "sourceSha256": "6e213dc83ca3401153f70979a8066e7a3e81e4b22a69e34c4561e99090a64b81",
+      "publishedSha256": "6e213dc83ca3401153f70979a8066e7a3e81e4b22a69e34c4561e99090a64b81",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/avd-v4-01/1600-02-room.png",
+      "path": "evidence/android/viewport/avd-v4-01/1600-02-room.png",
+      "sourceSha256": "f0c95548f482e2c49c5c10bfac1ef0b6865af32c91131003b475add3afa83066",
+      "publishedSha256": "f0c95548f482e2c49c5c10bfac1ef0b6865af32c91131003b475add3afa83066",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/avd-v4-01/1600-fixture.json",
+      "path": "evidence/android/viewport/avd-v4-01/1600-fixture.json",
+      "sourceSha256": "e1e2e8be6ee642d9896332aa47cbb7dda43012ca1d84f4bc8033886912260bb4",
+      "publishedSha256": "e1e2e8be6ee642d9896332aa47cbb7dda43012ca1d84f4bc8033886912260bb4",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/avd-v4-01/2000-01-menu.png",
+      "path": "evidence/android/viewport/avd-v4-01/2000-01-menu.png",
+      "sourceSha256": "d70004c2aa7539ec689740a10aafff92fd1dbbb942ff3eb6977cfaf81b3c3cfd",
+      "publishedSha256": "d70004c2aa7539ec689740a10aafff92fd1dbbb942ff3eb6977cfaf81b3c3cfd",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/avd-v4-01/2000-02-room.coverage.json",
+      "path": "evidence/android/viewport/avd-v4-01/2000-02-room.coverage.json",
+      "sourceSha256": "74d1d0858344495ad7375c8708e10e1fe25c11bd9511c2c9f408c586bed44cb6",
+      "publishedSha256": "74d1d0858344495ad7375c8708e10e1fe25c11bd9511c2c9f408c586bed44cb6",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/avd-v4-01/2000-02-room.png",
+      "path": "evidence/android/viewport/avd-v4-01/2000-02-room.png",
+      "sourceSha256": "3a7a7c71dac0a126ff6693fbfb7635921b3a419bfcd1c98403f6b68fe6c1074a",
+      "publishedSha256": "3a7a7c71dac0a126ff6693fbfb7635921b3a419bfcd1c98403f6b68fe6c1074a",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/avd-v4-01/2000-fixture.json",
+      "path": "evidence/android/viewport/avd-v4-01/2000-fixture.json",
+      "sourceSha256": "e1e2e8be6ee642d9896332aa47cbb7dda43012ca1d84f4bc8033886912260bb4",
+      "publishedSha256": "e1e2e8be6ee642d9896332aa47cbb7dda43012ca1d84f4bc8033886912260bb4",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/avd-v4-01/exit-code.txt",
+      "path": "evidence/android/viewport/avd-v4-01/exit-code.txt",
+      "sourceSha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+      "publishedSha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/avd-v4-01/output.xml",
+      "path": "evidence/android/viewport/avd-v4-01/output.xml",
+      "sourceSha256": "76f1d9eace70aed32f46ecbe0f59e40bba292b95e67c985d8f8f34c3dfaaa273",
+      "publishedSha256": "297ecb169d156884998ba7ae808230c999dd88f253630b4ff8f9dcde69ed4ad2",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-upgrade-v4/before-launch-save.json",
+      "path": "evidence/android/viewport/phone-upgrade-v4/before-launch-save.json",
+      "sourceSha256": "7d2275187d1cd5f2985d2582d044e0626bc35a8a9bd409e24f17c2f9d5dba4b3",
+      "publishedSha256": "7d2275187d1cd5f2985d2582d044e0626bc35a8a9bd409e24f17c2f9d5dba4b3",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-upgrade-v4/before-save.json",
+      "path": "evidence/android/viewport/phone-upgrade-v4/before-save.json",
+      "sourceSha256": "7d2275187d1cd5f2985d2582d044e0626bc35a8a9bd409e24f17c2f9d5dba4b3",
+      "publishedSha256": "7d2275187d1cd5f2985d2582d044e0626bc35a8a9bd409e24f17c2f9d5dba4b3",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-upgrade-v4/install.log",
+      "path": "evidence/android/viewport/phone-upgrade-v4/install.log",
+      "sourceSha256": "c4aa470acafcf8576c15b0f0b5ae7e852d1ec5413372d0e6a9272e788e1306d3",
+      "publishedSha256": "c4aa470acafcf8576c15b0f0b5ae7e852d1ec5413372d0e6a9272e788e1306d3",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-upgrade-v4/result.json",
+      "path": "evidence/android/viewport/phone-upgrade-v4/result.json",
+      "sourceSha256": "63a931f42a460ea92385fa4e79d8d2c000a427d96106772c668ee0c2655da839",
+      "publishedSha256": "63a931f42a460ea92385fa4e79d8d2c000a427d96106772c668ee0c2655da839",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/release-v4/CatGame-Android.provenance.json",
+      "path": "evidence/android/viewport/release-v4/CatGame-Android.provenance.json",
+      "sourceSha256": "a167e8426e0671b7717162ca50035ec5aac79268e2363693b83ca30aef2875e6",
+      "publishedSha256": "a167e8426e0671b7717162ca50035ec5aac79268e2363693b83ca30aef2875e6",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/release-v4/apksigner.txt",
+      "path": "evidence/android/viewport/release-v4/apksigner.txt",
+      "sourceSha256": "69fe2cc2a178298be1977812df0ab25ac94024394a533d3b88f3a7eec4d0e76c",
+      "publishedSha256": "69fe2cc2a178298be1977812df0ab25ac94024394a533d3b88f3a7eec4d0e76c",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/release-v4/badging.txt",
+      "path": "evidence/android/viewport/release-v4/badging.txt",
+      "sourceSha256": "fc372189122cd170b410662c6d35b7c441946a0e8cc34401c04e5d7141ea2c27",
+      "publishedSha256": "fc372189122cd170b410662c6d35b7c441946a0e8cc34401c04e5d7141ea2c27",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/release-v4/build-01-cancelled.txt",
+      "path": "evidence/android/viewport/release-v4/build-01-cancelled.txt",
+      "sourceSha256": "315202eeeb3ac3732d5313f7ff21bba9499eb0521d04337c9fb3760bb719ce7d",
+      "publishedSha256": "315202eeeb3ac3732d5313f7ff21bba9499eb0521d04337c9fb3760bb719ce7d",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/artifact.json",
+      "path": "evidence/android/viewport/artifact.json",
+      "sourceSha256": "7f403a4f55b6e5941d780fe726f733d1614c46651bc45040d0183ac9a8085bb4",
+      "publishedSha256": "7f403a4f55b6e5941d780fe726f733d1614c46651bc45040d0183ac9a8085bb4",
+      "transformed": false
+    },
+    {
+      "source": "docs/Android超宽屏修复记录.md",
+      "path": "reports/android-viewport-regression.md",
+      "sourceSha256": "d603700a2a3f8171f892fd93c79eebf37a4aa5c4ff862e6cfaf1e6b91f2d3232",
+      "publishedSha256": "f5421ec96c3b7684b32175fd693fa4fcf6962b6ce50ab8c93713fc6f26f0d33d",
+      "transformed": true
     }
   ],
   "androidOriginCommits": {
@@ -2993,6 +3378,7 @@
     "endingAppium": "0887a9b",
     "performanceSampling": "dd0dee0",
     "purchaseInvestigation": "3281900",
-    "phoneAcceptance": "56ca70d"
+    "phoneAcceptance": "56ca70d",
+    "viewportCorrection": "d4a1d55"
   }
 }
