@@ -1,0 +1,12 @@
+{
+  "manufacturer": "Xiaomi",
+  "model": "22081212C",
+  "android": "15",
+  "api": "35",
+  "abi": "arm64-v8a,armeabi-v7a,armeabi",
+  "size": "Physical size: 1220x2712",
+  "density": "Physical density: 480",
+  "navigationMode": "2",
+  "releaseSha256": "449fe74ba4d4413cfe81f7c20ac145a36438996682c618902972c684d59d5aa2",
+  "perfSha256": "958079b50c7803425ca63625357490042c05d82d34076bc4597f526d6a33e5d9"
+}

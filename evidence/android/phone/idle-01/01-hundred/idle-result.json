@@ -1,0 +1,427 @@
+{
+  "requestedSeconds": 300,
+  "elapsedSeconds": 301.7960000000003,
+  "pid": 32583,
+  "playSecondsAdvanced": 300.23207410238683,
+  "catsUnchanged": true,
+  "initial": {
+    "version": 2,
+    "catHair": 4626671.101379838,
+    "totalEarned": 4626671.101379838,
+    "clicks": 0,
+    "cats": [
+      {
+        "id": "Milk",
+        "count": 40
+      },
+      {
+        "id": "Tabby",
+        "count": 40
+      },
+      {
+        "id": "Snow",
+        "count": 40
+      },
+      {
+        "id": "Calico",
+        "count": 40
+      },
+      {
+        "id": "Tuxedo",
+        "count": 40
+      },
+      {
+        "id": "Siamese",
+        "count": 40
+      },
+      {
+        "id": "Tiger",
+        "count": 40
+      },
+      {
+        "id": "Egypt",
+        "count": 40
+      },
+      {
+        "id": "Batcat",
+        "count": 40
+      },
+      {
+        "id": "Demon",
+        "count": 40
+      },
+      {
+        "id": "Xmas",
+        "count": 40
+      }
+    ],
+    "items": [
+      {
+        "id": "item_1_1",
+        "level": 0
+      },
+      {
+        "id": "item_1_2",
+        "level": 0
+      },
+      {
+        "id": "item_1_3",
+        "level": 0
+      },
+      {
+        "id": "item_1_4",
+        "level": 0
+      },
+      {
+        "id": "item_2_1",
+        "level": 0
+      },
+      {
+        "id": "item_2_2",
+        "level": 0
+      },
+      {
+        "id": "item_2_3",
+        "level": 0
+      },
+      {
+        "id": "item_2_4",
+        "level": 0
+      },
+      {
+        "id": "item_3_1",
+        "level": 0
+      },
+      {
+        "id": "item_3_2",
+        "level": 0
+      },
+      {
+        "id": "item_3_3",
+        "level": 0
+      },
+      {
+        "id": "item_3_4",
+        "level": 0
+      },
+      {
+        "id": "item_4_1",
+        "level": 0
+      },
+      {
+        "id": "item_4_2",
+        "level": 0
+      },
+      {
+        "id": "item_4_3",
+        "level": 0
+      },
+      {
+        "id": "item_4_4",
+        "level": 0
+      },
+      {
+        "id": "item_5_1",
+        "level": 0
+      },
+      {
+        "id": "item_5_2",
+        "level": 0
+      },
+      {
+        "id": "item_5_3",
+        "level": 0
+      },
+      {
+        "id": "item_5_4",
+        "level": 0
+      }
+    ],
+    "achievements": [
+      "first_tuft",
+      "ten_thousand",
+      "hundred_thousand",
+      "millionaire",
+      "lots_of_points",
+      "unstoppable",
+      "family_of_ten",
+      "thirty_cats",
+      "hundred_cats",
+      "crowded_nest",
+      "three_breeds",
+      "six_breeds",
+      "all_breeds",
+      "first_click",
+      "thousand_clicks",
+      "max_scratcher",
+      "stage_two",
+      "stage_three",
+      "stage_four",
+      "planet_cats"
+    ],
+    "lastSeenUnix": 1794559838,
+    "introCompleted": true,
+    "seenStoryEvents": [
+      "first_tuft",
+      "ten_thousand",
+      "hundred_thousand",
+      "millionaire",
+      "lots_of_points",
+      "unstoppable",
+      "family_of_ten",
+      "thirty_cats",
+      "hundred_cats",
+      "crowded_nest",
+      "three_breeds",
+      "six_breeds",
+      "all_breeds",
+      "first_click",
+      "thousand_clicks",
+      "max_scratcher",
+      "stage_two",
+      "stage_three",
+      "stage_four",
+      "planet_cats"
+    ],
+    "pendingStoryEvents": [],
+    "playSeconds": 70.04490224830806,
+    "hasFullPlaytimeHistory": true,
+    "rocketPurchased": false,
+    "endingCompleted": false,
+    "hasEndingSnapshot": false,
+    "firstEnding": {
+      "playSeconds": 0.0,
+      "totalEarned": 0.0,
+      "clicks": 0,
+      "totalCats": 0,
+      "breeds": 0,
+      "itemLevels": 0,
+      "achievementCount": 0,
+      "completedUnix": 0,
+      "hasFullPlaytimeHistory": false
+    },
+    "prestigeLevel": 0,
+    "prestigeMultiplier": 1.0
+  },
+  "final": {
+    "version": 2,
+    "catHair": 25204697.553187005,
+    "totalEarned": 25204697.553187005,
+    "clicks": 0,
+    "cats": [
+      {
+        "id": "Milk",
+        "count": 40
+      },
+      {
+        "id": "Tabby",
+        "count": 40
+      },
+      {
+        "id": "Snow",
+        "count": 40
+      },
+      {
+        "id": "Calico",
+        "count": 40
+      },
+      {
+        "id": "Tuxedo",
+        "count": 40
+      },
+      {
+        "id": "Siamese",
+        "count": 40
+      },
+      {
+        "id": "Tiger",
+        "count": 40
+      },
+      {
+        "id": "Egypt",
+        "count": 40
+      },
+      {
+        "id": "Batcat",
+        "count": 40
+      },
+      {
+        "id": "Demon",
+        "count": 40
+      },
+      {
+        "id": "Xmas",
+        "count": 40
+      }
+    ],
+    "items": [
+      {
+        "id": "item_1_1",
+        "level": 0
+      },
+      {
+        "id": "item_1_2",
+        "level": 0
+      },
+      {
+        "id": "item_1_3",
+        "level": 0
+      },
+      {
+        "id": "item_1_4",
+        "level": 0
+      },
+      {
+        "id": "item_2_1",
+        "level": 0
+      },
+      {
+        "id": "item_2_2",
+        "level": 0
+      },
+      {
+        "id": "item_2_3",
+        "level": 0
+      },
+      {
+        "id": "item_2_4",
+        "level": 0
+      },
+      {
+        "id": "item_3_1",
+        "level": 0
+      },
+      {
+        "id": "item_3_2",
+        "level": 0
+      },
+      {
+        "id": "item_3_3",
+        "level": 0
+      },
+      {
+        "id": "item_3_4",
+        "level": 0
+      },
+      {
+        "id": "item_4_1",
+        "level": 0
+      },
+      {
+        "id": "item_4_2",
+        "level": 0
+      },
+      {
+        "id": "item_4_3",
+        "level": 0
+      },
+      {
+        "id": "item_4_4",
+        "level": 0
+      },
+      {
+        "id": "item_5_1",
+        "level": 0
+      },
+      {
+        "id": "item_5_2",
+        "level": 0
+      },
+      {
+        "id": "item_5_3",
+        "level": 0
+      },
+      {
+        "id": "item_5_4",
+        "level": 0
+      }
+    ],
+    "achievements": [
+      "first_tuft",
+      "ten_thousand",
+      "hundred_thousand",
+      "millionaire",
+      "lots_of_points",
+      "unstoppable",
+      "family_of_ten",
+      "thirty_cats",
+      "hundred_cats",
+      "crowded_nest",
+      "three_breeds",
+      "six_breeds",
+      "all_breeds",
+      "first_click",
+      "thousand_clicks",
+      "max_scratcher",
+      "stage_two",
+      "stage_three",
+      "stage_four",
+      "planet_cats"
+    ],
+    "lastSeenUnix": 1794560138,
+    "introCompleted": true,
+    "seenStoryEvents": [
+      "first_tuft",
+      "ten_thousand",
+      "hundred_thousand",
+      "millionaire",
+      "lots_of_points",
+      "unstoppable",
+      "family_of_ten",
+      "thirty_cats",
+      "hundred_cats",
+      "crowded_nest",
+      "three_breeds",
+      "six_breeds",
+      "all_breeds",
+      "first_click",
+      "thousand_clicks",
+      "max_scratcher",
+      "stage_two",
+      "stage_three",
+      "stage_four",
+      "planet_cats"
+    ],
+    "pendingStoryEvents": [],
+    "playSeconds": 370.2769763506949,
+    "hasFullPlaytimeHistory": true,
+    "rocketPurchased": false,
+    "endingCompleted": false,
+    "hasEndingSnapshot": false,
+    "firstEnding": {
+      "playSeconds": 0.0,
+      "totalEarned": 0.0,
+      "clicks": 0,
+      "totalCats": 0,
+      "breeds": 0,
+      "itemLevels": 0,
+      "achievementCount": 0,
+      "completedUnix": 0,
+      "hasFullPlaytimeHistory": false
+    },
+    "prestigeLevel": 0,
+    "prestigeMultiplier": 1.0
+  },
+  "memorySnapshots": [
+    {
+      "elapsedSeconds": 60.32799999999952,
+      "pssKiB": 256764
+    },
+    {
+      "elapsedSeconds": 120.67100000000028,
+      "pssKiB": 258158
+    },
+    {
+      "elapsedSeconds": 181.01499999999942,
+      "pssKiB": 259457
+    },
+    {
+      "elapsedSeconds": 241.375,
+      "pssKiB": 260553
+    },
+    {
+      "elapsedSeconds": 301.71800000000076,
+      "pssKiB": 261684
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-13T16:44:29.665473" rpa="false" schemaversion="5">
+<suite id="s1" name="Phone Ending" source="[PROJECT]\Tests\robot\android\phone_ending.robot">
+<kw name="Open Appium" owner="PhoneEnding" type="SETUP">
+<msg time="2026-11-13T16:44:33.417606" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame.perf/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame.perf/com.unity3d.player.UnityPlayerActivity
+TotalTime: 482
+WaitTime: 488
+Complete</msg>
+<msg time="2026-11-13T16:44:33.880747" level="INFO">Phone uses native 2712x1220, left cutout inset 88 pixels</msg>
+<status status="PASS" start="2026-11-13T16:44:29.737714" elapsed="4.144035"/>
+</kw>
+<test id="s1-t1" name="PHONE-ENDING-01 Cancel Buy And Continue" line="9">
+<kw name="Check Ending Branch" owner="PhoneEnding">
+<msg time="2026-11-13T16:44:34.873533" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame.perf/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame.perf/com.unity3d.player.UnityPlayerActivity
+TotalTime: 500
+WaitTime: 506
+Complete</msg>
+<msg time="2026-11-13T16:44:41.993511" level="INFO">Phone visual menu: error=8.47, other=None</msg>
+<msg time="2026-11-13T16:44:41.994524" level="INFO">Appium clickGesture (2253, 504)</msg>
+<msg time="2026-11-13T16:44:44.629306" level="INFO">Phone visual one-cat: error=0.00, other=11.883333333333333</msg>
+<msg time="2026-11-13T16:44:44.631294" level="INFO">Appium clickGesture (495, 248)</msg>
+<msg time="2026-11-13T16:44:45.733437" level="INFO">Appium screenshot continue-rocket.png, 2712x1220</msg>
+<msg time="2026-11-13T16:44:45.734863" level="INFO">Appium clickGesture (339, 922)</msg>
+<msg time="2026-11-13T16:44:46.211503" level="INFO">Appium clickGesture (1220, 759)</msg>
+<msg time="2026-11-13T16:44:46.700687" level="INFO">Phone visual one-cat: error=0.01, other=11.885119047619048</msg>
+<msg time="2026-11-13T16:44:46.787662" level="INFO">Appium clickGesture (339, 922)</msg>
+<msg time="2026-11-13T16:44:47.294496" level="INFO">Appium clickGesture (1580, 759)</msg>
+<msg time="2026-11-13T16:44:49.165171" level="INFO">Appium clickGesture (156, 68)</msg>
+<msg time="2026-11-13T16:44:49.694876" level="INFO">Appium clickGesture (1194, 980)</msg>
+<msg time="2026-11-13T16:44:50.188532" level="INFO">Phone visual one-cat: error=0.01, other=11.884523809523808</msg>
+<arg>continue</arg>
+<status status="PASS" start="2026-11-13T16:44:33.881749" elapsed="16.395678"/>
+</kw>
+<status status="PASS" start="2026-11-13T16:44:33.881749" elapsed="16.395678"/>
+</test>
+<test id="s1-t2" name="PHONE-ENDING-02 Buy And Return To Menu" line="10">
+<kw name="Check Ending Branch" owner="PhoneEnding">
+<msg time="2026-11-13T16:44:51.311816" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame.perf/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame.perf/com.unity3d.player.UnityPlayerActivity
+TotalTime: 514
+WaitTime: 519
+Complete</msg>
+<msg time="2026-11-13T16:44:58.522324" level="INFO">Phone visual menu: error=8.47, other=None</msg>
+<msg time="2026-11-13T16:44:58.523308" level="INFO">Appium clickGesture (2253, 504)</msg>
+<msg time="2026-11-13T16:45:01.168915" level="INFO">Phone visual one-cat: error=0.00, other=11.883333333333333</msg>
+<msg time="2026-11-13T16:45:01.169961" level="INFO">Appium clickGesture (495, 248)</msg>
+<msg time="2026-11-13T16:45:02.286975" level="INFO">Appium screenshot menu-rocket.png, 2712x1220</msg>
+<msg time="2026-11-13T16:45:02.287974" level="INFO">Appium clickGesture (339, 922)</msg>
+<msg time="2026-11-13T16:45:02.834576" level="INFO">Appium clickGesture (1580, 759)</msg>
+<msg time="2026-11-13T16:45:04.666856" level="INFO">Appium clickGesture (156, 68)</msg>
+<msg time="2026-11-13T16:45:05.153991" level="INFO">Appium clickGesture (1606, 980)</msg>
+<msg time="2026-11-13T16:45:07.402439" level="INFO">Phone visual menu: error=8.47, other=None</msg>
+<arg>menu</arg>
+<status status="PASS" start="2026-11-13T16:44:50.277968" elapsed="17.208337"/>
+</kw>
+<status status="PASS" start="2026-11-13T16:44:50.277968" elapsed="17.208337"/>
+</test>
+<kw name="Close Appium" owner="PhoneEnding" type="TEARDOWN">
+<status status="PASS" start="2026-11-13T16:45:07.487300" elapsed="0.834252"/>
+</kw>
+<doc>Native phone ending in the isolated Perf QA package, with seeded test funds.</doc>
+<status status="PASS" start="2026-11-13T16:44:29.667477" elapsed="38.654075"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Phone Ending" id="s1" pass="2" fail="0" skip="0">Phone Ending</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

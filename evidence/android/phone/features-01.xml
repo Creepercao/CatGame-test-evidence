@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-13T16:33:43.907589" rpa="false" schemaversion="5">
+<suite id="s1" name="Phone Lifecycle" source="[PROJECT]\Tests\robot\android\phone_lifecycle.robot">
+<kw name="Open Appium" owner="PhoneGame" type="SETUP">
+<msg time="2026-11-13T16:33:47.258884" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Warning: Activity not started, intent has been delivered to currently running top-most instance.
+Status: ok
+LaunchState: UNKNOWN (0)
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 0
+WaitTime: 11
+Complete</msg>
+<msg time="2026-11-13T16:33:47.674433" level="INFO">Phone uses native 2712x1220, left cutout inset 88 pixels</msg>
+<status status="PASS" start="2026-11-13T16:33:43.972026" elapsed="3.703407"/>
+</kw>
+<test id="s1-t1" name="PHONE-LAYOUT-01 Native Cutout Shop And Achievements" line="11">
+<kw name="Wait For Visual" owner="PhoneGame">
+<msg time="2026-11-13T16:33:48.154805" level="INFO">Phone visual two-cats: error=0.02, other=11.876785714285715</msg>
+<arg>two-cats</arg>
+<arg>layout-01-home.png</arg>
+<status status="PASS" start="2026-11-13T16:33:47.675433" elapsed="0.481373"/>
+</kw>
+<kw name="Swipe Shop" owner="PhoneGame">
+<msg time="2026-11-13T16:33:48.607194" level="INFO">Appium screenshot layout-02-before.png, 2712x1220</msg>
+<msg time="2026-11-13T16:33:48.609208" level="INFO">Appium touch swipe (346, 915) -&gt; (346, 447)</msg>
+<msg time="2026-11-13T16:33:50.256916" level="INFO">Appium screenshot layout-03-after.png, 2712x1220</msg>
+<msg time="2026-11-13T16:33:50.312469" level="INFO">Native shop swipe region changed, RGB error=36.61</msg>
+<arg>layout-02-before.png</arg>
+<arg>layout-03-after.png</arg>
+<status status="PASS" start="2026-11-13T16:33:48.156806" elapsed="2.158715"/>
+</kw>
+<kw name="Press Key" owner="PhoneGame">
+<msg time="2026-11-13T16:33:50.315521" level="INFO">Appium Android key 4</msg>
+<arg>4</arg>
+<status status="PASS" start="2026-11-13T16:33:50.315521" elapsed="0.414593"/>
+</kw>
+<kw name="Wait For Visual" owner="PhoneGame">
+<msg time="2026-11-13T16:34:11.435695" level="FAIL">Phone pause error=23.48, other=None</msg>
+<arg>pause</arg>
+<arg>layout-04-settings.png</arg>
+<status status="FAIL" start="2026-11-13T16:33:50.730114" elapsed="20.705581">Phone pause error=23.48, other=None</status>
+</kw>
+<kw name="Tap Ui" owner="PhoneGame">
+<arg>center</arg>
+<arg>505</arg>
+<arg>402</arg>
+<status status="NOT RUN" start="2026-11-13T16:34:11.437219" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>500ms</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="NOT RUN" start="2026-11-13T16:34:11.437219" elapsed="0.000000"/>
+</kw>
+<kw name="Capture" owner="PhoneGame">
+<arg>layout-05-achievements.png</arg>
+<status status="NOT RUN" start="2026-11-13T16:34:11.437219" elapsed="0.000000"/>
+</kw>
+<kw name="Tap Ui" owner="PhoneGame">
+<arg>center</arg>
+<arg>505</arg>
+<arg>345</arg>
+<status status="NOT RUN" start="2026-11-13T16:34:11.438235" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>500ms</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="NOT RUN" start="2026-11-13T16:34:11.438235" elapsed="0.000000"/>
+</kw>
+<kw name="Capture" owner="PhoneGame">
+<arg>layout-06-catalog.png</arg>
+<status status="NOT RUN" start="2026-11-13T16:34:11.438235" elapsed="0.000000"/>
+</kw>
+<kw name="Press Key" owner="PhoneGame">
+<arg>4</arg>
+<status status="NOT RUN" start="2026-11-13T16:34:11.438235" elapsed="0.000000"/>
+</kw>
+<kw name="Wait For Visual" owner="PhoneGame">
+<arg>two-cats</arg>
+<arg>layout-07-resumed.png</arg>
+<status status="NOT RUN" start="2026-11-13T16:34:11.438235" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2026-11-13T16:33:47.675433" elapsed="23.763831">Phone pause error=23.48, other=None</status>
+</test>
+<test id="s1-t2" name="PHONE-PET-01 Touch Increments Persisted Counter" line="25">
+<kw name="Pet Visible Cat" owner="PhoneGame">
+<msg time="2026-11-13T16:34:11.964285" level="FAIL">No dark cat body identified on the floor</msg>
+<status status="FAIL" start="2026-11-13T16:34:11.439264" elapsed="0.525021">No dark cat body identified on the floor</status>
+</kw>
+<kw name="Wait For Visual" owner="PhoneGame">
+<arg>two-cats</arg>
+<arg>pet-restored.png</arg>
+<status status="NOT RUN" start="2026-11-13T16:34:11.965794" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2026-11-13T16:34:11.439264" elapsed="0.526530">No dark cat body identified on the floor</status>
+</test>
+<test id="s1-t3" name="PHONE-OFFLINE-01 Cold Start With No Default Network" line="44">
+<kw name="Begin Offline Test" owner="PhoneGame">
+<msg time="2026-11-13T16:34:14.575780" level="INFO">Airplane mode enabled, Android has no active default network</msg>
+<status status="PASS" start="2026-11-13T16:34:11.965794" elapsed="2.611085"/>
+</kw>
+<kw name="Force Stop Cat Game" owner="PhoneGame">
+<status status="PASS" start="2026-11-13T16:34:14.576879" elapsed="0.334946"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-13T16:34:16.912408" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-13T16:34:14.911825" elapsed="2.000583"/>
+</kw>
+<kw name="Start Cat Game" owner="PhoneGame">
+<msg time="2026-11-13T16:34:17.292293" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 279
+WaitTime: 290
+Complete</msg>
+<status status="PASS" start="2026-11-13T16:34:16.912408" elapsed="0.379885"/>
+</kw>
+<kw name="Wait For Visual" owner="PhoneGame">
+<msg time="2026-11-13T16:34:22.440577" level="INFO">Phone visual menu: error=8.47, other=None</msg>
+<arg>menu</arg>
+<arg>offline-01-menu.png</arg>
+<status status="PASS" start="2026-11-13T16:34:17.292293" elapsed="5.149202"/>
+</kw>
+<kw name="Tap Ui" owner="PhoneGame">
+<msg time="2026-11-13T16:34:22.442734" level="INFO">Appium clickGesture (2253, 504)</msg>
+<arg>menu</arg>
+<arg>1320</arg>
+<arg>372</arg>
+<status status="PASS" start="2026-11-13T16:34:22.441495" elapsed="0.060693"/>
+</kw>
+<kw name="Wait For Visual" owner="PhoneGame">
+<msg time="2026-11-13T16:34:25.064732" level="INFO">Phone visual offline: error=6.98, other=None</msg>
+<arg>offline</arg>
+<arg>offline-02-summary.png</arg>
+<status status="PASS" start="2026-11-13T16:34:22.502188" elapsed="2.564692"/>
+</kw>
+<kw name="Tap Ui" owner="PhoneGame">
+<msg time="2026-11-13T16:34:25.066880" level="INFO">Appium clickGesture (1400, 704)</msg>
+<arg>center</arg>
+<arg>800</arg>
+<arg>519</arg>
+<status status="PASS" start="2026-11-13T16:34:25.066880" elapsed="0.055908"/>
+</kw>
+<kw name="Wait For Visual" owner="PhoneGame">
+<msg time="2026-11-13T16:34:25.558403" level="INFO">Phone visual two-cats: error=0.00, other=11.881547619047618</msg>
+<arg>two-cats</arg>
+<arg>offline-03-resumed.png</arg>
+<status status="PASS" start="2026-11-13T16:34:25.122788" elapsed="0.436620"/>
+</kw>
+<kw name="Phone Should Be Offline" owner="PhoneGame">
+<msg time="2026-11-13T16:34:25.723857" level="INFO">Airplane mode enabled, Android has no active default network</msg>
+<status status="PASS" start="2026-11-13T16:34:25.559408" elapsed="0.165473"/>
+</kw>
+<kw name="Buy Offline Cat" owner="PhoneGame">
+<msg time="2026-11-13T16:34:25.891453" level="INFO">Airplane mode enabled, Android has no active default network</msg>
+<msg time="2026-11-13T16:34:25.967863" level="INFO">Appium clickGesture (339, 407)</msg>
+<msg time="2026-11-13T16:34:26.963382" level="INFO">Appium screenshot offline-04-purchased.png, 2712x1220</msg>
+<msg time="2026-11-13T16:34:26.963382" level="INFO">Appium Android key 3</msg>
+<status status="PASS" start="2026-11-13T16:34:25.724881" elapsed="4.168430"/>
+</kw>
+<kw name="Force Stop Cat Game" owner="PhoneGame">
+<status status="PASS" start="2026-11-13T16:34:29.893311" elapsed="0.213842"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-13T16:34:32.108216" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-13T16:34:30.107153" elapsed="2.001063"/>
+</kw>
+<kw name="Start Cat Game" owner="PhoneGame">
+<msg time="2026-11-13T16:34:32.500508" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 282
+WaitTime: 286
+Complete</msg>
+<status status="PASS" start="2026-11-13T16:34:32.108216" elapsed="0.392292"/>
+</kw>
+<kw name="Wait For Visual" owner="PhoneGame">
+<msg time="2026-11-13T16:34:37.667967" level="INFO">Phone visual menu: error=8.47, other=None</msg>
+<arg>menu</arg>
+<arg>offline-05-restart.png</arg>
+<status status="PASS" start="2026-11-13T16:34:32.500508" elapsed="5.168482"/>
+</kw>
+<kw name="Tap Ui" owner="PhoneGame">
+<msg time="2026-11-13T16:34:37.668990" level="INFO">Appium clickGesture (2253, 504)</msg>
+<arg>menu</arg>
+<arg>1320</arg>
+<arg>372</arg>
+<status status="PASS" start="2026-11-13T16:34:37.668990" elapsed="0.052920"/>
+</kw>
+<kw name="Wait For Visual" owner="PhoneGame">
+<msg time="2026-11-13T16:34:40.237854" level="INFO">Phone visual offline: error=6.98, other=None</msg>
+<arg>offline</arg>
+<arg>offline-06-summary.png</arg>
+<status status="PASS" start="2026-11-13T16:34:37.722910" elapsed="2.515947"/>
+</kw>
+<kw name="Tap Ui" owner="PhoneGame">
+<msg time="2026-11-13T16:34:40.238857" level="INFO">Appium clickGesture (1400, 704)</msg>
+<arg>center</arg>
+<arg>800</arg>
+<arg>519</arg>
+<status status="PASS" start="2026-11-13T16:34:40.238857" elapsed="0.076257"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-13T16:34:41.317301" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-13T16:34:40.315114" elapsed="1.002187"/>
+</kw>
+<kw name="Capture" owner="PhoneGame">
+<msg time="2026-11-13T16:34:41.746130" level="INFO">Appium screenshot offline-07-three-cats.png, 2712x1220</msg>
+<arg>offline-07-three-cats.png</arg>
+<status status="PASS" start="2026-11-13T16:34:41.317301" elapsed="0.429841"/>
+</kw>
+<kw name="Saved Cat Count Should Be" owner="PhoneGame">
+<arg>3</arg>
+<arg>offline-08-restored-save.json</arg>
+<status status="PASS" start="2026-11-13T16:34:41.747142" elapsed="0.080008"/>
+</kw>
+<kw name="Restore Network" owner="PhoneGame" type="TEARDOWN">
+<msg time="2026-11-13T16:34:42.005468" level="INFO">Restored the phone's original airplane and Wi-Fi settings</msg>
+<status status="PASS" start="2026-11-13T16:34:41.827150" elapsed="0.179880"/>
+</kw>
+<status status="PASS" start="2026-11-13T16:34:11.965794" elapsed="30.041236"/>
+</test>
+<kw name="Close Appium" owner="PhoneGame" type="TEARDOWN">
+<status status="PASS" start="2026-11-13T16:34:42.007030" elapsed="0.762159"/>
+</kw>
+<doc>Native phone layout, lock recovery and offline cold start. Uses the smoke-created save.</doc>
+<status status="FAIL" start="2026-11-13T16:33:43.911609" elapsed="58.857580"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Phone Lifecycle" id="s1" pass="1" fail="2" skip="0">Phone Lifecycle</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

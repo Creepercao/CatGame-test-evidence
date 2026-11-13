@@ -117,6 +117,48 @@ def verify_android():
     assert all(read(f'{base}/setup-guard.json').values())
     print('PASS Android purchase original failure, immediate-stop comparisons, and Robot rerun')
 
+    phone = 'evidence/android/phone'
+    for run, statuses in [
+        ('smoke-01', ['FAIL']), ('smoke-02', ['FAIL']), ('smoke-03', ['PASS']),
+        ('features-01', ['FAIL', 'FAIL', 'PASS']), ('features-02', ['PASS', 'FAIL', 'FAIL']),
+        ('features-03', ['PASS', 'PASS']), ('ending-01', ['PASS', 'PASS']),
+    ]:
+        tests = ET.parse(ROOT / phone / f'{run}.xml').findall('.//test')
+        assert [test.find('status').attrib['status'] for test in tests] == statuses, run
+    for index in range(1, 4):
+        for mode, cats in [('single', 1), ('hundred', 100)]:
+            folder = f'{phone}/perf-full-01/{index:02d}-{mode}'
+            result = read(f'{folder}/result.json')
+            metrics = read(f'{folder}/metrics.json')
+            assert result['visibleCats'] == cats and result['elapsedSeconds'] >= 60
+            with (ROOT / folder / 'frames.csv').open(newline='', encoding='utf-8') as sample:
+                rows = list(csv.DictReader(sample))
+            assert len(rows) == result['frameCount'] == metrics['frames']
+            frames = [int(row['frame']) for row in rows]
+            assert frames == list(range(frames[0], frames[0] + len(frames)))
+            intervals = sorted(float(row['frame_ms']) for row in rows)
+            assert all(math.isfinite(value) and value > 0 for value in intervals)
+            assert metrics['p95Ms'] == intervals[math.ceil(.95 * len(intervals)) - 1]
+            assert metrics['pssBeforeKiB'] > 0 and metrics['pssAfterKiB'] > 0
+            assert metrics['withinReferenceBudget'] and metrics['over33_3msRatio'] == 0
+    idle = read(f'{phone}/idle-01/01-hundred/idle-result.json')
+    assert idle['elapsedSeconds'] >= 300 and idle['playSecondsAdvanced'] >= 280
+    assert idle['initial']['cats'] == idle['final']['cats'] and len(idle['memorySnapshots']) == 5
+    initial = read(f'{phone}/features-03/pet-before.json')
+    final = read(f'{phone}/features-03/pet-after.json')
+    assert final['clicks'] == initial['clicks'] + 1 == 2
+    restored = read(f'{phone}/features-01/offline-08-restored-save.json')
+    assert sum(cat['count'] for cat in restored['cats']) == 3
+    for branch in ('continue', 'menu'):
+        purchased = read(f'{phone}/ending-01/{branch}-purchased.json')
+        completed = read(f'{phone}/ending-01/{branch}-completed.json')
+        assert completed['endingCompleted'] and completed['firstEnding'] == purchased['firstEnding']
+        assert purchased['rocketPurchased'] and 0 <= purchased['catHair'] < 1000
+    artifact = read(f'{phone}/artifact-verification.json')
+    assert artifact['matches'] and artifact['installedReleaseSha256'] == artifact['localReleaseSha256']
+    assert read(f'{phone}/network-restored.json') == {'airplane': '0', 'wifi': '1'}
+    print('PASS native phone functional reruns, six frame samples, and 300-second idle evidence')
+
 def main():
     manifest=read('provenance.json')
     for row in manifest['files']:

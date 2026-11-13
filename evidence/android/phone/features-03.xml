@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-13T16:39:32.359035" rpa="false" schemaversion="5">
+<suite id="s1" name="Phone Lifecycle" source="[PROJECT]\Tests\robot\android\phone_lifecycle.robot">
+<kw name="Open Appium" owner="PhoneGame" type="SETUP">
+<msg time="2026-11-13T16:39:35.445271" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Warning: Activity not started, intent has been delivered to currently running top-most instance.
+Status: ok
+LaunchState: UNKNOWN (0)
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 0
+WaitTime: 10
+Complete</msg>
+<msg time="2026-11-13T16:39:35.890520" level="INFO">Phone uses native 2712x1220, left cutout inset 88 pixels</msg>
+<status status="PASS" start="2026-11-13T16:39:32.415637" elapsed="3.475868"/>
+</kw>
+<test id="s1-t1" name="PHONE-PET-01 Touch Increments Persisted Counter" line="26">
+<kw name="Pet Visible Cat" owner="PhoneGame">
+<msg time="2026-11-13T16:39:36.481038" level="INFO">Appium clickGesture (1211, 677)</msg>
+<msg time="2026-11-13T16:39:37.481235" level="INFO">Appium screenshot pet-after-touch.png, 2712x1220</msg>
+<msg time="2026-11-13T16:39:37.482241" level="INFO">Appium Android key 3</msg>
+<msg time="2026-11-13T16:39:40.496587" level="INFO">Touching the visible cat incremented the saved pet counter by one</msg>
+<msg time="2026-11-13T16:39:40.702809" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Warning: Activity not started, its current task has been brought to the front
+Status: ok
+LaunchState: HOT
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 111
+WaitTime: 119
+Complete</msg>
+<status status="PASS" start="2026-11-13T16:39:35.892520" elapsed="4.924837"/>
+</kw>
+<kw name="Wait For Visual" owner="PhoneGame">
+<msg time="2026-11-13T16:39:42.160583" level="INFO">Phone visual three-cats: error=0.00, other=9.738690476190476</msg>
+<arg>${HOME_VISUAL}</arg>
+<arg>pet-restored.png</arg>
+<status status="PASS" start="2026-11-13T16:39:40.817357" elapsed="1.344208"/>
+</kw>
+<status status="PASS" start="2026-11-13T16:39:35.891505" elapsed="6.270060"/>
+</test>
+<test id="s1-t2" name="PHONE-LOCK-01 Original Process Survives Lock And Unlock" line="30">
+<kw name="Cat Game Pid" owner="PhoneGame">
+<msg time="2026-11-13T16:39:42.284090" level="INFO">CatGame QA PID 8760</msg>
+<msg time="2026-11-13T16:39:42.285090" level="INFO">${before} = 8760</msg>
+<var>${before}</var>
+<status status="PASS" start="2026-11-13T16:39:42.162565" elapsed="0.122525"/>
+</kw>
+<kw name="Lock Screen" owner="PhoneGame">
+<status status="PASS" start="2026-11-13T16:39:42.285090" elapsed="1.137326"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" owner="BuiltIn">
+<kw name="Screen Should Be Locked" owner="PhoneGame">
+<msg time="2026-11-13T16:39:43.769769" level="INFO">Appium isLocked=True; Android mWakefulness=Dozing</msg>
+<arg>true</arg>
+<status status="PASS" start="2026-11-13T16:39:43.423417" elapsed="0.347380"/>
+</kw>
+<arg>8s</arg>
+<arg>500ms</arg>
+<arg>Screen Should Be Locked</arg>
+<arg>true</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<status status="PASS" start="2026-11-13T16:39:43.423417" elapsed="0.347380"/>
+</kw>
+<kw name="Unlock Screen" owner="PhoneGame">
+<status status="PASS" start="2026-11-13T16:39:43.770797" elapsed="0.724690"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" owner="BuiltIn">
+<kw name="Screen Should Be Locked" owner="PhoneGame">
+<msg time="2026-11-13T16:39:44.729800" level="FAIL">Appium isLocked expected False, got True</msg>
+<arg>false</arg>
+<status status="FAIL" start="2026-11-13T16:39:44.495487" elapsed="0.235310">Appium isLocked expected False, got True</status>
+</kw>
+<kw name="Screen Should Be Locked" owner="PhoneGame">
+<msg time="2026-11-13T16:39:45.631716" level="INFO">Appium isLocked=False; Android mWakefulness=Awake</msg>
+<arg>false</arg>
+<status status="PASS" start="2026-11-13T16:39:45.231384" elapsed="0.400332"/>
+</kw>
+<arg>15s</arg>
+<arg>500ms</arg>
+<arg>Screen Should Be Locked</arg>
+<arg>false</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<status status="PASS" start="2026-11-13T16:39:44.495487" elapsed="1.136229"/>
+</kw>
+<kw name="Capture" owner="PhoneGame">
+<msg time="2026-11-13T16:39:46.024403" level="INFO">Appium screenshot lock-01-unlocked.png, 2712x1220</msg>
+<arg>lock-01-unlocked.png</arg>
+<status status="PASS" start="2026-11-13T16:39:45.631716" elapsed="0.393672"/>
+</kw>
+<kw name="Saved Cat Count Should Be" owner="PhoneGame">
+<arg>${CAT_COUNT}</arg>
+<arg>lock-01-save.json</arg>
+<status status="PASS" start="2026-11-13T16:39:46.025388" elapsed="0.074244"/>
+</kw>
+<kw name="Cat Game Pid" owner="PhoneGame">
+<msg time="2026-11-13T16:39:46.198342" level="INFO">CatGame QA PID 8760</msg>
+<msg time="2026-11-13T16:39:46.198342" level="INFO">${after} = 8760</msg>
+<var>${after}</var>
+<status status="PASS" start="2026-11-13T16:39:46.099632" elapsed="0.098710"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${before}</arg>
+<arg>${after}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2026-11-13T16:39:46.198342" elapsed="0.001553"/>
+</kw>
+<kw name="Tap Ui" owner="PhoneGame">
+<msg time="2026-11-13T16:39:46.199895" level="INFO">Appium clickGesture (535, 58)</msg>
+<arg>left</arg>
+<arg>330</arg>
+<arg>43</arg>
+<status status="PASS" start="2026-11-13T16:39:46.199895" elapsed="0.413559"/>
+</kw>
+<kw name="Wait For Visual" owner="PhoneGame">
+<msg time="2026-11-13T16:39:47.106982" level="INFO">Phone visual pause: error=0.00, other=None</msg>
+<arg>pause</arg>
+<arg>lock-02-touch.png</arg>
+<status status="PASS" start="2026-11-13T16:39:46.613454" elapsed="0.494528"/>
+</kw>
+<kw name="Press Key" owner="PhoneGame">
+<msg time="2026-11-13T16:39:47.107982" level="INFO">Appium Android key 4</msg>
+<arg>4</arg>
+<status status="PASS" start="2026-11-13T16:39:47.107982" elapsed="0.433556"/>
+</kw>
+<kw name="Capture" owner="PhoneGame">
+<msg time="2026-11-13T16:39:47.951658" level="INFO">Appium screenshot lock-03-restored.png, 2712x1220</msg>
+<arg>lock-03-restored.png</arg>
+<status status="PASS" start="2026-11-13T16:39:47.541538" elapsed="0.411105"/>
+</kw>
+<status status="PASS" start="2026-11-13T16:39:42.162565" elapsed="5.790078"/>
+</test>
+<kw name="Close Appium" owner="PhoneGame" type="TEARDOWN">
+<status status="PASS" start="2026-11-13T16:39:47.953641" elapsed="0.758181"/>
+</kw>
+<doc>Native phone layout, lock recovery and offline cold start. Uses the smoke-created save.</doc>
+<status status="PASS" start="2026-11-13T16:39:32.362016" elapsed="16.349806"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Phone Lifecycle" id="s1" pass="2" fail="0" skip="0">Phone Lifecycle</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

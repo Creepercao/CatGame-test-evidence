@@ -1,0 +1,13 @@
+{
+  "mode": "hundred",
+  "probe": false,
+  "pid": 11355,
+  "frames": 3633,
+  "pssBeforeKiB": 231668,
+  "pssAfterKiB": 264161,
+  "p50Ms": 16.5235939,
+  "p95Ms": 16.54772,
+  "p99Ms": 16.55351,
+  "over33_3msRatio": 0.0,
+  "withinReferenceBudget": true
+}

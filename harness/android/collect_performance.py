@@ -94,7 +94,7 @@ def analyze(csv_text, result, mode, probe):
             "withinReferenceBudget": None if probe else percentile(.95) <= 20 and over_budget <= .01}
 
 
-def collect(device, output, mode, probe):
+def collect(device, output, mode, probe, idle_seconds=0):
     output.mkdir()
     run_id = uuid4().hex
     remote = f"files/AndroidPerf/{run_id}"
@@ -127,6 +127,31 @@ def collect(device, output, mode, probe):
                    "pssBeforeKiB": before, "pssAfterKiB": after, **analyze(csv_text, result, mode, probe)}
         dump_json(output / "metrics.json", metrics)
         print(json.dumps(metrics), flush=True)
+        if idle_seconds:
+            save_path = f"/storage/emulated/{device.user}/Android/data/{PACKAGE}/files/CatGame/save.json"
+            initial = json.loads(device.shell("cat", save_path))
+            idle_started = time.monotonic()
+            snapshots = []
+            for index in range(idle_seconds // 60):
+                # Idle observation is separate from the preceding frame-time window.
+                time.sleep(60)
+                if device.pid() != pid:
+                    raise RuntimeError("Perf QA process changed during idle observation")
+                windows = device.shell("dumpsys", "activity", "activities")
+                foreground = [line.strip() for line in windows.splitlines() if "topResumedActivity=" in line]
+                if not foreground or not all(PACKAGE in line for line in foreground):
+                    raise RuntimeError("Perf QA left the foreground during idle observation")
+                pss = device.meminfo(pid, output / f"idle-{index + 1:02d}-meminfo.txt")
+                snapshots.append({"elapsedSeconds": time.monotonic() - idle_started, "pssKiB": pss})
+            final = json.loads(device.shell("cat", save_path))
+            advanced = final["playSeconds"] - initial["playSeconds"]
+            if final["cats"] != initial["cats"] or advanced < idle_seconds - 20:
+                raise RuntimeError("The idle scene roster or playtime did not remain valid")
+            idle = {"requestedSeconds": idle_seconds, "elapsedSeconds": time.monotonic() - idle_started,
+                    "pid": int(pid), "playSecondsAdvanced": advanced, "catsUnchanged": True,
+                    "initial": initial, "final": final, "memorySnapshots": snapshots}
+            dump_json(output / "idle-result.json", idle)
+            print(f"Idle observation passed for {idle_seconds} seconds", flush=True)
     finally:
         device.stop()
 
@@ -141,6 +166,8 @@ def main():
     parser.add_argument("--mode", choices=("single", "hundred", "both"), default="both")
     parser.add_argument("--probe", action="store_true", help="Collect three seconds per scene for pipeline validation")
     parser.add_argument("--repeats", type=int, choices=range(1, 6), default=1)
+    parser.add_argument("--idle-seconds", type=int, choices=(0, 300), default=0,
+                        help="Observe the unchanged foreground scene after frame sampling")
     args = parser.parse_args()
 
     device = Device(args.adb, args.port, args.serial)
@@ -159,7 +186,7 @@ def main():
     modes = ("single", "hundred") if args.mode == "both" else (args.mode,)
     for index in range(1, args.repeats + 1):
         for mode in modes:
-            collect(device, args.output / f"{index:02d}-{mode}", mode, args.probe)
+            collect(device, args.output / f"{index:02d}-{mode}", mode, args.probe, args.idle_seconds)
 
 
 if __name__ == "__main__":

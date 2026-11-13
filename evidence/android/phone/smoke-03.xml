@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-13T16:29:50.291420" rpa="false" schemaversion="5">
+<suite id="s1" name="Phone Smoke" source="[PROJECT]\Tests\robot\android\phone_smoke.robot">
+<kw name="Open Appium" owner="PhoneGame" type="SETUP">
+<msg time="2026-11-13T16:29:53.662641" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 289
+WaitTime: 292
+Complete</msg>
+<msg time="2026-11-13T16:29:55.051594" level="INFO">Phone uses native 2712x1220, left cutout inset 88 pixels</msg>
+<status status="PASS" start="2026-11-13T16:29:50.347312" elapsed="4.706335"/>
+</kw>
+<test id="s1-t1" name="PHONE-SMOKE-01 Purchase Survives Home And Cold Restart" line="8">
+<kw name="Force Stop Cat Game" owner="PhoneGame">
+<status status="PASS" start="2026-11-13T16:29:55.053647" elapsed="0.296998"/>
+</kw>
+<kw name="Start Cat Game" owner="PhoneGame">
+<msg time="2026-11-13T16:29:55.801162" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 347
+WaitTime: 350
+Complete</msg>
+<status status="PASS" start="2026-11-13T16:29:55.350645" elapsed="0.450517"/>
+</kw>
+<kw name="Wait For Visual" owner="PhoneGame">
+<msg time="2026-11-13T16:30:00.875673" level="INFO">Phone visual menu: error=9.71, other=None</msg>
+<arg>menu</arg>
+<arg>01-menu.png</arg>
+<status status="PASS" start="2026-11-13T16:29:55.801162" elapsed="5.076017"/>
+</kw>
+<kw name="Tap Ui" owner="PhoneGame">
+<msg time="2026-11-13T16:30:00.877179" level="INFO">Appium clickGesture (2253, 619)</msg>
+<arg>menu</arg>
+<arg>1320</arg>
+<arg>457</arg>
+<status status="PASS" start="2026-11-13T16:30:00.877179" elapsed="0.058440"/>
+</kw>
+<kw name="Wait For Visual" owner="PhoneGame">
+<msg time="2026-11-13T16:30:03.485730" level="INFO">Phone visual intro: error=2.11, other=None</msg>
+<arg>intro</arg>
+<arg>02-intro.png</arg>
+<status status="PASS" start="2026-11-13T16:30:00.935619" elapsed="2.551616"/>
+</kw>
+<kw name="Tap Ui" owner="PhoneGame">
+<msg time="2026-11-13T16:30:03.487235" level="INFO">Appium clickGesture (2278, 1137)</msg>
+<arg>right</arg>
+<arg>1280</arg>
+<arg>839</arg>
+<status status="PASS" start="2026-11-13T16:30:03.487235" elapsed="0.072484"/>
+</kw>
+<kw name="Wait For Visual" owner="PhoneGame">
+<msg time="2026-11-13T16:30:03.992538" level="INFO">Phone visual one-cat: error=0.00, other=11.881547619047618</msg>
+<arg>one-cat</arg>
+<arg>03-one-cat.png</arg>
+<status status="PASS" start="2026-11-13T16:30:03.560749" elapsed="0.432789"/>
+</kw>
+<kw name="Cat Game Pid" owner="PhoneGame">
+<msg time="2026-11-13T16:30:04.117275" level="INFO">CatGame QA PID 29145</msg>
+<msg time="2026-11-13T16:30:04.117275" level="INFO">${before} = 29145</msg>
+<var>${before}</var>
+<status status="PASS" start="2026-11-13T16:30:03.994537" elapsed="0.122738"/>
+</kw>
+<kw name="Should Not Be Empty" owner="BuiltIn">
+<msg time="2026-11-13T16:30:04.119324" level="INFO">Length is 5.</msg>
+<arg>${before}</arg>
+<doc>Verifies that the given item is not empty.</doc>
+<status status="PASS" start="2026-11-13T16:30:04.117275" elapsed="0.002049"/>
+</kw>
+<kw name="Press Key" owner="PhoneGame">
+<msg time="2026-11-13T16:30:04.119324" level="INFO">Appium Android key 3</msg>
+<arg>3</arg>
+<status status="PASS" start="2026-11-13T16:30:04.119324" elapsed="1.861183"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" owner="BuiltIn">
+<kw name="Cat Game Is Backgrounded" owner="PhoneGame">
+<msg time="2026-11-13T16:30:06.069434" level="INFO">CatGame is backgrounded; topResumedActivity=ActivityRecord{7325e25 u0 com.miui.home/.launcher.Launcher t2}</msg>
+<status status="PASS" start="2026-11-13T16:30:05.980507" elapsed="0.088927"/>
+</kw>
+<arg>5s</arg>
+<arg>300ms</arg>
+<arg>Cat Game Is Backgrounded</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<status status="PASS" start="2026-11-13T16:30:05.980507" elapsed="0.088927"/>
+</kw>
+<kw name="Start Cat Game" owner="PhoneGame">
+<msg time="2026-11-13T16:30:06.275826" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Warning: Activity not started, its current task has been brought to the front
+Status: ok
+LaunchState: HOT
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 96
+WaitTime: 120
+Complete</msg>
+<status status="PASS" start="2026-11-13T16:30:06.069434" elapsed="0.207901"/>
+</kw>
+<kw name="Wait For Visual" owner="PhoneGame">
+<msg time="2026-11-13T16:30:08.149775" level="INFO">Phone visual one-cat: error=0.00, other=11.881547619047618</msg>
+<arg>one-cat</arg>
+<arg>04-warm.png</arg>
+<status status="PASS" start="2026-11-13T16:30:06.277335" elapsed="1.873565"/>
+</kw>
+<kw name="Cat Game Pid" owner="PhoneGame">
+<msg time="2026-11-13T16:30:08.260501" level="INFO">CatGame QA PID 29145</msg>
+<msg time="2026-11-13T16:30:08.260501" level="INFO">${warm} = 29145</msg>
+<var>${warm}</var>
+<status status="PASS" start="2026-11-13T16:30:08.150900" elapsed="0.109601"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${before}</arg>
+<arg>${warm}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2026-11-13T16:30:08.260501" elapsed="0.001016"/>
+</kw>
+<kw name="Wait For Affordable Milk" owner="PhoneGame">
+<msg time="2026-11-13T16:30:33.162212" level="INFO">Appium clickGesture (1400, 1164)</msg>
+<status status="PASS" start="2026-11-13T16:30:08.261517" elapsed="65.899124"/>
+</kw>
+<kw name="Buy And Press Home" owner="PhoneGame">
+<msg time="2026-11-13T16:31:14.160641" level="INFO">Appium clickGesture (339, 407)</msg>
+<msg time="2026-11-13T16:31:14.221813" level="INFO">Appium Android key 3</msg>
+<msg time="2026-11-13T16:31:16.439148" level="INFO">Phone purchase tap through HOME: 2.281s</msg>
+<status status="PASS" start="2026-11-13T16:31:14.160641" elapsed="2.278507"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" owner="BuiltIn">
+<kw name="Cat Game Is Backgrounded" owner="PhoneGame">
+<msg time="2026-11-13T16:31:16.531296" level="INFO">CatGame is backgrounded; topResumedActivity=ActivityRecord{7325e25 u0 com.miui.home/.launcher.Launcher t2}</msg>
+<status status="PASS" start="2026-11-13T16:31:16.440128" elapsed="0.091168"/>
+</kw>
+<arg>5s</arg>
+<arg>300ms</arg>
+<arg>Cat Game Is Backgrounded</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<status status="PASS" start="2026-11-13T16:31:16.439148" elapsed="0.092148"/>
+</kw>
+<kw name="Force Stop Cat Game" owner="PhoneGame">
+<status status="PASS" start="2026-11-13T16:31:16.532299" elapsed="0.223263"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-13T16:31:18.757035" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-13T16:31:16.755562" elapsed="2.001473"/>
+</kw>
+<kw name="Start Cat Game" owner="PhoneGame">
+<msg time="2026-11-13T16:31:19.140430" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 283
+WaitTime: 286
+Complete</msg>
+<status status="PASS" start="2026-11-13T16:31:18.757035" elapsed="0.383395"/>
+</kw>
+<kw name="Wait For Visual" owner="PhoneGame">
+<msg time="2026-11-13T16:31:24.297207" level="INFO">Phone visual menu: error=8.47, other=None</msg>
+<arg>menu</arg>
+<arg>07-restart.png</arg>
+<status status="PASS" start="2026-11-13T16:31:19.140430" elapsed="5.157282"/>
+</kw>
+<kw name="Cat Game Pid" owner="PhoneGame">
+<msg time="2026-11-13T16:31:24.421263" level="INFO">CatGame QA PID 31906</msg>
+<msg time="2026-11-13T16:31:24.421263" level="INFO">${after} = 31906</msg>
+<var>${after}</var>
+<status status="PASS" start="2026-11-13T16:31:24.298720" elapsed="0.122543"/>
+</kw>
+<kw name="Should Not Be Empty" owner="BuiltIn">
+<msg time="2026-11-13T16:31:24.422265" level="INFO">Length is 5.</msg>
+<arg>${after}</arg>
+<doc>Verifies that the given item is not empty.</doc>
+<status status="PASS" start="2026-11-13T16:31:24.422265" elapsed="0.000000"/>
+</kw>
+<kw name="Should Not Be Equal" owner="BuiltIn">
+<arg>${before}</arg>
+<arg>${after}</arg>
+<doc>Fails if the given objects are equal.</doc>
+<status status="PASS" start="2026-11-13T16:31:24.423262" elapsed="0.000000"/>
+</kw>
+<kw name="Tap Ui" owner="PhoneGame">
+<msg time="2026-11-13T16:31:24.423262" level="INFO">Appium clickGesture (2253, 504)</msg>
+<arg>menu</arg>
+<arg>1320</arg>
+<arg>372</arg>
+<status status="PASS" start="2026-11-13T16:31:24.423262" elapsed="0.048347"/>
+</kw>
+<kw name="Wait For Visual" owner="PhoneGame">
+<msg time="2026-11-13T16:31:27.060590" level="INFO">Phone visual offline: error=6.98, other=None</msg>
+<arg>offline</arg>
+<arg>08-offline.png</arg>
+<status status="PASS" start="2026-11-13T16:31:24.471609" elapsed="2.590486"/>
+</kw>
+<kw name="Tap Ui" owner="PhoneGame">
+<msg time="2026-11-13T16:31:27.062095" level="INFO">Appium clickGesture (1400, 704)</msg>
+<arg>center</arg>
+<arg>800</arg>
+<arg>519</arg>
+<status status="PASS" start="2026-11-13T16:31:27.062095" elapsed="0.051900"/>
+</kw>
+<kw name="Wait For Visual" owner="PhoneGame">
+<msg time="2026-11-13T16:31:27.532661" level="INFO">Phone visual two-cats: error=0.02, other=11.876785714285715</msg>
+<arg>two-cats</arg>
+<arg>09-two-cats.png</arg>
+<status status="PASS" start="2026-11-13T16:31:27.113995" elapsed="0.419664"/>
+</kw>
+<status status="PASS" start="2026-11-13T16:29:55.053647" elapsed="92.481018"/>
+</test>
+<kw name="Close Appium" owner="PhoneGame" type="TEARDOWN">
+<status status="PASS" start="2026-11-13T16:31:27.534665" elapsed="0.817837"/>
+</kw>
+<doc>Release APK smoke at native 2712x1220 on the authorized Android phone.</doc>
+<status status="PASS" start="2026-11-13T16:29:50.293418" elapsed="98.059084"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Phone Smoke" id="s1" pass="1" fail="0" skip="0">Phone Smoke</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
