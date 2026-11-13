@@ -54,6 +54,8 @@ class AndroidGame:
         current = self._shell("am", "get-current-user")
         assert self.user != "0" and f"UserInfo{{{self.user}:{self.USER_NAME}:" in users, users
         assert current == self.user, f"Switch to Android QA user {self.user}, current user is {current}"
+        setup = self._shell("settings", "--user", self.user, "get", "secure", "user_setup_complete")
+        assert setup == "1", f"Android QA user {self.user} has not completed system setup; Home may be ignored"
         capabilities = {"platformName": "Android", "appium:automationName": "UiAutomator2",
                         "appium:udid": self.serial, "appium:adbPort": self.adb_port,
                         "appium:userProfile": int(self.user), "appium:noReset": True,

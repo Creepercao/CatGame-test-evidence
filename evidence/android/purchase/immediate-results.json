@@ -1,0 +1,50 @@
+[
+  {
+    "holdMs": 0,
+    "home": true,
+    "immediateStop": true,
+    "inputSeconds": 2.1719999999986612,
+    "pid": "11724",
+    "restartedPid": "11859",
+    "beforeCount": 1,
+    "afterCount": null,
+    "stoppedCount": 2,
+    "restartedCount": 2
+  },
+  {
+    "holdMs": 0,
+    "home": true,
+    "immediateStop": true,
+    "inputSeconds": 0.15600000000085856,
+    "pid": "11989",
+    "restartedPid": "12112",
+    "beforeCount": 1,
+    "afterCount": null,
+    "stoppedCount": 2,
+    "restartedCount": 2
+  },
+  {
+    "holdMs": 350,
+    "home": true,
+    "immediateStop": true,
+    "inputSeconds": 0.5149999999994179,
+    "pid": "12253",
+    "restartedPid": "12394",
+    "beforeCount": 1,
+    "afterCount": null,
+    "stoppedCount": 2,
+    "restartedCount": 2
+  },
+  {
+    "holdMs": 350,
+    "home": true,
+    "immediateStop": true,
+    "inputSeconds": 0.5159999999996217,
+    "pid": "12524",
+    "restartedPid": "12672",
+    "beforeCount": 1,
+    "afterCount": null,
+    "stoppedCount": 2,
+    "restartedCount": 2
+  }
+]

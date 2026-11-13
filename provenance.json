@@ -1760,13 +1760,6 @@
       "transformed": true
     },
     {
-      "source": "Tests/robot/android/AndroidGame.py",
-      "path": "harness/android/AndroidGame.py",
-      "sourceSha256": "5fe2a942c17f57a438363da1fc7bcd847d181a497834cc12da703ccc32db794c",
-      "publishedSha256": "5fe2a942c17f57a438363da1fc7bcd847d181a497834cc12da703ccc32db794c",
-      "transformed": false
-    },
-    {
       "source": "Tests/robot/android/android_layout.robot",
       "path": "harness/android/android_layout.robot",
       "sourceSha256": "0b2170cfe892b003afbfdfc63837f14fd64c9fd83f3c41f8c84c27d81392ace0",
@@ -1778,13 +1771,6 @@
       "path": "harness/android/android_lifecycle.robot",
       "sourceSha256": "f1b67f8b08ec46129746bbdb9b0b170928f78c83bced82b21135fd08eb0fe6ef",
       "publishedSha256": "f1b67f8b08ec46129746bbdb9b0b170928f78c83bced82b21135fd08eb0fe6ef",
-      "transformed": false
-    },
-    {
-      "source": "Tests/robot/android/android_smoke.robot",
-      "path": "harness/android/android_smoke.robot",
-      "sourceSha256": "96dc4f881eecb1cccdc84ff114051126df7faa039e67b666a7fa94a83f425493",
-      "publishedSha256": "96dc4f881eecb1cccdc84ff114051126df7faa039e67b666a7fa94a83f425493",
       "transformed": false
     },
     {
@@ -2094,6 +2080,146 @@
       "sourceSha256": "53a694db62c3a7d4953bb153c4f830c482fd0b6a349332cb0a44ae90b4698140",
       "publishedSha256": "53a694db62c3a7d4953bb153c4f830c482fd0b6a349332cb0a44ae90b4698140",
       "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/diagnose_purchase.py",
+      "path": "harness/android/diagnose_purchase.py",
+      "sourceSha256": "526b005be1cee782b7049eaab1a005cd50984a684d0abfdfb0d59584b5fbd400",
+      "publishedSha256": "526b005be1cee782b7049eaab1a005cd50984a684d0abfdfb0d59584b5fbd400",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/AndroidGame.py",
+      "path": "harness/android/AndroidGame.py",
+      "sourceSha256": "41dfd5829b97c2137f999290dfad33c437c72b7c6f59f03e85aaef678d32ab3e",
+      "publishedSha256": "41dfd5829b97c2137f999290dfad33c437c72b7c6f59f03e85aaef678d32ab3e",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/android_smoke.robot",
+      "path": "harness/android/android_smoke.robot",
+      "sourceSha256": "4a5f176cd963548307e431b4b4714d9b10db49c72299d5b31a18d32889b40298",
+      "publishedSha256": "4a5f176cd963548307e431b4b4714d9b10db49c72299d5b31a18d32889b40298",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/release/avd-smoke-05/output.xml",
+      "path": "evidence/android/purchase/original-failure.xml",
+      "sourceSha256": "b5c5cc602c9a662d8212813154b2e1c5f07b90d9a71a37a341fe98d8b5b8b5e7",
+      "publishedSha256": "61e280da2d2ab6168b58049b60a30526a3ab74dad365035de518e006b73f2f49",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/purchase-diagnosis/original-smoke/output.xml",
+      "path": "evidence/android/purchase/original-rerun.xml",
+      "sourceSha256": "5d2b820a9dfb190eae2ccd31c0d93752f387951cdf91fb92c3ed559fc23127b6",
+      "publishedSha256": "58cf4eeed420ff773790e247e653ed59b8bdff25593f2f4940fad7e39dfcd606",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/purchase-diagnosis/matrix-01/results.json",
+      "path": "evidence/android/purchase/foreground-results.json",
+      "sourceSha256": "eee5ef6234b032ca69b40b8da561a633f2254990071606de3b81d1e6b718de4f",
+      "publishedSha256": "eee5ef6234b032ca69b40b8da561a633f2254990071606de3b81d1e6b718de4f",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-diagnosis/immediate-03/results.json",
+      "path": "evidence/android/purchase/immediate-results.json",
+      "sourceSha256": "7f919c7f019e39bd666b32c2698fa4511aa753c74b0d28787445f70aee76a485",
+      "publishedSha256": "7f919c7f019e39bd666b32c2698fa4511aa753c74b0d28787445f70aee76a485",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-diagnosis/setup-guard.json",
+      "path": "evidence/android/purchase/setup-guard.json",
+      "sourceSha256": "d14ba418dcb527cbacd1702b59129fc8d9b28df56bc3c5b982cf548cf0392e26",
+      "publishedSha256": "d14ba418dcb527cbacd1702b59129fc8d9b28df56bc3c5b982cf548cf0392e26",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-diagnosis/immediate-03/1-before.json",
+      "path": "evidence/android/purchase/1-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-diagnosis/immediate-03/1-stopped.json",
+      "path": "evidence/android/purchase/1-stopped.json",
+      "sourceSha256": "a9bca4668efaaaf1bba92a93ffbe5cb99eae8fa9206c636297abe331097f66ef",
+      "publishedSha256": "a9bca4668efaaaf1bba92a93ffbe5cb99eae8fa9206c636297abe331097f66ef",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-diagnosis/immediate-03/1-restarted.json",
+      "path": "evidence/android/purchase/1-restarted.json",
+      "sourceSha256": "0e4be4ec36c462192e13c5ff3ae5dad06ff33953f2a80b52da6b7f04e6744635",
+      "publishedSha256": "0e4be4ec36c462192e13c5ff3ae5dad06ff33953f2a80b52da6b7f04e6744635",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-diagnosis/immediate-03/2-before.json",
+      "path": "evidence/android/purchase/2-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-diagnosis/immediate-03/2-stopped.json",
+      "path": "evidence/android/purchase/2-stopped.json",
+      "sourceSha256": "9560146586e51cffb1f07c2ce8b39e157a1c672894e25582b407eae41db6e6b9",
+      "publishedSha256": "9560146586e51cffb1f07c2ce8b39e157a1c672894e25582b407eae41db6e6b9",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-diagnosis/immediate-03/2-restarted.json",
+      "path": "evidence/android/purchase/2-restarted.json",
+      "sourceSha256": "d8a9b80caa09088de6073a62c516335072db1cd33ee80a266174cd6e18fd95e5",
+      "publishedSha256": "d8a9b80caa09088de6073a62c516335072db1cd33ee80a266174cd6e18fd95e5",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-diagnosis/immediate-03/3-before.json",
+      "path": "evidence/android/purchase/3-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-diagnosis/immediate-03/3-stopped.json",
+      "path": "evidence/android/purchase/3-stopped.json",
+      "sourceSha256": "556cdcc5b4f9e2cd6c4f8c6798e226951905fce1f3063d1759e75322cb3ef1a4",
+      "publishedSha256": "556cdcc5b4f9e2cd6c4f8c6798e226951905fce1f3063d1759e75322cb3ef1a4",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-diagnosis/immediate-03/3-restarted.json",
+      "path": "evidence/android/purchase/3-restarted.json",
+      "sourceSha256": "296ebe6cc24664648032b0797d1a69e6c49812d45f3cf2a98769d7d920d3f0d3",
+      "publishedSha256": "296ebe6cc24664648032b0797d1a69e6c49812d45f3cf2a98769d7d920d3f0d3",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-diagnosis/immediate-03/4-before.json",
+      "path": "evidence/android/purchase/4-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-diagnosis/immediate-03/4-stopped.json",
+      "path": "evidence/android/purchase/4-stopped.json",
+      "sourceSha256": "634bc8a9af0396fa53e36353f395b64b7576ba23770545def0c679b401e8ba28",
+      "publishedSha256": "634bc8a9af0396fa53e36353f395b64b7576ba23770545def0c679b401e8ba28",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-diagnosis/immediate-03/4-restarted.json",
+      "path": "evidence/android/purchase/4-restarted.json",
+      "sourceSha256": "748de23b46e32d908c814a61c67c86422d012ee33a1f77680c7c92a5a4eb0c4c",
+      "publishedSha256": "748de23b46e32d908c814a61c67c86422d012ee33a1f77680c7c92a5a4eb0c4c",
+      "transformed": false
     }
   ],
   "androidOriginCommits": {
@@ -2102,6 +2228,7 @@
     "saveRecovery": "d092c98",
     "screenshotRotationWait": "da4141b",
     "endingAppium": "0887a9b",
-    "performanceSampling": "dd0dee0"
+    "performanceSampling": "dd0dee0",
+    "purchaseInvestigation": "3281900"
   }
 }

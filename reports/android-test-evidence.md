@@ -38,6 +38,8 @@ Android v3 的结局用例沿用 AVD 内的两猫测试档，只为测试准备�
 
 ## 复跑
 
+2026-11-13 对发布候选 APK 的一次购买后重启一猫失败做了专项排查。当前原始 Robot 流程复跑通过，四组后台立即强停均保留两猫，上次偶发失败的根因尚未确认。原失败及对照过程见 [购买中断排查](android-purchase-investigation.md)。
+
 用例快照在 [Android Robot 用例目录](../harness/android)。环境需有可运行 APK 的 Android 模拟器、ADB、Appium UiAutomator2、Robot Framework 和 Pillow。为游戏和 UiAutomator2 安装包启用独立 Android 用户 `CatGame-Appium-QA`，切换该用户后运行对应套件。将实际 ADB 路径、端口、设备序列和 QA 用户号传给 `${ADB}`、`${ADB_PORT}`、`${SERIAL}`、`${QA_USER}`。Appium 默认地址为 `http://127.0.0.1:4723`。16:9 用例以 1600×900 为基准，冒烟用例使用新档，布局和锁屏用例沿用冒烟产生的两猫存档。屏幕锁需要支持系统电源键的测试设备。
 
 ```powershell

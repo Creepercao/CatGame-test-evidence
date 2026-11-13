@@ -1,0 +1,46 @@
+[
+  {
+    "holdMs": 0,
+    "home": false,
+    "inputSeconds": 0.10900000000037835,
+    "pid": "8997",
+    "restartedPid": "9276",
+    "beforeCount": 1,
+    "afterCount": 2,
+    "stoppedCount": 2,
+    "restartedCount": 2
+  },
+  {
+    "holdMs": 0,
+    "home": true,
+    "inputSeconds": 0.21899999999914144,
+    "pid": "9407",
+    "restartedPid": "9577",
+    "beforeCount": 1,
+    "afterCount": 2,
+    "stoppedCount": 2,
+    "restartedCount": 2
+  },
+  {
+    "holdMs": 350,
+    "home": false,
+    "inputSeconds": 0.43699999999989814,
+    "pid": "9714",
+    "restartedPid": "9877",
+    "beforeCount": 1,
+    "afterCount": 2,
+    "stoppedCount": 2,
+    "restartedCount": 2
+  },
+  {
+    "holdMs": 350,
+    "home": true,
+    "inputSeconds": 0.5150000000012369,
+    "pid": "10006",
+    "restartedPid": "10153",
+    "beforeCount": 1,
+    "afterCount": 2,
+    "stoppedCount": 2,
+    "restartedCount": 2
+  }
+]

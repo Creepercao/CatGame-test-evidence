@@ -102,6 +102,21 @@ def verify_android():
         assert metrics['withinReferenceBudget'] is (False if seconds == 60 else None)
     print('PASS Android performance probe, insufficient sample, and 60-second retry evidence')
 
+    base = 'evidence/android/purchase'
+    for name, expected in [('original-failure', 'FAIL'), ('original-rerun', 'PASS')]:
+        case = ET.parse(ROOT / base / f'{name}.xml').find('.//test')
+        assert case.find('status').attrib['status'] == expected
+    immediate = read(f'{base}/immediate-results.json')
+    assert len(immediate) == 4
+    for index, case in enumerate(immediate, 1):
+        assert case['immediateStop'] and case['home']
+        assert case['pid'] != case['restartedPid']
+        assert case['stoppedCount'] == case['restartedCount'] == 2
+        for phase, expected in [('before', 1), ('stopped', 2), ('restarted', 2)]:
+            assert read(f'{base}/{index}-{phase}.json')['cats'][0]['count'] == expected
+    assert all(read(f'{base}/setup-guard.json').values())
+    print('PASS Android purchase original failure, immediate-stop comparisons, and Robot rerun')
+
 def main():
     manifest=read('provenance.json')
     for row in manifest['files']:
