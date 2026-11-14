@@ -3365,8 +3365,8 @@
     {
       "source": "docs/Android超宽屏修复记录.md",
       "path": "reports/android-viewport-regression.md",
-      "sourceSha256": "c1827789a9f7bf06e7fbec9526b85265130cecd7163bb9985038988d8c165538",
-      "publishedSha256": "260e7172bdd6eb91bdd49770c0ae7779befa7cc1990163b2471885e680875043",
+      "sourceSha256": "c61a94900d1e9f7bf9fe531fe284f9ce6e34f13eff4b716a04121ba5f598464f",
+      "publishedSha256": "db9af2d074c28b8f443216141d2c3ac6da455243f4537da96947189554f3fb6d",
       "transformed": true
     },
     {
@@ -3983,6 +3983,27 @@
       "path": "evidence/android/viewport/phone-idle-v4-01/01-hundred/warmup.json",
       "sourceSha256": "425f55898b30511c668a05d4faaef88a723c27a2455ea10646894d5d1461eb42",
       "publishedSha256": "425f55898b30511c668a05d4faaef88a723c27a2455ea10646894d5d1461eb42",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/distribution-v4/release-published.json",
+      "path": "evidence/android/viewport/release-published.json",
+      "sourceSha256": "f4569308608094b725f0517922b54731f2de102054414c4b3e07234dd02a40c2",
+      "publishedSha256": "f4569308608094b725f0517922b54731f2de102054414c4b3e07234dd02a40c2",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/distribution-v4/安装说明.txt",
+      "path": "evidence/android/viewport/Install-Android.txt",
+      "sourceSha256": "9dac160dfe5374b244b18282e1140c6b770d156fc66dff47aded618c3433f5da",
+      "publishedSha256": "9dac160dfe5374b244b18282e1140c6b770d156fc66dff47aded618c3433f5da",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/distribution-v4/SHA256SUMS.txt",
+      "path": "evidence/android/viewport/SHA256SUMS.txt",
+      "sourceSha256": "7889d4f36913dc338c000693556f409cb63de840df8538f6829cc6b2ae37033a",
+      "publishedSha256": "7889d4f36913dc338c000693556f409cb63de840df8538f6829cc6b2ae37033a",
       "transformed": false
     }
   ],

@@ -61,3 +61,7 @@ M16 跟踪 Windows 间歇存档 I/O：第二轮第 874 次 `File.Replace` 返回
 原 M14 模拟器偶发购买恢复问题仍未定位，历史失败继续保留。本轮没有扩展到其他机型、另一握持方向、耗电或长期稳定性。独立 AVD 使用只读实例和专用用户；MuMu 未被写入测试数据或改动显示尺寸。
 
 运行 `python verify_evidence.py` 可重新核对红绿结果、截图摘要/尺寸、覆盖安装字节与 APK 哈希、既有负例和最终回归结果。该命令核验已有材料，不会新跑游戏。
+
+## 2026-11-14 发行交付追加
+
+[Android 预览版](https://github.com/Creepercao/CatGame/releases/tag/android-v1.0.0-preview.1)已公开，普通 APK 目标源码 `0076ec5`，三个附件为 APK、Install-Android.txt 与 SHA256SUMS.txt。服务端摘要和大小均与本地一致；Windows v1.0.0 仍为 latest。发布元数据见 `evidence/android/viewport/release-published.json`。QA v4 六轮性能和 301.97 秒挂机均已完成，详细数据见 [v4 性能复验](android-v4-performance.md)。原 M14/M16 跟踪和全部负例继续保留，不因发行而改为已修复。

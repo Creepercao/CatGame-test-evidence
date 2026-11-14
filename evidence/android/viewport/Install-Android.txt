@@ -1,0 +1,18 @@
+喵屋 CatGame · Android ARM64 预览版（versionCode 4）
+
+安装 CatGame-Android.apk，按手机提示允许安装来源。需要支持 ARM64 的 Android 设备；已验证设备为小米 22081212C / Android 15。其他设备尚未逐台验收。
+也可在启用 USB 调试、授权电脑后执行：
+adb -s <你的设备序列号> install -r CatGame-Android.apk
+部分手机还需要开启开发者选项中的 USB 安装，并确认安装弹窗。
+
+横屏操作，摸猫、购买、成就与结局均可离线使用。Android 预览版不附带桌面外置修改器。
+本包与此前 v3 使用相同签名，可直接覆盖安装；请勿先卸载，以免清除应用数据。已实际核对 v3→v4 安装、首次启动前存档字节不变。
+
+本版修复超宽屏房间右侧露边，支持挖孔安全区、中文、系统返回键及本地存档备份恢复。备份恢复可能回退最近一轮保存之后的进度。
+本包使用 Android Debug 签名，仅作不上架的预览分发。请保留完整 APK，不修改签名。
+
+SHA256SUMS.txt 可用于核对下载文件。Windows PowerShell 可执行：
+Get-FileHash .\CatGame-Android.apk -Algorithm SHA256
+
+游戏源码：https://github.com/Creepercao/CatGame
+测试证据：https://github.com/Creepercao/CatGame-test-evidence

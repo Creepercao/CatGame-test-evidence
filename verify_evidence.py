@@ -286,6 +286,20 @@ def main():
     assert idle['catsUnchanged'] and idle['initial']['cats'] == idle['final']['cats']
     assert len(idle['memorySnapshots']) == 5 and all(x['pssKiB'] > 0 for x in idle['memorySnapshots'])
     print('PASS QA v4 300-second foreground idle, roster persistence and playtime progression')
+    release = read('evidence/android/viewport/release-published.json')
+    assert not release['draft'] and release['prerelease']
+    assert release['tag_name'] == 'android-v1.0.0-preview.1'
+    assert release['target_commitish'] == read('evidence/android/viewport/artifact.json')['publicGameCommit']
+    assets = {asset['name']: asset for asset in release['assets']}
+    assert set(assets) == {'CatGame-Android.apk', 'Install-Android.txt', 'SHA256SUMS.txt'}
+    artifact = read('evidence/android/viewport/artifact.json')
+    assert assets['CatGame-Android.apk']['digest'] == 'sha256:' + artifact['apkSha256']
+    assert assets['CatGame-Android.apk']['size'] == artifact['apkBytes']
+    for name in ('Install-Android.txt', 'SHA256SUMS.txt'):
+        raw = (ROOT / 'evidence/android/viewport' / name).read_bytes()
+        assert assets[name]['digest'] == 'sha256:' + hashlib.sha256(raw).hexdigest()
+        assert assets[name]['size'] == len(raw)
+    print('PASS published Android prerelease target and all three attachment digests')
     print('All evidence checks passed; no new Unity/Robot execution performed.')
 
 if __name__=='__main__': main()
