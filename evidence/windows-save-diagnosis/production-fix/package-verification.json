@@ -1,0 +1,23 @@
+{
+  "version": "1.0.1",
+  "publicGameCommit": "cc926ecfa0c397017e0394f883e1520d985a66a0",
+  "testCommit": "1b3601e",
+  "productionRuntimeSha256": "16dabff682452213fdd7791c9ff3188a10fda91069a7021bdf40f4ee12fdba79",
+  "debuggerSha256": "d379f848f4e6637a3d2355e787c752789f7e3f3dfef31a497e20fbea710dd340",
+  "debuggerReusedFrom": "v1.0.0",
+  "qaIncluded": false,
+  "validation": {
+    "editMode": [
+      69,
+      69,
+      69
+    ],
+    "playMode": 87,
+    "robotBusiness": 1,
+    "robotExternal": 3
+  },
+  "archiveSha256": "8fc5ece30f0691952b8e8188e9a397f19406d3cf4aabd5a8f666e475349dfa1b",
+  "archiveBytes": 136040633,
+  "fileCount": 153,
+  "allArchiveEntriesMatch": true
+}

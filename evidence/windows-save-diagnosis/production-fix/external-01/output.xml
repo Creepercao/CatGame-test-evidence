@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-14T21:42:26.187298" rpa="false" schemaversion="5">
+<suite id="s1" name="External Debugger" source="PROJECT_ROOT\Tests\robot\tests\external_debugger.robot">
+<test id="s1-t1" name="Default Path Supports Low Integrity Without Overrides" line="5">
+<kw name="Run Process" owner="Process">
+<msg time="2026-11-14T21:42:26.247537" level="INFO">Starting process:
+python tools/external_debugger/test_default_paths.py</msg>
+<msg time="2026-11-14T21:42:26.265607" level="INFO">Waiting for process to complete.</msg>
+<msg time="2026-11-14T21:42:26.657593" level="INFO">Process completed.</msg>
+<msg time="2026-11-14T21:42:26.657593" level="INFO">${run} = &lt;result object with rc 0&gt;</msg>
+<var>${run}</var>
+<arg>python</arg>
+<arg>tools/external_debugger/test_default_paths.py</arg>
+<arg>stdout=${OUTPUT DIR}/default-path.log</arg>
+<arg>stderr=STDOUT</arg>
+<doc>Runs a process and waits for it to complete.</doc>
+<status status="PASS" start="2026-11-14T21:42:26.246027" elapsed="0.411566"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-14T21:42:26.658577" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${run.rc}</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-11-14T21:42:26.657593" elapsed="0.000984"/>
+</kw>
+<status status="PASS" start="2026-11-14T21:42:26.245037" elapsed="0.413540"/>
+</test>
+<test id="s1-t2" name="External Live Debugger Auth Edits Dedup Modal Roster Persistence And Stress" line="9">
+<kw name="Run Process" owner="Process">
+<msg time="2026-11-14T21:42:26.662144" level="INFO">Starting process:
+python tools/external_debugger/verify_live.py PROJECT_ROOT\Build\SaveDiagnosis\production-fix\external-01/live</msg>
+<msg time="2026-11-14T21:42:26.674653" level="INFO">Waiting for process to complete.</msg>
+<msg time="2026-11-14T21:42:43.052326" level="INFO">Process completed.</msg>
+<msg time="2026-11-14T21:42:43.052326" level="INFO">${run} = &lt;result object with rc 0&gt;</msg>
+<var>${run}</var>
+<arg>python</arg>
+<arg>tools/external_debugger/verify_live.py</arg>
+<arg>${OUTPUT DIR}/live</arg>
+<arg>stdout=${OUTPUT DIR}/verification.log</arg>
+<arg>stderr=STDOUT</arg>
+<arg>timeout=120s</arg>
+<arg>on_timeout=terminate</arg>
+<doc>Runs a process and waits for it to complete.</doc>
+<status status="PASS" start="2026-11-14T21:42:26.659557" elapsed="16.393351"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-14T21:42:43.052908" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${run.rc}</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-11-14T21:42:43.052908" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2026-11-14T21:42:26.659557" elapsed="16.393351"/>
+</test>
+<test id="s1-t3" name="External Window Controls Render And Wire Commands" line="13">
+<kw name="Run Process" owner="Process">
+<msg time="2026-11-14T21:42:43.055849" level="INFO">Starting process:
+python tools/external_debugger/verify_gui.py PROJECT_ROOT\Build\SaveDiagnosis\production-fix\external-01/gui</msg>
+<msg time="2026-11-14T21:42:43.070614" level="INFO">Waiting for process to complete.</msg>
+<msg time="2026-11-14T21:42:44.175786" level="INFO">Process completed.</msg>
+<msg time="2026-11-14T21:42:44.175786" level="INFO">${run} = &lt;result object with rc 0&gt;</msg>
+<var>${run}</var>
+<arg>python</arg>
+<arg>tools/external_debugger/verify_gui.py</arg>
+<arg>${OUTPUT DIR}/gui</arg>
+<arg>stdout=${OUTPUT DIR}/gui.log</arg>
+<arg>stderr=STDOUT</arg>
+<arg>timeout=30s</arg>
+<arg>on_timeout=terminate</arg>
+<doc>Runs a process and waits for it to complete.</doc>
+<status status="PASS" start="2026-11-14T21:42:43.053892" elapsed="1.121894"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-14T21:42:44.176827" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${run.rc}</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-11-14T21:42:44.175786" elapsed="0.001604"/>
+</kw>
+<status status="PASS" start="2026-11-14T21:42:43.052908" elapsed="1.124482"/>
+</test>
+<status status="PASS" start="2026-11-14T21:42:26.189839" elapsed="17.988540"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="External Debugger" id="s1" pass="3" fail="0" skip="0">External Debugger</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

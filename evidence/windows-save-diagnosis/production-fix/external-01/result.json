@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "defaultRegistry": false,
+  "registry": "PROJECT_ROOT\\Build\\SaveDiagnosis\\production-fix\\external-01\\live\\registry",
+  "exit_code": 0,
+  "requests": 57,
+  "operations": 40,
+  "duplicateAppliedOnce": true,
+  "invalidAndModalRejected": true,
+  "visibleFinal": 11
+}

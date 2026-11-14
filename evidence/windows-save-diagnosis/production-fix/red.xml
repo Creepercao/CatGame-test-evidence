@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="7" result="Failed(Child)" total="7" passed="2" failed="5" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-14 13:20:15Z" end-time="2026-11-14 13:20:15Z" duration="0.3121526">
+  <test-suite type="TestSuite" id="1089" name="喵屋" fullname="喵屋" runstate="Runnable" testcasecount="69" result="Failed" site="Child" start-time="2026-11-14 13:20:15Z" end-time="2026-11-14 13:20:15Z" duration="0.312153" total="7" passed="2" failed="5" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1171" name="CatGame.EditTests.dll" fullname="PROJECT_ROOT/Library/ScriptAssemblies/CatGame.EditTests.dll" runstate="Runnable" testcasecount="69" result="Failed" site="Child" start-time="2026-11-14 13:20:15Z" end-time="2026-11-14 13:20:15Z" duration="0.296336" total="7" passed="2" failed="5" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="62304" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1172" name="CatGame" fullname="CatGame" runstate="Runnable" testcasecount="69" result="Failed" site="Child" start-time="2026-11-14 13:20:15Z" end-time="2026-11-14 13:20:15Z" duration="0.295355" total="7" passed="2" failed="5" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1173" name="EditTests" fullname="CatGame.EditTests" runstate="Runnable" testcasecount="69" result="Failed" site="Child" start-time="2026-11-14 13:20:15Z" end-time="2026-11-14 13:20:15Z" duration="0.291830" total="7" passed="2" failed="5" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1122" name="SaveSystemTests" fullname="CatGame.EditTests.SaveSystemTests" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" testcasecount="18" result="Failed" site="Child" start-time="2026-11-14 13:20:15Z" end-time="2026-11-14 13:20:15Z" duration="0.287150" total="7" passed="2" failed="5" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="ParameterizedMethod" id="1138" name="Windows_persistent_or_other_replacement_failures_remain_visible" fullname="CatGame.EditTests.SaveSystemTests.Windows_persistent_or_other_replacement_failures_remain_visible" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-11-14 13:20:15Z" end-time="2026-11-14 13:20:15Z" duration="0.173911" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1135" name="Windows_persistent_or_other_replacement_failures_remain_visible(-2147023721,4)" fullname="CatGame.EditTests.SaveSystemTests.Windows_persistent_or_other_replacement_failures_remain_visible(-2147023721,4)" methodname="Windows_persistent_or_other_replacement_failures_remain_visible" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="443638575" result="Failed" start-time="2026-11-14 13:20:15Z" end-time="2026-11-14 13:20:15Z" duration="0.095606" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[  Expected: 4
+  But was:  1
+]]></message>
+                  <stack-trace><![CDATA[at CatGame.EditTests.SaveSystemTests.Windows_persistent_or_other_replacement_failures_remain_visible (System.Int32 code, System.Int32 expectedCalls) [0x00074] in PROJECT_ROOT\Assets\Tests\EditMode\SaveSystemTests.cs:228
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1136" name="Windows_persistent_or_other_replacement_failures_remain_visible(-2147024864,1)" fullname="CatGame.EditTests.SaveSystemTests.Windows_persistent_or_other_replacement_failures_remain_visible(-2147024864,1)" methodname="Windows_persistent_or_other_replacement_failures_remain_visible" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="483239479" result="Passed" start-time="2026-11-14 13:20:15Z" end-time="2026-11-14 13:20:15Z" duration="0.034501" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1137" name="Windows_persistent_or_other_replacement_failures_remain_visible(-2147023720,1)" fullname="CatGame.EditTests.SaveSystemTests.Windows_persistent_or_other_replacement_failures_remain_visible(-2147023720,1)" methodname="Windows_persistent_or_other_replacement_failures_remain_visible" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="1164675725" result="Passed" start-time="2026-11-14 13:20:15Z" end-time="2026-11-14 13:20:15Z" duration="0.027244" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1134" name="Windows_transient_replacement_retries_the_same_pending_save" fullname="CatGame.EditTests.SaveSystemTests.Windows_transient_replacement_retries_the_same_pending_save" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2026-11-14 13:20:15Z" end-time="2026-11-14 13:20:15Z" duration="0.107257" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1130" name="Windows_transient_replacement_retries_the_same_pending_save(1,True)" fullname="CatGame.EditTests.SaveSystemTests.Windows_transient_replacement_retries_the_same_pending_save(1,True)" methodname="Windows_transient_replacement_retries_the_same_pending_save" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="1396190397" result="Failed" label="Error" start-time="2026-11-14 13:20:15Z" end-time="2026-11-14 13:20:15Z" duration="0.029428" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[CatGame.EditTests.SaveSystemTests+ReplacementFailure : Controlled file replacement failure]]></message>
+                  <stack-trace><![CDATA[  at CatGame.EditTests.SaveSystemTests+<>c__DisplayClass12_0.<Windows_transient_replacement_retries_the_same_pending_save>b__0 (System.String source, System.String destination, System.String old) [0x000b0] in PROJECT_ROOT\Assets\Tests\EditMode\SaveSystemTests.cs:206 
+  at CatGame.Idle.SaveSystem.WriteSave (System.String path, CatGame.Idle.GameState state, System.Boolean keepPrevious, System.Action`3[T1,T2,T3] replaceFile, System.Action`1[T] wait) [0x00077] in PROJECT_ROOT\Assets\Scripts\Idle\SaveSystem.cs:246 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at CatGame.EditTests.SaveSystemTests.WriteWithReplacement (CatGame.Idle.GameState state, System.Boolean backup, System.Action`3[T1,T2,T3] replace, System.Collections.Generic.List`1[T] waits) [0x00050] in PROJECT_ROOT\Assets\Tests\EditMode\SaveSystemTests.cs:169 
+  at CatGame.EditTests.SaveSystemTests.Windows_transient_replacement_retries_the_same_pending_save (System.Int32 failures, System.Boolean backup) [0x00056] in PROJECT_ROOT\Assets\Tests\EditMode\SaveSystemTests.cs:198 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1131" name="Windows_transient_replacement_retries_the_same_pending_save(3,True)" fullname="CatGame.EditTests.SaveSystemTests.Windows_transient_replacement_retries_the_same_pending_save(3,True)" methodname="Windows_transient_replacement_retries_the_same_pending_save" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="1012297748" result="Failed" label="Error" start-time="2026-11-14 13:20:15Z" end-time="2026-11-14 13:20:15Z" duration="0.024153" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[CatGame.EditTests.SaveSystemTests+ReplacementFailure : Controlled file replacement failure]]></message>
+                  <stack-trace><![CDATA[  at CatGame.EditTests.SaveSystemTests+<>c__DisplayClass12_0.<Windows_transient_replacement_retries_the_same_pending_save>b__0 (System.String source, System.String destination, System.String old) [0x000b0] in PROJECT_ROOT\Assets\Tests\EditMode\SaveSystemTests.cs:206 
+  at CatGame.Idle.SaveSystem.WriteSave (System.String path, CatGame.Idle.GameState state, System.Boolean keepPrevious, System.Action`3[T1,T2,T3] replaceFile, System.Action`1[T] wait) [0x00077] in PROJECT_ROOT\Assets\Scripts\Idle\SaveSystem.cs:246 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at CatGame.EditTests.SaveSystemTests.WriteWithReplacement (CatGame.Idle.GameState state, System.Boolean backup, System.Action`3[T1,T2,T3] replace, System.Collections.Generic.List`1[T] waits) [0x00050] in PROJECT_ROOT\Assets\Tests\EditMode\SaveSystemTests.cs:169 
+  at CatGame.EditTests.SaveSystemTests.Windows_transient_replacement_retries_the_same_pending_save (System.Int32 failures, System.Boolean backup) [0x00056] in PROJECT_ROOT\Assets\Tests\EditMode\SaveSystemTests.cs:198 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1132" name="Windows_transient_replacement_retries_the_same_pending_save(1,False)" fullname="CatGame.EditTests.SaveSystemTests.Windows_transient_replacement_retries_the_same_pending_save(1,False)" methodname="Windows_transient_replacement_retries_the_same_pending_save" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="1990122749" result="Failed" label="Error" start-time="2026-11-14 13:20:15Z" end-time="2026-11-14 13:20:15Z" duration="0.023536" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[CatGame.EditTests.SaveSystemTests+ReplacementFailure : Controlled file replacement failure]]></message>
+                  <stack-trace><![CDATA[  at CatGame.EditTests.SaveSystemTests+<>c__DisplayClass12_0.<Windows_transient_replacement_retries_the_same_pending_save>b__0 (System.String source, System.String destination, System.String old) [0x000b0] in PROJECT_ROOT\Assets\Tests\EditMode\SaveSystemTests.cs:206 
+  at CatGame.Idle.SaveSystem.WriteSave (System.String path, CatGame.Idle.GameState state, System.Boolean keepPrevious, System.Action`3[T1,T2,T3] replaceFile, System.Action`1[T] wait) [0x00077] in PROJECT_ROOT\Assets\Scripts\Idle\SaveSystem.cs:246 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at CatGame.EditTests.SaveSystemTests.WriteWithReplacement (CatGame.Idle.GameState state, System.Boolean backup, System.Action`3[T1,T2,T3] replace, System.Collections.Generic.List`1[T] waits) [0x00050] in PROJECT_ROOT\Assets\Tests\EditMode\SaveSystemTests.cs:169 
+  at CatGame.EditTests.SaveSystemTests.Windows_transient_replacement_retries_the_same_pending_save (System.Int32 failures, System.Boolean backup) [0x00056] in PROJECT_ROOT\Assets\Tests\EditMode\SaveSystemTests.cs:198 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case id="1133" name="Windows_transient_replacement_retries_the_same_pending_save(3,False)" fullname="CatGame.EditTests.SaveSystemTests.Windows_transient_replacement_retries_the_same_pending_save(3,False)" methodname="Windows_transient_replacement_retries_the_same_pending_save" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="2005910713" result="Failed" label="Error" start-time="2026-11-14 13:20:15Z" end-time="2026-11-14 13:20:15Z" duration="0.027576" asserts="0">
+                <properties />
+                <failure>
+                  <message><![CDATA[CatGame.EditTests.SaveSystemTests+ReplacementFailure : Controlled file replacement failure]]></message>
+                  <stack-trace><![CDATA[  at CatGame.EditTests.SaveSystemTests+<>c__DisplayClass12_0.<Windows_transient_replacement_retries_the_same_pending_save>b__0 (System.String source, System.String destination, System.String old) [0x000b0] in PROJECT_ROOT\Assets\Tests\EditMode\SaveSystemTests.cs:206 
+  at CatGame.Idle.SaveSystem.WriteSave (System.String path, CatGame.Idle.GameState state, System.Boolean keepPrevious, System.Action`3[T1,T2,T3] replaceFile, System.Action`1[T] wait) [0x00077] in PROJECT_ROOT\Assets\Scripts\Idle\SaveSystem.cs:246 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at CatGame.EditTests.SaveSystemTests.WriteWithReplacement (CatGame.Idle.GameState state, System.Boolean backup, System.Action`3[T1,T2,T3] replace, System.Collections.Generic.List`1[T] waits) [0x00050] in PROJECT_ROOT\Assets\Tests\EditMode\SaveSystemTests.cs:169 
+  at CatGame.EditTests.SaveSystemTests.Windows_transient_replacement_retries_the_same_pending_save (System.Int32 failures, System.Boolean backup) [0x00056] in PROJECT_ROOT\Assets\Tests\EditMode\SaveSystemTests.cs:198 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 ]]></stack-trace>
+                </failure>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

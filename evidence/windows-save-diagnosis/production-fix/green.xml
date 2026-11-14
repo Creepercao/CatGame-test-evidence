@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="7" result="Passed" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-14 13:21:37Z" end-time="2026-11-14 13:21:37Z" duration="0.4089199">
+  <test-suite type="TestSuite" id="1089" name="喵屋" fullname="喵屋" runstate="Runnable" testcasecount="69" result="Passed" start-time="2026-11-14 13:21:37Z" end-time="2026-11-14 13:21:37Z" duration="0.408920" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1171" name="CatGame.EditTests.dll" fullname="PROJECT_ROOT/Library/ScriptAssemblies/CatGame.EditTests.dll" runstate="Runnable" testcasecount="69" result="Passed" start-time="2026-11-14 13:21:37Z" end-time="2026-11-14 13:21:37Z" duration="0.388183" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="58320" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <test-suite type="TestSuite" id="1172" name="CatGame" fullname="CatGame" runstate="Runnable" testcasecount="69" result="Passed" start-time="2026-11-14 13:21:37Z" end-time="2026-11-14 13:21:37Z" duration="0.386191" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1173" name="EditTests" fullname="CatGame.EditTests" runstate="Runnable" testcasecount="69" result="Passed" start-time="2026-11-14 13:21:37Z" end-time="2026-11-14 13:21:37Z" duration="0.382394" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1122" name="SaveSystemTests" fullname="CatGame.EditTests.SaveSystemTests" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" testcasecount="18" result="Passed" start-time="2026-11-14 13:21:37Z" end-time="2026-11-14 13:21:37Z" duration="0.377298" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="ParameterizedMethod" id="1138" name="Windows_persistent_or_other_replacement_failures_remain_visible" fullname="CatGame.EditTests.SaveSystemTests.Windows_persistent_or_other_replacement_failures_remain_visible" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-14 13:21:37Z" end-time="2026-11-14 13:21:37Z" duration="0.186144" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1135" name="Windows_persistent_or_other_replacement_failures_remain_visible(-2147023721,4)" fullname="CatGame.EditTests.SaveSystemTests.Windows_persistent_or_other_replacement_failures_remain_visible(-2147023721,4)" methodname="Windows_persistent_or_other_replacement_failures_remain_visible" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="120022904" result="Passed" start-time="2026-11-14 13:21:37Z" end-time="2026-11-14 13:21:37Z" duration="0.108584" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1136" name="Windows_persistent_or_other_replacement_failures_remain_visible(-2147024864,1)" fullname="CatGame.EditTests.SaveSystemTests.Windows_persistent_or_other_replacement_failures_remain_visible(-2147024864,1)" methodname="Windows_persistent_or_other_replacement_failures_remain_visible" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="1816836683" result="Passed" start-time="2026-11-14 13:21:37Z" end-time="2026-11-14 13:21:37Z" duration="0.029458" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1137" name="Windows_persistent_or_other_replacement_failures_remain_visible(-2147023720,1)" fullname="CatGame.EditTests.SaveSystemTests.Windows_persistent_or_other_replacement_failures_remain_visible(-2147023720,1)" methodname="Windows_persistent_or_other_replacement_failures_remain_visible" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="1612129196" result="Passed" start-time="2026-11-14 13:21:37Z" end-time="2026-11-14 13:21:37Z" duration="0.027765" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1134" name="Windows_transient_replacement_retries_the_same_pending_save" fullname="CatGame.EditTests.SaveSystemTests.Windows_transient_replacement_retries_the_same_pending_save" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-11-14 13:21:37Z" end-time="2026-11-14 13:21:37Z" duration="0.183577" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1130" name="Windows_transient_replacement_retries_the_same_pending_save(1,True)" fullname="CatGame.EditTests.SaveSystemTests.Windows_transient_replacement_retries_the_same_pending_save(1,True)" methodname="Windows_transient_replacement_retries_the_same_pending_save" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="1286360825" result="Passed" start-time="2026-11-14 13:21:37Z" end-time="2026-11-14 13:21:37Z" duration="0.051945" asserts="0">
+                <properties />
+                <output><![CDATA[Recovered CatGame save replacement after 1 transient error(s).
+]]></output>
+              </test-case>
+              <test-case id="1131" name="Windows_transient_replacement_retries_the_same_pending_save(3,True)" fullname="CatGame.EditTests.SaveSystemTests.Windows_transient_replacement_retries_the_same_pending_save(3,True)" methodname="Windows_transient_replacement_retries_the_same_pending_save" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="1612242866" result="Passed" start-time="2026-11-14 13:21:37Z" end-time="2026-11-14 13:21:37Z" duration="0.045251" asserts="0">
+                <properties />
+                <output><![CDATA[Recovered CatGame save replacement after 3 transient error(s).
+]]></output>
+              </test-case>
+              <test-case id="1132" name="Windows_transient_replacement_retries_the_same_pending_save(1,False)" fullname="CatGame.EditTests.SaveSystemTests.Windows_transient_replacement_retries_the_same_pending_save(1,False)" methodname="Windows_transient_replacement_retries_the_same_pending_save" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="93337768" result="Passed" start-time="2026-11-14 13:21:37Z" end-time="2026-11-14 13:21:37Z" duration="0.035257" asserts="0">
+                <properties />
+                <output><![CDATA[Recovered CatGame save replacement after 1 transient error(s).
+]]></output>
+              </test-case>
+              <test-case id="1133" name="Windows_transient_replacement_retries_the_same_pending_save(3,False)" fullname="CatGame.EditTests.SaveSystemTests.Windows_transient_replacement_retries_the_same_pending_save(3,False)" methodname="Windows_transient_replacement_retries_the_same_pending_save" classname="CatGame.EditTests.SaveSystemTests" runstate="Runnable" seed="1488647044" result="Passed" start-time="2026-11-14 13:21:37Z" end-time="2026-11-14 13:21:37Z" duration="0.049195" asserts="0">
+                <properties />
+                <output><![CDATA[Recovered CatGame save replacement after 3 transient error(s).
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

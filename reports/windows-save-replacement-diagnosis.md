@@ -1,5 +1,7 @@
 # Windows 存档替换失败排查
 
+> 当前进度：Windows 有限恢复已实现，确定性 7/7、三轮完整 EditMode 各 69/69、PlayMode 87/87 通过。正式 Windows 包干净复建成功，QA 干净复建及真实进程回归正在执行，尚未发布新 Windows 包。下面保留从“未改生产”开始的原始诊断时间线。
+
 2026-11-14，承接 TODO M16。目标是确定压力测试中 Win32 1175 的触发层次和安全恢复条件，不以新通过记录覆盖此前失败。当前 Android 预览 APK、Windows 发行包和生产保存代码均未修改。
 
 ## 原始游戏路径复现
@@ -42,3 +44,39 @@ native-retry-01 六组各完成 1000 次，共 6000 次成功提交，退出 0�
 为保持可比性，随后同一工具以 --retries 0 运行 native-strict-02，失败时返回 1，而不是旧一次性探针的脚本遍历退出 0。旧探针结果必须按每组 completed/error 解读，不能把进程 0 计作六组保存通过。新工具 source 已纳入私有工程 Git；生产游戏保存代码和发行包本轮仍未改变。
 
 同工具无重试对照 native-strict-02 已结束，六组完成数依次 328/527/117/1000/143/140，五组记录 1175、一组完整通过，整体退出 1。说明仍有间歇性，不能将少量自然通过当作根因消失。工具提交 a242ae1，作者 Creepercao。原有游戏存档代码和发行版未变。
+
+## 本轮证据收尾
+
+独立证据仓库已推送 f48ed13，核验脚本已检查 585 份材料及本轮失败 XML、三份保存现场、原生对照和 11 个重试前错误事件。原工程诊断工具提交 a242ae1。游戏发行包和生产保存代码未改，M16 未关闭；下一步是保存层确定性故障注入及有限恢复策略的生产验证。
+
+公开报告：https://github.com/Creepercao/CatGame-test-evidence/blob/f48ed13/reports/windows-save-replacement-diagnosis.md
+
+## 保存路径确定性红绿（2026-11-14）
+
+首先为私有 WriteSave 增加无全局状态的替换/等待依赖参数，正式 SaveToPath、SaveNow 和备份恢复入口仍调用同一方法。测试走实际 JSON 临时写入、替换及读回路径，仅在替换边界注入指定 HRESULT，记录调用次数与等待，未假造整个保存结果。
+
+七项覆盖短暂 1175 分别失败 1/3 次、有/无备份共四项；持续 1175、共享冲突 0x80070020、其他替换错误 0x80070498 共三项。red.xml 为 2/7 通过、5 项失败，Unity 退出 2、CLI 退出 8；两个本来就符合的其他错误传播用例通过。
+
+红灯后实现仅 Windows 的 1175 有限恢复：原调用加最多三次重试，间隔 10ms，最大额外等待 30ms；不删除已提交主档或备份，不重新生成待提交 JSON，其他错误不重试，持续失败重新抛出原异常。恢复成功时记录重试次数。Android 的编译分支保持原单次 File.Replace。green.xml 正在执行，尚未更新完成勾选。
+
+确定性绿灯 green.xml 已为 7/7、退出 0。完整回归当前第一、第二轮 EditMode 各 69/69，第三轮与 PlayMode 尚在顺序执行。完整用例数新增七项，原千次压力循环及字段断言未放宽；直接写路径与其他 I/O 异常仍保留原异常传播。
+
+### 完整回归与正式包首轮
+
+三轮完整 EditMode 均 69/69，PlayMode 87/87，全部退出 0；三轮真实千次压力路径分别记录 2/1/4 次原生1175恢复，共7次，非仅注入错误。压力耗时分别 9851/10920/11075ms。生产/用例/隔离构建入口提交 1b3601e，纯游戏源码提交 cc926ec。Windows版本 1.0.1，现有Android v4发行包不变。
+
+Windows首轮构建 CLI 与 BuildReport 成功、退出0，日志仍出现过 UiKit引用SafeAreaLayout 的 CS0246，后续编译恢复并产出包。该轮标记待复核，保留 Release 目录及 release-build.log；源码中的 SafeAreaLayout 类实际存在。未据最终成功忽略中途错误，已从相同源码在 Release-02 隔离目录重建，完成后检查干净日志与实际 Player。CLI初轮缺 Git来源字段，复建仅在当前进程传 safe.directory 到 Git，不修改全局Git信任范围。
+
+正式包复建 Release-02 已成功、退出0，未再出现脚本编译错误；旧许可客户端消息仍保留。复建自带 provenance 仍缺 Git source 字段，因此实际来源还须结合已提交 cc926ec、干净工作区、源文件摘要和程序集摘要，不以 JSON 单独声称来源完整。QA包正在独立目录构建，下一步 Robot 真实进程保存与重启；Windows新修复包尚未发布。
+
+私有 QA 首次切换 Windows 时也出现相同 SafeAreaLayout 编译错误，最终 BuildReport 成功。保留 QA 和 qa-build.log，另在 QA-02 复建。当前只记录两个工程均在首轮切换后出现、正式包第二轮消失的观察，未确认缓存或具体 Unity 组件根因；不据猜测改源码。
+
+### 实际 Windows QA Player 业务回归
+
+QA-02 干净构建成功，无脚本编译错误，provenance 含来源 1b3601e/dirty=false。business-01 的 Robot 1/1 通过，执行真实两个进程的新档、200次摸猫、购买、保存退出、新进程继续并保留两猫。数据由 GameBusiness 独立目录隔离；这是 Unity 回调桥的实际Player测试，不声称原生鼠标输入。随后用 v1.0.0 已发行独立修改器运行既有 external_debugger.robot，测试尚未结束，不预报通过。正式包 Release-02 与 QA-02 的程序集不同，分别记录哈希，不能把QA二进制当作正式包。
+
+### Player、修改器与分发包核对
+
+业务 Robot 1/1：12步骤，PID61284→67200，两进程正常退出0且两猫恢复。external-01 Robot3/3：修改器默认路径、真实 RPC/GUI 和独立EXE自动连接，57请求/40次操作与操作前备份留档；独立EXE复用 v1.0.0，SHA256 d379f848f4e6637a3d2355e787c752789f7e3f3dfef31a497e20fbea710dd340。均在QA隔离目录，未写普通玩家存档。
+
+分发候选 Build/Releases/v1.0.1/CatGame-Windows-x64-v1.0.1.zip，136040633字节、153个文件，ZIP内每项 SHA 与候选目录一致，CRC通过；ZIP SHA256 8fc5ece30f0691952b8e8188e9a397f19406d3cf4aabd5a8f666e475349dfa1b。只包含普通游戏运行文件、修改器和使用/来源说明，不含QA包。正式Runtime DLL SHA256 16dabff682452213fdd7791c9ff3188a10fda91069a7021bdf40f4ee12fdba79，验证含Windows恢复消息、无QA/测试类型标识。这是二进制静态检查，不冒充普通Player原生输入全链路。新Windows发行版尚未公开。

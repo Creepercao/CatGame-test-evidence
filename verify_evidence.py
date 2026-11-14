@@ -315,6 +315,34 @@ def main():
     errors = [error for row in retried for error in row['errors']]
     assert len(errors) == 11 and all(e['win32Error'] == 1175 and e['primaryPreserved'] and e['temporaryPreserved'] and e['attempt'] == 0 for e in errors)
     print('PASS Windows save failure snapshots, native reproduction and explicit bounded-retry diagnostic')
+    base = 'evidence/windows-save-diagnosis/production-fix'
+    for name, passed, failed in [('red.xml',2,5), ('green.xml',7,0), ('EditMode-1.xml',69,0),
+                                ('EditMode-2.xml',69,0), ('EditMode-3.xml',69,0), ('PlayMode.xml',87,0)]:
+        report = ET.parse(ROOT / base / name).getroot()
+        assert int(report.get('passed')) == passed and int(report.get('failed')) == failed
+    recovered = []
+    for index in range(1, 4):
+        case = ET.parse(ROOT / base / f'EditMode-{index}.xml').find('.//test-case[@methodname="Stress_save_load_round_trips_one_thousand_cycles_and_recovers_midway_corruption"]')
+        output = case.findtext('output') or ''
+        assert case.get('result') == 'Passed' and 'roundTrips=1000' in output
+        recovered.append(output.count('Recovered CatGame save replacement after'))
+    assert recovered == [2,1,4]
+    assert len(read(f'{base}/exits.json')) == 4 and all(row['exitCode'] == 0 for row in read(f'{base}/exits.json'))
+    steps = [json.loads(line) for line in (ROOT / base / 'business-01/steps.jsonl').read_text(encoding='utf-8').splitlines()]
+    assert len(steps) == 12
+    launches = [row['result']['pid'] for row in steps if row['action'] == 'launch']
+    exits = [row['result'] for row in steps if row['action'] == 'normal-exit']
+    assert len(set(launches)) == 2 and [row['pid'] for row in exits] == launches and all(row['exitCode'] == 0 for row in exits)
+    for run, count in [('business-01',1), ('external-01',3)]:
+        tests = ET.parse(ROOT / base / run / 'output.xml').findall('.//test')
+        assert len(tests) == count and all(test.find('status').get('status') == 'PASS' for test in tests)
+    external = read(f'{base}/external-01/result.json')
+    assert external['passed'] and external['requests'] == 57 and external['operations'] == 40
+    assert read(f'{base}/external-01/exe-smoke.json')['connected']
+    package = read(f'{base}/package-verification.json')
+    assert package['allArchiveEntriesMatch'] and not package['qaIncluded'] and package['fileCount'] == 153
+    assert package['publicGameCommit'] == read('provenance.json')['windowsSaveFix']['publicGameCommit']
+    print('PASS Windows save fix red/green, three stress reruns, process restart and debugger/package checks')
     print('All evidence checks passed; no new Unity/Robot execution performed.')
 
 if __name__=='__main__': main()

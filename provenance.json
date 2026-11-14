@@ -159,8 +159,8 @@
     {
       "source": "Assets/Tests/EditMode/SaveSystemTests.cs",
       "path": "harness/Assets/Tests/EditMode/SaveSystemTests.cs",
-      "sourceSha256": "c910c4f01dbfd1a4e59804dd3117a3ebd13bddcd4ca2409adea8db636cc96536",
-      "publishedSha256": "c910c4f01dbfd1a4e59804dd3117a3ebd13bddcd4ca2409adea8db636cc96536",
+      "sourceSha256": "75cbb62f763f0e5552d8beddf916495082438369ee441a2d9af060deb53faab4",
+      "publishedSha256": "75cbb62f763f0e5552d8beddf916495082438369ee441a2d9af060deb53faab4",
       "transformed": false
     },
     {
@@ -4093,8 +4093,141 @@
     {
       "source": "docs/Windows存档替换失败排查.md",
       "path": "reports/windows-save-replacement-diagnosis.md",
-      "sourceSha256": "1b3ce7b09b108853762d76c368925dfe902e688d1d29b351ea6a0c2c8b299e3d",
-      "publishedSha256": "1b3ce7b09b108853762d76c368925dfe902e688d1d29b351ea6a0c2c8b299e3d",
+      "sourceSha256": "23e229d566b984e9e8aad51d6675ee12e2dc0d26fe3f4cf46f4cb4afb0c48b6a",
+      "publishedSha256": "23e229d566b984e9e8aad51d6675ee12e2dc0d26fe3f4cf46f4cb4afb0c48b6a",
+      "transformed": false
+    },
+    {
+      "source": "Build/SaveDiagnosis/production-fix/red.xml",
+      "path": "evidence/windows-save-diagnosis/production-fix/red.xml",
+      "sourceSha256": "3698e33db8368c780b206094afb872ecbcfb4152b6372e648b330cd4505cb2d8",
+      "publishedSha256": "ab84348e3b22d1f1961cbb283a2795ca2a1209a78e04df8773a65721c09a01ee",
+      "transformed": true
+    },
+    {
+      "source": "Build/SaveDiagnosis/production-fix/green.xml",
+      "path": "evidence/windows-save-diagnosis/production-fix/green.xml",
+      "sourceSha256": "5d641bd73fbacbf88476497621b803b33f0a76b5c6a04bee9cb16f2e1e5fc2ca",
+      "publishedSha256": "36e610f88058deeeaa4eda690101a60ea0056ee7ddec1295438233964b8545f5",
+      "transformed": true
+    },
+    {
+      "source": "Build/SaveDiagnosis/production-fix/EditMode-1.xml",
+      "path": "evidence/windows-save-diagnosis/production-fix/EditMode-1.xml",
+      "sourceSha256": "f86fbfc237a13feaa5faf75af501c8739377feb832df1b38ebf16a2f53bec073",
+      "publishedSha256": "28e816c2f916b667a2e25595f6090c91bc837c8538104f948bee754287ab16a8",
+      "transformed": true
+    },
+    {
+      "source": "Build/SaveDiagnosis/production-fix/EditMode-2.xml",
+      "path": "evidence/windows-save-diagnosis/production-fix/EditMode-2.xml",
+      "sourceSha256": "ffdcbd89fe5be011e0bb68a70ab11cf0ad6d8630e8678320f7f2beeb90d5038b",
+      "publishedSha256": "9be1aa0ccc2a820786eb55c57bb67efa48f73f528f9b8e50db48d59b3964c3c5",
+      "transformed": true
+    },
+    {
+      "source": "Build/SaveDiagnosis/production-fix/EditMode-3.xml",
+      "path": "evidence/windows-save-diagnosis/production-fix/EditMode-3.xml",
+      "sourceSha256": "4f5837b46ba2bffa930904d032b40460b3438058ce3a9773ace1667b14e89d80",
+      "publishedSha256": "78aab302c3b9aa3285ea0e3fcb5cb7971a2d18d781445e64d16b04b7b8aa2de7",
+      "transformed": true
+    },
+    {
+      "source": "Build/SaveDiagnosis/production-fix/PlayMode.xml",
+      "path": "evidence/windows-save-diagnosis/production-fix/PlayMode.xml",
+      "sourceSha256": "0e26491020f6d0b6d519ef0817f95c6b1677a58818ae36b38eea88679bcc5f67",
+      "publishedSha256": "e196f2b8ff8575b84f5133b0a3ccf5828db017384e442064991730feee78bfbb",
+      "transformed": true
+    },
+    {
+      "source": "Build/SaveDiagnosis/production-fix/exits.json",
+      "path": "evidence/windows-save-diagnosis/production-fix/exits.json",
+      "sourceSha256": "a671bb46f0f95cc529219450fa7dff802baadf3bff0d8ad732cd4e4f2a317296",
+      "publishedSha256": "a671bb46f0f95cc529219450fa7dff802baadf3bff0d8ad732cd4e4f2a317296",
+      "transformed": false
+    },
+    {
+      "source": "Build/SaveDiagnosis/production-fix/Release/CatGame.provenance.json",
+      "path": "evidence/windows-save-diagnosis/production-fix/Release/CatGame.provenance.json",
+      "sourceSha256": "286f24b55002c4323733f7dbd6b109a2ce1657a64fe3f382b5314721869def1a",
+      "publishedSha256": "286f24b55002c4323733f7dbd6b109a2ce1657a64fe3f382b5314721869def1a",
+      "transformed": false
+    },
+    {
+      "source": "Build/SaveDiagnosis/production-fix/Release-02/CatGame.provenance.json",
+      "path": "evidence/windows-save-diagnosis/production-fix/Release-02/CatGame.provenance.json",
+      "sourceSha256": "e166380dc3a824e3501b006c55617fff436d3deb387251e24484622647943b42",
+      "publishedSha256": "e166380dc3a824e3501b006c55617fff436d3deb387251e24484622647943b42",
+      "transformed": false
+    },
+    {
+      "source": "Build/SaveDiagnosis/production-fix/QA/CatGameQA.provenance.json",
+      "path": "evidence/windows-save-diagnosis/production-fix/QA/CatGameQA.provenance.json",
+      "sourceSha256": "df8edfbd37aa1c9c3917f0dd6f47de962889b2cb2ec4ae95fefda50c17433181",
+      "publishedSha256": "df8edfbd37aa1c9c3917f0dd6f47de962889b2cb2ec4ae95fefda50c17433181",
+      "transformed": false
+    },
+    {
+      "source": "Build/SaveDiagnosis/production-fix/QA-02/CatGameQA.provenance.json",
+      "path": "evidence/windows-save-diagnosis/production-fix/QA-02/CatGameQA.provenance.json",
+      "sourceSha256": "adf9d418d6d8ac5b04bbbb7973b022dfd00d270e292698a7afa844a18ceaf5b2",
+      "publishedSha256": "adf9d418d6d8ac5b04bbbb7973b022dfd00d270e292698a7afa844a18ceaf5b2",
+      "transformed": false
+    },
+    {
+      "source": "Build/SaveDiagnosis/production-fix/business-01/output.xml",
+      "path": "evidence/windows-save-diagnosis/production-fix/business-01/output.xml",
+      "sourceSha256": "2649d1e55eb20c054c5ba6d27a04480a59b20731b5164579f3c6fa501ac5d6f1",
+      "publishedSha256": "ba48eb4ccedecf034b27bcc6c3875321f418528ee55615371eb5d983d86fe28d",
+      "transformed": true
+    },
+    {
+      "source": "Build/SaveDiagnosis/production-fix/business-01/exit-code.txt",
+      "path": "evidence/windows-save-diagnosis/production-fix/business-01/exit-code.txt",
+      "sourceSha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+      "publishedSha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+      "transformed": false
+    },
+    {
+      "source": "Build/SaveDiagnosis/production-fix/external-01/output.xml",
+      "path": "evidence/windows-save-diagnosis/production-fix/external-01/output.xml",
+      "sourceSha256": "93577b226dd7fff1d93f43f3589935524f88195b6412566c47df674c9e9c1e73",
+      "publishedSha256": "91854ee3920473b8f8ae27c8ab2aecaa0ac9cedc241b1e503e9d8ab6417b1e08",
+      "transformed": true
+    },
+    {
+      "source": "Build/SaveDiagnosis/production-fix/external-01/exit-code.txt",
+      "path": "evidence/windows-save-diagnosis/production-fix/external-01/exit-code.txt",
+      "sourceSha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+      "publishedSha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+      "transformed": false
+    },
+    {
+      "source": "Build/SaveDiagnosis/production-fix/business-01/business-343f2deb/steps.jsonl",
+      "path": "evidence/windows-save-diagnosis/production-fix/business-01/steps.jsonl",
+      "sourceSha256": "99d3b195a9c92e4d6d3fd7ffa641c8f81a6f7f1dab8d7a36901d45ad0c112e79",
+      "publishedSha256": "2389699309f5f465444a5ab26342d15acb0ee69d5ef5b682a637e36bc72104b3",
+      "transformed": true
+    },
+    {
+      "source": "Build/SaveDiagnosis/production-fix/external-01/live/result.json",
+      "path": "evidence/windows-save-diagnosis/production-fix/external-01/result.json",
+      "sourceSha256": "799af52b3ad1de9757e6d19b4eea46cddd00ebb35856fe85adb1776030c9c94a",
+      "publishedSha256": "08c0a92ab0b7dca5839346eac7bb065a478eb4ca437f86dc8b8ebe43ed9d3a2c",
+      "transformed": true
+    },
+    {
+      "source": "Build/SaveDiagnosis/production-fix/external-01/live/exe-smoke.json",
+      "path": "evidence/windows-save-diagnosis/production-fix/external-01/exe-smoke.json",
+      "sourceSha256": "5caf987dde34c501e20c7d3ec9ce307273c0f9232cad5a2cb35ffd337849d24e",
+      "publishedSha256": "5caf987dde34c501e20c7d3ec9ce307273c0f9232cad5a2cb35ffd337849d24e",
+      "transformed": false
+    },
+    {
+      "source": "Build/Releases/v1.0.1/package-verification.json",
+      "path": "evidence/windows-save-diagnosis/production-fix/package-verification.json",
+      "sourceSha256": "c1585ae78653d841fb28a986eeddfc69e419f83d12392dcb5f736ae47f5c4b68",
+      "publishedSha256": "c1585ae78653d841fb28a986eeddfc69e419f83d12392dcb5f736ae47f5c4b68",
       "transformed": false
     }
   ],
@@ -4109,5 +4242,9 @@
     "phoneAcceptance": "56ca70d",
     "viewportCorrection": "d4a1d55",
     "samplingReadinessAndCapture": "2a9d6b5"
+  },
+  "windowsSaveFix": {
+    "testCommit": "1b3601e",
+    "publicGameCommit": "cc926ecfa0c397017e0394f883e1520d985a66a0"
   }
 }

@@ -1,6 +1,9 @@
 using System;
 using System.Diagnostics;
 using System.IO;
+using System.Collections.Generic;
+using System.Reflection;
+using System.Runtime.ExceptionServices;
 using System.Text.RegularExpressions;
 using CatGame.Idle;
 using NUnit.Framework;
@@ -147,6 +150,87 @@ namespace CatGame.EditTests
             Assert.AreEqual(3, retried.cats[0].count);
             Assert.AreEqual(20, retried.catHair);
             Assert.IsFalse(File.Exists(_savePath + ".tmp"));
+        }
+
+        sealed class ReplacementFailure : IOException
+        {
+            public ReplacementFailure(int code) : base("Controlled file replacement failure") { HResult = code; }
+        }
+
+        void WriteWithReplacement(GameState state, bool backup, Action<string, string, string> replace, List<int> waits)
+        {
+            try
+            {
+                typeof(SaveSystem).GetMethod("WriteSave", BindingFlags.Static | BindingFlags.NonPublic)
+                    .Invoke(null, new object[] { _savePath, state, backup, replace, new Action<int>(waits.Add) });
+            }
+            catch (TargetInvocationException exception)
+            {
+                ExceptionDispatchInfo.Capture(exception.InnerException).Throw();
+            }
+        }
+
+        GameState ReplacementState()
+        {
+            if (Application.platform != RuntimePlatform.WindowsEditor)
+                Assert.Ignore("Win32 1175 recovery is Windows-specific.");
+            var state = SaveSystem.CreateNewGame();
+            state.catHair = 80;
+            SaveSystem.SaveToPath(_savePath, state);
+            state.catHair = 50;
+            SaveSystem.SaveToPath(_savePath, state);
+            state.catHair = 20;
+            state.cats[0].count = 3;
+            return state;
+        }
+
+        [TestCase(1, true)]
+        [TestCase(3, true)]
+        [TestCase(1, false)]
+        [TestCase(3, false)]
+        public void Windows_transient_replacement_retries_the_same_pending_save(int failures, bool backup)
+        {
+            var state = ReplacementState();
+            byte[] committed = File.ReadAllBytes(_savePath);
+            byte[] previous = File.ReadAllBytes(_savePath + ".bak");
+            var waits = new List<int>();
+            int calls = 0;
+            WriteWithReplacement(state, backup, (source, destination, old) => {
+                Assert.AreEqual(_savePath + ".tmp", source);
+                Assert.AreEqual(_savePath, destination);
+                Assert.AreEqual(backup ? _savePath + ".bak" : null, old);
+                CollectionAssert.AreEqual(committed, File.ReadAllBytes(destination));
+                Assert.AreEqual(20, JsonUtility.FromJson<GameState>(File.ReadAllText(source)).catHair);
+                if (++calls <= failures) throw new ReplacementFailure(unchecked((int)0x80070497));
+                File.Replace(source, destination, old);
+            }, waits);
+            Assert.AreEqual(failures + 1, calls);
+            Assert.AreEqual(failures, waits.Count);
+            Assert.That(waits, Has.All.EqualTo(10));
+            Assert.AreEqual(20, SaveSystem.LoadOrCreate(_savePath).catHair);
+            Assert.IsFalse(File.Exists(_savePath + ".tmp"));
+            CollectionAssert.AreEqual(backup ? committed : previous, File.ReadAllBytes(_savePath + ".bak"));
+        }
+
+        [TestCase(unchecked((int)0x80070497), 4)]
+        [TestCase(unchecked((int)0x80070020), 1)]
+        [TestCase(unchecked((int)0x80070498), 1)]
+        public void Windows_persistent_or_other_replacement_failures_remain_visible(int code, int expectedCalls)
+        {
+            var state = ReplacementState();
+            byte[] committed = File.ReadAllBytes(_savePath);
+            byte[] previous = File.ReadAllBytes(_savePath + ".bak");
+            var waits = new List<int>();
+            int calls = 0;
+            var failure = new ReplacementFailure(code);
+            Assert.AreSame(failure, Assert.Throws<ReplacementFailure>(() =>
+                WriteWithReplacement(state, true, (source, destination, old) => { calls++; throw failure; }, waits)));
+            Assert.AreEqual(expectedCalls, calls);
+            Assert.AreEqual(expectedCalls - 1, waits.Count);
+            Assert.That(waits, Has.All.EqualTo(10));
+            CollectionAssert.AreEqual(committed, File.ReadAllBytes(_savePath));
+            CollectionAssert.AreEqual(previous, File.ReadAllBytes(_savePath + ".bak"));
+            Assert.AreEqual(20, JsonUtility.FromJson<GameState>(File.ReadAllText(_savePath + ".tmp")).catHair);
         }
 
         [Test]
