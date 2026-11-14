@@ -1,6 +1,6 @@
 # Windows 存档替换失败排查
 
-> 当前进度：Windows 有限恢复已实现，确定性 7/7、三轮完整 EditMode 各 69/69、PlayMode 87/87 通过。正式 Windows 包干净复建成功，QA 干净复建及真实进程回归正在执行，尚未发布新 Windows 包。下面保留从“未改生产”开始的原始诊断时间线。
+> 当前进度：Windows 有限恢复已实现，确定性 7/7、三轮完整 EditMode 各 69/69、PlayMode 87/87 通过。正式/QA 干净复建、实际 Player 业务和修改器回归均通过，Windows v1.0.1 已公开且服务端摘要一致。下面保留从“未改生产”开始的原始诊断时间线。
 
 2026-11-14，承接 TODO M16。目标是确定压力测试中 Win32 1175 的触发层次和安全恢复条件，不以新通过记录覆盖此前失败。当前 Android 预览 APK、Windows 发行包和生产保存代码均未修改。
 
@@ -80,3 +80,13 @@ QA-02 干净构建成功，无脚本编译错误，provenance 含来源 1b3601e/
 业务 Robot 1/1：12步骤，PID61284→67200，两进程正常退出0且两猫恢复。external-01 Robot3/3：修改器默认路径、真实 RPC/GUI 和独立EXE自动连接，57请求/40次操作与操作前备份留档；独立EXE复用 v1.0.0，SHA256 d379f848f4e6637a3d2355e787c752789f7e3f3dfef31a497e20fbea710dd340。均在QA隔离目录，未写普通玩家存档。
 
 分发候选 Build/Releases/v1.0.1/CatGame-Windows-x64-v1.0.1.zip，136040633字节、153个文件，ZIP内每项 SHA 与候选目录一致，CRC通过；ZIP SHA256 8fc5ece30f0691952b8e8188e9a397f19406d3cf4aabd5a8f666e475349dfa1b。只包含普通游戏运行文件、修改器和使用/来源说明，不含QA包。正式Runtime DLL SHA256 16dabff682452213fdd7791c9ff3188a10fda91069a7021bdf40f4ee12fdba79，验证含Windows恢复消息、无QA/测试类型标识。这是二进制静态检查，不冒充普通Player原生输入全链路。新Windows发行版尚未公开。
+
+### 发布准备
+
+Windows1.0.1正式分发候选的游戏源码cc926ec与测试证据534114e均已推送，ZIP上传发行草稿中。包内普通 EXE 的文件属性仍显示 Unity引擎版本2022.3.21f1，不据该属性认定应用版本；发行标签、来源ProjectSettings bundleVersion与BUILD-INFO记录为1.0.1。QA包和修改器测试已结束、进程正常退出。Windows发行公开、服务端附件摘要复核尚待完成。
+
+## Windows 1.0.1 公开交付
+
+https://github.com/Creepercao/CatGame/releases/tag/v1.0.1 已公开（draft=false、prerelease=false），latest 为 v1.0.1，目标源码 cc926ecfa0c397017e0394f883e1520d985a66a0。ZIP 与 SHA256SUMS 两个附件的服务端大小/摘要均与本地一致，保留 v1.0.0。Android 预览 APK 摘要仍为 bbd62c49d9e97be964933e13ab72cbc7bdc2a14645cf849ca92f7f92d39edf80，未替换。
+
+M16 按有限恢复实现及当前回归范围验收，不声称已消除特定 Windows 外部占用组件，也不保证持久性存储故障可恢复。M14 另行跟踪。测试进程已退出。

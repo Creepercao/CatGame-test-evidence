@@ -4093,8 +4093,8 @@
     {
       "source": "docs/Windows存档替换失败排查.md",
       "path": "reports/windows-save-replacement-diagnosis.md",
-      "sourceSha256": "23e229d566b984e9e8aad51d6675ee12e2dc0d26fe3f4cf46f4cb4afb0c48b6a",
-      "publishedSha256": "23e229d566b984e9e8aad51d6675ee12e2dc0d26fe3f4cf46f4cb4afb0c48b6a",
+      "sourceSha256": "f89686ccc89282899f291f866848bd7d22e42f51c59a7b095a9e39bbdbb873bf",
+      "publishedSha256": "f89686ccc89282899f291f866848bd7d22e42f51c59a7b095a9e39bbdbb873bf",
       "transformed": false
     },
     {
@@ -4228,6 +4228,20 @@
       "path": "evidence/windows-save-diagnosis/production-fix/package-verification.json",
       "sourceSha256": "c1585ae78653d841fb28a986eeddfc69e419f83d12392dcb5f736ae47f5c4b68",
       "publishedSha256": "c1585ae78653d841fb28a986eeddfc69e419f83d12392dcb5f736ae47f5c4b68",
+      "transformed": false
+    },
+    {
+      "source": "Build/Releases/v1.0.1/release-published.json",
+      "path": "evidence/windows-save-diagnosis/production-fix/release-published.json",
+      "sourceSha256": "fcdf2e186f70604701fd7770978ecc815315043d67f90924e968b43210578bad",
+      "publishedSha256": "fcdf2e186f70604701fd7770978ecc815315043d67f90924e968b43210578bad",
+      "transformed": false
+    },
+    {
+      "source": "Build/Releases/v1.0.1/SHA256SUMS.txt",
+      "path": "evidence/windows-save-diagnosis/production-fix/SHA256SUMS.txt",
+      "sourceSha256": "50d0ca41e662566b9e92db63f7e6fde9c71f49ba1bb5ee7a6c658801fddd960d",
+      "publishedSha256": "50d0ca41e662566b9e92db63f7e6fde9c71f49ba1bb5ee7a6c658801fddd960d",
       "transformed": false
     }
   ],

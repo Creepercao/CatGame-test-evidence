@@ -343,6 +343,16 @@ def main():
     assert package['allArchiveEntriesMatch'] and not package['qaIncluded'] and package['fileCount'] == 153
     assert package['publicGameCommit'] == read('provenance.json')['windowsSaveFix']['publicGameCommit']
     print('PASS Windows save fix red/green, three stress reruns, process restart and debugger/package checks')
+    release = read(f'{base}/release-published.json')
+    assert not release['draft'] and not release['prerelease'] and release['tag_name'] == 'v1.0.1'
+    assert release['target_commitish'] == package['publicGameCommit']
+    assets = {item['name']: item for item in release['assets']}
+    assert set(assets) == {'CatGame-Windows-x64-v1.0.1.zip', 'SHA256SUMS.txt'}
+    archive = assets['CatGame-Windows-x64-v1.0.1.zip']
+    assert archive['digest'] == 'sha256:' + package['archiveSha256'] and archive['size'] == package['archiveBytes']
+    checksum = (ROOT / base / 'SHA256SUMS.txt').read_bytes()
+    assert assets['SHA256SUMS.txt']['digest'] == 'sha256:' + hashlib.sha256(checksum).hexdigest()
+    print('PASS published Windows v1.0.1 source and both uploaded attachment digests')
     print('All evidence checks passed; no new Unity/Robot execution performed.')
 
 if __name__=='__main__': main()

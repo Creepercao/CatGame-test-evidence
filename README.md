@@ -14,7 +14,7 @@
 | Android 真机验收 | [真机过程和结果](reports/android-phone-test-evidence.md)、[超宽屏修复回归](reports/android-viewport-regression.md) | 原生尺寸操作、离线购买和结局；v3→v4 存档字节不变、房间露边红绿对照与三个 AVD 比例复验 |
 | 版本质量与CI/CD | [最终交付审计](evidence/ci-delivery-audit-20261106-01/result.json)、[同源失败门禁](evidence/ci-audit-20261106-01/result.json) | 测试失败/构建失败阻断，以及纠正后的成功交付 |
 | Bug复现、评级、追踪与闭环 | [缺陷与追溯](reports/缺陷与追溯.md)、[失败](evidence/roaming-target-red-20261106-01)、[复测](evidence/roaming-target-green-20261106-01) | 固定种子复现、保留阈值、修复与回归证据 |
-| 保存压力与故障定位 | [Windows 文件替换排查](reports/windows-save-replacement-diagnosis.md) | 原失败现场、Win32 最小复现、七项确定性红绿、三轮千次压力及真实进程重启；Windows 修复包待交付 |
+| 保存压力与故障定位 | [Windows 文件替换排查](reports/windows-save-replacement-diagnosis.md) | 原失败现场、Win32 最小复现、七项确定性红绿、三轮千次压力、实际 Player/修改器及 Windows v1.0.1 交付 |
 | 客户端性能、压力测试 | [执行前方案](reports/性能专项方案.md)、[专项报告](reports/性能专项报告-2026-11-06.md)、[两轮原始数据](evidence/performance-baseline-20261106-02/performance) | 环境、预热、帧时间分布、操作耗时和结论边界 |
 | 测试平台从0到1 | [执行入口](harness/tools/qa/run_suite.py)、[失败取证](evidence/business-failure-20261106-01)、[异常采样留证](evidence/performance-failure-20261106-01) | 不只跑成功路径，也验证结果缺失、异常退出与partial数据 |
 
