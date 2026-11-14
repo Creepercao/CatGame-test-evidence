@@ -1,0 +1,68 @@
+[
+  {
+    "repeat": 1,
+    "backupEnabled": true,
+    "requested": 1000,
+    "completed": 169,
+    "failedCycle": 169,
+    "win32Error": 1175,
+    "primaryPreserved": true,
+    "temporaryPreserved": true,
+    "elapsedSeconds": 1.0
+  },
+  {
+    "repeat": 1,
+    "backupEnabled": false,
+    "requested": 1000,
+    "completed": 237,
+    "failedCycle": 237,
+    "win32Error": 1175,
+    "primaryPreserved": true,
+    "temporaryPreserved": true,
+    "elapsedSeconds": 1.8589999999967404
+  },
+  {
+    "repeat": 2,
+    "backupEnabled": true,
+    "requested": 1000,
+    "completed": 298,
+    "failedCycle": 298,
+    "win32Error": 1175,
+    "primaryPreserved": true,
+    "temporaryPreserved": true,
+    "elapsedSeconds": 2.4690000000118744
+  },
+  {
+    "repeat": 2,
+    "backupEnabled": false,
+    "requested": 1000,
+    "completed": 290,
+    "failedCycle": 290,
+    "win32Error": 1175,
+    "primaryPreserved": true,
+    "temporaryPreserved": true,
+    "elapsedSeconds": 2.7659999999887077
+  },
+  {
+    "repeat": 3,
+    "backupEnabled": true,
+    "requested": 1000,
+    "completed": 237,
+    "failedCycle": 237,
+    "win32Error": 1175,
+    "primaryPreserved": true,
+    "temporaryPreserved": true,
+    "elapsedSeconds": 1.889999999999418
+  },
+  {
+    "repeat": 3,
+    "backupEnabled": false,
+    "requested": 1000,
+    "completed": 300,
+    "failedCycle": 300,
+    "win32Error": 1175,
+    "primaryPreserved": true,
+    "temporaryPreserved": true,
+    "elapsedSeconds": 2.875
+  }
+]

@@ -300,6 +300,21 @@ def main():
         assert assets[name]['digest'] == 'sha256:' + hashlib.sha256(raw).hexdigest()
         assert assets[name]['size'] == len(raw)
     print('PASS published Android prerelease target and all three attachment digests')
+    base = 'evidence/windows-save-diagnosis'
+    report = ET.parse(ROOT / base / 'repeat-01/EditMode-1.xml').getroot()
+    assert int(report.get('passed')) == 61 and int(report.get('failed')) == 1
+    assert read(f'{base}/repeat-01/outcomes.json')[0]['exitCode'] == 8
+    for name, clicks in [('save.json', 968), ('save.json.bak', 967), ('save.json.tmp', 969)]:
+        assert read(f'{base}/failure-files/{name}')['clicks'] == clicks
+    native = read(f'{base}/native-user.json')
+    assert len(native) == 6 and all(r['win32Error'] == 1175 and r['primaryPreserved'] and r['temporaryPreserved'] for r in native)
+    strict = read(f'{base}/strict.json')
+    assert len(strict) == 6 and sum(row['completed'] < row['requested'] for row in strict) == 5
+    retried = read(f'{base}/bounded-retry.json')
+    assert len(retried) == 6 and sum(row['completed'] for row in retried) == 6000
+    errors = [error for row in retried for error in row['errors']]
+    assert len(errors) == 11 and all(e['win32Error'] == 1175 and e['primaryPreserved'] and e['temporaryPreserved'] and e['attempt'] == 0 for e in errors)
+    print('PASS Windows save failure snapshots, native reproduction and explicit bounded-retry diagnostic')
     print('All evidence checks passed; no new Unity/Robot execution performed.')
 
 if __name__=='__main__': main()

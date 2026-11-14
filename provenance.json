@@ -4005,6 +4005,97 @@
       "sourceSha256": "7889d4f36913dc338c000693556f409cb63de840df8538f6829cc6b2ae37033a",
       "publishedSha256": "7889d4f36913dc338c000693556f409cb63de840df8538f6829cc6b2ae37033a",
       "transformed": false
+    },
+    {
+      "source": "Build/SaveDiagnosis/repeat-01/EditMode-1.xml",
+      "path": "evidence/windows-save-diagnosis/repeat-01/EditMode-1.xml",
+      "sourceSha256": "cf584e0d0cb96e327cb375a67d6cc7b867b0723fbb5abd3e92fd95fe2e68fa66",
+      "publishedSha256": "33b7e470fe2aa0a86804b3030c846f04d1c68a6c2783b6bf4137cb6b87e7bede",
+      "transformed": true
+    },
+    {
+      "source": "Build/SaveDiagnosis/repeat-01/outcomes.json",
+      "path": "evidence/windows-save-diagnosis/repeat-01/outcomes.json",
+      "sourceSha256": "89fa11d3686897d5fc79058d620d493ae140f03a1d1caee79c499ce01e782876",
+      "publishedSha256": "81c22aacae578adab68095f728cc864a0fe3515e3df553643540a304c9e39fba",
+      "transformed": true
+    },
+    {
+      "source": "Build/SaveDiagnosis/native-157c8be0c0144762a222a7a61e989c1a/results.json",
+      "path": "evidence/windows-save-diagnosis/native-sandbox.json",
+      "sourceSha256": "54893eb6f128e2cc275d849b366f5b84eef62d9f0d99160e84e01e8bcba0943a",
+      "publishedSha256": "54893eb6f128e2cc275d849b366f5b84eef62d9f0d99160e84e01e8bcba0943a",
+      "transformed": false
+    },
+    {
+      "source": "Build/SaveDiagnosis/native-e1b6d5cf2e8b4b65a84681d7afa77bb8/results.json",
+      "path": "evidence/windows-save-diagnosis/native-user.json",
+      "sourceSha256": "4d58803a928a3aa982a0ee6cd58a5bb143d6d72bb929264eca5bd389d61b7d4a",
+      "publishedSha256": "4d58803a928a3aa982a0ee6cd58a5bb143d6d72bb929264eca5bd389d61b7d4a",
+      "transformed": false
+    },
+    {
+      "source": "Build/SaveDiagnosis/native-retry-01/results.json",
+      "path": "evidence/windows-save-diagnosis/bounded-retry.json",
+      "sourceSha256": "ccbb76e1a248a2cf0bf0accdab8d8314d5965b39f8605479737482dba93c1cf4",
+      "publishedSha256": "ccbb76e1a248a2cf0bf0accdab8d8314d5965b39f8605479737482dba93c1cf4",
+      "transformed": false
+    },
+    {
+      "source": "Build/SaveDiagnosis/native-strict-02/results.json",
+      "path": "evidence/windows-save-diagnosis/strict.json",
+      "sourceSha256": "eda48417e17367f0c15dc3facf3ce078198841ed41306e1f2fa0a5473ca44597",
+      "publishedSha256": "eda48417e17367f0c15dc3facf3ce078198841ed41306e1f2fa0a5473ca44597",
+      "transformed": false
+    },
+    {
+      "source": "Build/SaveDiagnosis/forensics/cycle-969-2e7bb09a2a494000894e2015d7ca027d/failure.txt",
+      "path": "evidence/windows-save-diagnosis/failure-files/failure.txt",
+      "sourceSha256": "26976204a896ea3c6dafd77fb7e5903eb398cc936be6586468c8ab0ac984d553",
+      "publishedSha256": "b752724e74ab5ad19bf4b2e113d51c97183cb09e034e8577d2c0a690e55c5e60",
+      "transformed": true
+    },
+    {
+      "source": "Build/SaveDiagnosis/forensics/cycle-969-2e7bb09a2a494000894e2015d7ca027d/save.bad.json",
+      "path": "evidence/windows-save-diagnosis/failure-files/save.bad.json",
+      "sourceSha256": "bea0f12df7c83280c6cf63991c023f7abb14d24e4574abe0016a98062961ed3c",
+      "publishedSha256": "bea0f12df7c83280c6cf63991c023f7abb14d24e4574abe0016a98062961ed3c",
+      "transformed": false
+    },
+    {
+      "source": "Build/SaveDiagnosis/forensics/cycle-969-2e7bb09a2a494000894e2015d7ca027d/save.json",
+      "path": "evidence/windows-save-diagnosis/failure-files/save.json",
+      "sourceSha256": "ca0d9e8b92f16798fafd7195600b8b338e9d7287fb91817518f170b7974c0084",
+      "publishedSha256": "ca0d9e8b92f16798fafd7195600b8b338e9d7287fb91817518f170b7974c0084",
+      "transformed": false
+    },
+    {
+      "source": "Build/SaveDiagnosis/forensics/cycle-969-2e7bb09a2a494000894e2015d7ca027d/save.json.bak",
+      "path": "evidence/windows-save-diagnosis/failure-files/save.json.bak",
+      "sourceSha256": "5d090fd4988ce5dc201f8dce2bfd7ec22009af67948bc5d9720ec0b1e9e383db",
+      "publishedSha256": "5d090fd4988ce5dc201f8dce2bfd7ec22009af67948bc5d9720ec0b1e9e383db",
+      "transformed": false
+    },
+    {
+      "source": "Build/SaveDiagnosis/forensics/cycle-969-2e7bb09a2a494000894e2015d7ca027d/save.json.tmp",
+      "path": "evidence/windows-save-diagnosis/failure-files/save.json.tmp",
+      "sourceSha256": "cc464d70321293355dd70d5293b8689b695e00833cfca956cad0e4d71ecb731b",
+      "publishedSha256": "cc464d70321293355dd70d5293b8689b695e00833cfca956cad0e4d71ecb731b",
+      "transformed": false
+    },
+    {
+      "source": "tools/qa/windows_replace_probe.py",
+      "path": "harness/tools/qa/windows_replace_probe.py",
+      "sourceSha256": "5f95d9723fb6985cda3183552fd0b496d5c3bb9deb114a59dc664716462d9f7b",
+      "publishedSha256": "5f95d9723fb6985cda3183552fd0b496d5c3bb9deb114a59dc664716462d9f7b",
+      "transformed": false
+    },
+    {
+      "source": "docs/Windows存档替换失败排查.md",
+      "path": "reports/windows-save-replacement-diagnosis.md",
+      "sourceSha256": "1b3ce7b09b108853762d76c368925dfe902e688d1d29b351ea6a0c2c8b299e3d",
+      "publishedSha256": "1b3ce7b09b108853762d76c368925dfe902e688d1d29b351ea6a0c2c8b299e3d",
+      "transformed": false
     }
   ],
   "androidOriginCommits": {

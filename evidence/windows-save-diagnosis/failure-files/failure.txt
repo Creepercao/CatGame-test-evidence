@@ -1,0 +1,9 @@
+cycle=969
+savePath=PROJECT_ROOT/Build/Android/build-temp/CatGameStudio/喵屋\CatGameSaveTests-7c6d6c9be5ac418cab0f629230c8d878\save.json
+System.IO.IOException: 无法删除要被替换的文件。
+  at System.IO.FileSystem.ReplaceFile (System.String sourceFullPath, System.String destFullPath, System.String destBackupFullPath, System.Boolean ignoreMetadataErrors) [0x0002c] in <4b234520e36749be9cf6b053d911690f>:0 
+  at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors) [0x00034] in <4b234520e36749be9cf6b053d911690f>:0 
+  at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
+  at CatGame.Idle.SaveSystem.WriteSave (System.String path, CatGame.Idle.GameState state, System.Boolean keepPrevious) [0x00077] in PROJECT_ROOT\Assets\Scripts\Idle\SaveSystem.cs:245 
+  at CatGame.Idle.SaveSystem.SaveToPath (System.String path, CatGame.Idle.GameState state) [0x00000] in PROJECT_ROOT\Assets\Scripts\Idle\SaveSystem.cs:228 
+  at CatGame.EditTests.SaveSystemTests.Stress_save_load_round_trips_one_thousand_cycles_and_recovers_midway_corruption () [0x000cf] in PROJECT_ROOT\Assets\Tests\EditMode\SaveSystemTests.cs:175 
