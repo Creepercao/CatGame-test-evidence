@@ -1,4 +1,4 @@
-#if DEVELOPMENT_BUILD && !UNITY_EDITOR
+#if DEVELOPMENT_BUILD && UNITY_STANDALONE_WIN && !UNITY_EDITOR
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -31,6 +31,7 @@ namespace CatGame
         }
         [Serializable] sealed class PerfResult {
             public bool complete,probe; public int errors,clicks,purchases,attempts,coldCG,warmCG,roundTrips,corruptRecovery;
+            public string saveRecoveryContract;
             public PerfPhase[] phases; public PerfOperation[] operations;
         }
         [Serializable] struct PerfFrame {
@@ -49,6 +50,7 @@ namespace CatGame
         int perfErrors;
         PerfResult perfResultState;
         bool perfFinalized,perfFaultProbe;
+        string perfBackupBeforeCorruption, perfRestoredAfterCorruption;
         [Serializable] sealed class PerfPartial { public string phase; public double elapsed; public PerfFrame[] frames; }
         static readonly CultureInfo PerfCulture=CultureInfo.InvariantCulture;
         [StructLayout(LayoutKind.Sequential)] struct PerfMemoryCounters {
@@ -146,6 +148,11 @@ namespace CatGame
                     },true));
                 perfResultState.complete=complete && perfErrors==0;
                 perfResultState.errors=perfErrors; perfResultState.phases=perfPhases.ToArray(); perfResultState.operations=perfOperations.ToArray();
+                // Persist recovery evidence after measurement, not as timed save operations.
+                if(perfBackupBeforeCorruption!=null)
+                    File.WriteAllText(Path.Combine(folder,"save-backup-before-corruption.json"),perfBackupBeforeCorruption);
+                if(perfRestoredAfterCorruption!=null)
+                    File.WriteAllText(Path.Combine(folder,"save-restored-after-corruption.json"),perfRestoredAfterCorruption);
                 File.WriteAllText(Path.Combine(folder,"performance-result.json"),JsonUtility.ToJson(perfResultState,true));
             } finally {
                 if(perfMain.Valid) perfMain.Dispose(); if(perfGc.Valid) perfGc.Dispose();
@@ -174,7 +181,8 @@ namespace CatGame
             Application.logMessageReceived+=PerfLog;
             Application.runInBackground=true; QualitySettings.vSyncCount=0; Application.targetFrameRate=60;
             Screen.SetResolution(1280,720,false);
-            var result=new PerfResult {probe=Environment.GetEnvironmentVariable("CATGAME_PERF_PROBE")=="1"};
+            var result=new PerfResult {probe=Environment.GetEnvironmentVariable("CATGAME_PERF_PROBE")=="1",
+                saveRecoveryContract="previous-committed-backup-v1"};
             perfResultState=result;
             perfFaultProbe=Environment.GetEnvironmentVariable("CATGAME_PERF_FAULT")=="1";
             try {
@@ -271,9 +279,17 @@ namespace CatGame
                         PerfOp("save","read",i,PerfMilliseconds(started));
                         PerfCheck(loaded.clicks==777 && loaded.catHair==12345.5 && loaded.cats[0].count==40,"Save roundtrip mismatch");
                         if(i==500) {
+                            perfBackupBeforeCorruption=File.ReadAllText(savePath+".bak");
+                            var expectedBackup=JsonUtility.FromJson<GameState>(perfBackupBeforeCorruption);
                             File.WriteAllText(savePath,"{ deliberate corruption in isolated stress fixture");
                             var recovered=SaveSystem.LoadOrCreate(savePath);
-                            PerfCheck(recovered.clicks==0 && recovered.cats[0].count==1,"Corrupt save recovery failed");
+                            perfRestoredAfterCorruption=File.ReadAllText(savePath);
+                            PerfCheck(JsonUtility.ToJson(recovered)==JsonUtility.ToJson(expectedBackup),
+                                "Corrupt primary did not recover the previous committed backup");
+                            PerfCheck(File.Exists(Path.Combine(Path.GetDirectoryName(savePath),"save.bad.json")),
+                                "Corrupt primary was not quarantined");
+                            PerfCheck(File.ReadAllText(savePath+".bak")==perfBackupBeforeCorruption,
+                                "Recovery modified the committed backup");
                             result.corruptRecovery++;
                         }
                         result.roundTrips++; yield return null; PerfCapture();

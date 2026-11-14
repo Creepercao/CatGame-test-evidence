@@ -353,6 +353,34 @@ def main():
     checksum = (ROOT / base / 'SHA256SUMS.txt').read_bytes()
     assert assets['SHA256SUMS.txt']['digest'] == 'sha256:' + hashlib.sha256(checksum).hexdigest()
     print('PASS published Windows v1.0.1 source and both uploaded attachment digests')
+    base = 'evidence/performance-save-contract'
+    for name, error in [('save-contract-red-20261114-01', '10061'), ('save-contract-red-20261114-02', '10035')]:
+        record = read(f'{base}/{name}/result.json')
+        assert not record['passed'] and not record['rounds'] and error in record['error']
+    red = read(f'{base}/save-contract-red-20261114-03/result.json')
+    assert not red['passed'] and red['rounds'][0]['exitCode'] == 1
+    folder = f'{base}/save-contract-red-20261114-03/round-1'
+    partial = read(f'{folder}/performance-result.json')
+    assert not partial['complete'] and partial['roundTrips'] == 500 and partial['corruptRecovery'] == 0
+    assert 'Corrupt save recovery failed' in (ROOT / folder / 'performance-errors.txt').read_text(encoding='utf-8')
+    assert read(f'{folder}/save-stress/CatGame/save.json')['clicks'] == 777
+    green = read(f'{base}/save-contract-green-20261114-01/result.json')
+    assert green['passed'] and green['rounds'][0]['exitCode'] == 0
+    assert green['ciPreflight']['connectionRefused'] and green['rounds'][0]['ciAfter']['connectionRefused']
+    import importlib.util
+    spec = importlib.util.spec_from_file_location('current_performance_stats', ROOT / 'harness/tools/qa/performance_stats.py')
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    folder = f'{base}/save-contract-green-20261114-01/round-1'
+    analysis = module.analyse(ROOT / folder, False, require_save_contract=True)
+    assert analysis['passed'] and not analysis['criteriaFailures']
+    functional = analysis['rawFunctionalResult']
+    assert functional['roundTrips'] == 1000 and functional['corruptRecovery'] == 1
+    assert functional['purchases'] == 100 and functional['clicks'] == 1200
+    assert sum(phase['frames']['count'] for phase in analysis['phases'].values()) == 13838
+    assert 'Ran 7 tests' in (ROOT / base / 'analyzer-tests.txt').read_text(encoding='utf-8')
+    assert not read('provenance.json')['performanceSaveContract']['productionGameChanged']
+    print('PASS performance save contract actual red/green, seven analyzer tests and full sample reanalysis')
     print('All evidence checks passed; no new Unity/Robot execution performed.')
 
 if __name__=='__main__': main()

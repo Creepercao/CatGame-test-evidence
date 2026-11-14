@@ -1,0 +1,48 @@
+{
+  "started": "2026-11-14T14:06:18.435109+00:00",
+  "probe": false,
+  "rounds": [
+    {
+      "number": 1,
+      "command": [
+        "PROJECT_ROOT\\Build\\SaveDiagnosis\\production-fix\\QA-02\\CatGameQA.exe",
+        "-screen-fullscreen",
+        "0",
+        "-logFile",
+        "PROJECT_ROOT\\Tests\\robot\\results\\save-contract-red-20261114-03\\round-1\\player.log"
+      ],
+      "started": "2026-11-14T14:06:21.541006+00:00",
+      "pid": 69916,
+      "exitCode": 1,
+      "ended": "2026-11-14T14:11:03.747943+00:00"
+    }
+  ],
+  "passed": false,
+  "preflight": [],
+  "ciPreflight": {
+    "mode": "standalone",
+    "localPort": 18880,
+    "connectionRefused": true
+  },
+  "commit": "1b3601e3c684d5e58403e22b09d12e3a63cb6f2a",
+  "worktree": "M tools/qa/run_performance.py",
+  "artifacts": [
+    {
+      "path": "PROJECT_ROOT\\Build\\SaveDiagnosis\\production-fix\\QA-02\\CatGameQA.exe",
+      "sha256": "8cf69e0c57b8c89b07260bb77c5bd0817f4a256f8c05fd89292d93c2b0360539",
+      "bytes": 666624
+    },
+    {
+      "path": "PROJECT_ROOT\\Build\\SaveDiagnosis\\production-fix\\QA-02\\CatGameQA_Data\\Managed\\CatGame.Runtime.dll",
+      "sha256": "17ffaba1111a65614a2c254a22553d539c5f8af55ec48949d2ba4a60cec31940",
+      "bytes": 199680
+    },
+    {
+      "path": "PROJECT_ROOT\\Build\\SaveDiagnosis\\production-fix\\QA-02\\CatGameQA_Data\\resources.assets",
+      "sha256": "605bcaeb928c0b93b247b68f74e8a38ff8b76b070ea199ffb4246e6154cb8409",
+      "bytes": 11309876
+    }
+  ],
+  "error": "Traceback (most recent call last):\n  File \"PROJECT_ROOT\\tools\\qa\\run_performance.py\", line 112, in main\n    assert proc.returncode == 0, 'PLAYER: failed; inspect raw result and log'\nAssertionError: PLAYER: failed; inspect raw result and log\n",
+  "ended": "2026-11-14T14:11:03.763637+00:00"
+}

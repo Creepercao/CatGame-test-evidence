@@ -5,6 +5,8 @@ import hashlib
 import json
 import os
 import shutil
+import socket
+import errno
 import subprocess
 import sys
 import time
@@ -27,12 +29,23 @@ def activity():
             if len(r) > 1 and r[0].lower() in ['unity.exe', 'catgame.exe', 'catgameqa.exe']]
 
 
+def require_stopped_local_ci():
+    with socket.socket() as client:
+        client.settimeout(5)
+        result = client.connect_ex(('127.0.0.1', 18880))
+    assert result in (errno.ECONNREFUSED, 10061), (
+        f'ENVIRONMENT: standalone requires a stopped local CI service; connection result={result}')
+    return {'mode': 'standalone', 'localPort': 18880, 'connectionRefused': True}
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('output', type=Path)
     parser.add_argument('--probe', action='store_true')
     parser.add_argument('--fault-probe', action='store_true', help='Deliberate sampling error; expected exit 1')
     parser.add_argument('--rounds', type=int, default=2)
+    parser.add_argument('--standalone', action='store_true',
+                        help='Require the local CI port to refuse connections instead of querying Jenkins')
     args = parser.parse_args()
     assert 1 <= args.rounds <= 5
     assert not args.fault_probe or args.probe
@@ -48,7 +61,9 @@ def main():
         report['preflight'] = activity()
         assert not report['preflight'], 'ENVIRONMENT: another Unity or game Player is running'
         ci = ROOT / 'Build/ci/local-credentials.json'
-        if ci.exists():
+        if args.standalone:
+            report['ciPreflight'] = require_stopped_local_ci()
+        elif ci.exists():
             sys.path.insert(0, str(ROOT / 'tools/ci'))
             import controller
             jobs = controller.query('/job/CatGame-Quality/api/json?tree=builds[number,building]')
@@ -95,13 +110,15 @@ def main():
                     time.sleep(2)
                 record['exitCode'] = proc.returncode
                 assert proc.returncode == 0, 'PLAYER: failed; inspect raw result and log'
-                summary = analyse(folder, args.probe)
+                summary = analyse(folder, args.probe, require_save_contract=not args.probe)
                 expected = (folder / 'CatGame/save.json').resolve()
                 actual = Path(summary['environment']['savePath'])
                 assert actual.parent.resolve() == expected.parent and actual.name == 'save.json', 'HARNESS: isolation mismatch'
                 record['summary'] = summary
                 (folder / 'analysis.json').write_text(json.dumps(summary, indent=2), encoding='utf-8')
                 assert not activity(), 'ENVIRONMENT: another Player or Unity appeared during the run'
+                if args.standalone:
+                    record['ciAfter'] = require_stopped_local_ci()
             finally:
                 if proc.poll() is None:
                     proc.terminate(); proc.wait(timeout=15)

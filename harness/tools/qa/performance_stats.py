@@ -15,13 +15,40 @@ def distribution(values):
                 p99=values[max(0, math.ceil(len(values) * .99) - 1)], maximum=values[-1])
 
 
-def analyse(folder, probe=False):
+def verify_save_recovery(folder):
+    folder = Path(folder)
+    before = json.loads((folder / 'save-backup-before-corruption.json').read_text(encoding='utf-8-sig'))
+    restored = json.loads((folder / 'save-restored-after-corruption.json').read_text(encoding='utf-8-sig'))
+    assert restored == before, 'Recovered snapshot differs from the previous committed backup'
+    for name in ('save.json', 'save.json.bak'):
+        actual = json.loads((folder / 'save-stress/CatGame' / name).read_text(encoding='utf-8-sig'))
+        assert actual == before, 'Final save or backup differs from the fixed stress fixture'
+    assert before['clicks'] == 777 and before['catHair'] == 12345.5
+    assert all(cat['count'] == 40 for cat in before['cats'])
+    assert all(item['level'] == 5 for item in before['items'])
+    damaged = (folder / 'save-stress/CatGame/save.bad.json').read_text(encoding='utf-8-sig')
+    try:
+        json.loads(damaged)
+    except json.JSONDecodeError:
+        pass
+    else:
+        raise AssertionError('Expected a quarantined malformed save')
+
+
+def analyse(folder, probe=False, require_save_contract=False):
     folder = Path(folder)
     result = json.loads((folder / 'performance-result.json').read_text(encoding='utf-8-sig'))
     environment = json.loads((folder / 'performance-environment.json').read_text(encoding='utf-8-sig'))
     assert result['complete'] and result['errors'] == 0 and result['probe'] == probe
     assert environment['development'] and environment['mainThreadValid'] and environment['gcValid']
     assert (environment['width'], environment['height'], environment['targetFps'], environment['vsync']) == (1280, 720, 60, 0)
+    if not probe:
+        contract = result.get('saveRecoveryContract')
+        if require_save_contract:
+            assert contract == 'previous-committed-backup-v1', 'Current full run requires the backup recovery contract'
+        if contract is not None:
+            assert contract == 'previous-committed-backup-v1', 'Unknown save recovery contract'
+            verify_save_recovery(folder)
     expected = ['probe'] if probe else ['single', 'hundred', 'input', 'cg-cold', 'cg-warm', 'save']
     assert [p['name'] for p in result['phases']] == expected
     phases, failures = {}, []

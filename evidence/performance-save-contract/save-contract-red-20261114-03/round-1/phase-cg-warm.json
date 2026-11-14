@@ -1,0 +1,13 @@
+{
+    "name": "cg-warm",
+    "started": 258.3071787,
+    "elapsed": 3.667876100000001,
+    "cpuMilliseconds": 1453.125,
+    "workingSetBefore": 273694720,
+    "workingSetAfter": 273772544,
+    "frames": 220,
+    "visible": 100,
+    "owned": 440,
+    "boundaryChecks": 3,
+    "boundaryErrors": 0
+}

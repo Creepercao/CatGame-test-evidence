@@ -1,0 +1,199 @@
+{
+    "version": 2,
+    "catHair": 549329706144.3864,
+    "totalEarned": 1131681410804.3794,
+    "clicks": 1200,
+    "cats": [
+        {
+            "id": "Milk",
+            "count": 40
+        },
+        {
+            "id": "Tabby",
+            "count": 40
+        },
+        {
+            "id": "Snow",
+            "count": 40
+        },
+        {
+            "id": "Calico",
+            "count": 40
+        },
+        {
+            "id": "Tuxedo",
+            "count": 40
+        },
+        {
+            "id": "Siamese",
+            "count": 40
+        },
+        {
+            "id": "Tiger",
+            "count": 40
+        },
+        {
+            "id": "Egypt",
+            "count": 40
+        },
+        {
+            "id": "Batcat",
+            "count": 40
+        },
+        {
+            "id": "Demon",
+            "count": 40
+        },
+        {
+            "id": "Xmas",
+            "count": 40
+        }
+    ],
+    "items": [
+        {
+            "id": "item_1_1",
+            "level": 5
+        },
+        {
+            "id": "item_1_2",
+            "level": 5
+        },
+        {
+            "id": "item_1_3",
+            "level": 5
+        },
+        {
+            "id": "item_1_4",
+            "level": 5
+        },
+        {
+            "id": "item_2_1",
+            "level": 5
+        },
+        {
+            "id": "item_2_2",
+            "level": 5
+        },
+        {
+            "id": "item_2_3",
+            "level": 5
+        },
+        {
+            "id": "item_2_4",
+            "level": 5
+        },
+        {
+            "id": "item_3_1",
+            "level": 5
+        },
+        {
+            "id": "item_3_2",
+            "level": 5
+        },
+        {
+            "id": "item_3_3",
+            "level": 5
+        },
+        {
+            "id": "item_3_4",
+            "level": 5
+        },
+        {
+            "id": "item_4_1",
+            "level": 5
+        },
+        {
+            "id": "item_4_2",
+            "level": 5
+        },
+        {
+            "id": "item_4_3",
+            "level": 5
+        },
+        {
+            "id": "item_4_4",
+            "level": 5
+        },
+        {
+            "id": "item_5_1",
+            "level": 5
+        },
+        {
+            "id": "item_5_2",
+            "level": 5
+        },
+        {
+            "id": "item_5_3",
+            "level": 5
+        },
+        {
+            "id": "item_5_4",
+            "level": 5
+        }
+    ],
+    "achievements": [
+        "first_tuft",
+        "ten_thousand",
+        "hundred_thousand",
+        "millionaire",
+        "lots_of_points",
+        "unstoppable",
+        "family_of_ten",
+        "thirty_cats",
+        "hundred_cats",
+        "crowded_nest",
+        "three_breeds",
+        "six_breeds",
+        "all_breeds",
+        "first_click",
+        "thousand_clicks",
+        "max_scratcher",
+        "stage_two",
+        "stage_three",
+        "stage_four",
+        "planet_cats"
+    ],
+    "lastSeenUnix": 1794666196,
+    "introCompleted": true,
+    "seenStoryEvents": [
+        "first_tuft",
+        "ten_thousand",
+        "hundred_thousand",
+        "millionaire",
+        "lots_of_points",
+        "unstoppable",
+        "family_of_ten",
+        "thirty_cats",
+        "hundred_cats",
+        "crowded_nest",
+        "three_breeds",
+        "six_breeds",
+        "all_breeds",
+        "first_click",
+        "thousand_clicks",
+        "max_scratcher",
+        "stage_two",
+        "stage_three",
+        "stage_four",
+        "planet_cats"
+    ],
+    "pendingStoryEvents": [],
+    "playSeconds": 281.260364882648,
+    "hasFullPlaytimeHistory": true,
+    "rocketPurchased": false,
+    "endingCompleted": false,
+    "hasEndingSnapshot": false,
+    "firstEnding": {
+        "playSeconds": 0.0,
+        "totalEarned": 0.0,
+        "clicks": 0,
+        "totalCats": 0,
+        "breeds": 0,
+        "itemLevels": 0,
+        "achievementCount": 0,
+        "completedUnix": 0,
+        "hasFullPlaytimeHistory": false
+    },
+    "prestigeLevel": 0,
+    "prestigeMultiplier": 1.0
+}

@@ -1,0 +1,20 @@
+{
+    "unity": "2022.3.21f1",
+    "cpu": "12th Gen Intel(R) Core(TM) i5-12500H",
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "graphicsApi": "Direct3D11",
+    "os": "Windows 11  (10.0.26200) 64bit",
+    "quality": "Ultra",
+    "savePath": "PROJECT_ROOT\\Tests\\robot\\results\\save-contract-red-20261114-03\\round-1\\CatGame\\save.json",
+    "width": 1280,
+    "height": 720,
+    "targetFps": 60,
+    "vsync": 0,
+    "refreshRate": 144,
+    "ramMb": 16088,
+    "logicalProcessors": 16,
+    "development": true,
+    "mainThreadValid": true,
+    "gcValid": true,
+    "profilerEnabled": false
+}

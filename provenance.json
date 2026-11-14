@@ -40,9 +40,9 @@
     {
       "source": "Assets/Scripts/PlayerPerformanceQA.cs",
       "path": "harness/Assets/Scripts/PlayerPerformanceQA.cs",
-      "sourceSha256": "9f428d95a3674d4742692f705d96c44959ed5fafc331e41004191f39954ca72d",
-      "publishedSha256": "2c3a108211b1e5d884fd0b8c38d7a1badccbb974b074592176c74efc783f67cf",
-      "transformed": true
+      "sourceSha256": "18f7fe418b9aeb22e963ab59ca658ca8f659b0b2a61d46dc93b8d47c5d3fa1b4",
+      "publishedSha256": "18f7fe418b9aeb22e963ab59ca658ca8f659b0b2a61d46dc93b8d47c5d3fa1b4",
+      "transformed": false
     },
     {
       "source": "Assets/Scripts/PlayerPerformanceQA.cs.meta",
@@ -789,16 +789,16 @@
     {
       "source": "tools/qa/performance_stats.py",
       "path": "harness/tools/qa/performance_stats.py",
-      "sourceSha256": "c679abe41599dfbe19c77b8afee445da2ac975c4af88908781ca1d93545c59aa",
-      "publishedSha256": "e54da74338560509120745da1edf6218c665b9f426616caa83d61e027ff38de7",
-      "transformed": true
+      "sourceSha256": "8dba0732799b40f10a6d5a3c039dce2e36c15b0aae4e0f97d3a13009c67f9ce4",
+      "publishedSha256": "8dba0732799b40f10a6d5a3c039dce2e36c15b0aae4e0f97d3a13009c67f9ce4",
+      "transformed": false
     },
     {
       "source": "tools/qa/run_performance.py",
       "path": "harness/tools/qa/run_performance.py",
-      "sourceSha256": "5f8f8ec6060feb8bd142ec863dbab714d0760395c83af391a1d4532d279ae4a0",
-      "publishedSha256": "378be52f98cacd8bea8034e013732e729413c663ca325fbe01ac4b81c3d08505",
-      "transformed": true
+      "sourceSha256": "8c4f1a4df02556bb63f81352ad181a0b70b9f9247f905c874117c265c9f19610",
+      "publishedSha256": "8c4f1a4df02556bb63f81352ad181a0b70b9f9247f905c874117c265c9f19610",
+      "transformed": false
     },
     {
       "source": "tools/qa/run_suite.py",
@@ -824,9 +824,9 @@
     {
       "source": "tools/qa/test_performance_stats.py",
       "path": "harness/tools/qa/test_performance_stats.py",
-      "sourceSha256": "ba3c5eba89514572a578214fcb5f3fef6b85365da3e150e8992b8491bf62b500",
-      "publishedSha256": "08c88bfb7c6806baaf9a85b71d2c84e0635a868cf7944f4176ac852cd9b66f16",
-      "transformed": true
+      "sourceSha256": "d585f3acd6fb32918b30c1ae57f553265860b8f8d8768afc4621fab2bc061742",
+      "publishedSha256": "d585f3acd6fb32918b30c1ae57f553265860b8f8d8768afc4621fab2bc061742",
+      "transformed": false
     },
     {
       "source": "tools/qa/test_quality_gate.py",
@@ -4243,6 +4243,398 @@
       "sourceSha256": "50d0ca41e662566b9e92db63f7e6fde9c71f49ba1bb5ee7a6c658801fddd960d",
       "publishedSha256": "50d0ca41e662566b9e92db63f7e6fde9c71f49ba1bb5ee7a6c658801fddd960d",
       "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-01/result.json",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-01/result.json",
+      "sourceSha256": "0304232ddae5c0abd7aaccac1a2644826b7446d4a6a9b9ac3035a7e9c8306268",
+      "publishedSha256": "4fe569de78eacca92ed32d5117e2c21bffa318d2e0a6e1183ec53d9b0c1d8886",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-02/result.json",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-02/result.json",
+      "sourceSha256": "07220a60a30b4662f47def1ddcc9208a604ed674b967a52ac9ef4737b4d42c2b",
+      "publishedSha256": "cbeff9fb2dd963b5e916c70b07b40eacc2a3c52dc61445d4eff1cf0e0180a272",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/result.json",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/result.json",
+      "sourceSha256": "0dafbab4b0526d3de78fb20ff68ddef20fba147b59b09678ed52bf22d55e5f33",
+      "publishedSha256": "58f7e29152c91e92bf8bea2015366e0f544486f6cd9c4cb53865177d93624eb2",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/command.json",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/command.json",
+      "sourceSha256": "0375653eb04c2e66d85984e3b6492482e4ab1e6faa5b1152f6fe47534c498b5b",
+      "publishedSha256": "d1a5d6f80c79d7a3d19da1bc1bfeef31349570be1560550ab5ed1f8747516b85",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/frames-cg-cold.csv",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/frames-cg-cold.csv",
+      "sourceSha256": "f26d20c99e5794382f9ae67ee80c10c788ff907d4b544987b6ced43634a9144a",
+      "publishedSha256": "f26d20c99e5794382f9ae67ee80c10c788ff907d4b544987b6ced43634a9144a",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/frames-cg-warm.csv",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/frames-cg-warm.csv",
+      "sourceSha256": "ce50f513ea9bb92bb04d5d23df375c0f7305bbc0a8aab27568c236b2e5d5f7e2",
+      "publishedSha256": "ce50f513ea9bb92bb04d5d23df375c0f7305bbc0a8aab27568c236b2e5d5f7e2",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/frames-hundred.csv",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/frames-hundred.csv",
+      "sourceSha256": "96e0b3c5429503f500756d9cc2b100959f707b7a25dca7cb9ffd26cf444016bd",
+      "publishedSha256": "96e0b3c5429503f500756d9cc2b100959f707b7a25dca7cb9ffd26cf444016bd",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/frames-input.csv",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/frames-input.csv",
+      "sourceSha256": "7847d62617e098e4e339924898b5d70c109e5a7362bd0079bb2e9ce629f8bb97",
+      "publishedSha256": "7847d62617e098e4e339924898b5d70c109e5a7362bd0079bb2e9ce629f8bb97",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/frames-single.csv",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/frames-single.csv",
+      "sourceSha256": "822eef5dbd7ee17af2f88323178713453384e57607c63194f60eebf21ec8a252",
+      "publishedSha256": "822eef5dbd7ee17af2f88323178713453384e57607c63194f60eebf21ec8a252",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/performance-environment.json",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/performance-environment.json",
+      "sourceSha256": "acde4d8ecf58f4764c2fe0f8d624f00cf1e5fb8ce8ea414bc77ce30012d06669",
+      "publishedSha256": "815508914aa6b3d188b740b51a0acc2b2af4ebccb75e863b5354b0dff2761c38",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/performance-partial.json",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/performance-partial.json",
+      "sourceSha256": "e11f2df58f6c4076be5d42b1340264247a262b8f584e2a06f16e5529e41d0acf",
+      "publishedSha256": "e11f2df58f6c4076be5d42b1340264247a262b8f584e2a06f16e5529e41d0acf",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/performance-result.json",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/performance-result.json",
+      "sourceSha256": "47ee17f31773cc20c8da8284a9eda9b4924f7b78c3cc8fb4156bc0cfff85d0b5",
+      "publishedSha256": "47ee17f31773cc20c8da8284a9eda9b4924f7b78c3cc8fb4156bc0cfff85d0b5",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/phase-cg-cold.json",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/phase-cg-cold.json",
+      "sourceSha256": "0fa50f2effe3b0ae1710e5369bffe6ebbc41043ee13e80c23b819b40516f8c96",
+      "publishedSha256": "0fa50f2effe3b0ae1710e5369bffe6ebbc41043ee13e80c23b819b40516f8c96",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/phase-cg-warm.json",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/phase-cg-warm.json",
+      "sourceSha256": "6e5c9b206989e6071e4a988113f9cb7a1adbff1e5c54a796705ed8d9f9ff70ec",
+      "publishedSha256": "6e5c9b206989e6071e4a988113f9cb7a1adbff1e5c54a796705ed8d9f9ff70ec",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/phase-hundred.json",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/phase-hundred.json",
+      "sourceSha256": "8ca051fb0489020f1b96c7c17779aaf71f315a8f5bf0b0cc4d0098b3deafb438",
+      "publishedSha256": "8ca051fb0489020f1b96c7c17779aaf71f315a8f5bf0b0cc4d0098b3deafb438",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/phase-input.json",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/phase-input.json",
+      "sourceSha256": "180a42ce65f75d5279796da9579c4eb8c94e8aed236e611849b35efbb64c0c15",
+      "publishedSha256": "180a42ce65f75d5279796da9579c4eb8c94e8aed236e611849b35efbb64c0c15",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/phase-single.json",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/phase-single.json",
+      "sourceSha256": "242b7f933f8632d1d99ae05c924a7e5a31bcf660ee833cb0ba7b7444e61bbe23",
+      "publishedSha256": "242b7f933f8632d1d99ae05c924a7e5a31bcf660ee833cb0ba7b7444e61bbe23",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/progress.json",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/progress.json",
+      "sourceSha256": "ba750c3dbc5c9545cd4fa71dd2c2221604a3e1f678ca147de3d5d015edc7a564",
+      "publishedSha256": "ba750c3dbc5c9545cd4fa71dd2c2221604a3e1f678ca147de3d5d015edc7a564",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/steps.jsonl",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/steps.jsonl",
+      "sourceSha256": "00a8c2dc8fe80c8af0491f4854f5ca03e624a7378cfa12b1a2248c70c98b65a7",
+      "publishedSha256": "00a8c2dc8fe80c8af0491f4854f5ca03e624a7378cfa12b1a2248c70c98b65a7",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/CatGame/save.json",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/CatGame/save.json",
+      "sourceSha256": "ee40a4bb87fd6e607ef19f82f0c0205ff8ac52ffc6894c9de33b98e6dec9e815",
+      "publishedSha256": "ee40a4bb87fd6e607ef19f82f0c0205ff8ac52ffc6894c9de33b98e6dec9e815",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/save-stress/CatGame/save.bad.json",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/save-stress/CatGame/save.bad.json",
+      "sourceSha256": "8c0707e2f5d51150b4d421210a20fbc5b813d21f3bbde0a1dbe5417c17ca0924",
+      "publishedSha256": "8c0707e2f5d51150b4d421210a20fbc5b813d21f3bbde0a1dbe5417c17ca0924",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/save-stress/CatGame/save.json",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/save-stress/CatGame/save.json",
+      "sourceSha256": "f53b98f5625c4253a2f5af8dd7b0cc6853df47f903cb4fe15f7ae2e095d58d36",
+      "publishedSha256": "f53b98f5625c4253a2f5af8dd7b0cc6853df47f903cb4fe15f7ae2e095d58d36",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/result.json",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/result.json",
+      "sourceSha256": "df4ea9ed785853adc00ea9699b5320c4e69c4c7cd505e16fe5c7941317bb5007",
+      "publishedSha256": "5f4bc01eecf4b909d5a807aba9e4673bb6bd294e4aeb376135ba05ca860bf1cb",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/analysis.json",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/analysis.json",
+      "sourceSha256": "e124dd9de8298be7e5152c9c9956820c04436d578d6a8d9db6258974d05c3c9f",
+      "publishedSha256": "eb8a2bfee4e4c89c07496ab555137c53ac4623be4c9d806c0d69e489fb95c101",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/command.json",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/command.json",
+      "sourceSha256": "28d81cc5324c1f4284bb425d6a55e489cc34aaea0b411391cec0b81fd80696c0",
+      "publishedSha256": "f76a3a14ebc88b69afff5c49ee49d8621cccb30de4140e4ab912e78936b09713",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/contract-required-analysis.json",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/contract-required-analysis.json",
+      "sourceSha256": "e124dd9de8298be7e5152c9c9956820c04436d578d6a8d9db6258974d05c3c9f",
+      "publishedSha256": "eb8a2bfee4e4c89c07496ab555137c53ac4623be4c9d806c0d69e489fb95c101",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/frames-cg-cold.csv",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/frames-cg-cold.csv",
+      "sourceSha256": "c0bbee15bd8916b66a087be3312dfed6ae6d45cd2194c8edfb0f4419c9a679b1",
+      "publishedSha256": "c0bbee15bd8916b66a087be3312dfed6ae6d45cd2194c8edfb0f4419c9a679b1",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/frames-cg-warm.csv",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/frames-cg-warm.csv",
+      "sourceSha256": "40b5ba8904cfc20b12a6c931829305b558889d05d1710baf04ca2cec671d9b19",
+      "publishedSha256": "40b5ba8904cfc20b12a6c931829305b558889d05d1710baf04ca2cec671d9b19",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/frames-hundred.csv",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/frames-hundred.csv",
+      "sourceSha256": "2965653ac310f1afe05f12934be24010d46e83497dcf65371cf8cbedc68a1879",
+      "publishedSha256": "2965653ac310f1afe05f12934be24010d46e83497dcf65371cf8cbedc68a1879",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/frames-input.csv",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/frames-input.csv",
+      "sourceSha256": "56e50f0261e807d4d380934d3e88b534efdb251b25051a60c0d9cd8cb063d307",
+      "publishedSha256": "56e50f0261e807d4d380934d3e88b534efdb251b25051a60c0d9cd8cb063d307",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/frames-save.csv",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/frames-save.csv",
+      "sourceSha256": "ba676b2dc3e0f29219d1023b8a020d32d48f192205df4f1e388c2b5ae8b4fc48",
+      "publishedSha256": "ba676b2dc3e0f29219d1023b8a020d32d48f192205df4f1e388c2b5ae8b4fc48",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/frames-single.csv",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/frames-single.csv",
+      "sourceSha256": "247a62e7d19ca784f5e281b8e2373ea44ecedcb6300a7e81f211644aed814f44",
+      "publishedSha256": "247a62e7d19ca784f5e281b8e2373ea44ecedcb6300a7e81f211644aed814f44",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/performance-environment.json",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/performance-environment.json",
+      "sourceSha256": "75626702587adbc5726199660c6c746c6389a982cbf447471c387e0297557847",
+      "publishedSha256": "ec9d633e84560baa77651e42b43fe9335ee7813c4886ba87bba2ac25b68d89a5",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/performance-result.json",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/performance-result.json",
+      "sourceSha256": "90bd3bb81c92da5f5c771328ea970c2d8bca8ec34f049fe48bf0dc19af335ac5",
+      "publishedSha256": "90bd3bb81c92da5f5c771328ea970c2d8bca8ec34f049fe48bf0dc19af335ac5",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/phase-cg-cold.json",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/phase-cg-cold.json",
+      "sourceSha256": "343437f0e2dde27517c3fd07a7b0e2f473323b8b02158ed77fce0852da610579",
+      "publishedSha256": "343437f0e2dde27517c3fd07a7b0e2f473323b8b02158ed77fce0852da610579",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/phase-cg-warm.json",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/phase-cg-warm.json",
+      "sourceSha256": "7cfc8abd1a172d54273291f4532b4e9dc846da9eb76d659bfd3be3fb033acac3",
+      "publishedSha256": "7cfc8abd1a172d54273291f4532b4e9dc846da9eb76d659bfd3be3fb033acac3",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/phase-hundred.json",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/phase-hundred.json",
+      "sourceSha256": "31a0dab81fbe15eff40ccb85560f29e7f004af1172d6ac66454312c321214ce9",
+      "publishedSha256": "31a0dab81fbe15eff40ccb85560f29e7f004af1172d6ac66454312c321214ce9",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/phase-input.json",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/phase-input.json",
+      "sourceSha256": "e06dbffc3e7c52e7cdbedadc66ac35290aaebaede46a63a452f76ecbe7abc679",
+      "publishedSha256": "e06dbffc3e7c52e7cdbedadc66ac35290aaebaede46a63a452f76ecbe7abc679",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/phase-save.json",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/phase-save.json",
+      "sourceSha256": "66083231e755c7f9fd0545f289ea4dfd9117c40cff8e9e7d8563033b0cb56f9f",
+      "publishedSha256": "66083231e755c7f9fd0545f289ea4dfd9117c40cff8e9e7d8563033b0cb56f9f",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/phase-single.json",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/phase-single.json",
+      "sourceSha256": "8ce34722cda5119dfbb229b4fe8b483c41c3408cb4897d2cd2c313d20988d9a5",
+      "publishedSha256": "8ce34722cda5119dfbb229b4fe8b483c41c3408cb4897d2cd2c313d20988d9a5",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/progress.json",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/progress.json",
+      "sourceSha256": "ba750c3dbc5c9545cd4fa71dd2c2221604a3e1f678ca147de3d5d015edc7a564",
+      "publishedSha256": "ba750c3dbc5c9545cd4fa71dd2c2221604a3e1f678ca147de3d5d015edc7a564",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/save-backup-before-corruption.json",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/save-backup-before-corruption.json",
+      "sourceSha256": "f53b98f5625c4253a2f5af8dd7b0cc6853df47f903cb4fe15f7ae2e095d58d36",
+      "publishedSha256": "f53b98f5625c4253a2f5af8dd7b0cc6853df47f903cb4fe15f7ae2e095d58d36",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/save-restored-after-corruption.json",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/save-restored-after-corruption.json",
+      "sourceSha256": "f53b98f5625c4253a2f5af8dd7b0cc6853df47f903cb4fe15f7ae2e095d58d36",
+      "publishedSha256": "f53b98f5625c4253a2f5af8dd7b0cc6853df47f903cb4fe15f7ae2e095d58d36",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/steps.jsonl",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/steps.jsonl",
+      "sourceSha256": "d849e03c75d97dd86f4420a3016a78f3fc99dcd895b381c1a53e2554d933ebe6",
+      "publishedSha256": "d849e03c75d97dd86f4420a3016a78f3fc99dcd895b381c1a53e2554d933ebe6",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/CatGame/save.json",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/CatGame/save.json",
+      "sourceSha256": "93164f7d524f5a229580e26d29aa84e06a6fe8c529a73977e071c18485ef86b9",
+      "publishedSha256": "93164f7d524f5a229580e26d29aa84e06a6fe8c529a73977e071c18485ef86b9",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/save-stress/CatGame/save.bad.json",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/save-stress/CatGame/save.bad.json",
+      "sourceSha256": "8c0707e2f5d51150b4d421210a20fbc5b813d21f3bbde0a1dbe5417c17ca0924",
+      "publishedSha256": "8c0707e2f5d51150b4d421210a20fbc5b813d21f3bbde0a1dbe5417c17ca0924",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/save-stress/CatGame/save.json",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/save-stress/CatGame/save.json",
+      "sourceSha256": "f53b98f5625c4253a2f5af8dd7b0cc6853df47f903cb4fe15f7ae2e095d58d36",
+      "publishedSha256": "f53b98f5625c4253a2f5af8dd7b0cc6853df47f903cb4fe15f7ae2e095d58d36",
+      "transformed": false
+    },
+    {
+      "source": "Build/SaveDiagnosis/performance-contract/QA/CatGameQA.provenance.json",
+      "path": "evidence/performance-save-contract/build/CatGameQA.provenance.json",
+      "sourceSha256": "318faaf08867985c28bc1e6b2d204170be95c195faa2fda7bb978987c83acfb7",
+      "publishedSha256": "318faaf08867985c28bc1e6b2d204170be95c195faa2fda7bb978987c83acfb7",
+      "transformed": false
+    },
+    {
+      "source": "Build/SaveDiagnosis/standalone-ci-probe.json",
+      "path": "evidence/performance-save-contract/standalone-ci-probe.json",
+      "sourceSha256": "afee8e20c2d341e89ec4f75a46f479d2ba1e1057cdcfdb3a4ed08f7ca0e80296",
+      "publishedSha256": "afee8e20c2d341e89ec4f75a46f479d2ba1e1057cdcfdb3a4ed08f7ca0e80296",
+      "transformed": false
+    },
+    {
+      "source": "docs/Windows性能存档断言维护.md",
+      "path": "reports/performance-save-contract.md",
+      "sourceSha256": "894f39bbb4051a02f9d4c9cd24eaeadd7200dda1c71ae83e1e66eb7dd398f301",
+      "publishedSha256": "894f39bbb4051a02f9d4c9cd24eaeadd7200dda1c71ae83e1e66eb7dd398f301",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/performance-errors.txt",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/performance-errors.txt",
+      "sourceSha256": "4eb6579be1974a4a5b1d64cd2c8c15d7cd46fb730fd4494b24126c0c5cfe7491",
+      "publishedSha256": "4eb6579be1974a4a5b1d64cd2c8c15d7cd46fb730fd4494b24126c0c5cfe7491",
+      "transformed": false
+    },
+    {
+      "source": "Build/SaveDiagnosis/performance-stats-contract-tests-02.log",
+      "path": "evidence/performance-save-contract/analyzer-tests.txt",
+      "sourceSha256": "7f8baa5be8473ad1877a52b4a509a9cde59bf7d55f629a3f8976e11b48dfc3b6",
+      "publishedSha256": "7f8baa5be8473ad1877a52b4a509a9cde59bf7d55f629a3f8976e11b48dfc3b6",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/CatGame/save.json.bak",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/CatGame/save.json.bak",
+      "sourceSha256": "83501a93d9ebed5733edfbe1f7a11863b49b600fe9c0de81d56f83a35e92e0f4",
+      "publishedSha256": "83501a93d9ebed5733edfbe1f7a11863b49b600fe9c0de81d56f83a35e92e0f4",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-red-20261114-03/round-1/save-stress/CatGame/save.json.bak",
+      "path": "evidence/performance-save-contract/save-contract-red-20261114-03/round-1/save-stress/CatGame/save.json.bak",
+      "sourceSha256": "f53b98f5625c4253a2f5af8dd7b0cc6853df47f903cb4fe15f7ae2e095d58d36",
+      "publishedSha256": "f53b98f5625c4253a2f5af8dd7b0cc6853df47f903cb4fe15f7ae2e095d58d36",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/CatGame/save.json.bak",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/CatGame/save.json.bak",
+      "sourceSha256": "692f5f2e37b09238d4ee5587e61fec3f78ba8d1872c0c5788d41fb5becf64326",
+      "publishedSha256": "692f5f2e37b09238d4ee5587e61fec3f78ba8d1872c0c5788d41fb5becf64326",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/results/save-contract-green-20261114-01/round-1/save-stress/CatGame/save.json.bak",
+      "path": "evidence/performance-save-contract/save-contract-green-20261114-01/round-1/save-stress/CatGame/save.json.bak",
+      "sourceSha256": "f53b98f5625c4253a2f5af8dd7b0cc6853df47f903cb4fe15f7ae2e095d58d36",
+      "publishedSha256": "f53b98f5625c4253a2f5af8dd7b0cc6853df47f903cb4fe15f7ae2e095d58d36",
+      "transformed": false
     }
   ],
   "androidOriginCommits": {
@@ -4260,5 +4652,10 @@
   "windowsSaveFix": {
     "testCommit": "1b3601e",
     "publicGameCommit": "cc926ecfa0c397017e0394f883e1520d985a66a0"
+  },
+  "performanceSaveContract": {
+    "qaCommit": "df44498",
+    "toolsCommit": "95cdc53",
+    "productionGameChanged": false
   }
 }

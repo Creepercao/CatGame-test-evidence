@@ -15,6 +15,7 @@
 | 版本质量与CI/CD | [最终交付审计](evidence/ci-delivery-audit-20261106-01/result.json)、[同源失败门禁](evidence/ci-audit-20261106-01/result.json) | 测试失败/构建失败阻断，以及纠正后的成功交付 |
 | Bug复现、评级、追踪与闭环 | [缺陷与追溯](reports/缺陷与追溯.md)、[失败](evidence/roaming-target-red-20261106-01)、[复测](evidence/roaming-target-green-20261106-01) | 固定种子复现、保留阈值、修复与回归证据 |
 | 保存压力与故障定位 | [Windows 文件替换排查](reports/windows-save-replacement-diagnosis.md) | 原失败现场、Win32 最小复现、七项确定性红绿、三轮千次压力、实际 Player/修改器及 Windows v1.0.1 交付 |
+| 测试用例维护与结果可信性 | [性能用例契约维护](reports/performance-save-contract.md) | 旧用例误报的完整 Player 红绿、新包契约门禁、备份前后快照与完整 CSV 重算；区分环境失败、测试缺陷和产品缺陷 |
 | 客户端性能、压力测试 | [执行前方案](reports/性能专项方案.md)、[专项报告](reports/性能专项报告-2026-11-06.md)、[两轮原始数据](evidence/performance-baseline-20261106-02/performance) | 环境、预热、帧时间分布、操作耗时和结论边界 |
 | 测试平台从0到1 | [执行入口](harness/tools/qa/run_suite.py)、[失败取证](evidence/business-failure-20261106-01)、[异常采样留证](evidence/performance-failure-20261106-01) | 不只跑成功路径，也验证结果缺失、异常退出与partial数据 |
 
@@ -52,4 +53,4 @@ python verify_evidence.py
 
 `provenance.json`分别记录转换前后摘要；原始哈希不能用于校验已脱敏副本。保留历史时间、数值、失败结果和版本，不将脱敏处理伪装为原始字节。
 
-**真机与显示修复进度**　普通 v4 已通过房间露边的真机红绿、覆盖升级及三种 AVD 比例复验；QA v4 六轮合计 21810 帧，均通过参考预算，百猫 301.97 秒挂机观察通过。Windows 存档压力间歇 I/O 失败仍保留并跟踪。其他机型、GPU 调用栈、长期泄漏、耗电和数小时通关尚未实测。[真机报告](reports/android-phone-test-evidence.md)、[本轮回归](reports/android-viewport-regression.md)、[v4 性能复验](reports/android-v4-performance.md)
+**当前进度**　Android v4 已完成布局、升级、六轮性能和短时挂机验收。Windows 1175 有限恢复已在 v1.0.1 交付，具体系统占用者尚未知；其后完整性能 QA 的旧存档断言已修正并实际红绿复验。Android 原偶发购买恢复仍跟踪。其他机型、GPU 调用栈、长期泄漏、耗电和数小时通关尚未实测。[真机报告](reports/android-phone-test-evidence.md)、[v4 性能复验](reports/android-v4-performance.md)、[本轮测试维护](reports/performance-save-contract.md)

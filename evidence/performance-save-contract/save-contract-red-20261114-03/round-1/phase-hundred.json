@@ -1,0 +1,13 @@
+{
+    "name": "hundred",
+    "started": 84.8610786,
+    "elapsed": 90.01486479999999,
+    "cpuMilliseconds": 27625.0,
+    "workingSetBefore": 268226560,
+    "workingSetAfter": 269729792,
+    "frames": 5399,
+    "visible": 100,
+    "owned": 440,
+    "boundaryChecks": 89,
+    "boundaryErrors": 0
+}

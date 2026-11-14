@@ -1,0 +1,12 @@
+{
+  "number": 1,
+  "command": [
+    "PROJECT_ROOT\\Build\\SaveDiagnosis\\performance-contract\\QA\\CatGameQA.exe",
+    "-screen-fullscreen",
+    "0",
+    "-logFile",
+    "PROJECT_ROOT\\Tests\\robot\\results\\save-contract-green-20261114-01\\round-1\\player.log"
+  ],
+  "started": "2026-11-14T14:18:30.838651+00:00",
+  "pid": 61396
+}

@@ -1,0 +1,9 @@
+{
+  "started": "2026-11-14T14:04:32.117730+00:00",
+  "probe": false,
+  "rounds": [],
+  "passed": false,
+  "preflight": [],
+  "error": "Traceback (most recent call last):\n  File \"PROJECT_ROOT\\tools\\qa\\run_performance.py\", line 65, in main\n    report['ciPreflight'] = require_stopped_local_ci()\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"PROJECT_ROOT\\tools\\qa\\run_performance.py\", line 36, in require_stopped_local_ci\n    assert result in (errno.ECONNREFUSED, 10061), (\nAssertionError: ENVIRONMENT: standalone requires a stopped local CI service; connection result=10035\n",
+  "ended": "2026-11-14T14:04:35.021914+00:00"
+}

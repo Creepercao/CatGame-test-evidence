@@ -1,0 +1,5 @@
+{"step":1,"utc":"2026-11-14T14:07:37.6498113Z","scene":"Home","type":"performance-phase","message":"single; frames=3599; seconds=60.0036887","realtime":74.7540512084961,"timeScale":1.0,"passed":true}
+{"step":2,"utc":"2026-11-14T14:09:17.8020154Z","scene":"Home","type":"performance-phase","message":"hundred; frames=5399; seconds=90.0148648","realtime":174.8980255126953,"timeScale":1.0,"passed":true}
+{"step":3,"utc":"2026-11-14T14:10:27.8264355Z","scene":"Home","type":"performance-phase","message":"input; frames=3598; seconds=60.0021034","realtime":244.92202758789063,"timeScale":1.0,"passed":true}
+{"step":4,"utc":"2026-11-14T14:10:31.2000610Z","scene":"Home","type":"performance-phase","message":"cg-cold; frames=22; seconds=0.364377899999994","realtime":248.29544067382813,"timeScale":1.0,"passed":true}
+{"step":5,"utc":"2026-11-14T14:10:44.8829897Z","scene":"Home","type":"performance-phase","message":"cg-warm; frames=220; seconds=3.6678761","realtime":261.9785461425781,"timeScale":1.0,"passed":true}
