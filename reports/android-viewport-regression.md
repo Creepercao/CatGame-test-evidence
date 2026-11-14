@@ -52,6 +52,8 @@ v4，右侧 0 px：
 
 ## 未关闭事项与结论边界
 
+> 2026-11-14 后续：下段“QA v4 正在构建、尚未复采”为上轮快照。QA v4 已完成六轮真机采样，21810 帧均在预算内，六张测量后截图边缘均为 0；[详细结果](android-v4-performance.md)。百猫挂机与发行交付另行更新。
+
 普通版显示修复已通过上述范围。独立 `.perf` v4 正在构建，背景复查和性能复采尚未完成；不将 v3 的六轮性能结果直接作为 v4 测量结果。Android 源码和 Release 交付另行完成。
 
 M16 跟踪 Windows 间歇存档 I/O：第二轮第 874 次 `File.Replace` 返回 HResult `0x80070497`，主档、备份和临时文件均存在。随后两次通过不能证明根因已解决；未归因于杀毒软件，也未将其描述成已复现的 Android 丢档。生产 SaveNow 保持 dirty 并延后重试，测试静态 SaveToPath 仍抛出异常。失败导出能力仅在指定诊断目录保留文件后重新抛出，不吞异常。[Microsoft 1175 返回值说明](https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-replacefilew)。

@@ -1,0 +1,53 @@
+Applications Memory Usage (in Kilobytes):
+Uptime: 458622331 Realtime: 1634822458
+
+** MEMINFO in pid 32195 [com.catgamestudio.catgame.perf] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    16685    16532       64       82    17268    30892    23703     3823
+  Dalvik Heap     3635     3496       20      742     4244    27634     3058    24576
+ Dalvik Other     8924     1724        0        1    16124
+        Stack     1584     1584        0        0     1588
+       Ashmem      392        0        0        0      960
+      Gfx dev     3924     3924        0        0     3928
+    Other dev      369      296       24        0     1036
+     .so mmap    44381     3180    33868        0    89188
+    .jar mmap     3701        0     1288        0    50604
+    .apk mmap      495        0       24        0     2640
+    .ttf mmap      320        0       44        0     2504
+    .dex mmap      909      188      300        0     2964
+    .oat mmap       48        0        4        0     1804
+    .art mmap    11524     8176     1656       51    22200
+   Other mmap     4641     4632        0        0     5468
+   EGL mtrack    53216    53216        0        0    53216
+    GL mtrack      192      192        0        0      192
+      Unknown    78155    78032       48        5    78480
+        TOTAL   233976   175172    37340      881   354408    58526    26761    28399
+
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:    13328                          26444
+         Native Heap:    16532                          17268
+                Code:    38980                         164188
+               Stack:     1584                           1588
+            Graphics:    57332                          57336
+       Private Other:    84756
+              System:    21464
+             Unknown:                                   87584
+
+           TOTAL PSS:   233976            TOTAL RSS:   354408       TOTAL SWAP PSS:      881
+
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        8           Activities:        1
+              Assets:       38        AssetManagers:        0
+       Local Binders:       27        Proxy Binders:       84
+       Parcel memory:       10         Parcel count:       42
+    Death Recipients:        2             WebViews:        0
+
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+

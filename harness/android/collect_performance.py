@@ -94,7 +94,7 @@ def analyze(csv_text, result, mode, probe):
             "withinReferenceBudget": None if probe else percentile(.95) <= 20 and over_budget <= .01}
 
 
-def collect(device, output, mode, probe, idle_seconds=0):
+def collect(device, output, mode, probe, idle_seconds=0, capture_after_sample=False):
     output.mkdir()
     run_id = uuid4().hex
     remote = f"files/AndroidPerf/{run_id}"
@@ -127,6 +127,10 @@ def collect(device, output, mode, probe, idle_seconds=0):
                    "pssBeforeKiB": before, "pssAfterKiB": after, **analyze(csv_text, result, mode, probe)}
         dump_json(output / "metrics.json", metrics)
         print(json.dumps(metrics), flush=True)
+        if capture_after_sample:
+            # The measured interval and both memory captures have already ended.
+            png = subprocess.check_output([*device.adb, "exec-out", "screencap", "-p"], timeout=30)
+            (output / "after-sample.png").write_bytes(png)
         if idle_seconds:
             save_path = f"/storage/emulated/{device.user}/Android/data/{PACKAGE}/files/CatGame/save.json"
             initial = json.loads(device.shell("cat", save_path))
@@ -166,6 +170,8 @@ def main():
     parser.add_argument("--mode", choices=("single", "hundred", "both"), default="both")
     parser.add_argument("--probe", action="store_true", help="Collect three seconds per scene for pipeline validation")
     parser.add_argument("--repeats", type=int, choices=range(1, 6), default=1)
+    parser.add_argument("--capture-after-sample", action="store_true",
+                        help="Capture the QA room only after frame sampling and memory measurements")
     parser.add_argument("--idle-seconds", type=int, choices=(0, 300), default=0,
                         help="Observe the unchanged foreground scene after frame sampling")
     args = parser.parse_args()
@@ -183,10 +189,19 @@ def main():
               "model": device.shell("getprop", "ro.product.model").strip(),
               "android": device.shell("getprop", "ro.build.version.release").strip(),
               "apkSha256": actual_hash, "probe": args.probe})
+    power = device.shell("dumpsys", "power")
+    policy = device.shell("dumpsys", "window", "policy")
+    showing = re.search(r"(?m)^\s*showing=(true|false)\s*$", policy)
+    readiness = {"awake": bool(re.search(r"(?m)^\s*mWakefulness=Awake\s*$", power)),
+                 "keyguardShowing": None if showing is None else showing.group(1) == "true"}
+    dump_json(args.output / "readiness.json", readiness)
+    if not readiness["awake"] or readiness["keyguardShowing"] is not False:
+        raise RuntimeError("Phone must be awake and manually unlocked before sampling; see readiness.json")
     modes = ("single", "hundred") if args.mode == "both" else (args.mode,)
     for index in range(1, args.repeats + 1):
         for mode in modes:
-            collect(device, args.output / f"{index:02d}-{mode}", mode, args.probe, args.idle_seconds)
+            collect(device, args.output / f"{index:02d}-{mode}", mode, args.probe, args.idle_seconds,
+                    args.capture_after_sample)
 
 
 if __name__ == "__main__":

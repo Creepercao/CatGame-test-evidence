@@ -257,6 +257,35 @@ def main():
         print(f'PASS round {n} hundred-cat P95={p95:.6f}ms, frames={len(vals)}')
     verify_android()
     verify_android_viewport()
+    base = 'evidence/android/viewport/phone-perf-v4-02'
+    summary = read(f'{base}/summary.json')
+    assert len(summary['samples']) == 6 and summary['totalFrames'] == 21810
+    assert summary['allWithinReferenceBudget'] and summary['allRoomEdgesCovered']
+    for sample in summary['samples']:
+        folder = f"{base}/{sample['run']}"
+        result = read(f'{folder}/result.json')
+        metrics = read(f'{folder}/metrics.json')
+        assert result['elapsedSeconds'] >= 60 and result['visibleCats'] == sample['visibleCats']
+        with (ROOT / folder / 'frames.csv').open(encoding='utf-8', newline='') as handle:
+            rows = list(csv.DictReader(handle))
+        assert len(rows) == result['frameCount'] == metrics['frames']
+        frames = [int(row['frame']) for row in rows]
+        assert frames == list(range(frames[0], frames[0] + len(frames)))
+        values = sorted(float(row['frame_ms']) for row in rows)
+        assert values[math.ceil(.95 * len(values)) - 1] == metrics['p95Ms'] <= 20
+        assert metrics['over33_3msRatio'] == 0 and metrics['pssBeforeKiB'] > 0 and metrics['pssAfterKiB'] > 0
+        coverage = read(f'{folder}/coverage.json')
+        assert coverage['rightClearWidths'] == [0, 0, 0]
+        assert hashlib.sha256((ROOT / folder / 'after-sample.png').read_bytes()).hexdigest() == coverage['imageSha256']
+    assert read('evidence/android/viewport/phone-perf-v4-01/failure.json')['formalFrameSampleStarted'] is False
+    probe = read('evidence/android/viewport/locked-preflight-v4-01/01-single/metrics.json')
+    assert probe['probe'] and probe['frames'] == 182 and probe['withinReferenceBudget'] is None
+    print('PASS QA v4 six 60-second samples, measured-room images, and retained startup failure/probe')
+    idle = read('evidence/android/viewport/phone-idle-v4-01/01-hundred/idle-result.json')
+    assert idle['elapsedSeconds'] >= 300 and idle['playSecondsAdvanced'] >= 280
+    assert idle['catsUnchanged'] and idle['initial']['cats'] == idle['final']['cats']
+    assert len(idle['memorySnapshots']) == 5 and all(x['pssKiB'] > 0 for x in idle['memorySnapshots'])
+    print('PASS QA v4 300-second foreground idle, roster persistence and playtime progression')
     print('All evidence checks passed; no new Unity/Robot execution performed.')
 
 if __name__=='__main__': main()

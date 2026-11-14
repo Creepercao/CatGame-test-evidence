@@ -1,0 +1,7 @@
+Starting: Intent { cmp=com.catgamestudio.catgame.perf/com.unity3d.player.UnityPlayerActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame.perf/com.unity3d.player.UnityPlayerActivity
+TotalTime: 461
+WaitTime: 463
+Complete

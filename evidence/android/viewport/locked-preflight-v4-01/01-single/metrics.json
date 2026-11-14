@@ -1,0 +1,13 @@
+{
+  "mode": "single",
+  "probe": true,
+  "pid": 32195,
+  "frames": 182,
+  "pssBeforeKiB": 233976,
+  "pssAfterKiB": 258509,
+  "p50Ms": 16.5039063,
+  "p95Ms": 16.5677032,
+  "p99Ms": 16.58078,
+  "over33_3msRatio": 0.0,
+  "withinReferenceBudget": null
+}

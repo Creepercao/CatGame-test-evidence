@@ -51,4 +51,4 @@ python verify_evidence.py
 
 `provenance.json`分别记录转换前后摘要；原始哈希不能用于校验已脱敏副本。保留历史时间、数值、失败结果和版本，不将脱敏处理伪装为原始字节。
 
-**真机与显示修复进度**　v3 已覆盖核心功能、结局和六轮性能采样；普通 v4 已通过房间露边的真机红绿、覆盖升级及三种 AVD 比例复验，QA v4 性能复采待完成。Windows 存档压力间歇 I/O 失败仍保留并跟踪。其他机型、GPU 调用栈、长期泄漏、耗电和数小时通关尚未实测。弱网和账号支付缺少对应的在线游戏业务。[真机报告](reports/android-phone-test-evidence.md)、[本轮回归](reports/android-viewport-regression.md)
+**真机与显示修复进度**　普通 v4 已通过房间露边的真机红绿、覆盖升级及三种 AVD 比例复验；QA v4 六轮合计 21810 帧，均通过参考预算，百猫 301.97 秒挂机观察通过。Windows 存档压力间歇 I/O 失败仍保留并跟踪。其他机型、GPU 调用栈、长期泄漏、耗电和数小时通关尚未实测。[真机报告](reports/android-phone-test-evidence.md)、[本轮回归](reports/android-viewport-regression.md)、[v4 性能复验](reports/android-v4-performance.md)

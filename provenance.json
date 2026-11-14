@@ -2252,8 +2252,8 @@
     {
       "source": "Tests/robot/android/collect_performance.py",
       "path": "harness/android/collect_performance.py",
-      "sourceSha256": "84b6b1571033a0e9f32a7139ba29d525fe8eafa448df72a3556e7e2aef9de27b",
-      "publishedSha256": "84b6b1571033a0e9f32a7139ba29d525fe8eafa448df72a3556e7e2aef9de27b",
+      "sourceSha256": "4ad588cf969db7cb62d475d9c8b4968ca9a69a3d5ce9d8df37b56fd279c35f80",
+      "publishedSha256": "4ad588cf969db7cb62d475d9c8b4968ca9a69a3d5ce9d8df37b56fd279c35f80",
       "transformed": false
     },
     {
@@ -3365,9 +3365,625 @@
     {
       "source": "docs/Android超宽屏修复记录.md",
       "path": "reports/android-viewport-regression.md",
-      "sourceSha256": "d603700a2a3f8171f892fd93c79eebf37a4aa5c4ff862e6cfaf1e6b91f2d3232",
-      "publishedSha256": "f5421ec96c3b7684b32175fd693fa4fcf6962b6ce50ab8c93713fc6f26f0d33d",
+      "sourceSha256": "c1827789a9f7bf06e7fbec9526b85265130cecd7163bb9985038988d8c165538",
+      "publishedSha256": "260e7172bdd6eb91bdd49770c0ae7779befa7cc1990163b2471885e680875043",
       "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/device.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/device.json",
+      "sourceSha256": "0767a9b68c91408bb1a33b1e569cb91faacf312ff8c5fe1c8cd73d4df47a1b1d",
+      "publishedSha256": "b2cf7ea7ff33bf6751ad0c4a04ca883bbe1c818e287810a51e3386592ee28bb2",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/readiness.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/readiness.json",
+      "sourceSha256": "65a49b2c4f82da638a9224f428ed8bdb20595094e4ae964d045c9648ce3830e1",
+      "publishedSha256": "65a49b2c4f82da638a9224f428ed8bdb20595094e4ae964d045c9648ce3830e1",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/summary.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/summary.json",
+      "sourceSha256": "63345858502fbb416a919526fb743fc521dccf4e746f2ea773192ee501c9749b",
+      "publishedSha256": "63345858502fbb416a919526fb743fc521dccf4e746f2ea773192ee501c9749b",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/01-hundred/after-sample.png",
+      "path": "evidence/android/viewport/phone-perf-v4-02/01-hundred/after-sample.png",
+      "sourceSha256": "aea74af668f13da75a6b3a849ed0e77e4579d387b05579fac9239b812c2ad2af",
+      "publishedSha256": "aea74af668f13da75a6b3a849ed0e77e4579d387b05579fac9239b812c2ad2af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/01-hundred/coverage.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/01-hundred/coverage.json",
+      "sourceSha256": "c0521511135ffe4fe74a881c00382a4a724a0bdfb33144a4e2bdca1f80fbcad2",
+      "publishedSha256": "c0521511135ffe4fe74a881c00382a4a724a0bdfb33144a4e2bdca1f80fbcad2",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/01-hundred/frames.csv",
+      "path": "evidence/android/viewport/phone-perf-v4-02/01-hundred/frames.csv",
+      "sourceSha256": "323af4797ea78131bb5d05df0e3a32a4bbcf63370d9d8af7da17ddef0833b1d1",
+      "publishedSha256": "323af4797ea78131bb5d05df0e3a32a4bbcf63370d9d8af7da17ddef0833b1d1",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/01-hundred/launch.txt",
+      "path": "evidence/android/viewport/phone-perf-v4-02/01-hundred/launch.txt",
+      "sourceSha256": "78e742f1e73f5998370ee42eae8b35a261232a7362a19e4f1393a4afaff545ba",
+      "publishedSha256": "429deb55206f3c502f89f612c2f12c449b8752eeebb7c96894938523ae89144d",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/01-hundred/meminfo-after.txt",
+      "path": "evidence/android/viewport/phone-perf-v4-02/01-hundred/meminfo-after.txt",
+      "sourceSha256": "c3c3aee2911c3e8468f60f7ced8e50c1ed00e45f910d30a11bf8faf268ce4a0b",
+      "publishedSha256": "0300b08e2b362a97f9c625c3370651029e33d2bb6cb13e2e2127c9854fa92d05",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/01-hundred/meminfo-before.txt",
+      "path": "evidence/android/viewport/phone-perf-v4-02/01-hundred/meminfo-before.txt",
+      "sourceSha256": "c1a52d870b4890c0bdd8e5b6bf0b5e13899d230b462a11742879e2e8c51142ae",
+      "publishedSha256": "3996968aa35f2142aec5565ff95a0ef9cb5288fb7d0a23ac9b6de4c97bb4fb2e",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/01-hundred/metrics.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/01-hundred/metrics.json",
+      "sourceSha256": "232053350b135b12e1aea9b34bb98ed12ddf17ebe4faded3d29cbcce4c07cce4",
+      "publishedSha256": "232053350b135b12e1aea9b34bb98ed12ddf17ebe4faded3d29cbcce4c07cce4",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/01-hundred/result.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/01-hundred/result.json",
+      "sourceSha256": "5566cfb032c4cc491417a52d62432cff0e0b88fc59610b7bf9f77a65ff02bf31",
+      "publishedSha256": "5566cfb032c4cc491417a52d62432cff0e0b88fc59610b7bf9f77a65ff02bf31",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/01-hundred/warmup.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/01-hundred/warmup.json",
+      "sourceSha256": "425f55898b30511c668a05d4faaef88a723c27a2455ea10646894d5d1461eb42",
+      "publishedSha256": "425f55898b30511c668a05d4faaef88a723c27a2455ea10646894d5d1461eb42",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/01-single/after-sample.png",
+      "path": "evidence/android/viewport/phone-perf-v4-02/01-single/after-sample.png",
+      "sourceSha256": "7188c8513766e6c8555501c99f53ccaa6ee5c5cd0e96efd2bfe3392b84da7ce3",
+      "publishedSha256": "7188c8513766e6c8555501c99f53ccaa6ee5c5cd0e96efd2bfe3392b84da7ce3",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/01-single/coverage.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/01-single/coverage.json",
+      "sourceSha256": "8e0299208db6df952df512d1aa51d4ccfef73191430d7fad320d54c6fc10fdc7",
+      "publishedSha256": "8e0299208db6df952df512d1aa51d4ccfef73191430d7fad320d54c6fc10fdc7",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/01-single/frames.csv",
+      "path": "evidence/android/viewport/phone-perf-v4-02/01-single/frames.csv",
+      "sourceSha256": "87a3f2f67307715b5b9dbee0efa24ab8e8216c149ba302c2c5a3f2f8ef5bafd6",
+      "publishedSha256": "87a3f2f67307715b5b9dbee0efa24ab8e8216c149ba302c2c5a3f2f8ef5bafd6",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/01-single/launch.txt",
+      "path": "evidence/android/viewport/phone-perf-v4-02/01-single/launch.txt",
+      "sourceSha256": "a58cddbf14c41ff2a71ea1401414d5c9cb858f97a282dbe6bd39bfd849f6d9d7",
+      "publishedSha256": "11a250abb0f3522d70a63da29a3e6e0f4c8a3d979a2a6d85ee85800165b11438",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/01-single/meminfo-after.txt",
+      "path": "evidence/android/viewport/phone-perf-v4-02/01-single/meminfo-after.txt",
+      "sourceSha256": "b50b909f824495cfc6263de17d8b748684e019fce399851ded2e84d07a797d20",
+      "publishedSha256": "879807d8aa044668af3b11396fab5f71f842600c467a84f0215cf1fe9f55625c",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/01-single/meminfo-before.txt",
+      "path": "evidence/android/viewport/phone-perf-v4-02/01-single/meminfo-before.txt",
+      "sourceSha256": "64dd755f9c49e7c9db292dfe4b5df58fe43ff1bf97908efd0ce641b31f60cf57",
+      "publishedSha256": "3007f6ee3046c39166f69aac02f5b48ceb62a67d7c1a6d16640cf451017885da",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/01-single/metrics.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/01-single/metrics.json",
+      "sourceSha256": "84619acc34752dac12ef2da30f5dd12d8c997ce926c6900f2590ee8071d9b293",
+      "publishedSha256": "84619acc34752dac12ef2da30f5dd12d8c997ce926c6900f2590ee8071d9b293",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/01-single/result.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/01-single/result.json",
+      "sourceSha256": "aaa21282816e85963dc43f5a2943644ecb275854a7fd94c16d6e118a4a87ff88",
+      "publishedSha256": "aaa21282816e85963dc43f5a2943644ecb275854a7fd94c16d6e118a4a87ff88",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/01-single/warmup.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/01-single/warmup.json",
+      "sourceSha256": "d3b948fd4991763f6e1af9a58da21817daae643e26ce42a4c97e529275fe4440",
+      "publishedSha256": "d3b948fd4991763f6e1af9a58da21817daae643e26ce42a4c97e529275fe4440",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/02-hundred/after-sample.png",
+      "path": "evidence/android/viewport/phone-perf-v4-02/02-hundred/after-sample.png",
+      "sourceSha256": "b231704c75891664acef3f32db0259a72130acf689484af213c77068e9441cda",
+      "publishedSha256": "b231704c75891664acef3f32db0259a72130acf689484af213c77068e9441cda",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/02-hundred/coverage.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/02-hundred/coverage.json",
+      "sourceSha256": "d83a8ebb68e6d5f61d55652bc7ad5b3a25015398fddedabb346b0898e2d8d810",
+      "publishedSha256": "d83a8ebb68e6d5f61d55652bc7ad5b3a25015398fddedabb346b0898e2d8d810",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/02-hundred/frames.csv",
+      "path": "evidence/android/viewport/phone-perf-v4-02/02-hundred/frames.csv",
+      "sourceSha256": "4d3e57416dcb6c5217be21c6eb1a9ab48b4ea61e0feb48db9f31b40558c0744c",
+      "publishedSha256": "4d3e57416dcb6c5217be21c6eb1a9ab48b4ea61e0feb48db9f31b40558c0744c",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/02-hundred/launch.txt",
+      "path": "evidence/android/viewport/phone-perf-v4-02/02-hundred/launch.txt",
+      "sourceSha256": "c30167461d0d3e329c69a28c56daf3a7582aacec9b72edb0b6d8e9a5bc0b1730",
+      "publishedSha256": "9fdf603f7d1e314b90a95164a2db7078f11415d3b53f37a630a1cfd11e5bfcf1",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/02-hundred/meminfo-after.txt",
+      "path": "evidence/android/viewport/phone-perf-v4-02/02-hundred/meminfo-after.txt",
+      "sourceSha256": "9f9a1e9fd66aaee32d5845f3e605dc829747f2120c847fee88b7a51bb71e0dc5",
+      "publishedSha256": "9afb931268e520bc6495804acfe3489bf8cea7273e3e3d9d00405650ecf87625",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/02-hundred/meminfo-before.txt",
+      "path": "evidence/android/viewport/phone-perf-v4-02/02-hundred/meminfo-before.txt",
+      "sourceSha256": "26f86d7eb729a526fdd3ec3fa0f6e40f20fbd8ad62964544f520451c5f2e38a0",
+      "publishedSha256": "487a9ff8a93f6486bdfdda3682a4dade8222501ede335087a899a8dc1f0d248e",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/02-hundred/metrics.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/02-hundred/metrics.json",
+      "sourceSha256": "fc912bde7d52cb5e35149bcf6eb95179398dcd610409b4d9e581cc3aa7a1ae96",
+      "publishedSha256": "fc912bde7d52cb5e35149bcf6eb95179398dcd610409b4d9e581cc3aa7a1ae96",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/02-hundred/result.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/02-hundred/result.json",
+      "sourceSha256": "afb464e6178652f6d67e19732ed6461ad99c7a5dfb1b6d970ef0aeabf34113ab",
+      "publishedSha256": "afb464e6178652f6d67e19732ed6461ad99c7a5dfb1b6d970ef0aeabf34113ab",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/02-hundred/warmup.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/02-hundred/warmup.json",
+      "sourceSha256": "425f55898b30511c668a05d4faaef88a723c27a2455ea10646894d5d1461eb42",
+      "publishedSha256": "425f55898b30511c668a05d4faaef88a723c27a2455ea10646894d5d1461eb42",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/02-single/after-sample.png",
+      "path": "evidence/android/viewport/phone-perf-v4-02/02-single/after-sample.png",
+      "sourceSha256": "3ea6f2d4ac5710df54aa711c35c59d848062717129ebacb322571afbd16cb47f",
+      "publishedSha256": "3ea6f2d4ac5710df54aa711c35c59d848062717129ebacb322571afbd16cb47f",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/02-single/coverage.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/02-single/coverage.json",
+      "sourceSha256": "a9d65743e51c292a3fe3597b2e1dc6454d0324c383cbb259df0d7fdcc4bff098",
+      "publishedSha256": "a9d65743e51c292a3fe3597b2e1dc6454d0324c383cbb259df0d7fdcc4bff098",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/02-single/frames.csv",
+      "path": "evidence/android/viewport/phone-perf-v4-02/02-single/frames.csv",
+      "sourceSha256": "3103628152ec3ae0fccf0d8a75d6fb4f379414c3a3fcbab9f4c040976b7557ad",
+      "publishedSha256": "3103628152ec3ae0fccf0d8a75d6fb4f379414c3a3fcbab9f4c040976b7557ad",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/02-single/launch.txt",
+      "path": "evidence/android/viewport/phone-perf-v4-02/02-single/launch.txt",
+      "sourceSha256": "323c29e332b515b7d43d0bd470c63a84e92b6781472a8d16ff4f1dba34f26b25",
+      "publishedSha256": "8fb8206fc7abf2b0f41120f1caab22bbe45b03cf2215334564dbff8ae82954c7",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/02-single/meminfo-after.txt",
+      "path": "evidence/android/viewport/phone-perf-v4-02/02-single/meminfo-after.txt",
+      "sourceSha256": "7ed972af27fe233c79349a9cf87187632dd78d3dfd80b88abe0cf0a88becb82f",
+      "publishedSha256": "cdf27feda0adae1a9bc45e19a23bea1cfc9efd9b6b2579797714670254179346",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/02-single/meminfo-before.txt",
+      "path": "evidence/android/viewport/phone-perf-v4-02/02-single/meminfo-before.txt",
+      "sourceSha256": "1442a7d5df4a04816345c8e7325f75096595620ce4354c26ca82c032770d42e6",
+      "publishedSha256": "e1eb56deee561ed3e17ccd0a41fdff1e1badb1a345e78587362cc8cbf17e6f94",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/02-single/metrics.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/02-single/metrics.json",
+      "sourceSha256": "50355bf2b8b9e2846e4930ecf5d4e0d08c270af479c0f989ace6fac15f4b8b65",
+      "publishedSha256": "50355bf2b8b9e2846e4930ecf5d4e0d08c270af479c0f989ace6fac15f4b8b65",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/02-single/result.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/02-single/result.json",
+      "sourceSha256": "89cc12747f2bf24ff9e843bed1ad1ea523da4c320a0c0e0b21ad0d790fefb88c",
+      "publishedSha256": "89cc12747f2bf24ff9e843bed1ad1ea523da4c320a0c0e0b21ad0d790fefb88c",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/02-single/warmup.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/02-single/warmup.json",
+      "sourceSha256": "d3b948fd4991763f6e1af9a58da21817daae643e26ce42a4c97e529275fe4440",
+      "publishedSha256": "d3b948fd4991763f6e1af9a58da21817daae643e26ce42a4c97e529275fe4440",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/03-hundred/after-sample.png",
+      "path": "evidence/android/viewport/phone-perf-v4-02/03-hundred/after-sample.png",
+      "sourceSha256": "0b4f14afcd8bf8252a8ccad44865c06f7b1fdcc21924d031b83a9bd96ec453ee",
+      "publishedSha256": "0b4f14afcd8bf8252a8ccad44865c06f7b1fdcc21924d031b83a9bd96ec453ee",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/03-hundred/coverage.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/03-hundred/coverage.json",
+      "sourceSha256": "1633f5f07358c1c1eb3c4c2299b335d5706ccac163c79d048b2e0a3aedbae094",
+      "publishedSha256": "1633f5f07358c1c1eb3c4c2299b335d5706ccac163c79d048b2e0a3aedbae094",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/03-hundred/frames.csv",
+      "path": "evidence/android/viewport/phone-perf-v4-02/03-hundred/frames.csv",
+      "sourceSha256": "5564b1a1e3073656d223c3d73bd4f7c06ae53dd578b34d97447981a67645c8a6",
+      "publishedSha256": "5564b1a1e3073656d223c3d73bd4f7c06ae53dd578b34d97447981a67645c8a6",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/03-hundred/launch.txt",
+      "path": "evidence/android/viewport/phone-perf-v4-02/03-hundred/launch.txt",
+      "sourceSha256": "075aa128924a64cefc1b38e1f33b4853c72aa2a5d2bce4b9b861eab9335e70f5",
+      "publishedSha256": "b3ffc29756a4a58f2f79c231573b243dadaf2e7df010c2db744e5e0b4f90ca60",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/03-hundred/meminfo-after.txt",
+      "path": "evidence/android/viewport/phone-perf-v4-02/03-hundred/meminfo-after.txt",
+      "sourceSha256": "cdfb345c07255d9fdd5dcd773539ac33492c8d124a45e3d9dcbcb73f7cb1e4fa",
+      "publishedSha256": "fc345c0fa8ca51957085fbe470de0075a37aea6aa1cc1a6c47fde2e42bee4161",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/03-hundred/meminfo-before.txt",
+      "path": "evidence/android/viewport/phone-perf-v4-02/03-hundred/meminfo-before.txt",
+      "sourceSha256": "95575abb507689aace23b6e3dd6159f0fff3ed1e2271579f6ed96820ad1b3e4e",
+      "publishedSha256": "cc1037cc58e1a04d7569abc02b2a491b3011bd59bbe46bae116211c2f7e4eae1",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/03-hundred/metrics.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/03-hundred/metrics.json",
+      "sourceSha256": "4b67e3c444e07f24ab547760f75a4e13f6b6952fe1fb826d85c07a833510d935",
+      "publishedSha256": "4b67e3c444e07f24ab547760f75a4e13f6b6952fe1fb826d85c07a833510d935",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/03-hundred/result.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/03-hundred/result.json",
+      "sourceSha256": "922c98743e952ee2a6fbcf7e05e3370ed5dd73406e3c84f6e85b9aaa77bf9e01",
+      "publishedSha256": "922c98743e952ee2a6fbcf7e05e3370ed5dd73406e3c84f6e85b9aaa77bf9e01",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/03-hundred/warmup.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/03-hundred/warmup.json",
+      "sourceSha256": "425f55898b30511c668a05d4faaef88a723c27a2455ea10646894d5d1461eb42",
+      "publishedSha256": "425f55898b30511c668a05d4faaef88a723c27a2455ea10646894d5d1461eb42",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/03-single/after-sample.png",
+      "path": "evidence/android/viewport/phone-perf-v4-02/03-single/after-sample.png",
+      "sourceSha256": "edba4ccf7e718f4c6e3080829e4a23805ee85c90592e8efad1f02e53d730a5aa",
+      "publishedSha256": "edba4ccf7e718f4c6e3080829e4a23805ee85c90592e8efad1f02e53d730a5aa",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/03-single/coverage.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/03-single/coverage.json",
+      "sourceSha256": "764e051164b4a687d6c773257a74acf31c673e3e1d864ad8d84e32499a6f3e47",
+      "publishedSha256": "764e051164b4a687d6c773257a74acf31c673e3e1d864ad8d84e32499a6f3e47",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/03-single/frames.csv",
+      "path": "evidence/android/viewport/phone-perf-v4-02/03-single/frames.csv",
+      "sourceSha256": "d7c7da80e9f3c7330135730e4f613ec7d3b758b78545cb30d88be2628c1d79a5",
+      "publishedSha256": "d7c7da80e9f3c7330135730e4f613ec7d3b758b78545cb30d88be2628c1d79a5",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/03-single/launch.txt",
+      "path": "evidence/android/viewport/phone-perf-v4-02/03-single/launch.txt",
+      "sourceSha256": "8e31609877881b4f56e4f7e6c664ec205656ed593ab1702863e1388dd9a7ee92",
+      "publishedSha256": "d155a2e810f4ced95d3b5a8200fb4e6c906b5be635e7df90c43642b8b2476696",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/03-single/meminfo-after.txt",
+      "path": "evidence/android/viewport/phone-perf-v4-02/03-single/meminfo-after.txt",
+      "sourceSha256": "1ea21ab10e14a987d7e0a1b3ea1379299931e560a5dc927c1684fa045739005a",
+      "publishedSha256": "cf81feaacfa6045498c6cb4e66d25c2d0d96375f8c472c867fe2a5af51726973",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/03-single/meminfo-before.txt",
+      "path": "evidence/android/viewport/phone-perf-v4-02/03-single/meminfo-before.txt",
+      "sourceSha256": "c028e98f982d0cb01b107508f6ae02eab75749fce92bd35baa166bacff0be9bd",
+      "publishedSha256": "16d4a1086171f53dcb25fd09fbbfafa47a30e85e052378a88ac6f028df69e0d1",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/03-single/metrics.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/03-single/metrics.json",
+      "sourceSha256": "40425ce11561f0d271fdbaea1ee12f84d79a1573d6e1ed979fea6fd11c9c847a",
+      "publishedSha256": "40425ce11561f0d271fdbaea1ee12f84d79a1573d6e1ed979fea6fd11c9c847a",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/03-single/result.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/03-single/result.json",
+      "sourceSha256": "69d31e4570ac47b2da39718e21bb84c267c1bea10f5aca787e89d637eef02a32",
+      "publishedSha256": "69d31e4570ac47b2da39718e21bb84c267c1bea10f5aca787e89d637eef02a32",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-02/03-single/warmup.json",
+      "path": "evidence/android/viewport/phone-perf-v4-02/03-single/warmup.json",
+      "sourceSha256": "d3b948fd4991763f6e1af9a58da21817daae643e26ce42a4c97e529275fe4440",
+      "publishedSha256": "d3b948fd4991763f6e1af9a58da21817daae643e26ce42a4c97e529275fe4440",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/locked-preflight-v4-01/device.json",
+      "path": "evidence/android/viewport/locked-preflight-v4-01/device.json",
+      "sourceSha256": "8a9289292a7919c2ca200edd344a3d637b8983e906720d83f95085646acc0645",
+      "publishedSha256": "81a40e0ae10e2247d73a78a6c870ab376c343ac469d4df39e9cf3cceec46d186",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/locked-preflight-v4-01/readiness.json",
+      "path": "evidence/android/viewport/locked-preflight-v4-01/readiness.json",
+      "sourceSha256": "65a49b2c4f82da638a9224f428ed8bdb20595094e4ae964d045c9648ce3830e1",
+      "publishedSha256": "65a49b2c4f82da638a9224f428ed8bdb20595094e4ae964d045c9648ce3830e1",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/locked-preflight-v4-01/01-single/frames.csv",
+      "path": "evidence/android/viewport/locked-preflight-v4-01/01-single/frames.csv",
+      "sourceSha256": "3a6af676f35a8995585a93b7558d5f5198dc71113da106aafc2e6b3fb7a98e22",
+      "publishedSha256": "3a6af676f35a8995585a93b7558d5f5198dc71113da106aafc2e6b3fb7a98e22",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/locked-preflight-v4-01/01-single/launch.txt",
+      "path": "evidence/android/viewport/locked-preflight-v4-01/01-single/launch.txt",
+      "sourceSha256": "39654609df2370bf999f5504ee67c0ee9410aca66346add84f7702f216957564",
+      "publishedSha256": "14db0502ffcf86958826e12ff06e022fa61f3a6039f82bd9acb6a753e33fb651",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/locked-preflight-v4-01/01-single/meminfo-after.txt",
+      "path": "evidence/android/viewport/locked-preflight-v4-01/01-single/meminfo-after.txt",
+      "sourceSha256": "a07e52f990ef45c63db4d8a91b7eea88c61ee9face6f49a94b5f4916c41cac3e",
+      "publishedSha256": "42fe125cac543c247d4aac9c31ae91cd36f52f1ebe1f69093d365b37ae218ff7",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/locked-preflight-v4-01/01-single/meminfo-before.txt",
+      "path": "evidence/android/viewport/locked-preflight-v4-01/01-single/meminfo-before.txt",
+      "sourceSha256": "77343f7f6b1bdc8f5928efb92d4f9efee975fbc35a368320b1b9dcfe5a53991d",
+      "publishedSha256": "85304a1e1224887b1ead3db3ba19c6096b8e3ea2137f32cf424206a756d21ec3",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/locked-preflight-v4-01/01-single/metrics.json",
+      "path": "evidence/android/viewport/locked-preflight-v4-01/01-single/metrics.json",
+      "sourceSha256": "f25674c646693212da1002ff6b9c4c451ce5f5783bd1d3e1149fdd9651db4219",
+      "publishedSha256": "f25674c646693212da1002ff6b9c4c451ce5f5783bd1d3e1149fdd9651db4219",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/locked-preflight-v4-01/01-single/result.json",
+      "path": "evidence/android/viewport/locked-preflight-v4-01/01-single/result.json",
+      "sourceSha256": "e8d6e6ad9850d272fa59a0fe5cc1341a8a6843b4e22f2f08a9d6835c5535b2ae",
+      "publishedSha256": "e8d6e6ad9850d272fa59a0fe5cc1341a8a6843b4e22f2f08a9d6835c5535b2ae",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/locked-preflight-v4-01/01-single/warmup.json",
+      "path": "evidence/android/viewport/locked-preflight-v4-01/01-single/warmup.json",
+      "sourceSha256": "e5a8f67e2f22eb5f347a258c04d55bdf8533a725268c58e7501a1c0df0f173da",
+      "publishedSha256": "e5a8f67e2f22eb5f347a258c04d55bdf8533a725268c58e7501a1c0df0f173da",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-perf-v4-01/failure.json",
+      "path": "evidence/android/viewport/phone-perf-v4-01/failure.json",
+      "sourceSha256": "df65a4e48467b78f0d5be2555a8611800d601a40f1446c1832729a18bc055fb8",
+      "publishedSha256": "df65a4e48467b78f0d5be2555a8611800d601a40f1446c1832729a18bc055fb8",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/performance-v4/CatGame-PerfQA.provenance.json",
+      "path": "evidence/android/viewport/performance-v4/CatGame-PerfQA.provenance.json",
+      "sourceSha256": "d0b07d77f07b595a2690b4fd347de27feb3128d45abd6192f17b88c09c7a323b",
+      "publishedSha256": "d0b07d77f07b595a2690b4fd347de27feb3128d45abd6192f17b88c09c7a323b",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/performance-v4/apksigner.txt",
+      "path": "evidence/android/viewport/performance-v4/apksigner.txt",
+      "sourceSha256": "69fe2cc2a178298be1977812df0ab25ac94024394a533d3b88f3a7eec4d0e76c",
+      "publishedSha256": "02b3c098c2bd0b8389de825d8d21013c415b827b9ead7e156edf8eca2ee0cf5d",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/performance-v4/badging.txt",
+      "path": "evidence/android/viewport/performance-v4/badging.txt",
+      "sourceSha256": "3db3d4d7c8461121089c9b021ad9e81f602243cefb02c3dd5d7476e279145e96",
+      "publishedSha256": "7f513d3486f8e1c7a42404c842f838aa37d5ed97c9f2595fd59493bc258dd39d",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/performance-v4/battery-before.txt",
+      "path": "evidence/android/viewport/performance-v4/battery-before.txt",
+      "sourceSha256": "befe9dc86519dd406f6ec4e42a00d87ce1fcfe983f15a087ee0d009238e22489",
+      "publishedSha256": "371658064028f9a627f7fbd47f9d716150d8b369dd6b4ceec6dd912d5e236b7f",
+      "transformed": true
+    },
+    {
+      "source": "docs/Android-v4性能复验记录.md",
+      "path": "reports/android-v4-performance.md",
+      "sourceSha256": "0bded5f728e8c64def254ebba2b2369ecb607175f713bd9005b8f0b41d714efa",
+      "publishedSha256": "0bded5f728e8c64def254ebba2b2369ecb607175f713bd9005b8f0b41d714efa",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-idle-v4-01/device.json",
+      "path": "evidence/android/viewport/phone-idle-v4-01/device.json",
+      "sourceSha256": "0767a9b68c91408bb1a33b1e569cb91faacf312ff8c5fe1c8cd73d4df47a1b1d",
+      "publishedSha256": "b2cf7ea7ff33bf6751ad0c4a04ca883bbe1c818e287810a51e3386592ee28bb2",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-idle-v4-01/readiness.json",
+      "path": "evidence/android/viewport/phone-idle-v4-01/readiness.json",
+      "sourceSha256": "65a49b2c4f82da638a9224f428ed8bdb20595094e4ae964d045c9648ce3830e1",
+      "publishedSha256": "65a49b2c4f82da638a9224f428ed8bdb20595094e4ae964d045c9648ce3830e1",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-idle-v4-01/01-hundred/after-sample.png",
+      "path": "evidence/android/viewport/phone-idle-v4-01/01-hundred/after-sample.png",
+      "sourceSha256": "a35dc856c9c218d44b9576ce1bbecd91fa38c85060f681b82f861a818ead4229",
+      "publishedSha256": "a35dc856c9c218d44b9576ce1bbecd91fa38c85060f681b82f861a818ead4229",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-idle-v4-01/01-hundred/frames.csv",
+      "path": "evidence/android/viewport/phone-idle-v4-01/01-hundred/frames.csv",
+      "sourceSha256": "931549c0980a94fc48c1b5cc59f02f0533ddad46fe7433d0169d8e2962573c0d",
+      "publishedSha256": "931549c0980a94fc48c1b5cc59f02f0533ddad46fe7433d0169d8e2962573c0d",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-idle-v4-01/01-hundred/idle-01-meminfo.txt",
+      "path": "evidence/android/viewport/phone-idle-v4-01/01-hundred/idle-01-meminfo.txt",
+      "sourceSha256": "a40b171bec8b7847a1a67e54326c3d5e48bee9aba74164dbd823cda52a91712c",
+      "publishedSha256": "781ef7cc5f68ba1062a46ec5f76ba78f70995e7da40017b1dd763dea63ae9b7a",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-idle-v4-01/01-hundred/idle-02-meminfo.txt",
+      "path": "evidence/android/viewport/phone-idle-v4-01/01-hundred/idle-02-meminfo.txt",
+      "sourceSha256": "6b727a297cb3fa6cccad1d082f301192c997cae2f7fe68787da616a7c7555090",
+      "publishedSha256": "b5fc96582892bcabd2b11337343ae1ae781c3507b5bfa05700ae52a1c9ebf269",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-idle-v4-01/01-hundred/idle-03-meminfo.txt",
+      "path": "evidence/android/viewport/phone-idle-v4-01/01-hundred/idle-03-meminfo.txt",
+      "sourceSha256": "0a2f169a30d093c7bae718ac19cb36a6842b717180a87d907b1993a82e3f6820",
+      "publishedSha256": "53fae892cd05f2515226cab54fe3828a7179a28eead66abed9ac68e16fa038cd",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-idle-v4-01/01-hundred/idle-04-meminfo.txt",
+      "path": "evidence/android/viewport/phone-idle-v4-01/01-hundred/idle-04-meminfo.txt",
+      "sourceSha256": "bdadc5700d989e722937407fe35b214c797bde8bab00b0f006030287c5cdd647",
+      "publishedSha256": "6e1ca8dabaa57c65df231b87438e07ccabb034980dd7efc8034d656c747a90aa",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-idle-v4-01/01-hundred/idle-05-meminfo.txt",
+      "path": "evidence/android/viewport/phone-idle-v4-01/01-hundred/idle-05-meminfo.txt",
+      "sourceSha256": "cdf4f540047c73b628eb3a522ebf57e45e6778284b6acbda7b0ddeecd9d56ba9",
+      "publishedSha256": "5a5eab31269124b3e6b8953fd55a811d5b0c4ad9546bf6c4535fb13c46456ef1",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-idle-v4-01/01-hundred/idle-result.json",
+      "path": "evidence/android/viewport/phone-idle-v4-01/01-hundred/idle-result.json",
+      "sourceSha256": "5cda143dc3622191b996e85aeb3e02f162f81a60a9d4e03d89114a5e8b117297",
+      "publishedSha256": "5cda143dc3622191b996e85aeb3e02f162f81a60a9d4e03d89114a5e8b117297",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-idle-v4-01/01-hundred/launch.txt",
+      "path": "evidence/android/viewport/phone-idle-v4-01/01-hundred/launch.txt",
+      "sourceSha256": "d43513f9cc416e75cb37d29333be96c2e1b31ce7e3eb71311e70ba8c53eaf5a5",
+      "publishedSha256": "b595e33af8794da5716fdea4c6ea396d4395045025c78421506a39dc6d0857ca",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-idle-v4-01/01-hundred/meminfo-after.txt",
+      "path": "evidence/android/viewport/phone-idle-v4-01/01-hundred/meminfo-after.txt",
+      "sourceSha256": "74f08a414e8ed335e2419eb4b0aa70f426eb6257e6ebfcb3e3110993c5c720ef",
+      "publishedSha256": "e30c795cf865ad38b7c93a82c416c1037117935e1bb755a15b6205b228bc56b1",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-idle-v4-01/01-hundred/meminfo-before.txt",
+      "path": "evidence/android/viewport/phone-idle-v4-01/01-hundred/meminfo-before.txt",
+      "sourceSha256": "9cefefda0003f8f16139958371f8b4150aea20849f688f231ad57809c6f8cecd",
+      "publishedSha256": "adabb49e84a612ce951106b05ad1ea4893a556fc78a212be40d57e6988d35630",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/viewport/phone-idle-v4-01/01-hundred/metrics.json",
+      "path": "evidence/android/viewport/phone-idle-v4-01/01-hundred/metrics.json",
+      "sourceSha256": "a80513eecb34ce346bd548fef165de651c2788d8809069106b41e3fe300c689f",
+      "publishedSha256": "a80513eecb34ce346bd548fef165de651c2788d8809069106b41e3fe300c689f",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-idle-v4-01/01-hundred/result.json",
+      "path": "evidence/android/viewport/phone-idle-v4-01/01-hundred/result.json",
+      "sourceSha256": "3c481ad078b54a823c2c131a27432ddb56291923b11ba64214e43d31138b3c1b",
+      "publishedSha256": "3c481ad078b54a823c2c131a27432ddb56291923b11ba64214e43d31138b3c1b",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/viewport/phone-idle-v4-01/01-hundred/warmup.json",
+      "path": "evidence/android/viewport/phone-idle-v4-01/01-hundred/warmup.json",
+      "sourceSha256": "425f55898b30511c668a05d4faaef88a723c27a2455ea10646894d5d1461eb42",
+      "publishedSha256": "425f55898b30511c668a05d4faaef88a723c27a2455ea10646894d5d1461eb42",
+      "transformed": false
     }
   ],
   "androidOriginCommits": {
@@ -3379,6 +3995,7 @@
     "performanceSampling": "dd0dee0",
     "purchaseInvestigation": "3281900",
     "phoneAcceptance": "56ca70d",
-    "viewportCorrection": "d4a1d55"
+    "viewportCorrection": "d4a1d55",
+    "samplingReadinessAndCapture": "2a9d6b5"
   }
 }

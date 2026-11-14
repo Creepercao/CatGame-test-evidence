@@ -1,0 +1,14 @@
+{
+  "exitCode": 1,
+  "stage": "waiting-for-warmup",
+  "error": "Missing Android QA artifact: warmup.json",
+  "timeoutSeconds": 35,
+  "formalFrameSampleStarted": false,
+  "observedAfterFailure": {
+    "wakefulness": "Dozing",
+    "keyguardShowing": true
+  },
+  "gameStoppedByFinally": true,
+  "subsequentProbeDirectory": "locked-preflight-v4-01",
+  "subsequentProbeActuallyUnlocked": true
+}

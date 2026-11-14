@@ -1,0 +1,135 @@
+{
+  "qaApkSha256": "f22233669af68cbba4f47030a47eceadd880929c01da397a618324d1ec5b3b7a",
+  "samples": [
+    {
+      "run": "01-single",
+      "visibleCats": 1,
+      "elapsedSeconds": 60.007999665045645,
+      "mode": "single",
+      "probe": false,
+      "pid": 2676,
+      "frames": 3635,
+      "pssBeforeKiB": 235481,
+      "pssAfterKiB": 268038,
+      "p50Ms": 16.50779,
+      "p95Ms": 16.5235214,
+      "p99Ms": 16.5544529,
+      "over33_3msRatio": 0.0,
+      "withinReferenceBudget": true,
+      "rightClearWidths": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "run": "01-hundred",
+      "visibleCats": 100,
+      "elapsedSeconds": 60.00509430002421,
+      "mode": "hundred",
+      "probe": false,
+      "pid": 5673,
+      "frames": 3635,
+      "pssBeforeKiB": 241450,
+      "pssAfterKiB": 276921,
+      "p50Ms": 16.5060215,
+      "p95Ms": 16.5334549,
+      "p99Ms": 16.5559845,
+      "over33_3msRatio": 0.0,
+      "withinReferenceBudget": true,
+      "rightClearWidths": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "run": "02-single",
+      "visibleCats": 1,
+      "elapsedSeconds": 60.007431800011545,
+      "mode": "single",
+      "probe": false,
+      "pid": 8508,
+      "frames": 3635,
+      "pssBeforeKiB": 237186,
+      "pssAfterKiB": 269450,
+      "p50Ms": 16.5081387,
+      "p95Ms": 16.5276928,
+      "p99Ms": 16.55296,
+      "over33_3msRatio": 0.0,
+      "withinReferenceBudget": true,
+      "rightClearWidths": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "run": "02-hundred",
+      "visibleCats": 100,
+      "elapsedSeconds": 60.00598190398887,
+      "mode": "hundred",
+      "probe": false,
+      "pid": 10733,
+      "frames": 3635,
+      "pssBeforeKiB": 240790,
+      "pssAfterKiB": 276656,
+      "p50Ms": 16.5067883,
+      "p95Ms": 16.5228176,
+      "p99Ms": 16.5502968,
+      "over33_3msRatio": 0.0,
+      "withinReferenceBudget": true,
+      "rightClearWidths": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "run": "03-single",
+      "visibleCats": 1,
+      "elapsedSeconds": 60.00243211199995,
+      "mode": "single",
+      "probe": false,
+      "pid": 12740,
+      "frames": 3635,
+      "pssBeforeKiB": 240107,
+      "pssAfterKiB": 269175,
+      "p50Ms": 16.50527,
+      "p95Ms": 16.5282173,
+      "p99Ms": 16.5521812,
+      "over33_3msRatio": 0.0,
+      "withinReferenceBudget": true,
+      "rightClearWidths": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "run": "03-hundred",
+      "visibleCats": 100,
+      "elapsedSeconds": 60.00344695599051,
+      "mode": "hundred",
+      "probe": false,
+      "pid": 14887,
+      "frames": 3635,
+      "pssBeforeKiB": 240889,
+      "pssAfterKiB": 276687,
+      "p50Ms": 16.5038815,
+      "p95Ms": 16.5414219,
+      "p99Ms": 16.5614376,
+      "over33_3msRatio": 0.0,
+      "withinReferenceBudget": true,
+      "rightClearWidths": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "allWithinReferenceBudget": true,
+  "totalFrames": 21810,
+  "allRoomEdgesCovered": true,
+  "capturesOccurredAfterMeasurements": true
+}

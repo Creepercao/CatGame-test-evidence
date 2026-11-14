@@ -1,0 +1,19 @@
+{
+  "mode": "hundred",
+  "state": "complete",
+  "error": "",
+  "unity": "2022.3.21f1",
+  "gpu": "Adreno (TM) 730",
+  "graphicsApi": "Vulkan",
+  "os": "Android OS 15 / API-35 (AQ3A.241006.001/OS2.0.5.0.VLFCNXM)",
+  "width": 2712,
+  "height": 1220,
+  "refreshRate": 120,
+  "targetFps": 60,
+  "warmupSeconds": 10,
+  "requestedSeconds": 60,
+  "visibleCats": 100,
+  "ownedCats": 440,
+  "frameCount": 3635,
+  "elapsedSeconds": 60.00509430002421
+}
