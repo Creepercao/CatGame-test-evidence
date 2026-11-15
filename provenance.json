@@ -1678,8 +1678,8 @@
     {
       "source": "docs/质量交付/缺陷与追溯.md",
       "path": "reports/缺陷与追溯.md",
-      "sourceSha256": "d66133d6ce38868990d1642df9fceb96d25bee6da59e93efab9e84864fdee920",
-      "publishedSha256": "95b05359246ed2fcb55728a8c4f028c11d27ddf772ba0e58d1ab4c5359bdbb2d",
+      "sourceSha256": "2295f57428aa275db2072583669e0ec49b1d7bfb2c9b9fb7e8c08ce4a9315170",
+      "publishedSha256": "44ed3bbc63208bd96e6ea1031956f1044988a1b0da7cf136457a53640fb60f00",
       "transformed": true
     },
     {
@@ -6368,8 +6368,8 @@
     {
       "source": "docs/Android购买失败排查记录.md",
       "path": "reports/android-purchase-investigation.md",
-      "sourceSha256": "e8f5cc06e1703e2a978e1cd1bc0e0996ef750a7e165232b6ca759c2745c5e60d",
-      "publishedSha256": "e8f5cc06e1703e2a978e1cd1bc0e0996ef750a7e165232b6ca759c2745c5e60d",
+      "sourceSha256": "7c94dd77b7bca62856b9517080a944ad5f7a9d63f2170341d6adbe7d73fecddb",
+      "publishedSha256": "7c94dd77b7bca62856b9517080a944ad5f7a9d63f2170341d6adbe7d73fecddb",
       "transformed": false
     },
     {
@@ -6391,6 +6391,27 @@
       "path": "evidence/android/purchase-input/distribution/SHA256SUMS.txt",
       "sourceSha256": "72b4f3dbac9b1359cabcca0ad153deb311ade4948320608a3cadedfe421ecb3b",
       "publishedSha256": "72b4f3dbac9b1359cabcca0ad153deb311ade4948320608a3cadedfe421ecb3b",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/distribution-v5/release-published.json",
+      "path": "evidence/android/purchase-input/distribution/release-published.json",
+      "sourceSha256": "f5d57ea073ebcaafe9f3dd4b8bc1c8c1a1d3cfa42adf4d0379fd379dce4bb369",
+      "publishedSha256": "f5d57ea073ebcaafe9f3dd4b8bc1c8c1a1d3cfa42adf4d0379fd379dce4bb369",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/distribution-v5/release-verified.json",
+      "path": "evidence/android/purchase-input/distribution/release-verified.json",
+      "sourceSha256": "ec9857a0f1b18c68a171f30aa116b884f73b8c0bf1a5eb284a1f9c36ec5c5242",
+      "publishedSha256": "ec9857a0f1b18c68a171f30aa116b884f73b8c0bf1a5eb284a1f9c36ec5c5242",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/cleanup.json",
+      "path": "evidence/android/purchase-input/cleanup.json",
+      "sourceSha256": "11dff04734378333553d98c6b17803e1ff6f0d47d5157f7e255a06c6a9535a24",
+      "publishedSha256": "11dff04734378333553d98c6b17803e1ff6f0d47d5157f7e255a06c6a9535a24",
       "transformed": false
     }
   ],

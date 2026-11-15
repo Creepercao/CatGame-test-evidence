@@ -21,7 +21,7 @@
 
 纠正前文计数笔误：覆盖升级的exact比较字段实际为11项，另有2项集合保留和3项单调增加检查，不是12项。新APK验收在Android14临时AVD进行，本轮未重复手机性能采样，不以历史v4真机P95代表新版本。
 
-普通APK与安装说明/SHA三个附件已上传发行草稿并完成服务端摘要核对，尚未公开；最终公开与证据仓库提交后追加。首次发行脚本的本地仓库所有权、草稿按tag查询404、UTF-8解码问题均在取证/发布工具层，分别调整为单命令safe.directory、现有发行ID读取与显式UTF-8；未重复创建发行、未泄露凭据。
+普通APK与安装说明/SHA三个附件先上传发行草稿并完成服务端摘要核对，现已公开Android1.0.2预览2，游戏main b2037a7（README追加；构建源码仍bd85811）。下文准备/尚未发布均为当时历史快照。首次发行脚本的本地仓库所有权、草稿按tag查询404、UTF-8解码问题均在取证/发布工具层，分别调整为单命令safe.directory、现有发行ID读取与显式UTF-8；未重复创建发行、未泄露凭据。
 
 
 ## 2026-11-13 · 复现准备
@@ -132,3 +132,13 @@ PlayMode89/89、EditMode69/69均通过，无跳过；原两项即时落盘定向
 普通APK范围审计：纯游戏467项跟踪文件无Tests/tools/docs/AssetsTests，候选与父提交只变动IdleGameController和ProjectSettings；ARM64原生库未找到五个已知QA标记。该检查只支持已审计标记及路径，不宣称任意二进制字符串均已证明无测试代码。另用一猫/两猫实际截图分别比对两个HUD裁片，一猫对一猫误差0.943/对两猫13.861，两猫对两猫0.922/对一猫14.053，原门限2.5能区分，未放宽。普通新版新档验收已另建隔离QA用户进行中。
 
 普通新档release-smoke-01在新QA用户11首次启动失败，菜单视觉误差107.75。检查截图可见Android全屏教学“Viewing full screen / Got it”覆盖菜单；只读原生树确认包android、标题id android:id/immersive_cling_title、按钮android:id/ok。此时尚未新建存档，不清数据、不改游戏。为首次菜单观察增加显式handle_system_hint=true，只在上述标题与专属按钮同时匹配才点击原生按钮；不对ANR/游戏弹窗自动点击。原失败XML/图片/树保留，release-smoke-02重跑中。
+
+### 2026-11-15 公开交付完成
+
+[Android1.0.2预览2](https://github.com/Creepercao/CatGame/releases/tag/android-v1.0.2-preview.2)已公开，draft=false/prerelease=true，目标源码bd85811；三附件size与服务端digest均匹配本地，非重新下载验收。APK111702349字节、SHA256 c0fbcbb264d986bb63ffa4691d3473572198dc59cfb2d63060950a74169e0a66。游戏README b2037a7已推送；Windows1.0.1仍为latest，旧Androidpreview.1仍公开。
+
+测试证据初次推送131b766，913份材料校验通过；最终发行复核与收尾追加后再核验。Appium3的GET/sessions返回404，未把它当作零会话；核对10个已知会话均移除，末会话单独请求确认invalid session id。随后仅关闭命令行匹配的自有Appium45944及emulator-5564，进程84884/45944均已确认消失。没有操作手机或MuMu，不启动小时级测试。
+
+M14按已复现保存空档修复、普通APK验收与交付关闭；原单次历史失败不能唯一归因的说明保留。F1仍按用户决定暂缓，不纳入本轮完成声明。
+
+最终追加：916份公开材料摘要/结构及原始数据重算全部通过，包含已公开1.0.2三附件摘要与自有进程退出回执；该离线核验不计为新的设备或Robot执行。

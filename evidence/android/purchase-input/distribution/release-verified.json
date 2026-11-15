@@ -1,0 +1,26 @@
+{
+  "tag_name": "android-v1.0.2-preview.2",
+  "draft": false,
+  "prerelease": true,
+  "html_url": "https://github.com/Creepercao/CatGame/releases/tag/android-v1.0.2-preview.2",
+  "target_commitish": "bd85811ae749fdc5b9d574c8b3e640acdde66197",
+  "assets": [
+    {
+      "name": "CatGame-Android.apk",
+      "size": 111702349,
+      "digest": "sha256:c0fbcbb264d986bb63ffa4691d3473572198dc59cfb2d63060950a74169e0a66"
+    },
+    {
+      "name": "Install-Android.txt",
+      "size": 1297,
+      "digest": "sha256:29a9e16eba98adbd5dbab247e40bf98dc68f480db64134b837b6b5476374ada5"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 174,
+      "digest": "sha256:72b4f3dbac9b1359cabcca0ad153deb311ade4948320608a3cadedfe421ecb3b"
+    }
+  ],
+  "latestStableUnchanged": "v1.0.1",
+  "previousAndroidStillPublished": true
+}

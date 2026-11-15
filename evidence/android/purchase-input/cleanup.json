@@ -1,0 +1,13 @@
+{
+  "sessionListEndpointSupported": false,
+  "knownCreatedSessions": 10,
+  "knownRemovedSessions": 10,
+  "lastSessionVerifiedInvalid": true,
+  "phoneOperated": false,
+  "ownedAppiumPid": 45944,
+  "ownedAvdLauncherPid": 84884,
+  "ownedSerial": "emulator-5564",
+  "avdWasReadOnly": true,
+  "shutdownComplete": true,
+  "ownedProcessesAbsent": true
+}

@@ -436,6 +436,22 @@ def verify_android_purchase_input():
     assert not scope['prohibitedTestPaths'] and not scope['knownQaMarkersFound']
     assert len(scope['onlyProductionSourceDiff']) == 2
     assert all((ROOT / base / name / 'appium-steps.jsonl').stat().st_size > 0 for name in expected)
+    published = read(base + '/distribution/release-verified.json')
+    assert not published['draft'] and published['prerelease']
+    assert published['tag_name'] == 'android-v1.0.2-preview.2'
+    assert published['target_commitish'].startswith('bd85811')
+    assert published['latestStableUnchanged'] == 'v1.0.1' and published['previousAndroidStillPublished']
+    assets = {a['name']:a for a in published['assets']}
+    assert assets['CatGame-Android.apk']['digest'] == 'sha256:' + artifact['sha256']
+    assert assets['CatGame-Android.apk']['size'] == artifact['bytes']
+    for name in ('Install-Android.txt','SHA256SUMS.txt'):
+        data = (ROOT / base / 'distribution' / name).read_bytes()
+        assert assets[name]['size'] == len(data) and assets[name]['digest'] == 'sha256:' + hashlib.sha256(data).hexdigest()
+    cleanup = read(base + '/cleanup.json')
+    assert cleanup['shutdownComplete'] and cleanup['ownedProcessesAbsent'] and not cleanup['phoneOperated']
+    assert cleanup['knownCreatedSessions'] == cleanup['knownRemovedSessions'] == 10
+    assert cleanup['lastSessionVerifiedInvalid'] and cleanup['avdWasReadOnly']
     print('PASS Android purchase actual failure, immediate-save red/green, retained timing failures, ordinary APK upgrade and fresh install')
+    print('PASS Android 1.0.2 published assets, retained previous releases and owned-process shutdown receipt')
 
 if __name__=='__main__': main()
