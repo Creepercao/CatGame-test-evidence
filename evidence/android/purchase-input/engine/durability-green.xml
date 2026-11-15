@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-15 06:30:08Z" end-time="2026-11-15 06:30:09Z" duration="0.130117">
+  <test-suite type="TestSuite" id="1000" name="喵屋" fullname="喵屋" runstate="Runnable" testcasecount="89" result="Passed" start-time="2026-11-15 06:30:08Z" end-time="2026-11-15 06:30:09Z" duration="0.130117" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1113" name="CatGame.Tests.dll" fullname="PROJECT_ROOT/Library/ScriptAssemblies/CatGame.Tests.dll" runstate="Runnable" testcasecount="89" result="Passed" start-time="2026-11-15 06:30:08Z" end-time="2026-11-15 06:30:09Z" duration="0.119054" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="69772" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+      </properties>
+      <test-suite type="TestSuite" id="1114" name="CatGame" fullname="CatGame" runstate="Runnable" testcasecount="89" result="Passed" start-time="2026-11-15 06:30:08Z" end-time="2026-11-15 06:30:09Z" duration="0.116606" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1115" name="Tests" fullname="CatGame.Tests" runstate="Runnable" testcasecount="89" result="Passed" start-time="2026-11-15 06:30:08Z" end-time="2026-11-15 06:30:09Z" duration="0.115566" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1069" name="PurchaseDurabilityTests" fullname="CatGame.Tests.PurchaseDurabilityTests" classname="CatGame.Tests.PurchaseDurabilityTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-15 06:30:08Z" end-time="2026-11-15 06:30:09Z" duration="0.112735" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="ParameterizedMethod" id="1072" name="Successful_purchase_is_on_disk_before_any_pause_or_next_frame" fullname="CatGame.Tests.PurchaseDurabilityTests.Successful_purchase_is_on_disk_before_any_pause_or_next_frame" classname="CatGame.Tests.PurchaseDurabilityTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-15 06:30:08Z" end-time="2026-11-15 06:30:09Z" duration="0.109763" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1070" name="Successful_purchase_is_on_disk_before_any_pause_or_next_frame(&quot;cat&quot;)" fullname="CatGame.Tests.PurchaseDurabilityTests.Successful_purchase_is_on_disk_before_any_pause_or_next_frame(&quot;cat&quot;)" methodname="Successful_purchase_is_on_disk_before_any_pause_or_next_frame" classname="CatGame.Tests.PurchaseDurabilityTests" runstate="Runnable" seed="1126173861" result="Passed" start-time="2026-11-15 06:30:09Z" end-time="2026-11-15 06:30:09Z" duration="0.079807" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1071" name="Successful_purchase_is_on_disk_before_any_pause_or_next_frame(&quot;item&quot;)" fullname="CatGame.Tests.PurchaseDurabilityTests.Successful_purchase_is_on_disk_before_any_pause_or_next_frame(&quot;item&quot;)" methodname="Successful_purchase_is_on_disk_before_any_pause_or_next_frame" classname="CatGame.Tests.PurchaseDurabilityTests" runstate="Runnable" seed="1634135101" result="Passed" start-time="2026-11-15 06:30:09Z" end-time="2026-11-15 06:30:09Z" duration="0.017269" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

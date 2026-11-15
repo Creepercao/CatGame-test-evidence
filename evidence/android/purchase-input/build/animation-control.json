@@ -1,0 +1,16 @@
+{
+  "scope": "temporary emulator-5564 API34 QA user10",
+  "before": {
+    "window_animation_scale": "1.0",
+    "transition_animation_scale": "1.0",
+    "animator_duration_scale": null
+  },
+  "capability": "appium:disableWindowAnimation",
+  "requested": true,
+  "after": {
+    "window_animation_scale": "1.0",
+    "transition_animation_scale": "1.0",
+    "animator_duration_scale": "1.0"
+  },
+  "note": "Animator scale absent before session, restored to explicit default 1.0; not byte-identical settings. Temporary read-only AVD is discarded at end."
+}

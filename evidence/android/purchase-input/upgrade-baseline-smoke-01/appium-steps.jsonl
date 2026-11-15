@@ -1,0 +1,168 @@
+{"utc": "2026-11-15T06:59:27.315000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:27.562000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 247 ms - 10352"}
+{"utc": "2026-11-15T06:59:28.009000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:28.159000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 150 ms - 10352"}
+{"utc": "2026-11-15T06:59:28.570000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:28.807000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 237 ms - 10352"}
+{"utc": "2026-11-15T06:59:29.221000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:29.615000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 394 ms - 44548"}
+{"utc": "2026-11-15T06:59:30.047000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:30.383000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 336 ms - 39684"}
+{"utc": "2026-11-15T06:59:30.798000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:30.989000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 191 ms - 10352"}
+{"utc": "2026-11-15T06:59:31.402000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:33.152000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 1749 ms - 1926792"}
+{"utc": "2026-11-15T06:59:33.699000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/source "}
+{"utc": "2026-11-15T06:59:33.791000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/source 200 91 ms - 4432"}
+{"utc": "2026-11-15T06:59:33.797000+00:00", "step": "[d7f08a89][HTTP] --> POST /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/execute/sync {\"script\":\"mobile: clickGesture\",\"args\":[{\"x\":1320,\"y\":457}]}"}
+{"utc": "2026-11-15T06:59:33.892000+00:00", "step": "[d7f08a89][HTTP] <-- POST /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/execute/sync 200 94 ms - 14"}
+{"utc": "2026-11-15T06:59:33.896000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:34.835000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 938 ms - 1927068"}
+{"utc": "2026-11-15T06:59:35.347000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:35.609000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 262 ms - 131772"}
+{"utc": "2026-11-15T06:59:35.748000+00:00", "step": "[d7f08a89][HTTP] --> POST /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/execute/sync {\"script\":\"mobile: clickGesture\",\"args\":[{\"x\":1280,\"y\":839}]}"}
+{"utc": "2026-11-15T06:59:35.841000+00:00", "step": "[d7f08a89][HTTP] <-- POST /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/execute/sync 200 92 ms - 14"}
+{"utc": "2026-11-15T06:59:35.846000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:36.119000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 273 ms - 132496"}
+{"utc": "2026-11-15T06:59:36.558000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:36.851000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 292 ms - 117412"}
+{"utc": "2026-11-15T06:59:37.149000+00:00", "step": "[d7f08a89][HTTP] --> POST /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/execute/sync {\"script\":\"mobile: pressKey\",\"args\":[{\"keycode\":3}]}"}
+{"utc": "2026-11-15T06:59:37.220000+00:00", "step": "[d7f08a89][HTTP] <-- POST /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/execute/sync 200 71 ms - 14"}
+{"utc": "2026-11-15T06:59:37.488000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:38.670000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 1181 ms - 1250132"}
+{"utc": "2026-11-15T06:59:39.224000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:39.975000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 751 ms - 117376"}
+{"utc": "2026-11-15T06:59:40.355000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:40.657000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 302 ms - 117192"}
+{"utc": "2026-11-15T06:59:41.685000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:41.961000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 276 ms - 116800"}
+{"utc": "2026-11-15T06:59:42.996000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:43.294000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 297 ms - 117112"}
+{"utc": "2026-11-15T06:59:44.330000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:44.647000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 315 ms - 117268"}
+{"utc": "2026-11-15T06:59:45.683000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:45.949000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 266 ms - 117148"}
+{"utc": "2026-11-15T06:59:46.991000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:47.268000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 277 ms - 117124"}
+{"utc": "2026-11-15T06:59:48.303000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:48.599000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 295 ms - 116984"}
+{"utc": "2026-11-15T06:59:49.636000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:49.912000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 276 ms - 116780"}
+{"utc": "2026-11-15T06:59:50.944000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:51.219000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 275 ms - 116412"}
+{"utc": "2026-11-15T06:59:52.250000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:52.592000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 342 ms - 116232"}
+{"utc": "2026-11-15T06:59:53.623000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:53.909000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 286 ms - 116884"}
+{"utc": "2026-11-15T06:59:54.949000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:55.251000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 301 ms - 117048"}
+{"utc": "2026-11-15T06:59:56.289000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:56.596000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 306 ms - 117492"}
+{"utc": "2026-11-15T06:59:57.634000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:57.870000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 236 ms - 117168"}
+{"utc": "2026-11-15T06:59:58.914000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T06:59:59.239000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 324 ms - 117672"}
+{"utc": "2026-11-15T07:00:00.278000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:00.557000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 275 ms - 117100"}
+{"utc": "2026-11-15T07:00:01.598000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:01.905000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 307 ms - 117488"}
+{"utc": "2026-11-15T07:00:02.954000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:03.197000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 242 ms - 117292"}
+{"utc": "2026-11-15T07:00:04.221000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:05.502000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 1279 ms - 1699624"}
+{"utc": "2026-11-15T07:00:06.026000+00:00", "step": "[d7f08a89][HTTP] --> POST /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/execute/sync {\"script\":\"mobile: clickGesture\",\"args\":[{\"x\":800,\"y\":859}]}"}
+{"utc": "2026-11-15T07:00:06.110000+00:00", "step": "[d7f08a89][HTTP] <-- POST /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/execute/sync 200 84 ms - 14"}
+{"utc": "2026-11-15T07:00:07.132000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:07.398000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 265 ms - 116976"}
+{"utc": "2026-11-15T07:00:08.427000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:08.654000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 227 ms - 117400"}
+{"utc": "2026-11-15T07:00:09.683000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:09.973000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 290 ms - 117480"}
+{"utc": "2026-11-15T07:00:11.010000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:11.251000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 240 ms - 117468"}
+{"utc": "2026-11-15T07:00:12.286000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:12.577000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 290 ms - 117256"}
+{"utc": "2026-11-15T07:00:13.615000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:13.887000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 272 ms - 117288"}
+{"utc": "2026-11-15T07:00:14.928000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:15.157000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 228 ms - 116688"}
+{"utc": "2026-11-15T07:00:16.196000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:16.471000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 274 ms - 116976"}
+{"utc": "2026-11-15T07:00:17.525000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:17.784000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 258 ms - 116808"}
+{"utc": "2026-11-15T07:00:18.822000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:19.100000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 277 ms - 116656"}
+{"utc": "2026-11-15T07:00:20.131000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:20.385000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 254 ms - 117124"}
+{"utc": "2026-11-15T07:00:21.423000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:21.703000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 279 ms - 117660"}
+{"utc": "2026-11-15T07:00:22.741000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:23.067000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 325 ms - 118060"}
+{"utc": "2026-11-15T07:00:24.101000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:24.402000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 301 ms - 117496"}
+{"utc": "2026-11-15T07:00:25.430000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:25.733000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 302 ms - 117512"}
+{"utc": "2026-11-15T07:00:26.768000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:27.068000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 300 ms - 117712"}
+{"utc": "2026-11-15T07:00:28.106000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:28.472000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 365 ms - 117664"}
+{"utc": "2026-11-15T07:00:29.500000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:29.833000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 332 ms - 117840"}
+{"utc": "2026-11-15T07:00:30.863000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:31.165000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 302 ms - 117888"}
+{"utc": "2026-11-15T07:00:32.198000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:32.494000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 295 ms - 117804"}
+{"utc": "2026-11-15T07:00:33.525000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:33.814000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 288 ms - 117648"}
+{"utc": "2026-11-15T07:00:34.846000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:35.125000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 279 ms - 116888"}
+{"utc": "2026-11-15T07:00:36.155000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:36.452000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 296 ms - 117192"}
+{"utc": "2026-11-15T07:00:37.484000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:37.794000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 309 ms - 117516"}
+{"utc": "2026-11-15T07:00:38.833000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:39.105000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 271 ms - 117660"}
+{"utc": "2026-11-15T07:00:40.140000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:40.455000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 314 ms - 117892"}
+{"utc": "2026-11-15T07:00:41.490000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:41.787000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 297 ms - 117744"}
+{"utc": "2026-11-15T07:00:42.825000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:43.142000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 317 ms - 117616"}
+{"utc": "2026-11-15T07:00:44.188000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:44.508000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 320 ms - 117316"}
+{"utc": "2026-11-15T07:00:45.548000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:45.853000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 305 ms - 117892"}
+{"utc": "2026-11-15T07:00:46.895000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:47.225000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 330 ms - 117752"}
+{"utc": "2026-11-15T07:00:47.369000+00:00", "step": "[d7f08a89][HTTP] --> POST /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/execute/sync {\"script\":\"mobile: clickGesture\",\"args\":[{\"x\":185,\"y\":300}]}"}
+{"utc": "2026-11-15T07:00:47.455000+00:00", "step": "[d7f08a89][HTTP] <-- POST /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/execute/sync 200 86 ms - 14"}
+{"utc": "2026-11-15T07:00:47.459000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:47.725000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 266 ms - 121092"}
+{"utc": "2026-11-15T07:00:47.864000+00:00", "step": "[d7f08a89][HTTP] --> POST /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/execute/sync {\"script\":\"mobile: pressKey\",\"args\":[{\"keycode\":3}]}"}
+{"utc": "2026-11-15T07:00:49.300000+00:00", "step": "[d7f08a89][HTTP] <-- POST /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/execute/sync 200 1436 ms - 14"}
+{"utc": "2026-11-15T07:00:52.371000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:52.628000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 257 ms - 10352"}
+{"utc": "2026-11-15T07:00:53.040000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:53.180000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 140 ms - 10352"}
+{"utc": "2026-11-15T07:00:53.592000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:53.799000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 207 ms - 10352"}
+{"utc": "2026-11-15T07:00:54.231000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:54.465000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 234 ms - 44320"}
+{"utc": "2026-11-15T07:00:54.900000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:55.127000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 227 ms - 42352"}
+{"utc": "2026-11-15T07:00:55.570000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:55.734000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 164 ms - 10352"}
+{"utc": "2026-11-15T07:00:56.147000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:57.324000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 1176 ms - 1927532"}
+{"utc": "2026-11-15T07:00:57.924000+00:00", "step": "[d7f08a89][HTTP] --> POST /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/execute/sync {\"script\":\"mobile: clickGesture\",\"args\":[{\"x\":1320,\"y\":372}]}"}
+{"utc": "2026-11-15T07:00:58.011000+00:00", "step": "[d7f08a89][HTTP] <-- POST /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/execute/sync 200 87 ms - 14"}
+{"utc": "2026-11-15T07:00:58.015000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:58.885000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 869 ms - 1927532"}
+{"utc": "2026-11-15T07:00:59.352000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:00:59.634000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 281 ms - 129608"}
+{"utc": "2026-11-15T07:00:59.727000+00:00", "step": "[d7f08a89][HTTP] --> POST /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/execute/sync {\"script\":\"mobile: clickGesture\",\"args\":[{\"x\":800,\"y\":519}]}"}
+{"utc": "2026-11-15T07:00:59.807000+00:00", "step": "[d7f08a89][HTTP] <-- POST /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/execute/sync 200 79 ms - 14"}
+{"utc": "2026-11-15T07:00:59.811000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:01:00.107000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 295 ms - 129760"}
+{"utc": "2026-11-15T07:01:00.546000+00:00", "step": "[d7f08a89][HTTP] --> GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot "}
+{"utc": "2026-11-15T07:01:00.829000+00:00", "step": "[d7f08a89][HTTP] <-- GET /session/d7f08a89-3348-4b38-b8d0-d4f252ab1a57/screenshot 200 282 ms - 118956"}

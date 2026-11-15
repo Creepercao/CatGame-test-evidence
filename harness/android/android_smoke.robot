@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation     Android ARM64 Player smoke using Appium UiAutomator2 on a fresh, dedicated Android user.
-Library           AndroidGame.py    ${SERVER}    ${ADB}    ${ADB_PORT}    ${SERIAL}    ${QA_USER}    ${OUTPUT DIR}
+Library           AndroidGame.py    ${SERVER}    ${ADB}    ${ADB_PORT}    ${SERIAL}    ${QA_USER}    ${OUTPUT DIR}    ${DISABLE_WINDOW_ANIMATION}
 Suite Setup       Open Appium
 Suite Teardown    Close Appium
 
@@ -8,6 +8,7 @@ Suite Teardown    Close Appium
 ${SERVER}         http://127.0.0.1:4723
 ${ADB_PORT}       15037
 ${UI_TRANSITION_TIMEOUT}    12
+${DISABLE_WINDOW_ANIMATION}    false
 
 *** Test Cases ***
 ANDROID-SMOKE-01 Purchase Survives Home And Cold Restart
@@ -15,7 +16,7 @@ ANDROID-SMOKE-01 Purchase Survives Home And Cold Restart
     [Tags]    android    appium    smoke    save-lifecycle
     Force Stop Cat Game
     Start Cat Game
-    Wait For Visual    menu    01-main-menu.png    timeout=${UI_TRANSITION_TIMEOUT}
+    Wait For Visual    menu    01-main-menu.png    timeout=${UI_TRANSITION_TIMEOUT}    handle_system_hint=true
     ${tree}=    Capture UI Hierarchy    01-native-tree.xml
     Should Contain    ${tree}    com.catgamestudio.catgame
     Tap    1320    457
@@ -32,7 +33,7 @@ ANDROID-SMOKE-01 Purchase Survives Home And Cold Restart
     ${warm}=    Cat Game PID
     Should Be Equal    ${before}    ${warm}
     Wait For Affordable Milk
-    Buy And Press Home
+    Buy Confirmed And Press Home
     Wait Until Keyword Succeeds    5s    300ms    Cat Game Is Backgrounded
     Force Stop Cat Game
     Sleep    2s    Ensure a positive elapsed time for the offline summary.

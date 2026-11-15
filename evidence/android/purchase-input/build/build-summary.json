@@ -1,0 +1,13 @@
+{
+  "sourceCommit": "46446c053d74674d1d906f7dfe68b626be9ab9b9",
+  "apk": "CatGame-InputQA.apk",
+  "sha256": "647a3699415eb03833a80fc77e6bfcc3c0ef2659a512e4a22282001d4c61f47d",
+  "bytes": 120544363,
+  "package": "com.catgamestudio.catgame.inputqa",
+  "versionName": "1.0.1",
+  "versionCode": 4,
+  "buildExitCode": 0,
+  "licenseWarningsRetained": true,
+  "productionGameChanged": false,
+  "deviceScope": "temporary emulator-5564 / QA user 10 only"
+}

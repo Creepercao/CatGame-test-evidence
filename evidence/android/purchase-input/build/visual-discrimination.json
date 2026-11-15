@@ -1,0 +1,14 @@
+{
+  "threshold": 2.5,
+  "oneCatImage": "matrix-fixed-02/matrix/06-ready.png",
+  "oneCatErrors": {
+    "one-cat": 0.9433333333333334,
+    "two-cats": 13.861111111111109
+  },
+  "twoCatImage": "matrix-fixed-02/matrix/06-purchase-acknowledged.png",
+  "twoCatErrors": {
+    "one-cat": 14.053333333333333,
+    "two-cats": 0.9222222222222222
+  },
+  "negativeExampleRejected": true
+}

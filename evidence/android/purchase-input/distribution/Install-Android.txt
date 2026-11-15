@@ -1,0 +1,13 @@
+喵屋 Android 1.0.2 · Preview 2（versionCode 5）
+
+1. 使用 ARM64 Android 设备安装 CatGame-Android.apk，最低 Android 5.1 / API 22。
+2. 若已安装上一版普通预览包，请直接覆盖安装以保留进度，不要先卸载。该包与 Preview 1 使用同一开发测试签名，versionCode 从 4 升为 5。
+3. 系统询问安装来源权限时，为用于打开 APK 的应用允许本次安装。
+4. 游戏采用横屏，离线单机；Android 包不包含桌面外置修改器或独立诊断程序。
+
+本版修复成功购买猫咪/用品后尚未执行 Unity 暂停保存就被强停时可能丢失进度的问题。购买成功时立即尝试保存；已有自动保存、暂停保存、备份恢复继续保留，价格与存档结构不变。
+
+本版实际验收：Android 14 独立 AVD 的 Robot + Appium 新档、自然收益购买、后台/强停/冷启动；上一版真实 QA 存档覆盖升级；引擎 PlayMode 89/89、EditMode 69/69。低帧率诊断及失败记录另存测试证据仓库。本版尚未重新做真机性能验收，之前 v4 的手机结果仍属于其原版本。
+
+游戏：https://github.com/Creepercao/CatGame
+测试证据：https://github.com/Creepercao/CatGame-test-evidence/blob/main/reports/android-purchase-investigation.md

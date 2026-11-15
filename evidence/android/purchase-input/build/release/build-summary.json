@@ -1,0 +1,11 @@
+{
+  "sha256": "c0fbcbb264d986bb63ffa4691d3473572198dc59cfb2d63060950a74169e0a66",
+  "bytes": 111702349,
+  "buildExit": 0,
+  "expectedSource": "bd85811",
+  "provenanceSource": null,
+  "package": "com.catgamestudio.catgame",
+  "versionName": "1.0.2",
+  "versionCode": 5,
+  "sourceRepositoryScope": "game only"
+}

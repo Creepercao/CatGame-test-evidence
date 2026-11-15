@@ -1678,8 +1678,8 @@
     {
       "source": "docs/质量交付/缺陷与追溯.md",
       "path": "reports/缺陷与追溯.md",
-      "sourceSha256": "b3fad7f14685df993abceb082c8634616e949ed511c40aabaa659b5d7a5ef0ad",
-      "publishedSha256": "cd0cc2f1aee9e44ebb8b0cbb6e2f8c54804ac4db8269d0b5195bb7592b82a39d",
+      "sourceSha256": "d66133d6ce38868990d1642df9fceb96d25bee6da59e93efab9e84864fdee920",
+      "publishedSha256": "95b05359246ed2fcb55728a8c4f028c11d27ddf772ba0e58d1ab4c5359bdbb2d",
       "transformed": true
     },
     {
@@ -2084,15 +2084,15 @@
     {
       "source": "Tests/robot/android/AndroidGame.py",
       "path": "harness/android/AndroidGame.py",
-      "sourceSha256": "41dfd5829b97c2137f999290dfad33c437c72b7c6f59f03e85aaef678d32ab3e",
-      "publishedSha256": "41dfd5829b97c2137f999290dfad33c437c72b7c6f59f03e85aaef678d32ab3e",
+      "sourceSha256": "ebd2f3d8cbddd491fad92e46a4d27f3cb0abb00a55cb477f672bf8829cd02f88",
+      "publishedSha256": "ebd2f3d8cbddd491fad92e46a4d27f3cb0abb00a55cb477f672bf8829cd02f88",
       "transformed": false
     },
     {
       "source": "Tests/robot/android/android_smoke.robot",
       "path": "harness/android/android_smoke.robot",
-      "sourceSha256": "4a5f176cd963548307e431b4b4714d9b10db49c72299d5b31a18d32889b40298",
-      "publishedSha256": "4a5f176cd963548307e431b4b4714d9b10db49c72299d5b31a18d32889b40298",
+      "sourceSha256": "baf35bfba545167e29c0ed42c737966542202fb815c1135a535812a322f5ab6a",
+      "publishedSha256": "baf35bfba545167e29c0ed42c737966542202fb815c1135a535812a322f5ab6a",
       "transformed": false
     },
     {
@@ -4635,6 +4635,1763 @@
       "sourceSha256": "f53b98f5625c4253a2f5af8dd7b0cc6853df47f903cb4fe15f7ae2e095d58d36",
       "publishedSha256": "f53b98f5625c4253a2f5af8dd7b0cc6853df47f903cb4fe15f7ae2e095d58d36",
       "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/analysis-v1.json",
+      "path": "evidence/android/purchase-input/matrix-01/analysis-v1.json",
+      "sourceSha256": "cfd408f8cb2c53570daa6136987e42c6d376eaf82b60070e3994fa7dbde4a273",
+      "publishedSha256": "cfd408f8cb2c53570daa6136987e42c6d376eaf82b60070e3994fa7dbde4a273",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/analysis.json",
+      "path": "evidence/android/purchase-input/matrix-01/analysis.json",
+      "sourceSha256": "7d3cac8032603d16d2a64717828df7a04f6ca10181497412f37e24a3e40960bd",
+      "publishedSha256": "7d3cac8032603d16d2a64717828df7a04f6ca10181497412f37e24a3e40960bd",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/appium-steps.jsonl",
+      "path": "evidence/android/purchase-input/matrix-01/appium-steps.jsonl",
+      "sourceSha256": "7ecfba3d190ad4fbc1e10b0d50c8169a31b498a39ff946ae6835e4b7d39fefcc",
+      "publishedSha256": "7ecfba3d190ad4fbc1e10b0d50c8169a31b498a39ff946ae6835e4b7d39fefcc",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/output.xml",
+      "path": "evidence/android/purchase-input/matrix-01/output.xml",
+      "sourceSha256": "ab6b059ef48ef3b56c63b54f369488587493d622bd83d06f5e78c32df807ad83",
+      "publishedSha256": "df6e7981ad21a3d123e1ff4e048776e4137cafb556dedb484d0fb7079d01c8d8",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/01-before.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/01-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/01-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/01-events.jsonl",
+      "sourceSha256": "c6c72003009247a44948976a2a84c731e15b891a0a7c79465de6ff66ccb4c6d3",
+      "publishedSha256": "c6c72003009247a44948976a2a84c731e15b891a0a7c79465de6ff66ccb4c6d3",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/01-restored.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/01-restored.json",
+      "sourceSha256": "2d3407c572724afc11b5756fcb8ab67c54641874b1e7d0c8d6f3580329b6b2a9",
+      "publishedSha256": "2d3407c572724afc11b5756fcb8ab67c54641874b1e7d0c8d6f3580329b6b2a9",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/01-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/01-stopped.json",
+      "sourceSha256": "0c80022ae35ab954d5c0a0af9431f32bfbeb67cd27f856420a0c1e6303e51125",
+      "publishedSha256": "0c80022ae35ab954d5c0a0af9431f32bfbeb67cd27f856420a0c1e6303e51125",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/02-before.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/02-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/02-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/02-events.jsonl",
+      "sourceSha256": "aff07719a8f65def467c9394fb0853cd5f698da1fea8d7b88b374a512c49150f",
+      "publishedSha256": "aff07719a8f65def467c9394fb0853cd5f698da1fea8d7b88b374a512c49150f",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/02-restored.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/02-restored.json",
+      "sourceSha256": "cd38e46205ec156dfc4ebecd5ac8293dfd13d102367ff400cbb421307d51f0b6",
+      "publishedSha256": "cd38e46205ec156dfc4ebecd5ac8293dfd13d102367ff400cbb421307d51f0b6",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/02-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/02-stopped.json",
+      "sourceSha256": "7b9b0dcb461030622dd5200d4e7a74a7b337fdd66d79ad757b9f0f8153e73725",
+      "publishedSha256": "7b9b0dcb461030622dd5200d4e7a74a7b337fdd66d79ad757b9f0f8153e73725",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/03-before.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/03-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/03-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/03-events.jsonl",
+      "sourceSha256": "3a36f121f772b40fe9b4a7dd07b4d2c5fd23f3a2fc77be50f958cb9117d2b598",
+      "publishedSha256": "3a36f121f772b40fe9b4a7dd07b4d2c5fd23f3a2fc77be50f958cb9117d2b598",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/03-restored.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/03-restored.json",
+      "sourceSha256": "3fd3c5bee3bd6bfbdd79549dd05553f74c06ae9a523b48913ee389e4285546e3",
+      "publishedSha256": "3fd3c5bee3bd6bfbdd79549dd05553f74c06ae9a523b48913ee389e4285546e3",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/03-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/03-stopped.json",
+      "sourceSha256": "c0abbe1b689e6977ef492c02575569cbdd37bd483e00a240a3ed7535a3756d75",
+      "publishedSha256": "c0abbe1b689e6977ef492c02575569cbdd37bd483e00a240a3ed7535a3756d75",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/04-before.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/04-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/04-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/04-events.jsonl",
+      "sourceSha256": "c05f227dfd69be3c9553b067d58f97d60e76d378b9c4350ca17713e1faed6518",
+      "publishedSha256": "c05f227dfd69be3c9553b067d58f97d60e76d378b9c4350ca17713e1faed6518",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/04-restored.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/04-restored.json",
+      "sourceSha256": "b873349d1fd8f6afce0329aa0327c9fcbcbcd3325553599988f111975f2257be",
+      "publishedSha256": "b873349d1fd8f6afce0329aa0327c9fcbcbcd3325553599988f111975f2257be",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/04-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/04-stopped.json",
+      "sourceSha256": "103a800a9483b079ea874a66cdde8bbc9b0a220d515865956aec2ab44450a7e6",
+      "publishedSha256": "103a800a9483b079ea874a66cdde8bbc9b0a220d515865956aec2ab44450a7e6",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/05-before.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/05-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/05-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/05-events.jsonl",
+      "sourceSha256": "58aec18fbc449019db15606d0e39a1719e6033983fad31ccdb4a71d3baaeb07c",
+      "publishedSha256": "58aec18fbc449019db15606d0e39a1719e6033983fad31ccdb4a71d3baaeb07c",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/05-restored.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/05-restored.json",
+      "sourceSha256": "51e12ab955c5dd9d12777e776df2df89137c6d26b2d88781628379ee7bac74be",
+      "publishedSha256": "51e12ab955c5dd9d12777e776df2df89137c6d26b2d88781628379ee7bac74be",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/05-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/05-stopped.json",
+      "sourceSha256": "1d037883bb5396b61fa9628909e7a3d97bb43e7da7bc16504a6883bdd903538a",
+      "publishedSha256": "1d037883bb5396b61fa9628909e7a3d97bb43e7da7bc16504a6883bdd903538a",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/06-before.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/06-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/06-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/06-events.jsonl",
+      "sourceSha256": "6a77babb289b0403d83ecb7fee5e524acfb45b882a8eef2c0e0ffa1104d63b1c",
+      "publishedSha256": "6a77babb289b0403d83ecb7fee5e524acfb45b882a8eef2c0e0ffa1104d63b1c",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/06-restored.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/06-restored.json",
+      "sourceSha256": "964e2a84a704c3f9c46424700443d15a4c49ffc329dc16d4ed237b1d3c94842f",
+      "publishedSha256": "964e2a84a704c3f9c46424700443d15a4c49ffc329dc16d4ed237b1d3c94842f",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/06-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/06-stopped.json",
+      "sourceSha256": "1f48b4f16fb290d3e306f9114ddae6428b94df1a34426fc3a427d03f0e884ae8",
+      "publishedSha256": "1f48b4f16fb290d3e306f9114ddae6428b94df1a34426fc3a427d03f0e884ae8",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/07-before.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/07-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/07-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/07-events.jsonl",
+      "sourceSha256": "fda342f6dfc941e6067d26cc3d6ed7f554497ce38f9b2e83bf837af8a6cd7cf2",
+      "publishedSha256": "fda342f6dfc941e6067d26cc3d6ed7f554497ce38f9b2e83bf837af8a6cd7cf2",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/07-restored.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/07-restored.json",
+      "sourceSha256": "c4817148dbc77ecf71173284f9a3ab32335572f4830891564aeb8a01c6309fd8",
+      "publishedSha256": "c4817148dbc77ecf71173284f9a3ab32335572f4830891564aeb8a01c6309fd8",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/07-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/07-stopped.json",
+      "sourceSha256": "472d463e0519c85e2856e2fd870f988eda110d3d355639cc45ce70de567587db",
+      "publishedSha256": "472d463e0519c85e2856e2fd870f988eda110d3d355639cc45ce70de567587db",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/08-before.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/08-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/08-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/08-events.jsonl",
+      "sourceSha256": "e19089e0ed7d63292f2b1661045f4408d8d7df84c3a48ea2754c8ea675e91e36",
+      "publishedSha256": "e19089e0ed7d63292f2b1661045f4408d8d7df84c3a48ea2754c8ea675e91e36",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/08-restored.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/08-restored.json",
+      "sourceSha256": "afc76c0b6dfcd17edc2751b7ee0961637f874f75d5af1cdd1b300b423612f6c9",
+      "publishedSha256": "afc76c0b6dfcd17edc2751b7ee0961637f874f75d5af1cdd1b300b423612f6c9",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/08-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/08-stopped.json",
+      "sourceSha256": "d8f0e9a6c4de7c2782146f324a1e9c044509e36532e12dd6e5cb01a2524fa0f4",
+      "publishedSha256": "d8f0e9a6c4de7c2782146f324a1e9c044509e36532e12dd6e5cb01a2524fa0f4",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/results.json",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/results.json",
+      "sourceSha256": "2b9f1d8e030a2f3f8504888b805260058ceef5379fbe9afa6294f73df49e2894",
+      "publishedSha256": "2b9f1d8e030a2f3f8504888b805260058ceef5379fbe9afa6294f73df49e2894",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/system-overlay-0.xml",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/system-overlay-0.xml",
+      "sourceSha256": "0d19b85dbd7c513b2a59c6f7017c04c03d2962f4e9633f61f4c47d0ffd875201",
+      "publishedSha256": "0d19b85dbd7c513b2a59c6f7017c04c03d2962f4e9633f61f4c47d0ffd875201",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/system-overlay-1.xml",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/system-overlay-1.xml",
+      "sourceSha256": "072e9ab8e4fc649e6cbb1aaaebac7a03d6d4861a6b26315e27fd82a6f3e12d96",
+      "publishedSha256": "072e9ab8e4fc649e6cbb1aaaebac7a03d6d4861a6b26315e27fd82a6f3e12d96",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/system-overlay-2.xml",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/system-overlay-2.xml",
+      "sourceSha256": "072e9ab8e4fc649e6cbb1aaaebac7a03d6d4861a6b26315e27fd82a6f3e12d96",
+      "publishedSha256": "072e9ab8e4fc649e6cbb1aaaebac7a03d6d4861a6b26315e27fd82a6f3e12d96",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix-console.txt",
+      "path": "evidence/android/purchase-input/matrix-01/matrix-console.txt",
+      "sourceSha256": "969251ddfbe328858222e5d602f90b5dc041a082a895dbdb8910706f10c7e149",
+      "publishedSha256": "969251ddfbe328858222e5d602f90b5dc041a082a895dbdb8910706f10c7e149",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix-errors.txt",
+      "path": "evidence/android/purchase-input/matrix-01/matrix-errors.txt",
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "publishedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/analysis-v1.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/analysis-v1.json",
+      "sourceSha256": "390521ae8aac60f7bf6c7c55e380ab2d8ee73e3588b568bce08bea814cc236cf",
+      "publishedSha256": "390521ae8aac60f7bf6c7c55e380ab2d8ee73e3588b568bce08bea814cc236cf",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/analysis.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/analysis.json",
+      "sourceSha256": "477cbe0566e170def1ffa647137150952deafe08cbdd3fc68501cf77011d9cec",
+      "publishedSha256": "477cbe0566e170def1ffa647137150952deafe08cbdd3fc68501cf77011d9cec",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/appium-steps.jsonl",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/appium-steps.jsonl",
+      "sourceSha256": "36f8ece86aaf3432e0164325d63d33f24dcebbabf620767585d879b0acc9a9eb",
+      "publishedSha256": "36f8ece86aaf3432e0164325d63d33f24dcebbabf620767585d879b0acc9a9eb",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/output.xml",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/output.xml",
+      "sourceSha256": "471a677ad028d67cf928a834164fdf85bb5b3a60e09e9f0d5c365d571e4abb87",
+      "publishedSha256": "1fbd83bef0c3936c1f79bb5a0056964ab38beb9ee8ad9a52dc00106151e12e55",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/01-before.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/01-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/01-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/01-events.jsonl",
+      "sourceSha256": "849d53bf716dbe4ecbf1e197e0a51f7751f447f4a912331b5f4d5cee220fdec8",
+      "publishedSha256": "849d53bf716dbe4ecbf1e197e0a51f7751f447f4a912331b5f4d5cee220fdec8",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/01-restored.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/01-restored.json",
+      "sourceSha256": "49abdde1565074884e7e96d3c90ac389080988ac5aa3e647648b68f0afd73457",
+      "publishedSha256": "49abdde1565074884e7e96d3c90ac389080988ac5aa3e647648b68f0afd73457",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/01-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/01-stopped.json",
+      "sourceSha256": "6b3d802b928da629ab65ab78783360e26c20b3fc2286e8d3f40fda2532f53bdb",
+      "publishedSha256": "6b3d802b928da629ab65ab78783360e26c20b3fc2286e8d3f40fda2532f53bdb",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/02-before.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/02-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/02-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/02-events.jsonl",
+      "sourceSha256": "b53bdfa59b95097b821120826cdd1dee4f369d17069545c48e8c00e7196b75fd",
+      "publishedSha256": "b53bdfa59b95097b821120826cdd1dee4f369d17069545c48e8c00e7196b75fd",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/02-restored.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/02-restored.json",
+      "sourceSha256": "dbaedc1fef04082e865d36809091e735a17322504404ae1e669f827bb4d78fbc",
+      "publishedSha256": "dbaedc1fef04082e865d36809091e735a17322504404ae1e669f827bb4d78fbc",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/02-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/02-stopped.json",
+      "sourceSha256": "ecf3d9fb5179da17759079a1d520890bf30608c98b51cdf5951ca31388449686",
+      "publishedSha256": "ecf3d9fb5179da17759079a1d520890bf30608c98b51cdf5951ca31388449686",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/03-before.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/03-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/03-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/03-events.jsonl",
+      "sourceSha256": "c79c34d8b3ee2173d16daaf4e8957acb9e649ad292f08d4da8a660f6537ccb1e",
+      "publishedSha256": "c79c34d8b3ee2173d16daaf4e8957acb9e649ad292f08d4da8a660f6537ccb1e",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/03-restored.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/03-restored.json",
+      "sourceSha256": "f30209dd057e2317c5fc1afdd2d86906f38663a352b90838ae8ee5d6a9226d60",
+      "publishedSha256": "f30209dd057e2317c5fc1afdd2d86906f38663a352b90838ae8ee5d6a9226d60",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/03-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/03-stopped.json",
+      "sourceSha256": "2c74463e8d95b84cbd481be8b801b29ec6c8b63f38122d7676f77604d99360eb",
+      "publishedSha256": "2c74463e8d95b84cbd481be8b801b29ec6c8b63f38122d7676f77604d99360eb",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/04-before.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/04-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/04-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/04-events.jsonl",
+      "sourceSha256": "76dd382c9058594431a5afc3b19702e4eee4d58e2144392577eb462631e6afd4",
+      "publishedSha256": "76dd382c9058594431a5afc3b19702e4eee4d58e2144392577eb462631e6afd4",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/04-restored.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/04-restored.json",
+      "sourceSha256": "be690ee769d3d6251e33ecc456856960620304c1e0fcba3b01aed13beacb8913",
+      "publishedSha256": "be690ee769d3d6251e33ecc456856960620304c1e0fcba3b01aed13beacb8913",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/04-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/04-stopped.json",
+      "sourceSha256": "c76a398a0bdebe78a71d97d451e0f5536a90ce388029662e4770f61af3cd9b07",
+      "publishedSha256": "c76a398a0bdebe78a71d97d451e0f5536a90ce388029662e4770f61af3cd9b07",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/05-before.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/05-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/05-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/05-events.jsonl",
+      "sourceSha256": "bb99bf4445f892b18edbbb62b751560b66b6967dc86764596df26d6786af75e7",
+      "publishedSha256": "bb99bf4445f892b18edbbb62b751560b66b6967dc86764596df26d6786af75e7",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/05-restored.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/05-restored.json",
+      "sourceSha256": "62600acbf2b23b3916aaf605bfd8771d70222b0f25a13dadfcbac8eef0c9d826",
+      "publishedSha256": "62600acbf2b23b3916aaf605bfd8771d70222b0f25a13dadfcbac8eef0c9d826",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/05-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/05-stopped.json",
+      "sourceSha256": "80e054b5251e5944226559a510067fa6ddf7ba9d0fe85f1902276aa9dd3e68f9",
+      "publishedSha256": "80e054b5251e5944226559a510067fa6ddf7ba9d0fe85f1902276aa9dd3e68f9",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/06-before.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/06-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/06-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/06-events.jsonl",
+      "sourceSha256": "2aa7f3d814eb99a525cc70e73bff502a1216de56079fab331e7a4574f85d3c9b",
+      "publishedSha256": "2aa7f3d814eb99a525cc70e73bff502a1216de56079fab331e7a4574f85d3c9b",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/06-restored.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/06-restored.json",
+      "sourceSha256": "d0e777036f7b72828cf011a3402395305fcb86246334959031fea620bf009be9",
+      "publishedSha256": "d0e777036f7b72828cf011a3402395305fcb86246334959031fea620bf009be9",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/06-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/06-stopped.json",
+      "sourceSha256": "45ef70f4cc7bef961e10ddfd6307313428f485bb5917c21bb1f2b8e9084d34aa",
+      "publishedSha256": "45ef70f4cc7bef961e10ddfd6307313428f485bb5917c21bb1f2b8e9084d34aa",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/07-before.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/07-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/07-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/07-events.jsonl",
+      "sourceSha256": "40b98d639c7dca83070e304d5d6a6b487e3a1961e1c5db26f5ffe94d4768ebc5",
+      "publishedSha256": "40b98d639c7dca83070e304d5d6a6b487e3a1961e1c5db26f5ffe94d4768ebc5",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/07-restored.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/07-restored.json",
+      "sourceSha256": "c01fef906738e9ca5dcca80167a3f951cf0d527775b7bb6c7942e6f67528c4ba",
+      "publishedSha256": "c01fef906738e9ca5dcca80167a3f951cf0d527775b7bb6c7942e6f67528c4ba",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/07-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/07-stopped.json",
+      "sourceSha256": "9ffa70b6b70b54f35ee96fabd2103b4ab0ef7e6174e98330bdac4f69ca5efbdd",
+      "publishedSha256": "9ffa70b6b70b54f35ee96fabd2103b4ab0ef7e6174e98330bdac4f69ca5efbdd",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/08-before.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/08-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/08-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/08-events.jsonl",
+      "sourceSha256": "15eb61a9e5f1eb5bb799580e102d8bb22a80b6d89d5bf1abc439249491b93afc",
+      "publishedSha256": "15eb61a9e5f1eb5bb799580e102d8bb22a80b6d89d5bf1abc439249491b93afc",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/08-restored.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/08-restored.json",
+      "sourceSha256": "7ba8f1e0623c28f3b3c1b395d1472d222527dc1b313e10d5a9b031864fe2fa60",
+      "publishedSha256": "7ba8f1e0623c28f3b3c1b395d1472d222527dc1b313e10d5a9b031864fe2fa60",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/08-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/08-stopped.json",
+      "sourceSha256": "f00d42dfea3524408edb94075d047dffb48c7b0532ad0d7ce5e0372d1b424854",
+      "publishedSha256": "f00d42dfea3524408edb94075d047dffb48c7b0532ad0d7ce5e0372d1b424854",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/results.json",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/results.json",
+      "sourceSha256": "2218efb7a58929ff5a93c11396a8ecb2641113bf49e6e9fc419f721de50b111f",
+      "publishedSha256": "2218efb7a58929ff5a93c11396a8ecb2641113bf49e6e9fc419f721de50b111f",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/system-overlay-0.xml",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/system-overlay-0.xml",
+      "sourceSha256": "28ab4c6f83761cda7f8fd1b95b28c814259e0e8d9f465fc48b340d0fd5dd72bb",
+      "publishedSha256": "28ab4c6f83761cda7f8fd1b95b28c814259e0e8d9f465fc48b340d0fd5dd72bb",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/system-overlay-1.xml",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/system-overlay-1.xml",
+      "sourceSha256": "dd29dff6839624eca593705a9525724c1b36f8958f1aa95a463cc7f46e7f125e",
+      "publishedSha256": "dd29dff6839624eca593705a9525724c1b36f8958f1aa95a463cc7f46e7f125e",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/system-overlay-2.xml",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/system-overlay-2.xml",
+      "sourceSha256": "dd29dff6839624eca593705a9525724c1b36f8958f1aa95a463cc7f46e7f125e",
+      "publishedSha256": "dd29dff6839624eca593705a9525724c1b36f8958f1aa95a463cc7f46e7f125e",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix-console.txt",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix-console.txt",
+      "sourceSha256": "f49ba8da5d4b98e63b7142617ca934665a4f98618d7b9d51f0ae28daf6a57871",
+      "publishedSha256": "f49ba8da5d4b98e63b7142617ca934665a4f98618d7b9d51f0ae28daf6a57871",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix-errors.txt",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix-errors.txt",
+      "sourceSha256": "73bba9f0bd88c62f75ee5e4f39ce981dee6d9cbdff080d673183b5e8897e14aa",
+      "publishedSha256": "c7cfd599d77e71fb36b44aa96852a894830edba9f8abf3e2d9c9ed27c6fb1df6",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/appium-steps.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/appium-steps.jsonl",
+      "sourceSha256": "b7450688cd2388c211f19efe3f3b1238373e204d0bcf087d8dec137118ddae09",
+      "publishedSha256": "b7450688cd2388c211f19efe3f3b1238373e204d0bcf087d8dec137118ddae09",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/output.xml",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/output.xml",
+      "sourceSha256": "873630b1f1b77744617bccf9661a6c991c4cd71ffc173969e5b21a696c6fa6c3",
+      "publishedSha256": "b68f175b6e0493dd280f757e09aaefb3572e970bdfca8d6ee4063dbc3e8a375a",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/matrix/01-before.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/matrix/01-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/matrix/01-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/matrix/01-events.jsonl",
+      "sourceSha256": "887f224499a6021deb29ecac6bc481496362848ce2925a9a1465308811f522d6",
+      "publishedSha256": "887f224499a6021deb29ecac6bc481496362848ce2925a9a1465308811f522d6",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/matrix/01-restored.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/matrix/01-restored.json",
+      "sourceSha256": "6e7e594395d72ab70d094e7651dde0e23d29b7afb255719e6cb9c42afc0ecec7",
+      "publishedSha256": "6e7e594395d72ab70d094e7651dde0e23d29b7afb255719e6cb9c42afc0ecec7",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/matrix/01-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/matrix/01-stopped.json",
+      "sourceSha256": "1ecc83c219b0d7514f7462b8ec63d5188f3a7d8c917532eadd96f6a66c8140ae",
+      "publishedSha256": "1ecc83c219b0d7514f7462b8ec63d5188f3a7d8c917532eadd96f6a66c8140ae",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/matrix/02-before.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/matrix/02-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/matrix/02-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/matrix/02-events.jsonl",
+      "sourceSha256": "ce50020ce407562a8eaa04011ff3376ea5ddea9d40aaaf57ff4b734aa4a49b62",
+      "publishedSha256": "ce50020ce407562a8eaa04011ff3376ea5ddea9d40aaaf57ff4b734aa4a49b62",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/matrix/02-restored.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/matrix/02-restored.json",
+      "sourceSha256": "ea9cc84ecc22fb259463e435e9c43ee4e2cd7a7cc5e2eea18b06316d7084c3ee",
+      "publishedSha256": "ea9cc84ecc22fb259463e435e9c43ee4e2cd7a7cc5e2eea18b06316d7084c3ee",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/matrix/02-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/matrix/02-stopped.json",
+      "sourceSha256": "7eb0da27b02dbaaf927631994735eb7b8e0ef5ffdbae60c5efe6d8100a5499c3",
+      "publishedSha256": "7eb0da27b02dbaaf927631994735eb7b8e0ef5ffdbae60c5efe6d8100a5499c3",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/matrix/03-before.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/matrix/03-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/matrix/03-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/matrix/03-events.jsonl",
+      "sourceSha256": "9b7f2c081266a9c5736abb7cc3c233f6df4ea47c72179f17fada9b54c818a6ec",
+      "publishedSha256": "9b7f2c081266a9c5736abb7cc3c233f6df4ea47c72179f17fada9b54c818a6ec",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/matrix/03-restored.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/matrix/03-restored.json",
+      "sourceSha256": "405a24ee4277ab57cc664acf6cc09f0cb91fe5ab2282284af14f33bad967e22b",
+      "publishedSha256": "405a24ee4277ab57cc664acf6cc09f0cb91fe5ab2282284af14f33bad967e22b",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/matrix/03-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/matrix/03-stopped.json",
+      "sourceSha256": "b101fd873fc003db2e54d5691bdd2760769d66d8ebe23930273d5b15a601a1e9",
+      "publishedSha256": "b101fd873fc003db2e54d5691bdd2760769d66d8ebe23930273d5b15a601a1e9",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/matrix/04-before.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/matrix/04-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/matrix/results.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/matrix/results.json",
+      "sourceSha256": "cd9f50ab5728260a9be84d897dd34c13e9101564bdb88663e85eda22e3572873",
+      "publishedSha256": "cd9f50ab5728260a9be84d897dd34c13e9101564bdb88663e85eda22e3572873",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/matrix/system-overlay-0.xml",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/matrix/system-overlay-0.xml",
+      "sourceSha256": "ec3ea4b9599b4b260cf14fb31993b9943b782d2ad4d0bd192418778cd6afde63",
+      "publishedSha256": "ec3ea4b9599b4b260cf14fb31993b9943b782d2ad4d0bd192418778cd6afde63",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/matrix/system-overlay-1.xml",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/matrix/system-overlay-1.xml",
+      "sourceSha256": "ec3ea4b9599b4b260cf14fb31993b9943b782d2ad4d0bd192418778cd6afde63",
+      "publishedSha256": "ec3ea4b9599b4b260cf14fb31993b9943b782d2ad4d0bd192418778cd6afde63",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/matrix/system-overlay-2.xml",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/matrix/system-overlay-2.xml",
+      "sourceSha256": "645449a53fcba6479968313fae8da3bf46f492a497a0e8494092381f5b1977bf",
+      "publishedSha256": "645449a53fcba6479968313fae8da3bf46f492a497a0e8494092381f5b1977bf",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/matrix/system-overlay-3.xml",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/matrix/system-overlay-3.xml",
+      "sourceSha256": "645449a53fcba6479968313fae8da3bf46f492a497a0e8494092381f5b1977bf",
+      "publishedSha256": "645449a53fcba6479968313fae8da3bf46f492a497a0e8494092381f5b1977bf",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/matrix-console.txt",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/matrix-console.txt",
+      "sourceSha256": "0b3869da24ceaec4152ba3b5a8c1795299bc601180c1840bae97376f61fc6829",
+      "publishedSha256": "0b3869da24ceaec4152ba3b5a8c1795299bc601180c1840bae97376f61fc6829",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-01/matrix-errors.txt",
+      "path": "evidence/android/purchase-input/matrix-fixed-01/matrix-errors.txt",
+      "sourceSha256": "5c07c53678de2742dd2293def08739afec22da06050eb3e8aa57fd5b09799c28",
+      "publishedSha256": "6e644db13d698e5e7be515e0c3adea3ef45191e8ee81798406d0b4eb18cd9e82",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/analysis-v1.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/analysis-v1.json",
+      "sourceSha256": "7079973e95a9976b4de656de2ef783dc88d3299d5c1be37e347cab412ce2d6a1",
+      "publishedSha256": "7079973e95a9976b4de656de2ef783dc88d3299d5c1be37e347cab412ce2d6a1",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/analysis.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/analysis.json",
+      "sourceSha256": "6f9caf9e35d0cebbae1fb9f74eef65e622ba2e128a1b19356e87f9507635f111",
+      "publishedSha256": "6f9caf9e35d0cebbae1fb9f74eef65e622ba2e128a1b19356e87f9507635f111",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/appium-steps.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/appium-steps.jsonl",
+      "sourceSha256": "a91b80c8540bcc6a5d9bd272ede5321e3250924f1f4dfa7336a86bbeb51570ab",
+      "publishedSha256": "a91b80c8540bcc6a5d9bd272ede5321e3250924f1f4dfa7336a86bbeb51570ab",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/output.xml",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/output.xml",
+      "sourceSha256": "7285d865b2dcd14d7bd6d4d31b2eb8e15535c82563276e89b80a4b0120b30d31",
+      "publishedSha256": "f134b646f80be1c09e183e85ed94e0b113fbe85f2ac7e6edbaa723a2a9ac12a4",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/01-before.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/01-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/01-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/01-events.jsonl",
+      "sourceSha256": "efcb4baadcced2265bdb586bdb4b40cc906cf6f07d42a3c7beabfb632cc3c2e6",
+      "publishedSha256": "efcb4baadcced2265bdb586bdb4b40cc906cf6f07d42a3c7beabfb632cc3c2e6",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/01-restored.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/01-restored.json",
+      "sourceSha256": "f5603457d26a74d5076839dfab232a836a57d1125587d7db4b04f924b0bab1cb",
+      "publishedSha256": "f5603457d26a74d5076839dfab232a836a57d1125587d7db4b04f924b0bab1cb",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/01-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/01-stopped.json",
+      "sourceSha256": "d9d4a9a567da8072a7b333158e8ba53beba395fc78b824d454b70c9b04e02c5c",
+      "publishedSha256": "d9d4a9a567da8072a7b333158e8ba53beba395fc78b824d454b70c9b04e02c5c",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/02-before.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/02-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/02-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/02-events.jsonl",
+      "sourceSha256": "a543cbee62ab6488d7e24aa187e23afa8020795c83036eef38e3cdacb2065b92",
+      "publishedSha256": "a543cbee62ab6488d7e24aa187e23afa8020795c83036eef38e3cdacb2065b92",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/02-restored.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/02-restored.json",
+      "sourceSha256": "1050d7eb3e719651bfcc9766af4083da3d04a6d5e1c323aa8fd6d70d49136fe5",
+      "publishedSha256": "1050d7eb3e719651bfcc9766af4083da3d04a6d5e1c323aa8fd6d70d49136fe5",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/02-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/02-stopped.json",
+      "sourceSha256": "9594da4d14685341646edba26474ea8250be693a03f3ffec1227980124f8faef",
+      "publishedSha256": "9594da4d14685341646edba26474ea8250be693a03f3ffec1227980124f8faef",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/03-before.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/03-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/03-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/03-events.jsonl",
+      "sourceSha256": "2d01c01a5775d3b87737a3a1ad2266f95a141a64a1dfa508e487ad615e59fac6",
+      "publishedSha256": "2d01c01a5775d3b87737a3a1ad2266f95a141a64a1dfa508e487ad615e59fac6",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/03-restored.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/03-restored.json",
+      "sourceSha256": "d04a1fb9f573574a0cfabd21b9e50a393c76a3a00c1fdead12e7c45582424ca7",
+      "publishedSha256": "d04a1fb9f573574a0cfabd21b9e50a393c76a3a00c1fdead12e7c45582424ca7",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/03-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/03-stopped.json",
+      "sourceSha256": "388478b10416dba5687c0c063e29f79b55ed3586197dabb4a87b62b921e8c0c2",
+      "publishedSha256": "388478b10416dba5687c0c063e29f79b55ed3586197dabb4a87b62b921e8c0c2",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/04-before.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/04-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/04-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/04-events.jsonl",
+      "sourceSha256": "ad94139fbae0b271726b1c202aeac089749443e156a1ed7617622a96a8316250",
+      "publishedSha256": "ad94139fbae0b271726b1c202aeac089749443e156a1ed7617622a96a8316250",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/04-restored.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/04-restored.json",
+      "sourceSha256": "7e314dcba873d28c7858a9d310a9e6b65923ce56bb398dce878a751e2c0bd6de",
+      "publishedSha256": "7e314dcba873d28c7858a9d310a9e6b65923ce56bb398dce878a751e2c0bd6de",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/04-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/04-stopped.json",
+      "sourceSha256": "9913be564b5d97967875a12d0dac1e2a72664cecf426ef307d570589ead721d7",
+      "publishedSha256": "9913be564b5d97967875a12d0dac1e2a72664cecf426ef307d570589ead721d7",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/05-before.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/05-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/05-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/05-events.jsonl",
+      "sourceSha256": "69b66c1c35a2ac2d6c00891b73a0ce9fea12a67fcf6fff2e7b2c80216749c246",
+      "publishedSha256": "69b66c1c35a2ac2d6c00891b73a0ce9fea12a67fcf6fff2e7b2c80216749c246",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/05-restored.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/05-restored.json",
+      "sourceSha256": "86e037f94ec2318b7e4ce293d39fd14df9f5c6c80df26a16057df1e8a7e2b4f5",
+      "publishedSha256": "86e037f94ec2318b7e4ce293d39fd14df9f5c6c80df26a16057df1e8a7e2b4f5",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/05-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/05-stopped.json",
+      "sourceSha256": "d16e9febc8d01ee2c0a6c7629dab27800545eabb8f2f181b23b7d4ffde93ad81",
+      "publishedSha256": "d16e9febc8d01ee2c0a6c7629dab27800545eabb8f2f181b23b7d4ffde93ad81",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/06-before.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/06-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/06-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/06-events.jsonl",
+      "sourceSha256": "0e0c44a5a8fc85bf0f65159e6403c42398137968ead9dff51d296137b5345102",
+      "publishedSha256": "0e0c44a5a8fc85bf0f65159e6403c42398137968ead9dff51d296137b5345102",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/06-restored.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/06-restored.json",
+      "sourceSha256": "4dbd960408c09b63a602102e19d991fa6b8e63271d464b0cdbaab28cccd53410",
+      "publishedSha256": "4dbd960408c09b63a602102e19d991fa6b8e63271d464b0cdbaab28cccd53410",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/06-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/06-stopped.json",
+      "sourceSha256": "171a1b5fff209689a0f540577244831dd5cb6dad6516ab3b7324571b3397e23c",
+      "publishedSha256": "171a1b5fff209689a0f540577244831dd5cb6dad6516ab3b7324571b3397e23c",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/07-before.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/07-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/07-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/07-events.jsonl",
+      "sourceSha256": "2d5f5b9d881519b4cf8bd84569dba727a8e18a0af056bae529aab22d8ce67c87",
+      "publishedSha256": "2d5f5b9d881519b4cf8bd84569dba727a8e18a0af056bae529aab22d8ce67c87",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/07-restored.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/07-restored.json",
+      "sourceSha256": "d4c9545ba77ea1010b611f9c860c09cc6ac5f2d39038afdaa63c7b238dd200da",
+      "publishedSha256": "d4c9545ba77ea1010b611f9c860c09cc6ac5f2d39038afdaa63c7b238dd200da",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/07-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/07-stopped.json",
+      "sourceSha256": "9d66b956814ff9c77e9abfc9c107c2d76f72cd534d00cbe47f304d595e5de59d",
+      "publishedSha256": "9d66b956814ff9c77e9abfc9c107c2d76f72cd534d00cbe47f304d595e5de59d",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/08-before.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/08-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/08-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/08-events.jsonl",
+      "sourceSha256": "54546251a079d4ff8e009b77bf17f570e16d9549bb5a784a35b2dae924ccd91e",
+      "publishedSha256": "54546251a079d4ff8e009b77bf17f570e16d9549bb5a784a35b2dae924ccd91e",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/08-restored.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/08-restored.json",
+      "sourceSha256": "f538061b27d37073bdf3f6b33d8b8b6581a9fe68aafc4c1ec4bf14aa9857e19d",
+      "publishedSha256": "f538061b27d37073bdf3f6b33d8b8b6581a9fe68aafc4c1ec4bf14aa9857e19d",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/08-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/08-stopped.json",
+      "sourceSha256": "ff4ab362aeb62545780aed76efa0db65bb32c8f3147de995834d323d12368ded",
+      "publishedSha256": "ff4ab362aeb62545780aed76efa0db65bb32c8f3147de995834d323d12368ded",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/results.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/results.json",
+      "sourceSha256": "c85539ca7ae17e497b1bc1bb19edc25c6e99d9b562a295b21a784d02cb6dc906",
+      "publishedSha256": "c85539ca7ae17e497b1bc1bb19edc25c6e99d9b562a295b21a784d02cb6dc906",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/system-overlay-0.xml",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/system-overlay-0.xml",
+      "sourceSha256": "08f47f9cebb1314a2646a5f2b17dc4f6f5e7f2bef9d5d19c2e4722e9d7263699",
+      "publishedSha256": "08f47f9cebb1314a2646a5f2b17dc4f6f5e7f2bef9d5d19c2e4722e9d7263699",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/system-overlay-1.xml",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/system-overlay-1.xml",
+      "sourceSha256": "08f47f9cebb1314a2646a5f2b17dc4f6f5e7f2bef9d5d19c2e4722e9d7263699",
+      "publishedSha256": "08f47f9cebb1314a2646a5f2b17dc4f6f5e7f2bef9d5d19c2e4722e9d7263699",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/system-overlay-2.xml",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/system-overlay-2.xml",
+      "sourceSha256": "25efe5c549f00616749dcee7b481f1a0f9bcae11336e46bbabf88ffe6463c40c",
+      "publishedSha256": "25efe5c549f00616749dcee7b481f1a0f9bcae11336e46bbabf88ffe6463c40c",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/system-overlay-3.xml",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/system-overlay-3.xml",
+      "sourceSha256": "25efe5c549f00616749dcee7b481f1a0f9bcae11336e46bbabf88ffe6463c40c",
+      "publishedSha256": "25efe5c549f00616749dcee7b481f1a0f9bcae11336e46bbabf88ffe6463c40c",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix-console.txt",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix-console.txt",
+      "sourceSha256": "525babde53428755ed57f74b504387678d7dfc472cc57b234b4903de3549c880",
+      "publishedSha256": "525babde53428755ed57f74b504387678d7dfc472cc57b234b4903de3549c880",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix-errors.txt",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix-errors.txt",
+      "sourceSha256": "40c6bd1efc8650b6bedc586c38e6adcf1ff1506f2870f1dfa357a50569e4c4a1",
+      "publishedSha256": "cdefb7de8f46201fd863f3dc2170b59717f797c18175ac188a6e79e7fbfa7f49",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/analysis-v1.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/analysis-v1.json",
+      "sourceSha256": "078e4c4f0c7a657deb5c4a7c9ec46215ce5823670d3279b795c8f25fdb53e016",
+      "publishedSha256": "078e4c4f0c7a657deb5c4a7c9ec46215ce5823670d3279b795c8f25fdb53e016",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/analysis.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/analysis.json",
+      "sourceSha256": "b785213ffcb9f2f7cbe6e883ae823194c7df25ca454b1b368aa44142d804b5cc",
+      "publishedSha256": "b785213ffcb9f2f7cbe6e883ae823194c7df25ca454b1b368aa44142d804b5cc",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/appium-steps.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/appium-steps.jsonl",
+      "sourceSha256": "ad92247662c76d2af18fde540a2fee36a4b8ed9bac35a4d34fdb3081e5728816",
+      "publishedSha256": "ad92247662c76d2af18fde540a2fee36a4b8ed9bac35a4d34fdb3081e5728816",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/output.xml",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/output.xml",
+      "sourceSha256": "acd4cd33f61348a6e1fa398669f6cd3f66d8555e13d2da11da3ae9975cf07025",
+      "publishedSha256": "df08c982d46f3747dc3f6cf5f1338fd5ac9a35b8cd3b3a9b126d80786f222d84",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/01-before.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/01-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/01-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/01-events.jsonl",
+      "sourceSha256": "a49bdecaf05a3a9b61bdefc6e80f7f8ec70b0234e8b145d171753bd7f68353aa",
+      "publishedSha256": "a49bdecaf05a3a9b61bdefc6e80f7f8ec70b0234e8b145d171753bd7f68353aa",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/01-restored.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/01-restored.json",
+      "sourceSha256": "ca4738480dabbe6035428f84f0939a441bd45839f90e0c82d4545923ee5d3cf1",
+      "publishedSha256": "ca4738480dabbe6035428f84f0939a441bd45839f90e0c82d4545923ee5d3cf1",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/01-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/01-stopped.json",
+      "sourceSha256": "8eb81eef74fad57bacc8c609985b2f01cccc4c1ecd11d2addf830c0cd4b64cdc",
+      "publishedSha256": "8eb81eef74fad57bacc8c609985b2f01cccc4c1ecd11d2addf830c0cd4b64cdc",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/02-before.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/02-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/02-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/02-events.jsonl",
+      "sourceSha256": "b134bd426ab897c47eeedc6fa04c8b020cc085b78ef34223a71600ce9e69704a",
+      "publishedSha256": "b134bd426ab897c47eeedc6fa04c8b020cc085b78ef34223a71600ce9e69704a",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/02-restored.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/02-restored.json",
+      "sourceSha256": "cb94604e4f6deb1c93691480d5226a82dec6dd38f4805d9d7f018a4b8cb60163",
+      "publishedSha256": "cb94604e4f6deb1c93691480d5226a82dec6dd38f4805d9d7f018a4b8cb60163",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/02-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/02-stopped.json",
+      "sourceSha256": "fe69ec9d42177309ec7c2e5551ac9663301025d2759aba877cbe563340d3e993",
+      "publishedSha256": "fe69ec9d42177309ec7c2e5551ac9663301025d2759aba877cbe563340d3e993",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/03-before.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/03-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/03-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/03-events.jsonl",
+      "sourceSha256": "a4e007eb12f385462560521721db86b353a97566dae9965f3e5b593d7f250fb5",
+      "publishedSha256": "a4e007eb12f385462560521721db86b353a97566dae9965f3e5b593d7f250fb5",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/03-restored.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/03-restored.json",
+      "sourceSha256": "42d0e437a2ffecc05df1f921f149102d0920d51736979fb82bd7e450b6b2865b",
+      "publishedSha256": "42d0e437a2ffecc05df1f921f149102d0920d51736979fb82bd7e450b6b2865b",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/03-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/03-stopped.json",
+      "sourceSha256": "73f5a9d6b0ed63c12854e17c7e9aef02bb24889077d7378eaf4d4b69929005b7",
+      "publishedSha256": "73f5a9d6b0ed63c12854e17c7e9aef02bb24889077d7378eaf4d4b69929005b7",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/04-before.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/04-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/04-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/04-events.jsonl",
+      "sourceSha256": "6820bc2b4f391dc8b888ccdccc62e97eb066cf4a0b7c197f7dc836e69fdae2b9",
+      "publishedSha256": "6820bc2b4f391dc8b888ccdccc62e97eb066cf4a0b7c197f7dc836e69fdae2b9",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/04-restored.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/04-restored.json",
+      "sourceSha256": "0ba284b787c25179c001cf7b6cc83534bda11d7e2199ea50e2cf467e4e28a584",
+      "publishedSha256": "0ba284b787c25179c001cf7b6cc83534bda11d7e2199ea50e2cf467e4e28a584",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/04-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/04-stopped.json",
+      "sourceSha256": "1cdb3c3e1f54f62d17d74ec3dc53bc9a8f9bcd328fa6f51ff0546a339a78592e",
+      "publishedSha256": "1cdb3c3e1f54f62d17d74ec3dc53bc9a8f9bcd328fa6f51ff0546a339a78592e",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/05-before.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/05-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/05-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/05-events.jsonl",
+      "sourceSha256": "843b43cab5f37ea6231bbafce98a6e2794cd4ed14491161c213792a341f7ed7c",
+      "publishedSha256": "843b43cab5f37ea6231bbafce98a6e2794cd4ed14491161c213792a341f7ed7c",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/05-restored.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/05-restored.json",
+      "sourceSha256": "618e2734ee901468583a16d4538e2eccd8d81372245f040c4ffe20abc6dd281d",
+      "publishedSha256": "618e2734ee901468583a16d4538e2eccd8d81372245f040c4ffe20abc6dd281d",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/05-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/05-stopped.json",
+      "sourceSha256": "f228b3764a1e0ba9ba6e4fc596ba448edd9405c46eb5bdafddb4b9f714f0888d",
+      "publishedSha256": "f228b3764a1e0ba9ba6e4fc596ba448edd9405c46eb5bdafddb4b9f714f0888d",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/06-before.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/06-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/06-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/06-events.jsonl",
+      "sourceSha256": "3301efc5ad5e69fb3773c50684e96f23b8df41efc4e2b100efd58fa871ab0c8e",
+      "publishedSha256": "3301efc5ad5e69fb3773c50684e96f23b8df41efc4e2b100efd58fa871ab0c8e",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/06-restored.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/06-restored.json",
+      "sourceSha256": "1b7181f56cfac79d69dd03ba6869ce544bb74640612aa4fbd795f104a9590e0d",
+      "publishedSha256": "1b7181f56cfac79d69dd03ba6869ce544bb74640612aa4fbd795f104a9590e0d",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/06-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/06-stopped.json",
+      "sourceSha256": "b5dd78cdcd06785d8259ec02e2ce74d5883127baa7a57faf4739e2a84a97fee8",
+      "publishedSha256": "b5dd78cdcd06785d8259ec02e2ce74d5883127baa7a57faf4739e2a84a97fee8",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/07-before.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/07-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/07-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/07-events.jsonl",
+      "sourceSha256": "e61be667aff254bf25c0ce8dc6618930e8b3ecf00befec159e41ebed5633c115",
+      "publishedSha256": "e61be667aff254bf25c0ce8dc6618930e8b3ecf00befec159e41ebed5633c115",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/07-restored.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/07-restored.json",
+      "sourceSha256": "96f4960c7fadf181286b56b1a7de3de05a3bae5fcae11ca1a319c918f6df8612",
+      "publishedSha256": "96f4960c7fadf181286b56b1a7de3de05a3bae5fcae11ca1a319c918f6df8612",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/07-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/07-stopped.json",
+      "sourceSha256": "46b8df988f301e2a8eab5c6f978237409f512dbeae7a2bab79fea964c1574dc8",
+      "publishedSha256": "46b8df988f301e2a8eab5c6f978237409f512dbeae7a2bab79fea964c1574dc8",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/08-before.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/08-before.json",
+      "sourceSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "publishedSha256": "3041e82e475f913eb7fb3bb18bc8f6410a1f25ae467f163a23a40a838377d8af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/08-events.jsonl",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/08-events.jsonl",
+      "sourceSha256": "9e8dcea372c111df9cce7924e287cbe8d6dc490a8e01e93d636decd197735b8b",
+      "publishedSha256": "9e8dcea372c111df9cce7924e287cbe8d6dc490a8e01e93d636decd197735b8b",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/08-restored.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/08-restored.json",
+      "sourceSha256": "cbcd2f54096201579ee1d93e7cfeecb0b8219b2a4b71d23491abe44e3b74ee8d",
+      "publishedSha256": "cbcd2f54096201579ee1d93e7cfeecb0b8219b2a4b71d23491abe44e3b74ee8d",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/08-stopped.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/08-stopped.json",
+      "sourceSha256": "921407898b7d01aa88ec0db1e1f5b19a9b66580337714c76a349206e5264970f",
+      "publishedSha256": "921407898b7d01aa88ec0db1e1f5b19a9b66580337714c76a349206e5264970f",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/results.json",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/results.json",
+      "sourceSha256": "481e8d51d69e534df25c3c3e49eb980c3a1194d16602f3c1228ef988c15cb044",
+      "publishedSha256": "481e8d51d69e534df25c3c3e49eb980c3a1194d16602f3c1228ef988c15cb044",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/system-overlay-0.xml",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/system-overlay-0.xml",
+      "sourceSha256": "6f348ff422cfdb7ec7313cfe43b47d85161bde41607a055afb5b4c49880c70a0",
+      "publishedSha256": "6f348ff422cfdb7ec7313cfe43b47d85161bde41607a055afb5b4c49880c70a0",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/system-overlay-1.xml",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/system-overlay-1.xml",
+      "sourceSha256": "fb84b748f088c64b34e008bc078679af27b3aa0a0833c8839a5b5c71230fe248",
+      "publishedSha256": "fb84b748f088c64b34e008bc078679af27b3aa0a0833c8839a5b5c71230fe248",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/system-overlay-2.xml",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/system-overlay-2.xml",
+      "sourceSha256": "fb84b748f088c64b34e008bc078679af27b3aa0a0833c8839a5b5c71230fe248",
+      "publishedSha256": "fb84b748f088c64b34e008bc078679af27b3aa0a0833c8839a5b5c71230fe248",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix-console.txt",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix-console.txt",
+      "sourceSha256": "489d0212545e1d5d74cb351a382627126655622b2517631b3300d882d1cf341a",
+      "publishedSha256": "489d0212545e1d5d74cb351a382627126655622b2517631b3300d882d1cf341a",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix-errors.txt",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix-errors.txt",
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "publishedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/upgrade-baseline-smoke-01/01-native-tree.xml",
+      "path": "evidence/android/purchase-input/upgrade-baseline-smoke-01/01-native-tree.xml",
+      "sourceSha256": "f269a991082cfccb646385a90db86518f288854c9c14696f8f63c1ecdb57c5bb",
+      "publishedSha256": "f269a991082cfccb646385a90db86518f288854c9c14696f8f63c1ecdb57c5bb",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/upgrade-baseline-smoke-01/appium-steps.jsonl",
+      "path": "evidence/android/purchase-input/upgrade-baseline-smoke-01/appium-steps.jsonl",
+      "sourceSha256": "a829bb11fef646f34ebd5f14adff9466186a13e25eb4ff325a8af8f763fe82a2",
+      "publishedSha256": "a829bb11fef646f34ebd5f14adff9466186a13e25eb4ff325a8af8f763fe82a2",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/upgrade-baseline-smoke-01/output.xml",
+      "path": "evidence/android/purchase-input/upgrade-baseline-smoke-01/output.xml",
+      "sourceSha256": "04cd05fd5fb1a1e06272a3a95fb0ae102b628e2305e2c64c9992af25eb7787f2",
+      "publishedSha256": "a83af24f011cb98ec014972700525780e7763cb73426773e629ba58dc8930760",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/purchase-trace/release-smoke-01/appium-steps.jsonl",
+      "path": "evidence/android/purchase-input/release-smoke-01/appium-steps.jsonl",
+      "sourceSha256": "f5e71ea385bce3c3997cb582951cc5b95b0ea65e36d38bc48dbfca49a606e021",
+      "publishedSha256": "f5e71ea385bce3c3997cb582951cc5b95b0ea65e36d38bc48dbfca49a606e021",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/release-smoke-01/fullscreen-hint.xml",
+      "path": "evidence/android/purchase-input/release-smoke-01/fullscreen-hint.xml",
+      "sourceSha256": "cd8e76d4297eea3b063d100af4da41499211f4192a0af33b93e1697eb7d8ce5c",
+      "publishedSha256": "cd8e76d4297eea3b063d100af4da41499211f4192a0af33b93e1697eb7d8ce5c",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/release-smoke-01/output.xml",
+      "path": "evidence/android/purchase-input/release-smoke-01/output.xml",
+      "sourceSha256": "017a42a7cac0051447f4dc89162f0c366b92ea6844458cf9d6a33dccb75654d3",
+      "publishedSha256": "2b451fe2c8b0571c933dcdfb6bab7ac93b3d794161874a51013d062298c0c91d",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/purchase-trace/release-smoke-02/01-main-menu.png-hint-0.xml",
+      "path": "evidence/android/purchase-input/release-smoke-02/01-main-menu.png-hint-0.xml",
+      "sourceSha256": "878c3bbec7b608333354e724aac221de88d5a17eb252dce2137fedf2471c1a6d",
+      "publishedSha256": "878c3bbec7b608333354e724aac221de88d5a17eb252dce2137fedf2471c1a6d",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/release-smoke-02/01-main-menu.png-hint-1.xml",
+      "path": "evidence/android/purchase-input/release-smoke-02/01-main-menu.png-hint-1.xml",
+      "sourceSha256": "878458af185e67ae1205fa994f684ce07a6ab915beec2214fda5fd81ddcfa96d",
+      "publishedSha256": "878458af185e67ae1205fa994f684ce07a6ab915beec2214fda5fd81ddcfa96d",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/release-smoke-02/01-native-tree.xml",
+      "path": "evidence/android/purchase-input/release-smoke-02/01-native-tree.xml",
+      "sourceSha256": "fd5004ff2e1248d0a712152933d76888533fba4c20b4fd1a45010239f2a1afa3",
+      "publishedSha256": "fd5004ff2e1248d0a712152933d76888533fba4c20b4fd1a45010239f2a1afa3",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/release-smoke-02/appium-steps.jsonl",
+      "path": "evidence/android/purchase-input/release-smoke-02/appium-steps.jsonl",
+      "sourceSha256": "86c445a824f0982127837646d599728e31f43ec874a3c1e7e38ea55876ffd7ac",
+      "publishedSha256": "86c445a824f0982127837646d599728e31f43ec874a3c1e7e38ea55876ffd7ac",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/release-smoke-02/output.xml",
+      "path": "evidence/android/purchase-input/release-smoke-02/output.xml",
+      "sourceSha256": "97696d06d4de14640a550c241776544d98cb424217f97f2ef4159afbe110c29f",
+      "publishedSha256": "014dc5c534063af575950817cabcd3032a7cce0789ab9c3ff193c02746eff8c7",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/purchase-trace/release-smoke-02/stopped-save.json",
+      "path": "evidence/android/purchase-input/release-smoke-02/stopped-save.json",
+      "sourceSha256": "c169a00917c7c414585b1b0c6f134ee5bb49e47860c630659f170288a7605eb3",
+      "publishedSha256": "c169a00917c7c414585b1b0c6f134ee5bb49e47860c630659f170288a7605eb3",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/build-summary.json",
+      "path": "evidence/android/purchase-input/build/build-summary.json",
+      "sourceSha256": "355e01dc1171727a8703f153bcbfc1df29debb8af31d8c2d03c5035b5c296798",
+      "publishedSha256": "355e01dc1171727a8703f153bcbfc1df29debb8af31d8c2d03c5035b5c296798",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/CatGame-InputQA.provenance.json",
+      "path": "evidence/android/purchase-input/build/CatGame-InputQA.provenance.json",
+      "sourceSha256": "8e2da73c3d375af30f1ef8c91aa7e4a6111e733fc36c9fb3678fc0de313e1877",
+      "publishedSha256": "8e2da73c3d375af30f1ef8c91aa7e4a6111e733fc36c9fb3678fc0de313e1877",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/fixed/build-summary.json",
+      "path": "evidence/android/purchase-input/build/fixed/build-summary.json",
+      "sourceSha256": "6a192a7f8ca692c3cf93cf913ce6e7ac8acf69ad8569ff5ad74c87377d699211",
+      "publishedSha256": "6a192a7f8ca692c3cf93cf913ce6e7ac8acf69ad8569ff5ad74c87377d699211",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/fixed/CatGame-InputQA.provenance.json",
+      "path": "evidence/android/purchase-input/build/fixed/CatGame-InputQA.provenance.json",
+      "sourceSha256": "97dd7689b59b75a3fd56150f91ce6551e32f28c067b627b7d7e25a8b94baffbd",
+      "publishedSha256": "97dd7689b59b75a3fd56150f91ce6551e32f28c067b627b7d7e25a8b94baffbd",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/release/build-summary.json",
+      "path": "evidence/android/purchase-input/build/release/build-summary.json",
+      "sourceSha256": "c76a64e8fd839e246adf243f7a0305a46e7485140075a910dc1b349579dbf4af",
+      "publishedSha256": "c76a64e8fd839e246adf243f7a0305a46e7485140075a910dc1b349579dbf4af",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/release/CatGame-Android.provenance.json",
+      "path": "evidence/android/purchase-input/build/release/CatGame-Android.provenance.json",
+      "sourceSha256": "2bdcd431e764e87d1236df3c552805d406ef78f114afc0dad366e7953f8fdf7b",
+      "publishedSha256": "2bdcd431e764e87d1236df3c552805d406ef78f114afc0dad366e7953f8fdf7b",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/release/scope-audit.json",
+      "path": "evidence/android/purchase-input/build/release/scope-audit.json",
+      "sourceSha256": "72959ed8eb905fdad28a3c2055e530d7bd83f0cebaf76a8ff8aa6526f6eab0de",
+      "publishedSha256": "72959ed8eb905fdad28a3c2055e530d7bd83f0cebaf76a8ff8aa6526f6eab0de",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/release/apksigner.txt",
+      "path": "evidence/android/purchase-input/build/release/apksigner.txt",
+      "sourceSha256": "9960c5cc9d5fc7d9da16564b5e7fb12100ada99d3b7a5516b846ad48b9e5d146",
+      "publishedSha256": "9960c5cc9d5fc7d9da16564b5e7fb12100ada99d3b7a5516b846ad48b9e5d146",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/animation-control.json",
+      "path": "evidence/android/purchase-input/build/animation-control.json",
+      "sourceSha256": "cb8195f77ea1d57034fdecbc3497388d2c494781583dae7ee292fe3838cf7253",
+      "publishedSha256": "cb8195f77ea1d57034fdecbc3497388d2c494781583dae7ee292fe3838cf7253",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/visual-discrimination.json",
+      "path": "evidence/android/purchase-input/build/visual-discrimination.json",
+      "sourceSha256": "f4c3740ead2fc6ff2ba2c0d554f3280bc8a061b97107a0fe0fb379b0b9911f34",
+      "publishedSha256": "f4c3740ead2fc6ff2ba2c0d554f3280bc8a061b97107a0fe0fb379b0b9911f34",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/analysis-verification.json",
+      "path": "evidence/android/purchase-input/build/analysis-verification.json",
+      "sourceSha256": "979e0dc4d198c44c7a8ee840bb7bdba704fa119fdaa0a179933b41c3ed961070",
+      "publishedSha256": "979e0dc4d198c44c7a8ee840bb7bdba704fa119fdaa0a179933b41c3ed961070",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/png-evidence-encoding-probe.json",
+      "path": "evidence/android/purchase-input/build/png-evidence-encoding-probe.json",
+      "sourceSha256": "9ad3592bc0f185462ef3a108b77a1db3b6c414979bb562c7c9f54cfd3970af45",
+      "publishedSha256": "9ad3592bc0f185462ef3a108b77a1db3b6c414979bb562c7c9f54cfd3970af45",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/confirmed-06-unity-logcat.txt",
+      "path": "evidence/android/purchase-input/build/confirmed-06-unity-logcat.txt",
+      "sourceSha256": "3b497601b35bfc0402dc3ffe17a2faa7903aec39f9e4bbe9984dede69c8a5b0f",
+      "publishedSha256": "3b497601b35bfc0402dc3ffe17a2faa7903aec39f9e4bbe9984dede69c8a5b0f",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-01/matrix/06-affordable.png",
+      "path": "evidence/android/purchase-input/matrix-01/matrix/06-affordable.png",
+      "sourceSha256": "1a907deae63cd7ef9011beb3e3a9115704bf37fac9dbc5def58aade720f25c7c",
+      "publishedSha256": "1a907deae63cd7ef9011beb3e3a9115704bf37fac9dbc5def58aade720f25c7c",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-confirmed-01/matrix/06-purchase-acknowledged.png",
+      "path": "evidence/android/purchase-input/matrix-confirmed-01/matrix/06-purchase-acknowledged.png",
+      "sourceSha256": "8707fef5463145272b236628a0232cd3f8d385b578728559537185571b4b9839",
+      "publishedSha256": "8707fef5463145272b236628a0232cd3f8d385b578728559537185571b4b9839",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/06-ready.png",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/06-ready.png",
+      "sourceSha256": "5fb7b3e3e6052c685fb7d7b5bcb1265ecb60f530eda800afd0792eeed7ab4145",
+      "publishedSha256": "5fb7b3e3e6052c685fb7d7b5bcb1265ecb60f530eda800afd0792eeed7ab4145",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-02/matrix/06-purchase-acknowledged.png",
+      "path": "evidence/android/purchase-input/matrix-fixed-02/matrix/06-purchase-acknowledged.png",
+      "sourceSha256": "7c3afd4f51f3ce2d28364e1d6f7cc9950e11a3d10f54a8a157af782408688417",
+      "publishedSha256": "7c3afd4f51f3ce2d28364e1d6f7cc9950e11a3d10f54a8a157af782408688417",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/matrix-fixed-noanimation-01/matrix/06-purchase-acknowledged.png",
+      "path": "evidence/android/purchase-input/matrix-fixed-noanimation-01/matrix/06-purchase-acknowledged.png",
+      "sourceSha256": "35ddecde06dc3ceb2172785967fcb575909cec96b1de6129f8b9e0b96e161e18",
+      "publishedSha256": "35ddecde06dc3ceb2172785967fcb575909cec96b1de6129f8b9e0b96e161e18",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/release-smoke-01/01-main-menu.png",
+      "path": "evidence/android/purchase-input/release-smoke-01/01-main-menu.png",
+      "sourceSha256": "e05cb4bf05a022fa540d9b3dc5fbe468b2947f44046c33330e4c00e34442a1c9",
+      "publishedSha256": "e05cb4bf05a022fa540d9b3dc5fbe468b2947f44046c33330e4c00e34442a1c9",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/release-smoke-02/01-main-menu.png-system-hint.png",
+      "path": "evidence/android/purchase-input/release-smoke-02/01-main-menu.png-system-hint.png",
+      "sourceSha256": "f7f2a836723da004d0ff9f9c9706705860dbb908dac4637e2f6e0629af93531d",
+      "publishedSha256": "f7f2a836723da004d0ff9f9c9706705860dbb908dac4637e2f6e0629af93531d",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/release-smoke-02/09-two-cats-restored.png",
+      "path": "evidence/android/purchase-input/release-smoke-02/09-two-cats-restored.png",
+      "sourceSha256": "1e0be74373f84912d7df5ee6bfd1cd69e83cce56687e6e3ff549581c371bd80c",
+      "publishedSha256": "1e0be74373f84912d7df5ee6bfd1cd69e83cce56687e6e3ff549581c371bd80c",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/upgrade-01/03-retained-cats.png",
+      "path": "evidence/android/purchase-input/upgrade/03-retained-cats.png",
+      "sourceSha256": "2daa7c0314733d0d6e0520cafad947ded7d5ab648d97fd67d34ee21687df7fdb",
+      "publishedSha256": "2daa7c0314733d0d6e0520cafad947ded7d5ab648d97fd67d34ee21687df7fdb",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/upgrade-01/install.txt",
+      "path": "evidence/android/purchase-input/upgrade/install.txt",
+      "sourceSha256": "c4aa470acafcf8576c15b0f0b5ae7e852d1ec5413372d0e6a9272e788e1306d3",
+      "publishedSha256": "c4aa470acafcf8576c15b0f0b5ae7e852d1ec5413372d0e6a9272e788e1306d3",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/upgrade-01/old-save.json",
+      "path": "evidence/android/purchase-input/upgrade/old-save.json",
+      "sourceSha256": "3a8d8cf62474fd19f84025c348cf35477da420c442aa8154fa552078010c7dfa",
+      "publishedSha256": "3a8d8cf62474fd19f84025c348cf35477da420c442aa8154fa552078010c7dfa",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/upgrade-01/result.json",
+      "path": "evidence/android/purchase-input/upgrade/result.json",
+      "sourceSha256": "8fb4981daa547b5cc1994ae7309d2c58ab5a8e3cc57199edd4f3fc46124e639b",
+      "publishedSha256": "8fb4981daa547b5cc1994ae7309d2c58ab5a8e3cc57199edd4f3fc46124e639b",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/upgrade-01/system-overlay-0.xml",
+      "path": "evidence/android/purchase-input/upgrade/system-overlay-0.xml",
+      "sourceSha256": "5f7dc234ab480557fd5b445d270190ee49f153a3a5f808164c6e0bdc5e0bf4bd",
+      "publishedSha256": "5f7dc234ab480557fd5b445d270190ee49f153a3a5f808164c6e0bdc5e0bf4bd",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/upgrade-01/system-overlay-1.xml",
+      "path": "evidence/android/purchase-input/upgrade/system-overlay-1.xml",
+      "sourceSha256": "d8ac4e8f8b99c9bfca00d4f542712d98f516d1a12ec0e49c646088ecd587aa27",
+      "publishedSha256": "d8ac4e8f8b99c9bfca00d4f542712d98f516d1a12ec0e49c646088ecd587aa27",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/upgrade-01/system-overlay-2.xml",
+      "path": "evidence/android/purchase-input/upgrade/system-overlay-2.xml",
+      "sourceSha256": "d8ac4e8f8b99c9bfca00d4f542712d98f516d1a12ec0e49c646088ecd587aa27",
+      "publishedSha256": "d8ac4e8f8b99c9bfca00d4f542712d98f516d1a12ec0e49c646088ecd587aa27",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/upgrade-01/upgraded-after-play.json",
+      "path": "evidence/android/purchase-input/upgrade/upgraded-after-play.json",
+      "sourceSha256": "b4cac54272de1ebb7f45826cc86f5be84c88aee6d59c900be568dc48b8ff963a",
+      "publishedSha256": "b4cac54272de1ebb7f45826cc86f5be84c88aee6d59c900be568dc48b8ff963a",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/upgrade-01/upgraded-before-launch.json",
+      "path": "evidence/android/purchase-input/upgrade/upgraded-before-launch.json",
+      "sourceSha256": "3a8d8cf62474fd19f84025c348cf35477da420c442aa8154fa552078010c7dfa",
+      "publishedSha256": "3a8d8cf62474fd19f84025c348cf35477da420c442aa8154fa552078010c7dfa",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/trace_purchase.py",
+      "path": "harness/android/trace_purchase.py",
+      "sourceSha256": "79cb01650ddfe1c1b663f489142b38a59dd44cf797610a5ee167bccbfcfb889b",
+      "publishedSha256": "79cb01650ddfe1c1b663f489142b38a59dd44cf797610a5ee167bccbfcfb889b",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/purchase_trace.robot",
+      "path": "harness/android/purchase_trace.robot",
+      "sourceSha256": "b64dbb81d285063cfcaee11a6bc78665a05c6d4f2c8d791b3d9b7c29df5e5d95",
+      "publishedSha256": "0a4dff9003ae50424e7a1314ea6da72b2d475584ff91f7a2b79a14abce0e7cf3",
+      "transformed": true
+    },
+    {
+      "source": "Tests/robot/android/analyze_purchase_trace.py",
+      "path": "harness/android/analyze_purchase_trace.py",
+      "sourceSha256": "78ebad71e9148815123657c459ecc30a832f250f20f6ba3c7c864b296b0a2f78",
+      "publishedSha256": "78ebad71e9148815123657c459ecc30a832f250f20f6ba3c7c864b296b0a2f78",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/android/check_purchase_upgrade.py",
+      "path": "harness/android/check_purchase_upgrade.py",
+      "sourceSha256": "458bd3d30efb6164392575433c4ae4ce6ebadd525453d4aaeb21523b7b8070e9",
+      "publishedSha256": "458bd3d30efb6164392575433c4ae4ce6ebadd525453d4aaeb21523b7b8070e9",
+      "transformed": false
+    },
+    {
+      "source": "Assets/Scripts/IdleGameController.cs",
+      "path": "harness/Assets/Scripts/IdleGameController.cs",
+      "sourceSha256": "d5e7c0e4e98201482c08d3e1d0c9a762934922cd0c49921f33ab491a86e979e9",
+      "publishedSha256": "e0fccd9153d5390577ea90e21de21c5d3849567a1797f5aee4c3283af6d52ecf",
+      "transformed": true
+    },
+    {
+      "source": "Assets/Tests/PlayMode/PurchaseDurabilityTests.cs",
+      "path": "harness/Assets/Tests/PlayMode/PurchaseDurabilityTests.cs",
+      "sourceSha256": "9a0f947255bb7e1ca30b486f1246581f28595d2521651bcded6658b28ece92c0",
+      "publishedSha256": "9a0f947255bb7e1ca30b486f1246581f28595d2521651bcded6658b28ece92c0",
+      "transformed": false
+    },
+    {
+      "source": "Assets/Editor/AndroidPurchaseTraceBuild.cs",
+      "path": "harness/Assets/Editor/AndroidPurchaseTraceBuild.cs",
+      "sourceSha256": "7dbdf5587ecc5ef225904ff28524ecfacea79d3ceeee1ab770580aae4d9f970a",
+      "publishedSha256": "7dbdf5587ecc5ef225904ff28524ecfacea79d3ceeee1ab770580aae4d9f970a",
+      "transformed": false
+    },
+    {
+      "source": "Assets/Scripts/AndroidPurchaseTrace.cs",
+      "path": "harness/Assets/Scripts/AndroidPurchaseTrace.cs",
+      "sourceSha256": "c456d746ef7bd3a64cad69df3974f58a425f784927450192e888213d9a8ebe4d",
+      "publishedSha256": "c456d746ef7bd3a64cad69df3974f58a425f784927450192e888213d9a8ebe4d",
+      "transformed": false
+    },
+    {
+      "source": "Assets/Scripts/AndroidPurchasePointerProbe.cs",
+      "path": "harness/Assets/Scripts/AndroidPurchasePointerProbe.cs",
+      "sourceSha256": "5c13352ef35a523acf7a266d43e1701d9769281d8c97863a48289e667ca50038",
+      "publishedSha256": "5c13352ef35a523acf7a266d43e1701d9769281d8c97863a48289e667ca50038",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/purchase-trace/durability-red.xml",
+      "path": "evidence/android/purchase-input/engine/durability-red.xml",
+      "sourceSha256": "e2b28d45b7aea941bb0b317fcc42a7557875352d322327d0ccaed237c7cab452",
+      "publishedSha256": "eed78ae7706270e5f9a1643cce8b8dac990869f05ca1a4a9dd0d3f220a9f0694",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/purchase-trace/durability-green.xml",
+      "path": "evidence/android/purchase-input/engine/durability-green.xml",
+      "sourceSha256": "35dc2f7d6965f3d771c9fd829fce2ad87327be847eea427fd281c5203a60f1f5",
+      "publishedSha256": "c492f38c2634efe7371edade754584196784784653e4a386fc0fe809337d2d6d",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/purchase-trace/full-play.xml",
+      "path": "evidence/android/purchase-input/engine/full-play.xml",
+      "sourceSha256": "f5749c34075f77b3121837e7014fc895359c2ec9e314a960592dace27f29dda8",
+      "publishedSha256": "ef65238b156b21c2f0e23b633150e9848be6c04c4014ff4e7312db4b53b65005",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/purchase-trace/full-edit.xml",
+      "path": "evidence/android/purchase-input/engine/full-edit.xml",
+      "sourceSha256": "eaea5cbbc4528af834d7a90b864eb4a97b1e15a0ff926a28be09233732dd3450",
+      "publishedSha256": "6aed98a27b11d88f5601c09105cebe31b1b7b2eade7dc4466cdca10f4424ed19",
+      "transformed": true
+    },
+    {
+      "source": "Build/Android/purchase-trace/durability-red-cli.log",
+      "path": "evidence/android/purchase-input/engine/durability-red-cli.log",
+      "sourceSha256": "cf00881c69621cf7fa0feb4c483b41ec84e967931c9b4e819d9661e5d73b91a5",
+      "publishedSha256": "cf00881c69621cf7fa0feb4c483b41ec84e967931c9b4e819d9661e5d73b91a5",
+      "transformed": false
+    },
+    {
+      "source": "docs/Android购买失败排查记录.md",
+      "path": "reports/android-purchase-investigation.md",
+      "sourceSha256": "e8f5cc06e1703e2a978e1cd1bc0e0996ef750a7e165232b6ca759c2745c5e60d",
+      "publishedSha256": "e8f5cc06e1703e2a978e1cd1bc0e0996ef750a7e165232b6ca759c2745c5e60d",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/distribution-v5/release-draft.json",
+      "path": "evidence/android/purchase-input/distribution/release-draft.json",
+      "sourceSha256": "35cbff9a36e70c9ca98c6a9e9ea10de2611da9a246fd223418c60b34f8d837de",
+      "publishedSha256": "35cbff9a36e70c9ca98c6a9e9ea10de2611da9a246fd223418c60b34f8d837de",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/distribution-v5/Install-Android.txt",
+      "path": "evidence/android/purchase-input/distribution/Install-Android.txt",
+      "sourceSha256": "29a9e16eba98adbd5dbab247e40bf98dc68f480db64134b837b6b5476374ada5",
+      "publishedSha256": "29a9e16eba98adbd5dbab247e40bf98dc68f480db64134b837b6b5476374ada5",
+      "transformed": false
+    },
+    {
+      "source": "Build/Android/distribution-v5/SHA256SUMS.txt",
+      "path": "evidence/android/purchase-input/distribution/SHA256SUMS.txt",
+      "sourceSha256": "72b4f3dbac9b1359cabcca0ad153deb311ade4948320608a3cadedfe421ecb3b",
+      "publishedSha256": "72b4f3dbac9b1359cabcca0ad153deb311ade4948320608a3cadedfe421ecb3b",
+      "transformed": false
     }
   ],
   "androidOriginCommits": {
@@ -4657,5 +6414,13 @@
     "qaCommit": "df44498",
     "toolsCommit": "95cdc53",
     "productionGameChanged": false
+  },
+  "androidPurchaseInput": {
+    "diagnosticSource": "46446c0",
+    "testSource": "a47d72c",
+    "productionFixCommit": "85c45c5",
+    "publicGameCommit": "bd85811",
+    "productionGameChanged": true,
+    "originalHistoricalCauseProven": false
   }
 }

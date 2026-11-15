@@ -1,0 +1,18 @@
+{
+  "ordinaryPackage": "com.catgamestudio.catgame",
+  "trackedGameFiles": 467,
+  "prohibitedTestPaths": [],
+  "knownQaMarkersFound": [],
+  "auditedMarkers": [
+    "catgame_input_run",
+    "catgame_input_fps",
+    "after-button-callback",
+    "catgame_perf_run",
+    "performance-result.json"
+  ],
+  "nativeLibrarySha256": "e251f408b4a09bc2fd3c250ad37c329a566d18e53578eb6dd68fd031985ed950",
+  "onlyProductionSourceDiff": [
+    "Assets/Scripts/IdleGameController.cs",
+    "ProjectSettings/ProjectSettings.asset"
+  ]
+}

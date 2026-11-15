@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "oldVersionCode": "4",
+  "newVersionCode": "5",
+  "apkSha256": "c0fbcbb264d986bb63ffa4691d3473572198dc59cfb2d63060950a74169e0a66",
+  "saveBytesUnchangedDuringInstall": true,
+  "saveBeforeSha256": "3a8d8cf62474fd19f84025c348cf35477da420c442aa8154fa552078010c7dfa",
+  "comparedFields": [
+    "version",
+    "cats",
+    "items",
+    "clicks",
+    "introCompleted",
+    "rocketPurchased",
+    "endingCompleted",
+    "hasEndingSnapshot",
+    "firstEnding",
+    "prestigeLevel",
+    "prestigeMultiplier"
+  ],
+  "restoredMilk": 2,
+  "saveWasInjected": false,
+  "ordinaryProductionApk": true
+}

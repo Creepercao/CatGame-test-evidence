@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-15T14:54:17.551800" rpa="false" schemaversion="5">
+<suite id="s1" name="Purchase Trace" source="PROJECT_ROOT\Tests\robot\android\purchase_trace.robot">
+<test id="s1-t1" name="ANDROID-INPUT-TRACE-01 Distinguish Input Acknowledgement From Save Durability" line="12">
+<kw name="Run Process" owner="Process">
+<msg time="2026-11-15T14:54:17.591862" level="INFO">Starting process:
+PYTHON_ROOT/python.exe PROJECT_ROOT\Tests\robot\android/trace_purchase.py --adb D:\Unity\2022.3.21f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platform-tools\adb.exe --user 10 --fixture PROJECT_ROOT/Build/Android/purchase-diagnosis/immediate-03/1-before.json --output PROJECT_ROOT\Build\Android\purchase-trace\matrix-fixed-noanimation-01/matrix --home-policy confirmed --disable-window-animation true</msg>
+<msg time="2026-11-15T14:54:17.602419" level="INFO">Waiting for process to complete.</msg>
+<msg time="2026-11-15T14:57:58.651601" level="INFO">Process completed.</msg>
+<msg time="2026-11-15T14:57:58.652108" level="INFO">${result} = &lt;result object with rc 0&gt;</msg>
+<var>${result}</var>
+<arg>${PYTHON}</arg>
+<arg>PROJECT_ROOT\\Tests\\robot\\android/trace_purchase.py</arg>
+<arg>--adb</arg>
+<arg>${ADB}</arg>
+<arg>--user</arg>
+<arg>${QA_USER}</arg>
+<arg>--fixture</arg>
+<arg>${FIXTURE}</arg>
+<arg>--output</arg>
+<arg>${OUTPUT DIR}/matrix</arg>
+<arg>--home-policy</arg>
+<arg>${HOME_POLICY}</arg>
+<arg>--disable-window-animation</arg>
+<arg>${DISABLE_WINDOW_ANIMATION}</arg>
+<arg>stdout=${OUTPUT DIR}/matrix-console.txt</arg>
+<arg>stderr=${OUTPUT DIR}/matrix-errors.txt</arg>
+<arg>timeout=25 minutes</arg>
+<arg>on_timeout=terminate</arg>
+<doc>Runs a process and waits for it to complete.</doc>
+<status status="PASS" start="2026-11-15T14:54:17.589324" elapsed="221.062784"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-15T14:57:58.652108" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${result.rc}</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-11-15T14:57:58.652108" elapsed="0.001010"/>
+</kw>
+<doc>60/6 FPS x short/350ms x foreground/Home. Every accepted purchase must survive cold restart; all input failures stay in results.json.</doc>
+<tag>android</tag>
+<tag>appium</tag>
+<tag>diagnostic</tag>
+<tag>purchase</tag>
+<tag>save-lifecycle</tag>
+<status status="PASS" start="2026-11-15T14:54:17.587818" elapsed="221.065300"/>
+</test>
+<doc>Diagnostic matrix on a separate opt-in APK; unacknowledged input remains a finding, not a passing purchase.</doc>
+<status status="PASS" start="2026-11-15T14:54:17.554043" elapsed="221.099075"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">android</stat>
+<stat pass="1" fail="0" skip="0">appium</stat>
+<stat pass="1" fail="0" skip="0">diagnostic</stat>
+<stat pass="1" fail="0" skip="0">purchase</stat>
+<stat pass="1" fail="0" skip="0">save-lifecycle</stat>
+</tag>
+<suite>
+<stat name="Purchase Trace" id="s1" pass="1" fail="0" skip="0">Purchase Trace</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,117 @@
+--------- beginning of main
+11-15 06:25:04.551 13518 13518 D Unity   : CommandLine:  
+11-15 06:25:04.566 13518 13518 I Unity   : onResume
+11-15 06:25:04.636 13518 13540 D Unity   : SetWindow 0 0x70260bc2e6d0
+11-15 06:25:04.644 13518 13540 D Unity   : SetWindow 0 0x70260bc2e6d0
+11-15 06:25:04.704 13518 13518 I Unity   : windowFocusChanged: true
+11-15 06:25:04.892 13518 13540 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+11-15 06:25:04.898 13518 13540 D Unity   : [UnityMemory] Configuration Parameters - Can be set up in boot.config
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-allocator-temp-initial-block-size-main=262144"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-bucket-allocator-granularity=16"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-bucket-allocator-bucket-count=8"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-bucket-allocator-block-size=4194304"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-bucket-allocator-block-count=1"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-main-allocator-block-size=16777216"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-thread-allocator-block-size=16777216"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-gfx-main-allocator-block-size=16777216"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-gfx-thread-allocator-block-size=16777216"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-cache-allocator-block-size=4194304"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-typetree-allocator-block-size=2097152"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-profiler-bucket-allocator-granularity=16"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-profiler-bucket-allocator-bucket-count=8"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-profiler-bucket-allocator-block-size=4194304"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-profiler-bucket-allocator-block-count=1"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-profiler-allocator-block-size=16777216"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-profiler-editor-allocator-block-size=1048576"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-temp-allocator-size-main=4194304"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-job-temp-allocator-block-size=2097152"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-job-temp-allocator-block-size-background=1048576"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-temp-allocator-size-background-worker=32768"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-temp-allocator-size-job-worker=262144"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-temp-allocator-size-preload-manager=262144"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-temp-allocator-size-audio-worker=65536"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-temp-allocator-size-cloud-worker=32768"
+11-15 06:25:04.899 13518 13540 D Unity   :     "memorysetup-temp-allocator-size-gfx=262144"
+11-15 06:25:05.131 13518 13540 D Unity   : Enabling Unity systrace
+11-15 06:25:05.239 13518 13540 D Unity   : [VFS] Mount /data/app/~~VljgsgluxE97TgsRfjzeUQ==/com.catgamestudio.catgame.inputqa-KFikZVv3LdOFQUv6HMbTNg==/base.apk
+11-15 06:25:05.286 13518 13540 I Unity   : SystemInfo CPU = x86-64, Cores = 1, Memory = 2978mb
+11-15 06:25:05.289 13518 13540 I Unity   : SystemInfo ARM big.LITTLE configuration: 1 big (mask: 0x2), 0 little (mask: 0x0)
+11-15 06:25:05.290 13518 13540 I Unity   : ApplicationInfo com.catgamestudio.catgame.inputqa version 1.0.1
+11-15 06:25:05.291 13518 13540 I Unity   : Built from '2022.3/staging' branch, Version '2022.3.21f1 (bf09ca542b87)', Build type 'Development', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+11-15 06:25:05.305 13518 13540 D Unity   : Determine if il2cpp resources need to extracted:
+11-15 06:25:05.314 13518 13540 D Unity   :     il2cpp resources are up to date, not extracting
+11-15 06:25:05.581 13518 13540 D Unity   : [EGL] Attaching window :0x70260bc2e6d0
+11-15 06:25:05.581 13518 13540 D Unity   : InitializeScriptEngine OK (0x702892a12fc0)
+11-15 06:25:05.591 13518 13540 D Unity   : Found 1 interfaces on host :
+11-15 06:25:05.591 13518 13540 D Unity   :  0) 10.0.2.15
+11-15 06:25:05.591 13518 13540 D Unity   : 
+11-15 06:25:05.593 13518 13540 D Unity   : Player connection [123306531421424] Multi-casting "[IP] 10.0.2.15 [Port] 55000 [Flags] 2 [Guid] 353202385 [EditorId] 1622070314 [Version] 1048832 [Id] AndroidPlayer(11,Google_sdk_gphone64_x86_64@10.0.2.15) [Debug] 0 [PackageName] AndroidPlayer [ProjectName] 喵屋 Input QA" to [225.0.0.222:54997]...
+11-15 06:25:05.593 13518 13540 D Unity   : 
+11-15 06:25:05.680 13518 13540 D Unity   : PlayerInitEngineNoGraphics OK
+11-15 06:25:05.680 13518 13540 I Unity   : Company Name: CatGameStudio
+11-15 06:25:05.680 13518 13540 I Unity   : Product Name: 喵屋 Input QA
+11-15 06:25:05.680 13518 13540 D Unity   : AndroidGraphics::Startup window =  0x70260bc2e6d0
+11-15 06:25:05.680 13518 13540 D Unity   : [EGL] Attaching window :0x70260bc2e6d0
+11-15 06:25:05.714 13518 13540 D Unity   : [Vulkan init] extensions: count=12
+11-15 06:25:05.715 13518 13540 D Unity   : [Vulkan init] extensions: name=VK_EXT_debug_report [enabled=1, external=0]
+11-15 06:25:05.715 13518 13540 D Unity   : [Vulkan init] extensions: name=VK_EXT_surface_maintenance1 [enabled=0, external=0]
+11-15 06:25:05.715 13518 13540 D Unity   : [Vulkan init] extensions: name=VK_EXT_swapchain_colorspace [enabled=1, external=0]
+11-15 06:25:05.715 13518 13540 D Unity   : [Vulkan init] extensions: name=VK_GOOGLE_surfaceless_query [enabled=0, external=0]
+11-15 06:25:05.715 13518 13540 D Unity   : [Vulkan init] extensions: name=VK_KHR_android_surface [enabled=1, external=0]
+11-15 06:25:05.715 13518 13540 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_fence_capabilities [enabled=1, external=0]
+11-15 06:25:05.715 13518 13540 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_memory_capabilities [enabled=1, external=0]
+11-15 06:25:05.715 13518 13540 D Unity   : [Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities [enabled=1, external=0]
+11-15 06:25:05.715 13518 13540 D Unity   : [Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2 [enabled=1, external=0]
+11-15 06:25:05.715 13518 13540 D Unity   : [Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2 [enabled=0, external=0]
+11-15 06:25:05.715 13518 13540 D Unity   : [Vulkan init] extensions: name=VK_KHR_surface [enabled=1, external=0]
+11-15 06:25:05.715 13518 13540 D Unity   : [Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities [enabled=0, external=0]
+11-15 06:25:05.738 13518 13540 D Unity   : [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=0x0
+11-15 06:25:05.739 13518 13540 D Unity   : [Vulkan init] Physical Device 0x7026dbc19880 [0]: "SwiftShader Device (LLVM 10.0.0)" deviceType=4 vendorID=1ae0 deviceID=c0de
+11-15 06:25:05.739 13518 13540 D Unity   : Vulkan detection: 0
+11-15 06:25:05.759 13518 13540 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+11-15 06:25:05.759 13518 13540 D Unity   : [EGL] Checking ES 3.2 support...
+11-15 06:25:05.759 13518 13540 D Unity   : [EGL] ES3.2 not supported
+11-15 06:25:05.760 13518 13540 D Unity   : [EGL] Request: ES 3.1+AEP RGB 000 0/0
+11-15 06:25:05.760 13518 13540 D Unity   : [EGL] Checking ES 3.1 support...
+11-15 06:25:05.761 13518 13540 D Unity   : [EGL] ES3.1 not supported
+11-15 06:25:05.761 13518 13540 D Unity   : [EGL] Request: ES 3.1 RGB 000 0/0
+11-15 06:25:05.761 13518 13540 D Unity   : [EGL] Request: ES 3.0 RGB 000 0/0
+11-15 06:25:05.762 13518 13540 D Unity   : [EGL] Found: ID[7] ES 3.0 RGB 565 24/8
+11-15 06:25:05.765 13518 13540 D Unity   : [EGL] Request: ES 3.2 RGB 000 0/0
+11-15 06:25:05.766 13518 13540 D Unity   : [EGL] Request: ES 3.1+AEP RGB 000 0/0
+11-15 06:25:05.767 13518 13540 D Unity   : [EGL] Request: ES 3.1 RGB 000 0/0
+11-15 06:25:05.767 13518 13540 D Unity   : [EGL] Request: ES 3.0 RGB 000 0/0
+11-15 06:25:05.768 13518 13540 D Unity   : [EGL] Found: ID[7] ES 3.0 RGB 565 24/8
+11-15 06:25:05.772 13518 13540 D Unity   : [EGL] Request: ES 3.0 RGBA 8888 0/0
+11-15 06:25:05.774 13518 13540 D Unity   : [EGL] Found: ID[2] ES 3.0 RGBA 8888 24/8
+11-15 06:25:05.778 13518 13540 D Unity   : ANativeWindow: (1600/900) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (1600/900)
+11-15 06:25:05.798 13518 13540 D Unity   : Renderer: Android Emulator OpenGL ES Translator (Google SwiftShader)
+11-15 06:25:05.798 13518 13540 D Unity   : Vendor:   Google (Google Inc.)
+11-15 06:25:05.798 13518 13540 D Unity   : Version:  OpenGL ES 3.0 (OpenGL ES 3.0 SwiftShader 4.0.0.1)
+11-15 06:25:05.798 13518 13540 D Unity   : GLES:     3
+11-15 06:25:05.799 13518 13540 D Unity   :  GL_EXT_debug_marker GL_EXT_robustness GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_standard_derivatives GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROI
+11-15 06:25:05.799 13518 13540 D Unity   : D_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+11-15 06:25:05.805 13518 13540 D Unity   : OPENGL LOG: Creating OpenGL ES 3.0 graphics device ; Context level  <OpenGL ES 3.0> ; Context handle 1271108144
+11-15 06:25:05.808 13518 13540 D Unity   : [EGL] Attaching window :0x70260bc2e6d0
+11-15 06:25:05.811 13518 13540 D Unity   : Requested framebuffer: resolution[1600x900], rgba[8/8/8/8], depth+stencil[on], samples[1]
+11-15 06:25:05.813 13518 13540 D Unity   : Created framebuffer: resolution[1600x900], rgba[8/8/8/8], depth+stencil[24/8], samples[0] 
+11-15 06:25:05.822 13518 13540 D Unity   : [EGL] Attaching window :0x70260bc2e6d0
+11-15 06:25:05.822 13518 13540 D Unity   : Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+11-15 06:25:06.162 13518 13540 D Unity   : Failed to load native plugin: Unable to lookup library path for '_burst_0_0'.
+11-15 06:25:06.168 13518 13540 D Unity   : PlayerInitEngineGraphics OK
+11-15 06:25:06.172 13518 13540 D Unity   : Found 18 native sensors
+11-15 06:25:06.175 13518 13540 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; Goldfish 3-axis Accelerometer / The Android Open Source Project 
+11-15 06:25:06.176 13518 13540 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; Goldfish 3-axis Accelerometer / The Android Open Source Project 
+11-15 06:25:08.281 13518 13540 D Unity   : UnloadTime: 4.413667 ms
+11-15 06:25:08.473 13518 13540 D Unity   : Sensor :        Accelerometer ( 1) ; 0.000248 / 0.01s ; Goldfish 3-axis Accelerometer / The Android Open Source Project 
+11-15 06:25:08.474 13518 13540 D Unity   : Choreographer available: Enabling VSYNC timing
+11-15 06:25:10.986 13518 13601 D Unity   : Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+11-15 06:25:11.006 13518 13540 D Unity   : UnloadTime: 11.974873 ms
+11-15 06:25:11.112 13518 13540 D Unity   : Unloading 5 unused Assets / (8.9 KB). Loaded Objects now: 1666.
+11-15 06:25:11.112 13518 13540 D Unity   : Memory consumption went from 38.7 MB to 38.7 MB.
+11-15 06:25:11.112 13518 13540 D Unity   : Total: 11.813383 ms (FindLiveObjects: 2.198175 ms CreateObjectMapping: 1.518619 ms MarkObjects: 6.908993 ms  DeleteObjects: 1.136698 ms)
+11-15 06:25:11.112 13518 13540 D Unity   : 
+11-15 06:25:14.917 13518 13518 I Unity   : onPause

@@ -3,11 +3,13 @@
 import base64
 import io
 import json
+import re
 import subprocess
 import time
 from pathlib import Path
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
+from xml.etree import ElementTree
 
 from PIL import Image, ImageChops, ImageStat
 from robot.api import logger
@@ -19,7 +21,7 @@ class AndroidGame:
     ACTIVITY = "com.unity3d.player.UnityPlayerActivity"
     USER_NAME = "CatGame-Appium-QA"
 
-    def __init__(self, server, adb, adb_port, serial, user, output_dir):
+    def __init__(self, server, adb, adb_port, serial, user, output_dir, disable_window_animation=False):
         self.server = server.rstrip("/")
         self.adb = [adb, "-P", str(adb_port), "-s", serial, "shell"]
         self.adb_port = int(adb_port)
@@ -27,6 +29,7 @@ class AndroidGame:
         self.user = str(user)
         self.output_dir = Path(output_dir)
         self.session = None
+        self.disable_window_animation = str(disable_window_animation).lower() == "true"
         self.original_override = None
         self.reference_dir = Path(__file__).with_name("references")
         self.references = json.loads((self.reference_dir / "regions.json").read_text())
@@ -60,6 +63,8 @@ class AndroidGame:
                         "appium:udid": self.serial, "appium:adbPort": self.adb_port,
                         "appium:userProfile": int(self.user), "appium:noReset": True,
                         "appium:skipDeviceInitialization": True}
+        if getattr(self, "disable_window_animation", False):
+            capabilities["appium:disableWindowAnimation"] = True
         self.session = self._request("/session", {"capabilities": {"alwaysMatch": capabilities}})["sessionId"]
         logger.info(f"Appium session {self.session}, Android test user {self.user}", also_console=True)
 
@@ -113,9 +118,11 @@ class AndroidGame:
             diff = ImageChops.difference(frame.crop((left + offset_x, top, right + offset_x, bottom)), reference)
         return sum(ImageStat.Stat(diff).mean) / 3
 
-    def wait_for_visual(self, target, name, timeout=12, width=1600, offset_x=0):
+    def wait_for_visual(self, target, name, timeout=12, width=1600, offset_x=0, handle_system_hint=False):
         deadline = time.monotonic() + float(timeout)
         expected_size = (int(width), 900)
+        hint_checks = 0
+        handled_hint = False
         while True:
             frame = self._screenshot()
             if frame.size == expected_size:
@@ -124,6 +131,21 @@ class AndroidGame:
                     frame.save(self.output_dir / name)
                     logger.info(f"Visual check {target} passed (RGB error {error:.2f}): {name}", also_console=True)
                     return
+            if target == "menu" and str(handle_system_hint).lower() == "true" and not handled_hint:
+                tree = ElementTree.fromstring(self.capture_ui_hierarchy(f"{name}-hint-{hint_checks}.xml"))
+                hint_checks += 1
+                nodes = list(tree.iter())
+                # Identify Android's immersive-mode teaching bubble by its title ID,
+                # then its own OK button. Never dismiss app dialogs or ANR buttons.
+                if any(n.get("package") == "android" and n.get("resource-id") == "android:id/immersive_cling_title" for n in nodes):
+                    button = next((n for n in nodes if n.get("package") == "android" and n.get("resource-id") == "android:id/ok"), None)
+                    if button is not None:
+                        frame.save(self.output_dir / f"{name}-system-hint.png")
+                        left, top, right, bottom = map(int, re.findall(r"\d+", button.attrib["bounds"]))
+                        logger.info("Dismiss Android immersive-mode teaching hint by native resource IDs", also_console=True)
+                        self.tap((left + right) // 2, (top + bottom) // 2)
+                        handled_hint = True
+                        continue
             if time.monotonic() >= deadline:
                 frame.save(self.output_dir / name)
                 assert frame.size == expected_size, f"Visual baseline expects {expected_size}, got {frame.size} in {name}"
@@ -187,6 +209,17 @@ class AndroidGame:
         elapsed = time.monotonic() - started
         logger.info(f"Purchase tap through HOME: {elapsed:.3f}s", also_console=True)
         assert elapsed < 3, f"Input pair took {elapsed:.3f}s, outside the immediate-interruption budget"
+
+    def buy_confirmed_and_press_home(self):
+        started = time.monotonic()
+        self.tap(185, 300)
+        # A completed native gesture does not prove Unity has consumed its release.
+        # Observe the HUD once; never retry the purchase or wait for autosave.
+        self.wait_for_visual("two-cats", "06-purchase-acknowledged.png", timeout=2)
+        self.press_key(3)
+        elapsed = time.monotonic() - started
+        logger.info(f"Purchase tap, visible acknowledgement and HOME: {elapsed:.3f}s", also_console=True)
+        assert elapsed < 3, f"Acknowledged purchase through HOME took {elapsed:.3f}s, outside the interruption budget"
 
     def set_display_width(self, width):
         assert self.session and self._shell("am", "get-current-user") == self.user

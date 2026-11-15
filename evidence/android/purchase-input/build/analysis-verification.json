@@ -1,0 +1,64 @@
+{
+  "recomputedFromRawFiles": true,
+  "newDeviceExecution": false,
+  "checks": [
+    {
+      "run": "matrix-01",
+      "exitCode": 0,
+      "analysis": {
+        "runs": 8,
+        "outcomes": {
+          "accepted-and-durable": 7,
+          "input-without-button-callback": 1
+        },
+        "durabilityPassed": true,
+        "allPurchasesSucceeded": false,
+        "timingGatePassed": null,
+        "originalFailureRootCauseProven": false
+      }
+    },
+    {
+      "run": "matrix-confirmed-01",
+      "exitCode": 1,
+      "analysis": {
+        "runs": 8,
+        "outcomes": {
+          "accepted-and-durable": 7,
+          "accepted-but-lost": 1
+        },
+        "durabilityPassed": false,
+        "allPurchasesSucceeded": false,
+        "timingGatePassed": true,
+        "originalFailureRootCauseProven": false
+      }
+    },
+    {
+      "run": "matrix-fixed-02",
+      "exitCode": 1,
+      "analysis": {
+        "runs": 8,
+        "outcomes": {
+          "accepted-and-durable": 8
+        },
+        "durabilityPassed": true,
+        "allPurchasesSucceeded": true,
+        "timingGatePassed": false,
+        "originalFailureRootCauseProven": false
+      }
+    },
+    {
+      "run": "matrix-fixed-noanimation-01",
+      "exitCode": 0,
+      "analysis": {
+        "runs": 8,
+        "outcomes": {
+          "accepted-and-durable": 8
+        },
+        "durabilityPassed": true,
+        "allPurchasesSucceeded": true,
+        "timingGatePassed": true,
+        "originalFailureRootCauseProven": false
+      }
+    }
+  ]
+}

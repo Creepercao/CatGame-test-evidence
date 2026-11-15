@@ -1,0 +1,11 @@
+{
+  "sha256": "73bfc73c378f0d49cd68590c86a08275e5fcd961e47358d0e34ee495d99d913b",
+  "bytes": 121964632,
+  "buildExit": 0,
+  "source": {
+    "vcs": "git",
+    "revision": "85c45c52f57b566bd2a77d5dfc552ea0a7ee7413",
+    "dirty": false
+  },
+  "package": "com.catgamestudio.catgame.inputqa"
+}

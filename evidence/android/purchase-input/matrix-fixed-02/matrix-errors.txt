@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "PROJECT_ROOT\Tests\robot\android/trace_purchase.py", line 149, in <module>
+    run(game, args.fixture, args.fps, args.repeat, args.home_policy)
+  File "PROJECT_ROOT\Tests\robot\android/trace_purchase.py", line 130, in run
+    assert all(row["timingBudgetPassed"] for row in results), "Acknowledged purchase to Home exceeded original 3s budget; see results.json"
+AssertionError: Acknowledged purchase to Home exceeded original 3s budget; see results.json

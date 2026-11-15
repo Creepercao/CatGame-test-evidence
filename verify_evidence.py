@@ -381,6 +381,61 @@ def main():
     assert 'Ran 7 tests' in (ROOT / base / 'analyzer-tests.txt').read_text(encoding='utf-8')
     assert not read('provenance.json')['performanceSaveContract']['productionGameChanged']
     print('PASS performance save contract actual red/green, seven analyzer tests and full sample reanalysis')
+    verify_android_purchase_input()
     print('All evidence checks passed; no new Unity/Robot execution performed.')
+
+def verify_android_purchase_input():
+    """Recompute M14 from game events and actual saves, retaining timing and setup failures."""
+    import importlib.util
+    base = 'evidence/android/purchase-input'
+    expected = {'matrix-01':'PASS','matrix-confirmed-01':'FAIL','matrix-fixed-01':'FAIL',
+                'matrix-fixed-02':'FAIL','matrix-fixed-noanimation-01':'PASS',
+                'upgrade-baseline-smoke-01':'PASS','release-smoke-01':'FAIL','release-smoke-02':'PASS'}
+    for name, status in expected.items():
+        test = ET.parse(ROOT / base / name / 'output.xml').find('.//test')
+        assert test.find('status').get('status') == status, name
+    spec = importlib.util.spec_from_file_location('purchase_trace_analysis', ROOT / 'harness/android/analyze_purchase_trace.py')
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    raw = module.analyze(ROOT / base / 'matrix-01/matrix')
+    red = module.analyze(ROOT / base / 'matrix-confirmed-01/matrix')
+    mixed = module.analyze(ROOT / base / 'matrix-fixed-02/matrix')
+    green = module.analyze(ROOT / base / 'matrix-fixed-noanimation-01/matrix')
+    assert raw['outcomes'] == {'accepted-and-durable':7,'input-without-button-callback':1}
+    assert red['outcomes'] == {'accepted-and-durable':7,'accepted-but-lost':1}
+    fault = red['cases'][5]
+    assert fault['accepted'] and fault['restoredCount'] == 1 and not fault['pauseObserved']
+    assert mixed['allPurchasesSucceeded'] and not mixed['timingGatePassed']
+    assert max(r['homeAfterSeconds'] or 0 for r in mixed['cases']) == 3.125
+    assert green['allPurchasesSucceeded'] and green['timingGatePassed']
+    assert not green['originalFailureRootCauseProven']
+    assert len(read(base + '/matrix-fixed-01/matrix/results.json')) == 3
+    for name, passed, failed in [('durability-red',0,2),('durability-green',2,0),('full-play',89,0),('full-edit',69,0)]:
+        run = ET.parse(ROOT / base / 'engine' / (name + '.xml')).getroot()
+        assert int(run.get('passed')) == passed and int(run.get('failed')) == failed
+        assert int(run.get('skipped')) == 0
+    ordinary = read(base + '/release-smoke-02/stopped-save.json')
+    assert ordinary['cats'][0] == {'id':'Milk','count':2} and ordinary['clicks'] == 0
+    failed_xml = (ROOT / base / 'release-smoke-01/output.xml').read_text(encoding='utf-8')
+    assert 'menu absent' in failed_xml
+    assert 'immersive_cling_title' in (ROOT / base / 'release-smoke-01/fullscreen-hint.xml').read_text(encoding='utf-8')
+    assert 'Dismiss Android immersive-mode teaching hint by native resource IDs' in (ROOT / base / 'release-smoke-02/output.xml').read_text(encoding='utf-8')
+    upgrade = read(base + '/upgrade/result.json')
+    assert upgrade['passed'] and not upgrade['saveWasInjected'] and upgrade['restoredMilk'] == 2
+    assert upgrade['oldVersionCode'] == '4' and upgrade['newVersionCode'] == '5'
+    assert (ROOT / base / 'upgrade/old-save.json').read_bytes() == (ROOT / base / 'upgrade/upgraded-before-launch.json').read_bytes()
+    before = read(base + '/upgrade/old-save.json')
+    after = read(base + '/upgrade/upgraded-after-play.json')
+    assert len(upgrade['comparedFields']) == 11
+    for field in upgrade['comparedFields']: assert before[field] == after[field], field
+    for field in ('catHair','totalEarned','playSeconds'): assert after[field] >= before[field], field
+    artifact = read(base + '/build/release/build-summary.json')
+    assert artifact['sha256'] == upgrade['apkSha256'] == 'c0fbcbb264d986bb63ffa4691d3473572198dc59cfb2d63060950a74169e0a66'
+    assert artifact['buildExit'] == 0 and artifact['versionCode'] == 5 and artifact['versionName'] == '1.0.2'
+    scope = read(base + '/build/release/scope-audit.json')
+    assert not scope['prohibitedTestPaths'] and not scope['knownQaMarkersFound']
+    assert len(scope['onlyProductionSourceDiff']) == 2
+    assert all((ROOT / base / name / 'appium-steps.jsonl').stat().st_size > 0 for name in expected)
+    print('PASS Android purchase actual failure, immediate-save red/green, retained timing failures, ordinary APK upgrade and fresh install')
 
 if __name__=='__main__': main()

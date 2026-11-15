@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "PROJECT_ROOT\Tests\robot\android/trace_purchase.py", line 149, in <module>
+    run(game, args.fixture, args.fps, args.repeat, args.home_policy)
+  File "PROJECT_ROOT\Tests\robot\android/trace_purchase.py", line 130, in run
+    assert not any(row["lostAcceptedPurchase"] for row in results), "Accepted purchase was not durable"
+AssertionError: Accepted purchase was not durable
