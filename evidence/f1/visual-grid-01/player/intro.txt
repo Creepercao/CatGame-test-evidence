@@ -1,0 +1,4 @@
+completedRuns=1
+introCompleted=true
+noClickThrough=true
+pausedProduction=true

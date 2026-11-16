@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "PROJECT_ROOT\Tests\robot\android/f1_safearea.py", line 48, in <module>
+    raise AssertionError(f'Native menu did not settle at 2220x1080; actual {frame.size}')
+AssertionError: Native menu did not settle at 2220x1080; actual (2220, 1080)

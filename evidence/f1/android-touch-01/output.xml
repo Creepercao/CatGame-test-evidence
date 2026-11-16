@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-15T22:06:01.801273" rpa="false" schemaversion="5">
+<suite id="s1" name="F1 Cat Touch" source="PROJECT_ROOT\Tests\robot\android\f1_cat_touch.robot">
+<kw name="Open Appium" owner="F1ArtAndroid" type="SETUP">
+<msg time="2026-11-15T22:06:19.216842" level="INFO">Appium session SESSION_ID, Android test user 10</msg>
+<status status="PASS" start="2026-11-15T22:06:02.144379" elapsed="17.072463"/>
+</kw>
+<test id="s1-t1" name="F1-TOUCH-01 16 By 9" line="10">
+<kw name="Check Grounded Cat Touch">
+<kw name="Set Display Width" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:06:20.383071" level="INFO">Physical size: 1080x2220
+Override size: 900x1600</msg>
+<arg>${width}</arg>
+<status status="PASS" start="2026-11-15T22:06:19.220380" elapsed="1.162691"/>
+</kw>
+<kw name="Start Cat Game" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:06:20.687973" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Warning: Activity not started, intent has been delivered to currently running top-most instance.
+Status: ok
+LaunchState: UNKNOWN (0)
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 0
+WaitTime: 57
+Complete</msg>
+<status status="PASS" start="2026-11-15T22:06:20.384579" elapsed="0.303394"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:06:21.666621" level="INFO">Visual check two-cats passed (RGB error 0.92): standard-home.png</msg>
+<arg>two-cats</arg>
+<arg>${tag}-home.png</arg>
+<arg>width=${width}</arg>
+<status status="PASS" start="2026-11-15T22:06:20.688975" elapsed="0.978656"/>
+</kw>
+<kw name="Pet Visible Milk And Verify Saved Click" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:06:24.577736" level="INFO">Appium clickGesture (1053, 427)</msg>
+<msg time="2026-11-15T22:06:26.077092" level="INFO">Appium screenshot standard-body-after.png, 1600x900</msg>
+<msg time="2026-11-15T22:06:26.079613" level="INFO">Appium Android key 3</msg>
+<msg time="2026-11-15T22:06:26.706424" level="INFO">CatGame is backgrounded; topResumedActivity=ActivityRecord{a8032fe u10 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t1000003}</msg>
+<msg time="2026-11-15T22:06:27.894442" level="FAIL">One Appium body touch must persist exactly one click</msg>
+<arg>${tag}</arg>
+<status status="FAIL" start="2026-11-15T22:06:21.667631" elapsed="6.283392">One Appium body touch must persist exactly one click</status>
+</kw>
+<arg>1600</arg>
+<arg>standard</arg>
+<status status="FAIL" start="2026-11-15T22:06:19.219368" elapsed="8.731655">One Appium body touch must persist exactly one click</status>
+</kw>
+<kw name="Restore Display Size" owner="F1ArtAndroid" type="TEARDOWN">
+<msg time="2026-11-15T22:06:28.538035" level="INFO">Restored device display: Physical size: 1080x2220
+Override size: 900x1600</msg>
+<status status="PASS" start="2026-11-15T22:06:27.951023" elapsed="0.588012"/>
+</kw>
+<status status="FAIL" start="2026-11-15T22:06:19.216842" elapsed="9.322193">One Appium body touch must persist exactly one click</status>
+</test>
+<test id="s1-t2" name="F1-TOUCH-02 20 By 9" line="11">
+<kw name="Check Grounded Cat Touch">
+<kw name="Set Display Width" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:06:30.415142" level="INFO">Physical size: 1080x2220
+Override size: 900x2000</msg>
+<arg>${width}</arg>
+<status status="PASS" start="2026-11-15T22:06:28.540038" elapsed="1.876105"/>
+</kw>
+<kw name="Start Cat Game" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:06:33.457466" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Warning: Activity not started, its current task has been brought to the front
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 2730
+WaitTime: 2788
+Complete</msg>
+<status status="PASS" start="2026-11-15T22:06:30.416143" elapsed="3.041323"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:06:46.412129" level="FAIL">two-cats absent, mean RGB error 127.83 in wide-home.png</msg>
+<arg>two-cats</arg>
+<arg>${tag}-home.png</arg>
+<arg>width=${width}</arg>
+<status status="FAIL" start="2026-11-15T22:06:33.457466" elapsed="12.963708">two-cats absent, mean RGB error 127.83 in wide-home.png</status>
+</kw>
+<kw name="Pet Visible Milk And Verify Saved Click" owner="F1ArtAndroid">
+<arg>${tag}</arg>
+<status status="NOT RUN" start="2026-11-15T22:06:46.421174" elapsed="0.000000"/>
+</kw>
+<arg>2000</arg>
+<arg>wide</arg>
+<status status="FAIL" start="2026-11-15T22:06:28.540038" elapsed="17.881136">two-cats absent, mean RGB error 127.83 in wide-home.png</status>
+</kw>
+<kw name="Restore Display Size" owner="F1ArtAndroid" type="TEARDOWN">
+<msg time="2026-11-15T22:06:47.637868" level="INFO">Restored device display: Physical size: 1080x2220
+Override size: 900x1600</msg>
+<status status="PASS" start="2026-11-15T22:06:46.422177" elapsed="1.215691"/>
+</kw>
+<status status="FAIL" start="2026-11-15T22:06:28.540038" elapsed="19.097830">two-cats absent, mean RGB error 127.83 in wide-home.png</status>
+</test>
+<test id="s1-t3" name="F1-TOUCH-03 4 By 3" line="12">
+<kw name="Check Grounded Cat Touch">
+<kw name="Set Display Width" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:06:49.540329" level="INFO">Physical size: 1080x2220
+Override size: 900x1200</msg>
+<arg>${width}</arg>
+<status status="PASS" start="2026-11-15T22:06:47.639869" elapsed="1.900460"/>
+</kw>
+<kw name="Start Cat Game" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:06:50.063429" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Warning: Activity not started, intent has been delivered to currently running top-most instance.
+Status: ok
+LaunchState: UNKNOWN (0)
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 0
+WaitTime: 116
+Complete</msg>
+<status status="PASS" start="2026-11-15T22:06:49.541333" elapsed="0.522096"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:07:05.202442" level="FAIL">two-cats absent, mean RGB error 222.13 in compact-home.png</msg>
+<arg>two-cats</arg>
+<arg>${tag}-home.png</arg>
+<arg>width=${width}</arg>
+<status status="FAIL" start="2026-11-15T22:06:50.064437" elapsed="15.138517">two-cats absent, mean RGB error 222.13 in compact-home.png</status>
+</kw>
+<kw name="Pet Visible Milk And Verify Saved Click" owner="F1ArtAndroid">
+<arg>${tag}</arg>
+<status status="NOT RUN" start="2026-11-15T22:07:05.202954" elapsed="0.000000"/>
+</kw>
+<arg>1200</arg>
+<arg>compact</arg>
+<status status="FAIL" start="2026-11-15T22:06:47.638870" elapsed="17.565093">two-cats absent, mean RGB error 222.13 in compact-home.png</status>
+</kw>
+<kw name="Restore Display Size" owner="F1ArtAndroid" type="TEARDOWN">
+<msg time="2026-11-15T22:07:06.455647" level="INFO">Restored device display: Physical size: 1080x2220
+Override size: 900x1600</msg>
+<status status="PASS" start="2026-11-15T22:07:05.206486" elapsed="1.249161"/>
+</kw>
+<status status="FAIL" start="2026-11-15T22:06:47.638870" elapsed="18.817282">two-cats absent, mean RGB error 222.13 in compact-home.png</status>
+</test>
+<kw name="Close Appium" owner="F1ArtAndroid" type="TEARDOWN">
+<status status="PASS" start="2026-11-15T22:07:06.456152" elapsed="3.425648"/>
+</kw>
+<doc>Real Appium touches on the displayed Milk body at three aspect ratios; read saved click counts after HOME.</doc>
+<status status="FAIL" start="2026-11-15T22:06:01.804376" elapsed="68.077424"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="F1 Cat Touch" id="s1" pass="0" fail="3" skip="0">F1 Cat Touch</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

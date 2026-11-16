@@ -1,0 +1,8 @@
+{"target": "menu", "name": "initial-menu.png", "seconds": 4.686999999976251}
+{"target": "menu", "name": "2000-menu.png", "seconds": 12.10999999998603}
+{"target": "two-cats", "name": "2000-home.png", "seconds": 3.5}
+{"target": "two-cats", "name": "2000-cancelled.png", "seconds": 1.0310000000172295}
+{"target": "two-cats", "name": "2000-resumed.png", "seconds": 0.8439999999827705}
+{"target": "menu", "name": "1200-menu.png", "seconds": 9.422000000020489}
+{"target": "two-cats", "name": "1200-home.png", "seconds": 4.342999999993481}
+{"target": "menu", "name": "1200-returned.png", "seconds": 3.8910000000032596}

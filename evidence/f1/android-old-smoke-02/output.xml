@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-15T22:00:17.065768" rpa="false" schemaversion="5">
+<suite id="s1" name="Android Smoke" source="PROJECT_ROOT\Tests\robot\android\android_smoke.robot">
+<kw name="Open Appium" owner="AndroidGame" type="SETUP">
+<msg time="2026-11-15T22:00:49.241871" level="INFO">Appium session SESSION_ID, Android test user 10</msg>
+<status status="PASS" start="2026-11-15T22:00:17.169098" elapsed="32.073773"/>
+</kw>
+<test id="s1-t1" name="ANDROID-SMOKE-01 Purchase Survives Home And Cold Restart" line="15">
+<kw name="Force Stop Cat Game" owner="AndroidGame">
+<status status="PASS" start="2026-11-15T22:00:49.243869" elapsed="0.960331"/>
+</kw>
+<kw name="Start Cat Game" owner="AndroidGame">
+<msg time="2026-11-15T22:00:53.048156" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 2500
+WaitTime: 2527
+Complete</msg>
+<status status="PASS" start="2026-11-15T22:00:50.204200" elapsed="2.843956"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-15T22:00:53.929075" level="INFO">Appium native hierarchy: 01-main-menu.png-hint-0.xml</msg>
+<msg time="2026-11-15T22:00:55.013114" level="INFO">Appium native hierarchy: 01-main-menu.png-hint-1.xml</msg>
+<msg time="2026-11-15T22:00:56.029766" level="INFO">Appium native hierarchy: 01-main-menu.png-hint-2.xml</msg>
+<msg time="2026-11-15T22:00:57.711381" level="INFO">Appium native hierarchy: 01-main-menu.png-hint-3.xml</msg>
+<msg time="2026-11-15T22:00:58.714380" level="INFO">Appium native hierarchy: 01-main-menu.png-hint-4.xml</msg>
+<msg time="2026-11-15T22:00:59.694783" level="INFO">Appium native hierarchy: 01-main-menu.png-hint-5.xml</msg>
+<msg time="2026-11-15T22:01:06.069583" level="INFO">Visual check menu passed (RGB error 0.51): 01-main-menu.png</msg>
+<arg>menu</arg>
+<arg>01-main-menu.png</arg>
+<arg>timeout=${UI_TRANSITION_TIMEOUT}</arg>
+<arg>handle_system_hint=true</arg>
+<status status="PASS" start="2026-11-15T22:00:53.048156" elapsed="13.023429"/>
+</kw>
+<kw name="Capture Ui Hierarchy" owner="AndroidGame">
+<msg time="2026-11-15T22:01:06.358189" level="INFO">Appium native hierarchy: 01-native-tree.xml</msg>
+<msg time="2026-11-15T22:01:06.358189" level="INFO">${tree} = &lt;?xml version='1.0' encoding='UTF-8' standalone='yes' ?&gt;
+&lt;hierarchy index="0" class="hierarchy" rotation="1" width="1600" height="834"&gt;
+  &lt;android.widget.FrameLayout index="0" package="com.catgamest...</msg>
+<var>${tree}</var>
+<arg>01-native-tree.xml</arg>
+<status status="PASS" start="2026-11-15T22:01:06.071585" elapsed="0.286604"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${tree}</arg>
+<arg>com.catgamestudio.catgame</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-15T22:01:06.358189" elapsed="0.001009"/>
+</kw>
+<kw name="Tap" owner="AndroidGame">
+<msg time="2026-11-15T22:01:06.360197" level="INFO">Appium clickGesture (1320, 457)</msg>
+<arg>1320</arg>
+<arg>457</arg>
+<status status="PASS" start="2026-11-15T22:01:06.359198" elapsed="0.253793"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-15T22:01:13.766390" level="INFO">Visual check intro passed (RGB error 0.05): 02-new-game-intro.png</msg>
+<arg>intro</arg>
+<arg>02-new-game-intro.png</arg>
+<arg>timeout=${UI_TRANSITION_TIMEOUT}</arg>
+<status status="PASS" start="2026-11-15T22:01:06.612991" elapsed="7.157448"/>
+</kw>
+<kw name="Tap" owner="AndroidGame">
+<msg time="2026-11-15T22:01:13.771444" level="INFO">Appium clickGesture (1280, 839)</msg>
+<arg>1280</arg>
+<arg>839</arg>
+<status status="PASS" start="2026-11-15T22:01:13.771444" elapsed="0.161043"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-15T22:01:14.863715" level="INFO">Visual check one-cat passed (RGB error 0.94): 03-one-cat.png</msg>
+<arg>one-cat</arg>
+<arg>03-one-cat.png</arg>
+<arg>timeout=${UI_TRANSITION_TIMEOUT}</arg>
+<status status="PASS" start="2026-11-15T22:01:13.932487" elapsed="0.931807"/>
+</kw>
+<kw name="Cat Game Pid" owner="AndroidGame">
+<msg time="2026-11-15T22:01:15.099734" level="INFO">CatGame QA PID 10748</msg>
+<msg time="2026-11-15T22:01:15.099734" level="INFO">${before} = 10748</msg>
+<var>${before}</var>
+<status status="PASS" start="2026-11-15T22:01:14.864294" elapsed="0.235440"/>
+</kw>
+<kw name="Should Not Be Empty" owner="BuiltIn">
+<msg time="2026-11-15T22:01:15.100776" level="INFO">Length is 5.</msg>
+<arg>${before}</arg>
+<doc>Verifies that the given item is not empty.</doc>
+<status status="PASS" start="2026-11-15T22:01:15.099734" elapsed="0.001042"/>
+</kw>
+<kw name="Press Key" owner="AndroidGame">
+<msg time="2026-11-15T22:01:15.100776" level="INFO">Appium Android key 3</msg>
+<arg>3</arg>
+<status status="PASS" start="2026-11-15T22:01:15.100776" elapsed="0.168539"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" owner="BuiltIn">
+<kw name="Cat Game Is Backgrounded" owner="AndroidGame">
+<msg time="2026-11-15T22:01:15.627504" level="INFO">CatGame is backgrounded; topResumedActivity=ActivityRecord{a8032fe u10 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t1000003}</msg>
+<status status="PASS" start="2026-11-15T22:01:15.270837" elapsed="0.357669"/>
+</kw>
+<arg>5s</arg>
+<arg>300ms</arg>
+<arg>Cat Game Is Backgrounded</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<status status="PASS" start="2026-11-15T22:01:15.269824" elapsed="0.358682"/>
+</kw>
+<kw name="Capture" owner="AndroidGame">
+<msg time="2026-11-15T22:01:16.917841" level="INFO">Appium screenshot 04-home.png, 1600x900</msg>
+<arg>04-home.png</arg>
+<status status="PASS" start="2026-11-15T22:01:15.628506" elapsed="1.290350"/>
+</kw>
+<kw name="Start Cat Game" owner="AndroidGame">
+<msg time="2026-11-15T22:01:17.776605" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Warning: Activity not started, its current task has been brought to the front
+Status: ok
+LaunchState: HOT
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 485
+WaitTime: 547
+Complete</msg>
+<status status="PASS" start="2026-11-15T22:01:16.918856" elapsed="0.858763"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-15T22:01:20.178365" level="INFO">Visual check one-cat passed (RGB error 0.94): 04-warm-resume.png</msg>
+<arg>one-cat</arg>
+<arg>04-warm-resume.png</arg>
+<arg>timeout=${UI_TRANSITION_TIMEOUT}</arg>
+<status status="PASS" start="2026-11-15T22:01:17.777619" elapsed="2.400746"/>
+</kw>
+<kw name="Cat Game Pid" owner="AndroidGame">
+<msg time="2026-11-15T22:01:20.458880" level="INFO">CatGame QA PID 10748</msg>
+<msg time="2026-11-15T22:01:20.459884" level="INFO">${warm} = 10748</msg>
+<var>${warm}</var>
+<status status="PASS" start="2026-11-15T22:01:20.179875" elapsed="0.280009"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${before}</arg>
+<arg>${warm}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2026-11-15T22:01:20.459884" elapsed="0.000992"/>
+</kw>
+<kw name="Wait For Affordable Milk" owner="AndroidGame">
+<msg time="2026-11-15T22:01:46.691382" level="INFO">Appium clickGesture (800, 859)</msg>
+<msg time="2026-11-15T22:02:28.990930" level="INFO">Milk became affordable from passive production, with one cat</msg>
+<status status="PASS" start="2026-11-15T22:01:20.460876" elapsed="68.530054"/>
+</kw>
+<kw name="Buy Confirmed And Press Home" owner="AndroidGame">
+<msg time="2026-11-15T22:02:28.991938" level="INFO">Appium clickGesture (185, 300)</msg>
+<msg time="2026-11-15T22:02:29.863661" level="INFO">Visual check two-cats passed (RGB error 0.92): 06-purchase-acknowledged.png</msg>
+<msg time="2026-11-15T22:02:29.863661" level="INFO">Appium Android key 3</msg>
+<msg time="2026-11-15T22:02:30.033298" level="INFO">Purchase tap, visible acknowledgement and HOME: 1.047s</msg>
+<status status="PASS" start="2026-11-15T22:02:28.991938" elapsed="1.043353"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" owner="BuiltIn">
+<kw name="Cat Game Is Backgrounded" owner="AndroidGame">
+<msg time="2026-11-15T22:02:30.367641" level="INFO">CatGame is backgrounded; topResumedActivity=ActivityRecord{a8032fe u10 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t1000003}</msg>
+<status status="PASS" start="2026-11-15T22:02:30.036294" elapsed="0.332348"/>
+</kw>
+<arg>5s</arg>
+<arg>300ms</arg>
+<arg>Cat Game Is Backgrounded</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<status status="PASS" start="2026-11-15T22:02:30.035291" elapsed="0.333351"/>
+</kw>
+<kw name="Force Stop Cat Game" owner="AndroidGame">
+<status status="PASS" start="2026-11-15T22:02:30.368642" elapsed="1.164978"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-15T22:02:33.534196" level="INFO">Slept 2 seconds.</msg>
+<msg time="2026-11-15T22:02:33.534196" level="INFO">Ensure a positive elapsed time for the offline summary.</msg>
+<arg>2s</arg>
+<arg>Ensure a positive elapsed time for the offline summary.</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-15T22:02:31.533620" elapsed="2.000576"/>
+</kw>
+<kw name="Start Cat Game" owner="AndroidGame">
+<msg time="2026-11-15T22:02:35.964981" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 2213
+WaitTime: 2242
+Complete</msg>
+<status status="PASS" start="2026-11-15T22:02:33.534196" elapsed="2.430785"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-15T22:02:46.447438" level="INFO">Visual check menu passed (RGB error 0.51): 07-relaunch-menu.png</msg>
+<arg>menu</arg>
+<arg>07-relaunch-menu.png</arg>
+<arg>timeout=${UI_TRANSITION_TIMEOUT}</arg>
+<status status="PASS" start="2026-11-15T22:02:35.964981" elapsed="10.484470"/>
+</kw>
+<kw name="Cat Game Pid" owner="AndroidGame">
+<msg time="2026-11-15T22:02:46.855463" level="INFO">CatGame QA PID 11176</msg>
+<msg time="2026-11-15T22:02:46.855463" level="INFO">${after} = 11176</msg>
+<var>${after}</var>
+<status status="PASS" start="2026-11-15T22:02:46.449451" elapsed="0.406012"/>
+</kw>
+<kw name="Should Not Be Empty" owner="BuiltIn">
+<msg time="2026-11-15T22:02:46.856971" level="INFO">Length is 5.</msg>
+<arg>${after}</arg>
+<doc>Verifies that the given item is not empty.</doc>
+<status status="PASS" start="2026-11-15T22:02:46.856461" elapsed="0.001018"/>
+</kw>
+<kw name="Should Not Be Equal" owner="BuiltIn">
+<arg>${before}</arg>
+<arg>${after}</arg>
+<doc>Fails if the given objects are equal.</doc>
+<status status="PASS" start="2026-11-15T22:02:46.857479" elapsed="0.001016"/>
+</kw>
+<kw name="Tap" owner="AndroidGame">
+<msg time="2026-11-15T22:02:46.859005" level="INFO">Appium clickGesture (1320, 372)</msg>
+<arg>1320</arg>
+<arg>372</arg>
+<status status="PASS" start="2026-11-15T22:02:46.859005" elapsed="0.206428"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-15T22:02:52.398361" level="INFO">Visual check offline passed (RGB error 0.35): 08-offline-panel.png</msg>
+<arg>offline</arg>
+<arg>08-offline-panel.png</arg>
+<arg>timeout=${UI_TRANSITION_TIMEOUT}</arg>
+<status status="PASS" start="2026-11-15T22:02:47.065433" elapsed="5.332928"/>
+</kw>
+<kw name="Tap" owner="AndroidGame">
+<msg time="2026-11-15T22:02:52.399363" level="INFO">Appium clickGesture (800, 519)</msg>
+<arg>800</arg>
+<arg>519</arg>
+<status status="PASS" start="2026-11-15T22:02:52.399363" elapsed="0.133878"/>
+</kw>
+<kw name="Wait For Visual" owner="AndroidGame">
+<msg time="2026-11-15T22:02:54.243718" level="INFO">Visual check two-cats passed (RGB error 0.92): 09-two-cats-restored.png</msg>
+<arg>two-cats</arg>
+<arg>09-two-cats-restored.png</arg>
+<arg>timeout=${UI_TRANSITION_TIMEOUT}</arg>
+<status status="PASS" start="2026-11-15T22:02:52.533241" elapsed="1.713510"/>
+</kw>
+<doc>Fresh QA save only. No save injection. The second cat is purchased with passive income.</doc>
+<tag>android</tag>
+<tag>appium</tag>
+<tag>save-lifecycle</tag>
+<tag>smoke</tag>
+<status status="PASS" start="2026-11-15T22:00:49.242871" elapsed="125.003880"/>
+</test>
+<kw name="Close Appium" owner="AndroidGame" type="TEARDOWN">
+<status status="PASS" start="2026-11-15T22:02:54.248772" elapsed="1.756385"/>
+</kw>
+<doc>Android ARM64 Player smoke using Appium UiAutomator2 on a fresh, dedicated Android user.</doc>
+<status status="PASS" start="2026-11-15T22:00:17.071303" elapsed="158.933854"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">android</stat>
+<stat pass="1" fail="0" skip="0">appium</stat>
+<stat pass="1" fail="0" skip="0">save-lifecycle</stat>
+<stat pass="1" fail="0" skip="0">smoke</stat>
+</tag>
+<suite>
+<stat name="Android Smoke" id="s1" pass="1" fail="0" skip="0">Android Smoke</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

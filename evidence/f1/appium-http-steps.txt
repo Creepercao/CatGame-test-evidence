@@ -1,0 +1,813 @@
+2026-11-16 14:21:11:276 - [SESSION][HTTP] <-- POST /session 500 1885 ms - 2021
+2026-11-16 14:22:17:024 - [SESSION][HTTP] <-- POST /session 200 6880 ms - 966
+2026-11-16 14:22:20:056 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:22:21:232 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1175 ms - 20320
+2026-11-16 14:22:21:368 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:22:22:208 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 838 ms - 6391
+2026-11-16 14:22:22:251 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":1091,"y":551}]}
+2026-11-16 14:22:22:369 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 117 ms - 14
+2026-11-16 14:22:22:372 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:22:23:024 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 651 ms - 47864
+2026-11-16 14:22:23:443 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:22:23:770 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 327 ms - 10352
+2026-11-16 14:22:24:197 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:22:24:637 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 440 ms - 10352
+2026-11-16 14:22:25:075 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:22:25:707 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 631 ms - 43380
+2026-11-16 14:22:26:135 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:22:26:497 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 361 ms - 10352
+2026-11-16 14:22:26:916 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:22:27:250 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 334 ms - 10352
+2026-11-16 14:22:27:685 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:22:30:907 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 3221 ms - 1926792
+2026-11-16 14:22:31:564 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":1320,"y":372}]}
+2026-11-16 14:22:31:752 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 187 ms - 14
+2026-11-16 14:22:31:758 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:22:34:642 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2883 ms - 1926792
+2026-11-16 14:22:35:204 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:22:38:113 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2908 ms - 1926792
+2026-11-16 14:22:38:705 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:22:41:432 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2726 ms - 1926792
+2026-11-16 14:22:41:961 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:22:43:138 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1176 ms - 1926792
+2026-11-16 14:22:43:633 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:22:45:063 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1429 ms - 1926792
+2026-11-16 14:22:48:230 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:22:48:902 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 672 ms - 13792
+2026-11-16 14:22:48:912 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:22:49:171 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 259 ms - 5071
+2026-11-16 14:22:49:576 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:22:49:801 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 224 ms - 12140
+2026-11-16 14:22:49:832 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:22:49:872 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 40 ms - 5071
+2026-11-16 14:22:50:285 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:22:50:622 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 336 ms - 45776
+2026-11-16 14:22:50:640 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:22:50:806 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 166 ms - 4426
+2026-11-16 14:22:51:211 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:22:51:468 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 258 ms - 45656
+2026-11-16 14:22:51:482 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:22:51:527 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 45 ms - 4426
+2026-11-16 14:22:51:932 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:22:52:113 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 181 ms - 12140
+2026-11-16 14:22:52:146 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:22:52:170 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 24 ms - 4426
+2026-11-16 14:22:52:575 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:22:54:097 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1521 ms - 2297324
+2026-11-16 14:22:54:441 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":1650,"y":372}]}
+2026-11-16 14:22:54:539 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 98 ms - 14
+2026-11-16 14:22:54:543 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:22:56:144 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1600 ms - 2297324
+2026-11-16 14:22:56:640 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:22:58:377 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1737 ms - 2297324
+2026-11-16 14:22:58:873 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:23:00:423 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1550 ms - 2297324
+2026-11-16 14:23:00:906 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:23:02:413 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1505 ms - 2297324
+2026-11-16 14:23:02:926 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:23:04:388 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1462 ms - 2297324
+2026-11-16 14:23:04:871 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:23:06:361 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1489 ms - 2297324
+2026-11-16 14:23:06:872 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:23:08:314 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1441 ms - 2297324
+2026-11-16 14:23:11:473 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:23:11:853 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 380 ms - 18420
+2026-11-16 14:23:11:864 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:23:12:555 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 691 ms - 5071
+2026-11-16 14:23:12:971 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:23:13:137 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 166 ms - 8588
+2026-11-16 14:23:13:156 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:23:13:190 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 34 ms - 5071
+2026-11-16 14:23:13:594 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:23:13:791 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 196 ms - 43036
+2026-11-16 14:23:13:820 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:23:13:854 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 34 ms - 4426
+2026-11-16 14:23:14:271 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:23:14:468 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 197 ms - 42416
+2026-11-16 14:23:14:479 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:23:14:519 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 39 ms - 4426
+2026-11-16 14:23:14:948 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:23:15:110 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 161 ms - 8588
+2026-11-16 14:23:15:116 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:23:15:148 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 31 ms - 4426
+2026-11-16 14:23:15:567 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:23:16:306 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 737 ms - 1503656
+2026-11-16 14:23:16:474 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":990,"y":372}]}
+2026-11-16 14:23:16:556 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 82 ms - 14
+2026-11-16 14:23:16:559 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:23:17:471 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 911 ms - 1497276
+2026-11-16 14:23:17:939 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:23:18:714 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 775 ms - 1497276
+2026-11-16 14:23:19:182 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:23:20:039 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 856 ms - 1497276
+2026-11-16 14:23:20:497 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:23:21:345 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 846 ms - 1497276
+2026-11-16 14:23:21:802 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:23:22:833 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1030 ms - 1497276
+2026-11-16 14:23:23:310 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:23:24:359 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1047 ms - 1497276
+2026-11-16 14:23:24:825 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:23:26:171 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1345 ms - 1497276
+2026-11-16 14:23:26:626 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:23:27:830 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1203 ms - 1497276
+2026-11-16 14:23:28:307 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:23:29:362 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1053 ms - 1497276
+2026-11-16 14:23:31:802 - [SESSION][HTTP] --> DELETE /session/SESSION_ID 
+2026-11-16 14:23:34:186 - [SESSION][HTTP] <-- DELETE /session/SESSION_ID 200 2383 ms - 14
+2026-11-16 14:25:40:126 - [SESSION][HTTP] <-- POST /session 200 4747 ms - 966
+2026-11-16 14:25:42:823 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:25:43:755 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 932 ms - 10352
+2026-11-16 14:25:43:837 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:25:43:965 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 128 ms - 5071
+2026-11-16 14:25:44:372 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:25:44:673 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 301 ms - 10352
+2026-11-16 14:25:44:685 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:25:44:754 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 69 ms - 5071
+2026-11-16 14:25:45:163 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:25:45:614 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 450 ms - 10352
+2026-11-16 14:25:45:629 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:25:45:709 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 79 ms - 5071
+2026-11-16 14:25:46:124 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:25:46:733 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 608 ms - 45084
+2026-11-16 14:25:46:767 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:25:46:864 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 96 ms - 4426
+2026-11-16 14:25:47:282 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:25:47:676 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 394 ms - 10352
+2026-11-16 14:25:47:690 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:25:47:755 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 64 ms - 4426
+2026-11-16 14:25:48:161 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:25:48:459 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 298 ms - 10352
+2026-11-16 14:25:48:488 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:25:48:575 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 86 ms - 4426
+2026-11-16 14:25:48:981 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:25:52:740 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 3758 ms - 1927532
+2026-11-16 14:25:53:396 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":1320,"y":372}]}
+2026-11-16 14:25:53:586 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 190 ms - 14
+2026-11-16 14:25:53:590 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:25:54:902 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1312 ms - 1927532
+2026-11-16 14:25:55:384 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:25:57:776 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2391 ms - 1927532
+2026-11-16 14:25:58:321 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:25:58:940 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 619 ms - 131864
+2026-11-16 14:25:59:052 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":800,"y":519}]}
+2026-11-16 14:25:59:216 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 164 ms - 14
+2026-11-16 14:25:59:220 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:25:59:618 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 398 ms - 132004
+2026-11-16 14:26:00:058 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:26:02:611 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2552 ms - 1664952
+2026-11-16 14:26:03:810 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":1200,"y":100}]}
+2026-11-16 14:26:03:923 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 113 ms - 14
+2026-11-16 14:26:04:182 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:26:04:786 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 603 ms - 119596
+2026-11-16 14:26:04:912 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: pressKey","args":[{"keycode":3}]}
+2026-11-16 14:26:05:059 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 146 ms - 14
+2026-11-16 14:26:07:696 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:26:08:903 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1206 ms - 138004
+2026-11-16 14:26:09:383 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:26:10:094 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 710 ms - 123320
+2026-11-16 14:26:11:300 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:26:11:920 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 620 ms - 122640
+2026-11-16 14:26:14:814 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:26:15:492 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 677 ms - 123228
+2026-11-16 14:26:18:189 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:26:18:793 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 603 ms - 123188
+2026-11-16 14:26:21:482 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:26:22:089 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 607 ms - 123340
+2026-11-16 14:26:24:745 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:26:25:310 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 565 ms - 121180
+2026-11-16 14:26:28:044 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:26:28:708 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 664 ms - 122280
+2026-11-16 14:26:31:243 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:26:31:875 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 631 ms - 123176
+2026-11-16 14:26:34:483 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:26:35:073 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 589 ms - 123160
+2026-11-16 14:26:37:953 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:26:38:611 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 657 ms - 122696
+2026-11-16 14:26:41:413 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:26:42:049 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 635 ms - 121896
+2026-11-16 14:26:43:914 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":738,"y":383}]}
+2026-11-16 14:26:44:040 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 125 ms - 14
+2026-11-16 14:26:44:298 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:26:44:915 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 617 ms - 123624
+2026-11-16 14:26:45:036 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: pressKey","args":[{"keycode":3}]}
+2026-11-16 14:26:47:575 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 2539 ms - 14
+2026-11-16 14:26:52:680 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:26:53:649 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 969 ms - 12140
+2026-11-16 14:26:53:664 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:26:53:748 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 83 ms - 5071
+2026-11-16 14:26:54:153 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:26:54:453 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 300 ms - 12140
+2026-11-16 14:26:54:483 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:26:54:535 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 51 ms - 5071
+2026-11-16 14:26:54:940 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:26:55:242 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 302 ms - 12140
+2026-11-16 14:26:55:256 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:26:55:306 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 49 ms - 5071
+2026-11-16 14:26:55:712 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:26:56:366 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 654 ms - 47080
+2026-11-16 14:26:56:405 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:26:56:560 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 153 ms - 4426
+2026-11-16 14:26:56:972 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:26:57:285 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 313 ms - 12140
+2026-11-16 14:26:57:319 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:26:57:385 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 66 ms - 4426
+2026-11-16 14:26:57:789 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:26:58:092 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 302 ms - 12140
+2026-11-16 14:26:58:111 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:26:58:158 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 47 ms - 4426
+2026-11-16 14:26:58:566 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:27:02:793 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 4226 ms - 2298000
+2026-11-16 14:27:03:644 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":1650,"y":372}]}
+2026-11-16 14:27:03:838 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 194 ms - 14
+2026-11-16 14:27:03:846 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:27:05:682 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1835 ms - 2298000
+2026-11-16 14:27:06:195 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:27:07:048 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 851 ms - 140876
+2026-11-16 14:27:07:262 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":1000,"y":519}]}
+2026-11-16 14:27:07:830 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 567 ms - 14
+2026-11-16 14:27:07:849 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:27:08:650 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 799 ms - 128776
+2026-11-16 14:27:10:388 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:27:21:448 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 11059 ms - 133124
+2026-11-16 14:27:24:624 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:27:25:337 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 712 ms - 133400
+2026-11-16 14:27:28:369 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:27:29:204 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 834 ms - 133328
+2026-11-16 14:27:32:166 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:27:33:010 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 843 ms - 132880
+2026-11-16 14:27:36:129 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:27:36:897 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 769 ms - 133540
+2026-11-16 14:27:39:905 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:27:40:697 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 791 ms - 132832
+2026-11-16 14:27:43:700 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:27:44:386 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 686 ms - 133456
+2026-11-16 14:27:47:152 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:27:47:860 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 707 ms - 132220
+2026-11-16 14:27:50:654 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:27:51:379 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 721 ms - 133660
+2026-11-16 14:27:54:255 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:27:55:221 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 966 ms - 132192
+2026-11-16 14:27:57:054 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":864,"y":618}]}
+2026-11-16 14:27:57:213 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 158 ms - 14
+2026-11-16 14:27:57:473 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:27:58:234 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 760 ms - 133356
+2026-11-16 14:27:58:384 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: pressKey","args":[{"keycode":3}]}
+2026-11-16 14:27:58:533 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 149 ms - 14
+2026-11-16 14:28:05:410 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:28:06:427 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1016 ms - 8588
+2026-11-16 14:28:06:443 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:28:06:657 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 214 ms - 5071
+2026-11-16 14:28:07:087 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:28:07:654 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 566 ms - 8588
+2026-11-16 14:28:07:680 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:28:07:759 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 78 ms - 5071
+2026-11-16 14:28:08:165 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:28:08:674 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 509 ms - 43092
+2026-11-16 14:28:08:690 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:28:08:864 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 174 ms - 4426
+2026-11-16 14:28:09:272 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:28:09:700 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 427 ms - 38344
+2026-11-16 14:28:09:728 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:28:09:776 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 47 ms - 4426
+2026-11-16 14:28:10:181 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:28:10:450 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 268 ms - 8588
+2026-11-16 14:28:10:480 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:28:10:554 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 74 ms - 4426
+2026-11-16 14:28:10:977 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:28:12:978 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2000 ms - 1498056
+2026-11-16 14:28:13:387 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":990,"y":372}]}
+2026-11-16 14:28:13:531 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 144 ms - 14
+2026-11-16 14:28:13:548 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:28:14:617 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1069 ms - 1498056
+2026-11-16 14:28:15:070 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:28:16:468 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1396 ms - 1498056
+2026-11-16 14:28:16:979 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:28:17:569 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 589 ms - 127912
+2026-11-16 14:28:17:659 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":600,"y":519}]}
+2026-11-16 14:28:17:814 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 155 ms - 14
+2026-11-16 14:28:17:818 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:28:18:281 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 463 ms - 118268
+2026-11-16 14:28:19:125 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:28:19:666 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 540 ms - 120480
+2026-11-16 14:28:23:005 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:28:23:525 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 519 ms - 121192
+2026-11-16 14:28:27:022 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:28:27:567 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 544 ms - 120156
+2026-11-16 14:28:31:275 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:28:31:858 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 582 ms - 120988
+2026-11-16 14:28:35:304 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:28:35:798 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 494 ms - 120856
+2026-11-16 14:28:39:276 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:28:39:793 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 517 ms - 120892
+2026-11-16 14:28:43:244 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:28:43:764 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 520 ms - 121240
+2026-11-16 14:28:47:195 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:28:47:888 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 691 ms - 121116
+2026-11-16 14:28:51:451 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:28:52:074 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 623 ms - 120464
+2026-11-16 14:28:54:978 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":745,"y":444}]}
+2026-11-16 14:28:55:137 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 159 ms - 14
+2026-11-16 14:28:55:392 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:28:55:931 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 539 ms - 122192
+2026-11-16 14:28:56:033 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: pressKey","args":[{"keycode":3}]}
+2026-11-16 14:28:58:380 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 2347 ms - 14
+2026-11-16 14:28:59:047 - [SESSION][HTTP] --> DELETE /session/SESSION_ID 
+2026-11-16 14:28:59:922 - [SESSION][HTTP] <-- DELETE /session/SESSION_ID 200 874 ms - 14
+2026-11-16 14:36:59:758 - [SESSION][HTTP] <-- POST /session 200 6024 ms - 966
+2026-11-16 14:37:03:975 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:37:05:060 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1084 ms - 10352
+2026-11-16 14:37:05:137 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:37:05:248 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 111 ms - 5071
+2026-11-16 14:37:06:286 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:37:07:104 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 817 ms - 10352
+2026-11-16 14:37:07:154 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:37:07:266 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 111 ms - 5071
+2026-11-16 14:37:08:313 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:37:09:647 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1334 ms - 10352
+2026-11-16 14:37:09:673 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:37:09:791 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 118 ms - 5071
+2026-11-16 14:37:10:798 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:37:12:418 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1619 ms - 10352
+2026-11-16 14:37:12:438 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:37:12:561 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 123 ms - 4426
+2026-11-16 14:37:13:583 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:37:14:277 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 693 ms - 10352
+2026-11-16 14:37:14:295 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:37:14:387 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 91 ms - 4426
+2026-11-16 14:37:15:398 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:37:16:668 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1269 ms - 10352
+2026-11-16 14:37:16:697 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:37:16:831 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 134 ms - 4426
+2026-11-16 14:37:17:864 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:37:29:648 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 11778 ms - 1927532
+2026-11-16 14:37:29:887 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:37:35:661 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 5772 ms - 1927532
+2026-11-16 14:38:12:842 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:38:17:503 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 4660 ms - 12140
+2026-11-16 14:38:18:423 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:38:22:159 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 3736 ms - 12140
+2026-11-16 14:38:22:924 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:38:25:343 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2419 ms - 12140
+2026-11-16 14:38:32:472 - [SESSION][HTTP] --> DELETE /session/SESSION_ID 
+2026-11-16 14:38:42:319 - [SESSION][HTTP] <-- DELETE /session/SESSION_ID 200 9847 ms - 14
+2026-11-16 14:51:27:889 - [SESSION][HTTP] <-- POST /session 200 6768 ms - 966
+2026-11-16 14:51:28:079 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:51:30:046 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1965 ms - 1459348
+2026-11-16 14:51:30:153 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:51:30:249 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 95 ms - 4438
+2026-11-16 14:51:31:259 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:51:32:287 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1027 ms - 1459348
+2026-11-16 14:51:32:337 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:51:32:381 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 43 ms - 4438
+2026-11-16 14:51:33:411 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:51:34:320 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 909 ms - 1459348
+2026-11-16 14:51:34:400 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:51:34:445 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 44 ms - 4438
+2026-11-16 14:51:35:459 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:51:36:403 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 944 ms - 1459348
+2026-11-16 14:51:36:457 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:51:36:497 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 40 ms - 4438
+2026-11-16 14:51:37:502 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:51:38:437 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 934 ms - 1459348
+2026-11-16 14:51:38:488 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:51:38:550 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 61 ms - 4438
+2026-11-16 14:51:39:554 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:51:40:422 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 867 ms - 1459348
+2026-11-16 14:51:40:471 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:51:40:522 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 50 ms - 4438
+2026-11-16 14:51:41:526 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:51:42:413 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 886 ms - 1459348
+2026-11-16 14:51:42:460 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:51:42:510 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 50 ms - 4438
+2026-11-16 14:51:43:514 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:51:44:351 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 836 ms - 1459348
+2026-11-16 14:51:44:408 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:51:44:444 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 36 ms - 4438
+2026-11-16 14:51:45:473 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:51:46:399 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 926 ms - 1459348
+2026-11-16 14:51:46:849 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:51:47:796 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 946 ms - 1459348
+2026-11-16 14:51:48:251 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:51:49:130 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 878 ms - 1459348
+2026-11-16 14:51:49:583 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:51:50:390 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 806 ms - 1459348
+2026-11-16 14:51:50:870 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:51:51:687 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 816 ms - 1459348
+2026-11-16 14:51:52:143 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:51:53:037 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 893 ms - 1459348
+2026-11-16 14:51:53:499 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:51:54:515 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1014 ms - 1459348
+2026-11-16 14:51:54:973 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:51:56:134 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1160 ms - 1459348
+2026-11-16 14:51:56:615 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:51:57:654 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1038 ms - 1459348
+2026-11-16 14:51:58:113 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:51:59:152 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1038 ms - 1459348
+2026-11-16 14:51:59:621 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:00:709 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1087 ms - 1459348
+2026-11-16 14:52:01:162 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:02:346 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1183 ms - 1459348
+2026-11-16 14:52:02:812 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:03:836 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1023 ms - 1459348
+2026-11-16 14:52:04:318 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:05:272 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 952 ms - 1459348
+2026-11-16 14:52:05:746 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:06:735 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 988 ms - 1459348
+2026-11-16 14:52:07:208 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:08:262 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1052 ms - 1459348
+2026-11-16 14:52:08:716 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:09:803 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1086 ms - 1459348
+2026-11-16 14:52:10:275 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:11:239 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 963 ms - 1459348
+2026-11-16 14:52:11:719 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:12:667 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 947 ms - 1459348
+2026-11-16 14:52:13:148 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:14:047 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 897 ms - 1459348
+2026-11-16 14:52:14:517 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:15:357 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 839 ms - 1459348
+2026-11-16 14:52:15:816 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:16:660 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 843 ms - 1459348
+2026-11-16 14:52:17:122 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:18:233 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1109 ms - 1459348
+2026-11-16 14:52:18:699 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:19:887 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1187 ms - 1459348
+2026-11-16 14:52:20:344 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:21:333 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 989 ms - 1459348
+2026-11-16 14:52:21:802 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:22:673 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 869 ms - 1459348
+2026-11-16 14:52:23:124 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:23:995 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 870 ms - 1459348
+2026-11-16 14:52:24:448 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:25:382 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 933 ms - 1459348
+2026-11-16 14:52:25:842 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:26:753 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 909 ms - 1459348
+2026-11-16 14:52:27:217 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:28:208 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 991 ms - 1459348
+2026-11-16 14:52:28:672 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:29:685 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 988 ms - 1459348
+2026-11-16 14:52:30:145 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:52:31:126 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 980 ms - 1459348
+2026-11-16 14:52:31:345 - [SESSION][HTTP] --> DELETE /session/SESSION_ID 
+2026-11-16 14:52:32:449 - [SESSION][HTTP] <-- DELETE /session/SESSION_ID 200 1103 ms - 14
+2026-11-16 14:55:17:429 - [SESSION][HTTP] <-- POST /session 200 14193 ms - 966
+2026-11-16 14:55:22:548 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:55:23:474 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 926 ms - 10352
+2026-11-16 14:55:23:526 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:55:23:632 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 106 ms - 5071
+2026-11-16 14:55:24:637 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:55:24:928 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 291 ms - 10352
+2026-11-16 14:55:24:942 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:55:25:004 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 61 ms - 5071
+2026-11-16 14:55:26:011 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:55:26:349 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 338 ms - 10352
+2026-11-16 14:55:26:363 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:55:26:448 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 84 ms - 5071
+2026-11-16 14:55:27:456 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:55:28:092 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 636 ms - 41284
+2026-11-16 14:55:28:111 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:55:28:189 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 78 ms - 4426
+2026-11-16 14:55:29:206 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:55:29:575 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 368 ms - 10352
+2026-11-16 14:55:29:609 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 14:55:29:689 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 80 ms - 4426
+2026-11-16 14:55:30:700 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:55:35:322 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 4614 ms - 1927532
+2026-11-16 14:55:35:569 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:55:39:424 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 3854 ms - 1927532
+2026-11-16 14:55:46:630 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:55:47:654 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1023 ms - 12140
+2026-11-16 14:55:48:067 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:55:48:437 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 369 ms - 12140
+2026-11-16 14:55:48:879 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:55:49:188 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 308 ms - 12140
+2026-11-16 14:55:49:603 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:55:50:168 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 564 ms - 12140
+2026-11-16 14:55:50:595 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:55:51:311 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 716 ms - 44416
+2026-11-16 14:55:51:733 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:55:52:110 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 377 ms - 12140
+2026-11-16 14:55:52:526 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:55:52:913 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 386 ms - 12140
+2026-11-16 14:55:53:336 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:55:57:713 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 4372 ms - 2298000
+2026-11-16 14:55:58:768 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":1650,"y":372}]}
+2026-11-16 14:55:59:016 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 247 ms - 14
+2026-11-16 14:55:59:020 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:01:082 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2061 ms - 2298000
+2026-11-16 14:56:01:619 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:02:353 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 733 ms - 128336
+2026-11-16 14:56:02:527 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":300,"y":183}]}
+2026-11-16 14:56:02:708 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 180 ms - 14
+2026-11-16 14:56:03:314 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:04:003 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 688 ms - 135888
+2026-11-16 14:56:04:165 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":185,"y":680}]}
+2026-11-16 14:56:04:289 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 124 ms - 14
+2026-11-16 14:56:04:313 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:04:750 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 437 ms - 135776
+2026-11-16 14:56:05:206 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:05:940 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 733 ms - 163720
+2026-11-16 14:56:06:136 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":867,"y":560}]}
+2026-11-16 14:56:06:256 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 119 ms - 14
+2026-11-16 14:56:06:259 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:07:126 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 866 ms - 136544
+2026-11-16 14:56:07:537 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":185,"y":680}]}
+2026-11-16 14:56:07:720 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 183 ms - 14
+2026-11-16 14:56:07:724 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:08:456 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 731 ms - 164652
+2026-11-16 14:56:08:633 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":1133,"y":560}]}
+2026-11-16 14:56:08:785 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 152 ms - 14
+2026-11-16 14:56:08:789 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:09:220 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 430 ms - 164996
+2026-11-16 14:56:09:665 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:12:271 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2603 ms - 2032704
+2026-11-16 14:56:13:106 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":50,"y":50}]}
+2026-11-16 14:56:13:285 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 179 ms - 14
+2026-11-16 14:56:13:288 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:15:676 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2387 ms - 2032704
+2026-11-16 14:56:16:249 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:17:062 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 812 ms - 199012
+2026-11-16 14:56:17:239 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":848,"y":723}]}
+2026-11-16 14:56:17:416 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 177 ms - 14
+2026-11-16 14:56:17:420 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:18:094 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 673 ms - 135756
+2026-11-16 14:56:24:504 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:25:331 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 827 ms - 8588
+2026-11-16 14:56:25:742 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:26:039 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 297 ms - 8588
+2026-11-16 14:56:26:471 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:26:763 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 291 ms - 8588
+2026-11-16 14:56:27:174 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:27:471 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 297 ms - 8588
+2026-11-16 14:56:27:885 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:28:325 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 438 ms - 43192
+2026-11-16 14:56:28:792 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:29:155 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 362 ms - 8588
+2026-11-16 14:56:29:566 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:29:836 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 270 ms - 8588
+2026-11-16 14:56:30:266 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:30:582 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 316 ms - 8588
+2026-11-16 14:56:30:999 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:33:389 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2388 ms - 1498056
+2026-11-16 14:56:33:919 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":990,"y":372}]}
+2026-11-16 14:56:34:105 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 186 ms - 14
+2026-11-16 14:56:34:125 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:35:327 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1202 ms - 1498056
+2026-11-16 14:56:35:811 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:37:365 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1548 ms - 1498056
+2026-11-16 14:56:37:868 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:38:357 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 488 ms - 118000
+2026-11-16 14:56:38:448 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":300,"y":183}]}
+2026-11-16 14:56:38:595 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 147 ms - 14
+2026-11-16 14:56:39:206 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:39:707 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 500 ms - 123432
+2026-11-16 14:56:39:814 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":185,"y":680}]}
+2026-11-16 14:56:39:987 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 172 ms - 14
+2026-11-16 14:56:40:012 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:40:371 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 358 ms - 123380
+2026-11-16 14:56:40:802 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:41:335 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 532 ms - 147856
+2026-11-16 14:56:41:437 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":733,"y":560}]}
+2026-11-16 14:56:41:571 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 134 ms - 14
+2026-11-16 14:56:41:574 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:41:920 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 345 ms - 148112
+2026-11-16 14:56:42:341 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:44:882 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2539 ms - 1870904
+2026-11-16 14:56:45:567 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":50,"y":50}]}
+2026-11-16 14:56:45:745 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 177 ms - 14
+2026-11-16 14:56:45:748 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:47:889 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2137 ms - 1870904
+2026-11-16 14:56:48:420 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:49:043 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 616 ms - 155612
+2026-11-16 14:56:49:132 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":752,"y":723}]}
+2026-11-16 14:56:49:318 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 186 ms - 14
+2026-11-16 14:56:49:321 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:49:681 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 359 ms - 121300
+2026-11-16 14:56:50:133 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 14:56:52:686 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2548 ms - 1498060
+2026-11-16 14:56:55:513 - [SESSION][HTTP] --> DELETE /session/SESSION_ID 
+2026-11-16 14:56:57:411 - [SESSION][HTTP] <-- DELETE /session/SESSION_ID 200 1897 ms - 14
+2026-11-16 15:02:35:150 - [SESSION][HTTP] <-- POST /session 200 14171 ms - 966
+2026-11-16 15:02:35:157 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:02:41:087 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 5929 ms - 1927532
+2026-11-16 15:02:42:263 - [SESSION][HTTP] --> DELETE /session/SESSION_ID 
+2026-11-16 15:02:43:670 - [SESSION][HTTP] <-- DELETE /session/SESSION_ID 200 1406 ms - 14
+2026-11-16 15:04:07:641 - [SESSION][HTTP] <-- POST /session 200 6145 ms - 966
+2026-11-16 15:04:07:665 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:04:09:478 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1812 ms - 1927532
+2026-11-16 15:04:09:963 - [SESSION][HTTP] --> DELETE /session/SESSION_ID 
+2026-11-16 15:04:11:203 - [SESSION][HTTP] <-- DELETE /session/SESSION_ID 200 1240 ms - 14
+2026-11-16 15:08:05:567 - [SESSION][HTTP] <-- POST /session 200 4129 ms - 970
+2026-11-16 15:08:07:132 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:08:08:069 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 937 ms - 97712
+2026-11-16 15:08:08:541 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:08:08:822 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 280 ms - 15968
+2026-11-16 15:08:09:292 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:08:09:757 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 465 ms - 15968
+2026-11-16 15:08:10:212 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:08:10:813 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 600 ms - 60528
+2026-11-16 15:08:11:285 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:08:11:530 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 245 ms - 15968
+2026-11-16 15:08:11:964 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:08:12:222 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 257 ms - 15968
+2026-11-16 15:08:12:665 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:08:15:360 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2693 ms - 2754928
+2026-11-16 15:08:15:963 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:08:18:427 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2462 ms - 2754928
+2026-11-16 15:08:19:034 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:08:21:472 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2437 ms - 2754928
+2026-11-16 15:08:22:119 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:08:24:707 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2587 ms - 2754928
+2026-11-16 15:08:25:351 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:08:27:945 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2593 ms - 2754928
+2026-11-16 15:08:28:591 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:08:31:697 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 3105 ms - 2754928
+2026-11-16 15:08:32:350 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:08:35:139 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2789 ms - 2754928
+2026-11-16 15:08:35:786 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:08:38:668 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2880 ms - 2754928
+2026-11-16 15:08:39:307 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:08:41:752 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2444 ms - 2754928
+2026-11-16 15:08:42:437 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:08:47:400 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 4954 ms - 2754928
+2026-11-16 15:08:48:441 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:08:55:606 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 7159 ms - 2754928
+2026-11-16 15:09:00:548 - [SESSION][HTTP] --> DELETE /session/SESSION_ID 
+2026-11-16 15:09:02:348 - [SESSION][HTTP] <-- DELETE /session/SESSION_ID 200 1800 ms - 14
+2026-11-16 15:09:59:597 - [SESSION][HTTP] <-- POST /session 200 6318 ms - 970
+2026-11-16 15:10:02:771 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:10:03:591 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 819 ms - 50548
+2026-11-16 15:10:04:055 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:10:04:301 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 246 ms - 15968
+2026-11-16 15:10:04:746 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:10:05:078 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 331 ms - 15968
+2026-11-16 15:10:05:543 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:10:05:974 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 431 ms - 60672
+2026-11-16 15:10:06:448 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:10:06:838 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 390 ms - 15968
+2026-11-16 15:10:07:274 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:10:07:550 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 276 ms - 15968
+2026-11-16 15:10:08:016 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:10:11:326 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 3308 ms - 2754928
+2026-11-16 15:10:12:044 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:10:15:127 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 3082 ms - 2754928
+2026-11-16 15:10:15:739 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:10:18:501 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2761 ms - 2754928
+2026-11-16 15:10:19:100 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:10:21:883 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2782 ms - 2754928
+2026-11-16 15:10:22:559 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:10:25:013 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2453 ms - 2754928
+2026-11-16 15:10:25:655 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:10:28:200 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2544 ms - 2754928
+2026-11-16 15:10:28:780 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:10:31:313 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2532 ms - 2754928
+2026-11-16 15:10:31:920 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:10:34:565 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2644 ms - 2754928
+2026-11-16 15:10:35:161 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:10:37:492 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2329 ms - 2754928
+2026-11-16 15:10:38:139 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:10:40:447 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2307 ms - 2754928
+2026-11-16 15:10:41:030 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:10:43:660 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2629 ms - 2754928
+2026-11-16 15:10:44:240 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:10:46:711 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2470 ms - 2754928
+2026-11-16 15:10:47:305 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:10:49:471 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2165 ms - 2754928
+2026-11-16 15:10:52:216 - [SESSION][HTTP] --> DELETE /session/SESSION_ID 
+2026-11-16 15:10:53:743 - [SESSION][HTTP] <-- DELETE /session/SESSION_ID 200 1526 ms - 14
+2026-11-16 15:11:43:593 - [SESSION][HTTP] <-- POST /session 200 4326 ms - 970
+2026-11-16 15:11:44:941 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:11:45:968 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1026 ms - 15976
+2026-11-16 15:11:46:453 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:11:47:064 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 611 ms - 15968
+2026-11-16 15:11:47:539 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:11:48:087 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 547 ms - 15968
+2026-11-16 15:11:48:608 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:11:49:719 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1110 ms - 15968
+2026-11-16 15:11:50:198 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:11:50:608 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 410 ms - 15968
+2026-11-16 15:11:51:079 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:11:51:636 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 556 ms - 15968
+2026-11-16 15:11:52:124 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:11:57:830 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 5706 ms - 2754928
+2026-11-16 15:11:59:168 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":1854,"y":446}]}
+2026-11-16 15:11:59:318 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 149 ms - 14
+2026-11-16 15:11:59:321 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:12:02:010 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 2687 ms - 2755808
+2026-11-16 15:12:02:591 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:12:05:828 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 3234 ms - 2754928
+2026-11-16 15:12:06:429 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:12:07:229 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 799 ms - 153036
+2026-11-16 15:12:07:696 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:12:08:453 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 755 ms - 153036
+2026-11-16 15:12:08:933 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:12:09:735 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 800 ms - 153036
+2026-11-16 15:12:10:224 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:12:10:903 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 677 ms - 153036
+2026-11-16 15:12:11:379 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:12:12:011 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 632 ms - 153036
+2026-11-16 15:12:12:478 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:12:13:201 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 722 ms - 153036
+2026-11-16 15:12:13:667 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:12:14:430 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 763 ms - 153036
+2026-11-16 15:12:14:895 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:12:15:626 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 731 ms - 153036
+2026-11-16 15:12:16:094 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:12:16:759 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 664 ms - 153036
+2026-11-16 15:12:17:224 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:12:18:181 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 955 ms - 153036
+2026-11-16 15:12:18:645 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:12:19:396 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 750 ms - 153036
+2026-11-16 15:12:19:866 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:12:20:614 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 749 ms - 153036
+2026-11-16 15:12:21:094 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:12:21:951 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 855 ms - 153036
+2026-11-16 15:12:22:434 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:12:23:371 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 936 ms - 153036
+2026-11-16 15:12:23:872 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:12:24:954 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1081 ms - 153036
+2026-11-16 15:12:25:431 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:12:26:544 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1111 ms - 153036
+2026-11-16 15:12:27:027 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:12:27:956 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 926 ms - 153036
+2026-11-16 15:12:28:452 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:12:29:276 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 822 ms - 153036
+2026-11-16 15:12:33:196 - [SESSION][HTTP] --> DELETE /session/SESSION_ID 
+2026-11-16 15:12:35:620 - [SESSION][HTTP] <-- DELETE /session/SESSION_ID 200 2422 ms - 14
+2026-11-16 15:13:53:282 - [SESSION][HTTP] <-- POST /session 200 7343 ms - 970
+2026-11-16 15:13:56:103 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:13:57:251 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1148 ms - 148836
+2026-11-16 15:13:57:748 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:13:58:213 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 465 ms - 15968
+2026-11-16 15:13:58:670 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:13:59:233 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 562 ms - 15968
+2026-11-16 15:13:59:717 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:14:00:706 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 988 ms - 15968
+2026-11-16 15:14:01:232 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:14:01:999 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 766 ms - 15968
+2026-11-16 15:14:02:480 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:14:03:120 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 640 ms - 15968
+2026-11-16 15:14:03:600 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:14:04:304 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 703 ms - 15968
+2026-11-16 15:14:04:826 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:14:12:261 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 7421 ms - 2754928
+2026-11-16 15:14:15:447 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":1854,"y":446}]}
+2026-11-16 15:14:15:994 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 546 ms - 14
+2026-11-16 15:14:16:004 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:14:20:080 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 4071 ms - 2755808
+2026-11-16 15:14:21:408 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:14:26:816 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 5404 ms - 2754928
+2026-11-16 15:14:28:680 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:14:30:503 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1820 ms - 152852
+2026-11-16 15:14:31:268 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:14:32:807 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1532 ms - 152852
+2026-11-16 15:14:33:558 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:14:34:985 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1427 ms - 152852
+2026-11-16 15:14:35:800 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:14:37:128 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1327 ms - 152852
+2026-11-16 15:14:37:891 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:14:39:366 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1472 ms - 152852
+2026-11-16 15:14:40:212 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:14:41:796 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1579 ms - 152852
+2026-11-16 15:14:42:649 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:14:44:083 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1434 ms - 152852
+2026-11-16 15:14:44:917 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:14:46:390 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1464 ms - 152852
+2026-11-16 15:14:52:562 - [SESSION][HTTP] --> DELETE /session/SESSION_ID 
+2026-11-16 15:14:55:713 - [SESSION][HTTP] <-- DELETE /session/SESSION_ID 200 3150 ms - 14
+2026-11-16 15:15:53:831 - [SESSION][HTTP] <-- POST /session 200 15179 ms - 970
+2026-11-16 15:15:59:990 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:16:01:801 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1807 ms - 15976
+2026-11-16 15:16:02:366 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:16:03:091 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 725 ms - 15968
+2026-11-16 15:16:03:577 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:16:04:430 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 852 ms - 15968
+2026-11-16 15:16:04:911 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:16:05:704 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 794 ms - 15968
+2026-11-16 15:16:06:208 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:16:07:369 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1160 ms - 55836
+2026-11-16 15:16:07:854 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:16:08:672 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 816 ms - 15968
+2026-11-16 15:16:09:207 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:16:09:950 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 742 ms - 15968
+2026-11-16 15:16:10:466 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:16:21:360 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 10885 ms - 2754928
+2026-11-16 15:16:23:971 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":1854,"y":446}]}
+2026-11-16 15:16:24:297 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 325 ms - 14
+2026-11-16 15:16:24:321 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:16:27:623 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 3300 ms - 2754928
+2026-11-16 15:16:28:705 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:16:33:934 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 5227 ms - 2754928
+2026-11-16 15:16:35:717 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:16:37:180 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1449 ms - 152592
+2026-11-16 15:16:37:719 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: clickGesture","args":[{"x":1176,"y":623}]}
+2026-11-16 15:16:37:934 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 214 ms - 14
+2026-11-16 15:16:37:942 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:16:39:011 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 1068 ms - 152768
+2026-11-16 15:16:39:643 - [SESSION][HTTP] --> GET /session/SESSION_ID/screenshot 
+2026-11-16 15:16:40:545 - [SESSION][HTTP] <-- GET /session/SESSION_ID/screenshot 200 901 ms - 139804
+2026-11-16 15:16:41:007 - [SESSION][HTTP] --> GET /session/SESSION_ID/source 
+2026-11-16 15:16:41:526 - [SESSION][HTTP] <-- GET /session/SESSION_ID/source 200 518 ms - 4439
+2026-11-16 15:16:41:541 - [SESSION][HTTP] --> POST /session/SESSION_ID/execute/sync {"script":"mobile: pressKey","args":[{"keycode":3}]}
+2026-11-16 15:16:41:737 - [SESSION][HTTP] <-- POST /session/SESSION_ID/execute/sync 200 196 ms - 14
+2026-11-16 15:16:48:096 - [SESSION][HTTP] --> DELETE /session/SESSION_ID 
+2026-11-16 15:16:51:347 - [SESSION][HTTP] <-- DELETE /session/SESSION_ID 200 3250 ms - 14

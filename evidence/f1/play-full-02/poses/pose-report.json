@@ -1,0 +1,1105 @@
+{
+    "scope": "Isolated Unity renderer poses, not native gameplay or performance",
+    "poses": [
+        {
+            "id": "Milk",
+            "action": "idle",
+            "sprite": "Idle_1",
+            "capture": "milk-idle.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.0,
+                "y": -0.8125,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "renderedColors": 10,
+            "foregroundPixels": 60302
+        },
+        {
+            "id": "Milk",
+            "action": "walk",
+            "sprite": "Walk_1",
+            "capture": "milk-walk.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": -0.15625,
+                "y": -0.75,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": -0.15625,
+                "y": 0.0625,
+                "z": 0.0
+            },
+            "renderedColors": 10,
+            "foregroundPixels": 61186
+        },
+        {
+            "id": "Milk",
+            "action": "jump",
+            "sprite": "Jump_3",
+            "capture": "milk-jump.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": -0.15625,
+                "y": -0.75,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": -0.15625,
+                "y": 0.0625,
+                "z": 0.0
+            },
+            "renderedColors": 10,
+            "foregroundPixels": 58464
+        },
+        {
+            "id": "Milk",
+            "action": "sleep",
+            "sprite": "Sleep_0",
+            "capture": "milk-sleep.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": -0.15625,
+                "y": -0.75,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": -0.15625,
+                "y": 0.0625,
+                "z": 0.0
+            },
+            "renderedColors": 7,
+            "foregroundPixels": 50203
+        },
+        {
+            "id": "Tabby",
+            "action": "idle",
+            "sprite": "Idle_1",
+            "capture": "tabby-idle.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.0,
+                "y": -0.8125,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "renderedColors": 11,
+            "foregroundPixels": 60302
+        },
+        {
+            "id": "Tabby",
+            "action": "walk",
+            "sprite": "Walk_1",
+            "capture": "tabby-walk.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.15625,
+                "y": -0.90625,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.15625,
+                "y": -0.09375,
+                "z": 0.0
+            },
+            "renderedColors": 11,
+            "foregroundPixels": 61186
+        },
+        {
+            "id": "Tabby",
+            "action": "jump",
+            "sprite": "Jump_3",
+            "capture": "tabby-jump.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.15625,
+                "y": -0.90625,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.15625,
+                "y": -0.09375,
+                "z": 0.0
+            },
+            "renderedColors": 11,
+            "foregroundPixels": 58464
+        },
+        {
+            "id": "Tabby",
+            "action": "sleep",
+            "sprite": "Sleep_0",
+            "capture": "tabby-sleep.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.15625,
+                "y": -0.90625,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.15625,
+                "y": -0.09375,
+                "z": 0.0
+            },
+            "renderedColors": 8,
+            "foregroundPixels": 50203
+        },
+        {
+            "id": "Snow",
+            "action": "idle",
+            "sprite": "Idle_1",
+            "capture": "snow-idle.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.0,
+                "y": -0.8125,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "renderedColors": 10,
+            "foregroundPixels": 60302
+        },
+        {
+            "id": "Snow",
+            "action": "walk",
+            "sprite": "Walk_1",
+            "capture": "snow-walk.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": -0.15625,
+                "y": -0.875,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": -0.15625,
+                "y": -0.0625,
+                "z": 0.0
+            },
+            "renderedColors": 10,
+            "foregroundPixels": 61186
+        },
+        {
+            "id": "Snow",
+            "action": "jump",
+            "sprite": "Jump_4",
+            "capture": "snow-jump.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": -0.15625,
+                "y": -0.875,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": -0.15625,
+                "y": -0.0625,
+                "z": 0.0
+            },
+            "renderedColors": 10,
+            "foregroundPixels": 60313
+        },
+        {
+            "id": "Snow",
+            "action": "sleep",
+            "sprite": "Sleep_0",
+            "capture": "snow-sleep.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": -0.15625,
+                "y": -0.875,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": -0.15625,
+                "y": -0.0625,
+                "z": 0.0
+            },
+            "renderedColors": 7,
+            "foregroundPixels": 50203
+        },
+        {
+            "id": "Calico",
+            "action": "idle",
+            "sprite": "Idle_1",
+            "capture": "calico-idle.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.0,
+                "y": -0.8125,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "renderedColors": 12,
+            "foregroundPixels": 60302
+        },
+        {
+            "id": "Calico",
+            "action": "walk",
+            "sprite": "Walk_1",
+            "capture": "calico-walk.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.15625,
+                "y": -0.8125,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.15625,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "renderedColors": 12,
+            "foregroundPixels": 61186
+        },
+        {
+            "id": "Calico",
+            "action": "jump",
+            "sprite": "Jump_3",
+            "capture": "calico-jump.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.15625,
+                "y": -0.8125,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.15625,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "renderedColors": 12,
+            "foregroundPixels": 58464
+        },
+        {
+            "id": "Calico",
+            "action": "sleep",
+            "sprite": "Sleep_0",
+            "capture": "calico-sleep.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.15625,
+                "y": -0.8125,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.15625,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "renderedColors": 9,
+            "foregroundPixels": 50203
+        },
+        {
+            "id": "Tuxedo",
+            "action": "idle",
+            "sprite": "Idle_1",
+            "capture": "tuxedo-idle.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.0,
+                "y": -0.8125,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "renderedColors": 13,
+            "foregroundPixels": 60302
+        },
+        {
+            "id": "Tuxedo",
+            "action": "walk",
+            "sprite": "Walk_1",
+            "capture": "tuxedo-walk.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.15625,
+                "y": -0.8125,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.15625,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "renderedColors": 13,
+            "foregroundPixels": 61186
+        },
+        {
+            "id": "Tuxedo",
+            "action": "jump",
+            "sprite": "Jump_3",
+            "capture": "tuxedo-jump.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.15625,
+                "y": -0.8125,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.15625,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "renderedColors": 13,
+            "foregroundPixels": 58464
+        },
+        {
+            "id": "Tuxedo",
+            "action": "sleep",
+            "sprite": "Sleep_0",
+            "capture": "tuxedo-sleep.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.15625,
+                "y": -0.8125,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.15625,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "renderedColors": 10,
+            "foregroundPixels": 50203
+        },
+        {
+            "id": "Siamese",
+            "action": "idle",
+            "sprite": "Idle_1",
+            "capture": "siamese-idle.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.0,
+                "y": -0.8125,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "renderedColors": 12,
+            "foregroundPixels": 60302
+        },
+        {
+            "id": "Siamese",
+            "action": "walk",
+            "sprite": "Walk_1",
+            "capture": "siamese-walk.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.0625,
+                "y": -0.96875,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.0625,
+                "y": -0.15625,
+                "z": 0.0
+            },
+            "renderedColors": 12,
+            "foregroundPixels": 61186
+        },
+        {
+            "id": "Siamese",
+            "action": "jump",
+            "sprite": "Jump_3",
+            "capture": "siamese-jump.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.0625,
+                "y": -0.96875,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.0625,
+                "y": -0.15625,
+                "z": 0.0
+            },
+            "renderedColors": 12,
+            "foregroundPixels": 58464
+        },
+        {
+            "id": "Siamese",
+            "action": "sleep",
+            "sprite": "Sleep_0",
+            "capture": "siamese-sleep.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.0625,
+                "y": -0.96875,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.0625,
+                "y": -0.15625,
+                "z": 0.0
+            },
+            "renderedColors": 9,
+            "foregroundPixels": 50203
+        },
+        {
+            "id": "Tiger",
+            "action": "idle",
+            "sprite": "Idle_1",
+            "capture": "tiger-idle.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.0,
+                "y": -0.8125,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "renderedColors": 12,
+            "foregroundPixels": 60302
+        },
+        {
+            "id": "Tiger",
+            "action": "walk",
+            "sprite": "Walk_1",
+            "capture": "tiger-walk.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.125,
+                "y": -0.90625,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.125,
+                "y": -0.09375,
+                "z": 0.0
+            },
+            "renderedColors": 12,
+            "foregroundPixels": 61186
+        },
+        {
+            "id": "Tiger",
+            "action": "jump",
+            "sprite": "Jump_3",
+            "capture": "tiger-jump.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.125,
+                "y": -0.90625,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.125,
+                "y": -0.09375,
+                "z": 0.0
+            },
+            "renderedColors": 12,
+            "foregroundPixels": 58464
+        },
+        {
+            "id": "Tiger",
+            "action": "sleep",
+            "sprite": "Sleep_0",
+            "capture": "tiger-sleep.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.125,
+                "y": -0.90625,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.125,
+                "y": -0.09375,
+                "z": 0.0
+            },
+            "renderedColors": 9,
+            "foregroundPixels": 50203
+        },
+        {
+            "id": "Egypt",
+            "action": "idle",
+            "sprite": "Idle_1",
+            "capture": "egypt-idle.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.0,
+                "y": -0.8125,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "renderedColors": 12,
+            "foregroundPixels": 60836
+        },
+        {
+            "id": "Egypt",
+            "action": "walk",
+            "sprite": "Walk_1",
+            "capture": "egypt-walk.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.0625,
+                "y": -0.6875,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.0625,
+                "y": 0.125,
+                "z": 0.0
+            },
+            "renderedColors": 12,
+            "foregroundPixels": 61714
+        },
+        {
+            "id": "Egypt",
+            "action": "jump",
+            "sprite": "Jump_3",
+            "capture": "egypt-jump.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.0625,
+                "y": -0.6875,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.0625,
+                "y": 0.125,
+                "z": 0.0
+            },
+            "renderedColors": 12,
+            "foregroundPixels": 59095
+        },
+        {
+            "id": "Egypt",
+            "action": "sleep",
+            "sprite": "Sleep_0",
+            "capture": "egypt-sleep.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.0625,
+                "y": -0.6875,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.0625,
+                "y": 0.125,
+                "z": 0.0
+            },
+            "renderedColors": 12,
+            "foregroundPixels": 50731
+        },
+        {
+            "id": "Batcat",
+            "action": "idle",
+            "sprite": "Idle_1",
+            "capture": "batcat-idle.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.0,
+                "y": -0.8125,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "renderedColors": 12,
+            "foregroundPixels": 60302
+        },
+        {
+            "id": "Batcat",
+            "action": "walk",
+            "sprite": "Walk_1",
+            "capture": "batcat-walk.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": -0.09375,
+                "y": -0.9375,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": -0.09375,
+                "y": -0.125,
+                "z": 0.0
+            },
+            "renderedColors": 12,
+            "foregroundPixels": 61186
+        },
+        {
+            "id": "Batcat",
+            "action": "jump",
+            "sprite": "Jump_3",
+            "capture": "batcat-jump.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": -0.09375,
+                "y": -0.9375,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": -0.09375,
+                "y": -0.125,
+                "z": 0.0
+            },
+            "renderedColors": 12,
+            "foregroundPixels": 58464
+        },
+        {
+            "id": "Batcat",
+            "action": "sleep",
+            "sprite": "Sleep_0",
+            "capture": "batcat-sleep.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": -0.09375,
+                "y": -0.9375,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": -0.09375,
+                "y": -0.125,
+                "z": 0.0
+            },
+            "renderedColors": 9,
+            "foregroundPixels": 50203
+        },
+        {
+            "id": "Demon",
+            "action": "idle",
+            "sprite": "Idle_1",
+            "capture": "demon-idle.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.0,
+                "y": -0.8125,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "renderedColors": 12,
+            "foregroundPixels": 60302
+        },
+        {
+            "id": "Demon",
+            "action": "walk",
+            "sprite": "Walk_1",
+            "capture": "demon-walk.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.15625,
+                "y": -0.84375,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.15625,
+                "y": -0.03125,
+                "z": 0.0
+            },
+            "renderedColors": 12,
+            "foregroundPixels": 61186
+        },
+        {
+            "id": "Demon",
+            "action": "jump",
+            "sprite": "Jump_3",
+            "capture": "demon-jump.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.15625,
+                "y": -0.84375,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.15625,
+                "y": -0.03125,
+                "z": 0.0
+            },
+            "renderedColors": 12,
+            "foregroundPixels": 58464
+        },
+        {
+            "id": "Demon",
+            "action": "sleep",
+            "sprite": "Sleep_0",
+            "capture": "demon-sleep.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.15625,
+                "y": -0.84375,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.15625,
+                "y": -0.03125,
+                "z": 0.0
+            },
+            "renderedColors": 10,
+            "foregroundPixels": 50203
+        },
+        {
+            "id": "Xmas",
+            "action": "idle",
+            "sprite": "Idle_1",
+            "capture": "xmas-idle.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": 0.0,
+                "y": -0.8125,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "renderedColors": 13,
+            "foregroundPixels": 65310
+        },
+        {
+            "id": "Xmas",
+            "action": "walk",
+            "sprite": "Walk_1",
+            "capture": "xmas-walk.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": -0.15625,
+                "y": -0.875,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": -0.15625,
+                "y": -0.0625,
+                "z": 0.0
+            },
+            "renderedColors": 13,
+            "foregroundPixels": 66145
+        },
+        {
+            "id": "Xmas",
+            "action": "jump",
+            "sprite": "Jump_3",
+            "capture": "xmas-jump.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": -0.15625,
+                "y": -0.875,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": -0.15625,
+                "y": -0.0625,
+                "z": 0.0
+            },
+            "renderedColors": 13,
+            "foregroundPixels": 63037
+        },
+        {
+            "id": "Xmas",
+            "action": "sleep",
+            "sprite": "Sleep_0",
+            "capture": "xmas-sleep.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 6.0
+            },
+            "objectPosition": {
+                "x": -0.15625,
+                "y": -0.875,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": -0.15625,
+                "y": -0.0625,
+                "z": 0.0
+            },
+            "renderedColors": 11,
+            "foregroundPixels": 55180
+        }
+    ]
+}

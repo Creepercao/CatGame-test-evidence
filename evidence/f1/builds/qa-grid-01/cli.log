@@ -1,0 +1,15 @@
+构建成功，但编辑器日志报告了以下错误：
+  [许可证] [Licensing::IpcConnector] Connection attempt to the License Client on channel: "LicenseClient-Creep" failed because channel doesn't exist; code: "0x80000002"
+  [许可证] [Licensing::Client] Error: Code 10 while verifying Licensing Client signature (process Id: 84808, path: "D:/Unity/2022.3.21f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+  [许可证] [Licensing::Module] Error: LicensingClient has failed validation; ignoring
+  CS0103 Assets\Scripts\WorldItemArt.cs(20,25): The name 'WorldArtSettings' does not exist in the current context
+  CS0246 Assets\Scripts\CatWorld.cs(55,51): The type or namespace name 'WorldPixelCamera' could not be found (are you missing a using directive or an assembly reference?)
+  CS0246 Assets\Scripts\CatWorld.cs(56,83): The type or namespace name 'WorldPixelCamera' could not be found (are you missing a using directive or an assembly reference?)
+  CS0103 Assets\Scripts\CatActor.cs(67,20): The name 'WorldArtSettings' does not exist in the current context
+  CS0103 Assets\Scripts\CatWorld.cs(89,55): The name 'WorldArtSettings' does not exist in the current context
+  CS0103 Assets\Scripts\CatActor.cs(137,79): The name 'WorldArtSettings' does not exist in the current context
+  CS0246 Assets\Scripts\PlayerArtMetricsQA.cs(117,55): The type or namespace name 'WorldPixelCamera' could not be found (are you missing a using directive or an assembly reference?)
+  CS0103 Assets\Scripts\PlayerArtMetricsQA.cs(122,39): The name 'WorldArtSettings' does not exist in the current context
+  CS0103 Assets\Scripts\CatActor.cs(407,20): The name 'WorldArtSettings' does not exist in the current context
+  CS0103 Assets\Scripts\CatActor.cs(412,27): The name 'WorldArtSettings' does not exist in the current context
+  CS0103 Assets\Scripts\PlayerArtMetricsQA.cs(179,66): The name 'WorldArtSettings' does not exist in the current context

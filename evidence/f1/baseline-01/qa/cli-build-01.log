@@ -1,0 +1,5 @@
+构建成功，但编辑器日志报告了以下错误：
+  [许可证] [Licensing::IpcConnector] Connection attempt to the License Client on channel: "LicenseClient-Creep" failed because channel doesn't exist; code: "0x80000002"
+  [许可证] [Licensing::Client] Error: Code 10 while verifying Licensing Client signature (process Id: 77548, path: "D:/Unity/2022.3.21f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+  [许可证] [Licensing::Module] Error: LicensingClient has failed validation; ignoring
+  CS0103 Assets\Scripts\PlayerVisualQA.cs(65,51): The name 'F1ArtFlow' does not exist in the current context

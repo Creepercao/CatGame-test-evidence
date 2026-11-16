@@ -1,0 +1,22 @@
+{
+  "trackedPaths": 476,
+  "forbiddenPaths": [],
+  "privateQaMarkers": [],
+  "releaseSource": "1b82df9",
+  "runtimeSource": "f536871",
+  "onlyTagSourceDifference": [
+    "README.md"
+  ],
+  "builds": {
+    "android-candidate-02": {
+      "exit": 0,
+      "cSharpErrors": 0,
+      "source": "f536871"
+    },
+    "windows-candidate-02": {
+      "exit": 0,
+      "cSharpErrors": 0,
+      "source": "f536871"
+    }
+  }
+}

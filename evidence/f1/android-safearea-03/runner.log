@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "PROJECT_ROOT\Tests\robot\android/f1_safearea.py", line 45, in <module>
+    assert time.monotonic() < deadline, 'Native menu did not settle at 2220x1080'
+AssertionError: Native menu did not settle at 2220x1080

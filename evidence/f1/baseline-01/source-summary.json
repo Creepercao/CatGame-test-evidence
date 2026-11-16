@@ -1,0 +1,63 @@
+{
+  "categories": {
+    "pixel-cat": {
+      "count": 44,
+      "ppu": {
+        "32": 44
+      },
+      "filterMode": {
+        "0": 44
+      }
+    },
+    "pixel-item": {
+      "count": 21,
+      "ppu": {
+        "100": 21
+      },
+      "filterMode": {
+        "0": 21
+      }
+    },
+    "pixel-room": {
+      "count": 7,
+      "ppu": {
+        "100": 7
+      },
+      "filterMode": {
+        "0": 7
+      }
+    },
+    "pixel-ui": {
+      "count": 3,
+      "ppu": {
+        "100": 3
+      },
+      "filterMode": {
+        "0": 3
+      }
+    }
+  },
+  "frameBottomGaps": {
+    "Idle": {
+      "minimumTransparentBottomRows": 5,
+      "maximumTransparentBottomRows": 5,
+      "frames": 88
+    },
+    "Walk": {
+      "minimumTransparentBottomRows": 5,
+      "maximumTransparentBottomRows": 5,
+      "frames": 88
+    },
+    "Jump": {
+      "minimumTransparentBottomRows": 5,
+      "maximumTransparentBottomRows": 9,
+      "frames": 132
+    },
+    "Sleep": {
+      "minimumTransparentBottomRows": 5,
+      "maximumTransparentBottomRows": 5,
+      "frames": 88
+    }
+  },
+  "notRuntimeUsageProof": true
+}

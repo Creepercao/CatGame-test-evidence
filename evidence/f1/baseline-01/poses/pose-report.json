@@ -1,0 +1,77 @@
+{
+    "scope": "Isolated Unity renderer poses, not native gameplay or performance",
+    "poses": [
+        {
+            "id": "Milk",
+            "action": "idle",
+            "sprite": "Idle_1",
+            "capture": "milk-idle.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 32.0
+            },
+            "objectPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "renderedColors": 10
+        },
+        {
+            "id": "Milk",
+            "action": "walk",
+            "sprite": "Walk_1",
+            "capture": "milk-walk.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 32.0
+            },
+            "objectPosition": {
+                "x": -0.10999999940395355,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": -0.10999999940395355,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "renderedColors": 10
+        },
+        {
+            "id": "Milk",
+            "action": "jump",
+            "sprite": "Jump_3",
+            "capture": "milk-jump.png",
+            "ppu": 32.0,
+            "worldWidth": 2.0,
+            "worldHeight": 2.0,
+            "pivot": {
+                "x": 32.0,
+                "y": 32.0
+            },
+            "objectPosition": {
+                "x": -0.10999999940395355,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "rendererCenter": {
+                "x": -0.10999999940395355,
+                "y": 0.12999999523162843,
+                "z": 0.0
+            },
+            "renderedColors": 10
+        }
+    ]
+}

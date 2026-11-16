@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "PROJECT_ROOT\Tests\robot\android/f1_ending_runner.py", line 34, in <module>
+    run(game, fixture)
+  File "PROJECT_ROOT\Tests\robot\android\check_ending.py", line 65, in run
+    game.wait_for_visual("menu", "initial-menu.png")
+  File "PROJECT_ROOT\Tests\robot\android/f1_ending_runner.py", line 24, in wait_for_visual
+    return super().wait_for_visual(target, name, timeout=45 if target == 'menu' else timeout, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "PROJECT_ROOT\Tests\robot\android\AndroidGame.py", line 153, in wait_for_visual
+    raise AssertionError(f"{target} absent, mean RGB error {error:.2f} in {name}")
+AssertionError: menu absent, mean RGB error 57.03 in initial-menu.png

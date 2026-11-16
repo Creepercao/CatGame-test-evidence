@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-15T22:36:48.205081" rpa="false" schemaversion="5">
+<suite id="s1" name="Player Visual" source="PROJECT_ROOT\Tests\robot\tests\player_visual.robot">
+<test id="s1-t1" name="Player Captures All Sizes And Completes Roster Observation" line="14">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-11-15T22:36:48.246958" level="INFO">${root} = PROJECT_ROOT\Build\F1\visual-grid-02/player</msg>
+<var>${root}</var>
+<arg>${OUTPUT DIR}/player</arg>
+<doc>Returns the given values which can then be assigned to a variable.</doc>
+<status status="PASS" start="2026-11-15T22:36:48.246958" elapsed="0.000000"/>
+</kw>
+<kw name="Create Directory" owner="OperatingSystem">
+<msg time="2026-11-15T22:36:48.247957" level="INFO" html="true">Created directory '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player&lt;/a&gt;'.</msg>
+<arg>${root}</arg>
+<doc>Creates the specified directory.</doc>
+<status status="PASS" start="2026-11-15T22:36:48.246958" elapsed="0.000999"/>
+</kw>
+<kw name="Run Process" owner="Process">
+<msg time="2026-11-15T22:36:48.248957" level="INFO">Starting process:
+PROJECT_ROOT/Build/F1/qa-visual-final/CatGameF1QA.exe -screen-fullscreen 0 -logFile PROJECT_ROOT\Build\F1\visual-grid-02/player.log</msg>
+<msg time="2026-11-15T22:36:48.267742" level="INFO">Waiting for process to complete.</msg>
+<msg time="2026-11-15T22:37:48.598210" level="INFO">Process completed.</msg>
+<msg time="2026-11-15T22:37:48.599218" level="INFO">${run} = &lt;result object with rc 0&gt;</msg>
+<var>${run}</var>
+<arg>${PLAYER_EXE}</arg>
+<arg>-screen-fullscreen</arg>
+<arg>0</arg>
+<arg>-logFile</arg>
+<arg>${OUTPUT DIR}/player.log</arg>
+<arg>cwd=${PROJECT}</arg>
+<arg>env:CATGAME_PLAYER_QA_ROOT=${root}</arg>
+<arg>env:CATGAME_QA_SYSTEM_POINTER=${SYSTEM_POINTER}</arg>
+<arg>env:CATGAME_QA_FLOW=${FLOW}</arg>
+<arg>env:CATGAME_QA_MANUAL_FOCUS=${MANUAL_FOCUS}</arg>
+<arg>timeout=300s</arg>
+<arg>on_timeout=terminate</arg>
+<doc>Runs a process and waits for it to complete.</doc>
+<status status="PASS" start="2026-11-15T22:36:48.248957" elapsed="60.350261"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-15T22:37:48.600219" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${run.rc}</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.599218" elapsed="0.001001"/>
+</kw>
+<kw name="Get File" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.600219" level="INFO" html="true">Getting file '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\intro.txt"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\intro.txt&lt;/a&gt;'.</msg>
+<msg time="2026-11-15T22:37:48.601217" level="INFO">${intro} = completedRuns=1
+introCompleted=true
+noClickThrough=true
+pausedProduction=true
+</msg>
+<var>${intro}</var>
+<arg>${root}/intro.txt</arg>
+<doc>Returns the contents of a specified file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.600219" elapsed="0.000998"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${intro}</arg>
+<arg>introCompleted=true</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.601217" elapsed="0.000000"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${intro}</arg>
+<arg>noClickThrough=true</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.601217" elapsed="0.001001"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${intro}</arg>
+<arg>pausedProduction=true</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.602218" elapsed="0.000000"/>
+</kw>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.602218" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\toast-visible-1280x720.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\toast-visible-1280x720.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/toast-visible-1280x720.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.602218" elapsed="0.000000"/>
+</kw>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.603238" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\toast-fading-1280x720.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\toast-fading-1280x720.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/toast-fading-1280x720.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.603238" elapsed="0.000000"/>
+</kw>
+<for flavor="IN">
+<iter>
+<for flavor="IN">
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.603778" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\home-1920x1080.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\home-1920x1080.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/${page}-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.603778" elapsed="0.000506"/>
+</kw>
+<var name="${page}">home</var>
+<status status="PASS" start="2026-11-15T22:37:48.603778" elapsed="0.000506"/>
+</iter>
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.604284" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\shop-items-1920x1080.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\shop-items-1920x1080.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/${page}-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.604284" elapsed="0.000000"/>
+</kw>
+<var name="${page}">shop-items</var>
+<status status="PASS" start="2026-11-15T22:37:48.604284" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.604284" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\shop-bottom-1920x1080.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\shop-bottom-1920x1080.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/${page}-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.604284" elapsed="0.000000"/>
+</kw>
+<var name="${page}">shop-bottom</var>
+<status status="PASS" start="2026-11-15T22:37:48.604284" elapsed="0.001026"/>
+</iter>
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.605310" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\achievements-top-1920x1080.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\achievements-top-1920x1080.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/${page}-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.605310" elapsed="0.000000"/>
+</kw>
+<var name="${page}">achievements-top</var>
+<status status="PASS" start="2026-11-15T22:37:48.605310" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.605310" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\achievements-bottom-1920x1080.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\achievements-bottom-1920x1080.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/${page}-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.605310" elapsed="0.000000"/>
+</kw>
+<var name="${page}">achievements-bottom</var>
+<status status="PASS" start="2026-11-15T22:37:48.605310" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.606323" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\catalog-top-1920x1080.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\catalog-top-1920x1080.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/${page}-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.605310" elapsed="0.001013"/>
+</kw>
+<var name="${page}">catalog-top</var>
+<status status="PASS" start="2026-11-15T22:37:48.605310" elapsed="0.001013"/>
+</iter>
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.606323" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\catalog-bottom-1920x1080.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\catalog-bottom-1920x1080.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/${page}-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.606323" elapsed="0.000000"/>
+</kw>
+<var name="${page}">catalog-bottom</var>
+<status status="PASS" start="2026-11-15T22:37:48.606323" elapsed="0.000000"/>
+</iter>
+<var>${page}</var>
+<value>home</value>
+<value>shop-items</value>
+<value>shop-bottom</value>
+<value>achievements-top</value>
+<value>achievements-bottom</value>
+<value>catalog-top</value>
+<value>catalog-bottom</value>
+<status status="PASS" start="2026-11-15T22:37:48.603778" elapsed="0.002545"/>
+</for>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.607296" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\intro-welcome-1920x1080.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\intro-welcome-1920x1080.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/intro-welcome-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.606323" elapsed="0.000973"/>
+</kw>
+<var name="${size}">1920x1080</var>
+<status status="PASS" start="2026-11-15T22:37:48.603778" elapsed="0.003518"/>
+</iter>
+<iter>
+<for flavor="IN">
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.607296" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\home-1280x720.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\home-1280x720.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/${page}-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.607296" elapsed="0.001000"/>
+</kw>
+<var name="${page}">home</var>
+<status status="PASS" start="2026-11-15T22:37:48.607296" elapsed="0.001000"/>
+</iter>
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.608296" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\shop-items-1280x720.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\shop-items-1280x720.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/${page}-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.608296" elapsed="0.000000"/>
+</kw>
+<var name="${page}">shop-items</var>
+<status status="PASS" start="2026-11-15T22:37:48.608296" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.609291" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\shop-bottom-1280x720.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\shop-bottom-1280x720.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/${page}-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.608296" elapsed="0.000995"/>
+</kw>
+<var name="${page}">shop-bottom</var>
+<status status="PASS" start="2026-11-15T22:37:48.608296" elapsed="0.000995"/>
+</iter>
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.609291" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\achievements-top-1280x720.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\achievements-top-1280x720.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/${page}-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.609291" elapsed="0.000000"/>
+</kw>
+<var name="${page}">achievements-top</var>
+<status status="PASS" start="2026-11-15T22:37:48.609291" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.610290" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\achievements-bottom-1280x720.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\achievements-bottom-1280x720.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/${page}-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.609291" elapsed="0.000999"/>
+</kw>
+<var name="${page}">achievements-bottom</var>
+<status status="PASS" start="2026-11-15T22:37:48.609291" elapsed="0.000999"/>
+</iter>
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.610290" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\catalog-top-1280x720.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\catalog-top-1280x720.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/${page}-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.610290" elapsed="0.000000"/>
+</kw>
+<var name="${page}">catalog-top</var>
+<status status="PASS" start="2026-11-15T22:37:48.610290" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.611290" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\catalog-bottom-1280x720.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\catalog-bottom-1280x720.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/${page}-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.610290" elapsed="0.001000"/>
+</kw>
+<var name="${page}">catalog-bottom</var>
+<status status="PASS" start="2026-11-15T22:37:48.610290" elapsed="0.001000"/>
+</iter>
+<var>${page}</var>
+<value>home</value>
+<value>shop-items</value>
+<value>shop-bottom</value>
+<value>achievements-top</value>
+<value>achievements-bottom</value>
+<value>catalog-top</value>
+<value>catalog-bottom</value>
+<status status="PASS" start="2026-11-15T22:37:48.607296" elapsed="0.003994"/>
+</for>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.611290" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\intro-welcome-1280x720.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\intro-welcome-1280x720.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/intro-welcome-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.611290" elapsed="0.000000"/>
+</kw>
+<var name="${size}">1280x720</var>
+<status status="PASS" start="2026-11-15T22:37:48.607296" elapsed="0.003994"/>
+</iter>
+<iter>
+<for flavor="IN">
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.612833" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\home-1024x768.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\home-1024x768.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/${page}-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.611290" elapsed="0.001543"/>
+</kw>
+<var name="${page}">home</var>
+<status status="PASS" start="2026-11-15T22:37:48.611290" elapsed="0.001543"/>
+</iter>
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.613851" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\shop-items-1024x768.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\shop-items-1024x768.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/${page}-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.613851" elapsed="0.000000"/>
+</kw>
+<var name="${page}">shop-items</var>
+<status status="PASS" start="2026-11-15T22:37:48.612833" elapsed="0.001018"/>
+</iter>
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.613851" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\shop-bottom-1024x768.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\shop-bottom-1024x768.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/${page}-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.613851" elapsed="0.000000"/>
+</kw>
+<var name="${page}">shop-bottom</var>
+<status status="PASS" start="2026-11-15T22:37:48.613851" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.614854" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\achievements-top-1024x768.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\achievements-top-1024x768.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/${page}-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.614854" elapsed="0.000000"/>
+</kw>
+<var name="${page}">achievements-top</var>
+<status status="PASS" start="2026-11-15T22:37:48.613851" elapsed="0.001003"/>
+</iter>
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.614854" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\achievements-bottom-1024x768.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\achievements-bottom-1024x768.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/${page}-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.614854" elapsed="0.000000"/>
+</kw>
+<var name="${page}">achievements-bottom</var>
+<status status="PASS" start="2026-11-15T22:37:48.614854" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.615871" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\catalog-top-1024x768.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\catalog-top-1024x768.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/${page}-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.614854" elapsed="0.001017"/>
+</kw>
+<var name="${page}">catalog-top</var>
+<status status="PASS" start="2026-11-15T22:37:48.614854" elapsed="0.001017"/>
+</iter>
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.615871" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\catalog-bottom-1024x768.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\catalog-bottom-1024x768.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/${page}-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.615871" elapsed="0.000000"/>
+</kw>
+<var name="${page}">catalog-bottom</var>
+<status status="PASS" start="2026-11-15T22:37:48.615871" elapsed="0.000000"/>
+</iter>
+<var>${page}</var>
+<value>home</value>
+<value>shop-items</value>
+<value>shop-bottom</value>
+<value>achievements-top</value>
+<value>achievements-bottom</value>
+<value>catalog-top</value>
+<value>catalog-bottom</value>
+<status status="PASS" start="2026-11-15T22:37:48.611290" elapsed="0.004581"/>
+</for>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.616867" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\intro-welcome-1024x768.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\intro-welcome-1024x768.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/intro-welcome-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.615871" elapsed="0.000996"/>
+</kw>
+<var name="${size}">1024x768</var>
+<status status="PASS" start="2026-11-15T22:37:48.611290" elapsed="0.005577"/>
+</iter>
+<var>${size}</var>
+<value>1920x1080</value>
+<value>1280x720</value>
+<value>1024x768</value>
+<status status="PASS" start="2026-11-15T22:37:48.603238" elapsed="0.013629"/>
+</for>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.616867" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\roster-440-1280x720.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\roster-440-1280x720.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/roster-440-1280x720.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.616867" elapsed="0.000000"/>
+</kw>
+<kw name="Get File" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.616867" level="INFO" html="true">Getting file '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\items.txt"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\items.txt&lt;/a&gt;'.</msg>
+<msg time="2026-11-15T22:37:48.617870" level="INFO">${items} = purchases=100
+visible=20
+capRejected=20
+</msg>
+<var>${items}</var>
+<arg>${root}/items.txt</arg>
+<doc>Returns the contents of a specified file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.616867" elapsed="0.001003"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${items}</arg>
+<arg>purchases=100</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.617870" elapsed="0.000000"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${items}</arg>
+<arg>visible=20</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.617870" elapsed="0.000000"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${items}</arg>
+<arg>capRejected=20</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.617870" elapsed="0.000000"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.618867" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\all-items-level5-1920x1080.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\all-items-level5-1920x1080.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/all-items-level5-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.618867" elapsed="0.000000"/>
+</kw>
+<var name="${size}">1920x1080</var>
+<status status="PASS" start="2026-11-15T22:37:48.618867" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.618867" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\all-items-level5-1280x720.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\all-items-level5-1280x720.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/all-items-level5-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.618867" elapsed="0.000000"/>
+</kw>
+<var name="${size}">1280x720</var>
+<status status="PASS" start="2026-11-15T22:37:48.618867" elapsed="0.000000"/>
+</iter>
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.619867" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\all-items-level5-1024x768.png"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\all-items-level5-1024x768.png&lt;/a&gt;' exists.</msg>
+<arg>${root}/all-items-level5-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.619867" elapsed="0.000000"/>
+</kw>
+<var name="${size}">1024x768</var>
+<status status="PASS" start="2026-11-15T22:37:48.619867" elapsed="0.000000"/>
+</iter>
+<var>${size}</var>
+<value>1920x1080</value>
+<value>1280x720</value>
+<value>1024x768</value>
+<status status="PASS" start="2026-11-15T22:37:48.617870" elapsed="0.001997"/>
+</for>
+<kw name="Get File" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.619867" level="INFO" html="true">Getting file '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\performance.txt"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\performance.txt&lt;/a&gt;'.</msg>
+<msg time="2026-11-15T22:37:48.619867" level="INFO">${metrics} = samples=4320
+meanFrameMs=6.954
+p95FrameMs=6.980
+managedBefore=6029312
+managedAfter=6189056
+visible=100
+owned=440
+save=PROJECT_ROOT\Build\F1\visual-grid-02/player\CatGame\save.json
+boundsErrors=0
+n...</msg>
+<var>${metrics}</var>
+<arg>${root}/performance.txt</arg>
+<doc>Returns the contents of a specified file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.619867" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-11-15T22:37:48.619867" level="INFO">samples=4320
+meanFrameMs=6.954
+p95FrameMs=6.980
+managedBefore=6029312
+managedAfter=6189056
+visible=100
+owned=440
+save=PROJECT_ROOT\Build\F1\visual-grid-02/player\CatGame\save.json
+boundsErrors=0
+nativePointerHits=3
+roomFootErrors=0
+furnitureDepthErrors=0
+roomActors=100
+</msg>
+<arg>${metrics}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.619867" elapsed="0.000000"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${metrics}</arg>
+<arg>visible=100</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.619867" elapsed="0.001512"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${metrics}</arg>
+<arg>owned=440</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.621379" elapsed="0.000000"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${metrics}</arg>
+<arg>boundsErrors=0</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.621379" elapsed="0.000000"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${metrics}</arg>
+<arg>roomFootErrors=0</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.621379" elapsed="0.000000"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${metrics}</arg>
+<arg>furnitureDepthErrors=0</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.621379" elapsed="0.000000"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${metrics}</arg>
+<arg>roomActors=100</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.621379" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="'${SYSTEM_POINTER}' == '1'">
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${metrics}</arg>
+<arg>nativePointerHits=3</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.622902" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2026-11-15T22:37:48.621379" elapsed="0.001523"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log" owner="BuiltIn">
+<arg>System pointer interaction was not requested; this run proves screenshots and geometry only.</arg>
+<arg>WARN</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-11-15T22:37:48.622902" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2026-11-15T22:37:48.622902" elapsed="0.000000"/>
+</branch>
+<status status="PASS" start="2026-11-15T22:37:48.621379" elapsed="0.001523"/>
+</if>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${metrics}</arg>
+<arg>${root}</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.622902" elapsed="0.001009"/>
+</kw>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T22:37:48.623911" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\visual-grid-02\player\CatGame\save.json"&gt;PROJECT_ROOT\Build\F1\visual-grid-02\player\CatGame\save.json&lt;/a&gt;' exists.</msg>
+<arg>${root}/CatGame/save.json</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T22:37:48.623911" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="'${FLOW}' == '1'">
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${intro}</arg>
+<arg>completedRuns=2</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="NOT RUN" start="2026-11-15T22:37:48.623911" elapsed="0.000000"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="File Should Exist" owner="OperatingSystem">
+<arg>${root}/menu-fresh-${size}.png</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="NOT RUN" start="2026-11-15T22:37:48.623911" elapsed="0.000000"/>
+</kw>
+<var name="${size}"/>
+<status status="NOT RUN" start="2026-11-15T22:37:48.623911" elapsed="0.000000"/>
+</iter>
+<var>${size}</var>
+<value>1920x1080</value>
+<value>1280x720</value>
+<value>1024x768</value>
+<status status="NOT RUN" start="2026-11-15T22:37:48.623911" elapsed="0.000000"/>
+</for>
+<kw name="Get File" owner="OperatingSystem">
+<var>${flow}</var>
+<arg>${root}/flow.txt</arg>
+<doc>Returns the contents of a specified file.</doc>
+<status status="NOT RUN" start="2026-11-15T22:37:48.624913" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>${flow}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-11-15T22:37:48.624913" elapsed="0.000000"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${flow}</arg>
+<arg>flowPassed=true</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="NOT RUN" start="2026-11-15T22:37:48.624913" elapsed="0.000000"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${flow}</arg>
+<arg>earlyTwoClicksBlocked=true</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="NOT RUN" start="2026-11-15T22:37:48.624913" elapsed="0.000000"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${flow}</arg>
+<arg>clickPacingMatched=true</arg>
+<doc>Fails if the `container` does not contain the `item` one or more times.</doc>
+<status status="NOT RUN" start="2026-11-15T22:37:48.624913" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2026-11-15T22:37:48.623911" elapsed="0.001002"/>
+</branch>
+<status status="PASS" start="2026-11-15T22:37:48.623911" elapsed="0.001002"/>
+</if>
+<status status="PASS" start="2026-11-15T22:36:48.245956" elapsed="60.378957"/>
+</test>
+<doc>Actual non-batch Development Player screenshots and a 30-second 100-actor performance observation. Requires a QA build.</doc>
+<status status="PASS" start="2026-11-15T22:36:48.207066" elapsed="60.417847"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Player Visual" id="s1" pass="1" fail="0" skip="0">Player Visual</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

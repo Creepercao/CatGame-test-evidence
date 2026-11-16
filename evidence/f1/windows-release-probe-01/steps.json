@@ -1,0 +1,15 @@
+[
+  {
+    "utc": "2026-11-16T14:43:56Z",
+    "action": "launch-ordinary-binary",
+    "data": {
+      "pid": 122060,
+      "sha256": "5ca1a0daa0946e4e01ddcd7aef415ac0d08c00302480f96a41888c69a785018b"
+    }
+  },
+  {
+    "utc": "2026-11-16T14:44:45Z",
+    "action": "failure",
+    "data": "TimeoutError('Ordinary Player readiness or foreground timeout')"
+  }
+]

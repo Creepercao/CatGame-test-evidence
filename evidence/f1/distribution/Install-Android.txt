@@ -1,0 +1,7 @@
+喵屋 CatGame 1.1.0 · Android ARM64 · versionCode 6
+包名 com.catgamestudio.catgame。横屏、核心玩法离线运行，无需外置修改器。
+下载 APK 后允许浏览器/文件管理器安装应用，按系统提示安装；或 adb install -r CatGame-Android.apk。
+沿用既有签名，覆盖安装保留存档；卸载应用可能清除进度，请勿以卸载替代覆盖升级。
+本版在 Android 14 AVD 完成实际 code5→6 升级、三比例触摸、结局和刘海安全区验收。
+本轮未重测真机性能，不能保证所有机型表现；旧版真机结果不充作本版新测。
+Windows 包（含可选修改器）在同一个 v1.1.0 Release，旧版本发行继续保留。

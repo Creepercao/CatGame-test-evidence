@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "PROJECT_ROOT\Tests\robot\android/f1_safearea.py", line 84, in <module>
+    assert time.monotonic() < deadline, 'Home info panel absent inside safe area'
+AssertionError: Home info panel absent inside safe area

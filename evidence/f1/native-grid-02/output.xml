@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-15T21:12:21.312173" rpa="false" schemaversion="5">
+<suite id="s1" name="Art Baseline" source="PROJECT_ROOT\Tests\robot\art\art_baseline.robot">
+<test id="s1-t1" name="F1-BASELINE-01 Capture Native Source Geometry And Screens" line="10">
+<kw name="Create Directory" owner="OperatingSystem">
+<msg time="2026-11-15T21:12:21.381001" level="INFO" html="true">Created directory '&lt;a href="file://PROJECT_ROOT\Build\F1\native-grid-02\runtime"&gt;PROJECT_ROOT\Build\F1\native-grid-02\runtime&lt;/a&gt;'.</msg>
+<arg>${OUTPUT DIR}/runtime</arg>
+<doc>Creates the specified directory.</doc>
+<status status="PASS" start="2026-11-15T21:12:21.377476" elapsed="0.003525"/>
+</kw>
+<kw name="Run Process" owner="Process">
+<msg time="2026-11-15T21:12:21.385512" level="INFO">Starting process:
+PROJECT_ROOT/Build/F1/qa-grid-02/CatGameF1QA.exe -screen-fullscreen 0 -logFile PROJECT_ROOT\Build\F1\native-grid-02/player.log</msg>
+<msg time="2026-11-15T21:12:21.402217" level="INFO">Waiting for process to complete.</msg>
+<msg time="2026-11-15T21:12:30.339629" level="INFO">Process completed.</msg>
+<msg time="2026-11-15T21:12:30.339629" level="INFO">${process} = &lt;result object with rc 0&gt;</msg>
+<var>${process}</var>
+<arg>${EXE}</arg>
+<arg>-screen-fullscreen</arg>
+<arg>0</arg>
+<arg>-logFile</arg>
+<arg>${OUTPUT DIR}/player.log</arg>
+<arg>env:CATGAME_PLAYER_QA_ROOT=${OUTPUT DIR}/runtime</arg>
+<arg>env:CATGAME_QA_F1_ONLY=1</arg>
+<arg>env:CATGAME_F1_SOURCE=${SOURCE}</arg>
+<arg>env:CATGAME_DEBUG_DISABLE=1</arg>
+<arg>stdout=${OUTPUT DIR}/stdout.txt</arg>
+<arg>stderr=${OUTPUT DIR}/stderr.txt</arg>
+<arg>timeout=120 seconds</arg>
+<arg>on_timeout=terminate</arg>
+<doc>Runs a process and waits for it to complete.</doc>
+<status status="PASS" start="2026-11-15T21:12:21.381999" elapsed="8.957630"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-15T21:12:30.341183" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${process.rc}</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.340644" elapsed="0.000539"/>
+</kw>
+<kw name="Get File" owner="OperatingSystem">
+<msg time="2026-11-15T21:12:30.341183" level="INFO" html="true">Getting file '&lt;a href="file://PROJECT_ROOT\Build\F1\native-grid-02\runtime\art-metrics.json"&gt;PROJECT_ROOT\Build\F1\native-grid-02\runtime\art-metrics.json&lt;/a&gt;'.</msg>
+<msg time="2026-11-15T21:12:30.342708" level="INFO">${raw} = {
+    "schema": "f1-native-art-metrics-v1",
+    "sourceCommit": "bcf76a6",
+    "unity": "2022.3.21f1",
+    "complete": true,
+    "requestedSizesHonored": true,
+    "simulationFrozenForSnapshots": true...</msg>
+<var>${raw}</var>
+<arg>${OUTPUT DIR}/runtime/art-metrics.json</arg>
+<doc>Returns the contents of a specified file.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.341183" elapsed="0.001525"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-11-15T21:12:30.351383" level="INFO">${report} = {'schema': 'f1-native-art-metrics-v1', 'sourceCommit': 'bcf76a6', 'unity': '2022.3.21f1', 'complete': True, 'requestedSizesHonored': True, 'simulationFrozenForSnapshots': True, 'pid': 83864, 'screens'...</msg>
+<var>${report}</var>
+<arg>json.loads($raw)</arg>
+<arg>modules=json</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.343723" elapsed="0.008168"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${report}[complete]</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.351891" elapsed="0.001041"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${report}[requestedSizesHonored]</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.352932" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${report}[simulationFrozenForSnapshots]</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.352932" elapsed="0.001533"/>
+</kw>
+<kw name="Length Should Be" owner="BuiltIn">
+<msg time="2026-11-15T21:12:30.354465" level="INFO">Length is 3.</msg>
+<arg>${report}[screens]</arg>
+<arg>3</arg>
+<doc>Verifies that the length of the given item is correct.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.354465" elapsed="0.000000"/>
+</kw>
+<kw name="Length Should Be" owner="BuiltIn">
+<msg time="2026-11-15T21:12:30.356163" level="INFO">Length is 44.</msg>
+<arg>${report}[poses]</arg>
+<arg>44</arg>
+<doc>Verifies that the length of the given item is correct.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.354465" elapsed="0.001698"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-11-15T21:12:30.359175" level="INFO">${screens} = [{'requestedWidth': 1920, 'requestedHeight': 1080, 'width': 1920, 'height': 1080, 'frameStart': 189, 'frameEnd': 190, 'orthographicSize': 5.625, 'cameraPixelRect': {'serializedVersion': '2', 'x': 0.0,...</msg>
+<var>${screens}</var>
+<arg>${report}[screens]</arg>
+<doc>Returns the given values which can then be assigned to a variable.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.356163" elapsed="0.003012"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>$sample['frameEnd'] &gt; $sample['frameStart']</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.360693" elapsed="0.001000"/>
+</kw>
+<kw name="Length Should Be" owner="BuiltIn">
+<msg time="2026-11-15T21:12:30.362201" level="INFO">Length is 11.</msg>
+<arg>${sample}[cats]</arg>
+<arg>11</arg>
+<doc>Verifies that the length of the given item is correct.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.361693" elapsed="0.000508"/>
+</kw>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T21:12:30.363214" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\native-grid-02\runtime\home-1920x1080.png"&gt;PROJECT_ROOT\Build\F1\native-grid-02\runtime\home-1920x1080.png&lt;/a&gt;' exists.</msg>
+<arg>${OUTPUT DIR}/runtime/${sample}[screenshot]</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.362201" elapsed="0.001013"/>
+</kw>
+<if>
+<branch type="IF" condition="'${EXPECT_WORLD_GRID}' == '1'">
+<kw name="Should Be True" owner="BuiltIn">
+<arg>$sample['worldRenderCount'] &gt; 0</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.364213" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${sample}[logicalRaster]</arg>
+<arg>${sample}[actualRaster]</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.364213" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-15T21:12:30.365958" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${sample}[cameraAssetsPpu]</arg>
+<arg>32</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.365958" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($sample['cameraPixelRect']['width'] - $sample['width']) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.366975" elapsed="0.000993"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($sample['cameraPixelRect']['height'] - $sample['height']) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.367968" elapsed="0.001004"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-11-15T21:12:30.369481" level="INFO">${expected} = 192.0</msg>
+<var>${expected}</var>
+<arg>$sample['height'] / 5.625</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.369481" elapsed="0.001008"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.370489" elapsed="0.001514"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.372003" elapsed="0.001011"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.373014" elapsed="0.000511"/>
+</kw>
+<var name="${cat}">{'id': 'Milk', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 1086....</var>
+<status status="PASS" start="2026-11-15T21:12:30.370489" elapsed="0.003036"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.374541" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.374541" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.376053" elapsed="0.000000"/>
+</kw>
+<var name="${cat}">{'id': 'Tabby', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 1086...</var>
+<status status="PASS" start="2026-11-15T21:12:30.373525" elapsed="0.002528"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.377068" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.377068" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.378579" elapsed="0.000000"/>
+</kw>
+<var name="${cat}">{'id': 'Snow', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 1086....</var>
+<status status="PASS" start="2026-11-15T21:12:30.376053" elapsed="0.002526"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.379592" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.379592" elapsed="0.001003"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.380595" elapsed="0.000000"/>
+</kw>
+<var name="${cat}">{'id': 'Calico', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 108...</var>
+<status status="PASS" start="2026-11-15T21:12:30.378579" elapsed="0.002016"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.382137" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.382137" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.382137" elapsed="0.001530"/>
+</kw>
+<var name="${cat}">{'id': 'Tuxedo', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 108...</var>
+<status status="PASS" start="2026-11-15T21:12:30.380595" elapsed="0.003072"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.384682" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.384682" elapsed="0.000995"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.386187" elapsed="0.000000"/>
+</kw>
+<var name="${cat}">{'id': 'Siamese', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 10...</var>
+<status status="PASS" start="2026-11-15T21:12:30.383667" elapsed="0.002520"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.387201" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.387201" elapsed="0.001000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.388201" elapsed="0.000999"/>
+</kw>
+<var name="${cat}">{'id': 'Tiger', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 1086...</var>
+<status status="PASS" start="2026-11-15T21:12:30.386187" elapsed="0.003013"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.389200" elapsed="0.001525"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.392235" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.392235" elapsed="0.001010"/>
+</kw>
+<var name="${cat}">{'id': 'Egypt', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 1086...</var>
+<status status="PASS" start="2026-11-15T21:12:30.389200" elapsed="0.004045"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.393752" elapsed="0.000528"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.394280" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.394280" elapsed="0.001530"/>
+</kw>
+<var name="${cat}">{'id': 'Batcat', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 108...</var>
+<status status="PASS" start="2026-11-15T21:12:30.393245" elapsed="0.002565"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.395810" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.396827" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.396827" elapsed="0.000995"/>
+</kw>
+<var name="${cat}">{'id': 'Demon', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 1086...</var>
+<status status="PASS" start="2026-11-15T21:12:30.395810" elapsed="0.002012"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.397822" elapsed="0.000999"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.398821" elapsed="0.000516"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.399337" elapsed="0.001003"/>
+</kw>
+<var name="${cat}">{'id': 'Xmas', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 1086....</var>
+<status status="PASS" start="2026-11-15T21:12:30.397822" elapsed="0.002518"/>
+</iter>
+<var>${cat}</var>
+<value>@{sample}[cats]</value>
+<status status="PASS" start="2026-11-15T21:12:30.370489" elapsed="0.029851"/>
+</for>
+<status status="PASS" start="2026-11-15T21:12:30.363214" elapsed="0.037126"/>
+</branch>
+<status status="PASS" start="2026-11-15T21:12:30.363214" elapsed="0.037126"/>
+</if>
+<var name="${sample}">{'requestedWidth': 1920, 'requestedHeight': 1080, 'width': 1920, 'height': 1080, 'frameStart': 189, 'frameEnd': 190, 'orthographicSize': 5.625, 'cameraPixelRect': {'serializedVersion': '2', 'x': 0.0, ...</var>
+<status status="PASS" start="2026-11-15T21:12:30.360693" elapsed="0.039647"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>$sample['frameEnd'] &gt; $sample['frameStart']</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.401341" elapsed="0.001002"/>
+</kw>
+<kw name="Length Should Be" owner="BuiltIn">
+<msg time="2026-11-15T21:12:30.403363" level="INFO">Length is 11.</msg>
+<arg>${sample}[cats]</arg>
+<arg>11</arg>
+<doc>Verifies that the length of the given item is correct.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.402853" elapsed="0.000510"/>
+</kw>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T21:12:30.404377" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\native-grid-02\runtime\home-1600x900.png"&gt;PROJECT_ROOT\Build\F1\native-grid-02\runtime\home-1600x900.png&lt;/a&gt;' exists.</msg>
+<arg>${OUTPUT DIR}/runtime/${sample}[screenshot]</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.403363" elapsed="0.001014"/>
+</kw>
+<if>
+<branch type="IF" condition="'${EXPECT_WORLD_GRID}' == '1'">
+<kw name="Should Be True" owner="BuiltIn">
+<arg>$sample['worldRenderCount'] &gt; 0</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.404377" elapsed="0.001511"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${sample}[logicalRaster]</arg>
+<arg>${sample}[actualRaster]</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.405888" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-15T21:12:30.406899" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${sample}[cameraAssetsPpu]</arg>
+<arg>32</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.405888" elapsed="0.001011"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($sample['cameraPixelRect']['width'] - $sample['width']) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.406899" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($sample['cameraPixelRect']['height'] - $sample['height']) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.408409" elapsed="0.000000"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-11-15T21:12:30.409421" level="INFO">${expected} = 160.0</msg>
+<var>${expected}</var>
+<arg>$sample['height'] / 5.625</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.408409" elapsed="0.001012"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.409421" elapsed="0.001003"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.410424" elapsed="0.000995"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.411419" elapsed="0.000000"/>
+</kw>
+<var name="${cat}">{'id': 'Milk', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 905.0...</var>
+<status status="PASS" start="2026-11-15T21:12:30.409421" elapsed="0.001998"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.412421" elapsed="0.000507"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.412928" elapsed="0.000508"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.413436" elapsed="0.000000"/>
+</kw>
+<var name="${cat}">{'id': 'Tabby', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 905....</var>
+<status status="PASS" start="2026-11-15T21:12:30.412421" elapsed="0.001015"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.414448" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.414448" elapsed="0.001510"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.415958" elapsed="0.000531"/>
+</kw>
+<var name="${cat}">{'id': 'Snow', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 905.0...</var>
+<status status="PASS" start="2026-11-15T21:12:30.414448" elapsed="0.002041"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.416489" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.418226" elapsed="0.000535"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.418761" elapsed="0.000000"/>
+</kw>
+<var name="${cat}">{'id': 'Calico', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 905...</var>
+<status status="PASS" start="2026-11-15T21:12:30.416489" elapsed="0.002272"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.419772" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.419772" elapsed="0.000998"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.420770" elapsed="0.000000"/>
+</kw>
+<var name="${cat}">{'id': 'Tuxedo', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 905...</var>
+<status status="PASS" start="2026-11-15T21:12:30.419772" elapsed="0.001998"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.421770" elapsed="0.001007"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.422777" elapsed="0.000510"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.423287" elapsed="0.000000"/>
+</kw>
+<var name="${cat}">{'id': 'Siamese', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 90...</var>
+<status status="PASS" start="2026-11-15T21:12:30.421770" elapsed="0.001517"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.424297" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.424297" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.425805" elapsed="0.000000"/>
+</kw>
+<var name="${cat}">{'id': 'Tiger', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 905....</var>
+<status status="PASS" start="2026-11-15T21:12:30.424297" elapsed="0.001508"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.426815" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.426815" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.426815" elapsed="0.001509"/>
+</kw>
+<var name="${cat}">{'id': 'Egypt', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 905....</var>
+<status status="PASS" start="2026-11-15T21:12:30.425805" elapsed="0.002519"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.429334" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.429334" elapsed="0.001114"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.430448" elapsed="0.001001"/>
+</kw>
+<var name="${cat}">{'id': 'Batcat', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 905...</var>
+<status status="PASS" start="2026-11-15T21:12:30.428324" elapsed="0.003125"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.431449" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.431449" elapsed="0.003028"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.434477" elapsed="0.000000"/>
+</kw>
+<var name="${cat}">{'id': 'Demon', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 905....</var>
+<status status="PASS" start="2026-11-15T21:12:30.431449" elapsed="0.003028"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.434477" elapsed="0.001508"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.435985" elapsed="0.001017"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.437998" elapsed="0.000509"/>
+</kw>
+<var name="${cat}">{'id': 'Xmas', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 905.0...</var>
+<status status="PASS" start="2026-11-15T21:12:30.434477" elapsed="0.004030"/>
+</iter>
+<var>${cat}</var>
+<value>@{sample}[cats]</value>
+<status status="PASS" start="2026-11-15T21:12:30.409421" elapsed="0.029086"/>
+</for>
+<status status="PASS" start="2026-11-15T21:12:30.404377" elapsed="0.034130"/>
+</branch>
+<status status="PASS" start="2026-11-15T21:12:30.404377" elapsed="0.034130"/>
+</if>
+<var name="${sample}">{'requestedWidth': 1600, 'requestedHeight': 900, 'width': 1600, 'height': 900, 'frameStart': 342, 'frameEnd': 343, 'orthographicSize': 5.625, 'cameraPixelRect': {'serializedVersion': '2', 'x': 0.0, 'y...</var>
+<status status="PASS" start="2026-11-15T21:12:30.401341" elapsed="0.037166"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>$sample['frameEnd'] &gt; $sample['frameStart']</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.439515" elapsed="0.000000"/>
+</kw>
+<kw name="Length Should Be" owner="BuiltIn">
+<msg time="2026-11-15T21:12:30.441025" level="INFO">Length is 11.</msg>
+<arg>${sample}[cats]</arg>
+<arg>11</arg>
+<doc>Verifies that the length of the given item is correct.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.439515" elapsed="0.001510"/>
+</kw>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T21:12:30.441025" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\native-grid-02\runtime\home-2560x1440.png"&gt;PROJECT_ROOT\Build\F1\native-grid-02\runtime\home-2560x1440.png&lt;/a&gt;' exists.</msg>
+<arg>${OUTPUT DIR}/runtime/${sample}[screenshot]</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.441025" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="'${EXPECT_WORLD_GRID}' == '1'">
+<kw name="Should Be True" owner="BuiltIn">
+<arg>$sample['worldRenderCount'] &gt; 0</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.442569" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${sample}[logicalRaster]</arg>
+<arg>${sample}[actualRaster]</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.442569" elapsed="0.001014"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-15T21:12:30.443583" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${sample}[cameraAssetsPpu]</arg>
+<arg>32</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.443583" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($sample['cameraPixelRect']['width'] - $sample['width']) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.443583" elapsed="0.001366"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($sample['cameraPixelRect']['height'] - $sample['height']) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.444949" elapsed="0.000000"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-11-15T21:12:30.445955" level="INFO">${expected} = 256.0</msg>
+<var>${expected}</var>
+<arg>$sample['height'] / 5.625</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.445955" elapsed="0.000000"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.445955" elapsed="0.001567"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.447522" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.447522" elapsed="0.001014"/>
+</kw>
+<var name="${cat}">{'id': 'Milk', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 1448....</var>
+<status status="PASS" start="2026-11-15T21:12:30.445955" elapsed="0.003298"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.449253" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.449253" elapsed="0.001528"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.450781" elapsed="0.001527"/>
+</kw>
+<var name="${cat}">{'id': 'Tabby', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 1448...</var>
+<status status="PASS" start="2026-11-15T21:12:30.449253" elapsed="0.003055"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.452308" elapsed="0.000529"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.452837" elapsed="0.001011"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.453848" elapsed="0.000000"/>
+</kw>
+<var name="${cat}">{'id': 'Snow', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 1448....</var>
+<status status="PASS" start="2026-11-15T21:12:30.452308" elapsed="0.001540"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.455056" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.455056" elapsed="0.000998"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.456054" elapsed="0.000000"/>
+</kw>
+<var name="${cat}">{'id': 'Calico', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 144...</var>
+<status status="PASS" start="2026-11-15T21:12:30.453848" elapsed="0.002206"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.457415" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.458431" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.459431" elapsed="0.001001"/>
+</kw>
+<var name="${cat}">{'id': 'Tuxedo', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 144...</var>
+<status status="PASS" start="2026-11-15T21:12:30.457415" elapsed="0.003017"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.460432" elapsed="0.000997"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.461429" elapsed="0.001005"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.462946" elapsed="0.000000"/>
+</kw>
+<var name="${cat}">{'id': 'Siamese', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 14...</var>
+<status status="PASS" start="2026-11-15T21:12:30.460432" elapsed="0.002514"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.463957" elapsed="0.001014"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.464971" elapsed="0.000999"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.466479" elapsed="0.000508"/>
+</kw>
+<var name="${cat}">{'id': 'Tiger', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 1448...</var>
+<status status="PASS" start="2026-11-15T21:12:30.463957" elapsed="0.003030"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.466987" elapsed="0.001012"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.467999" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.467999" elapsed="0.001512"/>
+</kw>
+<var name="${cat}">{'id': 'Egypt', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 1448...</var>
+<status status="PASS" start="2026-11-15T21:12:30.466987" elapsed="0.002524"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.469846" elapsed="0.000514"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.470360" elapsed="0.001531"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.472904" elapsed="0.000000"/>
+</kw>
+<var name="${cat}">{'id': 'Batcat', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 144...</var>
+<status status="PASS" start="2026-11-15T21:12:30.469846" elapsed="0.003058"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.474416" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.474416" elapsed="0.001547"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.475963" elapsed="0.001013"/>
+</kw>
+<var name="${cat}">{'id': 'Demon', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 1448...</var>
+<status status="PASS" start="2026-11-15T21:12:30.474416" elapsed="0.002560"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['screenBounds']['height'] - $expected) &lt; .1</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.478180" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['x'] - $cat['objectPosition']['x']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.478180" elapsed="0.002000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>abs($cat['footFromSprite']['y'] - $cat['objectPosition']['y']) &lt; .0001</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T21:12:30.480180" elapsed="0.001512"/>
+</kw>
+<var name="${cat}">{'id': 'Xmas', 'action': 'idle', 'frame': 'Idle_2', 'spriteRect': {'serializedVersion': '2', 'x': 128.0, 'y': 0.0, 'width': 64.0, 'height': 64.0}, 'screenBounds': {'serializedVersion': '2', 'x': 1448....</var>
+<status status="PASS" start="2026-11-15T21:12:30.476976" elapsed="0.004716"/>
+</iter>
+<var>${cat}</var>
+<value>@{sample}[cats]</value>
+<status status="PASS" start="2026-11-15T21:12:30.445955" elapsed="0.035737"/>
+</for>
+<status status="PASS" start="2026-11-15T21:12:30.441025" elapsed="0.040667"/>
+</branch>
+<status status="PASS" start="2026-11-15T21:12:30.441025" elapsed="0.040667"/>
+</if>
+<var name="${sample}">{'requestedWidth': 2560, 'requestedHeight': 1440, 'width': 2560, 'height': 1440, 'frameStart': 554, 'frameEnd': 555, 'orthographicSize': 5.625, 'cameraPixelRect': {'serializedVersion': '2', 'x': 0.0, ...</var>
+<status status="PASS" start="2026-11-15T21:12:30.439515" elapsed="0.042177"/>
+</iter>
+<var>${sample}</var>
+<value>@{screens}</value>
+<status status="PASS" start="2026-11-15T21:12:30.359175" elapsed="0.122517"/>
+</for>
+<status status="PASS" start="2026-11-15T21:12:21.377476" elapsed="9.105231"/>
+</test>
+<doc>Collect native art snapshots with frozen poses; this is not a gameplay or performance pass.</doc>
+<status status="PASS" start="2026-11-15T21:12:21.319240" elapsed="9.164467"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Art Baseline" id="s1" pass="1" fail="0" skip="0">Art Baseline</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

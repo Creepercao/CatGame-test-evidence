@@ -1,0 +1,3 @@
+purchases=100
+visible=20
+capRejected=20

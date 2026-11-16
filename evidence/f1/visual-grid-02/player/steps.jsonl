@@ -1,0 +1,478 @@
+{"step":1,"utc":"2026-11-15T14:36:54.2197980Z","scene":"Home","type":"assertion","message":"Fresh save must show intro","realtime":4.934390544891357,"timeScale":0.0,"passed":true}
+{"step":2,"utc":"2026-11-15T14:36:54.2255866Z","scene":"Home","type":"assertion","message":"Intro owns paused simulation","realtime":4.936112403869629,"timeScale":0.0,"passed":true}
+{"step":3,"utc":"2026-11-15T14:36:54.2265820Z","scene":"Home","type":"assertion","message":"No click-through during dialogue","realtime":4.936981678009033,"timeScale":0.0,"passed":true}
+{"step":4,"utc":"2026-11-15T14:36:54.2275901Z","scene":"Home","type":"assertion","message":"Pause cannot replace dialogue","realtime":4.937807083129883,"timeScale":0.0,"passed":true}
+{"step":5,"utc":"2026-11-15T14:36:55.2332383Z","scene":"Home","type":"assertion","message":"Dialogue reuses Milk pixel art","realtime":5.94318151473999,"timeScale":0.0,"passed":true}
+{"step":6,"utc":"2026-11-15T14:36:55.2343493Z","scene":"Home","type":"assertion","message":"Dialogue portrait keeps point filtering","realtime":5.944089412689209,"timeScale":0.0,"passed":true}
+{"step":7,"utc":"2026-11-15T14:36:55.2343493Z","scene":"Home","type":"assertion","message":"Dialogue portrait integer screen magnification","realtime":5.944706916809082,"timeScale":0.0,"passed":true}
+{"step":8,"utc":"2026-11-15T14:36:55.2352824Z","scene":"Home","type":"assertion","message":"Dialogue text fits its box","realtime":5.945712089538574,"timeScale":0.0,"passed":true}
+{"step":9,"utc":"2026-11-15T14:36:55.3111253Z","scene":"Home","type":"screenshot","message":"intro-welcome-1920x1080.png","realtime":6.021235942840576,"timeScale":0.0,"passed":true}
+{"step":10,"utc":"2026-11-15T14:36:56.3163289Z","scene":"Home","type":"assertion","message":"Dialogue reuses Milk pixel art","realtime":7.026036262512207,"timeScale":0.0,"passed":true}
+{"step":11,"utc":"2026-11-15T14:36:56.3163289Z","scene":"Home","type":"assertion","message":"Dialogue portrait keeps point filtering","realtime":7.026900768280029,"timeScale":0.0,"passed":true}
+{"step":12,"utc":"2026-11-15T14:36:56.3173400Z","scene":"Home","type":"assertion","message":"Dialogue portrait integer screen magnification","realtime":7.027678489685059,"timeScale":0.0,"passed":true}
+{"step":13,"utc":"2026-11-15T14:36:56.3183885Z","scene":"Home","type":"assertion","message":"Dialogue text fits its box","realtime":7.028722286224365,"timeScale":0.0,"passed":true}
+{"step":14,"utc":"2026-11-15T14:36:56.3466048Z","scene":"Home","type":"screenshot","message":"intro-welcome-1024x768.png","realtime":7.056682586669922,"timeScale":0.0,"passed":true}
+{"step":15,"utc":"2026-11-15T14:36:57.3506192Z","scene":"Home","type":"assertion","message":"Dialogue reuses Milk pixel art","realtime":8.060690879821778,"timeScale":0.0,"passed":true}
+{"step":16,"utc":"2026-11-15T14:36:57.3516771Z","scene":"Home","type":"assertion","message":"Dialogue portrait keeps point filtering","realtime":8.061595916748047,"timeScale":0.0,"passed":true}
+{"step":17,"utc":"2026-11-15T14:36:57.3516771Z","scene":"Home","type":"assertion","message":"Dialogue portrait integer screen magnification","realtime":8.062281608581543,"timeScale":0.0,"passed":true}
+{"step":18,"utc":"2026-11-15T14:36:57.3516771Z","scene":"Home","type":"assertion","message":"Dialogue text fits its box","realtime":8.06275463104248,"timeScale":0.0,"passed":true}
+{"step":19,"utc":"2026-11-15T14:36:57.3838838Z","scene":"Home","type":"screenshot","message":"intro-welcome-1280x720.png","realtime":8.094391822814942,"timeScale":0.0,"passed":true}
+{"step":20,"utc":"2026-11-15T14:36:57.4187997Z","scene":"Home","type":"screenshot","message":"intro-touch-1280x720.png","realtime":8.128799438476563,"timeScale":0.0,"passed":true}
+{"step":21,"utc":"2026-11-15T14:36:57.4516831Z","scene":"Home","type":"screenshot","message":"intro-auto-1280x720.png","realtime":8.161495208740235,"timeScale":0.0,"passed":true}
+{"step":22,"utc":"2026-11-15T14:36:57.4516831Z","scene":"Home","type":"assertion","message":"Dialogue time must not produce currency or playtime","realtime":8.16254711151123,"timeScale":0.0,"passed":true}
+{"step":23,"utc":"2026-11-15T14:36:57.4591054Z","scene":"Home","type":"assertion","message":"Intro completion resumes once","realtime":8.169609069824219,"timeScale":1.0,"passed":true}
+{"step":24,"utc":"2026-11-15T14:36:57.9000930Z","scene":"Home","type":"screenshot","message":"toast-visible-1280x720.png","realtime":8.610344886779786,"timeScale":1.0,"passed":true}
+{"step":25,"utc":"2026-11-15T14:37:00.6837010Z","scene":"Home","type":"assertion","message":"Toast must fade in the actual Player","realtime":11.394027709960938,"timeScale":1.0,"passed":true}
+{"step":26,"utc":"2026-11-15T14:37:00.7190948Z","scene":"Home","type":"screenshot","message":"toast-fading-1280x720.png","realtime":11.42912483215332,"timeScale":1.0,"passed":true}
+{"step":27,"utc":"2026-11-15T14:37:03.3719099Z","scene":"Home","type":"screenshot","message":"home-1920x1080.png","realtime":14.081747055053711,"timeScale":1.0,"passed":true}
+{"step":28,"utc":"2026-11-15T14:37:03.4419591Z","scene":"Home","type":"screenshot","message":"shop-items-1920x1080.png","realtime":14.152215957641602,"timeScale":1.0,"passed":true}
+{"step":29,"utc":"2026-11-15T14:37:03.5095754Z","scene":"Home","type":"screenshot","message":"shop-bottom-1920x1080.png","realtime":14.219900131225586,"timeScale":1.0,"passed":true}
+{"step":30,"utc":"2026-11-15T14:37:03.6110547Z","scene":"Home","type":"screenshot","message":"achievements-top-1920x1080.png","realtime":14.321162223815918,"timeScale":0.0,"passed":true}
+{"step":31,"utc":"2026-11-15T14:37:03.6728792Z","scene":"Home","type":"screenshot","message":"achievements-bottom-1920x1080.png","realtime":14.382805824279786,"timeScale":0.0,"passed":true}
+{"step":32,"utc":"2026-11-15T14:37:03.6739288Z","scene":"Home","type":"assertion","message":"Catalog must display pixel background","realtime":14.384493827819825,"timeScale":0.0,"passed":true}
+{"step":33,"utc":"2026-11-15T14:37:03.6759358Z","scene":"Home","type":"assertion","message":"Catalog requires all eleven cats","realtime":14.385588645935059,"timeScale":0.0,"passed":true}
+{"step":34,"utc":"2026-11-15T14:37:03.7479589Z","scene":"Home","type":"screenshot","message":"catalog-top-1920x1080.png","realtime":14.457651138305664,"timeScale":0.0,"passed":true}
+{"step":35,"utc":"2026-11-15T14:37:03.8155813Z","scene":"Home","type":"screenshot","message":"catalog-bottom-1920x1080.png","realtime":14.526150703430176,"timeScale":0.0,"passed":true}
+{"step":36,"utc":"2026-11-15T14:37:06.4230698Z","scene":"Home","type":"screenshot","message":"home-1280x720.png","realtime":17.133052825927736,"timeScale":1.0,"passed":true}
+{"step":37,"utc":"2026-11-15T14:37:06.4528847Z","scene":"Home","type":"screenshot","message":"shop-items-1280x720.png","realtime":17.16318130493164,"timeScale":1.0,"passed":true}
+{"step":38,"utc":"2026-11-15T14:37:06.4829984Z","scene":"Home","type":"screenshot","message":"shop-bottom-1280x720.png","realtime":17.192792892456056,"timeScale":1.0,"passed":true}
+{"step":39,"utc":"2026-11-15T14:37:06.5349785Z","scene":"Home","type":"screenshot","message":"achievements-top-1280x720.png","realtime":17.24472999572754,"timeScale":0.0,"passed":true}
+{"step":40,"utc":"2026-11-15T14:37:06.5694375Z","scene":"Home","type":"screenshot","message":"achievements-bottom-1280x720.png","realtime":17.27916145324707,"timeScale":0.0,"passed":true}
+{"step":41,"utc":"2026-11-15T14:37:06.5714016Z","scene":"Home","type":"assertion","message":"Catalog must display pixel background","realtime":17.281360626220704,"timeScale":0.0,"passed":true}
+{"step":42,"utc":"2026-11-15T14:37:06.5714016Z","scene":"Home","type":"assertion","message":"Catalog requires all eleven cats","realtime":17.282379150390626,"timeScale":0.0,"passed":true}
+{"step":43,"utc":"2026-11-15T14:37:06.6130168Z","scene":"Home","type":"screenshot","message":"catalog-top-1280x720.png","realtime":17.323213577270509,"timeScale":0.0,"passed":true}
+{"step":44,"utc":"2026-11-15T14:37:06.6450681Z","scene":"Home","type":"screenshot","message":"catalog-bottom-1280x720.png","realtime":17.355379104614259,"timeScale":0.0,"passed":true}
+{"step":45,"utc":"2026-11-15T14:37:09.2442649Z","scene":"Home","type":"screenshot","message":"home-1024x768.png","realtime":19.95467758178711,"timeScale":1.0,"passed":true}
+{"step":46,"utc":"2026-11-15T14:37:09.2745143Z","scene":"Home","type":"screenshot","message":"shop-items-1024x768.png","realtime":19.98461151123047,"timeScale":1.0,"passed":true}
+{"step":47,"utc":"2026-11-15T14:37:09.3039557Z","scene":"Home","type":"screenshot","message":"shop-bottom-1024x768.png","realtime":20.014026641845704,"timeScale":1.0,"passed":true}
+{"step":48,"utc":"2026-11-15T14:37:09.3439687Z","scene":"Home","type":"screenshot","message":"achievements-top-1024x768.png","realtime":20.05428123474121,"timeScale":0.0,"passed":true}
+{"step":49,"utc":"2026-11-15T14:37:09.3733094Z","scene":"Home","type":"screenshot","message":"achievements-bottom-1024x768.png","realtime":20.083194732666017,"timeScale":0.0,"passed":true}
+{"step":50,"utc":"2026-11-15T14:37:09.3753558Z","scene":"Home","type":"assertion","message":"Catalog must display pixel background","realtime":20.085290908813478,"timeScale":0.0,"passed":true}
+{"step":51,"utc":"2026-11-15T14:37:09.3763555Z","scene":"Home","type":"assertion","message":"Catalog requires all eleven cats","realtime":20.08612060546875,"timeScale":0.0,"passed":true}
+{"step":52,"utc":"2026-11-15T14:37:09.4108811Z","scene":"Home","type":"screenshot","message":"catalog-top-1024x768.png","realtime":20.121458053588868,"timeScale":0.0,"passed":true}
+{"step":53,"utc":"2026-11-15T14:37:09.4394355Z","scene":"Home","type":"screenshot","message":"catalog-bottom-1024x768.png","realtime":20.149681091308595,"timeScale":0.0,"passed":true}
+{"step":54,"utc":"2026-11-15T14:37:09.4490591Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_1_1","realtime":20.159090042114259,"timeScale":1.0,"passed":true}
+{"step":55,"utc":"2026-11-15T14:37:09.4501135Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_1_1","realtime":20.15992546081543,"timeScale":1.0,"passed":true}
+{"step":56,"utc":"2026-11-15T14:37:09.4501135Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.160531997680665,"timeScale":1.0,"passed":true}
+{"step":57,"utc":"2026-11-15T14:37:09.4511224Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.16138458251953,"timeScale":1.0,"passed":true}
+{"step":58,"utc":"2026-11-15T14:37:09.4574100Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_1_2","realtime":20.167341232299806,"timeScale":1.0,"passed":true}
+{"step":59,"utc":"2026-11-15T14:37:09.4584132Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_1_2","realtime":20.16806411743164,"timeScale":1.0,"passed":true}
+{"step":60,"utc":"2026-11-15T14:37:09.4584132Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.168601989746095,"timeScale":1.0,"passed":true}
+{"step":61,"utc":"2026-11-15T14:37:09.4590128Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.16912078857422,"timeScale":1.0,"passed":true}
+{"step":62,"utc":"2026-11-15T14:37:09.4647551Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_1_3","realtime":20.1750545501709,"timeScale":1.0,"passed":true}
+{"step":63,"utc":"2026-11-15T14:37:09.4658112Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_1_3","realtime":20.175750732421876,"timeScale":1.0,"passed":true}
+{"step":64,"utc":"2026-11-15T14:37:09.4668177Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.176477432250978,"timeScale":1.0,"passed":true}
+{"step":65,"utc":"2026-11-15T14:37:09.4668177Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.177038192749025,"timeScale":1.0,"passed":true}
+{"step":66,"utc":"2026-11-15T14:37:09.4728105Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_1_4","realtime":20.18243408203125,"timeScale":1.0,"passed":true}
+{"step":67,"utc":"2026-11-15T14:37:09.4734182Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_1_4","realtime":20.183063507080079,"timeScale":1.0,"passed":true}
+{"step":68,"utc":"2026-11-15T14:37:09.4734182Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.183652877807618,"timeScale":1.0,"passed":true}
+{"step":69,"utc":"2026-11-15T14:37:09.4745185Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.184194564819337,"timeScale":1.0,"passed":true}
+{"step":70,"utc":"2026-11-15T14:37:09.4784670Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_2_1","realtime":20.188627243041993,"timeScale":1.0,"passed":true}
+{"step":71,"utc":"2026-11-15T14:37:09.4795119Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_2_1","realtime":20.189260482788087,"timeScale":1.0,"passed":true}
+{"step":72,"utc":"2026-11-15T14:37:09.4795119Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.189823150634767,"timeScale":1.0,"passed":true}
+{"step":73,"utc":"2026-11-15T14:37:09.4804540Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.190431594848634,"timeScale":1.0,"passed":true}
+{"step":74,"utc":"2026-11-15T14:37:09.4851115Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_2_2","realtime":20.19535255432129,"timeScale":1.0,"passed":true}
+{"step":75,"utc":"2026-11-15T14:37:09.4860563Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_2_2","realtime":20.196060180664064,"timeScale":1.0,"passed":true}
+{"step":76,"utc":"2026-11-15T14:37:09.4860563Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.1966609954834,"timeScale":1.0,"passed":true}
+{"step":77,"utc":"2026-11-15T14:37:09.4871043Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.197195053100587,"timeScale":1.0,"passed":true}
+{"step":78,"utc":"2026-11-15T14:37:09.4917502Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_2_3","realtime":20.202003479003908,"timeScale":1.0,"passed":true}
+{"step":79,"utc":"2026-11-15T14:37:09.4927015Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_2_3","realtime":20.20267105102539,"timeScale":1.0,"passed":true}
+{"step":80,"utc":"2026-11-15T14:37:09.4932410Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.203704833984376,"timeScale":1.0,"passed":true}
+{"step":81,"utc":"2026-11-15T14:37:09.4942867Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.204357147216798,"timeScale":1.0,"passed":true}
+{"step":82,"utc":"2026-11-15T14:37:09.4993412Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_2_4","realtime":20.209379196166993,"timeScale":1.0,"passed":true}
+{"step":83,"utc":"2026-11-15T14:37:09.5003352Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_2_4","realtime":20.209959030151368,"timeScale":1.0,"passed":true}
+{"step":84,"utc":"2026-11-15T14:37:09.5003352Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.21067237854004,"timeScale":1.0,"passed":true}
+{"step":85,"utc":"2026-11-15T14:37:09.5013432Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.21125030517578,"timeScale":1.0,"passed":true}
+{"step":86,"utc":"2026-11-15T14:37:09.5060431Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_3_1","realtime":20.215925216674806,"timeScale":1.0,"passed":true}
+{"step":87,"utc":"2026-11-15T14:37:09.5066456Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_3_1","realtime":20.216583251953126,"timeScale":1.0,"passed":true}
+{"step":88,"utc":"2026-11-15T14:37:09.5066456Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.21710205078125,"timeScale":1.0,"passed":true}
+{"step":89,"utc":"2026-11-15T14:37:09.5077441Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.217620849609376,"timeScale":1.0,"passed":true}
+{"step":90,"utc":"2026-11-15T14:37:09.5132530Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_3_2","realtime":20.223894119262697,"timeScale":1.0,"passed":true}
+{"step":91,"utc":"2026-11-15T14:37:09.5143501Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_3_2","realtime":20.224580764770509,"timeScale":1.0,"passed":true}
+{"step":92,"utc":"2026-11-15T14:37:09.5153522Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.22515869140625,"timeScale":1.0,"passed":true}
+{"step":93,"utc":"2026-11-15T14:37:09.5153522Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.225730895996095,"timeScale":1.0,"passed":true}
+{"step":94,"utc":"2026-11-15T14:37:09.5203551Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_3_3","realtime":20.23043441772461,"timeScale":1.0,"passed":true}
+{"step":95,"utc":"2026-11-15T14:37:09.5213473Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_3_3","realtime":20.231002807617189,"timeScale":1.0,"passed":true}
+{"step":96,"utc":"2026-11-15T14:37:09.5213473Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.23162078857422,"timeScale":1.0,"passed":true}
+{"step":97,"utc":"2026-11-15T14:37:09.5213473Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.23210334777832,"timeScale":1.0,"passed":true}
+{"step":98,"utc":"2026-11-15T14:37:09.5280759Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_3_4","realtime":20.238027572631837,"timeScale":1.0,"passed":true}
+{"step":99,"utc":"2026-11-15T14:37:09.5290746Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_3_4","realtime":20.238740921020509,"timeScale":1.0,"passed":true}
+{"step":100,"utc":"2026-11-15T14:37:09.5290746Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.239276885986329,"timeScale":1.0,"passed":true}
+{"step":101,"utc":"2026-11-15T14:37:09.5300682Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.239805221557618,"timeScale":1.0,"passed":true}
+{"step":102,"utc":"2026-11-15T14:37:09.5347813Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_4_1","realtime":20.244766235351564,"timeScale":1.0,"passed":true}
+{"step":103,"utc":"2026-11-15T14:37:09.5357749Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_4_1","realtime":20.245512008666993,"timeScale":1.0,"passed":true}
+{"step":104,"utc":"2026-11-15T14:37:09.5357749Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.24602699279785,"timeScale":1.0,"passed":true}
+{"step":105,"utc":"2026-11-15T14:37:09.5367991Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.246570587158204,"timeScale":1.0,"passed":true}
+{"step":106,"utc":"2026-11-15T14:37:09.5414712Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_4_2","realtime":20.251224517822267,"timeScale":1.0,"passed":true}
+{"step":107,"utc":"2026-11-15T14:37:09.5414712Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_4_2","realtime":20.251901626586915,"timeScale":1.0,"passed":true}
+{"step":108,"utc":"2026-11-15T14:37:09.5430121Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.25263023376465,"timeScale":1.0,"passed":true}
+{"step":109,"utc":"2026-11-15T14:37:09.5430121Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.253171920776368,"timeScale":1.0,"passed":true}
+{"step":110,"utc":"2026-11-15T14:37:09.5491193Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_4_3","realtime":20.258995056152345,"timeScale":1.0,"passed":true}
+{"step":111,"utc":"2026-11-15T14:37:09.5501138Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_4_3","realtime":20.259733200073243,"timeScale":1.0,"passed":true}
+{"step":112,"utc":"2026-11-15T14:37:09.5501138Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.260379791259767,"timeScale":1.0,"passed":true}
+{"step":113,"utc":"2026-11-15T14:37:09.5511140Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.260955810546876,"timeScale":1.0,"passed":true}
+{"step":114,"utc":"2026-11-15T14:37:09.5564191Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_4_4","realtime":20.26607322692871,"timeScale":1.0,"passed":true}
+{"step":115,"utc":"2026-11-15T14:37:09.5564191Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_4_4","realtime":20.26679229736328,"timeScale":1.0,"passed":true}
+{"step":116,"utc":"2026-11-15T14:37:09.5574690Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.26744842529297,"timeScale":1.0,"passed":true}
+{"step":117,"utc":"2026-11-15T14:37:09.5584676Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.26825523376465,"timeScale":1.0,"passed":true}
+{"step":118,"utc":"2026-11-15T14:37:09.5637173Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_5_1","realtime":20.27431869506836,"timeScale":1.0,"passed":true}
+{"step":119,"utc":"2026-11-15T14:37:09.5648110Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_5_1","realtime":20.27505111694336,"timeScale":1.0,"passed":true}
+{"step":120,"utc":"2026-11-15T14:37:09.5658245Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.275814056396486,"timeScale":1.0,"passed":true}
+{"step":121,"utc":"2026-11-15T14:37:09.5658245Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.276391983032228,"timeScale":1.0,"passed":true}
+{"step":122,"utc":"2026-11-15T14:37:09.5708121Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_5_2","realtime":20.28119468688965,"timeScale":1.0,"passed":true}
+{"step":123,"utc":"2026-11-15T14:37:09.5718113Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_5_2","realtime":20.281856536865236,"timeScale":1.0,"passed":true}
+{"step":124,"utc":"2026-11-15T14:37:09.5718113Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.2823543548584,"timeScale":1.0,"passed":true}
+{"step":125,"utc":"2026-11-15T14:37:09.5733403Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.282983779907228,"timeScale":1.0,"passed":true}
+{"step":126,"utc":"2026-11-15T14:37:09.5774316Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_5_3","realtime":20.288007736206056,"timeScale":1.0,"passed":true}
+{"step":127,"utc":"2026-11-15T14:37:09.5784283Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_5_3","realtime":20.288694381713868,"timeScale":1.0,"passed":true}
+{"step":128,"utc":"2026-11-15T14:37:09.5794288Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.289342880249025,"timeScale":1.0,"passed":true}
+{"step":129,"utc":"2026-11-15T14:37:09.5794288Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.289880752563478,"timeScale":1.0,"passed":true}
+{"step":130,"utc":"2026-11-15T14:37:09.5848355Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_5_4","realtime":20.294652938842775,"timeScale":1.0,"passed":true}
+{"step":131,"utc":"2026-11-15T14:37:09.5848355Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_5_4","realtime":20.29523468017578,"timeScale":1.0,"passed":true}
+{"step":132,"utc":"2026-11-15T14:37:09.5858876Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.295785903930665,"timeScale":1.0,"passed":true}
+{"step":133,"utc":"2026-11-15T14:37:09.5858876Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.296419143676759,"timeScale":1.0,"passed":true}
+{"step":134,"utc":"2026-11-15T14:37:09.6161529Z","scene":"Home","type":"screenshot","message":"all-items-level1-1024x768.png","realtime":20.326160430908204,"timeScale":1.0,"passed":true}
+{"step":135,"utc":"2026-11-15T14:37:09.6211172Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_1_1","realtime":20.330984115600587,"timeScale":1.0,"passed":true}
+{"step":136,"utc":"2026-11-15T14:37:09.6211172Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_1_1","realtime":20.331684112548829,"timeScale":1.0,"passed":true}
+{"step":137,"utc":"2026-11-15T14:37:09.6211172Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.332202911376954,"timeScale":1.0,"passed":true}
+{"step":138,"utc":"2026-11-15T14:37:09.6232781Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.332971572875978,"timeScale":1.0,"passed":true}
+{"step":139,"utc":"2026-11-15T14:37:09.6273843Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_1_2","realtime":20.33770751953125,"timeScale":1.0,"passed":true}
+{"step":140,"utc":"2026-11-15T14:37:09.6283973Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_1_2","realtime":20.338531494140626,"timeScale":1.0,"passed":true}
+{"step":141,"utc":"2026-11-15T14:37:09.6293208Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.339292526245118,"timeScale":1.0,"passed":true}
+{"step":142,"utc":"2026-11-15T14:37:09.6293208Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.339826583862306,"timeScale":1.0,"passed":true}
+{"step":143,"utc":"2026-11-15T14:37:09.6340837Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_1_3","realtime":20.344593048095704,"timeScale":1.0,"passed":true}
+{"step":144,"utc":"2026-11-15T14:37:09.6350920Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_1_3","realtime":20.345340728759767,"timeScale":1.0,"passed":true}
+{"step":145,"utc":"2026-11-15T14:37:09.6360373Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.346149444580079,"timeScale":1.0,"passed":true}
+{"step":146,"utc":"2026-11-15T14:37:09.6370342Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.346755981445314,"timeScale":1.0,"passed":true}
+{"step":147,"utc":"2026-11-15T14:37:09.6416713Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_1_4","realtime":20.35264015197754,"timeScale":1.0,"passed":true}
+{"step":148,"utc":"2026-11-15T14:37:09.6432659Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_1_4","realtime":20.353351593017579,"timeScale":1.0,"passed":true}
+{"step":149,"utc":"2026-11-15T14:37:09.6432659Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.35392951965332,"timeScale":1.0,"passed":true}
+{"step":150,"utc":"2026-11-15T14:37:09.6443640Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.35451316833496,"timeScale":1.0,"passed":true}
+{"step":151,"utc":"2026-11-15T14:37:09.6493084Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_2_1","realtime":20.359529495239259,"timeScale":1.0,"passed":true}
+{"step":152,"utc":"2026-11-15T14:37:09.6503698Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_2_1","realtime":20.360143661499025,"timeScale":1.0,"passed":true}
+{"step":153,"utc":"2026-11-15T14:37:09.6503698Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.36067008972168,"timeScale":1.0,"passed":true}
+{"step":154,"utc":"2026-11-15T14:37:09.6513620Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.361291885375978,"timeScale":1.0,"passed":true}
+{"step":155,"utc":"2026-11-15T14:37:09.6572486Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_2_2","realtime":20.367259979248048,"timeScale":1.0,"passed":true}
+{"step":156,"utc":"2026-11-15T14:37:09.6572486Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_2_2","realtime":20.367965698242189,"timeScale":1.0,"passed":true}
+{"step":157,"utc":"2026-11-15T14:37:09.6588505Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.368513107299806,"timeScale":1.0,"passed":true}
+{"step":158,"utc":"2026-11-15T14:37:09.6588505Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.369142532348634,"timeScale":1.0,"passed":true}
+{"step":159,"utc":"2026-11-15T14:37:09.6635618Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_2_3","realtime":20.373973846435548,"timeScale":1.0,"passed":true}
+{"step":160,"utc":"2026-11-15T14:37:09.6646097Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_2_3","realtime":20.37470054626465,"timeScale":1.0,"passed":true}
+{"step":161,"utc":"2026-11-15T14:37:09.6656106Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.37522315979004,"timeScale":1.0,"passed":true}
+{"step":162,"utc":"2026-11-15T14:37:09.6656106Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.375837326049806,"timeScale":1.0,"passed":true}
+{"step":163,"utc":"2026-11-15T14:37:09.6715981Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_2_4","realtime":20.381608963012697,"timeScale":1.0,"passed":true}
+{"step":164,"utc":"2026-11-15T14:37:09.6725969Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_2_4","realtime":20.38227653503418,"timeScale":1.0,"passed":true}
+{"step":165,"utc":"2026-11-15T14:37:09.6731405Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.382905960083009,"timeScale":1.0,"passed":true}
+{"step":166,"utc":"2026-11-15T14:37:09.6731405Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.383474349975587,"timeScale":1.0,"passed":true}
+{"step":167,"utc":"2026-11-15T14:37:09.6782500Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_3_1","realtime":20.388463973999025,"timeScale":1.0,"passed":true}
+{"step":168,"utc":"2026-11-15T14:37:09.6792658Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_3_1","realtime":20.389028549194337,"timeScale":1.0,"passed":true}
+{"step":169,"utc":"2026-11-15T14:37:09.6792658Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.389514923095704,"timeScale":1.0,"passed":true}
+{"step":170,"utc":"2026-11-15T14:37:09.6802440Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.389982223510743,"timeScale":1.0,"passed":true}
+{"step":171,"utc":"2026-11-15T14:37:09.6849834Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_3_2","realtime":20.39484977722168,"timeScale":1.0,"passed":true}
+{"step":172,"utc":"2026-11-15T14:37:09.6849834Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_3_2","realtime":20.395536422729493,"timeScale":1.0,"passed":true}
+{"step":173,"utc":"2026-11-15T14:37:09.6859795Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.396066665649415,"timeScale":1.0,"passed":true}
+{"step":174,"utc":"2026-11-15T14:37:09.6859795Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.396568298339845,"timeScale":1.0,"passed":true}
+{"step":175,"utc":"2026-11-15T14:37:09.6907281Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_3_3","realtime":20.40062713623047,"timeScale":1.0,"passed":true}
+{"step":176,"utc":"2026-11-15T14:37:09.6916791Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_3_3","realtime":20.4013614654541,"timeScale":1.0,"passed":true}
+{"step":177,"utc":"2026-11-15T14:37:09.6916791Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.40188217163086,"timeScale":1.0,"passed":true}
+{"step":178,"utc":"2026-11-15T14:37:09.6932624Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.402894973754884,"timeScale":1.0,"passed":true}
+{"step":179,"utc":"2026-11-15T14:37:09.6973107Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_3_4","realtime":20.407283782958986,"timeScale":1.0,"passed":true}
+{"step":180,"utc":"2026-11-15T14:37:09.6973107Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_3_4","realtime":20.407817840576173,"timeScale":1.0,"passed":true}
+{"step":181,"utc":"2026-11-15T14:37:09.6983040Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.408355712890626,"timeScale":1.0,"passed":true}
+{"step":182,"utc":"2026-11-15T14:37:09.6993904Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.40899085998535,"timeScale":1.0,"passed":true}
+{"step":183,"utc":"2026-11-15T14:37:09.7040843Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_4_1","realtime":20.414037704467775,"timeScale":1.0,"passed":true}
+{"step":184,"utc":"2026-11-15T14:37:09.7050211Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_4_1","realtime":20.4146785736084,"timeScale":1.0,"passed":true}
+{"step":185,"utc":"2026-11-15T14:37:09.7050211Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.415130615234376,"timeScale":1.0,"passed":true}
+{"step":186,"utc":"2026-11-15T14:37:09.7050211Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.415573120117189,"timeScale":1.0,"passed":true}
+{"step":187,"utc":"2026-11-15T14:37:09.7097633Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_4_2","realtime":20.4197998046875,"timeScale":1.0,"passed":true}
+{"step":188,"utc":"2026-11-15T14:37:09.7097633Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_4_2","realtime":20.42035484313965,"timeScale":1.0,"passed":true}
+{"step":189,"utc":"2026-11-15T14:37:09.7107591Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.420808792114259,"timeScale":1.0,"passed":true}
+{"step":190,"utc":"2026-11-15T14:37:09.7107591Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.42125701904297,"timeScale":1.0,"passed":true}
+{"step":191,"utc":"2026-11-15T14:37:09.7153361Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_4_3","realtime":20.425840377807618,"timeScale":1.0,"passed":true}
+{"step":192,"utc":"2026-11-15T14:37:09.7163446Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_4_3","realtime":20.426433563232423,"timeScale":1.0,"passed":true}
+{"step":193,"utc":"2026-11-15T14:37:09.7163446Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.426923751831056,"timeScale":1.0,"passed":true}
+{"step":194,"utc":"2026-11-15T14:37:09.7173495Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.427330017089845,"timeScale":1.0,"passed":true}
+{"step":195,"utc":"2026-11-15T14:37:09.7213544Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_4_4","realtime":20.431821823120118,"timeScale":1.0,"passed":true}
+{"step":196,"utc":"2026-11-15T14:37:09.7213544Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_4_4","realtime":20.432373046875,"timeScale":1.0,"passed":true}
+{"step":197,"utc":"2026-11-15T14:37:09.7229574Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.432811737060548,"timeScale":1.0,"passed":true}
+{"step":198,"utc":"2026-11-15T14:37:09.7229574Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.433256149291993,"timeScale":1.0,"passed":true}
+{"step":199,"utc":"2026-11-15T14:37:09.7280304Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_5_1","realtime":20.438213348388673,"timeScale":1.0,"passed":true}
+{"step":200,"utc":"2026-11-15T14:37:09.7290063Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_5_1","realtime":20.438838958740236,"timeScale":1.0,"passed":true}
+{"step":201,"utc":"2026-11-15T14:37:09.7290063Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.439327239990236,"timeScale":1.0,"passed":true}
+{"step":202,"utc":"2026-11-15T14:37:09.7300038Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.439794540405275,"timeScale":1.0,"passed":true}
+{"step":203,"utc":"2026-11-15T14:37:09.7346415Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_5_2","realtime":20.445100784301759,"timeScale":1.0,"passed":true}
+{"step":204,"utc":"2026-11-15T14:37:09.7356415Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_5_2","realtime":20.445770263671876,"timeScale":1.0,"passed":true}
+{"step":205,"utc":"2026-11-15T14:37:09.7366379Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.44628143310547,"timeScale":1.0,"passed":true}
+{"step":206,"utc":"2026-11-15T14:37:09.7366379Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.446741104125978,"timeScale":1.0,"passed":true}
+{"step":207,"utc":"2026-11-15T14:37:09.7413509Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_5_3","realtime":20.451631546020509,"timeScale":1.0,"passed":true}
+{"step":208,"utc":"2026-11-15T14:37:09.7413509Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_5_3","realtime":20.452167510986329,"timeScale":1.0,"passed":true}
+{"step":209,"utc":"2026-11-15T14:37:09.7429620Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.452688217163087,"timeScale":1.0,"passed":true}
+{"step":210,"utc":"2026-11-15T14:37:09.7429620Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.453351974487306,"timeScale":1.0,"passed":true}
+{"step":211,"utc":"2026-11-15T14:37:09.7480618Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_5_4","realtime":20.458066940307618,"timeScale":1.0,"passed":true}
+{"step":212,"utc":"2026-11-15T14:37:09.7480618Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_5_4","realtime":20.458616256713868,"timeScale":1.0,"passed":true}
+{"step":213,"utc":"2026-11-15T14:37:09.7490628Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.459117889404298,"timeScale":1.0,"passed":true}
+{"step":214,"utc":"2026-11-15T14:37:09.7490628Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.45956802368164,"timeScale":1.0,"passed":true}
+{"step":215,"utc":"2026-11-15T14:37:09.7536139Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_1_1","realtime":20.463998794555665,"timeScale":1.0,"passed":true}
+{"step":216,"utc":"2026-11-15T14:37:09.7547135Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_1_1","realtime":20.464580535888673,"timeScale":1.0,"passed":true}
+{"step":217,"utc":"2026-11-15T14:37:09.7547135Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.465177536010743,"timeScale":1.0,"passed":true}
+{"step":218,"utc":"2026-11-15T14:37:09.7547135Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.46573829650879,"timeScale":1.0,"passed":true}
+{"step":219,"utc":"2026-11-15T14:37:09.7600748Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_1_2","realtime":20.470172882080079,"timeScale":1.0,"passed":true}
+{"step":220,"utc":"2026-11-15T14:37:09.7606979Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_1_2","realtime":20.470813751220704,"timeScale":1.0,"passed":true}
+{"step":221,"utc":"2026-11-15T14:37:09.7606979Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.471332550048829,"timeScale":1.0,"passed":true}
+{"step":222,"utc":"2026-11-15T14:37:09.7618023Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.471818923950197,"timeScale":1.0,"passed":true}
+{"step":223,"utc":"2026-11-15T14:37:09.7654940Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_1_3","realtime":20.476037979125978,"timeScale":1.0,"passed":true}
+{"step":224,"utc":"2026-11-15T14:37:09.7664998Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_1_3","realtime":20.476669311523439,"timeScale":1.0,"passed":true}
+{"step":225,"utc":"2026-11-15T14:37:09.7674365Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.477136611938478,"timeScale":1.0,"passed":true}
+{"step":226,"utc":"2026-11-15T14:37:09.7674365Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.477699279785158,"timeScale":1.0,"passed":true}
+{"step":227,"utc":"2026-11-15T14:37:09.7730635Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_1_4","realtime":20.482872009277345,"timeScale":1.0,"passed":true}
+{"step":228,"utc":"2026-11-15T14:37:09.7730635Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_1_4","realtime":20.483516693115236,"timeScale":1.0,"passed":true}
+{"step":229,"utc":"2026-11-15T14:37:09.7741575Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.48451805114746,"timeScale":1.0,"passed":true}
+{"step":230,"utc":"2026-11-15T14:37:09.7751056Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.485145568847658,"timeScale":1.0,"passed":true}
+{"step":231,"utc":"2026-11-15T14:37:09.7791580Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_2_1","realtime":20.489654541015626,"timeScale":1.0,"passed":true}
+{"step":232,"utc":"2026-11-15T14:37:09.7801616Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_2_1","realtime":20.490203857421876,"timeScale":1.0,"passed":true}
+{"step":233,"utc":"2026-11-15T14:37:09.7801616Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.490678787231447,"timeScale":1.0,"passed":true}
+{"step":234,"utc":"2026-11-15T14:37:09.7811226Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.491260528564454,"timeScale":1.0,"passed":true}
+{"step":235,"utc":"2026-11-15T14:37:09.7858568Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_2_2","realtime":20.49579429626465,"timeScale":1.0,"passed":true}
+{"step":236,"utc":"2026-11-15T14:37:09.7858568Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_2_2","realtime":20.49640464782715,"timeScale":1.0,"passed":true}
+{"step":237,"utc":"2026-11-15T14:37:09.7868539Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.49728775024414,"timeScale":1.0,"passed":true}
+{"step":238,"utc":"2026-11-15T14:37:09.7878046Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.497840881347658,"timeScale":1.0,"passed":true}
+{"step":239,"utc":"2026-11-15T14:37:09.7915111Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_2_3","realtime":20.502700805664064,"timeScale":1.0,"passed":true}
+{"step":240,"utc":"2026-11-15T14:37:09.7931127Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_2_3","realtime":20.503292083740236,"timeScale":1.0,"passed":true}
+{"step":241,"utc":"2026-11-15T14:37:09.7941572Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.503841400146486,"timeScale":1.0,"passed":true}
+{"step":242,"utc":"2026-11-15T14:37:09.7941572Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.504335403442384,"timeScale":1.0,"passed":true}
+{"step":243,"utc":"2026-11-15T14:37:09.7992087Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_2_4","realtime":20.50891876220703,"timeScale":1.0,"passed":true}
+{"step":244,"utc":"2026-11-15T14:37:09.7992087Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_2_4","realtime":20.509485244750978,"timeScale":1.0,"passed":true}
+{"step":245,"utc":"2026-11-15T14:37:09.8001538Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.510005950927736,"timeScale":1.0,"passed":true}
+{"step":246,"utc":"2026-11-15T14:37:09.8001538Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.510478973388673,"timeScale":1.0,"passed":true}
+{"step":247,"utc":"2026-11-15T14:37:09.8057978Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_3_1","realtime":20.515607833862306,"timeScale":1.0,"passed":true}
+{"step":248,"utc":"2026-11-15T14:37:09.8063379Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_3_1","realtime":20.516237258911134,"timeScale":1.0,"passed":true}
+{"step":249,"utc":"2026-11-15T14:37:09.8063379Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.516738891601564,"timeScale":1.0,"passed":true}
+{"step":250,"utc":"2026-11-15T14:37:09.8074376Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.517234802246095,"timeScale":1.0,"passed":true}
+{"step":251,"utc":"2026-11-15T14:37:09.8114431Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_3_2","realtime":20.52237319946289,"timeScale":1.0,"passed":true}
+{"step":252,"utc":"2026-11-15T14:37:09.8130422Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_3_2","realtime":20.523019790649415,"timeScale":1.0,"passed":true}
+{"step":253,"utc":"2026-11-15T14:37:09.8130422Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.523527145385743,"timeScale":1.0,"passed":true}
+{"step":254,"utc":"2026-11-15T14:37:09.8140899Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.524003982543947,"timeScale":1.0,"passed":true}
+{"step":255,"utc":"2026-11-15T14:37:09.8181383Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_3_3","realtime":20.528533935546876,"timeScale":1.0,"passed":true}
+{"step":256,"utc":"2026-11-15T14:37:09.8191368Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_3_3","realtime":20.529094696044923,"timeScale":1.0,"passed":true}
+{"step":257,"utc":"2026-11-15T14:37:09.8191368Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.529584884643556,"timeScale":1.0,"passed":true}
+{"step":258,"utc":"2026-11-15T14:37:09.8201483Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.530147552490236,"timeScale":1.0,"passed":true}
+{"step":259,"utc":"2026-11-15T14:37:09.8262630Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_3_4","realtime":20.535873413085939,"timeScale":1.0,"passed":true}
+{"step":260,"utc":"2026-11-15T14:37:09.8262630Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_3_4","realtime":20.53655433654785,"timeScale":1.0,"passed":true}
+{"step":261,"utc":"2026-11-15T14:37:09.8273027Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.53722381591797,"timeScale":1.0,"passed":true}
+{"step":262,"utc":"2026-11-15T14:37:09.8282517Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.537872314453126,"timeScale":1.0,"passed":true}
+{"step":263,"utc":"2026-11-15T14:37:09.8329227Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_4_1","realtime":20.5432186126709,"timeScale":1.0,"passed":true}
+{"step":264,"utc":"2026-11-15T14:37:09.8340258Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_4_1","realtime":20.54401397705078,"timeScale":1.0,"passed":true}
+{"step":265,"utc":"2026-11-15T14:37:09.8350292Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.544662475585939,"timeScale":1.0,"passed":true}
+{"step":266,"utc":"2026-11-15T14:37:09.8350292Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.545413970947267,"timeScale":1.0,"passed":true}
+{"step":267,"utc":"2026-11-15T14:37:09.8416859Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_4_2","realtime":20.552165985107423,"timeScale":1.0,"passed":true}
+{"step":268,"utc":"2026-11-15T14:37:09.8432914Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_4_2","realtime":20.552928924560548,"timeScale":1.0,"passed":true}
+{"step":269,"utc":"2026-11-15T14:37:09.8432914Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.5537052154541,"timeScale":1.0,"passed":true}
+{"step":270,"utc":"2026-11-15T14:37:09.8443889Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.554277420043947,"timeScale":1.0,"passed":true}
+{"step":271,"utc":"2026-11-15T14:37:09.8493466Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_4_3","realtime":20.5593204498291,"timeScale":1.0,"passed":true}
+{"step":272,"utc":"2026-11-15T14:37:09.8503948Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_4_3","realtime":20.560043334960939,"timeScale":1.0,"passed":true}
+{"step":273,"utc":"2026-11-15T14:37:09.8503948Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.560749053955079,"timeScale":1.0,"passed":true}
+{"step":274,"utc":"2026-11-15T14:37:09.8513951Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.56131362915039,"timeScale":1.0,"passed":true}
+{"step":275,"utc":"2026-11-15T14:37:09.8562745Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_4_4","realtime":20.565881729125978,"timeScale":1.0,"passed":true}
+{"step":276,"utc":"2026-11-15T14:37:09.8562745Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_4_4","realtime":20.56647300720215,"timeScale":1.0,"passed":true}
+{"step":277,"utc":"2026-11-15T14:37:09.8562745Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.566987991333009,"timeScale":1.0,"passed":true}
+{"step":278,"utc":"2026-11-15T14:37:09.8574057Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.567529678344728,"timeScale":1.0,"passed":true}
+{"step":279,"utc":"2026-11-15T14:37:09.8620984Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_5_1","realtime":20.57237434387207,"timeScale":1.0,"passed":true}
+{"step":280,"utc":"2026-11-15T14:37:09.8630781Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_5_1","realtime":20.572912216186525,"timeScale":1.0,"passed":true}
+{"step":281,"utc":"2026-11-15T14:37:09.8636255Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.57341766357422,"timeScale":1.0,"passed":true}
+{"step":282,"utc":"2026-11-15T14:37:09.8636255Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.573942184448243,"timeScale":1.0,"passed":true}
+{"step":283,"utc":"2026-11-15T14:37:09.8686646Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_5_2","realtime":20.578914642333986,"timeScale":1.0,"passed":true}
+{"step":284,"utc":"2026-11-15T14:37:09.8696633Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_5_2","realtime":20.579504013061525,"timeScale":1.0,"passed":true}
+{"step":285,"utc":"2026-11-15T14:37:09.8696633Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.580015182495118,"timeScale":1.0,"passed":true}
+{"step":286,"utc":"2026-11-15T14:37:09.8706689Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.58047866821289,"timeScale":1.0,"passed":true}
+{"step":287,"utc":"2026-11-15T14:37:09.8742774Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_5_3","realtime":20.58487892150879,"timeScale":1.0,"passed":true}
+{"step":288,"utc":"2026-11-15T14:37:09.8752898Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_5_3","realtime":20.585447311401368,"timeScale":1.0,"passed":true}
+{"step":289,"utc":"2026-11-15T14:37:09.8752898Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.58592987060547,"timeScale":1.0,"passed":true}
+{"step":290,"utc":"2026-11-15T14:37:09.8763365Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.586383819580079,"timeScale":1.0,"passed":true}
+{"step":291,"utc":"2026-11-15T14:37:09.8803445Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_5_4","realtime":20.590560913085939,"timeScale":1.0,"passed":true}
+{"step":292,"utc":"2026-11-15T14:37:09.8813317Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_5_4","realtime":20.5911865234375,"timeScale":1.0,"passed":true}
+{"step":293,"utc":"2026-11-15T14:37:09.8813317Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.591957092285158,"timeScale":1.0,"passed":true}
+{"step":294,"utc":"2026-11-15T14:37:09.8813317Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.592477798461915,"timeScale":1.0,"passed":true}
+{"step":295,"utc":"2026-11-15T14:37:09.8880571Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_1_1","realtime":20.597776412963868,"timeScale":1.0,"passed":true}
+{"step":296,"utc":"2026-11-15T14:37:09.8880571Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_1_1","realtime":20.598730087280275,"timeScale":1.0,"passed":true}
+{"step":297,"utc":"2026-11-15T14:37:09.8896220Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.599271774291993,"timeScale":1.0,"passed":true}
+{"step":298,"utc":"2026-11-15T14:37:09.8896220Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.599853515625,"timeScale":1.0,"passed":true}
+{"step":299,"utc":"2026-11-15T14:37:09.8943037Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_1_2","realtime":20.604732513427736,"timeScale":1.0,"passed":true}
+{"step":300,"utc":"2026-11-15T14:37:09.8953586Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_1_2","realtime":20.605392456054689,"timeScale":1.0,"passed":true}
+{"step":301,"utc":"2026-11-15T14:37:09.8953586Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.60588264465332,"timeScale":1.0,"passed":true}
+{"step":302,"utc":"2026-11-15T14:37:09.8963668Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.60634422302246,"timeScale":1.0,"passed":true}
+{"step":303,"utc":"2026-11-15T14:37:09.9013705Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_1_3","realtime":20.611373901367189,"timeScale":1.0,"passed":true}
+{"step":304,"utc":"2026-11-15T14:37:09.9013705Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_1_3","realtime":20.611976623535158,"timeScale":1.0,"passed":true}
+{"step":305,"utc":"2026-11-15T14:37:09.9029653Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.61269187927246,"timeScale":1.0,"passed":true}
+{"step":306,"utc":"2026-11-15T14:37:09.9029653Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.613203048706056,"timeScale":1.0,"passed":true}
+{"step":307,"utc":"2026-11-15T14:37:09.9076683Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_1_4","realtime":20.617774963378908,"timeScale":1.0,"passed":true}
+{"step":308,"utc":"2026-11-15T14:37:09.9086747Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_1_4","realtime":20.618370056152345,"timeScale":1.0,"passed":true}
+{"step":309,"utc":"2026-11-15T14:37:09.9086747Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.61902618408203,"timeScale":1.0,"passed":true}
+{"step":310,"utc":"2026-11-15T14:37:09.9096723Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.61956214904785,"timeScale":1.0,"passed":true}
+{"step":311,"utc":"2026-11-15T14:37:09.9143330Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_2_1","realtime":20.624908447265626,"timeScale":1.0,"passed":true}
+{"step":312,"utc":"2026-11-15T14:37:09.9153869Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_2_1","realtime":20.625946044921876,"timeScale":1.0,"passed":true}
+{"step":313,"utc":"2026-11-15T14:37:09.9163994Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.626792907714845,"timeScale":1.0,"passed":true}
+{"step":314,"utc":"2026-11-15T14:37:09.9174006Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.62749671936035,"timeScale":1.0,"passed":true}
+{"step":315,"utc":"2026-11-15T14:37:09.9239421Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_2_2","realtime":20.633892059326173,"timeScale":1.0,"passed":true}
+{"step":316,"utc":"2026-11-15T14:37:09.9249462Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_2_2","realtime":20.634740829467775,"timeScale":1.0,"passed":true}
+{"step":317,"utc":"2026-11-15T14:37:09.9249462Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.635501861572267,"timeScale":1.0,"passed":true}
+{"step":318,"utc":"2026-11-15T14:37:09.9259507Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.636213302612306,"timeScale":1.0,"passed":true}
+{"step":319,"utc":"2026-11-15T14:37:09.9336240Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_2_3","realtime":20.643714904785158,"timeScale":1.0,"passed":true}
+{"step":320,"utc":"2026-11-15T14:37:09.9347390Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_2_3","realtime":20.64457130432129,"timeScale":1.0,"passed":true}
+{"step":321,"utc":"2026-11-15T14:37:09.9357173Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.645370483398439,"timeScale":1.0,"passed":true}
+{"step":322,"utc":"2026-11-15T14:37:09.9357173Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.64606285095215,"timeScale":1.0,"passed":true}
+{"step":323,"utc":"2026-11-15T14:37:09.9410460Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_2_4","realtime":20.650753021240236,"timeScale":1.0,"passed":true}
+{"step":324,"utc":"2026-11-15T14:37:09.9410460Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_2_4","realtime":20.651334762573243,"timeScale":1.0,"passed":true}
+{"step":325,"utc":"2026-11-15T14:37:09.9420491Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.65203094482422,"timeScale":1.0,"passed":true}
+{"step":326,"utc":"2026-11-15T14:37:09.9430512Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.652677536010743,"timeScale":1.0,"passed":true}
+{"step":327,"utc":"2026-11-15T14:37:09.9484949Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_3_1","realtime":20.658748626708986,"timeScale":1.0,"passed":true}
+{"step":328,"utc":"2026-11-15T14:37:09.9495909Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_3_1","realtime":20.659534454345704,"timeScale":1.0,"passed":true}
+{"step":329,"utc":"2026-11-15T14:37:09.9505820Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.66027069091797,"timeScale":1.0,"passed":true}
+{"step":330,"utc":"2026-11-15T14:37:09.9505820Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.66098976135254,"timeScale":1.0,"passed":true}
+{"step":331,"utc":"2026-11-15T14:37:09.9559780Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_3_2","realtime":20.66560173034668,"timeScale":1.0,"passed":true}
+{"step":332,"utc":"2026-11-15T14:37:09.9559780Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_3_2","realtime":20.666349411010743,"timeScale":1.0,"passed":true}
+{"step":333,"utc":"2026-11-15T14:37:09.9570947Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.666906356811525,"timeScale":1.0,"passed":true}
+{"step":334,"utc":"2026-11-15T14:37:09.9570947Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.667564392089845,"timeScale":1.0,"passed":true}
+{"step":335,"utc":"2026-11-15T14:37:09.9617330Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_3_3","realtime":20.67240333557129,"timeScale":1.0,"passed":true}
+{"step":336,"utc":"2026-11-15T14:37:09.9632864Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_3_3","realtime":20.673046112060548,"timeScale":1.0,"passed":true}
+{"step":337,"utc":"2026-11-15T14:37:09.9632864Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.673606872558595,"timeScale":1.0,"passed":true}
+{"step":338,"utc":"2026-11-15T14:37:09.9643417Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.674091339111329,"timeScale":1.0,"passed":true}
+{"step":339,"utc":"2026-11-15T14:37:09.9683972Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_3_4","realtime":20.678186416625978,"timeScale":1.0,"passed":true}
+{"step":340,"utc":"2026-11-15T14:37:09.9683972Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_3_4","realtime":20.678791046142579,"timeScale":1.0,"passed":true}
+{"step":341,"utc":"2026-11-15T14:37:09.9693999Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.679317474365236,"timeScale":1.0,"passed":true}
+{"step":342,"utc":"2026-11-15T14:37:09.9693999Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.67981719970703,"timeScale":1.0,"passed":true}
+{"step":343,"utc":"2026-11-15T14:37:09.9740524Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_4_1","realtime":20.684608459472658,"timeScale":1.0,"passed":true}
+{"step":344,"utc":"2026-11-15T14:37:09.9750909Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_4_1","realtime":20.685583114624025,"timeScale":1.0,"passed":true}
+{"step":345,"utc":"2026-11-15T14:37:09.9760488Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.68625831604004,"timeScale":1.0,"passed":true}
+{"step":346,"utc":"2026-11-15T14:37:09.9770446Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.686954498291017,"timeScale":1.0,"passed":true}
+{"step":347,"utc":"2026-11-15T14:37:09.9830494Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_4_2","realtime":20.692752838134767,"timeScale":1.0,"passed":true}
+{"step":348,"utc":"2026-11-15T14:37:09.9836550Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_4_2","realtime":20.693504333496095,"timeScale":1.0,"passed":true}
+{"step":349,"utc":"2026-11-15T14:37:09.9836550Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.69415855407715,"timeScale":1.0,"passed":true}
+{"step":350,"utc":"2026-11-15T14:37:09.9847514Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.69470977783203,"timeScale":1.0,"passed":true}
+{"step":351,"utc":"2026-11-15T14:37:09.9893600Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_4_3","realtime":20.69977378845215,"timeScale":1.0,"passed":true}
+{"step":352,"utc":"2026-11-15T14:37:09.9904289Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_4_3","realtime":20.700469970703126,"timeScale":1.0,"passed":true}
+{"step":353,"utc":"2026-11-15T14:37:09.9914138Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.70120620727539,"timeScale":1.0,"passed":true}
+{"step":354,"utc":"2026-11-15T14:37:09.9914138Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.70178985595703,"timeScale":1.0,"passed":true}
+{"step":355,"utc":"2026-11-15T14:37:09.9970698Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_4_4","realtime":20.7069034576416,"timeScale":1.0,"passed":true}
+{"step":356,"utc":"2026-11-15T14:37:09.9981306Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_4_4","realtime":20.707868576049806,"timeScale":1.0,"passed":true}
+{"step":357,"utc":"2026-11-15T14:37:09.9981306Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.708425521850587,"timeScale":1.0,"passed":true}
+{"step":358,"utc":"2026-11-15T14:37:09.9991302Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.708898544311525,"timeScale":1.0,"passed":true}
+{"step":359,"utc":"2026-11-15T14:37:10.0037034Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_5_1","realtime":20.713333129882814,"timeScale":1.0,"passed":true}
+{"step":360,"utc":"2026-11-15T14:37:10.0037034Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_5_1","realtime":20.714038848876954,"timeScale":1.0,"passed":true}
+{"step":361,"utc":"2026-11-15T14:37:10.0047963Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.71467399597168,"timeScale":1.0,"passed":true}
+{"step":362,"utc":"2026-11-15T14:37:10.0047963Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.71533203125,"timeScale":1.0,"passed":true}
+{"step":363,"utc":"2026-11-15T14:37:10.0103862Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_5_2","realtime":20.72076416015625,"timeScale":1.0,"passed":true}
+{"step":364,"utc":"2026-11-15T14:37:10.0113847Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_5_2","realtime":20.721471786499025,"timeScale":1.0,"passed":true}
+{"step":365,"utc":"2026-11-15T14:37:10.0113847Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.722003936767579,"timeScale":1.0,"passed":true}
+{"step":366,"utc":"2026-11-15T14:37:10.0113847Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.72248649597168,"timeScale":1.0,"passed":true}
+{"step":367,"utc":"2026-11-15T14:37:10.0170972Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_5_3","realtime":20.727481842041017,"timeScale":1.0,"passed":true}
+{"step":368,"utc":"2026-11-15T14:37:10.0181124Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_5_3","realtime":20.72808837890625,"timeScale":1.0,"passed":true}
+{"step":369,"utc":"2026-11-15T14:37:10.0181124Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.72865867614746,"timeScale":1.0,"passed":true}
+{"step":370,"utc":"2026-11-15T14:37:10.0191221Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.7291316986084,"timeScale":1.0,"passed":true}
+{"step":371,"utc":"2026-11-15T14:37:10.0233856Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_5_4","realtime":20.733938217163087,"timeScale":1.0,"passed":true}
+{"step":372,"utc":"2026-11-15T14:37:10.0244291Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_5_4","realtime":20.734725952148439,"timeScale":1.0,"passed":true}
+{"step":373,"utc":"2026-11-15T14:37:10.0254948Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.735328674316408,"timeScale":1.0,"passed":true}
+{"step":374,"utc":"2026-11-15T14:37:10.0254948Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.73588752746582,"timeScale":1.0,"passed":true}
+{"step":375,"utc":"2026-11-15T14:37:10.0314358Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_1_1","realtime":20.741846084594728,"timeScale":1.0,"passed":true}
+{"step":376,"utc":"2026-11-15T14:37:10.0314358Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_1_1","realtime":20.742509841918947,"timeScale":1.0,"passed":true}
+{"step":377,"utc":"2026-11-15T14:37:10.0330371Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.743080139160158,"timeScale":1.0,"passed":true}
+{"step":378,"utc":"2026-11-15T14:37:10.0330371Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.743627548217775,"timeScale":1.0,"passed":true}
+{"step":379,"utc":"2026-11-15T14:37:10.0380944Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_1_2","realtime":20.74831771850586,"timeScale":1.0,"passed":true}
+{"step":380,"utc":"2026-11-15T14:37:10.0380944Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_1_2","realtime":20.74908447265625,"timeScale":1.0,"passed":true}
+{"step":381,"utc":"2026-11-15T14:37:10.0396944Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.749711990356447,"timeScale":1.0,"passed":true}
+{"step":382,"utc":"2026-11-15T14:37:10.0396944Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.750244140625,"timeScale":1.0,"passed":true}
+{"step":383,"utc":"2026-11-15T14:37:10.0444503Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_1_3","realtime":20.754966735839845,"timeScale":1.0,"passed":true}
+{"step":384,"utc":"2026-11-15T14:37:10.0454695Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_1_3","realtime":20.75552749633789,"timeScale":1.0,"passed":true}
+{"step":385,"utc":"2026-11-15T14:37:10.0464702Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.756135940551759,"timeScale":1.0,"passed":true}
+{"step":386,"utc":"2026-11-15T14:37:10.0474934Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.757131576538087,"timeScale":1.0,"passed":true}
+{"step":387,"utc":"2026-11-15T14:37:10.0515060Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_1_4","realtime":20.76180076599121,"timeScale":1.0,"passed":true}
+{"step":388,"utc":"2026-11-15T14:37:10.0515060Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_1_4","realtime":20.76247787475586,"timeScale":1.0,"passed":true}
+{"step":389,"utc":"2026-11-15T14:37:10.0530996Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.763050079345704,"timeScale":1.0,"passed":true}
+{"step":390,"utc":"2026-11-15T14:37:10.0530996Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.763662338256837,"timeScale":1.0,"passed":true}
+{"step":391,"utc":"2026-11-15T14:37:10.0590138Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_2_1","realtime":20.768787384033204,"timeScale":1.0,"passed":true}
+{"step":392,"utc":"2026-11-15T14:37:10.0590138Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_2_1","realtime":20.76938247680664,"timeScale":1.0,"passed":true}
+{"step":393,"utc":"2026-11-15T14:37:10.0600610Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.770000457763673,"timeScale":1.0,"passed":true}
+{"step":394,"utc":"2026-11-15T14:37:10.0600610Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.770526885986329,"timeScale":1.0,"passed":true}
+{"step":395,"utc":"2026-11-15T14:37:10.0658272Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_2_2","realtime":20.776168823242189,"timeScale":1.0,"passed":true}
+{"step":396,"utc":"2026-11-15T14:37:10.0668341Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_2_2","realtime":20.776777267456056,"timeScale":1.0,"passed":true}
+{"step":397,"utc":"2026-11-15T14:37:10.0668341Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.7773494720459,"timeScale":1.0,"passed":true}
+{"step":398,"utc":"2026-11-15T14:37:10.0678297Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.7778377532959,"timeScale":1.0,"passed":true}
+{"step":399,"utc":"2026-11-15T14:37:10.0728522Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_2_3","realtime":20.782949447631837,"timeScale":1.0,"passed":true}
+{"step":400,"utc":"2026-11-15T14:37:10.0734580Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_2_3","realtime":20.7835636138916,"timeScale":1.0,"passed":true}
+{"step":401,"utc":"2026-11-15T14:37:10.0734580Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.78408432006836,"timeScale":1.0,"passed":true}
+{"step":402,"utc":"2026-11-15T14:37:10.0745615Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.78459358215332,"timeScale":1.0,"passed":true}
+{"step":403,"utc":"2026-11-15T14:37:10.0785524Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_2_4","realtime":20.789108276367189,"timeScale":1.0,"passed":true}
+{"step":404,"utc":"2026-11-15T14:37:10.0795508Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_2_4","realtime":20.789838790893556,"timeScale":1.0,"passed":true}
+{"step":405,"utc":"2026-11-15T14:37:10.0805019Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.790374755859376,"timeScale":1.0,"passed":true}
+{"step":406,"utc":"2026-11-15T14:37:10.0805019Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.791011810302736,"timeScale":1.0,"passed":true}
+{"step":407,"utc":"2026-11-15T14:37:10.0861477Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_3_1","realtime":20.796493530273439,"timeScale":1.0,"passed":true}
+{"step":408,"utc":"2026-11-15T14:37:10.0871589Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_3_1","realtime":20.797142028808595,"timeScale":1.0,"passed":true}
+{"step":409,"utc":"2026-11-15T14:37:10.0871589Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.7977352142334,"timeScale":1.0,"passed":true}
+{"step":410,"utc":"2026-11-15T14:37:10.0881480Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.798250198364259,"timeScale":1.0,"passed":true}
+{"step":411,"utc":"2026-11-15T14:37:10.0917481Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_3_2","realtime":20.802885055541993,"timeScale":1.0,"passed":true}
+{"step":412,"utc":"2026-11-15T14:37:10.0933460Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_3_2","realtime":20.803443908691408,"timeScale":1.0,"passed":true}
+{"step":413,"utc":"2026-11-15T14:37:10.0933460Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.803987503051759,"timeScale":1.0,"passed":true}
+{"step":414,"utc":"2026-11-15T14:37:10.0944417Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.804445266723634,"timeScale":1.0,"passed":true}
+{"step":415,"utc":"2026-11-15T14:37:10.0983911Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_3_3","realtime":20.808908462524415,"timeScale":1.0,"passed":true}
+{"step":416,"utc":"2026-11-15T14:37:10.0994411Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_3_3","realtime":20.809473037719728,"timeScale":1.0,"passed":true}
+{"step":417,"utc":"2026-11-15T14:37:10.0994411Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.81001091003418,"timeScale":1.0,"passed":true}
+{"step":418,"utc":"2026-11-15T14:37:10.1004407Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.810644149780275,"timeScale":1.0,"passed":true}
+{"step":419,"utc":"2026-11-15T14:37:10.1051325Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_3_4","realtime":20.81519889831543,"timeScale":1.0,"passed":true}
+{"step":420,"utc":"2026-11-15T14:37:10.1061339Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_3_4","realtime":20.81599235534668,"timeScale":1.0,"passed":true}
+{"step":421,"utc":"2026-11-15T14:37:10.1067476Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.816566467285158,"timeScale":1.0,"passed":true}
+{"step":422,"utc":"2026-11-15T14:37:10.1067476Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.817106246948243,"timeScale":1.0,"passed":true}
+{"step":423,"utc":"2026-11-15T14:37:10.1108497Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_4_1","realtime":20.8214168548584,"timeScale":1.0,"passed":true}
+{"step":424,"utc":"2026-11-15T14:37:10.1118405Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_4_1","realtime":20.822093963623048,"timeScale":1.0,"passed":true}
+{"step":425,"utc":"2026-11-15T14:37:10.1128405Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.8226318359375,"timeScale":1.0,"passed":true}
+{"step":426,"utc":"2026-11-15T14:37:10.1134381Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.823122024536134,"timeScale":1.0,"passed":true}
+{"step":427,"utc":"2026-11-15T14:37:10.1184755Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_4_2","realtime":20.828380584716798,"timeScale":1.0,"passed":true}
+{"step":428,"utc":"2026-11-15T14:37:10.1184755Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_4_2","realtime":20.82902717590332,"timeScale":1.0,"passed":true}
+{"step":429,"utc":"2026-11-15T14:37:10.1194747Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.829526901245118,"timeScale":1.0,"passed":true}
+{"step":430,"utc":"2026-11-15T14:37:10.1194747Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.8300724029541,"timeScale":1.0,"passed":true}
+{"step":431,"utc":"2026-11-15T14:37:10.1251746Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_4_3","realtime":20.835346221923829,"timeScale":1.0,"passed":true}
+{"step":432,"utc":"2026-11-15T14:37:10.1262412Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_4_3","realtime":20.83605194091797,"timeScale":1.0,"passed":true}
+{"step":433,"utc":"2026-11-15T14:37:10.1262412Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.836650848388673,"timeScale":1.0,"passed":true}
+{"step":434,"utc":"2026-11-15T14:37:10.1272241Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.837158203125,"timeScale":1.0,"passed":true}
+{"step":435,"utc":"2026-11-15T14:37:10.1312320Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_4_4","realtime":20.84156036376953,"timeScale":1.0,"passed":true}
+{"step":436,"utc":"2026-11-15T14:37:10.1322348Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_4_4","realtime":20.842144012451173,"timeScale":1.0,"passed":true}
+{"step":437,"utc":"2026-11-15T14:37:10.1332322Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.84284019470215,"timeScale":1.0,"passed":true}
+{"step":438,"utc":"2026-11-15T14:37:10.1332322Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.843347549438478,"timeScale":1.0,"passed":true}
+{"step":439,"utc":"2026-11-15T14:37:10.1379432Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_5_1","realtime":20.847806930541993,"timeScale":1.0,"passed":true}
+{"step":440,"utc":"2026-11-15T14:37:10.1379432Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_5_1","realtime":20.848346710205079,"timeScale":1.0,"passed":true}
+{"step":441,"utc":"2026-11-15T14:37:10.1379432Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.84885597229004,"timeScale":1.0,"passed":true}
+{"step":442,"utc":"2026-11-15T14:37:10.1395460Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.849363327026368,"timeScale":1.0,"passed":true}
+{"step":443,"utc":"2026-11-15T14:37:10.1432503Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_5_2","realtime":20.853679656982423,"timeScale":1.0,"passed":true}
+{"step":444,"utc":"2026-11-15T14:37:10.1443534Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_5_2","realtime":20.85428237915039,"timeScale":1.0,"passed":true}
+{"step":445,"utc":"2026-11-15T14:37:10.1443534Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.854774475097658,"timeScale":1.0,"passed":true}
+{"step":446,"utc":"2026-11-15T14:37:10.1453441Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.8553409576416,"timeScale":1.0,"passed":true}
+{"step":447,"utc":"2026-11-15T14:37:10.1513535Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_5_3","realtime":20.861419677734376,"timeScale":1.0,"passed":true}
+{"step":448,"utc":"2026-11-15T14:37:10.1513535Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_5_3","realtime":20.862098693847658,"timeScale":1.0,"passed":true}
+{"step":449,"utc":"2026-11-15T14:37:10.1529463Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.8626766204834,"timeScale":1.0,"passed":true}
+{"step":450,"utc":"2026-11-15T14:37:10.1529463Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.863204956054689,"timeScale":1.0,"passed":true}
+{"step":451,"utc":"2026-11-15T14:37:10.1576927Z","scene":"Home","type":"assertion","message":"Item purchase failed: item_5_4","realtime":20.868404388427736,"timeScale":1.0,"passed":true}
+{"step":452,"utc":"2026-11-15T14:37:10.1592860Z","scene":"Home","type":"assertion","message":"Item marker hidden: item_5_4","realtime":20.86907196044922,"timeScale":1.0,"passed":true}
+{"step":453,"utc":"2026-11-15T14:37:10.1592860Z","scene":"Home","type":"assertion","message":"Wrong item art","realtime":20.869651794433595,"timeScale":1.0,"passed":true}
+{"step":454,"utc":"2026-11-15T14:37:10.1603838Z","scene":"Home","type":"assertion","message":"Wrong item level","realtime":20.870193481445314,"timeScale":1.0,"passed":true}
+{"step":455,"utc":"2026-11-15T14:37:10.1613881Z","scene":"Home","type":"assertion","message":"Item exceeded cap","realtime":20.87102508544922,"timeScale":1.0,"passed":true}
+{"step":456,"utc":"2026-11-15T14:37:10.1613881Z","scene":"Home","type":"assertion","message":"Item exceeded cap","realtime":20.871601104736329,"timeScale":1.0,"passed":true}
+{"step":457,"utc":"2026-11-15T14:37:10.1613881Z","scene":"Home","type":"assertion","message":"Item exceeded cap","realtime":20.872262954711915,"timeScale":1.0,"passed":true}
+{"step":458,"utc":"2026-11-15T14:37:10.1629879Z","scene":"Home","type":"assertion","message":"Item exceeded cap","realtime":20.87289047241211,"timeScale":1.0,"passed":true}
+{"step":459,"utc":"2026-11-15T14:37:10.1629879Z","scene":"Home","type":"assertion","message":"Item exceeded cap","realtime":20.87339210510254,"timeScale":1.0,"passed":true}
+{"step":460,"utc":"2026-11-15T14:37:10.1641029Z","scene":"Home","type":"assertion","message":"Item exceeded cap","realtime":20.874025344848634,"timeScale":1.0,"passed":true}
+{"step":461,"utc":"2026-11-15T14:37:10.1641029Z","scene":"Home","type":"assertion","message":"Item exceeded cap","realtime":20.87454605102539,"timeScale":1.0,"passed":true}
+{"step":462,"utc":"2026-11-15T14:37:10.1650971Z","scene":"Home","type":"assertion","message":"Item exceeded cap","realtime":20.875,"timeScale":1.0,"passed":true}
+{"step":463,"utc":"2026-11-15T14:37:10.1650971Z","scene":"Home","type":"assertion","message":"Item exceeded cap","realtime":20.875524520874025,"timeScale":1.0,"passed":true}
+{"step":464,"utc":"2026-11-15T14:37:10.1660924Z","scene":"Home","type":"assertion","message":"Item exceeded cap","realtime":20.876110076904298,"timeScale":1.0,"passed":true}
+{"step":465,"utc":"2026-11-15T14:37:10.1660924Z","scene":"Home","type":"assertion","message":"Item exceeded cap","realtime":20.876623153686525,"timeScale":1.0,"passed":true}
+{"step":466,"utc":"2026-11-15T14:37:10.1670826Z","scene":"Home","type":"assertion","message":"Item exceeded cap","realtime":20.877090454101564,"timeScale":1.0,"passed":true}
+{"step":467,"utc":"2026-11-15T14:37:10.1670826Z","scene":"Home","type":"assertion","message":"Item exceeded cap","realtime":20.877548217773439,"timeScale":1.0,"passed":true}
+{"step":468,"utc":"2026-11-15T14:37:10.1680860Z","scene":"Home","type":"assertion","message":"Item exceeded cap","realtime":20.87796401977539,"timeScale":1.0,"passed":true}
+{"step":469,"utc":"2026-11-15T14:37:10.1680860Z","scene":"Home","type":"assertion","message":"Item exceeded cap","realtime":20.878494262695314,"timeScale":1.0,"passed":true}
+{"step":470,"utc":"2026-11-15T14:37:10.1690888Z","scene":"Home","type":"assertion","message":"Item exceeded cap","realtime":20.879058837890626,"timeScale":1.0,"passed":true}
+{"step":471,"utc":"2026-11-15T14:37:10.1690888Z","scene":"Home","type":"assertion","message":"Item exceeded cap","realtime":20.87959861755371,"timeScale":1.0,"passed":true}
+{"step":472,"utc":"2026-11-15T14:37:10.1700456Z","scene":"Home","type":"assertion","message":"Item exceeded cap","realtime":20.880252838134767,"timeScale":1.0,"passed":true}
+{"step":473,"utc":"2026-11-15T14:37:10.1710966Z","scene":"Home","type":"assertion","message":"Item exceeded cap","realtime":20.88076400756836,"timeScale":1.0,"passed":true}
+{"step":474,"utc":"2026-11-15T14:37:10.1710966Z","scene":"Home","type":"assertion","message":"Item exceeded cap","realtime":20.881263732910158,"timeScale":1.0,"passed":true}
+{"step":475,"utc":"2026-11-15T14:37:12.2429743Z","scene":"Home","type":"screenshot","message":"all-items-level5-1920x1080.png","realtime":22.953235626220704,"timeScale":1.0,"passed":true}
+{"step":476,"utc":"2026-11-15T14:37:14.2791773Z","scene":"Home","type":"screenshot","message":"all-items-level5-1280x720.png","realtime":24.989295959472658,"timeScale":1.0,"passed":true}
+{"step":477,"utc":"2026-11-15T14:37:16.3041023Z","scene":"Home","type":"screenshot","message":"all-items-level5-1024x768.png","realtime":27.013832092285158,"timeScale":1.0,"passed":true}
+{"step":478,"utc":"2026-11-15T14:37:18.4028902Z","scene":"Home","type":"screenshot","message":"roster-440-1280x720.png","realtime":29.112857818603517,"timeScale":1.0,"passed":true}

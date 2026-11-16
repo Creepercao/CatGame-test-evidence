@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-15T22:04:35.414941" rpa="false" schemaversion="5">
+<suite id="s1" name="F1 Upgrade" source="PROJECT_ROOT\Tests\robot\android\f1_upgrade.robot">
+<kw name="Open Appium" owner="F1ArtAndroid" type="SETUP">
+<msg time="2026-11-15T22:04:44.870607" level="INFO">Appium session SESSION_ID, Android test user 10</msg>
+<status status="PASS" start="2026-11-15T22:04:35.967829" elapsed="8.904364"/>
+</kw>
+<test id="s1-t1" name="F1-UPGRADE-01 Ordinary APK Keeps The Actual Old Save And Loads Two Cats" line="8">
+<kw name="Upgrade Normal Apk Without Changing Save" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:04:45.757752" level="INFO">Appium Android key 3</msg>
+<msg time="2026-11-15T22:04:48.574653" level="INFO">CatGame is backgrounded; topResumedActivity=ActivityRecord{a8032fe u10 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t1000003}</msg>
+<arg>${APK}</arg>
+<status status="PASS" start="2026-11-15T22:04:44.873205" elapsed="7.020386"/>
+</kw>
+<kw name="Start Cat Game" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:04:55.270642" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 2992
+WaitTime: 3106
+Complete</msg>
+<status status="PASS" start="2026-11-15T22:04:51.894585" elapsed="3.376057"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:05:11.531434" level="INFO">Visual check menu passed (RGB error 0.51): 01-new-menu.png</msg>
+<arg>menu</arg>
+<arg>01-new-menu.png</arg>
+<arg>timeout=45</arg>
+<status status="PASS" start="2026-11-15T22:04:55.270642" elapsed="16.261396"/>
+</kw>
+<kw name="Tap" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:05:11.533052" level="INFO">Appium clickGesture (1320, 372)</msg>
+<arg>1320</arg>
+<arg>372</arg>
+<status status="PASS" start="2026-11-15T22:05:11.533052" elapsed="0.298436"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:05:18.954740" level="INFO">Visual check offline passed (RGB error 0.35): 02-offline-summary.png</msg>
+<arg>offline</arg>
+<arg>02-offline-summary.png</arg>
+<status status="PASS" start="2026-11-15T22:05:11.831488" elapsed="7.124251"/>
+</kw>
+<kw name="Tap" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:05:18.957742" level="INFO">Appium clickGesture (800, 519)</msg>
+<arg>800</arg>
+<arg>519</arg>
+<status status="PASS" start="2026-11-15T22:05:18.955739" elapsed="0.215211"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:05:21.294599" level="INFO">Visual check two-cats passed (RGB error 0.92): 03-loaded-two-cats.png</msg>
+<arg>two-cats</arg>
+<arg>03-loaded-two-cats.png</arg>
+<status status="PASS" start="2026-11-15T22:05:19.170950" elapsed="2.126651"/>
+</kw>
+<kw name="Upgraded State Retains Owned Cats And Clicks" owner="F1ArtAndroid">
+<status status="PASS" start="2026-11-15T22:05:21.297601" elapsed="0.748216"/>
+</kw>
+<status status="PASS" start="2026-11-15T22:04:44.872193" elapsed="37.173624"/>
+</test>
+<kw name="Close Appium" owner="F1ArtAndroid" type="TEARDOWN">
+<status status="PASS" start="2026-11-15T22:05:22.046820" elapsed="2.123689"/>
+</kw>
+<doc>Install ordinary 1.1.0 over the naturally played ordinary 1.0.2, preserve bytes and continue via Appium.</doc>
+<status status="PASS" start="2026-11-15T22:04:35.416534" elapsed="48.753975"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="F1 Upgrade" id="s1" pass="1" fail="0" skip="0">F1 Upgrade</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

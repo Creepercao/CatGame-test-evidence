@@ -1,0 +1,26 @@
+{"utc": "2026-11-15T14:45:28.634212+00:00", "action": "dismiss-recognized-cg-image", "data": {"point": [1200, 100], "clicksBefore": 1}}
+{"utc": "2026-11-15T14:45:53.430521+00:00", "action": "sleep-source", "data": {"sha256": "dc0600c76f5de2128b414aecfa3862e38a4dc97878edf8f7bd36a99d11cf4034", "reason": "stable natural Sleep body avoids chasing a roaming target through screenshot latency"}}
+{"utc": "2026-11-15T14:45:54.883670+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-001.json", "bestMse": null}}
+{"utc": "2026-11-15T14:45:56.706268+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-002.json", "bestMse": null}}
+{"utc": "2026-11-15T14:45:58.918718+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-003.json", "bestMse": 0.7028985507246377}}
+{"utc": "2026-11-15T14:45:58.980793+00:00", "action": "appium-pet", "data": {"size": [2000, 900], "point": [1224, 394], "sleepFrame": 2, "flipped": false, "mse": 0.7028985507246377, "beforeClicks": 1}}
+{"utc": "2026-11-15T14:46:01.186045+00:00", "action": "saved-click-result", "data": {"before": 1, "after": 2}}
+{"utc": "2026-11-15T14:46:17.266235+00:00", "action": "sleep-source", "data": {"sha256": "dc0600c76f5de2128b414aecfa3862e38a4dc97878edf8f7bd36a99d11cf4034", "reason": "stable natural Sleep body avoids chasing a roaming target through screenshot latency"}}
+{"utc": "2026-11-15T14:46:18.688228+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-001.json", "bestMse": null}}
+{"utc": "2026-11-15T14:46:20.528209+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-002.json", "bestMse": null}}
+{"utc": "2026-11-15T14:46:22.470226+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-003.json", "bestMse": null}}
+{"utc": "2026-11-15T14:46:24.341624+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-004.json", "bestMse": null}}
+{"utc": "2026-11-15T14:46:26.214444+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-005.json", "bestMse": null}}
+{"utc": "2026-11-15T14:46:28.030412+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-006.json", "bestMse": null}}
+{"utc": "2026-11-15T14:46:29.945296+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-007.json", "bestMse": null}}
+{"utc": "2026-11-15T14:46:31.843302+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-008.json", "bestMse": null}}
+{"utc": "2026-11-15T14:46:33.707549+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-009.json", "bestMse": null}}
+{"utc": "2026-11-15T14:46:35.514989+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-010.json", "bestMse": null}}
+{"utc": "2026-11-15T14:46:37.398233+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-011.json", "bestMse": null}}
+{"utc": "2026-11-15T14:46:39.330952+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-012.json", "bestMse": null}}
+{"utc": "2026-11-15T14:46:41.151026+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-013.json", "bestMse": null}}
+{"utc": "2026-11-15T14:46:42.968484+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-014.json", "bestMse": null}}
+{"utc": "2026-11-15T14:46:44.719660+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-015.json", "bestMse": null}}
+{"utc": "2026-11-15T14:46:46.617957+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-016.json", "bestMse": 0.18918238993710693}}
+{"utc": "2026-11-15T14:46:46.645013+00:00", "action": "appium-pet", "data": {"size": [1200, 900], "point": [965, 331], "sleepFrame": 0, "flipped": false, "mse": 0.18918238993710693, "beforeClicks": 2}}
+{"utc": "2026-11-15T14:46:48.595895+00:00", "action": "saved-click-result", "data": {"before": 2, "after": 3}}

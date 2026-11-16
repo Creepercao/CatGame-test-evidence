@@ -1,0 +1,304 @@
+WINDOW MANAGER DISPLAY CONTENTS (dumpsys window displays)
+  Display: mDisplayId=0 (organized)
+    init=1080x2220 440dpi mMinSizeOfResizeableTaskDp=220 cur=2220x1080 app=2088x1014 rng=1080x948-2088x2022
+    deferred=false mLayoutNeeded=false mTouchExcludeRegion=SkRegion((0,0,2220,1080))
+
+  mLastOrientationSource=WindowedMagnification:0:31@30375115
+  deepestLastOrientationSource=ActivityRecord{4fb25ef u10 com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity t1000019}
+  overrideConfig={1.0 310mcc260mnc [en_US] ldltr sw393dp w759dp h345dp 440dpi nrml long land finger qwerty/v/v dpad/v winConfig={ mBounds=Rect(0, 0 - 2220, 1080) mAppBounds=Rect(132, 0 - 2220, 1014) mMaxBounds=Rect(0, 0 - 2220, 1080) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_90} as.15 s.4194 fontWeightAdjustment=0}
+  mLayoutSeq=1870
+  mCurrentFocus=Window{12e81ec u10 com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity}
+  mFocusedApp=ActivityRecord{4fb25ef u10 com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity t1000019}
+
+  mHoldScreenWindow=null
+  mObscuringWindow=null
+  mLastWakeLockHoldingWindow=null
+  mLastWakeLockObscuringWindow=null
+
+  displayId=0
+  mWallpaperTarget=null
+  mLastWallpaperX=0.0 mLastWallpaperY=0.5
+
+  mSystemGestureExclusion=SkRegion()
+
+  Display areas in top down Z order:
+    * Leaf:36:36
+    * HideDisplayCutout:32:35
+      * OneHanded:34:35
+        * FullscreenMagnification:34:35
+          * Leaf:34:35
+      * FullscreenMagnification:33:33
+        * Leaf:33:33
+      * OneHanded:32:32
+        * Leaf:32:32
+    * WindowedMagnification:0:31
+      * HideDisplayCutout:26:31
+        * OneHanded:26:31
+          * FullscreenMagnification:29:31
+            * Leaf:29:31
+          * Leaf:28:28
+          * FullscreenMagnification:26:27
+            * Leaf:26:27
+      * Leaf:24:25
+      * HideDisplayCutout:18:23
+        * OneHanded:18:23
+          * FullscreenMagnification:18:23
+            * Leaf:18:23
+      * OneHanded:17:17
+        * FullscreenMagnification:17:17
+          * Leaf:17:17
+      * HideDisplayCutout:16:16
+        * OneHanded:16:16
+          * FullscreenMagnification:16:16
+            * Leaf:16:16
+      * OneHanded:15:15
+        * FullscreenMagnification:15:15
+          * Leaf:15:15
+      * HideDisplayCutout:0:14
+        * OneHanded:0:14
+          * ImePlaceholder:13:14
+            * ImeContainer
+          * FullscreenMagnification:0:12
+            * Leaf:3:12
+            * DefaultTaskDisplayArea (organized)
+            * Leaf:0:1
+
+  Task display areas in top down Z order:
+    TaskDisplayArea DefaultTaskDisplayArea
+      overrideConfig={0.0 ?mcc0mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=undefined} ?fontWeightAdjustment}
+      mPreferredTopFocusableRootTask=Task{a5828fc #1000019 type=standard A=1010193:com.catgamestudio.catgame}
+      mLastFocusedRootTask=Task{a5828fc #1000019 type=standard A=1010193:com.catgamestudio.catgame}
+      Application tokens in top down Z order:
+      * Task{a5828fc #1000019 type=standard A=1010193:com.catgamestudio.catgame U=10 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+        bounds=[0,0][2220,1080]
+        * ActivityRecord{4fb25ef u10 com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity t1000019}
+      * Task{d7b7766 #1 type=home U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=2}
+        bounds=[0,0][2220,1080]
+        * Task{a59b357 #1000003 type=home I=com.google.android.apps.nexuslauncher/.NexusLauncherActivity U=10 rootTaskId=1 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+          bounds=[0,0][2220,1080]
+          * ActivityRecord{55b44d6 u10 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t1000003}
+        * Task{6efcc2f #14 type=home I=com.google.android.apps.nexuslauncher/.NexusLauncherActivity U=0 rootTaskId=1 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+          bounds=[0,0][2220,1080]
+          * ActivityRecord{9795a0e u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t14}
+      * Task{98b17cf #2 type=undefined U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=2}
+        bounds=[0,0][2220,1080]
+        * Task{51d4678 #4 type=undefined U=0 rootTaskId=2 visible=false visibleRequested=false mode=multi-window translucent=true sz=0}
+          bounds=[0,2220][1080,3330]
+        * Task{85c2cd5 #3 type=undefined U=0 rootTaskId=2 visible=false visibleRequested=false mode=multi-window translucent=true sz=0}
+          bounds=[0,0][2220,1080]
+
+  no ScreenRotationAnimation 
+
+  rootHomeTask=Task=1
+
+  PinnedTaskController
+    mIsImeShowing=false
+    mImeHeight=0
+    mMinAspectRatio=0.41841003
+    mMaxAspectRatio=2.39
+
+  DisplayFrames w=2220 h=1080 r=1
+
+  DisplayPolicy
+    mCarDockEnablesAccelerometer=true mDeskDockEnablesAccelerometer=true
+    mDockMode=EXTRA_DOCK_STATE_UNDOCKED mLidState=LID_OPEN
+    mAwake=true mScreenOnEarly=true mScreenOnFully=true
+    mKeyguardDrawComplete=true mWindowManagerDrawComplete=true
+    mHdmiPlugged=false
+    mLastAppearance=LOW_PROFILE_BARS
+    mLastBehavior=SHOW_TRANSIENT_BARS_BY_SWIPE
+    mShowingDream=false mDreamingLockscreen=false
+    mStatusBar=Window{e3690d8 u0 StatusBar}
+    mExpandedPanel=Window{e724446 u0 NotificationShade}
+    isKeyguardShowing=false
+    mNavigationBar=Window{de13ba9 u0 NavigationBar0}
+    mNavBarOpacityMode=2
+    mNavigationBarCanMove=false
+    mNavigationBarPosition=4
+    mLeftGestureHost=Window{de13ba9 u0 NavigationBar0}
+    mTopGestureHost=Window{e3690d8 u0 StatusBar}
+    mRightGestureHost=Window{de13ba9 u0 NavigationBar0}
+    mBottomGestureHost=Window{de13ba9 u0 NavigationBar0}
+    mFocusedWindow=Window{12e81ec u10 com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity}
+    mTopFullscreenOpaqueWindowState=Window{12e81ec u10 com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity}
+    mSystemBarColorApps={ActivityRecord{4fb25ef u10 com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity t1000019}}
+    mLastStatusBarAppearanceRegions=
+      AppearanceRegion{ bounds=[0,0][2220,1080]}
+    mLastLetterboxDetails=
+    mStatusBarBackgroundWindows=
+      Window{12e81ec u10 com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity}
+    mTopIsFullscreen=true
+    mForceShowNavigationBarEnabled=false mAllowLockscreenWhenOn=false
+    mRemoteInsetsControllerControlsSystemBars=false
+    mDecorInsetsInfo:
+      ROTATION_0={nonDecorInsets=[0,132][0,66], configInsets=[0,132][0,66], nonDecorFrame=[0,132][1080,2154], configFrame=[0,132][1080,2154]}
+      ROTATION_90={nonDecorInsets=[132,0][0,66], configInsets=[132,66][0,66], nonDecorFrame=[132,0][2220,1014], configFrame=[132,66][2220,1014]}
+      ROTATION_180={nonDecorInsets=[0,0][0,198], configInsets=[0,66][0,198], nonDecorFrame=[0,0][1080,2022], configFrame=[0,66][1080,2022]}
+      ROTATION_270={nonDecorInsets=[0,0][132,66], configInsets=[0,66][132,66], nonDecorFrame=[0,0][2088,1014], configFrame=[0,66][2088,1014]}
+    SystemGestures:
+      mDisplayCutoutTouchableRegionSize=33
+      mSwipeStartThreshold=Rect(165, 66 - 66, 66)
+      mSwipeDistanceThreshold=66
+    Looper state:
+      Looper (android.ui, tid 22) {4473bdd}
+        (Total messages: 0, polling=true, quitting=false)
+
+  DisplayRotation
+    mCurrentAppOrientation=SCREEN_ORIENTATION_LANDSCAPE
+    mLastOrientation=0
+    mRotation=1 mDeferredRotationPauseCount=0
+    mLandscapeRotation=ROTATION_90 mSeascapeRotation=ROTATION_270
+    mPortraitRotation=ROTATION_0 mUpsideDownRotation=ROTATION_180
+    mSupportAutoRotation=true
+    WindowOrientationListener
+      mEnabled=true
+      mCurrentRotation=ROTATION_90
+      mSensorType=null
+      mSensor={Sensor name="Goldfish 3-axis Accelerometer", vendor="The Android Open Source Project", version=1, type=1, maxRange=39.300102, resolution=2.480159E-4, power=3.0, minDelay=10000}
+      mRate=2
+      AccelSensorJudge
+        mProposedRotation=0
+        mPredictedRotation=0
+        mLastFilteredX=0.0
+        mLastFilteredY=9.776321
+        mLastFilteredZ=0.812345
+        mLastFilteredTimestampNanos=3196688261295 (3.872267ms ago)
+        mTiltHistory={last: 5.0}
+        mFlat=false
+        mSwinging=false
+        mAccelerating=false
+        mOverhead=false
+        mTouched=false
+        mTiltToleranceConfig=[[-25, 70], [-25, 65], [-25, 60], [-25, 65]]
+
+    mCarDockRotation=-1 mDeskDockRotation=-1
+    mUserRotationMode=USER_ROTATION_FREE mUserRotation=ROTATION_0 mCameraRotationMode=0 mAllowAllRotations=unknown
+    mDemoHdmiRotation=ROTATION_90 mDemoHdmiRotationLock=false mUndockedHdmiRotation=-1
+    mLidOpenRotation=-1
+    mFixedToUserRotation=false
+
+    RotationHistory
+      11-16 14:56:54.130 ROTATION_90 to ROTATION_0
+        source=ActivityRecord{55b44d6 u10 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t1000003} SCREEN_ORIENTATION_NOSENSOR
+        mode=USER_ROTATION_FREE user=ROTATION_0 sensor=ROTATION_0
+      DisplayRotationCompatPolicy{ isTreatmentEnabledForDisplay=false }
+       reversionSlots= NOSENSOR false, CAMERA false HALF_FOLD false
+      11-16 15:01:38.672 ROTATION_0 to ROTATION_90
+        source=ActivityRecord{508299 u10 com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity t1000015} SCREEN_ORIENTATION_LANDSCAPE
+        mode=USER_ROTATION_FREE user=ROTATION_0 sensor=ROTATION_0
+      DisplayRotationCompatPolicy{ isTreatmentEnabledForDisplay=false }
+       reversionSlots= NOSENSOR false, CAMERA false HALF_FOLD false
+      11-16 15:05:19.241 ROTATION_90 to ROTATION_0
+        source=ActivityRecord{55b44d6 u10 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t1000003} SCREEN_ORIENTATION_NOSENSOR
+        mode=USER_ROTATION_FREE user=ROTATION_0 sensor=ROTATION_0
+      DisplayRotationCompatPolicy{ isTreatmentEnabledForDisplay=false }
+       reversionSlots= NOSENSOR false, CAMERA false HALF_FOLD false
+      11-16 15:05:22.352 ROTATION_0 to ROTATION_90
+        source=ActivityRecord{3af59c9 u10 com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity t1000017} SCREEN_ORIENTATION_LANDSCAPE
+        mode=USER_ROTATION_FREE user=ROTATION_0 sensor=ROTATION_0
+      DisplayRotationCompatPolicy{ isTreatmentEnabledForDisplay=false }
+       reversionSlots= NOSENSOR false, CAMERA false HALF_FOLD false
+      11-16 15:07:59.409 ROTATION_90 to ROTATION_0
+        source=ActivityRecord{55b44d6 u10 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t1000003} SCREEN_ORIENTATION_NOSENSOR
+        mode=USER_ROTATION_FREE user=ROTATION_0 sensor=ROTATION_0
+      DisplayRotationCompatPolicy{ isTreatmentEnabledForDisplay=false }
+       reversionSlots= NOSENSOR false, CAMERA false HALF_FOLD false
+      11-16 15:08:05.337 ROTATION_0 to ROTATION_90
+        source=ActivityRecord{7dfd89f u10 com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity t1000018} SCREEN_ORIENTATION_LANDSCAPE
+        mode=USER_ROTATION_FREE user=ROTATION_0 sensor=ROTATION_0
+      DisplayRotationCompatPolicy{ isTreatmentEnabledForDisplay=false }
+       reversionSlots= NOSENSOR false, CAMERA false HALF_FOLD false
+      11-16 15:08:57.120 ROTATION_90 to ROTATION_0
+        source=ActivityRecord{55b44d6 u10 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t1000003} SCREEN_ORIENTATION_NOSENSOR
+        mode=USER_ROTATION_FREE user=ROTATION_0 sensor=ROTATION_0
+      DisplayRotationCompatPolicy{ isTreatmentEnabledForDisplay=false }
+       reversionSlots= NOSENSOR false, CAMERA false HALF_FOLD false
+      11-16 15:09:59.864 ROTATION_0 to ROTATION_90
+        source=ActivityRecord{4fb25ef u10 com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity t1000019} SCREEN_ORIENTATION_LANDSCAPE
+        mode=USER_ROTATION_FREE user=ROTATION_0 sensor=ROTATION_0
+      DisplayRotationCompatPolicy{ isTreatmentEnabledForDisplay=false }
+       reversionSlots= NOSENSOR false, CAMERA false HALF_FOLD false
+
+  InputConsumers:
+    name=recents_animation_input_consumer pid=4538 user=UserHandle{10}
+
+  WindowInsetsStateController
+    InsetsState
+      mDisplayFrame=Rect(0, 0 - 2220, 1080)
+      mDisplayCutout=DisplayCutout{insets=Rect(132, 0 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 408 - 132, 672), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2220 physicalDisplayWidth=1080 physicalDisplayHeight=2220 density={2.75} cutoutSpec={M 0,0 L -48, 0 L -44.3940446283, 36.0595537175 C -43.5582133885, 44.4178661152 -39.6, 48.0 -31.2, 48.0 L 31.2, 48.0 C 39.6, 48.0 43.5582133885, 44.4178661152 44.3940446283, 36.0595537175 L 48, 0 Z @dp} rotation={1} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}
+      mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}
+      mRoundedCornerFrame=Rect(0, 0 - 0, 0)
+      mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(1956, 0 - 2182, 66) rotation=1}
+      mDisplayShape=DisplayShape{ spec=-1050673191 displayWidth=1080 displayHeight=2220 physicalPixelDisplaySizeRatio=1.0 rotation=1 offsetX=0 offsetY=0 scale=1.0}
+        InsetsSource id=be930001 type=navigationBars frame=[0,1014][2220,1080] visible=false flags=SUPPRESS_SCRIM insetsRoundedCornerFrame=false
+        InsetsSource id=be930004 type=systemGestures frame=[0,0][214,1080] visible=true flags= insetsRoundedCornerFrame=false
+        InsetsSource id=be930005 type=mandatorySystemGestures frame=[0,992][2220,1080] visible=true flags= insetsRoundedCornerFrame=false
+        InsetsSource id=be930006 type=tappableElement frame=[0,0][0,0] visible=true flags= insetsRoundedCornerFrame=false
+        InsetsSource id=be930024 type=systemGestures frame=[2138,0][2220,1080] visible=true flags= insetsRoundedCornerFrame=false
+        InsetsSource id=3 type=ime frame=[0,0][0,0] visible=false flags= insetsRoundedCornerFrame=false
+        InsetsSource id=7 type=displayCutout frame=[0,0][132,1080] visible=true flags= insetsRoundedCornerFrame=false
+        InsetsSource id=14b60000 type=statusBars frame=[0,0][2220,66] visible=false flags= insetsRoundedCornerFrame=false
+        InsetsSource id=14b60005 type=mandatorySystemGestures frame=[0,0][2220,66] visible=true flags= insetsRoundedCornerFrame=false
+        InsetsSource id=14b60006 type=tappableElement frame=[0,0][2220,66] visible=true flags= insetsRoundedCornerFrame=false
+    Control map:
+      Window{12e81ec u10 com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity}:
+        InsetsSourceControl: {3 mType=ime mSurfacePosition=Point(0, 66) mInsetsHint=Insets{left=0, top=0, right=0, bottom=0}}
+        InsetsSourceControl: {be930001 mType=navigationBars initiallyVisible mSurfacePosition=Point(0, 948) mInsetsHint=Insets{left=0, top=0, right=0, bottom=66}}
+        InsetsSourceControl: {14b60000 mType=statusBars initiallyVisible mSurfacePosition=Point(0, 0) mInsetsHint=Insets{left=0, top=66, right=0, bottom=0}}
+    InsetsSourceProviders:
+      InsetsSourceProvider
+        mSource=InsetsSource id=14b60006 type=tappableElement frame=[0,0][2220,66] visible=true flags= insetsRoundedCornerFrame=false
+        mSourceFrame=Rect(0, 0 - 2220, 66)
+        mIsLeashReadyForDispatching=true
+        mWindowContainer=Window{e3690d8 u0 StatusBar}
+      InsetsSourceProvider
+        mSource=InsetsSource id=14b60005 type=mandatorySystemGestures frame=[0,0][2220,66] visible=true flags= insetsRoundedCornerFrame=false
+        mSourceFrame=Rect(0, 0 - 2220, 66)
+        mIsLeashReadyForDispatching=true
+        mWindowContainer=Window{e3690d8 u0 StatusBar}
+      InsetsSourceProvider
+        mSource=InsetsSource id=14b60000 type=statusBars frame=[0,0][2220,66] visible=false flags= insetsRoundedCornerFrame=false
+        mSourceFrame=Rect(0, 0 - 2220, 66)
+        mControl=InsetsSourceControl mId=14b60000 mType=statusBars mLeash=Surface(name=Surface(name=e3690d8 StatusBar)/@0x24cd84e - animation-leash of insets_animation)/@0xcf50c57 mInitiallyVisible=true mSurfacePosition=Point(0, 0) mInsetsHint=Insets{left=0, top=66, right=0, bottom=0} mSkipAnimationOnce=false
+        mIsLeashReadyForDispatching=true
+        mWindowContainer=Window{e3690d8 u0 StatusBar}
+        mAdapter=ControlAdapter mCapturedLeash=Surface(name=Surface(name=e3690d8 StatusBar)/@0x24cd84e - animation-leash of insets_animation)/@0xcf50c57
+        mControlTarget=Window{12e81ec u10 com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity}
+      ImeInsetsSourceProvider
+        mSource=InsetsSource id=3 type=ime frame=[0,0][0,0] visible=false flags= insetsRoundedCornerFrame=false
+        mSourceFrame=Rect(0, 948 - 900, 1080)
+        mControl=InsetsSourceControl mId=3 mType=ime mLeash=Surface(name=Surface(name=8db6d66 InputMethod)/@0x78c97f9 - animation-leash of insets_animation)/@0x62f344 mInitiallyVisible=false mSurfacePosition=Point(0, 66) mInsetsHint=Insets{left=0, top=0, right=0, bottom=0} mSkipAnimationOnce=false
+        mIsLeashReadyForDispatching=true
+        mWindowContainer=Window{8db6d66 u10 InputMethod}
+        mAdapter=ControlAdapter mCapturedLeash=Surface(name=Surface(name=8db6d66 InputMethod)/@0x78c97f9 - animation-leash of insets_animation)/@0x62f344
+        mControlTarget=Window{12e81ec u10 com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity}
+        mImeShowing=false
+      InsetsSourceProvider
+        mSource=InsetsSource id=be930024 type=systemGestures frame=[2138,0][2220,1080] visible=true flags= insetsRoundedCornerFrame=false
+        mSourceFrame=Rect(2138, 0 - 2220, 1080)
+        mIsLeashReadyForDispatching=true
+        mWindowContainer=Window{de13ba9 u0 NavigationBar0}
+      InsetsSourceProvider
+        mSource=InsetsSource id=be930006 type=tappableElement frame=[0,0][0,0] visible=true flags= insetsRoundedCornerFrame=false
+        mSourceFrame=Rect(0, 0 - 0, 0)
+        mIsLeashReadyForDispatching=true
+        mWindowContainer=Window{de13ba9 u0 NavigationBar0}
+      InsetsSourceProvider
+        mSource=InsetsSource id=be930005 type=mandatorySystemGestures frame=[0,992][2220,1080] visible=true flags= insetsRoundedCornerFrame=false
+        mSourceFrame=Rect(0, 992 - 2220, 1080)
+        mIsLeashReadyForDispatching=true
+        mWindowContainer=Window{de13ba9 u0 NavigationBar0}
+      InsetsSourceProvider
+        mSource=InsetsSource id=be930004 type=systemGestures frame=[0,0][214,1080] visible=true flags= insetsRoundedCornerFrame=false
+        mSourceFrame=Rect(0, 0 - 214, 1080)
+        mIsLeashReadyForDispatching=true
+        mWindowContainer=Window{de13ba9 u0 NavigationBar0}
+      InsetsSourceProvider
+        mSource=InsetsSource id=be930001 type=navigationBars frame=[0,1014][2220,1080] visible=false flags=SUPPRESS_SCRIM insetsRoundedCornerFrame=false
+        mSourceFrame=Rect(0, 1014 - 2220, 1080)
+        mOverrideFrames={2011=Rect(0, 948 - 2220, 1080)}
+        mControl=InsetsSourceControl mId=be930001 mType=navigationBars mLeash=Surface(name=Surface(name=de13ba9 NavigationBar0)/@0x98725c - animation-leash of insets_animation)/@0xad87c2d mInitiallyVisible=true mSurfacePosition=Point(0, 948) mInsetsHint=Insets{left=0, top=0, right=0, bottom=66} mSkipAnimationOnce=false
+        mIsLeashReadyForDispatching=true
+        mWindowContainer=Window{de13ba9 u0 NavigationBar0}
+        mAdapter=ControlAdapter mCapturedLeash=Surface(name=Surface(name=de13ba9 NavigationBar0)/@0x98725c - animation-leash of insets_animation)/@0xad87c2d
+        mControlTarget=Window{12e81ec u10 com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity}

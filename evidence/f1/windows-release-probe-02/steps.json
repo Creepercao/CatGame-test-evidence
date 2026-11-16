@@ -1,0 +1,50 @@
+[
+  {
+    "utc": "2026-11-16T14:48:09Z",
+    "action": "launch-ordinary-binary",
+    "data": {
+      "pid": 130120,
+      "sha256": "5ca1a0daa0946e4e01ddcd7aef415ac0d08c00302480f96a41888c69a785018b"
+    }
+  },
+  {
+    "utc": "2026-11-16T14:48:13Z",
+    "action": "discovered-ordinary-menu",
+    "data": {
+      "pid": 130120,
+      "blocked": true
+    }
+  },
+  {
+    "utc": "2026-11-16T14:48:16Z",
+    "action": "owned-unity-window",
+    "data": {
+      "handle": 3216980
+    }
+  },
+  {
+    "utc": "2026-11-16T14:48:17Z",
+    "action": "actual-menu-continue-loaded-old-schema",
+    "data": {
+      "visibleCats": 2,
+      "clicks": 4
+    }
+  },
+  {
+    "utc": "2026-11-16T14:48:27Z",
+    "action": "packaged-exe-auto-connect",
+    "data": {
+      "connected": true,
+      "pid": 130120,
+      "frozen": true
+    }
+  },
+  {
+    "utc": "2026-11-16T14:48:38Z",
+    "action": "game-autosaved-live-edits",
+    "data": {
+      "cats": 3,
+      "catHair": 12368.596046283643
+    }
+  }
+]

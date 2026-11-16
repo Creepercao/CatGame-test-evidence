@@ -1,0 +1,13 @@
+samples=4320
+meanFrameMs=6.954
+p95FrameMs=6.980
+managedBefore=6029312
+managedAfter=6189056
+visible=100
+owned=440
+save=PROJECT_ROOT\Build\F1\visual-grid-02/player\CatGame\save.json
+boundsErrors=0
+nativePointerHits=3
+roomFootErrors=0
+furnitureDepthErrors=0
+roomActors=100

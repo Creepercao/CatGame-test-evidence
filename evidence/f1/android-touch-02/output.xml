@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-15T22:17:14.720296" rpa="false" schemaversion="5">
+<suite id="s1" name="F1 Cat Touch" source="PROJECT_ROOT\Tests\robot\android\f1_cat_touch.robot">
+<kw name="Open Appium" owner="F1ArtAndroid" type="SETUP">
+<msg time="2026-11-15T22:17:18.144441" level="FAIL">CalledProcessError: Command '['C:\\Users\\USER\\AppData\\Local/Android/Sdk/platform-tools/adb.exe', '-P', '15037', '-s', 'emulator-5564', 'shell', 'pm', 'list', 'users']' returned non-zero exit status 1.</msg>
+<status status="FAIL" start="2026-11-15T22:17:15.705382" elapsed="2.447131">CalledProcessError: Command '['C:\\Users\\USER\\AppData\\Local/Android/Sdk/platform-tools/adb.exe', '-P', '15037', '-s', 'emulator-5564', 'shell', 'pm', 'list', 'users']' returned non-zero exit status 1.</status>
+</kw>
+<test id="s1-t1" name="F1-TOUCH-01 16 By 9" line="10">
+<status status="FAIL" start="2026-11-15T22:17:18.152513" elapsed="0.000993">Parent suite setup failed:
+CalledProcessError: Command '['C:\\Users\\USER\\AppData\\Local/Android/Sdk/platform-tools/adb.exe', '-P', '15037', '-s', 'emulator-5564', 'shell', 'pm', 'list', 'users']' returned non-zero exit status 1.</status>
+</test>
+<test id="s1-t2" name="F1-TOUCH-02 20 By 9" line="11">
+<status status="FAIL" start="2026-11-15T22:17:18.153506" elapsed="0.000510">Parent suite setup failed:
+CalledProcessError: Command '['C:\\Users\\USER\\AppData\\Local/Android/Sdk/platform-tools/adb.exe', '-P', '15037', '-s', 'emulator-5564', 'shell', 'pm', 'list', 'users']' returned non-zero exit status 1.</status>
+</test>
+<test id="s1-t3" name="F1-TOUCH-03 4 By 3" line="12">
+<status status="FAIL" start="2026-11-15T22:17:18.154016" elapsed="0.000000">Parent suite setup failed:
+CalledProcessError: Command '['C:\\Users\\USER\\AppData\\Local/Android/Sdk/platform-tools/adb.exe', '-P', '15037', '-s', 'emulator-5564', 'shell', 'pm', 'list', 'users']' returned non-zero exit status 1.</status>
+</test>
+<kw name="Close Appium" owner="F1ArtAndroid" type="TEARDOWN">
+<status status="PASS" start="2026-11-15T22:17:18.155035" elapsed="0.000000"/>
+</kw>
+<doc>Real Appium touches on the displayed Milk body at three aspect ratios; read saved click counts after HOME.</doc>
+<status status="FAIL" start="2026-11-15T22:17:14.730851" elapsed="3.424184">Suite setup failed:
+CalledProcessError: Command '['C:\\Users\\USER\\AppData\\Local/Android/Sdk/platform-tools/adb.exe', '-P', '15037', '-s', 'emulator-5564', 'shell', 'pm', 'list', 'users']' returned non-zero exit status 1.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="F1 Cat Touch" id="s1" pass="0" fail="3" skip="0">F1 Cat Touch</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

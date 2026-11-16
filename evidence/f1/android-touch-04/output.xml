@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-15T22:31:28.990207" rpa="false" schemaversion="5">
+<suite id="s1" name="F1 Cat Touch" source="PROJECT_ROOT\Tests\robot\android\f1_cat_touch.robot">
+<kw name="Open Appium" owner="F1ArtAndroid" type="SETUP">
+<msg time="2026-11-15T22:31:33.829875" level="INFO">Appium session SESSION_ID, Android test user 10</msg>
+<status status="PASS" start="2026-11-15T22:31:29.186324" elapsed="4.643551"/>
+</kw>
+<test id="s1-t1" name="F1-TOUCH-01 16 By 9" line="10">
+<kw name="Check Grounded Cat Touch">
+<kw name="Force Stop Cat Game" owner="F1ArtAndroid">
+<status status="PASS" start="2026-11-15T22:31:33.830875" elapsed="0.204443"/>
+</kw>
+<kw name="Set Display Width" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:31:34.380440" level="INFO">Physical size: 1080x2220
+Override size: 900x1600</msg>
+<arg>${width}</arg>
+<status status="PASS" start="2026-11-15T22:31:34.035318" elapsed="0.345122"/>
+</kw>
+<kw name="Start Cat Game" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:31:36.002817" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1500
+WaitTime: 1539
+Complete</msg>
+<status status="PASS" start="2026-11-15T22:31:34.380440" elapsed="1.622377"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-11-15T22:31:36.003825" level="INFO">${menu_offset} = 0</msg>
+<var>${menu_offset}</var>
+<arg>int($menu_x) - 1320</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-11-15T22:31:36.002817" elapsed="0.001008"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:31:44.107918" level="INFO">Visual check menu passed (RGB error 0.51): standard-menu.png</msg>
+<arg>menu</arg>
+<arg>${tag}-menu.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${menu_offset}</arg>
+<status status="PASS" start="2026-11-15T22:31:36.003825" elapsed="8.105094"/>
+</kw>
+<kw name="Tap" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:31:44.108919" level="INFO">Appium clickGesture (1320, 372)</msg>
+<arg>${menu_x}</arg>
+<arg>372</arg>
+<status status="PASS" start="2026-11-15T22:31:44.108919" elapsed="0.163208"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:31:48.605456" level="INFO">Visual check offline passed (RGB error 0.36): standard-offline.png</msg>
+<arg>offline</arg>
+<arg>${tag}-offline.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${modal_offset}</arg>
+<status status="PASS" start="2026-11-15T22:31:44.273211" elapsed="4.332245"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-11-15T22:31:48.606453" level="INFO">${center} = 800</msg>
+<var>${center}</var>
+<arg>int($width) // 2</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-11-15T22:31:48.605456" elapsed="0.000997"/>
+</kw>
+<kw name="Tap" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:31:48.606959" level="INFO">Appium clickGesture (800, 519)</msg>
+<arg>${center}</arg>
+<arg>519</arg>
+<status status="PASS" start="2026-11-15T22:31:48.606959" elapsed="0.181352"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:31:49.266013" level="INFO">Visual check two-cats passed (RGB error 0.92): standard-home.png</msg>
+<arg>two-cats</arg>
+<arg>${tag}-home.png</arg>
+<arg>width=${width}</arg>
+<status status="PASS" start="2026-11-15T22:31:48.788311" elapsed="0.479218"/>
+</kw>
+<kw name="Pet Visible Milk And Verify Saved Click" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:32:05.643930" level="FAIL">Appium GET /session/SESSION_ID/screenshot: {"value":{"error":"unknown error","message":"'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details","stacktrace":"UnknownError: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\n    at UIA2Proxy.command (PROJECT_ROOT\\Build\\Android\\appium\\server-clean\\node_modules\\@appium\\base-driver\\build\\lib\\jsonwp-proxy\\proxy.js:272:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async AndroidUiautomator2Driver.getScreenshot (file:///PROJECT_ROOT/Build/Android/appium/server-clean/node_modules/appium-uiautomator2-driver/build/lib/commands/screenshot.js:58:19)"}}</msg>
+<arg>${tag}</arg>
+<status status="FAIL" start="2026-11-15T22:31:49.267529" elapsed="16.380918">Appium GET /session/SESSION_ID/screenshot: {"value":{"error":"unknown error","message":"'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details","stacktrace":"UnknownError: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\n    at UIA2Proxy.command (PROJECT_ROOT\\Build\\Android\\appium\\server-clean\\node_modules\\@appium\\base-driver\\build\\lib\\jsonwp-proxy\\proxy.js:272:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async AndroidUiautomator2Driver.getScreenshot (file:///PROJECT_ROOT/Build/Android/appium/server-clean/node_modules/appium-uiautomator2-driver/build/lib/commands/screenshot.js:58:19)"}}</status>
+</kw>
+<arg>1600</arg>
+<arg>1320</arg>
+<arg>0</arg>
+<arg>standard</arg>
+<status status="FAIL" start="2026-11-15T22:31:33.830875" elapsed="31.817572">Appium GET /session/SESSION_ID/screenshot: {"value":{"error":"unknown error","message":"'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details","stacktrace":"UnknownError: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\n    at UIA2Proxy.command (PROJECT_ROOT\\Build\\Android\\appium\\server-clean\\node_modules\\@appium\\base-driver\\build\\lib\\jsonwp-proxy\\proxy.js:272:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async AndroidUiautomator2Driver.getScreenshot (file:///PROJECT_ROOT/Build/Android/appium/server-clean/node_modules/appium-uiautomator2-driver/build/lib/commands/screenshot.js:58:19)"}}</status>
+</kw>
+<kw name="Stop And Restore Display" type="TEARDOWN">
+<kw name="Force Stop Cat Game" owner="F1ArtAndroid">
+<status status="PASS" start="2026-11-15T22:32:05.649446" elapsed="0.727169"/>
+</kw>
+<kw name="Restore Display Size" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:32:07.375139" level="INFO">Restored device display: Physical size: 1080x2220
+Override size: 900x1600</msg>
+<status status="PASS" start="2026-11-15T22:32:06.376615" elapsed="0.999526"/>
+</kw>
+<status status="PASS" start="2026-11-15T22:32:05.649446" elapsed="1.726695"/>
+</kw>
+<status status="FAIL" start="2026-11-15T22:31:33.829875" elapsed="33.546266">Appium GET /session/SESSION_ID/screenshot: {"value":{"error":"unknown error","message":"'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details","stacktrace":"UnknownError: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\n    at UIA2Proxy.command (PROJECT_ROOT\\Build\\Android\\appium\\server-clean\\node_modules\\@appium\\base-driver\\build\\lib\\jsonwp-proxy\\proxy.js:272:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async AndroidUiautomator2Driver.getScreenshot (file:///PROJECT_ROOT/Build/Android/appium/server-clean/node_modules/appium-uiautomator2-driver/build/lib/commands/screenshot.js:58:19)"}}</status>
+</test>
+<test id="s1-t2" name="F1-TOUCH-02 20 By 9" line="11">
+<kw name="Check Grounded Cat Touch">
+<kw name="Force Stop Cat Game" owner="F1ArtAndroid">
+<status status="PASS" start="2026-11-15T22:32:07.378216" elapsed="0.619854"/>
+</kw>
+<kw name="Set Display Width" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:32:09.080569" level="INFO">Physical size: 1080x2220
+Override size: 900x2000</msg>
+<arg>${width}</arg>
+<status status="PASS" start="2026-11-15T22:32:07.998070" elapsed="1.082499"/>
+</kw>
+<kw name="Start Cat Game" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:32:11.588776" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 2322
+WaitTime: 2344
+Complete</msg>
+<status status="PASS" start="2026-11-15T22:32:09.082076" elapsed="2.506700"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-11-15T22:32:11.590299" level="INFO">${menu_offset} = 330</msg>
+<var>${menu_offset}</var>
+<arg>int($menu_x) - 1320</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-11-15T22:32:11.588776" elapsed="0.001523"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:32:11.625258" level="FAIL">Appium GET /session/SESSION_ID/screenshot: {"value":{"error":"unknown error","message":"'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details","stacktrace":"UnknownError: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\n    at UIA2Proxy.command (PROJECT_ROOT\\Build\\Android\\appium\\server-clean\\node_modules\\@appium\\base-driver\\build\\lib\\jsonwp-proxy\\proxy.js:272:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async AndroidUiautomator2Driver.getScreenshot (file:///PROJECT_ROOT/Build/Android/appium/server-clean/node_modules/appium-uiautomator2-driver/build/lib/commands/screenshot.js:58:19)"}}</msg>
+<arg>menu</arg>
+<arg>${tag}-menu.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${menu_offset}</arg>
+<status status="FAIL" start="2026-11-15T22:32:11.590299" elapsed="0.035957">Appium GET /session/SESSION_ID/screenshot: {"value":{"error":"unknown error","message":"'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details","stacktrace":"UnknownError: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\n    at UIA2Proxy.command (PROJECT_ROOT\\Build\\Android\\appium\\server-clean\\node_modules\\@appium\\base-driver\\build\\lib\\jsonwp-proxy\\proxy.js:272:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async AndroidUiautomator2Driver.getScreenshot (file:///PROJECT_ROOT/Build/Android/appium/server-clean/node_modules/appium-uiautomator2-driver/build/lib/commands/screenshot.js:58:19)"}}</status>
+</kw>
+<kw name="Tap" owner="F1ArtAndroid">
+<arg>${menu_x}</arg>
+<arg>372</arg>
+<status status="NOT RUN" start="2026-11-15T22:32:11.626256" elapsed="0.001001"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<arg>offline</arg>
+<arg>${tag}-offline.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${modal_offset}</arg>
+<status status="NOT RUN" start="2026-11-15T22:32:11.627257" elapsed="0.000000"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<var>${center}</var>
+<arg>int($width) // 2</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" start="2026-11-15T22:32:11.627257" elapsed="0.000000"/>
+</kw>
+<kw name="Tap" owner="F1ArtAndroid">
+<arg>${center}</arg>
+<arg>519</arg>
+<status status="NOT RUN" start="2026-11-15T22:32:11.627257" elapsed="0.000000"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<arg>two-cats</arg>
+<arg>${tag}-home.png</arg>
+<arg>width=${width}</arg>
+<status status="NOT RUN" start="2026-11-15T22:32:11.627257" elapsed="0.000000"/>
+</kw>
+<kw name="Pet Visible Milk And Verify Saved Click" owner="F1ArtAndroid">
+<arg>${tag}</arg>
+<status status="NOT RUN" start="2026-11-15T22:32:11.627766" elapsed="0.000000"/>
+</kw>
+<arg>2000</arg>
+<arg>1650</arg>
+<arg>200</arg>
+<arg>wide</arg>
+<status status="FAIL" start="2026-11-15T22:32:07.377139" elapsed="4.250627">Appium GET /session/SESSION_ID/screenshot: {"value":{"error":"unknown error","message":"'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details","stacktrace":"UnknownError: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\n    at UIA2Proxy.command (PROJECT_ROOT\\Build\\Android\\appium\\server-clean\\node_modules\\@appium\\base-driver\\build\\lib\\jsonwp-proxy\\proxy.js:272:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async AndroidUiautomator2Driver.getScreenshot (file:///PROJECT_ROOT/Build/Android/appium/server-clean/node_modules/appium-uiautomator2-driver/build/lib/commands/screenshot.js:58:19)"}}</status>
+</kw>
+<kw name="Stop And Restore Display" type="TEARDOWN">
+<kw name="Force Stop Cat Game" owner="F1ArtAndroid">
+<status status="PASS" start="2026-11-15T22:32:11.627766" elapsed="0.902866"/>
+</kw>
+<kw name="Restore Display Size" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:32:13.234345" level="INFO">Restored device display: Physical size: 1080x2220
+Override size: 900x1600</msg>
+<status status="PASS" start="2026-11-15T22:32:12.531631" elapsed="0.702714"/>
+</kw>
+<status status="PASS" start="2026-11-15T22:32:11.627766" elapsed="1.606579"/>
+</kw>
+<status status="FAIL" start="2026-11-15T22:32:07.377139" elapsed="5.857206">Appium GET /session/SESSION_ID/screenshot: {"value":{"error":"unknown error","message":"'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details","stacktrace":"UnknownError: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\n    at UIA2Proxy.command (PROJECT_ROOT\\Build\\Android\\appium\\server-clean\\node_modules\\@appium\\base-driver\\build\\lib\\jsonwp-proxy\\proxy.js:272:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async AndroidUiautomator2Driver.getScreenshot (file:///PROJECT_ROOT/Build/Android/appium/server-clean/node_modules/appium-uiautomator2-driver/build/lib/commands/screenshot.js:58:19)"}}</status>
+</test>
+<test id="s1-t3" name="F1-TOUCH-03 4 By 3" line="12">
+<kw name="Check Grounded Cat Touch">
+<kw name="Force Stop Cat Game" owner="F1ArtAndroid">
+<status status="PASS" start="2026-11-15T22:32:13.236354" elapsed="0.407736"/>
+</kw>
+<kw name="Set Display Width" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:32:14.644985" level="INFO">Physical size: 1080x2220
+Override size: 900x1200</msg>
+<arg>${width}</arg>
+<status status="PASS" start="2026-11-15T22:32:13.644090" elapsed="1.000895"/>
+</kw>
+<kw name="Start Cat Game" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:32:16.959866" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 2103
+WaitTime: 2145
+Complete</msg>
+<status status="PASS" start="2026-11-15T22:32:14.644985" elapsed="2.314881"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-11-15T22:32:16.961376" level="INFO">${menu_offset} = -330</msg>
+<var>${menu_offset}</var>
+<arg>int($menu_x) - 1320</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-11-15T22:32:16.959866" elapsed="0.001510"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:32:16.968454" level="FAIL">Appium GET /session/SESSION_ID/screenshot: {"value":{"error":"unknown error","message":"'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details","stacktrace":"UnknownError: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\n    at UIA2Proxy.command (PROJECT_ROOT\\Build\\Android\\appium\\server-clean\\node_modules\\@appium\\base-driver\\build\\lib\\jsonwp-proxy\\proxy.js:272:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async AndroidUiautomator2Driver.getScreenshot (file:///PROJECT_ROOT/Build/Android/appium/server-clean/node_modules/appium-uiautomator2-driver/build/lib/commands/screenshot.js:58:19)"}}</msg>
+<arg>menu</arg>
+<arg>${tag}-menu.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${menu_offset}</arg>
+<status status="FAIL" start="2026-11-15T22:32:16.961376" elapsed="0.008084">Appium GET /session/SESSION_ID/screenshot: {"value":{"error":"unknown error","message":"'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details","stacktrace":"UnknownError: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\n    at UIA2Proxy.command (PROJECT_ROOT\\Build\\Android\\appium\\server-clean\\node_modules\\@appium\\base-driver\\build\\lib\\jsonwp-proxy\\proxy.js:272:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async AndroidUiautomator2Driver.getScreenshot (file:///PROJECT_ROOT/Build/Android/appium/server-clean/node_modules/appium-uiautomator2-driver/build/lib/commands/screenshot.js:58:19)"}}</status>
+</kw>
+<kw name="Tap" owner="F1ArtAndroid">
+<arg>${menu_x}</arg>
+<arg>372</arg>
+<status status="NOT RUN" start="2026-11-15T22:32:16.969460" elapsed="0.000000"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<arg>offline</arg>
+<arg>${tag}-offline.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${modal_offset}</arg>
+<status status="NOT RUN" start="2026-11-15T22:32:16.969460" elapsed="0.000000"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<var>${center}</var>
+<arg>int($width) // 2</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" start="2026-11-15T22:32:16.969460" elapsed="0.000000"/>
+</kw>
+<kw name="Tap" owner="F1ArtAndroid">
+<arg>${center}</arg>
+<arg>519</arg>
+<status status="NOT RUN" start="2026-11-15T22:32:16.969460" elapsed="0.000000"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<arg>two-cats</arg>
+<arg>${tag}-home.png</arg>
+<arg>width=${width}</arg>
+<status status="NOT RUN" start="2026-11-15T22:32:16.969460" elapsed="0.000000"/>
+</kw>
+<kw name="Pet Visible Milk And Verify Saved Click" owner="F1ArtAndroid">
+<arg>${tag}</arg>
+<status status="NOT RUN" start="2026-11-15T22:32:16.969460" elapsed="0.000000"/>
+</kw>
+<arg>1200</arg>
+<arg>990</arg>
+<arg>-200</arg>
+<arg>compact</arg>
+<status status="FAIL" start="2026-11-15T22:32:13.236354" elapsed="3.734106">Appium GET /session/SESSION_ID/screenshot: {"value":{"error":"unknown error","message":"'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details","stacktrace":"UnknownError: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\n    at UIA2Proxy.command (PROJECT_ROOT\\Build\\Android\\appium\\server-clean\\node_modules\\@appium\\base-driver\\build\\lib\\jsonwp-proxy\\proxy.js:272:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async AndroidUiautomator2Driver.getScreenshot (file:///PROJECT_ROOT/Build/Android/appium/server-clean/node_modules/appium-uiautomator2-driver/build/lib/commands/screenshot.js:58:19)"}}</status>
+</kw>
+<kw name="Stop And Restore Display" type="TEARDOWN">
+<kw name="Force Stop Cat Game" owner="F1ArtAndroid">
+<status status="PASS" start="2026-11-15T22:32:16.970974" elapsed="0.896962"/>
+</kw>
+<kw name="Restore Display Size" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:32:18.761075" level="INFO">Restored device display: Physical size: 1080x2220
+Override size: 900x1600</msg>
+<status status="PASS" start="2026-11-15T22:32:17.867936" elapsed="0.893139"/>
+</kw>
+<status status="PASS" start="2026-11-15T22:32:16.970460" elapsed="1.790615"/>
+</kw>
+<status status="FAIL" start="2026-11-15T22:32:13.235356" elapsed="5.525719">Appium GET /session/SESSION_ID/screenshot: {"value":{"error":"unknown error","message":"'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details","stacktrace":"UnknownError: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details\n    at UIA2Proxy.command (PROJECT_ROOT\\Build\\Android\\appium\\server-clean\\node_modules\\@appium\\base-driver\\build\\lib\\jsonwp-proxy\\proxy.js:272:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async AndroidUiautomator2Driver.getScreenshot (file:///PROJECT_ROOT/Build/Android/appium/server-clean/node_modules/appium-uiautomator2-driver/build/lib/commands/screenshot.js:58:19)"}}</status>
+</test>
+<kw name="Close Appium" owner="F1ArtAndroid" type="TEARDOWN">
+<status status="PASS" start="2026-11-15T22:32:18.762598" elapsed="6.139698"/>
+</kw>
+<doc>Real Appium touches on the displayed Milk body at three aspect ratios; read saved click counts after HOME.</doc>
+<status status="FAIL" start="2026-11-15T22:31:28.993261" elapsed="55.909035"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="F1 Cat Touch" id="s1" pass="0" fail="3" skip="0">F1 Cat Touch</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-16T23:09:50.785058" rpa="false" schemaversion="5">
+<suite id="s1" name="F1 Safearea" source="PROJECT_ROOT\Tests\robot\android\f1_safearea.robot">
+<test id="s1-t1" name="F1-SAFE-01 Real Cutout Menu And Home" line="6">
+<kw name="Run Process" owner="Process">
+<msg time="2026-11-16T23:09:50.823875" level="INFO">Starting process:
+PYTHON_ROOT/python.exe PROJECT_ROOT\Tests\robot\android/f1_safearea.py --adb D:/Unity/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb.exe --output PROJECT_ROOT\Build\F1\android-safearea-04/runtime</msg>
+<msg time="2026-11-16T23:09:50.837133" level="INFO">Waiting for process to complete.</msg>
+<msg time="2026-11-16T23:10:53.954787" level="INFO">Process completed.</msg>
+<msg time="2026-11-16T23:10:53.955786" level="INFO">${run} = &lt;result object with rc 1&gt;</msg>
+<var>${run}</var>
+<arg>${PYTHON}</arg>
+<arg>PROJECT_ROOT\\Tests\\robot\\android/f1_safearea.py</arg>
+<arg>--adb</arg>
+<arg>${ADB}</arg>
+<arg>--output</arg>
+<arg>${OUTPUT DIR}/runtime</arg>
+<arg>stdout=${OUTPUT DIR}/runner.log</arg>
+<arg>stderr=STDOUT</arg>
+<arg>timeout=150s</arg>
+<arg>on_timeout=terminate</arg>
+<doc>Runs a process and waits for it to complete.</doc>
+<status status="PASS" start="2026-11-16T23:09:50.822708" elapsed="63.133078"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-16T23:10:53.958311" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<msg time="2026-11-16T23:10:53.959311" level="FAIL">1 != 0</msg>
+<arg>${run.rc}</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="FAIL" start="2026-11-16T23:10:53.956295" elapsed="0.003016">1 != 0</status>
+</kw>
+<status status="FAIL" start="2026-11-16T23:09:50.821706" elapsed="63.138178">1 != 0</status>
+</test>
+<doc>Real native 2220x1080 AVD tall cutout; restore overlay and wm size after test.</doc>
+<status status="FAIL" start="2026-11-16T23:09:50.787566" elapsed="63.173328"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="F1 Safearea" id="s1" pass="0" fail="1" skip="0">F1 Safearea</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

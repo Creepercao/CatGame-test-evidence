@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-15T16:39:43.269929" rpa="false" schemaversion="5">
+<suite id="s1" name="Art Baseline" source="PROJECT_ROOT\Tests\robot\art\art_baseline.robot">
+<test id="s1-t1" name="F1-BASELINE-01 Capture Native Source Geometry And Screens" line="7">
+<kw name="Create Directory" owner="OperatingSystem">
+<msg time="2026-11-15T16:39:43.338807" level="INFO" html="true">Created directory '&lt;a href="file://PROJECT_ROOT\Build\F1\baseline-01\native-01\runtime"&gt;PROJECT_ROOT\Build\F1\baseline-01\native-01\runtime&lt;/a&gt;'.</msg>
+<arg>${OUTPUT DIR}/runtime</arg>
+<doc>Creates the specified directory.</doc>
+<status status="PASS" start="2026-11-15T16:39:43.337806" elapsed="0.001001"/>
+</kw>
+<kw name="Run Process" owner="Process">
+<msg time="2026-11-15T16:39:43.339806" level="INFO">Starting process:
+PROJECT_ROOT/Build/F1/baseline-01/qa-02/CatGameF1QA.exe -screen-fullscreen 0 -logFile PROJECT_ROOT\Build\F1\baseline-01\native-01/player.log</msg>
+<msg time="2026-11-15T16:39:43.357835" level="INFO">Waiting for process to complete.</msg>
+<msg time="2026-11-15T16:39:51.995538" level="INFO">Process completed.</msg>
+<msg time="2026-11-15T16:39:51.995538" level="INFO">${process} = &lt;result object with rc 1&gt;</msg>
+<var>${process}</var>
+<arg>${EXE}</arg>
+<arg>-screen-fullscreen</arg>
+<arg>0</arg>
+<arg>-logFile</arg>
+<arg>${OUTPUT DIR}/player.log</arg>
+<arg>env:CATGAME_PLAYER_QA_ROOT=${OUTPUT DIR}/runtime</arg>
+<arg>env:CATGAME_QA_F1_ONLY=1</arg>
+<arg>env:CATGAME_F1_SOURCE=${SOURCE}</arg>
+<arg>env:CATGAME_DEBUG_DISABLE=1</arg>
+<arg>stdout=${OUTPUT DIR}/stdout.txt</arg>
+<arg>stderr=${OUTPUT DIR}/stderr.txt</arg>
+<arg>timeout=120 seconds</arg>
+<arg>on_timeout=terminate</arg>
+<doc>Runs a process and waits for it to complete.</doc>
+<status status="PASS" start="2026-11-15T16:39:43.338807" elapsed="8.656731"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-15T16:39:51.996574" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<msg time="2026-11-15T16:39:51.996574" level="FAIL">1 != 0</msg>
+<arg>${process.rc}</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="FAIL" start="2026-11-15T16:39:51.995538" elapsed="0.001036">1 != 0</status>
+</kw>
+<kw name="Get File" owner="OperatingSystem">
+<var>${raw}</var>
+<arg>${OUTPUT DIR}/runtime/art-metrics.json</arg>
+<doc>Returns the contents of a specified file.</doc>
+<status status="NOT RUN" start="2026-11-15T16:39:51.996574" elapsed="0.000000"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<var>${report}</var>
+<arg>json.loads($raw)</arg>
+<arg>modules=json</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" start="2026-11-15T16:39:51.996574" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${report}[complete]</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="NOT RUN" start="2026-11-15T16:39:51.997574" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${report}[requestedSizesHonored]</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="NOT RUN" start="2026-11-15T16:39:51.997574" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${report}[simulationFrozenForSnapshots]</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="NOT RUN" start="2026-11-15T16:39:51.997574" elapsed="0.000000"/>
+</kw>
+<kw name="Length Should Be" owner="BuiltIn">
+<arg>${report}[screens]</arg>
+<arg>3</arg>
+<doc>Verifies that the length of the given item is correct.</doc>
+<status status="NOT RUN" start="2026-11-15T16:39:51.997574" elapsed="0.000000"/>
+</kw>
+<kw name="Length Should Be" owner="BuiltIn">
+<arg>${report}[poses]</arg>
+<arg>44</arg>
+<doc>Verifies that the length of the given item is correct.</doc>
+<status status="NOT RUN" start="2026-11-15T16:39:51.997574" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${screens}</var>
+<arg>${report}[screens]</arg>
+<doc>Returns the given values which can then be assigned to a variable.</doc>
+<status status="NOT RUN" start="2026-11-15T16:39:51.997574" elapsed="0.000000"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>$sample['frameEnd'] &gt; $sample['frameStart']</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="NOT RUN" start="2026-11-15T16:39:51.997574" elapsed="0.000000"/>
+</kw>
+<kw name="Length Should Be" owner="BuiltIn">
+<arg>${sample}[cats]</arg>
+<arg>11</arg>
+<doc>Verifies that the length of the given item is correct.</doc>
+<status status="NOT RUN" start="2026-11-15T16:39:51.998574" elapsed="0.000000"/>
+</kw>
+<kw name="File Should Exist" owner="OperatingSystem">
+<arg>${OUTPUT DIR}/runtime/${sample}[screenshot]</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="NOT RUN" start="2026-11-15T16:39:51.998574" elapsed="0.000000"/>
+</kw>
+<var name="${sample}"/>
+<status status="NOT RUN" start="2026-11-15T16:39:51.997574" elapsed="0.001000"/>
+</iter>
+<var>${sample}</var>
+<value>@{screens}</value>
+<status status="NOT RUN" start="2026-11-15T16:39:51.997574" elapsed="0.001000"/>
+</for>
+<status status="FAIL" start="2026-11-15T16:39:43.336819" elapsed="8.661755">1 != 0</status>
+</test>
+<doc>Collect native art snapshots with frozen poses; this is not a gameplay or performance pass.</doc>
+<status status="FAIL" start="2026-11-15T16:39:43.272473" elapsed="8.727102"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Art Baseline" id="s1" pass="0" fail="1" skip="0">Art Baseline</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

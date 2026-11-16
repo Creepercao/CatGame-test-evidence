@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Failed(Child)" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-15 12:43:14Z" end-time="2026-11-15 12:43:14Z" duration="0.163216">
+  <test-suite type="TestSuite" id="1000" name="喵屋" fullname="喵屋" runstate="Runnable" testcasecount="92" result="Failed" site="Child" start-time="2026-11-15 12:43:14Z" end-time="2026-11-15 12:43:14Z" duration="0.163216" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1118" name="CatGame.Tests.dll" fullname="PROJECT_ROOT/Library/ScriptAssemblies/CatGame.Tests.dll" runstate="Runnable" testcasecount="92" result="Failed" site="Child" start-time="2026-11-15 12:43:14Z" end-time="2026-11-15 12:43:14Z" duration="0.156225" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="60220" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1119" name="CatGame" fullname="CatGame" runstate="Runnable" testcasecount="92" result="Failed" site="Child" start-time="2026-11-15 12:43:14Z" end-time="2026-11-15 12:43:14Z" duration="0.154775" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1120" name="Tests" fullname="CatGame.Tests" runstate="Runnable" testcasecount="92" result="Failed" site="Child" start-time="2026-11-15 12:43:14Z" end-time="2026-11-15 12:43:14Z" duration="0.153171" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1115" name="WorldArtContractTests" fullname="CatGame.Tests.WorldArtContractTests" classname="CatGame.Tests.WorldArtContractTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-11-15 12:43:14Z" end-time="2026-11-15 12:43:14Z" duration="0.149889" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1117" name="Actor_click_collider_follows_body_after_action_and_facing_changes" fullname="CatGame.Tests.WorldArtContractTests.Actor_click_collider_follows_body_after_action_and_facing_changes" methodname="Actor_click_collider_follows_body_after_action_and_facing_changes" classname="CatGame.Tests.WorldArtContractTests" runstate="Runnable" seed="603068585" result="Passed" start-time="2026-11-15 12:43:14Z" end-time="2026-11-15 12:43:14Z" duration="0.123143" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1116" name="Actor_origin_is_the_authored_foot_for_every_primary_action" fullname="CatGame.Tests.WorldArtContractTests.Actor_origin_is_the_authored_foot_for_every_primary_action" methodname="Actor_origin_is_the_authored_foot_for_every_primary_action" classname="CatGame.Tests.WorldArtContractTests" runstate="Runnable" seed="94575240" result="Failed" start-time="2026-11-15 12:43:14Z" end-time="2026-11-15 12:43:14Z" duration="0.015241" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[  Milk/idle root must be the stable authored foot, not the canvas centre
+  Expected: less than 9.99999975E-05f
+  But was:  0.8125f
+]]></message>
+                <stack-trace><![CDATA[at CatGame.Tests.WorldArtContractTests.Actor_origin_is_the_authored_foot_for_every_primary_action () [0x000ff] in PROJECT_ROOT\Assets\Tests\PlayMode\WorldArtContractTests.cs:22
+]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

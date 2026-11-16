@@ -1,0 +1,33 @@
+{
+  "tag_name": "v1.1.0",
+  "draft": true,
+  "prerelease": false,
+  "target_commitish": "1b82df94157bbcf370421207ed1d342ac272bb48",
+  "html_url": "https://github.com/Creepercao/CatGame/releases/tag/untagged-b56ecbeeff81183b2493",
+  "assets": [
+    {
+      "name": "CatGame-Windows-x64-v1.1.0.zip",
+      "size": 136037174,
+      "digest": "sha256:073a51f12cf38029e36051f44f14d6e0e2dc7bd9aab3c2c3aad7a44fed86fbc8",
+      "browser_download_url": "https://github.com/Creepercao/CatGame/releases/download/untagged-b56ecbeeff81183b2493/CatGame-Windows-x64-v1.1.0.zip"
+    },
+    {
+      "name": "CatGame-Android.apk",
+      "size": 111708615,
+      "digest": "sha256:8e32a1f2b1192ac7fba2bb15bf904feaf8015b4cf730f8a6113026d9ffa44d9f",
+      "browser_download_url": "https://github.com/Creepercao/CatGame/releases/download/untagged-b56ecbeeff81183b2493/CatGame-Android.apk"
+    },
+    {
+      "name": "Install-Android.txt",
+      "size": 709,
+      "digest": "sha256:f484c5acdadac4487fb2f5414a1740f3f109e66fa7e6604f7d993e638d42975c",
+      "browser_download_url": "https://github.com/Creepercao/CatGame/releases/download/untagged-b56ecbeeff81183b2493/Install-Android.txt"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 269,
+      "digest": "sha256:d9736d6495d4899343ecc0f9ec28bf1f356ccd1b9442084332cc9a5e380bfe4a",
+      "browser_download_url": "https://github.com/Creepercao/CatGame/releases/download/untagged-b56ecbeeff81183b2493/SHA256SUMS.txt"
+    }
+  ]
+}

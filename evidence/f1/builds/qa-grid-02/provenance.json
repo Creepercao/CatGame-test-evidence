@@ -1,0 +1,16 @@
+{
+  "source": "bcf76a64031a933be66febc47fda7d047f30435a",
+  "dirty": false,
+  "files": [
+    {
+      "path": "Build\\F1\\qa-grid-02\\CatGameF1QA.exe",
+      "bytes": 666624,
+      "sha256": "8cf69e0c57b8c89b07260bb77c5bd0817f4a256f8c05fd89292d93c2b0360539"
+    },
+    {
+      "path": "Build\\F1\\qa-grid-02\\CatGameF1QA_Data\\Managed\\CatGame.Runtime.dll",
+      "bytes": 213504,
+      "sha256": "e81ab564eb9e4162843677953d30290d78d9b6bc4b8bea5ff578da347cb7e3a4"
+    }
+  ]
+}

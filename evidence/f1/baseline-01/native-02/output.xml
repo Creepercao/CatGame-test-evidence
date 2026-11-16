@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-15T16:47:51.441584" rpa="false" schemaversion="5">
+<suite id="s1" name="Art Baseline" source="PROJECT_ROOT\Tests\robot\art\art_baseline.robot">
+<test id="s1-t1" name="F1-BASELINE-01 Capture Native Source Geometry And Screens" line="7">
+<kw name="Create Directory" owner="OperatingSystem">
+<msg time="2026-11-15T16:47:51.475881" level="INFO" html="true">Created directory '&lt;a href="file://PROJECT_ROOT\Build\F1\baseline-01\native-02\runtime"&gt;PROJECT_ROOT\Build\F1\baseline-01\native-02\runtime&lt;/a&gt;'.</msg>
+<arg>${OUTPUT DIR}/runtime</arg>
+<doc>Creates the specified directory.</doc>
+<status status="PASS" start="2026-11-15T16:47:51.475881" elapsed="0.001101"/>
+</kw>
+<kw name="Run Process" owner="Process">
+<msg time="2026-11-15T16:47:51.477986" level="INFO">Starting process:
+PROJECT_ROOT/Build/F1/baseline-01/qa-03/CatGameF1QA.exe -screen-fullscreen 0 -logFile PROJECT_ROOT\Build\F1\baseline-01\native-02/player.log</msg>
+<msg time="2026-11-15T16:47:51.493648" level="INFO">Waiting for process to complete.</msg>
+<msg time="2026-11-15T16:47:59.929421" level="INFO">Process completed.</msg>
+<msg time="2026-11-15T16:47:59.929421" level="INFO">${process} = &lt;result object with rc 0&gt;</msg>
+<var>${process}</var>
+<arg>${EXE}</arg>
+<arg>-screen-fullscreen</arg>
+<arg>0</arg>
+<arg>-logFile</arg>
+<arg>${OUTPUT DIR}/player.log</arg>
+<arg>env:CATGAME_PLAYER_QA_ROOT=${OUTPUT DIR}/runtime</arg>
+<arg>env:CATGAME_QA_F1_ONLY=1</arg>
+<arg>env:CATGAME_F1_SOURCE=${SOURCE}</arg>
+<arg>env:CATGAME_DEBUG_DISABLE=1</arg>
+<arg>stdout=${OUTPUT DIR}/stdout.txt</arg>
+<arg>stderr=${OUTPUT DIR}/stderr.txt</arg>
+<arg>timeout=120 seconds</arg>
+<arg>on_timeout=terminate</arg>
+<doc>Runs a process and waits for it to complete.</doc>
+<status status="PASS" start="2026-11-15T16:47:51.476982" elapsed="8.452439"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-15T16:47:59.929421" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${process.rc}</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-11-15T16:47:59.929421" elapsed="0.000000"/>
+</kw>
+<kw name="Get File" owner="OperatingSystem">
+<msg time="2026-11-15T16:47:59.930952" level="INFO" html="true">Getting file '&lt;a href="file://PROJECT_ROOT\Build\F1\baseline-01\native-02\runtime\art-metrics.json"&gt;PROJECT_ROOT\Build\F1\baseline-01\native-02\runtime\art-metrics.json&lt;/a&gt;'.</msg>
+<msg time="2026-11-15T16:47:59.930952" level="INFO">${raw} = {
+    "schema": "f1-native-art-metrics-v1",
+    "sourceCommit": "9850130",
+    "unity": "2022.3.21f1",
+    "complete": true,
+    "requestedSizesHonored": true,
+    "simulationFrozenForSnapshots": true...</msg>
+<var>${raw}</var>
+<arg>${OUTPUT DIR}/runtime/art-metrics.json</arg>
+<doc>Returns the contents of a specified file.</doc>
+<status status="PASS" start="2026-11-15T16:47:59.929421" elapsed="0.001531"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-11-15T16:47:59.937977" level="INFO">${report} = {'schema': 'f1-native-art-metrics-v1', 'sourceCommit': '9850130', 'unity': '2022.3.21f1', 'complete': True, 'requestedSizesHonored': True, 'simulationFrozenForSnapshots': True, 'pid': 87472, 'screens'...</msg>
+<var>${report}</var>
+<arg>json.loads($raw)</arg>
+<arg>modules=json</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-11-15T16:47:59.931980" elapsed="0.005997"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${report}[complete]</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T16:47:59.938984" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${report}[requestedSizesHonored]</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T16:47:59.938984" elapsed="0.000000"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${report}[simulationFrozenForSnapshots]</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T16:47:59.938984" elapsed="0.000000"/>
+</kw>
+<kw name="Length Should Be" owner="BuiltIn">
+<msg time="2026-11-15T16:47:59.940512" level="INFO">Length is 3.</msg>
+<arg>${report}[screens]</arg>
+<arg>3</arg>
+<doc>Verifies that the length of the given item is correct.</doc>
+<status status="PASS" start="2026-11-15T16:47:59.940512" elapsed="0.000000"/>
+</kw>
+<kw name="Length Should Be" owner="BuiltIn">
+<msg time="2026-11-15T16:47:59.940512" level="INFO">Length is 44.</msg>
+<arg>${report}[poses]</arg>
+<arg>44</arg>
+<doc>Verifies that the length of the given item is correct.</doc>
+<status status="PASS" start="2026-11-15T16:47:59.940512" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-11-15T16:47:59.943547" level="INFO">${screens} = [{'requestedWidth': 1920, 'requestedHeight': 1080, 'width': 1920, 'height': 1080, 'frameStart': 200, 'frameEnd': 201, 'orthographicSize': 5.400000095367432, 'cameraPixelRect': {'serializedVersion': '2...</msg>
+<var>${screens}</var>
+<arg>${report}[screens]</arg>
+<doc>Returns the given values which can then be assigned to a variable.</doc>
+<status status="PASS" start="2026-11-15T16:47:59.941556" elapsed="0.001991"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>$sample['frameEnd'] &gt; $sample['frameStart']</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T16:47:59.944556" elapsed="0.000000"/>
+</kw>
+<kw name="Length Should Be" owner="BuiltIn">
+<msg time="2026-11-15T16:47:59.945552" level="INFO">Length is 11.</msg>
+<arg>${sample}[cats]</arg>
+<arg>11</arg>
+<doc>Verifies that the length of the given item is correct.</doc>
+<status status="PASS" start="2026-11-15T16:47:59.945552" elapsed="0.000000"/>
+</kw>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T16:47:59.945552" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\baseline-01\native-02\runtime\home-1920x1080.png"&gt;PROJECT_ROOT\Build\F1\baseline-01\native-02\runtime\home-1920x1080.png&lt;/a&gt;' exists.</msg>
+<arg>${OUTPUT DIR}/runtime/${sample}[screenshot]</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T16:47:59.945552" elapsed="0.000999"/>
+</kw>
+<var name="${sample}">{'requestedWidth': 1920, 'requestedHeight': 1080, 'width': 1920, 'height': 1080, 'frameStart': 200, 'frameEnd': 201, 'orthographicSize': 5.400000095367432, 'cameraPixelRect': {'serializedVersion': '2'...</var>
+<status status="PASS" start="2026-11-15T16:47:59.944556" elapsed="0.001995"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>$sample['frameEnd'] &gt; $sample['frameStart']</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T16:47:59.947563" elapsed="0.000000"/>
+</kw>
+<kw name="Length Should Be" owner="BuiltIn">
+<msg time="2026-11-15T16:47:59.947563" level="INFO">Length is 11.</msg>
+<arg>${sample}[cats]</arg>
+<arg>11</arg>
+<doc>Verifies that the length of the given item is correct.</doc>
+<status status="PASS" start="2026-11-15T16:47:59.947563" elapsed="0.000000"/>
+</kw>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T16:47:59.948557" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\baseline-01\native-02\runtime\home-1600x900.png"&gt;PROJECT_ROOT\Build\F1\baseline-01\native-02\runtime\home-1600x900.png&lt;/a&gt;' exists.</msg>
+<arg>${OUTPUT DIR}/runtime/${sample}[screenshot]</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T16:47:59.947563" elapsed="0.000994"/>
+</kw>
+<var name="${sample}">{'requestedWidth': 1600, 'requestedHeight': 900, 'width': 1600, 'height': 900, 'frameStart': 354, 'frameEnd': 355, 'orthographicSize': 5.400000095367432, 'cameraPixelRect': {'serializedVersion': '2', ...</var>
+<status status="PASS" start="2026-11-15T16:47:59.946551" elapsed="0.002006"/>
+</iter>
+<iter>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>$sample['frameEnd'] &gt; $sample['frameStart']</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-11-15T16:47:59.949554" elapsed="0.000000"/>
+</kw>
+<kw name="Length Should Be" owner="BuiltIn">
+<msg time="2026-11-15T16:47:59.950548" level="INFO">Length is 11.</msg>
+<arg>${sample}[cats]</arg>
+<arg>11</arg>
+<doc>Verifies that the length of the given item is correct.</doc>
+<status status="PASS" start="2026-11-15T16:47:59.949554" elapsed="0.000994"/>
+</kw>
+<kw name="File Should Exist" owner="OperatingSystem">
+<msg time="2026-11-15T16:47:59.951084" level="INFO" html="true">File '&lt;a href="file://PROJECT_ROOT\Build\F1\baseline-01\native-02\runtime\home-2560x1440.png"&gt;PROJECT_ROOT\Build\F1\baseline-01\native-02\runtime\home-2560x1440.png&lt;/a&gt;' exists.</msg>
+<arg>${OUTPUT DIR}/runtime/${sample}[screenshot]</arg>
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<status status="PASS" start="2026-11-15T16:47:59.950548" elapsed="0.000536"/>
+</kw>
+<var name="${sample}">{'requestedWidth': 2560, 'requestedHeight': 1440, 'width': 2560, 'height': 1440, 'frameStart': 574, 'frameEnd': 575, 'orthographicSize': 7.199999809265137, 'cameraPixelRect': {'serializedVersion': '2'...</var>
+<status status="PASS" start="2026-11-15T16:47:59.949554" elapsed="0.001530"/>
+</iter>
+<var>${sample}</var>
+<value>@{screens}</value>
+<status status="PASS" start="2026-11-15T16:47:59.943547" elapsed="0.007537"/>
+</for>
+<status status="PASS" start="2026-11-15T16:47:51.474876" elapsed="8.476208"/>
+</test>
+<doc>Collect native art snapshots with frozen poses; this is not a gameplay or performance pass.</doc>
+<status status="PASS" start="2026-11-15T16:47:51.444120" elapsed="8.506964"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Art Baseline" id="s1" pass="1" fail="0" skip="0">Art Baseline</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

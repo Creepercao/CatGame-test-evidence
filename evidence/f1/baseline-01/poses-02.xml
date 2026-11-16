@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-15 08:58:24Z" end-time="2026-11-15 08:58:34Z" duration="9.2125893">
+  <test-suite type="TestSuite" id="1000" name="喵屋" fullname="喵屋" runstate="Runnable" testcasecount="90" result="Passed" start-time="2026-11-15 08:58:24Z" end-time="2026-11-15 08:58:34Z" duration="9.212589" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1115" name="CatGame.Tests.dll" fullname="PROJECT_ROOT/Library/ScriptAssemblies/CatGame.Tests.dll" runstate="Runnable" testcasecount="90" result="Passed" start-time="2026-11-15 08:58:24Z" end-time="2026-11-15 08:58:34Z" duration="9.206309" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="85304" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+      </properties>
+      <test-suite type="TestSuite" id="1116" name="CatGame" fullname="CatGame" runstate="Runnable" testcasecount="90" result="Passed" start-time="2026-11-15 08:58:24Z" end-time="2026-11-15 08:58:34Z" duration="9.205566" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1117" name="Tests" fullname="CatGame.Tests" runstate="Runnable" testcasecount="90" result="Passed" start-time="2026-11-15 08:58:25Z" end-time="2026-11-15 08:58:34Z" duration="9.205087" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1030" name="F1ArtBaselineCaptureTests" fullname="CatGame.Tests.F1ArtBaselineCaptureTests" classname="CatGame.Tests.F1ArtBaselineCaptureTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-15 08:58:25Z" end-time="2026-11-15 08:58:34Z" duration="9.201542" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1031" name="All_eleven_breeds_render_four_complete_visible_poses" fullname="CatGame.Tests.F1ArtBaselineCaptureTests.All_eleven_breeds_render_four_complete_visible_poses" methodname="All_eleven_breeds_render_four_complete_visible_poses" classname="CatGame.Tests.F1ArtBaselineCaptureTests" runstate="Runnable" seed="481106453" result="Passed" start-time="2026-11-15 08:58:25Z" end-time="2026-11-15 08:58:34Z" duration="9.189597" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

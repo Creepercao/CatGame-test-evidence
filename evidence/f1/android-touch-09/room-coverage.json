@@ -1,0 +1,38 @@
+[
+  {
+    "imageSha256": "28e8b4e6c321021ae10b743abf82cf09fd83b12d0e37d3c2621cd6320728302b",
+    "width": 1600,
+    "height": 900,
+    "rightClearWidths": [
+      0,
+      0,
+      0
+    ],
+    "covered": true,
+    "file": "standard-home.png"
+  },
+  {
+    "imageSha256": "63e40981c0a18205594a033bcbdbf2e90668524f511e25950d829dd91913d2b7",
+    "width": 2000,
+    "height": 900,
+    "rightClearWidths": [
+      0,
+      0,
+      0
+    ],
+    "covered": true,
+    "file": "wide-home.png"
+  },
+  {
+    "imageSha256": "9d014bba321a8a2405cab4792a15699c2efc5adabc8f32a718640d2e3a18d40b",
+    "width": 1200,
+    "height": 900,
+    "rightClearWidths": [
+      0,
+      0,
+      0
+    ],
+    "covered": true,
+    "file": "compact-home.png"
+  }
+]

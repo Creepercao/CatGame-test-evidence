@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-15T22:23:52.871102" rpa="false" schemaversion="5">
+<suite id="s1" name="F1 Cat Touch" source="PROJECT_ROOT\Tests\robot\android\f1_cat_touch.robot">
+<kw name="Open Appium" owner="F1ArtAndroid" type="SETUP">
+<msg time="2026-11-15T22:24:07.473945" level="INFO">Appium session SESSION_ID, Android test user 10</msg>
+<status status="PASS" start="2026-11-15T22:23:53.518350" elapsed="13.955595"/>
+</kw>
+<test id="s1-t1" name="F1-TOUCH-01 16 By 9" line="10">
+<kw name="Check Grounded Cat Touch">
+<kw name="Force Stop Cat Game" owner="F1ArtAndroid">
+<status status="PASS" start="2026-11-15T22:24:07.475945" elapsed="1.016932"/>
+</kw>
+<kw name="Set Display Width" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:24:10.575401" level="INFO">Physical size: 1080x2220
+Override size: 900x1600</msg>
+<arg>${width}</arg>
+<status status="PASS" start="2026-11-15T22:24:08.492877" elapsed="2.082524"/>
+</kw>
+<kw name="Start Cat Game" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:24:15.833949" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 4725
+WaitTime: 4778
+Complete</msg>
+<status status="PASS" start="2026-11-15T22:24:10.575401" elapsed="5.258548"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-11-15T22:24:15.909003" level="INFO">${menu_offset} = 0</msg>
+<var>${menu_offset}</var>
+<arg>int($menu_x) - 1320</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-11-15T22:24:15.834949" elapsed="0.074054"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:24:30.249531" level="INFO">Visual check menu passed (RGB error 0.51): standard-menu.png</msg>
+<arg>menu</arg>
+<arg>${tag}-menu.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${menu_offset}</arg>
+<status status="PASS" start="2026-11-15T22:24:15.909003" elapsed="14.340528"/>
+</kw>
+<kw name="Tap" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:24:30.251880" level="INFO">Appium clickGesture (1320, 372)</msg>
+<arg>${menu_x}</arg>
+<arg>372</arg>
+<status status="PASS" start="2026-11-15T22:24:30.251040" elapsed="1.627744"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:24:34.996786" level="INFO">Visual check offline passed (RGB error 0.35): standard-offline.png</msg>
+<arg>offline</arg>
+<arg>${tag}-offline.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${modal_offset}</arg>
+<status status="PASS" start="2026-11-15T22:24:31.879782" elapsed="3.118514"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-11-15T22:24:35.000320" level="INFO">${center} = 800</msg>
+<var>${center}</var>
+<arg>int($width) // 2</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-11-15T22:24:34.999309" elapsed="0.001011"/>
+</kw>
+<kw name="Tap" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:24:35.000320" level="INFO">Appium clickGesture (800, 519)</msg>
+<arg>${center}</arg>
+<arg>519</arg>
+<status status="PASS" start="2026-11-15T22:24:35.000320" elapsed="0.144261"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:24:36.523183" level="INFO">Visual check two-cats passed (RGB error 0.92): standard-home.png</msg>
+<arg>two-cats</arg>
+<arg>${tag}-home.png</arg>
+<arg>width=${width}</arg>
+<status status="PASS" start="2026-11-15T22:24:35.144581" elapsed="1.378602"/>
+</kw>
+<kw name="Pet Visible Milk And Verify Saved Click" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:26:07.187731" level="FAIL">No visually matching natural Sleep pose within 90 seconds; no touch sent</msg>
+<arg>${tag}</arg>
+<status status="FAIL" start="2026-11-15T22:24:36.523183" elapsed="90.664548">No visually matching natural Sleep pose within 90 seconds; no touch sent</status>
+</kw>
+<arg>1600</arg>
+<arg>1320</arg>
+<arg>0</arg>
+<arg>standard</arg>
+<status status="FAIL" start="2026-11-15T22:24:07.474943" elapsed="119.713872">No visually matching natural Sleep pose within 90 seconds; no touch sent</status>
+</kw>
+<kw name="Stop And Restore Display" type="TEARDOWN">
+<kw name="Force Stop Cat Game" owner="F1ArtAndroid">
+<status status="PASS" start="2026-11-15T22:26:07.189811" elapsed="0.639599"/>
+</kw>
+<kw name="Restore Display Size" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:26:08.817427" level="INFO">Restored device display: Physical size: 1080x2220
+Override size: 900x1600</msg>
+<status status="PASS" start="2026-11-15T22:26:07.829410" elapsed="0.988017"/>
+</kw>
+<status status="PASS" start="2026-11-15T22:26:07.188815" elapsed="1.628612"/>
+</kw>
+<status status="FAIL" start="2026-11-15T22:24:07.473945" elapsed="121.343482">No visually matching natural Sleep pose within 90 seconds; no touch sent</status>
+</test>
+<test id="s1-t2" name="F1-TOUCH-02 20 By 9" line="11">
+<kw name="Check Grounded Cat Touch">
+<kw name="Force Stop Cat Game" owner="F1ArtAndroid">
+<status status="PASS" start="2026-11-15T22:26:08.818438" elapsed="0.433109"/>
+</kw>
+<kw name="Set Display Width" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:26:10.447593" level="INFO">Physical size: 1080x2220
+Override size: 900x2000</msg>
+<arg>${width}</arg>
+<status status="PASS" start="2026-11-15T22:26:09.251547" elapsed="1.196046"/>
+</kw>
+<kw name="Start Cat Game" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:26:13.023477" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 2399
+WaitTime: 2419
+Complete</msg>
+<status status="PASS" start="2026-11-15T22:26:10.447593" elapsed="2.575884"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-11-15T22:26:13.024463" level="INFO">${menu_offset} = 330</msg>
+<var>${menu_offset}</var>
+<arg>int($menu_x) - 1320</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-11-15T22:26:13.023477" elapsed="0.000986"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:26:23.466081" level="INFO">Visual check menu passed (RGB error 0.55): wide-menu.png</msg>
+<arg>menu</arg>
+<arg>${tag}-menu.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${menu_offset}</arg>
+<status status="PASS" start="2026-11-15T22:26:13.024463" elapsed="10.443127"/>
+</kw>
+<kw name="Tap" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:26:23.467590" level="INFO">Appium clickGesture (1650, 372)</msg>
+<arg>${menu_x}</arg>
+<arg>372</arg>
+<status status="PASS" start="2026-11-15T22:26:23.467590" elapsed="0.170695"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:26:28.344203" level="INFO">Visual check offline passed (RGB error 0.42): wide-offline.png</msg>
+<arg>offline</arg>
+<arg>${tag}-offline.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${modal_offset}</arg>
+<status status="PASS" start="2026-11-15T22:26:23.638285" elapsed="4.706905"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-11-15T22:26:28.346190" level="INFO">${center} = 1000</msg>
+<var>${center}</var>
+<arg>int($width) // 2</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-11-15T22:26:28.345190" elapsed="0.001000"/>
+</kw>
+<kw name="Tap" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:26:28.346190" level="INFO">Appium clickGesture (1000, 519)</msg>
+<arg>${center}</arg>
+<arg>519</arg>
+<status status="PASS" start="2026-11-15T22:26:28.346190" elapsed="0.116454"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:26:29.701837" level="INFO">Visual check two-cats passed (RGB error 0.89): wide-home.png</msg>
+<arg>two-cats</arg>
+<arg>${tag}-home.png</arg>
+<arg>width=${width}</arg>
+<status status="PASS" start="2026-11-15T22:26:28.462644" elapsed="1.240174"/>
+</kw>
+<kw name="Pet Visible Milk And Verify Saved Click" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:28:01.423924" level="FAIL">No visually matching natural Sleep pose within 90 seconds; no touch sent</msg>
+<arg>${tag}</arg>
+<status status="FAIL" start="2026-11-15T22:26:29.702818" elapsed="91.722102">No visually matching natural Sleep pose within 90 seconds; no touch sent</status>
+</kw>
+<arg>2000</arg>
+<arg>1650</arg>
+<arg>200</arg>
+<arg>wide</arg>
+<status status="FAIL" start="2026-11-15T22:26:08.818438" elapsed="112.606482">No visually matching natural Sleep pose within 90 seconds; no touch sent</status>
+</kw>
+<kw name="Stop And Restore Display" type="TEARDOWN">
+<kw name="Force Stop Cat Game" owner="F1ArtAndroid">
+<status status="PASS" start="2026-11-15T22:28:01.425924" elapsed="0.462884"/>
+</kw>
+<kw name="Restore Display Size" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:28:02.679864" level="INFO">Restored device display: Physical size: 1080x2220
+Override size: 900x1600</msg>
+<status status="PASS" start="2026-11-15T22:28:01.888808" elapsed="0.791056"/>
+</kw>
+<status status="PASS" start="2026-11-15T22:28:01.425924" elapsed="1.253940"/>
+</kw>
+<status status="FAIL" start="2026-11-15T22:26:08.818438" elapsed="113.861426">No visually matching natural Sleep pose within 90 seconds; no touch sent</status>
+</test>
+<test id="s1-t3" name="F1-TOUCH-03 4 By 3" line="12">
+<kw name="Check Grounded Cat Touch">
+<kw name="Force Stop Cat Game" owner="F1ArtAndroid">
+<status status="PASS" start="2026-11-15T22:28:02.680864" elapsed="0.457182"/>
+</kw>
+<kw name="Set Display Width" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:28:04.030875" level="INFO">Physical size: 1080x2220
+Override size: 900x1200</msg>
+<arg>${width}</arg>
+<status status="PASS" start="2026-11-15T22:28:03.138046" elapsed="0.892829"/>
+</kw>
+<kw name="Start Cat Game" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:28:05.961284" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1657
+WaitTime: 1678
+Complete</msg>
+<status status="PASS" start="2026-11-15T22:28:04.030875" elapsed="1.930409"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-11-15T22:28:05.962293" level="INFO">${menu_offset} = -330</msg>
+<var>${menu_offset}</var>
+<arg>int($menu_x) - 1320</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-11-15T22:28:05.961284" elapsed="0.001009"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:28:12.287698" level="INFO">Visual check menu passed (RGB error 0.51): compact-menu.png</msg>
+<arg>menu</arg>
+<arg>${tag}-menu.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${menu_offset}</arg>
+<status status="PASS" start="2026-11-15T22:28:05.962293" elapsed="6.325405"/>
+</kw>
+<kw name="Tap" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:28:12.288692" level="INFO">Appium clickGesture (990, 372)</msg>
+<arg>${menu_x}</arg>
+<arg>372</arg>
+<status status="PASS" start="2026-11-15T22:28:12.288692" elapsed="0.133513"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:28:15.705495" level="INFO">Visual check offline passed (RGB error 0.35): compact-offline.png</msg>
+<arg>offline</arg>
+<arg>${tag}-offline.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${modal_offset}</arg>
+<status status="PASS" start="2026-11-15T22:28:12.422205" elapsed="3.284347"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-11-15T22:28:15.707493" level="INFO">${center} = 600</msg>
+<var>${center}</var>
+<arg>int($width) // 2</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-11-15T22:28:15.706552" elapsed="0.000941"/>
+</kw>
+<kw name="Tap" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:28:15.707493" level="INFO">Appium clickGesture (600, 519)</msg>
+<arg>${center}</arg>
+<arg>519</arg>
+<status status="PASS" start="2026-11-15T22:28:15.707493" elapsed="0.147274"/>
+</kw>
+<kw name="Wait For Visual" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:28:16.182095" level="INFO">Visual check two-cats passed (RGB error 0.90): compact-home.png</msg>
+<arg>two-cats</arg>
+<arg>${tag}-home.png</arg>
+<arg>width=${width}</arg>
+<status status="PASS" start="2026-11-15T22:28:15.854767" elapsed="0.328330"/>
+</kw>
+<kw name="Pet Visible Milk And Verify Saved Click" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:29:47.171906" level="FAIL">No visually matching natural Sleep pose within 90 seconds; no touch sent</msg>
+<arg>${tag}</arg>
+<status status="FAIL" start="2026-11-15T22:28:16.183097" elapsed="90.989810">No visually matching natural Sleep pose within 90 seconds; no touch sent</status>
+</kw>
+<arg>1200</arg>
+<arg>990</arg>
+<arg>-200</arg>
+<arg>compact</arg>
+<status status="FAIL" start="2026-11-15T22:28:02.680864" elapsed="104.492043">No visually matching natural Sleep pose within 90 seconds; no touch sent</status>
+</kw>
+<kw name="Stop And Restore Display" type="TEARDOWN">
+<kw name="Force Stop Cat Game" owner="F1ArtAndroid">
+<status status="PASS" start="2026-11-15T22:29:47.172907" elapsed="0.401885"/>
+</kw>
+<kw name="Restore Display Size" owner="F1ArtAndroid">
+<msg time="2026-11-15T22:29:48.221113" level="INFO">Restored device display: Physical size: 1080x2220
+Override size: 900x1600</msg>
+<status status="PASS" start="2026-11-15T22:29:47.574792" elapsed="0.646321"/>
+</kw>
+<status status="PASS" start="2026-11-15T22:29:47.172907" elapsed="1.048206"/>
+</kw>
+<status status="FAIL" start="2026-11-15T22:28:02.679864" elapsed="105.541249">No visually matching natural Sleep pose within 90 seconds; no touch sent</status>
+</test>
+<kw name="Close Appium" owner="F1ArtAndroid" type="TEARDOWN">
+<status status="PASS" start="2026-11-15T22:29:48.222117" elapsed="1.363620"/>
+</kw>
+<doc>Real Appium touches on the displayed Milk body at three aspect ratios; read saved click counts after HOME.</doc>
+<status status="FAIL" start="2026-11-15T22:23:52.876171" elapsed="356.709566"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="F1 Cat Touch" id="s1" pass="0" fail="3" skip="0">F1 Cat Touch</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

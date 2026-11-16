@@ -1,0 +1,10 @@
+{"utc": "2026-11-15T14:31:49.531303+00:00", "action": "sleep-source", "data": {"sha256": "dc0600c76f5de2128b414aecfa3862e38a4dc97878edf8f7bd36a99d11cf4034", "reason": "stable natural Sleep body avoids chasing a roaming target through screenshot latency"}}
+{"utc": "2026-11-15T14:31:50.810959+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-001.json", "bestMse": null}}
+{"utc": "2026-11-15T14:31:52.423444+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-002.json", "bestMse": null}}
+{"utc": "2026-11-15T14:31:54.214974+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-003.json", "bestMse": null}}
+{"utc": "2026-11-15T14:31:55.959205+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-004.json", "bestMse": null}}
+{"utc": "2026-11-15T14:31:57.739768+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-005.json", "bestMse": null}}
+{"utc": "2026-11-15T14:31:59.462119+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-006.json", "bestMse": null}}
+{"utc": "2026-11-15T14:32:01.353155+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-007.json", "bestMse": null}}
+{"utc": "2026-11-15T14:32:03.210815+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-008.json", "bestMse": null}}
+{"utc": "2026-11-15T14:32:04.835572+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-009.json", "bestMse": 904.657106918239}}

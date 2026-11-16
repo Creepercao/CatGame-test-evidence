@@ -1,0 +1,40 @@
+{"utc": "2026-11-16T14:26:03.803531+00:00", "action": "dismiss-recognized-cg-image", "data": {"point": [1200, 100], "clicksBefore": 1}}
+{"utc": "2026-11-16T14:26:08.971732+00:00", "action": "resume-viewport-transient", "data": {"actual": [900, 1600], "expected": [1600, 900]}}
+{"utc": "2026-11-16T14:26:10.712424+00:00", "action": "sleep-source", "data": {"sha256": "dc0600c76f5de2128b414aecfa3862e38a4dc97878edf8f7bd36a99d11cf4034", "reason": "stable natural Sleep body avoids chasing a roaming target through screenshot latency"}}
+{"utc": "2026-11-16T14:26:13.829350+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-001.json", "bestMse": null}}
+{"utc": "2026-11-16T14:26:17.178883+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-002.json", "bestMse": null}}
+{"utc": "2026-11-16T14:26:20.508339+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-003.json", "bestMse": null}}
+{"utc": "2026-11-16T14:26:23.816255+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-004.json", "bestMse": null}}
+{"utc": "2026-11-16T14:26:27.018807+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-005.json", "bestMse": null}}
+{"utc": "2026-11-16T14:26:30.330960+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-006.json", "bestMse": null}}
+{"utc": "2026-11-16T14:26:33.548062+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-007.json", "bestMse": null}}
+{"utc": "2026-11-16T14:26:36.970015+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-008.json", "bestMse": null}}
+{"utc": "2026-11-16T14:26:40.421574+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-009.json", "bestMse": null}}
+{"utc": "2026-11-16T14:26:43.829713+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-010.json", "bestMse": 0.08213333333333334}}
+{"utc": "2026-11-16T14:26:43.907746+00:00", "action": "appium-pet", "data": {"size": [1600, 900], "point": [738, 383], "sleepFrame": 4, "flipped": true, "mse": 0.08213333333333334, "beforeClicks": 1}}
+{"utc": "2026-11-16T14:26:48.031180+00:00", "action": "saved-click-result", "data": {"before": 1, "after": 2}}
+{"utc": "2026-11-16T14:27:09.170318+00:00", "action": "sleep-source", "data": {"sha256": "dc0600c76f5de2128b414aecfa3862e38a4dc97878edf8f7bd36a99d11cf4034", "reason": "stable natural Sleep body avoids chasing a roaming target through screenshot latency"}}
+{"utc": "2026-11-16T14:27:23.638689+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-001.json", "bestMse": null}}
+{"utc": "2026-11-16T14:27:27.282372+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-002.json", "bestMse": null}}
+{"utc": "2026-11-16T14:27:31.135000+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-003.json", "bestMse": null}}
+{"utc": "2026-11-16T14:27:35.125116+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-004.json", "bestMse": null}}
+{"utc": "2026-11-16T14:27:38.891461+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-005.json", "bestMse": null}}
+{"utc": "2026-11-16T14:27:42.617301+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-006.json", "bestMse": null}}
+{"utc": "2026-11-16T14:27:46.205803+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-007.json", "bestMse": null}}
+{"utc": "2026-11-16T14:27:49.695139+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-008.json", "bestMse": null}}
+{"utc": "2026-11-16T14:27:53.173118+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-009.json", "bestMse": null}}
+{"utc": "2026-11-16T14:27:56.938505+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-010.json", "bestMse": 0.2857861635220126}}
+{"utc": "2026-11-16T14:27:57.047648+00:00", "action": "appium-pet", "data": {"size": [2000, 900], "point": [864, 618], "sleepFrame": 0, "flipped": false, "mse": 0.2857861635220126, "beforeClicks": 2}}
+{"utc": "2026-11-16T14:28:00.107180+00:00", "action": "saved-click-result", "data": {"before": 2, "after": 3}}
+{"utc": "2026-11-16T14:28:18.690608+00:00", "action": "sleep-source", "data": {"sha256": "dc0600c76f5de2128b414aecfa3862e38a4dc97878edf8f7bd36a99d11cf4034", "reason": "stable natural Sleep body avoids chasing a roaming target through screenshot latency"}}
+{"utc": "2026-11-16T14:28:22.145076+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-001.json", "bestMse": null}}
+{"utc": "2026-11-16T14:28:26.111151+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-002.json", "bestMse": null}}
+{"utc": "2026-11-16T14:28:30.308515+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-003.json", "bestMse": null}}
+{"utc": "2026-11-16T14:28:34.413101+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-004.json", "bestMse": null}}
+{"utc": "2026-11-16T14:28:38.388325+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-005.json", "bestMse": null}}
+{"utc": "2026-11-16T14:28:42.330248+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-006.json", "bestMse": null}}
+{"utc": "2026-11-16T14:28:46.272969+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-007.json", "bestMse": null}}
+{"utc": "2026-11-16T14:28:50.475518+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-008.json", "bestMse": null}}
+{"utc": "2026-11-16T14:28:54.883939+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-009.json", "bestMse": 0.6055900621118012}}
+{"utc": "2026-11-16T14:28:54.972627+00:00", "action": "appium-pet", "data": {"size": [1200, 900], "point": [745, 444], "sleepFrame": 2, "flipped": true, "mse": 0.6055900621118012, "beforeClicks": 3}}
+{"utc": "2026-11-16T14:28:58.647940+00:00", "action": "saved-click-result", "data": {"before": 3, "after": 4}}

@@ -1,0 +1,15 @@
+{
+  "baselineUses": 528,
+  "afterUses": 528,
+  "identitiesCompared": 528,
+  "missingOrChangedIdentities": [],
+  "changedPngs": [],
+  "floorCenter": {
+    "x": 2.3125,
+    "y": -0.25
+  },
+  "floorHalf": {
+    "x": 6.78125,
+    "y": 3.75
+  }
+}

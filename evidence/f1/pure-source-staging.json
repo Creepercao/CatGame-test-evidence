@@ -1,0 +1,786 @@
+{
+  "rootSource": "698540eecc1990816985ce6572d9f7cc34ba10cf",
+  "files": [
+    {
+      "path": "Assets/Editor/ArtImportRules.cs",
+      "transform": "identity",
+      "rootSha256": "33066f4de7331ef75f1ad39f162645ff23364aedace33f5dc7f15ddd01a41bfa",
+      "gameSha256": "33066f4de7331ef75f1ad39f162645ff23364aedace33f5dc7f15ddd01a41bfa"
+    },
+    {
+      "path": "Assets/Editor/SceneBuilders.cs",
+      "transform": "normalize LF",
+      "rootSha256": "d6647d7a1985a559b1ec2637762fb6e61631111947ab1b17424a5efff16af148",
+      "gameSha256": "a27b3e0daa3bdf1ddb4d180bc5a5df21e669559ed4d3d6a81cd2e59fad680133"
+    },
+    {
+      "path": "Assets/Editor/WorldArtMigration.cs",
+      "transform": "identity",
+      "rootSha256": "b5b82e58dc7e25018877cadd5298ecfa61a446bf7b11f126c971bfad0d8b400a",
+      "gameSha256": "b5b82e58dc7e25018877cadd5298ecfa61a446bf7b11f126c971bfad0d8b400a"
+    },
+    {
+      "path": "Assets/Editor/WorldArtMigration.cs.meta",
+      "transform": "normalize LF",
+      "rootSha256": "b00248ae8a0e94b6c307005b3a65429b5c67d786ad50c0e39d6cfecd8b62496b",
+      "gameSha256": "328a589daa95be7df077d7c621eb827419bd7ef0529056aa0e4762fd625d4050"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Batcat/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "0a685ade364666ca2b6bba3a071239fedaf7c9ebc8be7461e9dc4e88dc637971",
+      "gameSha256": "0a685ade364666ca2b6bba3a071239fedaf7c9ebc8be7461e9dc4e88dc637971"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Batcat/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "128f582091e469a5e3cae58132c29c6ecbe51078fd19df200acdd1e9cbcc3365",
+      "gameSha256": "128f582091e469a5e3cae58132c29c6ecbe51078fd19df200acdd1e9cbcc3365"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Calico/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "ac9e1cc47346396f023f69c501fd981325208bb9d988eca4186e643b2ca1d231",
+      "gameSha256": "ac9e1cc47346396f023f69c501fd981325208bb9d988eca4186e643b2ca1d231"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Calico/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "4d8e3b062056cdec4642ed16cb71d741aaf9dcb25e57ef400ccd2dfd24661bb6",
+      "gameSha256": "4d8e3b062056cdec4642ed16cb71d741aaf9dcb25e57ef400ccd2dfd24661bb6"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Demon/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "07630550aa05bfb6e16323cd7180d2c0ab0ee20408c81a6b943c5676089879db",
+      "gameSha256": "07630550aa05bfb6e16323cd7180d2c0ab0ee20408c81a6b943c5676089879db"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Demon/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "1b7bf0a078bb931ebb09ff525604d6240ddb9c7d4d46b15196feab35d46cdf75",
+      "gameSha256": "1b7bf0a078bb931ebb09ff525604d6240ddb9c7d4d46b15196feab35d46cdf75"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Egypt/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "ed30d0d8d19bbbce9f34a6b601cab31f1b6fc0e7bcab6d4f37733337345fc0bf",
+      "gameSha256": "ed30d0d8d19bbbce9f34a6b601cab31f1b6fc0e7bcab6d4f37733337345fc0bf"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Egypt/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "cc64d109d6e6c0791e4a420a6ce9d4058fa22bd93081ab5af798d64bff3bde63",
+      "gameSha256": "cc64d109d6e6c0791e4a420a6ce9d4058fa22bd93081ab5af798d64bff3bde63"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Milk/Attack.png.meta",
+      "transform": "identity",
+      "rootSha256": "5016a0da4c8645fba6771d212baedf2c06b1bb0b00394d91a5e05f10eae73896",
+      "gameSha256": "5016a0da4c8645fba6771d212baedf2c06b1bb0b00394d91a5e05f10eae73896"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Milk/Eat.png.meta",
+      "transform": "identity",
+      "rootSha256": "ae2f4cd6d6f241cc099bd14d4ff013266c0ca55ea35eb3c353ec18bdc2976453",
+      "gameSha256": "ae2f4cd6d6f241cc099bd14d4ff013266c0ca55ea35eb3c353ec18bdc2976453"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Milk/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "0f84e10585bcab4c150a1267d3cf6968194b4c3ccdce31cf0f51f41311479a4c",
+      "gameSha256": "0f84e10585bcab4c150a1267d3cf6968194b4c3ccdce31cf0f51f41311479a4c"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Milk/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "60ce4cf30e0305160c550db6333ef2ddb340505c15675101a0a784bb1b5cb74d",
+      "gameSha256": "60ce4cf30e0305160c550db6333ef2ddb340505c15675101a0a784bb1b5cb74d"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Milk/Run.png.meta",
+      "transform": "identity",
+      "rootSha256": "5026be187a66225d75a39289703db61359dffae2fc9e08198905066a56c51dc1",
+      "gameSha256": "5026be187a66225d75a39289703db61359dffae2fc9e08198905066a56c51dc1"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Milk/Sleep.png.meta",
+      "transform": "identity",
+      "rootSha256": "77052f2a9f8550ce5c4515fbcdb1178ea235cc91f97288cb47878cad0dd48f71",
+      "gameSha256": "77052f2a9f8550ce5c4515fbcdb1178ea235cc91f97288cb47878cad0dd48f71"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Milk/Walk.png.meta",
+      "transform": "identity",
+      "rootSha256": "30738a2196b5f511ce634c0844298752fc59756aad96518bbf8c3861ca6cd996",
+      "gameSha256": "30738a2196b5f511ce634c0844298752fc59756aad96518bbf8c3861ca6cd996"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Batcat/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "1d46908b22778d5653bfe05fd708849e1522e7b86ef6de36e918c7bb0946db80",
+      "gameSha256": "1d46908b22778d5653bfe05fd708849e1522e7b86ef6de36e918c7bb0946db80"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Batcat/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "da34393649ac9cc5caaab7ca5dc7709b744139fed0d7c51b75872b0c5f298bdd",
+      "gameSha256": "da34393649ac9cc5caaab7ca5dc7709b744139fed0d7c51b75872b0c5f298bdd"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Batcat/Sleep.png.meta",
+      "transform": "identity",
+      "rootSha256": "74bf4bc953e32bd062509635f128a838fcc50bc2fdee27d89d035356efb1df50",
+      "gameSha256": "74bf4bc953e32bd062509635f128a838fcc50bc2fdee27d89d035356efb1df50"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Batcat/Walk.png.meta",
+      "transform": "identity",
+      "rootSha256": "82b249e56f9fe46226ed4f67906b9cf9399a04c12d0fc3c23eb72529a16916b8",
+      "gameSha256": "82b249e56f9fe46226ed4f67906b9cf9399a04c12d0fc3c23eb72529a16916b8"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Calico/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "c1f07f9a07b1bef459735bfbd78a9e0c29b03e043bc9265f4de212ef1ff287e4",
+      "gameSha256": "c1f07f9a07b1bef459735bfbd78a9e0c29b03e043bc9265f4de212ef1ff287e4"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Calico/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "03167e55d8043a43248071e1402cdb39f02481d3ea3869b8ba79b20469fe1a75",
+      "gameSha256": "03167e55d8043a43248071e1402cdb39f02481d3ea3869b8ba79b20469fe1a75"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Calico/Sleep.png.meta",
+      "transform": "identity",
+      "rootSha256": "8b7ff02bfeb878cda5cb2990c3e06f2a79a366c572dc9a47052e7782d30b2897",
+      "gameSha256": "8b7ff02bfeb878cda5cb2990c3e06f2a79a366c572dc9a47052e7782d30b2897"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Calico/Walk.png.meta",
+      "transform": "identity",
+      "rootSha256": "ed9c0cc9072209b5b928dff08f3a24401c0590f1fa89144bd9a8b4d9912e2d37",
+      "gameSha256": "ed9c0cc9072209b5b928dff08f3a24401c0590f1fa89144bd9a8b4d9912e2d37"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Demon/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "d6f0cb83297d8b00b892d7f7a7f33894205081459a79e2a9414f034c7c7f3a85",
+      "gameSha256": "d6f0cb83297d8b00b892d7f7a7f33894205081459a79e2a9414f034c7c7f3a85"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Demon/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "44a24c281e34c052524cec7338ff4497b02bd663c68ab553d2ab5d6192fe6efc",
+      "gameSha256": "44a24c281e34c052524cec7338ff4497b02bd663c68ab553d2ab5d6192fe6efc"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Demon/Sleep.png.meta",
+      "transform": "identity",
+      "rootSha256": "ab70bcd3bc15061f23e839df2ec5957cea13772ce0e50237b20d90b7e8aafba4",
+      "gameSha256": "ab70bcd3bc15061f23e839df2ec5957cea13772ce0e50237b20d90b7e8aafba4"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Demon/Walk.png.meta",
+      "transform": "identity",
+      "rootSha256": "5f76799bc75a89dedf9f111943c3ea39b740903fbdc826ea8f7b1ffac21cf596",
+      "gameSha256": "5f76799bc75a89dedf9f111943c3ea39b740903fbdc826ea8f7b1ffac21cf596"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Egypt/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "e244c4e60bf4f9e19f3adb9ffe8c6385c32e9daf551a150ed91de58ea11634f9",
+      "gameSha256": "e244c4e60bf4f9e19f3adb9ffe8c6385c32e9daf551a150ed91de58ea11634f9"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Egypt/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "87f46de4b27d1fd7ce8a93c619bd4bff5492bd9d89bbb212cdb648e5220f30c1",
+      "gameSha256": "87f46de4b27d1fd7ce8a93c619bd4bff5492bd9d89bbb212cdb648e5220f30c1"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Egypt/Sleep.png.meta",
+      "transform": "identity",
+      "rootSha256": "6cd2401c028fd58c39e25b000ded35f742939f31fa6be0d142b6cf69c08f3d2d",
+      "gameSha256": "6cd2401c028fd58c39e25b000ded35f742939f31fa6be0d142b6cf69c08f3d2d"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Egypt/Walk.png.meta",
+      "transform": "identity",
+      "rootSha256": "489d5a0ac8be84e58951f6d6992ab93705f3992fcd02165a1df04ac116625cf6",
+      "gameSha256": "489d5a0ac8be84e58951f6d6992ab93705f3992fcd02165a1df04ac116625cf6"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Milk/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "be01524a2b7f3e60fde64780c753f64bfa27ab5a0ec86f062b5d42dc1571c8c0",
+      "gameSha256": "be01524a2b7f3e60fde64780c753f64bfa27ab5a0ec86f062b5d42dc1571c8c0"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Milk/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "1cd798d67a176255c31c991d45b21e69a1eb2bb71a6c9b2dc9d4752f89382f1f",
+      "gameSha256": "1cd798d67a176255c31c991d45b21e69a1eb2bb71a6c9b2dc9d4752f89382f1f"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Milk/Sleep.png.meta",
+      "transform": "identity",
+      "rootSha256": "22534fa49efe4bf286c93a366910a322c2f1e3d698556f23f79c9054cf753dfa",
+      "gameSha256": "22534fa49efe4bf286c93a366910a322c2f1e3d698556f23f79c9054cf753dfa"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Milk/Walk.png.meta",
+      "transform": "identity",
+      "rootSha256": "a16e65a8e90af0a4edabe4b0a985200ceda82a4f3705f130f9b9b931abaf8a4d",
+      "gameSha256": "a16e65a8e90af0a4edabe4b0a985200ceda82a4f3705f130f9b9b931abaf8a4d"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Siamese/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "969e5d3f97d65aad6311cf5190e0212c15d011305ecc4049b2132b2a9f93b1d6",
+      "gameSha256": "969e5d3f97d65aad6311cf5190e0212c15d011305ecc4049b2132b2a9f93b1d6"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Siamese/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "f76bffafad7a19db2f3c6d2fac6a19744043d2d0d1a8d136af65a9f32dbb9087",
+      "gameSha256": "f76bffafad7a19db2f3c6d2fac6a19744043d2d0d1a8d136af65a9f32dbb9087"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Siamese/Sleep.png.meta",
+      "transform": "identity",
+      "rootSha256": "84fccefe6a6b5ac9fcf886198b527f9357c604186e134d62f024da0b5183a3c3",
+      "gameSha256": "84fccefe6a6b5ac9fcf886198b527f9357c604186e134d62f024da0b5183a3c3"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Siamese/Walk.png.meta",
+      "transform": "identity",
+      "rootSha256": "bf6d26b02aa40b14c42beecfa7bea8e9b5fbd5f949ee856dec46b69b5fbca26d",
+      "gameSha256": "bf6d26b02aa40b14c42beecfa7bea8e9b5fbd5f949ee856dec46b69b5fbca26d"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Snow/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "cdb8a7a355590265e5e8e3969b597d65bf1af2f2cdc56bac71007a00641a4c22",
+      "gameSha256": "cdb8a7a355590265e5e8e3969b597d65bf1af2f2cdc56bac71007a00641a4c22"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Snow/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "99fd3d414f8f3ba490e021e3a93ec1fc55245f9ea9652185ec56f203432d15b2",
+      "gameSha256": "99fd3d414f8f3ba490e021e3a93ec1fc55245f9ea9652185ec56f203432d15b2"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Snow/Sleep.png.meta",
+      "transform": "identity",
+      "rootSha256": "ad2cdef3da9575825a21db4c27e1b09271c21cd6bdc8720ec953cb6aeb3ad2aa",
+      "gameSha256": "ad2cdef3da9575825a21db4c27e1b09271c21cd6bdc8720ec953cb6aeb3ad2aa"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Snow/Walk.png.meta",
+      "transform": "identity",
+      "rootSha256": "5256434d17c46ec20a6745514f91cfd5c295f5e50308f20fc378ca397a06f33b",
+      "gameSha256": "5256434d17c46ec20a6745514f91cfd5c295f5e50308f20fc378ca397a06f33b"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tabby/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "1fd0d38f54fc0a90dc756ff34ef8f57638346c6a3bc5469c806935941b4c42bb",
+      "gameSha256": "1fd0d38f54fc0a90dc756ff34ef8f57638346c6a3bc5469c806935941b4c42bb"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tabby/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "962b0233b69ebe70d7a99a1fb513604faf265386608bf427e18b4933f75a4810",
+      "gameSha256": "962b0233b69ebe70d7a99a1fb513604faf265386608bf427e18b4933f75a4810"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tabby/Sleep.png.meta",
+      "transform": "identity",
+      "rootSha256": "6334f1e6a9f63e618d3d0ab5953211c6cc2531a43afd31e278f445536f021b7b",
+      "gameSha256": "6334f1e6a9f63e618d3d0ab5953211c6cc2531a43afd31e278f445536f021b7b"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tabby/Walk.png.meta",
+      "transform": "identity",
+      "rootSha256": "08e3f47c60b0ab4e8a7d20bbb70a3192b3f9a67b14bc3c35453f3370efa5b4d7",
+      "gameSha256": "08e3f47c60b0ab4e8a7d20bbb70a3192b3f9a67b14bc3c35453f3370efa5b4d7"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tiger/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "16d09bfed7e97b236cd357ea96e1880fbfe6f22701da26920307bb4a85589f14",
+      "gameSha256": "16d09bfed7e97b236cd357ea96e1880fbfe6f22701da26920307bb4a85589f14"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tiger/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "6dacf8618e6efa43b71b12b266bb7f4c9e3c3ccf88fd2d907653dc8c165f6c79",
+      "gameSha256": "6dacf8618e6efa43b71b12b266bb7f4c9e3c3ccf88fd2d907653dc8c165f6c79"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tiger/Sleep.png.meta",
+      "transform": "identity",
+      "rootSha256": "30081dcfde72fc2a86b38f431393b43e4c0aa82d25683b6cd0f3da53ef458389",
+      "gameSha256": "30081dcfde72fc2a86b38f431393b43e4c0aa82d25683b6cd0f3da53ef458389"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tiger/Walk.png.meta",
+      "transform": "identity",
+      "rootSha256": "7c4b211640ddfe57ba0bd80eabf20310f6f8f1230900f241e3b055c167838d3e",
+      "gameSha256": "7c4b211640ddfe57ba0bd80eabf20310f6f8f1230900f241e3b055c167838d3e"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tuxedo/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "2441b9ebccaeb55e47eca09eae44ae5a209b3ef92a193b7bf11fa1fea355d494",
+      "gameSha256": "2441b9ebccaeb55e47eca09eae44ae5a209b3ef92a193b7bf11fa1fea355d494"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tuxedo/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "aebbf52fe25fc201b857789e1ad5696e1cc1dd0c24d58809a44b535fddfbd47c",
+      "gameSha256": "aebbf52fe25fc201b857789e1ad5696e1cc1dd0c24d58809a44b535fddfbd47c"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tuxedo/Sleep.png.meta",
+      "transform": "identity",
+      "rootSha256": "cedb56e30416b814d3faa7426b078faff58ce605b4b827ede804232dc06165d1",
+      "gameSha256": "cedb56e30416b814d3faa7426b078faff58ce605b4b827ede804232dc06165d1"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tuxedo/Walk.png.meta",
+      "transform": "identity",
+      "rootSha256": "74b9880d6a9f2ae551c4917801617afcce1d7afe28a355d2aefe3a66fd636686",
+      "gameSha256": "74b9880d6a9f2ae551c4917801617afcce1d7afe28a355d2aefe3a66fd636686"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Xmas/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "025def8b1abcb4d0c515b4e134786d4ac72eceb22ad9a35d289b6b369b473fb0",
+      "gameSha256": "025def8b1abcb4d0c515b4e134786d4ac72eceb22ad9a35d289b6b369b473fb0"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Xmas/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "cc689091c69ed23f5d16532007306eecbbef7b3616907b8768ac371eb10063e5",
+      "gameSha256": "cc689091c69ed23f5d16532007306eecbbef7b3616907b8768ac371eb10063e5"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Xmas/Sleep.png.meta",
+      "transform": "identity",
+      "rootSha256": "4924f2d0ffc061df606dc7c9439ab6a5a7dc69b077073df5dde224e31fecd8c9",
+      "gameSha256": "4924f2d0ffc061df606dc7c9439ab6a5a7dc69b077073df5dde224e31fecd8c9"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Xmas/Walk.png.meta",
+      "transform": "identity",
+      "rootSha256": "cd009b10d42f00198cf85810278e7c8676fbcd9d64c739fd7736f36f74508894",
+      "gameSha256": "cd009b10d42f00198cf85810278e7c8676fbcd9d64c739fd7736f36f74508894"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Siamese/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "e70e2cf6d4e799a6d8ee2ea6d22df824fdd1f6c00e34d1e36e611758e83118a1",
+      "gameSha256": "e70e2cf6d4e799a6d8ee2ea6d22df824fdd1f6c00e34d1e36e611758e83118a1"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Siamese/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "57c355ff824cea64a6c27863e3a80aa5a5235c2060941f7a58f3a0758010c17e",
+      "gameSha256": "57c355ff824cea64a6c27863e3a80aa5a5235c2060941f7a58f3a0758010c17e"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Snow/Attack.png.meta",
+      "transform": "identity",
+      "rootSha256": "b93b0056454ace40695bf9baa0d33de907363a1356400d225871c2f609d56edc",
+      "gameSha256": "b93b0056454ace40695bf9baa0d33de907363a1356400d225871c2f609d56edc"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Snow/Eat.png.meta",
+      "transform": "identity",
+      "rootSha256": "8351eff5a834daec0971f7c8971016ca214a4cf6d020f155575eca6e04c88a4f",
+      "gameSha256": "8351eff5a834daec0971f7c8971016ca214a4cf6d020f155575eca6e04c88a4f"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Snow/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "a7f3590290eebbd6f1c784340b0a4902cf4f571ac06e592a10b26b8fe71713c8",
+      "gameSha256": "a7f3590290eebbd6f1c784340b0a4902cf4f571ac06e592a10b26b8fe71713c8"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Snow/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "e9256c80485e7c82bfd268949e28a7d63c88a4e8af2a05abdca4f42c4a6579bb",
+      "gameSha256": "e9256c80485e7c82bfd268949e28a7d63c88a4e8af2a05abdca4f42c4a6579bb"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Snow/Run.png.meta",
+      "transform": "identity",
+      "rootSha256": "d38e7fbbb44e218553c551a4629a2c17fbf573ef3087b77691eacb2ebc2a9715",
+      "gameSha256": "d38e7fbbb44e218553c551a4629a2c17fbf573ef3087b77691eacb2ebc2a9715"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Snow/Sleep.png.meta",
+      "transform": "identity",
+      "rootSha256": "afe575ac21c68202a9a51079015ddddcc75c22856dac9b069c6bc5fe7357d313",
+      "gameSha256": "afe575ac21c68202a9a51079015ddddcc75c22856dac9b069c6bc5fe7357d313"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Snow/Walk.png.meta",
+      "transform": "identity",
+      "rootSha256": "0ebb9b3a8d3ddd2d60650c38e9f15c5ea5dac489b536e544b8a7fa328636364a",
+      "gameSha256": "0ebb9b3a8d3ddd2d60650c38e9f15c5ea5dac489b536e544b8a7fa328636364a"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tabby/Attack.png.meta",
+      "transform": "identity",
+      "rootSha256": "e240c87c2e3b1e9aead613343e57ca539bf317d15915c30613a568539f3f3132",
+      "gameSha256": "e240c87c2e3b1e9aead613343e57ca539bf317d15915c30613a568539f3f3132"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tabby/Eat.png.meta",
+      "transform": "identity",
+      "rootSha256": "e36e10bb0b035f725b35fa99611b4332c28a976f1bc59495d511c982c2333f2b",
+      "gameSha256": "e36e10bb0b035f725b35fa99611b4332c28a976f1bc59495d511c982c2333f2b"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tabby/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "4804fba6b6576790d6913b3370410189944f0f723693fc604e11a27416c6860f",
+      "gameSha256": "4804fba6b6576790d6913b3370410189944f0f723693fc604e11a27416c6860f"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tabby/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "3b5a4a3a65754401466e4785890f1b5bbf06dc2850290e2951464e6ece2793b3",
+      "gameSha256": "3b5a4a3a65754401466e4785890f1b5bbf06dc2850290e2951464e6ece2793b3"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tabby/Run.png.meta",
+      "transform": "identity",
+      "rootSha256": "554e06e3332fe5bf4f0ff7e37c8649a29cc281d9909d11a52a8f2a8065df5c3b",
+      "gameSha256": "554e06e3332fe5bf4f0ff7e37c8649a29cc281d9909d11a52a8f2a8065df5c3b"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tabby/Sleep.png.meta",
+      "transform": "identity",
+      "rootSha256": "565395dc5f703bf7d8aea7ac2949b3eaf6ad84ef78b6215d53398b24d63da03c",
+      "gameSha256": "565395dc5f703bf7d8aea7ac2949b3eaf6ad84ef78b6215d53398b24d63da03c"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tabby/Walk.png.meta",
+      "transform": "identity",
+      "rootSha256": "fd37cf4198de2510218c0e0a6d69bb200b042d2bc1f3ce9742e66e13752c1006",
+      "gameSha256": "fd37cf4198de2510218c0e0a6d69bb200b042d2bc1f3ce9742e66e13752c1006"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tiger/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "49c32de1ea52abab960db3ee2c686ca60ed9b2c1084a3b271fefb350d98ca621",
+      "gameSha256": "49c32de1ea52abab960db3ee2c686ca60ed9b2c1084a3b271fefb350d98ca621"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tiger/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "88393789c8f24b087ad940323cf6680be05e6ce151b90c5b0ef969152f4cf4dc",
+      "gameSha256": "88393789c8f24b087ad940323cf6680be05e6ce151b90c5b0ef969152f4cf4dc"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tuxedo/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "208799e3102950dbcd0ba0a96c5331920df70edb512c27ba636478d4179de7aa",
+      "gameSha256": "208799e3102950dbcd0ba0a96c5331920df70edb512c27ba636478d4179de7aa"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tuxedo/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "c5906ffe881c2528dca95309601ca406596cb7c158219c269eb249190e089868",
+      "gameSha256": "c5906ffe881c2528dca95309601ca406596cb7c158219c269eb249190e089868"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Xmas/Idle.png.meta",
+      "transform": "identity",
+      "rootSha256": "2375bcd48a34c3871cb5ce557942918285c8aa9578c4e700cb11a368a013a414",
+      "gameSha256": "2375bcd48a34c3871cb5ce557942918285c8aa9578c4e700cb11a368a013a414"
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Xmas/Jump.png.meta",
+      "transform": "identity",
+      "rootSha256": "a388d17a430328a68120fcfd55b5f6de385076b3afc643137f07c89dd5b402ce",
+      "gameSha256": "a388d17a430328a68120fcfd55b5f6de385076b3afc643137f07c89dd5b402ce"
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_1_1.png.meta",
+      "transform": "identity",
+      "rootSha256": "b4f532cb48dd085b950003f013b92e7a0b6afe40ea551162ad4df95ee8459217",
+      "gameSha256": "b4f532cb48dd085b950003f013b92e7a0b6afe40ea551162ad4df95ee8459217"
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_1_2.png.meta",
+      "transform": "identity",
+      "rootSha256": "fdc242e07c32105e8ebc5bb7b2d0938df4c60e6279c55160c5375fb0408a261c",
+      "gameSha256": "fdc242e07c32105e8ebc5bb7b2d0938df4c60e6279c55160c5375fb0408a261c"
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_1_3.png.meta",
+      "transform": "identity",
+      "rootSha256": "61a539dc84301eacc29a4e63727536af05d759f2403eb4f368ca934454f2526e",
+      "gameSha256": "61a539dc84301eacc29a4e63727536af05d759f2403eb4f368ca934454f2526e"
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_1_4.png.meta",
+      "transform": "identity",
+      "rootSha256": "3a47f0c9007a88bea71de0dd3c0c92a8795d193233037427a782b0034589a577",
+      "gameSha256": "3a47f0c9007a88bea71de0dd3c0c92a8795d193233037427a782b0034589a577"
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_2_1.png.meta",
+      "transform": "identity",
+      "rootSha256": "154db413d2eb4a28d740b3762bc2154d6b43460559ae469f95725f9613bf592c",
+      "gameSha256": "154db413d2eb4a28d740b3762bc2154d6b43460559ae469f95725f9613bf592c"
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_2_2.png.meta",
+      "transform": "identity",
+      "rootSha256": "06174d5c4232418cfdd8a661835e9f25f55b40abd11003dfc63de255c8330c9f",
+      "gameSha256": "06174d5c4232418cfdd8a661835e9f25f55b40abd11003dfc63de255c8330c9f"
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_2_3.png.meta",
+      "transform": "identity",
+      "rootSha256": "2a4ee095101f7258536b4718df33721a321db1d681e7d01433a2eee7a1f3f5a0",
+      "gameSha256": "2a4ee095101f7258536b4718df33721a321db1d681e7d01433a2eee7a1f3f5a0"
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_2_4.png.meta",
+      "transform": "identity",
+      "rootSha256": "5168cf279149c35175dd425c635181a6998239bbe0f3c4de152e617d216d67b7",
+      "gameSha256": "5168cf279149c35175dd425c635181a6998239bbe0f3c4de152e617d216d67b7"
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_3_1.png.meta",
+      "transform": "identity",
+      "rootSha256": "e38592569f61eea242e30d6733d7de714756992e9c85d98389a5fb58b047d898",
+      "gameSha256": "e38592569f61eea242e30d6733d7de714756992e9c85d98389a5fb58b047d898"
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_3_2.png.meta",
+      "transform": "identity",
+      "rootSha256": "48cda2274fa9e6656137fc175043e46a27218e4dfe743e72d5e0115da350c4a2",
+      "gameSha256": "48cda2274fa9e6656137fc175043e46a27218e4dfe743e72d5e0115da350c4a2"
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_3_3.png.meta",
+      "transform": "identity",
+      "rootSha256": "a521bbcfd5a6800b08b0d70f2bd7ab36d29a452b8f39547ce6631de195bc53a2",
+      "gameSha256": "a521bbcfd5a6800b08b0d70f2bd7ab36d29a452b8f39547ce6631de195bc53a2"
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_3_4.png.meta",
+      "transform": "identity",
+      "rootSha256": "677f41f730251861c3f9df027e91e965b5d5d46f6f746d51b93e649db6bf5f79",
+      "gameSha256": "677f41f730251861c3f9df027e91e965b5d5d46f6f746d51b93e649db6bf5f79"
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_4_1.png.meta",
+      "transform": "identity",
+      "rootSha256": "638316e425e8ebe5713f93322fefa56163dd347fe54df7f1531842af9d4b0c84",
+      "gameSha256": "638316e425e8ebe5713f93322fefa56163dd347fe54df7f1531842af9d4b0c84"
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_4_2.png.meta",
+      "transform": "identity",
+      "rootSha256": "b96ccb892141956ae290a378c3984b2fd23e27d4017dc7f1ef1f7ee1f9ab85f8",
+      "gameSha256": "b96ccb892141956ae290a378c3984b2fd23e27d4017dc7f1ef1f7ee1f9ab85f8"
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_4_3.png.meta",
+      "transform": "identity",
+      "rootSha256": "c5d77398aedb4132fb7340a0ce4b07bae40d9da0b2132606bae115ee2b045ac2",
+      "gameSha256": "c5d77398aedb4132fb7340a0ce4b07bae40d9da0b2132606bae115ee2b045ac2"
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_4_4.png.meta",
+      "transform": "identity",
+      "rootSha256": "cba974ef4b6c6de360d6520219d654f0256c35de461d1b3f56e32c6742e69b6e",
+      "gameSha256": "cba974ef4b6c6de360d6520219d654f0256c35de461d1b3f56e32c6742e69b6e"
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_5_1.png.meta",
+      "transform": "identity",
+      "rootSha256": "f4745ca69cbee0af5c37eb22ee5e742b57949455d76888ab38d19ed77f7117e2",
+      "gameSha256": "f4745ca69cbee0af5c37eb22ee5e742b57949455d76888ab38d19ed77f7117e2"
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_5_2.png.meta",
+      "transform": "identity",
+      "rootSha256": "6b4d45c078acd5948202db99cb954cefd548a775e95fc442cd7627ba45cdb334",
+      "gameSha256": "6b4d45c078acd5948202db99cb954cefd548a775e95fc442cd7627ba45cdb334"
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_5_3.png.meta",
+      "transform": "identity",
+      "rootSha256": "c6ce13bca9a75ce39fc2674df8f6e41906f5cb48ab46aaae832321a4a60246e2",
+      "gameSha256": "c6ce13bca9a75ce39fc2674df8f6e41906f5cb48ab46aaae832321a4a60246e2"
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_5_4.png.meta",
+      "transform": "identity",
+      "rootSha256": "0b7f81279270bdae598c4835c063fec8ceeb12f597c8f1e92829652f366c36fd",
+      "gameSha256": "0b7f81279270bdae598c4835c063fec8ceeb12f597c8f1e92829652f366c36fd"
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/rocket.png.meta",
+      "transform": "identity",
+      "rootSha256": "ef64717d43c985b9f4ba24aa34c86982b4e2e34217d6ed6276b279a23ebc76d8",
+      "gameSha256": "ef64717d43c985b9f4ba24aa34c86982b4e2e34217d6ed6276b279a23ebc76d8"
+    },
+    {
+      "path": "Assets/Resources/Art/Room/Pixel/architecture.png.meta",
+      "transform": "identity",
+      "rootSha256": "0f2ebe473b38ece5e4dad5567cf6b87e486e6da46cdf1202c87e807cad6222d1",
+      "gameSha256": "0f2ebe473b38ece5e4dad5567cf6b87e486e6da46cdf1202c87e807cad6222d1"
+    },
+    {
+      "path": "Assets/Resources/Art/Room/Pixel/bookshelf_lower.png.meta",
+      "transform": "identity",
+      "rootSha256": "19d4af60726b3129893a441bcb334f982a39b6773db33a276cda97e0be581ed2",
+      "gameSha256": "19d4af60726b3129893a441bcb334f982a39b6773db33a276cda97e0be581ed2"
+    },
+    {
+      "path": "Assets/Resources/Art/Room/Pixel/bookshelf_upper.png.meta",
+      "transform": "identity",
+      "rootSha256": "64edc6e3933df2d037859d9e14e8519e01e8791a7e4f3f6531cb10491c2a6b36",
+      "gameSha256": "64edc6e3933df2d037859d9e14e8519e01e8791a7e4f3f6531cb10491c2a6b36"
+    },
+    {
+      "path": "Assets/Resources/Art/Room/Pixel/cat_bed.png.meta",
+      "transform": "identity",
+      "rootSha256": "ac27e115bb4d5478c410b347a1d034ad385b6fa578dc724b99b9946c17077b58",
+      "gameSha256": "ac27e115bb4d5478c410b347a1d034ad385b6fa578dc724b99b9946c17077b58"
+    },
+    {
+      "path": "Assets/Resources/Art/Room/Pixel/plant.png.meta",
+      "transform": "identity",
+      "rootSha256": "e9d3165234362b2f9a360720b366f710db932139f885e91ba77c24f7d22b4396",
+      "gameSha256": "e9d3165234362b2f9a360720b366f710db932139f885e91ba77c24f7d22b4396"
+    },
+    {
+      "path": "Assets/Resources/Art/Room/Pixel/scratching_post.png.meta",
+      "transform": "identity",
+      "rootSha256": "195d55f64947d4d6d10e4b5f28242574e23cc74d2eb506a3fecdf7f389db1826",
+      "gameSha256": "195d55f64947d4d6d10e4b5f28242574e23cc74d2eb506a3fecdf7f389db1826"
+    },
+    {
+      "path": "Assets/Resources/Art/Room/Pixel/window.png.meta",
+      "transform": "identity",
+      "rootSha256": "97cb9f5cec6780752c72534f2baee5c475b3e52ff5606b38c2bb804e39e46d09",
+      "gameSha256": "97cb9f5cec6780752c72534f2baee5c475b3e52ff5606b38c2bb804e39e46d09"
+    },
+    {
+      "path": "Assets/Resources/Art/UI/Pixel/circle.png.meta",
+      "transform": "identity",
+      "rootSha256": "696f716489392b8280eeb7850ea0a32ae4cc2786666335ab35cedaa1f2904a07",
+      "gameSha256": "696f716489392b8280eeb7850ea0a32ae4cc2786666335ab35cedaa1f2904a07"
+    },
+    {
+      "path": "Assets/Resources/Art/UI/Pixel/panel_pill.png.meta",
+      "transform": "identity",
+      "rootSha256": "7114b23e1950460853ddb3b68910218f2aee8aaa45712f01411f843af4dd5cbf",
+      "gameSha256": "7114b23e1950460853ddb3b68910218f2aee8aaa45712f01411f843af4dd5cbf"
+    },
+    {
+      "path": "Assets/Resources/Art/UI/Pixel/panel_soft.png.meta",
+      "transform": "identity",
+      "rootSha256": "bf9bb4414194a3e5b069cf1504a0744aaa81851f9217fd6dc33b20552e24c35d",
+      "gameSha256": "bf9bb4414194a3e5b069cf1504a0744aaa81851f9217fd6dc33b20552e24c35d"
+    },
+    {
+      "path": "Assets/Resources/Settings.meta",
+      "transform": "identity",
+      "rootSha256": "9fb4400a04aca01fcf20008b3d9e20fc64db1d541d1348767919f8bd5f5590ad",
+      "gameSha256": "9fb4400a04aca01fcf20008b3d9e20fc64db1d541d1348767919f8bd5f5590ad"
+    },
+    {
+      "path": "Assets/Resources/Settings/WorldArtSettings.asset",
+      "transform": "identity",
+      "rootSha256": "9acc717168c9748cff4c69a707cc89f5c34ab747cead9c570d8c7786c40768ef",
+      "gameSha256": "9acc717168c9748cff4c69a707cc89f5c34ab747cead9c570d8c7786c40768ef"
+    },
+    {
+      "path": "Assets/Resources/Settings/WorldArtSettings.asset.meta",
+      "transform": "identity",
+      "rootSha256": "6dae4af569faed81e7f9865ab9e15f7697b95be38be84710063dc01d3c1d05c8",
+      "gameSha256": "6dae4af569faed81e7f9865ab9e15f7697b95be38be84710063dc01d3c1d05c8"
+    },
+    {
+      "path": "Assets/Scenes/Home.unity",
+      "transform": "identity",
+      "rootSha256": "889b688e5b0049cec2d6791652f35cb742434ad6ffa786c5e0e7f3e5db41c3eb",
+      "gameSha256": "889b688e5b0049cec2d6791652f35cb742434ad6ffa786c5e0e7f3e5db41c3eb"
+    },
+    {
+      "path": "Assets/Scripts/CatActor.cs",
+      "transform": "remove private Development QA guard; normalize LF",
+      "rootSha256": "9ada0f945665815c510c3163af27dc40cf11d252c88473b3a9e579eb8d297d70",
+      "gameSha256": "cd38a8d68d845f01d66682736450756810d3ffcbbd87e9eafbded4cebd56f348"
+    },
+    {
+      "path": "Assets/Scripts/CatRoster.cs",
+      "transform": "normalize LF",
+      "rootSha256": "5112a9e4f1e558c10363ba5fa7be27d151282d389ad3169a7510ed40ba516f9d",
+      "gameSha256": "e369e2c5be332f9bed7a2e59f0a772e3badbf8d66da63206c289a4d923a8f761"
+    },
+    {
+      "path": "Assets/Scripts/CatWorld.cs",
+      "transform": "identity",
+      "rootSha256": "97055fd299e3ac120e7f8341af92b70f9a58394a65e13bb2aa9b1b3762b10047",
+      "gameSha256": "97055fd299e3ac120e7f8341af92b70f9a58394a65e13bb2aa9b1b3762b10047"
+    },
+    {
+      "path": "Assets/Scripts/PlatformGrid.cs",
+      "transform": "normalize LF",
+      "rootSha256": "eb3201dfb66a45f861dbb964a47431eb40ec2cc41e6709b4611b20b405e6ac48",
+      "gameSha256": "90db44910c8bc065ca62110da73b03a2191dd9f75e77042d4ed0d3e851533d74"
+    },
+    {
+      "path": "Assets/Scripts/WorldArtSettings.cs",
+      "transform": "identity",
+      "rootSha256": "88a1e92e4544e471fc9516fea24e8613b95dee11bf4f8253144e5f219197c164",
+      "gameSha256": "88a1e92e4544e471fc9516fea24e8613b95dee11bf4f8253144e5f219197c164"
+    },
+    {
+      "path": "Assets/Scripts/WorldArtSettings.cs.meta",
+      "transform": "normalize LF",
+      "rootSha256": "051c4193fb626bced7fe0e879443a25ddd47820f4d6c7f1b53ee5076dfe9674d",
+      "gameSha256": "4a9ee691b8fe66ca2a278814b0d5b449d04a9d6e3b529fb80cfc3613ee2190ed"
+    },
+    {
+      "path": "Assets/Scripts/WorldItemArt.cs",
+      "transform": "identity",
+      "rootSha256": "b382d2abb4115e6b3659c0dabe86f745319c4e8343bf87b6c253915f12bd6191",
+      "gameSha256": "b382d2abb4115e6b3659c0dabe86f745319c4e8343bf87b6c253915f12bd6191"
+    },
+    {
+      "path": "Assets/Scripts/WorldPixelCamera.cs",
+      "transform": "identity",
+      "rootSha256": "43a216bcb57e9b7fb079a36efe7473d07e307f093b910b8640e6fc13bb747fe8",
+      "gameSha256": "43a216bcb57e9b7fb079a36efe7473d07e307f093b910b8640e6fc13bb747fe8"
+    },
+    {
+      "path": "Assets/Scripts/WorldPixelCamera.cs.meta",
+      "transform": "normalize LF",
+      "rootSha256": "725c1545240b9700eb7e73ab826429fc213418b0fb22cf241f2852c4de5f943b",
+      "gameSha256": "a7fcf602c03fd556d19ac742fb0781cebc3ddd24946040cbc08fee5af4d529b6"
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "transform": "normalize LF",
+      "rootSha256": "2e45d3d7c33a870a25ee61e0c11ebc84f4efcf9b8ec8fa5948335da7e731c9a7",
+      "gameSha256": "39df0af13fb6174cc9713cfb19908bd469d39b01c50565a19f5ec3eb82d4fe24"
+    }
+  ],
+  "special": "Public CatGameSetup retains its release-only builders; import method now preserves metadata"
+}

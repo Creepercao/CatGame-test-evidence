@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="8" result="Passed" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-15 13:10:08Z" end-time="2026-11-15 13:10:11Z" duration="2.8396094">
+  <test-suite type="TestSuite" id="1000" name="喵屋" fullname="喵屋" runstate="Runnable" testcasecount="92" result="Passed" start-time="2026-11-15 13:10:08Z" end-time="2026-11-15 13:10:11Z" duration="2.839609" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1118" name="CatGame.Tests.dll" fullname="PROJECT_ROOT/Library/ScriptAssemblies/CatGame.Tests.dll" runstate="Runnable" testcasecount="92" result="Passed" start-time="2026-11-15 13:10:08Z" end-time="2026-11-15 13:10:11Z" duration="2.832784" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="81444" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+      </properties>
+      <test-suite type="TestSuite" id="1119" name="CatGame" fullname="CatGame" runstate="Runnable" testcasecount="92" result="Passed" start-time="2026-11-15 13:10:08Z" end-time="2026-11-15 13:10:11Z" duration="2.822652" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1120" name="Tests" fullname="CatGame.Tests" runstate="Runnable" testcasecount="92" result="Passed" start-time="2026-11-15 13:10:08Z" end-time="2026-11-15 13:10:11Z" duration="2.821542" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1016" name="CatRosterTests" fullname="CatGame.Tests.CatRosterTests" classname="CatGame.Tests.CatRosterTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-15 13:10:08Z" end-time="2026-11-15 13:10:08Z" duration="0.190372" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1017" name="Cat_frames_stay_inside_floor_at_all_four_edges" fullname="CatGame.Tests.CatRosterTests.Cat_frames_stay_inside_floor_at_all_four_edges" methodname="Cat_frames_stay_inside_floor_at_all_four_edges" classname="CatGame.Tests.CatRosterTests" runstate="Runnable" seed="956305826" result="Passed" start-time="2026-11-15 13:10:08Z" end-time="2026-11-15 13:10:08Z" duration="0.175756" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1079" name="RoomWalkTests" fullname="CatGame.Tests.RoomWalkTests" classname="CatGame.Tests.RoomWalkTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-15 13:10:08Z" end-time="2026-11-15 13:10:09Z" duration="0.833758" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1080" name="Floor_boundary_move_keeps_pixel_snapped_feet_on_floor" fullname="CatGame.Tests.RoomWalkTests.Floor_boundary_move_keeps_pixel_snapped_feet_on_floor" methodname="Floor_boundary_move_keeps_pixel_snapped_feet_on_floor" classname="CatGame.Tests.RoomWalkTests" runstate="Runnable" seed="1349077848" result="Passed" start-time="2026-11-15 13:10:08Z" end-time="2026-11-15 13:10:08Z" duration="0.017584" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1082" name="One_hundred_cats_move_on_floor_without_crossing_furniture" fullname="CatGame.Tests.RoomWalkTests.One_hundred_cats_move_on_floor_without_crossing_furniture" methodname="One_hundred_cats_move_on_floor_without_crossing_furniture" classname="CatGame.Tests.RoomWalkTests" runstate="Runnable" seed="2082210023" result="Passed" start-time="2026-11-15 13:10:08Z" end-time="2026-11-15 13:10:09Z" duration="0.810040" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1081" name="Room_surface_rejects_walls_props_and_crossing_segments_after_resize" fullname="CatGame.Tests.RoomWalkTests.Room_surface_rejects_walls_props_and_crossing_segments_after_resize" methodname="Room_surface_rejects_walls_props_and_crossing_segments_after_resize" classname="CatGame.Tests.RoomWalkTests" runstate="Runnable" seed="274843512" result="Passed" start-time="2026-11-15 13:10:09Z" end-time="2026-11-15 13:10:09Z" duration="0.004471" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1083" name="ShopAndItemUpgradeTests" fullname="CatGame.Tests.ShopAndItemUpgradeTests" classname="CatGame.Tests.ShopAndItemUpgradeTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-15 13:10:09Z" end-time="2026-11-15 13:10:11Z" duration="1.709532" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1085" name="Items_use_cat_sized_opaque_bounds_ground_anchors_and_feeder_depth" fullname="CatGame.Tests.ShopAndItemUpgradeTests.Items_use_cat_sized_opaque_bounds_ground_anchors_and_feeder_depth" methodname="Items_use_cat_sized_opaque_bounds_ground_anchors_and_feeder_depth" classname="CatGame.Tests.ShopAndItemUpgradeTests" runstate="Runnable" seed="425313612" result="Passed" start-time="2026-11-15 13:10:09Z" end-time="2026-11-15 13:10:10Z" duration="0.936832" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1084" name="One_shop_scroll_jumps_sections_keeps_free_offset_and_partial_cards" fullname="CatGame.Tests.ShopAndItemUpgradeTests.One_shop_scroll_jumps_sections_keeps_free_offset_and_partial_cards" methodname="One_shop_scroll_jumps_sections_keeps_free_offset_and_partial_cards" classname="CatGame.Tests.ShopAndItemUpgradeTests" runstate="Runnable" seed="1427409484" result="Passed" start-time="2026-11-15 13:10:10Z" end-time="2026-11-15 13:10:11Z" duration="0.771632" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1115" name="WorldArtContractTests" fullname="CatGame.Tests.WorldArtContractTests" classname="CatGame.Tests.WorldArtContractTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-15 13:10:11Z" end-time="2026-11-15 13:10:11Z" duration="0.083265" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1117" name="Actor_click_collider_follows_body_after_action_and_facing_changes" fullname="CatGame.Tests.WorldArtContractTests.Actor_click_collider_follows_body_after_action_and_facing_changes" methodname="Actor_click_collider_follows_body_after_action_and_facing_changes" classname="CatGame.Tests.WorldArtContractTests" runstate="Runnable" seed="148955996" result="Passed" start-time="2026-11-15 13:10:11Z" end-time="2026-11-15 13:10:11Z" duration="0.033044" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1116" name="Actor_origin_is_the_authored_foot_for_every_primary_action" fullname="CatGame.Tests.WorldArtContractTests.Actor_origin_is_the_authored_foot_for_every_primary_action" methodname="Actor_origin_is_the_authored_foot_for_every_primary_action" classname="CatGame.Tests.WorldArtContractTests" runstate="Runnable" seed="1713625429" result="Passed" start-time="2026-11-15 13:10:11Z" end-time="2026-11-15 13:10:11Z" duration="0.033251" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

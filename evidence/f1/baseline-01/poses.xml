@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-15 08:52:22Z" end-time="2026-11-15 08:52:23Z" duration="1.1363156">
+  <test-suite type="TestSuite" id="1000" name="喵屋" fullname="喵屋" runstate="Runnable" testcasecount="90" result="Failed" site="Child" start-time="2026-11-15 08:52:22Z" end-time="2026-11-15 08:52:23Z" duration="1.136316" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1115" name="CatGame.Tests.dll" fullname="PROJECT_ROOT/Library/ScriptAssemblies/CatGame.Tests.dll" runstate="Runnable" testcasecount="90" result="Failed" site="Child" start-time="2026-11-15 08:52:22Z" end-time="2026-11-15 08:52:23Z" duration="1.129935" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="87632" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1116" name="CatGame" fullname="CatGame" runstate="Runnable" testcasecount="90" result="Failed" site="Child" start-time="2026-11-15 08:52:22Z" end-time="2026-11-15 08:52:23Z" duration="1.129067" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1117" name="Tests" fullname="CatGame.Tests" runstate="Runnable" testcasecount="90" result="Failed" site="Child" start-time="2026-11-15 08:52:22Z" end-time="2026-11-15 08:52:23Z" duration="1.128575" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1030" name="F1ArtBaselineCaptureTests" fullname="CatGame.Tests.F1ArtBaselineCaptureTests" classname="CatGame.Tests.F1ArtBaselineCaptureTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-11-15 08:52:22Z" end-time="2026-11-15 08:52:23Z" duration="1.126048" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1031" name="All_eleven_breeds_render_four_complete_visible_poses" fullname="CatGame.Tests.F1ArtBaselineCaptureTests.All_eleven_breeds_render_four_complete_visible_poses" methodname="All_eleven_breeds_render_four_complete_visible_poses" classname="CatGame.Tests.F1ArtBaselineCaptureTests" runstate="Runnable" seed="2136349333" result="Failed" start-time="2026-11-15 08:52:22Z" end-time="2026-11-15 08:52:23Z" duration="1.115802" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Missing or blank cat in rendered pose: Milksleep
+  Expected: greater than or equal to 8
+  But was:  7
+]]></message>
+                <stack-trace><![CDATA[at CatGame.Tests.F1ArtBaselineCaptureTests+<All_eleven_breeds_render_four_complete_visible_poses>d__2.MoveNext () [0x00386] in PROJECT_ROOT\Assets\Tests\PlayMode\F1ArtBaselineCaptureTests.cs:72
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@1.1.33\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
+]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

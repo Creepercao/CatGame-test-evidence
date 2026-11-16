@@ -1,0 +1,30 @@
+{
+  "device": "owned read-only Android 14 AVD",
+  "gameSource": "f536871",
+  "fixture": "existing declared F1 QA ending save",
+  "passed": true,
+  "screen": [
+    2220,
+    1080
+  ],
+  "insets": [
+    132,
+    0,
+    0,
+    0
+  ],
+  "continueButtonBounds": [
+    1675,
+    2034
+  ],
+  "actualButtonCenter": 1854.5,
+  "expectedSafeCenter": 1854.6,
+  "offlineSummaryDismissed": true,
+  "nativeContinueTouch": true,
+  "savedCats": 2,
+  "homeInfoProbe": [
+    162,
+    40
+  ],
+  "endingRetained": true
+}

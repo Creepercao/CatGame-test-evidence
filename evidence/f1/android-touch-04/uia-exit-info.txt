@@ -1,0 +1,36 @@
+ACTIVITY MANAGER PROCESS EXIT INFO (dumpsys activity exit-info)
+Last Timestamp of Persistence Into Persistent Storage: 2026-11-15 14:12:22.493
+  package: io.appium.uiautomator2.server
+    Historical Process Exit for uid=1010195
+        ApplicationExitInfo #0:
+          timestamp=2026-11-15 14:32:22.271 pid=15861 realUid=1010195 packageUid=1010195 definingUid=1010195 user=10
+          process=io.appium.uiautomator2.server reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=125 pss=49MB rss=119MB description=stop io.appium.uiautomator2.server due to from pid 16441 state=empty trace=null
+        ApplicationExitInfo #1:
+          timestamp=2026-11-15 14:29:46.626 pid=12902 realUid=1010195 packageUid=1010195 definingUid=1010195 user=10
+          process=io.appium.uiautomator2.server reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=125 pss=52MB rss=124MB description=stop io.appium.uiautomator2.server due to finished inst state=empty trace=null
+        ApplicationExitInfo #2:
+          timestamp=2026-11-15 14:07:05.306 pid=12035 realUid=1010195 packageUid=1010195 definingUid=1010195 user=10
+          process=io.appium.uiautomator2.server reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=125 pss=50MB rss=120MB description=stop io.appium.uiautomator2.server due to finished inst state=empty trace=null
+        ApplicationExitInfo #3:
+          timestamp=2026-11-15 14:05:21.636 pid=11526 realUid=1010195 packageUid=1010195 definingUid=1010195 user=10
+          process=io.appium.uiautomator2.server reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=125 pss=49MB rss=120MB description=stop io.appium.uiautomator2.server due to finished inst state=empty trace=null
+        ApplicationExitInfo #4:
+          timestamp=2026-11-15 14:02:53.701 pid=10666 realUid=1010195 packageUid=1010195 definingUid=1010195 user=10
+          process=io.appium.uiautomator2.server reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=125 pss=53MB rss=125MB description=stop io.appium.uiautomator2.server due to finished inst state=empty trace=null
+        ApplicationExitInfo #5:
+          timestamp=2026-11-15 13:59:06.362 pid=10257 realUid=1010195 packageUid=1010195 definingUid=1010195 user=10
+          process=io.appium.uiautomator2.server reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=125 pss=0.00 rss=0.00 description=stop io.appium.uiautomator2.server due to finished inst state=empty trace=null
+        ApplicationExitInfo #6:
+          timestamp=2026-11-15 13:57:18.724 pid=9966 realUid=1010195 packageUid=1010195 definingUid=1010195 user=10
+          process=io.appium.uiautomator2.server reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=125 pss=0.00 rss=0.00 description=stop io.appium.uiautomator2.server due to finished inst state=empty trace=null
+        ApplicationExitInfo #7:
+          timestamp=2026-11-15 13:54:22.355 pid=9294 realUid=1010195 packageUid=1010195 definingUid=1010195 user=10
+          process=io.appium.uiautomator2.server reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=125 pss=50MB rss=123MB description=stop io.appium.uiautomator2.server due to finished inst state=empty trace=null

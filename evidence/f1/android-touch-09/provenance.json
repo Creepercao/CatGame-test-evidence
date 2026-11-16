@@ -1,0 +1,63 @@
+{
+  "testSource": "a4796a7",
+  "gameSource": "f536871",
+  "apkSha256": "8e32a1f2b1192ac7fba2bb15bf904feaf8015b4cf730f8a6113026d9ffa44d9f",
+  "status": "PASS",
+  "cases": 3,
+  "fixture": "Recovered previous natural QA checkpoint; timestamp adjusted; directory owner repaired to test package UID",
+  "devices": "Read-only Pixel_3a_API_34 AVD user10 only",
+  "files": [
+    {
+      "path": "output.xml",
+      "sha256": "d7196b4d9f476aac463c89b52eaaf8e8f6ba3965cf54b4795705f0086117f26d"
+    },
+    {
+      "path": "steps.jsonl",
+      "sha256": "8312574734588d6833ccc8c895db4d3569d2b8ea1dc3e7d269312c9f60b97cdd"
+    },
+    {
+      "path": "room-coverage.json",
+      "sha256": "f8aa09ba0895a1ff25f7fcc5c9b038c65237598169c8a72d52f1332c204be022"
+    },
+    {
+      "path": "compact-home.png",
+      "sha256": "9d014bba321a8a2405cab4792a15699c2efc5adabc8f32a718640d2e3a18d40b"
+    },
+    {
+      "path": "standard-home.png",
+      "sha256": "28e8b4e6c321021ae10b743abf82cf09fd83b12d0e37d3c2621cd6320728302b"
+    },
+    {
+      "path": "wide-home.png",
+      "sha256": "63e40981c0a18205594a033bcbdbf2e90668524f511e25950d829dd91913d2b7"
+    },
+    {
+      "path": "compact-body-after.png",
+      "sha256": "e7878762864dd21cf8e8c0a6e8d70c2fcca44a5edbf73a2ada510958cd1277c5"
+    },
+    {
+      "path": "standard-body-after.png",
+      "sha256": "e6f9e9b4311f04d28403b6436731740e710da38b0342d289d41f64ddc86948de"
+    },
+    {
+      "path": "wide-body-after.png",
+      "sha256": "5df02ce9dd8b2e713bc85fe3ea587829dff7c6960ffade906d7f19469799d404"
+    },
+    {
+      "path": "compact-save-after.json",
+      "sha256": "f90da90c68e1cc3134e4e4a650087aa7e2d4eb37f8aa44d3a799e239ef2bca7a"
+    },
+    {
+      "path": "standard-cg-1-save-after.json",
+      "sha256": "2c9eca6d6fbf9d54d32dc52044e59b79416252680911d2f12f1b712190313400"
+    },
+    {
+      "path": "standard-save-after.json",
+      "sha256": "9a88ea211571ddba033340b9054b8e96c2eb5a2517e3b8bce3fdd4eef515d446"
+    },
+    {
+      "path": "wide-save-after.json",
+      "sha256": "20ee74f984ee5a4b2e3c4528bd6a6e392bb493385a7c5c0e9e29e6257034fa37"
+    }
+  ]
+}

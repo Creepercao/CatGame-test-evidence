@@ -1,0 +1,7319 @@
+{
+  "sourceCommit": "a47d72c0c7969b52fe4c5b56ba942a0beb51839b",
+  "scope": "All source Art PNGs; candidate categories require runtime confirmation",
+  "pixelMeaning": "Source texels and frame canvas, not guaranteed screen pixels",
+  "counts": {
+    "legacy-or-other": 122,
+    "pixel-cat": 44,
+    "pixel-item": 21,
+    "pixel-room": 7,
+    "illustration": 23,
+    "pixel-ui": 3
+  },
+  "assets": [
+    {
+      "path": "Assets/Resources/Art/Backgrounds/Pixel/CatalogPark.png",
+      "category": "legacy-or-other",
+      "width": 256,
+      "height": 192,
+      "pngSha256": "ce61d38e02abde5c2efd9bdd863ada48c5b64a6585eaf26a533ee309d068fdf3",
+      "metaSha256": "0a6d898bab5cad2424b759f459790bc495b55856656b4238c37b21fe3d4732e7",
+      "guid": "fe3f7dd1d60b1044ab2b7b45b77f643b",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        256,
+        192
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Batcat/Idle.png",
+      "category": "legacy-or-other",
+      "width": 224,
+      "height": 32,
+      "pngSha256": "181c657d9fe87999548a274d65d96b6dc10ab433c891f3c039d26f0e9de9c026",
+      "metaSha256": "721d3039781013b47c6dc7e6b91e682701e98f8b271cab6ff5210cd892dc5920",
+      "guid": "6e086a9d2d30aca46aacf78e1ba729f1",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        4,
+        7,
+        220,
+        30
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Batcat/Jump.png",
+      "category": "legacy-or-other",
+      "width": 416,
+      "height": 32,
+      "pngSha256": "dbb8c0daf2746814d59580629e468319c37b4a17e00bf458700ca5297c53caf0",
+      "metaSha256": "3580a64c736cb7665770af79937b332f52df8636158e68a832c0a06f5e491347",
+      "guid": "86fa45da4af9b2b4a8073f4860ff1579",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        4,
+        0,
+        412,
+        32
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Calico/Idle.png",
+      "category": "legacy-or-other",
+      "width": 224,
+      "height": 32,
+      "pngSha256": "cf759e2afc624bc5a689f7692b93e9e69d6b3517759adaf40a51053b7feec6b9",
+      "metaSha256": "9b218d7ff66690f56bc9ee8e179993c739f5494981c5ad2bc624655a54590725",
+      "guid": "73dd861bba609c44bba98cbc06c2e776",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        4,
+        8,
+        220,
+        30
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Calico/Jump.png",
+      "category": "legacy-or-other",
+      "width": 416,
+      "height": 32,
+      "pngSha256": "219c2f851cb9bd741ad115b2dfa2142d4132229ed269f65aa2e22b17ba44a637",
+      "metaSha256": "133774f3a57340e39d6b96ab35fac2ee8a2d27f1c190b4572a1d9501fb59132d",
+      "guid": "0f56834b5c0258a4fb3890f4d50736bd",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        4,
+        0,
+        412,
+        32
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Demon/Idle.png",
+      "category": "legacy-or-other",
+      "width": 224,
+      "height": 32,
+      "pngSha256": "92589eb35e23e8ce12519f8198f4733a495b6e27aa71aee9a1cea824115ea180",
+      "metaSha256": "ec4b5332b95015729fbfaecb735b1a9b9c44db8bc4e7c63344c99ad112f2bd5c",
+      "guid": "664dec8f2718d63469f93c9744979153",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        4,
+        7,
+        220,
+        30
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Demon/Jump.png",
+      "category": "legacy-or-other",
+      "width": 416,
+      "height": 32,
+      "pngSha256": "e6984bd6898babddcde89c299c08cb78e9c718955f511e0cc766d8392481a6b6",
+      "metaSha256": "8a6b63f0a570b86a76d54eba699acee551b7ad890754e54dd3e1c1edf33bacbf",
+      "guid": "e632d7cac8116b74782981502f1f0f92",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        4,
+        0,
+        412,
+        32
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Egypt/Idle.png",
+      "category": "legacy-or-other",
+      "width": 224,
+      "height": 32,
+      "pngSha256": "0ac06b544008c97f58cbb12ddb579e123b04cb72ffc0374907ef9eb96055b364",
+      "metaSha256": "250955aa2f8e5277b09d3daa1f91f3af064b69e28b13b6cbaa8905852e7638d0",
+      "guid": "2e89024b74279974abb4adbdbe04ef3e",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        4,
+        7,
+        222,
+        30
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Egypt/Jump.png",
+      "category": "legacy-or-other",
+      "width": 416,
+      "height": 32,
+      "pngSha256": "2ff989fa9dd9f02ed6f70ef73d49fc3ead4e10c3b09a9be3e895a30275caca7b",
+      "metaSha256": "f2a3e707191bf7805c326e5ec1c44df38c020f98d6eb6e6e9e130ccdf5c58cc7",
+      "guid": "ded19f5dcdf7cdc4aaba84c14f6e64f6",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        4,
+        0,
+        414,
+        32
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Milk/Attack.png",
+      "category": "legacy-or-other",
+      "width": 704,
+      "height": 64,
+      "pngSha256": "24b6104f043f0c0f0603043091df60fedd17b22b7b943a83f411dcd56f84ae49",
+      "metaSha256": "35e67f81a8abb38023d77d76a3137c92e012538b89186a0d665ecfdc746b911a",
+      "guid": "d197a8a7f15e59949b7bd07c169b6fb1",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        12,
+        16,
+        691,
+        48
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Milk/Eat.png",
+      "category": "legacy-or-other",
+      "width": 640,
+      "height": 64,
+      "pngSha256": "f56bbeece6c205d8bc29271bd6e75652f0a945e51d848ca8bdc1d2933a3d195a",
+      "metaSha256": "4e26ff5e21235146a93adb61cdf24c218ce945b2b094c7a6c01a137065bdc963",
+      "guid": "ebc48f1debbbb534aa9cc96eabccd712",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        12,
+        16,
+        627,
+        48
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Milk/Idle.png",
+      "category": "legacy-or-other",
+      "width": 320,
+      "height": 64,
+      "pngSha256": "b5fa0a979202218ef745fdc2bbd19372fae53776398d7c6af2d31eb8d5af33bd",
+      "metaSha256": "a98fe3c1d4278e571e036eda30ccf8cef22b5bc733c205c76ce6d66bde0ffd28",
+      "guid": "b26982731c616214f9aa5c1e4e07273f",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        12,
+        16,
+        307,
+        48
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Milk/Jump.png",
+      "category": "legacy-or-other",
+      "width": 320,
+      "height": 64,
+      "pngSha256": "f34d16977c6eed1923cf07b483e346ebf965f8cb02a2dc1f7c3c2285b8de563b",
+      "metaSha256": "326426daea882fbcb92c80448dcaa8314b72bd0a49997a3bcbf868bab24fd076",
+      "guid": "0af1a984a3424d440b458016782ffc58",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        12,
+        9,
+        307,
+        48
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Milk/Run.png",
+      "category": "legacy-or-other",
+      "width": 320,
+      "height": 64,
+      "pngSha256": "ee0911971561c0c70fc62f000b581b77770e46f2baa77e29ee8ccbaa12252f00",
+      "metaSha256": "594bf9036daf448fccd9e06adc2da02387b40c7003581f81ab70ebd42608dda5",
+      "guid": "2f850ce2ab0f3b245a2df79d3cf813c7",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        12,
+        16,
+        307,
+        48
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Milk/Sleep.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 64,
+      "pngSha256": "77d3e315bcc845970af23a7d14a031fc8db658bb788e1d9a1285c42edbb91fee",
+      "metaSha256": "3cddad46c49fab05494b72df23ff650163847911216e787572db00c7b4ed6f4f",
+      "guid": "d83766d9efc8c8f4fb080a9f7b56ee62",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        15,
+        19,
+        115,
+        46
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Milk/Walk.png",
+      "category": "legacy-or-other",
+      "width": 384,
+      "height": 64,
+      "pngSha256": "f9089f63544ffe4fb85ae38ab4e52dc1d7e5bed3f579ad227c0793617ef4d85f",
+      "metaSha256": "a6acc5508fc4931edc76762b7e3e545aac9041112f99287e2249a602e1f1ce14",
+      "guid": "38edcbc7cda4bef40b7cd1bcff7552fb",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        12,
+        16,
+        372,
+        48
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Batcat/Idle.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "830d2c24c0a39b05775a80ba0f01138c36739032b1b86a85f231c420cffaf080",
+      "metaSha256": "f99438e20a1f2172ab7ddd8ce3ffbb473b034271cbdf25a1f9e486f40ec6754c",
+      "guid": "9006eb9a1d2fb0f4996825393f2237ad",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        507,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          7,
+          59,
+          59
+        ],
+        [
+          4,
+          7,
+          59,
+          59
+        ],
+        [
+          4,
+          6,
+          59,
+          59
+        ],
+        [
+          4,
+          7,
+          59,
+          59
+        ],
+        [
+          3,
+          7,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Batcat/Jump.png",
+      "category": "pixel-cat",
+      "width": 768,
+      "height": 64,
+      "pngSha256": "ac7878a518bfdab8061fb2d820a01c84d49526bb1cd0d01061f26eb58af9369d",
+      "metaSha256": "b914e9fb593989cf88463dd8ca00954a4f24ff0db6d19b58f7615a13746ff939",
+      "guid": "1600d8cd35ce7b34490b540210596ae6",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        2,
+        763,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          2,
+          9,
+          60,
+          59
+        ],
+        [
+          2,
+          13,
+          60,
+          59
+        ],
+        [
+          2,
+          10,
+          60,
+          59
+        ],
+        [
+          4,
+          4,
+          58,
+          57
+        ],
+        [
+          3,
+          2,
+          59,
+          55
+        ],
+        [
+          3,
+          2,
+          59,
+          55
+        ],
+        [
+          3,
+          3,
+          59,
+          56
+        ],
+        [
+          3,
+          5,
+          59,
+          58
+        ],
+        [
+          2,
+          12,
+          60,
+          59
+        ],
+        [
+          2,
+          8,
+          60,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Batcat/Sleep.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "8de9b7a36cfd332269856b060bffcf2100ca34d5a178c74203128b23ae06c518",
+      "metaSha256": "bce9a4ed737a935722356de53f4312f77ad69dbbaca32f2f893c2a06915dec66",
+      "guid": "802367be3b216e3459c375c935803f19",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        18,
+        506,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          18,
+          58,
+          59
+        ],
+        [
+          3,
+          18,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          20,
+          58,
+          59
+        ],
+        [
+          3,
+          20,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          18,
+          58,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Batcat/Walk.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "421de4e64b4b231a7381c3c8baeb3cffcb67558bb800c23cc11ee08d76339c04",
+      "metaSha256": "1d4e5ad4f1baf29dc84a07f6a082b6a57d74ed903381c6ae7545f82aee9a0cf0",
+      "guid": "bb4fa7540e40b6c43bb4116cf48a795f",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        507,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Calico/Idle.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "21748d7f8f3b5a7e64fd526402164b46d0c36bbf9efe44f4efb2cc28eb048570",
+      "metaSha256": "3a68ba092dadd2f773cc2a3e97f46003d31a6bd9906c888d324ff8ba8272bcda",
+      "guid": "3b5a0aa62465c4543add776dea0f5dbf",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        507,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          7,
+          59,
+          59
+        ],
+        [
+          4,
+          7,
+          59,
+          59
+        ],
+        [
+          4,
+          6,
+          59,
+          59
+        ],
+        [
+          4,
+          7,
+          59,
+          59
+        ],
+        [
+          3,
+          7,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Calico/Jump.png",
+      "category": "pixel-cat",
+      "width": 768,
+      "height": 64,
+      "pngSha256": "83e764aa7b714b9abb29f000b2e7fc4f079c00e9c2fbeaf9aba5bc6367935af6",
+      "metaSha256": "27970d096b5a9768d0c1ec81e606f9ffbac679a5efb79a3d385e3caf5a1f5b0b",
+      "guid": "381368b7de034b4478819d9f0fde2724",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        2,
+        763,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          2,
+          9,
+          60,
+          59
+        ],
+        [
+          2,
+          13,
+          60,
+          59
+        ],
+        [
+          2,
+          10,
+          60,
+          59
+        ],
+        [
+          4,
+          4,
+          58,
+          57
+        ],
+        [
+          3,
+          2,
+          59,
+          55
+        ],
+        [
+          3,
+          2,
+          59,
+          55
+        ],
+        [
+          3,
+          3,
+          59,
+          56
+        ],
+        [
+          3,
+          5,
+          59,
+          58
+        ],
+        [
+          2,
+          12,
+          60,
+          59
+        ],
+        [
+          2,
+          8,
+          60,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Calico/Sleep.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "0bccbc5ddaf69e9fced2b07407b8dba2fe73094fd91045b05b09b2223c0ce574",
+      "metaSha256": "cce1cdc3fb7a5a928a1c7ba8b7111099b994b262be1e7d5b774354c9db43f29a",
+      "guid": "fa18f8a26a5c3a84fb763f0ab3f7794a",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        18,
+        506,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          18,
+          58,
+          59
+        ],
+        [
+          3,
+          18,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          20,
+          58,
+          59
+        ],
+        [
+          3,
+          20,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          18,
+          58,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Calico/Walk.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "ba8fea6eb6d2fb38fb96eb8d0c447a416e5b3fc91fb5ec105ba7e085cda725ec",
+      "metaSha256": "d28740ea2a2e9ace139db9dd2956c63769a98bdd355c6b922411c1759363a8d6",
+      "guid": "ffbe7844b7ba0124396315ae1187f99b",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        507,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Demon/Idle.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "4afb4d5d986f656bfeed34322dcc139284f2aa8ea7eebf8f77d1f916002026e3",
+      "metaSha256": "ce4d8a6d0280d127d309b23b4f3cfc67c9c5f6652d889a762511778e1b2ff132",
+      "guid": "cccd59928cb562e4d8bc0803747fa0bb",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        507,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          7,
+          59,
+          59
+        ],
+        [
+          4,
+          7,
+          59,
+          59
+        ],
+        [
+          4,
+          6,
+          59,
+          59
+        ],
+        [
+          4,
+          7,
+          59,
+          59
+        ],
+        [
+          3,
+          7,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Demon/Jump.png",
+      "category": "pixel-cat",
+      "width": 768,
+      "height": 64,
+      "pngSha256": "0865b2cba81329fb1a82dc9337e674e2d81e472a9b5a499d555940e2889082c3",
+      "metaSha256": "21456cd24f6ff364b83e8df8ee750065b7041d1aa387e1ebc17a6d3b666f0077",
+      "guid": "f8a060b59a0c28a4493dfcff29b13903",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        2,
+        763,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          2,
+          9,
+          60,
+          59
+        ],
+        [
+          2,
+          13,
+          60,
+          59
+        ],
+        [
+          2,
+          10,
+          60,
+          59
+        ],
+        [
+          4,
+          4,
+          58,
+          57
+        ],
+        [
+          3,
+          2,
+          59,
+          55
+        ],
+        [
+          3,
+          2,
+          59,
+          55
+        ],
+        [
+          3,
+          3,
+          59,
+          56
+        ],
+        [
+          3,
+          5,
+          59,
+          58
+        ],
+        [
+          2,
+          12,
+          60,
+          59
+        ],
+        [
+          2,
+          8,
+          60,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Demon/Sleep.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "463ff6de692f8caa59dbb584423085e9ad2778ae77840116dae319a31598148f",
+      "metaSha256": "a5a4f66fc616aa5f667c2ac9d03f340b12e150133c2205e0359d735b131ac024",
+      "guid": "7f5ff27799dcbb64e9d952af99f1bf68",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        18,
+        506,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          18,
+          58,
+          59
+        ],
+        [
+          3,
+          18,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          20,
+          58,
+          59
+        ],
+        [
+          3,
+          20,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          18,
+          58,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Demon/Walk.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "2bcd94c92fde1c683d6b3add2afbd0f917c230c5bf0cdc54aa98c30f21debccd",
+      "metaSha256": "495fe5cd963486cfbabd3a9b38090297de40b2c6dad10312758dc0712bf1c76e",
+      "guid": "a1a3fa4a20eccbf4daa7fa9b6c227e64",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        507,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Egypt/Idle.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "fea460156dcfbd72518c4337291c2ff00c87b3c566da4b694c97d7bb610fe9f8",
+      "metaSha256": "597a3ebcce60814050a8c4001d38b0c60281604495436c248598c92d9e11c1dd",
+      "guid": "76c9da617a865c941bfeafbc06d11746",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        507,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          7,
+          59,
+          59
+        ],
+        [
+          4,
+          7,
+          59,
+          59
+        ],
+        [
+          4,
+          6,
+          59,
+          59
+        ],
+        [
+          4,
+          7,
+          59,
+          59
+        ],
+        [
+          3,
+          7,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Egypt/Jump.png",
+      "category": "pixel-cat",
+      "width": 768,
+      "height": 64,
+      "pngSha256": "bfd253bbdc1196ca51321192fb202954a0fc122aea3d66f493b16a943e18923b",
+      "metaSha256": "95ba98f3c3337c955b450127e30ac3d3d7e032fa519991b94878c14e2abeb269",
+      "guid": "6bdcd52a3d6301f43a67a95a27f5260c",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        2,
+        763,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          2,
+          9,
+          60,
+          59
+        ],
+        [
+          2,
+          13,
+          60,
+          59
+        ],
+        [
+          2,
+          10,
+          60,
+          59
+        ],
+        [
+          4,
+          4,
+          58,
+          57
+        ],
+        [
+          3,
+          2,
+          59,
+          55
+        ],
+        [
+          3,
+          2,
+          59,
+          55
+        ],
+        [
+          3,
+          3,
+          59,
+          56
+        ],
+        [
+          3,
+          5,
+          59,
+          58
+        ],
+        [
+          2,
+          12,
+          60,
+          59
+        ],
+        [
+          2,
+          8,
+          60,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Egypt/Sleep.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "71cd008cf097e3199e8d301c4ccab9586b7fb958b87a1129b2b8d48755995e49",
+      "metaSha256": "d12dd5f4c8d348db9bc9a0789b589f0d310365623595e1e16f5c9f09c19009a3",
+      "guid": "e539d82d6e4b1c448ab4bd7c5fdc6c29",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        18,
+        506,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          18,
+          58,
+          59
+        ],
+        [
+          3,
+          18,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          20,
+          58,
+          59
+        ],
+        [
+          3,
+          20,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          18,
+          58,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Egypt/Walk.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "b14ad046818bce6f072a40d8857ff52a305590c5fa32404596cf9dcfedcb515a",
+      "metaSha256": "54ce0ac146b73cb19b774cd8190e5c56280d0f0e1bc1c4201249b76a90fe4c20",
+      "guid": "cd68d4aed35a2c544986657432101c1a",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        507,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Milk/Idle.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "35f4148a4d411158ea1994ab3cbaaf22fe29177ee5199b34ecac099f1ec82063",
+      "metaSha256": "189c5d1c8996e76f8e37e7798eaf1f547f39941a077db001815638e71451f84d",
+      "guid": "83cc55a44aa76c440b7bcb449645a5c1",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        507,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          7,
+          59,
+          59
+        ],
+        [
+          4,
+          7,
+          59,
+          59
+        ],
+        [
+          4,
+          6,
+          59,
+          59
+        ],
+        [
+          4,
+          7,
+          59,
+          59
+        ],
+        [
+          3,
+          7,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Milk/Jump.png",
+      "category": "pixel-cat",
+      "width": 768,
+      "height": 64,
+      "pngSha256": "09de860361730a8ee0a7ef0f22c57921bdd9ac927e48c2600274892763f4f935",
+      "metaSha256": "2a1451ed35ad1e6651e06cac04d7a6132dcb30bd81c58f2b6419ce34c05793fd",
+      "guid": "c5e5155ce876dd14ebd1921496ce0a14",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        2,
+        763,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          2,
+          9,
+          60,
+          59
+        ],
+        [
+          2,
+          13,
+          60,
+          59
+        ],
+        [
+          2,
+          10,
+          60,
+          59
+        ],
+        [
+          4,
+          4,
+          58,
+          57
+        ],
+        [
+          3,
+          2,
+          59,
+          55
+        ],
+        [
+          3,
+          2,
+          59,
+          55
+        ],
+        [
+          3,
+          3,
+          59,
+          56
+        ],
+        [
+          3,
+          5,
+          59,
+          58
+        ],
+        [
+          2,
+          12,
+          60,
+          59
+        ],
+        [
+          2,
+          8,
+          60,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Milk/Sleep.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "dc0600c76f5de2128b414aecfa3862e38a4dc97878edf8f7bd36a99d11cf4034",
+      "metaSha256": "ec709603e2a07107abdac9027f5d2f84bef4b9ead2fdf17c172d0bf1c51c2472",
+      "guid": "835813047c4af214694fc062fad4b87c",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        18,
+        506,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          18,
+          58,
+          59
+        ],
+        [
+          3,
+          18,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          20,
+          58,
+          59
+        ],
+        [
+          3,
+          20,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          18,
+          58,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Milk/Walk.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "4629639d0dde2e2ccf1735c747a4305de17142a9761b5c0102da3785f0f2debc",
+      "metaSha256": "b6a88826ec4594029a44ea1910647935029295c02287aba57f34209282f8ef77",
+      "guid": "a432d8d38d7561242bc8c800c93c7771",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        507,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Siamese/Idle.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "caee60453c6f48c4f56f382e1b1ec25a67dbe349c9665f4a3717052d60287646",
+      "metaSha256": "22174444034077901f00e8ec591ea1ef74045f28d19ca72cc64767fc9050e59d",
+      "guid": "8b72c375238ca844b8f4720cd74e20bb",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        507,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          7,
+          59,
+          59
+        ],
+        [
+          4,
+          7,
+          59,
+          59
+        ],
+        [
+          4,
+          6,
+          59,
+          59
+        ],
+        [
+          4,
+          7,
+          59,
+          59
+        ],
+        [
+          3,
+          7,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Siamese/Jump.png",
+      "category": "pixel-cat",
+      "width": 768,
+      "height": 64,
+      "pngSha256": "7a416d26d65008131080d47b85a3961992be0c5a0fde1636562342273a15c2d7",
+      "metaSha256": "4ad2714b28702b5d10a65146b8040c89e21efb46932e0df846983e91a7789d86",
+      "guid": "2317bc46014b7c443b98ea7005849766",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        2,
+        763,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          2,
+          9,
+          60,
+          59
+        ],
+        [
+          2,
+          13,
+          60,
+          59
+        ],
+        [
+          2,
+          10,
+          60,
+          59
+        ],
+        [
+          4,
+          4,
+          58,
+          57
+        ],
+        [
+          3,
+          2,
+          59,
+          55
+        ],
+        [
+          3,
+          2,
+          59,
+          55
+        ],
+        [
+          3,
+          3,
+          59,
+          56
+        ],
+        [
+          3,
+          5,
+          59,
+          58
+        ],
+        [
+          2,
+          12,
+          60,
+          59
+        ],
+        [
+          2,
+          8,
+          60,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Siamese/Sleep.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "1ea4b741ee6d7aa761b7b3731d31adbc9027a65b6a2113f4a906546f9be7fdbb",
+      "metaSha256": "bdd89097506cdf9bdff8725f8e566f194a56e23aad675027889185e84f3a3d4c",
+      "guid": "1b0dc39f1d1cf2e4a85f6e7245207aeb",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        18,
+        506,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          18,
+          58,
+          59
+        ],
+        [
+          3,
+          18,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          20,
+          58,
+          59
+        ],
+        [
+          3,
+          20,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          18,
+          58,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Siamese/Walk.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "d5a9b9de3871689db7d2f9917ca05791150a9ee43cf125e813ea2c3fe12b0a28",
+      "metaSha256": "77619fd48c6a66bf40af51d75284b8c33690b708fb78e2cfeb3b9c36eb3a0e9e",
+      "guid": "42f2e3a23f94c064b8e5a22941357c05",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        507,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Snow/Idle.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "6a326b699b7f07be77613a64eb06c2faf2f41aa50801215896f33e48f89ad48d",
+      "metaSha256": "33c6ed95b8667e075ac22566646db61cdae85364ebb394d22e849cf6d1b00279",
+      "guid": "577a758e8342f234495d3270fbd74a34",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        507,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          7,
+          59,
+          59
+        ],
+        [
+          4,
+          7,
+          59,
+          59
+        ],
+        [
+          4,
+          6,
+          59,
+          59
+        ],
+        [
+          4,
+          7,
+          59,
+          59
+        ],
+        [
+          3,
+          7,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Snow/Jump.png",
+      "category": "pixel-cat",
+      "width": 768,
+      "height": 64,
+      "pngSha256": "455f16d98921bb9e1f768250fc90bcbe51f281587a9757ecec232d955a4c98db",
+      "metaSha256": "835aac30b47b67790b2882e63eba23c1e1a2b7bd78380b2de7ea639b7fe484bf",
+      "guid": "ddc2e80da60fefc4cb180de28743fd8d",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        2,
+        763,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          2,
+          9,
+          60,
+          59
+        ],
+        [
+          2,
+          13,
+          60,
+          59
+        ],
+        [
+          2,
+          10,
+          60,
+          59
+        ],
+        [
+          4,
+          4,
+          58,
+          57
+        ],
+        [
+          3,
+          2,
+          59,
+          55
+        ],
+        [
+          3,
+          2,
+          59,
+          55
+        ],
+        [
+          3,
+          3,
+          59,
+          56
+        ],
+        [
+          3,
+          5,
+          59,
+          58
+        ],
+        [
+          2,
+          12,
+          60,
+          59
+        ],
+        [
+          2,
+          8,
+          60,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Snow/Sleep.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "978269352922433a2b106ae2300e7256336435bb89da74c2a4f1fd99c057e3e2",
+      "metaSha256": "79b4e33326c8cdbe059fcdcbc8f7628120eec55f273e4323a3be014cab379306",
+      "guid": "718e618de513020439ae9629529e68c3",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        18,
+        506,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          18,
+          58,
+          59
+        ],
+        [
+          3,
+          18,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          20,
+          58,
+          59
+        ],
+        [
+          3,
+          20,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          18,
+          58,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Snow/Walk.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "a474f2f5e25813593831114a27f5a414688f256481bfa729366688627441fe0f",
+      "metaSha256": "46e6edc322165594744a0d48f3f53dc22bbb42fd0cc55ba2ad3e4f86e6920880",
+      "guid": "61300a760935c4b4582393e19215e080",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        507,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tabby/Idle.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "36baa18b9a5fa19ad334f9a1f8a66eea6db47727bc2c61480b77c90c3933d77c",
+      "metaSha256": "baf581ef3cfd8ae4ac82d005ab9c5c5ab0cdaa77a2d98ef281eb0d744b4f297f",
+      "guid": "d8852c0d44b9f024c8eda7c4ad6ea4b9",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        507,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          7,
+          59,
+          59
+        ],
+        [
+          4,
+          7,
+          59,
+          59
+        ],
+        [
+          4,
+          6,
+          59,
+          59
+        ],
+        [
+          4,
+          7,
+          59,
+          59
+        ],
+        [
+          3,
+          7,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tabby/Jump.png",
+      "category": "pixel-cat",
+      "width": 768,
+      "height": 64,
+      "pngSha256": "b02f4f5c183e6dfee3635f00906328f22ba8e7a42717bd905257d857a4f9952b",
+      "metaSha256": "94bcd30c09d9944caf2f0bdba84d3cb536c5d620e44c386d3b97f24482e12453",
+      "guid": "9db0e2a81f5398a47a0b4296dbeb8140",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        2,
+        763,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          2,
+          9,
+          60,
+          59
+        ],
+        [
+          2,
+          13,
+          60,
+          59
+        ],
+        [
+          2,
+          10,
+          60,
+          59
+        ],
+        [
+          4,
+          4,
+          58,
+          57
+        ],
+        [
+          3,
+          2,
+          59,
+          55
+        ],
+        [
+          3,
+          2,
+          59,
+          55
+        ],
+        [
+          3,
+          3,
+          59,
+          56
+        ],
+        [
+          3,
+          5,
+          59,
+          58
+        ],
+        [
+          2,
+          12,
+          60,
+          59
+        ],
+        [
+          2,
+          8,
+          60,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tabby/Sleep.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "d116564e2d2a6d14886c84a41189c6077c74b0e7e954bcd09bd4bd4f25b609ef",
+      "metaSha256": "ca2a084c884808f5ac22000f3557b98e48504f510b22e8560281d008a195bdb7",
+      "guid": "590e8330780e97440b83476f9aafd5ef",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        18,
+        506,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          18,
+          58,
+          59
+        ],
+        [
+          3,
+          18,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          20,
+          58,
+          59
+        ],
+        [
+          3,
+          20,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          18,
+          58,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tabby/Walk.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "7a5748e5f9a17fc0b813212415ae0c83190fde833d23a593e99c3f3c33b1c026",
+      "metaSha256": "328065bcc8e4c502d4ced403174cf17e1ec560b1737937076cccccc91b6445dc",
+      "guid": "72f9512a4a018d74698870a48ca08613",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        507,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tiger/Idle.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "080b7b917f7eb7176bbad743efd97830a2dd3fbf8dde94d161f73758db4c901c",
+      "metaSha256": "2f8256340af90a354dd8e53353a5ef7a8d5aad68606f1f870b1eaf5606b148a0",
+      "guid": "4592a4ddb6111314a97c0cd42d8fd5e8",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        507,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          7,
+          59,
+          59
+        ],
+        [
+          4,
+          7,
+          59,
+          59
+        ],
+        [
+          4,
+          6,
+          59,
+          59
+        ],
+        [
+          4,
+          7,
+          59,
+          59
+        ],
+        [
+          3,
+          7,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tiger/Jump.png",
+      "category": "pixel-cat",
+      "width": 768,
+      "height": 64,
+      "pngSha256": "8a5895c467c3375ff3ec26c77ebe539e18fe0513df0a64670631691fa18b8648",
+      "metaSha256": "64a5d953b7f9714d610e3cab8a2c8ffd67fbf258f09fc78249500f0f1a88e394",
+      "guid": "055ea524ab0bf3d48a809cbcbd095fd8",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        2,
+        763,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          2,
+          9,
+          60,
+          59
+        ],
+        [
+          2,
+          13,
+          60,
+          59
+        ],
+        [
+          2,
+          10,
+          60,
+          59
+        ],
+        [
+          4,
+          4,
+          58,
+          57
+        ],
+        [
+          3,
+          2,
+          59,
+          55
+        ],
+        [
+          3,
+          2,
+          59,
+          55
+        ],
+        [
+          3,
+          3,
+          59,
+          56
+        ],
+        [
+          3,
+          5,
+          59,
+          58
+        ],
+        [
+          2,
+          12,
+          60,
+          59
+        ],
+        [
+          2,
+          8,
+          60,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tiger/Sleep.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "ec7cce82e5f1c404192a42edffffd6c10c48be408b33cf216df32d24d671caad",
+      "metaSha256": "c7856307dd7bc6161ea1d03fe9b53ef2c34147a56c4ef6508cc77afc28aa6d85",
+      "guid": "96cbe850bf1a24e4c9de018998f92cbf",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        18,
+        506,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          18,
+          58,
+          59
+        ],
+        [
+          3,
+          18,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          20,
+          58,
+          59
+        ],
+        [
+          3,
+          20,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          18,
+          58,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tiger/Walk.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "f02878098cb79f1a74b7e6b869e49b53a1494295e6cbe882bf42d92e035080b4",
+      "metaSha256": "5f8db2837385f7b210a096194e9eb5f6c1a1fe7b351f1b4c168a2cd819abe627",
+      "guid": "5c372291610ba054aa8575a483f2b66f",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        507,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tuxedo/Idle.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "12263ee18e357e1ed1cb42b35c14c953858fb5fe8d5c3998eb8f4bf7d24c5535",
+      "metaSha256": "d0805172b7d51af555c7c64289079dbeea8dcca6cefa541e40041608245c5766",
+      "guid": "9072762cffb0ba041b87fedf54c920ff",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        507,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          7,
+          59,
+          59
+        ],
+        [
+          4,
+          7,
+          59,
+          59
+        ],
+        [
+          4,
+          6,
+          59,
+          59
+        ],
+        [
+          4,
+          7,
+          59,
+          59
+        ],
+        [
+          3,
+          7,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tuxedo/Jump.png",
+      "category": "pixel-cat",
+      "width": 768,
+      "height": 64,
+      "pngSha256": "54d828ddd1aac24e8fd00504dadb6e1ccef75fc9f355f2f5d5185aedd94205a4",
+      "metaSha256": "43aaad1dc18e48eaed36a6df4f4cbc8b9281d583fd60f777dd33971767771b28",
+      "guid": "588f38329d0e36a4bae152ca065ce2af",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        2,
+        763,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          2,
+          9,
+          60,
+          59
+        ],
+        [
+          2,
+          13,
+          60,
+          59
+        ],
+        [
+          2,
+          10,
+          60,
+          59
+        ],
+        [
+          4,
+          4,
+          58,
+          57
+        ],
+        [
+          3,
+          2,
+          59,
+          55
+        ],
+        [
+          3,
+          2,
+          59,
+          55
+        ],
+        [
+          3,
+          3,
+          59,
+          56
+        ],
+        [
+          3,
+          5,
+          59,
+          58
+        ],
+        [
+          2,
+          12,
+          60,
+          59
+        ],
+        [
+          2,
+          8,
+          60,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tuxedo/Sleep.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "145ef76c2b6dbe9b1b8df61c58245dcfe85ea66109b62eee9864a1de4be79e59",
+      "metaSha256": "40545ef666cb8cb3dd776f59291b3d3138b1145b39164639804e931200a0560c",
+      "guid": "df766fe2a2286984fac479482b34b9f5",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        18,
+        506,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          18,
+          58,
+          59
+        ],
+        [
+          3,
+          18,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          20,
+          58,
+          59
+        ],
+        [
+          3,
+          20,
+          58,
+          59
+        ],
+        [
+          3,
+          19,
+          58,
+          59
+        ],
+        [
+          3,
+          18,
+          58,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Tuxedo/Walk.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "ff85340b70fbfc42037a6635af8090812bf04bf21586374ba59a86d54650de24",
+      "metaSha256": "f760626e90ebbd6d80a9e7d5d0a0aeb3ebafdbd703e3f00474d60c32b7805609",
+      "guid": "722c37c7703b42e479669dad2ab3c368",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        507,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ],
+        [
+          3,
+          6,
+          59,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Xmas/Idle.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "78d4c78c628edf19b9e4102d4f73af4516e89544e16af6b89e3891b09e087b27",
+      "metaSha256": "fb4c7850bd964127575d9451d680e5576ebc1161e6465faaf722ca60eb105fcc",
+      "guid": "d45d01e5d7ed73e4f9ffb49e8b4e225d",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        509,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          61,
+          59
+        ],
+        [
+          3,
+          7,
+          61,
+          59
+        ],
+        [
+          4,
+          7,
+          61,
+          59
+        ],
+        [
+          4,
+          6,
+          61,
+          59
+        ],
+        [
+          4,
+          7,
+          61,
+          59
+        ],
+        [
+          3,
+          7,
+          61,
+          59
+        ],
+        [
+          3,
+          6,
+          61,
+          59
+        ],
+        [
+          3,
+          6,
+          61,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Xmas/Jump.png",
+      "category": "pixel-cat",
+      "width": 768,
+      "height": 64,
+      "pngSha256": "f14df751fcfab1755a8b69ef84af5aadeddc993047dae648ecc5bea2b3b4f9b7",
+      "metaSha256": "6051405880d90a9bfd875c6abcf3fb5e744c51d0f0262112178c7da3875bbf8b",
+      "guid": "601088c7fa979254c845deac5ad8e1b2",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        2,
+        765,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          61,
+          59
+        ],
+        [
+          2,
+          9,
+          62,
+          59
+        ],
+        [
+          2,
+          13,
+          62,
+          59
+        ],
+        [
+          2,
+          10,
+          62,
+          59
+        ],
+        [
+          4,
+          4,
+          60,
+          57
+        ],
+        [
+          3,
+          2,
+          61,
+          55
+        ],
+        [
+          3,
+          2,
+          61,
+          55
+        ],
+        [
+          3,
+          3,
+          61,
+          56
+        ],
+        [
+          3,
+          5,
+          61,
+          58
+        ],
+        [
+          2,
+          12,
+          62,
+          59
+        ],
+        [
+          2,
+          8,
+          62,
+          59
+        ],
+        [
+          3,
+          6,
+          61,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Xmas/Sleep.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "f6cdacca4d6f1bf8a050fca423856cc304d1b1d406f09757c1ab3884a86d1c40",
+      "metaSha256": "ced3d3aa3bbfbc4483ffee0e2c28266cd7d338ff99824785a44ac26e7cac057b",
+      "guid": "f8a590abb6d98244eaf6af8ad65f8dc3",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        18,
+        508,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          18,
+          60,
+          59
+        ],
+        [
+          3,
+          18,
+          60,
+          59
+        ],
+        [
+          3,
+          19,
+          60,
+          59
+        ],
+        [
+          3,
+          19,
+          60,
+          59
+        ],
+        [
+          3,
+          20,
+          60,
+          59
+        ],
+        [
+          3,
+          20,
+          60,
+          59
+        ],
+        [
+          3,
+          19,
+          60,
+          59
+        ],
+        [
+          3,
+          18,
+          60,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Pixel64/Xmas/Walk.png",
+      "category": "pixel-cat",
+      "width": 512,
+      "height": 64,
+      "pngSha256": "22fbe5bad862cf3723706960c8c7ee0db4e9f8cbdbd7ee33c0af8381d447b27a",
+      "metaSha256": "75b10831a57b38229c2e5512fa9afe5b903ea3c62db1125cad9932f31d47e590",
+      "guid": "c037448c71d8c264687edecfddea189c",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        3,
+        6,
+        509,
+        59
+      ],
+      "frameAlphaBoundsTopLeft": [
+        [
+          3,
+          6,
+          61,
+          59
+        ],
+        [
+          3,
+          6,
+          61,
+          59
+        ],
+        [
+          3,
+          6,
+          61,
+          59
+        ],
+        [
+          3,
+          6,
+          61,
+          59
+        ],
+        [
+          3,
+          6,
+          61,
+          59
+        ],
+        [
+          3,
+          6,
+          61,
+          59
+        ],
+        [
+          3,
+          6,
+          61,
+          59
+        ],
+        [
+          3,
+          6,
+          61,
+          59
+        ]
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Siamese/Idle.png",
+      "category": "legacy-or-other",
+      "width": 224,
+      "height": 32,
+      "pngSha256": "045faa39eb9e2838c0a45635c84eecc3f0aaefcbc8e04fe7e1418ac234d1e38d",
+      "metaSha256": "f54dbabb46c02688960e94775650a7fff8bfbf16776db4cdbf080e4a7f3c2138",
+      "guid": "013a934fe5a33b545bc29b2d950ce13f",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        4,
+        8,
+        220,
+        30
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Siamese/Jump.png",
+      "category": "legacy-or-other",
+      "width": 416,
+      "height": 32,
+      "pngSha256": "79db133d697de111e35bacf9c8110f51aad17c9141901f928f7df8da7283abc7",
+      "metaSha256": "2cba19166f8531254dcfd6a5ad549bb741f2b5a0f897ead80602acbad86e915f",
+      "guid": "40d27337816d8c642a83c31fcde9b20c",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        4,
+        0,
+        412,
+        32
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Snow/Attack.png",
+      "category": "legacy-or-other",
+      "width": 704,
+      "height": 64,
+      "pngSha256": "11a89a5b1e67869855673702dd497f00447f0cdd7bca57b977b066400ef31f69",
+      "metaSha256": "32e0d02afcf508e0d2986d97177f07ac05c97d8cb9f50ed9f02875839f2ea81b",
+      "guid": "5ce5d1a5e39d3a3439483895a3a15fe5",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        12,
+        16,
+        691,
+        48
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Snow/Eat.png",
+      "category": "legacy-or-other",
+      "width": 640,
+      "height": 64,
+      "pngSha256": "ed8ad61439f3c38143930e7744d3f7532446ededd9aa0b3d64ec7227286b5702",
+      "metaSha256": "fdc888fdcd469945fab2398338a04bcefaa392b456b163352a95c8a3fe26eb28",
+      "guid": "c0b2d4e4ac649344282d9901b021aebb",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        12,
+        16,
+        627,
+        48
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Snow/Idle.png",
+      "category": "legacy-or-other",
+      "width": 320,
+      "height": 64,
+      "pngSha256": "3e1b112c3df174fd0a88dd251619683b503ac1395c6211b1cf1096fe08209e89",
+      "metaSha256": "ff60e3bbec551de652e84ad70916bb5d7c51c54493bfd4896db3428d69b137b5",
+      "guid": "9bcae524a1cbb63489a566a4c101b095",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        12,
+        16,
+        307,
+        48
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Snow/Jump.png",
+      "category": "legacy-or-other",
+      "width": 320,
+      "height": 64,
+      "pngSha256": "a346285f04625d7a7b6ce000bc56f1581e72813cfb9c46c3c10d5008a004ae81",
+      "metaSha256": "c1e432eafedbeb5ad1087d25b4397bdda9ae825e09d069de0aacab7ab02f388f",
+      "guid": "fce69bcacaa6343438c945509b0c20ac",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        12,
+        9,
+        307,
+        48
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Snow/Run.png",
+      "category": "legacy-or-other",
+      "width": 320,
+      "height": 64,
+      "pngSha256": "81c5fef38baf959aeded8eaca8a24e994e5e9c2ad9bb30a80480b158a9b48556",
+      "metaSha256": "7d03a3857e752228741af071629dcf8ced3d3a0244a48b7785c9768703fe263e",
+      "guid": "f0c9b67310d17274c9aa29e78483022d",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        12,
+        16,
+        307,
+        48
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Snow/Sleep.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 64,
+      "pngSha256": "8a1214091ca236fc8c52b4cff74b4c077927cb0e2b2459120accff36407e7a0e",
+      "metaSha256": "1814701986c64b918b4407feef06101dd2738f1ae4ecac3feb633afc2eb0a92f",
+      "guid": "220b9a4c35711b64c8db17d26db940b6",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        15,
+        19,
+        115,
+        46
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Snow/Walk.png",
+      "category": "legacy-or-other",
+      "width": 384,
+      "height": 64,
+      "pngSha256": "c5288f633c0109bc2b9c087bab63610317ce39f00d3d7a47dc3d97acfc20ecce",
+      "metaSha256": "fb2ff4a011e1bcbb32285c4ec17b848d79c736e54c3c4faee1862bffedcfc47e",
+      "guid": "fcc3afd1164715643b32a3470f50e3e4",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        12,
+        16,
+        372,
+        48
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tabby/Attack.png",
+      "category": "legacy-or-other",
+      "width": 704,
+      "height": 64,
+      "pngSha256": "1ebbcf49b09f4dd49f4abe06635a770a691ebca960dd24b2f6b5268ad2b1d583",
+      "metaSha256": "7930330e050569ff236dca40fa85b8d30602c90cdc73ce2c193d46b29f3d3d73",
+      "guid": "1e34862eb71849d4f85ae85852fa172e",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        12,
+        16,
+        691,
+        48
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tabby/Eat.png",
+      "category": "legacy-or-other",
+      "width": 640,
+      "height": 64,
+      "pngSha256": "d8f033025c321dda72fd7d8e628f59b461fc19ddf2af140006013c69832b364a",
+      "metaSha256": "5fe169ede2cc653d7621744c9343cafb4b29a4fedce6bbb1108116fe1ee86188",
+      "guid": "5b7374e68810165488771b42ca7eb81e",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        12,
+        16,
+        627,
+        48
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tabby/Idle.png",
+      "category": "legacy-or-other",
+      "width": 320,
+      "height": 64,
+      "pngSha256": "691a9da51b6d838462cf7eee4f9bd1e3eb055ec2368eff22824d7c82b58e60fd",
+      "metaSha256": "363b2c42822898f32c76305b98a451e274d50540a31e0a7865bf2be0df3483b9",
+      "guid": "efad26f5144de62449a2f6c7c42b30be",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        12,
+        16,
+        307,
+        48
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tabby/Jump.png",
+      "category": "legacy-or-other",
+      "width": 320,
+      "height": 64,
+      "pngSha256": "e00f74e09f406fd442a92c585442c1c653b1aa25ff18ae94b07813f37c9e4a03",
+      "metaSha256": "90e09934e4019ffef8e6441565734be604dc048e85b86166fe217e109cf3a647",
+      "guid": "bed00710b06ff6c4a980c1e4ec869066",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        12,
+        9,
+        307,
+        48
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tabby/Run.png",
+      "category": "legacy-or-other",
+      "width": 320,
+      "height": 64,
+      "pngSha256": "938ee4b743339bf224b9a2518d772e47adb0fbbacdeac4ba0646ee1c6a490a90",
+      "metaSha256": "12e094f8d6ec0cc168b1d3be7c76ebaf72c50fab7dba518fe12826ec3b9bab9b",
+      "guid": "dafc435cde6aa26448fd07b9227adb0a",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        12,
+        16,
+        307,
+        48
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tabby/Sleep.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 64,
+      "pngSha256": "9844ca8522c799de5985c43208b01b17b3242844b7d7e2a071292d3d285a2946",
+      "metaSha256": "4cbec6d327f45eaf7717dc581a16a26aecfadd3b9623da70c9fe54db7556a2ce",
+      "guid": "7b93e82206423604385bfda70512c97a",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        15,
+        19,
+        115,
+        46
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tabby/Walk.png",
+      "category": "legacy-or-other",
+      "width": 384,
+      "height": 64,
+      "pngSha256": "cf02dc88079d4cf27bcc12ebe101e3d1c7f45759b468c8ba8ae403ab1388406d",
+      "metaSha256": "d9cef912cdf9fd7f736f2aacbcb007ad15f7fb733c5215f6fef3f5f686e6821a",
+      "guid": "2a1591972e4968740a83d4734212d1c5",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        12,
+        16,
+        372,
+        48
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tiger/Idle.png",
+      "category": "legacy-or-other",
+      "width": 224,
+      "height": 32,
+      "pngSha256": "69fe31ebd975428345ae74ff9ccfc2cae513a0b77bba4f15babd9164d5533078",
+      "metaSha256": "f5a9bc7cbec10ed890d60f6a1419c183ee0fa13edf55275931da193a6957bc66",
+      "guid": "8b9570e4a072b774092a05df0d660d5b",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        4,
+        8,
+        220,
+        30
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tiger/Jump.png",
+      "category": "legacy-or-other",
+      "width": 416,
+      "height": 32,
+      "pngSha256": "cc8334aee381805d08b410e7475deb1afa1379e8811deb3023a1c9f35888010e",
+      "metaSha256": "f634037ad599a69adfeeabb8646b2a0542186ac4ead2749be1e23dec5f7b2054",
+      "guid": "e57f3972bc31f3341b7da14a80c446fd",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        4,
+        0,
+        412,
+        32
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tuxedo/Idle.png",
+      "category": "legacy-or-other",
+      "width": 224,
+      "height": 32,
+      "pngSha256": "99705e422feb3242d9922f6078bf3848b95f67afdb024daed028074d84513af0",
+      "metaSha256": "727c557f96974048b89ba5b22ca2f3abd4cf207e1706c25f3dd2e54a64a45a8f",
+      "guid": "9eb7837d3b236c147a3e0ae5d1264677",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        4,
+        8,
+        220,
+        30
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Tuxedo/Jump.png",
+      "category": "legacy-or-other",
+      "width": 416,
+      "height": 32,
+      "pngSha256": "d77765bed09bede5437c7495491c22fc85579ea1b40110611d90280719121fe4",
+      "metaSha256": "7cd99a28f23320c8e6d14a01aea5f4516d57fc10e4d256638d9b7d2798ac5856",
+      "guid": "605cfc0ad4ab2904599dc146bc68034e",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        4,
+        0,
+        412,
+        32
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Xmas/Idle.png",
+      "category": "legacy-or-other",
+      "width": 448,
+      "height": 32,
+      "pngSha256": "88cc2991bcfbfce874824bad3dc1e48bc401d94a4920d643f6b2e27aaee0656c",
+      "metaSha256": "ad1f181c7502dfcd34c9bd85c00e5a89e179ab2b6fb6b0af70efcd988285a6eb",
+      "guid": "35b0f62f9e9dc104da6e1ac016503915",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        4,
+        5,
+        444,
+        30
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Cats/Xmas/Jump.png",
+      "category": "legacy-or-other",
+      "width": 416,
+      "height": 32,
+      "pngSha256": "c401a87b1f4e39a68818447fa6586cc3209585f1c1761ceb45aac4ab6fe46e98",
+      "metaSha256": "feffa6dc7493642e62dda0ccd6085a376a9a28a59f3abf4dad034e902acda8e8",
+      "guid": "afce91aae0d530f488a45978d15b25d2",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        4,
+        0,
+        412,
+        32
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/basket.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "68c650a736e2721bfc60d9e12e30e21c1cdde888d46b573d43b13653ffe563c8",
+      "metaSha256": "9350d908f39be375ad7e5356ab9035950321c16635ccc361ddb234495dacc7ca",
+      "guid": "932144b3696cdef498ca0715a98fd1ee",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        4,
+        2,
+        28,
+        30
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/beehive.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "febbce00577d0ed678690e222c0155256a231b20eeab7759ebf00b4008e05743",
+      "metaSha256": "42934f8263267279207aaa298aaf23e4350e35a1310b47a4775abda8b8f3e707",
+      "guid": "e295394f5543e3f45a82bc1f3098ea13",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        1,
+        2,
+        28,
+        32
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/bench.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "2e34f9fdfa1bdbb6dbcd160f96971a29b67005dbae9767720e644f9ce22c5874",
+      "metaSha256": "758b84bb6ce2cf5bd12f64050d3e4b18a0d71ac1aaea15231f659185467557f6",
+      "guid": "599130a48f2fbc74388f395a03f03328",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        1,
+        5,
+        31,
+        29
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/birdhouse.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "e7a0f43d982721de3835ee90e8202dde25547bf95e2139dcdafdeadd92b4987d",
+      "metaSha256": "08dbc6e3f9f66a6b6161c56dee7f6d9e4f2a04f7ae2e3f0012e28fd5fd5c4a0f",
+      "guid": "7993200943cc9e24fbed4ce747204489",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        4,
+        1,
+        29,
+        31
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/bush.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "14e3fa601403a9d356fdd93a41104e84e058a648cc9d1322803af254a04b2e59",
+      "metaSha256": "57cf3e70a86a158af68092ec4ac97d48a6f7bd403cbf047fb1422861bea96989",
+      "guid": "7c4960a305dafa044bbd973683467816",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        1,
+        7,
+        31,
+        31
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/carrot_patch.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "dd422380fa34fe0d168a92c62a9b54f5a0e6996c32102736c1069dc500dbc07c",
+      "metaSha256": "9854521b510af016388aa3d6b16ea2eca3a1e136899f7b7ea92ca9375ee7f8c6",
+      "guid": "559ea87b9465ffc49a9599ee01f7b8dc",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        1,
+        6,
+        31,
+        32
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/fence.png",
+      "category": "legacy-or-other",
+      "width": 64,
+      "height": 32,
+      "pngSha256": "6679a1c3d0debb4379f3a67d7176093bd029ecfa8abd5114592a21b9d7544c6b",
+      "metaSha256": "d4598a24bbc036c937d820031f856d4e4e6d34a6eda0c25322b857cc1ad88419",
+      "guid": "753087fde7224c54885aeb1c3ef1be35",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        4,
+        64,
+        30
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/flower_pink.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "3090f0206c58f9e7b5be34e9a221a05d3512c0f5a25c95bbe80154c48a909681",
+      "metaSha256": "7fa2f9a349bc2e5aeae493dcf01c9c0af9bf6fbd6b95fd8e4cbcfc754a09b1c7",
+      "guid": "6f8b7a1417fc73f499e3f6d6e403cc3d",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        7,
+        4,
+        24,
+        30
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/flower_red.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "9b3e65f1528c60a6e0355cfc2cfebe4bed15439d6399e2c4430cf94ea95275f9",
+      "metaSha256": "bd21ca52b3a248be89f29e18aa1feb869abd1726598752a67b2a6f9aa315cee7",
+      "guid": "591a6e04cfc659b40a905a51ea7bdbbb",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        7,
+        2,
+        24,
+        30
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/flower_yellow.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "2b0e4c2b417a16a011bb42c31510e96b06fff4f6436ed125c7372cd6f0710bf1",
+      "metaSha256": "4166a02595dce2acc508817dc195705b5e2c963295a1a41808df935e6d7a7ca0",
+      "guid": "beaa24732c9fc054691254d5b1c592fd",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        7,
+        2,
+        24,
+        30
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/hay_bale.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "837f10f44f056c11586a08c161a3a10b1e74960d9e52950dce8f4c29f49b68cf",
+      "metaSha256": "895b2ed31a5210cd0662ce1152de2bd3f8359652627729f719b730fe4414d5cc",
+      "guid": "eca5268c9e71e3c46a80d0607e932e6d",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        2,
+        9,
+        30,
+        29
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/lantern.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "ee4c070c5148df0d751e8f5dd876bbc139b6782105c1670c80691966a0c26ca9",
+      "metaSha256": "ab6163b131f2c99eae2f0dce245426e0958580f1f2a152906f8d713951d1775d",
+      "guid": "3da464dc9defe294f8d4f976af3cb065",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        5,
+        2,
+        22,
+        31
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/lavender.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "467b167d121e795878f5ea020aff6f244d1a42c16ff3016fbbf3637493bcee3d",
+      "metaSha256": "6e227753cf37f0e8f1b193aab0737247ec4d3cbd41cdf1f982094be7db232f44",
+      "guid": "656589b5b9a1c2b4fb47228eba1c6098",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        6,
+        3,
+        26,
+        30
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/mailbox.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "abeb52f4c761514320eb3b0678003f31954fb98c534ddca73b0d45fb140d5b0f",
+      "metaSha256": "2b10905d6d6b7fd96c441ee1af1e3abc1626e9043f0369016f7acc437943d246",
+      "guid": "03479a3624b4f064ca1f7ab9920d388f",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        5,
+        2,
+        31,
+        31
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/mushroom.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "15a4381dcd1a6963104db2d6f0af3670224d01c6e84b8b01eae62d538fce72b1",
+      "metaSha256": "e506840ada3645cbc905aeaabd1c43cd6d5c20ccd51bcd55bcf6ff4c6230cf49",
+      "guid": "9bd488a07d3adcf41a87112d12bff9ca",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        4,
+        3,
+        28,
+        29
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/pond.png",
+      "category": "legacy-or-other",
+      "width": 64,
+      "height": 32,
+      "pngSha256": "91fd774ab9d141e0985435044251eb497a01f10778b0b98da7fec6a04801f52b",
+      "metaSha256": "228760d267bfedc65611afea2a426c1aa4aa63d4aac9c1ebd2ed7b4ea7f8cb45",
+      "guid": "03bdcf77d7f09594aba180268476a5c5",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        2,
+        64,
+        32
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/pumpkin.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "a6399c1163d6a68d02e195940d3370edceef06844b9e94ee09e23d0872cf773f",
+      "metaSha256": "e723fa94ba07b71c9b76a71120bcee85b25349bd933b0eb0922ddea01a50f8a7",
+      "guid": "a369cb283f46d974eb6bbdb12b3030b1",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        3,
+        5,
+        29,
+        30
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/rock.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "697e44a15f9c0b097946eb9c91a5e9d766902c9d4654ab83004e1b918a01a1bf",
+      "metaSha256": "f4b50929cd33790acd11fed90abf90a06d6f4c64e41f1bc822534fdc1eb7e04d",
+      "guid": "3b3876e6e512d914eb2d32248f721188",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        2,
+        7,
+        30,
+        31
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/scarecrow.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 48,
+      "pngSha256": "b9f7742ad42e9412bf089de5a74ce59a9f7fc83748cfa3355f40389a587e06d0",
+      "metaSha256": "a54d9d39ab3b957b10415629d3f4ab8cbc26ada895c303fc290a7661762f85fe",
+      "guid": "5a84fbadce923b24480787ef6adf3159",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        32,
+        47
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/seed_bag.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "0f1d2e714dde9ba9a3d22ac4610554733a28dc729252e372058545a26124faf4",
+      "metaSha256": "f7bf78f41d10b1ade06af2fbd52c54d6498b28c3a6f6cec3d9ab80b9da69bbe6",
+      "guid": "b1e4510d1d08ff14bad2a78534310a49",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        7,
+        3,
+        25,
+        30
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/sign_garden.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "3091e4103025aab09f44ee3433a6c175f6892f510952053271957c2db334bdf1",
+      "metaSha256": "7a7c7a499a269d070453dfeedf441ae72aded2a2d36c0f8cd385ecd24a6545d7",
+      "guid": "a9767b763a3e24d45b139cbf9810e024",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        2,
+        3,
+        30,
+        31
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/stump.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "611552d6aab4dc1dbd6338a290fcc886bfc478089aaea3893fceb1fcae568fc8",
+      "metaSha256": "333c392a33f8c709a94ee01288c12f14359cf1a1899a7ac63badd503d06f88c3",
+      "guid": "fb940ad2b8a3dde4db64396ae2f9d3e9",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        4,
+        7,
+        28,
+        30
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/tools.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "d2550942298aa8ce126042be4ad2b4676788a7aa661be2cd83690ad7d7514d0e",
+      "metaSha256": "43584cb786c96697345b666b352c876654d6643afc28815a5050fb227372e893",
+      "guid": "f0ab40c1539d74543bf420b88842b121",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        4,
+        1,
+        31,
+        31
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/tree.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 48,
+      "pngSha256": "2316a30f69c4b45d4c6ed380ce254761dcb5e963a65fb3c121b5bb96a30ed3ba",
+      "metaSha256": "fd77bd053665a6d361e672e9f0e123236a0eb17030a1299c856221f293733554",
+      "guid": "b586bcda91d0bd847bdb6423e45523a9",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        1,
+        0,
+        31,
+        47
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/watering_can.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "347f7020c4b2ef4fe1d7b40745924b9eef76ed17a5926279978dbf5b272e3966",
+      "metaSha256": "0affbb4d5b41fb299b6d96f214709d252dae872d94f51fd323f08925792fb8b2",
+      "guid": "078b88bd9639fce48b482b61adc6870a",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        3,
+        7,
+        32,
+        27
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/well.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "dd4fee51da68726d786db8ef18365325b68f0f915c01777deab6e5898583bfcd",
+      "metaSha256": "c27c114e149211ef4a1103ec906d83cc1916b73502e5172ac48953ebe0ae69e4",
+      "guid": "42b7e546a36121e45a3bd0dd99b3f5b9",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        1,
+        0,
+        31,
+        31
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_1x/wheelbarrow.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "0ade49386f39ee5b3ef793bb4c51ce323e2d77cb79c33fa9ffdd647db7867eab",
+      "metaSha256": "df8007edb46caea12c873a17a502c3919de96378d9520aff16245eea6b488350",
+      "guid": "16e52678b774f254eac4d31670b68cd7",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        4,
+        32,
+        29
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/basket.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "4f7000a0a916c23f0688057e7bb556017e40237b341d1bf16f62105312c8ce69",
+      "metaSha256": "96643991547fe4e9d1977250456aa981c2bb51cee878961ec35ecca89fac484e",
+      "guid": "7972377f548680f41b82dac244d5f41e",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        16,
+        8,
+        112,
+        120
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/beehive.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "033777955108d2866e92d4f4e7fb0331539d16f8391a5fc763757f1dba462d4d",
+      "metaSha256": "7420bb47ac1b907cdabdf49b6ad58bebd9df9ce9d251b86fb97cde869ba93545",
+      "guid": "9a4ceb0583b838341a119ac3b2ccc638",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        4,
+        8,
+        112,
+        128
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/bench.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "b326caf23e91e5a74f571a4aa75b41cde5819d3b001b934d6c7fa2750c865629",
+      "metaSha256": "a08e8dae1d6ec076db234df031cbd8fb659334ba23c80f1ca69b4fb2d6aad48e",
+      "guid": "88db235d22794d840bba4bd72a1bc7f1",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        4,
+        20,
+        124,
+        116
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/birdhouse.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "d4080a449ab0e1cf604b1353d8497dbd16557b1c95b36fb1d10456fac65ead12",
+      "metaSha256": "c7fce8e8ce0d619fe09d45a2c07e1951e44b98881a05e3a4c3361a7b8bd9befb",
+      "guid": "58c38851066b5f540a04cc1a1bc6d27e",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        16,
+        4,
+        116,
+        124
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/bush.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "9fb9e9f0e4572e63acc99964eb41413c7d69acbdbd93dd9a7c091b5c5dc24d42",
+      "metaSha256": "4755c7cdf63b9dcaf7b503acbe626432765f8c3fa47b10d826c31ed1aa8a8863",
+      "guid": "a5c791ca0424aed48af21dcbb2fb29f4",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        4,
+        28,
+        124,
+        124
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/carrot_patch.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "443fda4bef2de57e1b98a2ffad8b8bfe136a5b2bdc450b9d95335483bd490464",
+      "metaSha256": "509a54b2017216253d58cd2d839d49ebd63810d2bad804540473bca1cb34f9ae",
+      "guid": "6ded26e99e38e9f409f6b97d0be0ba61",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        4,
+        24,
+        124,
+        128
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/fence.png",
+      "category": "legacy-or-other",
+      "width": 256,
+      "height": 128,
+      "pngSha256": "e5a309c5e93600bcdaa05e12840da123c5fc157209672d3671e879296a848499",
+      "metaSha256": "1ff4a95f7c41b81c80fc4f79036072c01f9285b71fe0c4dff65ea28b750fc5bb",
+      "guid": "f8105999096514d41b6deb035739e537",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        16,
+        256,
+        120
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/flower_pink.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "fcc66b8c1b910bc3786e404769c4d72723b73688d758d7e7e5a7a748dc49c456",
+      "metaSha256": "a6c7b390ddb4f727095470f485e095a89c650748b68c23d9da6abb4e2f366df5",
+      "guid": "91c4383612c5f164d945dc50f0c8bd58",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        28,
+        16,
+        96,
+        120
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/flower_red.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "9bc153e9bcef3a063983afc9541dec41538300b5500dbfb93ef4f292c1fe986a",
+      "metaSha256": "239fb1dcb400de6db72e9d474410b1fece44564b9f2d9f8b872628379f4190ad",
+      "guid": "ff76e462ba951e749a5cd6ac1e44702f",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        28,
+        8,
+        96,
+        120
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/flower_yellow.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "30f4a46586ddbdbced22e2fe635ffca692f7340bf1f912ff0de9984b3c03d8c0",
+      "metaSha256": "f7189e01f5ab15354d9d5761669811cfc53e8e71e76fb1a177bb656c370a236f",
+      "guid": "e6e35ff5bd9fc1340986db0a8ed1315b",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        28,
+        8,
+        96,
+        120
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/hay_bale.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "05a7a73a662b10ebf59e6e4da6932e89b3d7ebc975b2359fb8f22cdb0fac317a",
+      "metaSha256": "be76b90e72ca78e2aaa85411afea125aeedc7b9c135e4260fd9748c14699e6d0",
+      "guid": "cb15bb0cb4011124f8e3f9e2e9871eb5",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        8,
+        36,
+        120,
+        116
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/lantern.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "11fbbd53df099fa8fa8c64d2d078966e8608fa9aeb7dff25954647cbdc8c21d4",
+      "metaSha256": "295080abdbf4fa36f2c4d736eca70946e59772f465e16197dfcb8ad79abe7644",
+      "guid": "564da259748559a46a0fd5a1db732626",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        20,
+        8,
+        88,
+        124
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/lavender.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "80adb2677e60ac1618973c71907e237aa6249c51589ba804f7779d044ece46e4",
+      "metaSha256": "e50e22f171b7d27ffe4e886f2562efaf9b86153078009e8acd1c18adefe54b0e",
+      "guid": "0566e9577a1176e41a0e55af78d27008",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        24,
+        12,
+        104,
+        120
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/mailbox.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "6073ab635ff183b17bb32c2bf78d029f050fefb34b8263f7a871ca72965761ea",
+      "metaSha256": "f92d977e79f9c30da759c24b7994ffa76b8f2cf6ab73a45b6ac6f82b284bd46a",
+      "guid": "0d35e7679c16a4743a7629a99c72816c",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        20,
+        8,
+        124,
+        124
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/mushroom.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "e095ed39de017d73bb5ea541c275f1469388bddff7155ef885fa89e74905245a",
+      "metaSha256": "fbb4de41242c716d931bc5c91ce70963d179f758808c2bd059752c73ac4af2e8",
+      "guid": "24fd849f0dbb9f04c8641ab1b823f793",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        16,
+        12,
+        112,
+        116
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/pond.png",
+      "category": "legacy-or-other",
+      "width": 256,
+      "height": 128,
+      "pngSha256": "c9ded764e65138e16fd643545c58414aa36e6ecbe88da96097c45f2b5c64ab86",
+      "metaSha256": "79f97176159953b53d11b1ca9560821c0c127af19684f2b0c8164e6c89816783",
+      "guid": "75fbb40b4f29d8f40b6605a690bace47",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        8,
+        256,
+        128
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/pumpkin.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "9f614cdebd340cff4bb85006a432d60500c2db646a98e352bed754c0a3e2d91a",
+      "metaSha256": "4665e347c5d966abe04575ad7aba121ba03b1a1b3a73de80eb1590a2babc9c07",
+      "guid": "8bc79aabeaa2f0e489900b7d7c0a4767",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        12,
+        20,
+        116,
+        120
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/rock.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "3c41ecf6da73f4d5bdc386c99ed1f9de115c4afe84cce619dea55988816e40de",
+      "metaSha256": "f3be228cb78e2331c2824c7846fa6ca92d3caa6eca95ef37a11bea1a201f43ae",
+      "guid": "98b213b1cc6c6d64f81448385236402c",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        8,
+        28,
+        120,
+        124
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/scarecrow.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 192,
+      "pngSha256": "c299dc13480056cad8fff31b20c4e2d60492ad807f32146ddd7b6f555c6a6c09",
+      "metaSha256": "1f154eed1d1fc7314eb307ceef6ddc7c6dff1578cdab5ca056d09b180232d3a2",
+      "guid": "47a94e83725f62941b7640893ec75fea",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        128,
+        188
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/seed_bag.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "9713bd7df657e0e19c837f6b9abc08a8fc360f9f7cc11bd80529e0777b74b1a3",
+      "metaSha256": "9182b3e5f48537d851d647240467244d416914ab713c7128c8c0953d20ff13b6",
+      "guid": "a16225382aa3fee4bb35eb8307bad9f1",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        28,
+        12,
+        100,
+        120
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/sign_garden.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "7a9f5f2404b37c1f8241438a38f3fedb894539f41915d01e03ca7faee03168da",
+      "metaSha256": "32fa1582f5ebd06722cfc2d1710ebacf4f039ffec25645848aac22f026482c2c",
+      "guid": "3de5f2ec3d790774e9d36f35ed331bcb",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        8,
+        12,
+        120,
+        124
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/stump.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "4109ce0a2e5e5c87f3c5bbaa3a364fe922894dfefcce8787391fdf62d4691c0d",
+      "metaSha256": "30d02f315392338b50cb31f1227fc646a75959788410be12e3cfcd8b8b06218b",
+      "guid": "887a0dc12a76d9a409212e12b3275500",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        16,
+        28,
+        112,
+        120
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/tools.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "80f9cd85e303d711f9c29c0380b116e00c79c6bc9e67bc54dd304fa763a30749",
+      "metaSha256": "a6082381bc9d09fdfdef46725c023ed705da47b6548319b61683a33494438a89",
+      "guid": "4074bcde1b6b4dd439559bc02412a85a",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        16,
+        4,
+        124,
+        124
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/tree.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 192,
+      "pngSha256": "6ff8cc908c8b46375f709a249f1cfdabbb606f692f61b5aa4e5ce576f636a713",
+      "metaSha256": "db3ec2dec25281889edf85c7c9ed5f57ecf0c2818582d38befdac096c6b463a6",
+      "guid": "ce858854859fd11488311598b55f7246",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        4,
+        0,
+        124,
+        188
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/watering_can.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "2a795e66672b8a4d7824ff922b51b9d5e67c6d7b4381ebdfda6bdf77f9147023",
+      "metaSha256": "122bc0bc87022c167972117d060b6c795cf8227e9fb97853518c9f92d3952950",
+      "guid": "18a1fdb6349156f42938f19954f56836",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        12,
+        28,
+        128,
+        108
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/well.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "2c1898667e1b4b6e38855292d47112de0607da3c7a1477b0ca9db678091ffed8",
+      "metaSha256": "1c255d6086b87ed5b4ea6f1ac02800cfe76d4be053b11daf9587ea13a8d1004c",
+      "guid": "a94c057c9d2c03e4b960690c17d1920f",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        4,
+        0,
+        124,
+        124
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/sprites_4x/wheelbarrow.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "6ba654e77921bb00cd01c67ecd86b42e0d40a01e81087057c3d5840812269820",
+      "metaSha256": "7bcd831abb21e19de3dfca10fe83097ece3dd90269dd9caa249f35492be93a83",
+      "guid": "1cfa56a6b7d57ea41a74cdfd5a5dbfd4",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        16,
+        128,
+        116
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/spritesheet.png",
+      "category": "legacy-or-other",
+      "width": 384,
+      "height": 320,
+      "pngSha256": "5963da2a7577581a46a40ec016f8ca6e2c4b45303a452291b9de6b5e06292d1d",
+      "metaSha256": "f63e702359f9db0a1f69754b96328b343ec0762089e44cb89a2472402535342e",
+      "guid": "741523ccf8e6aa64599032d90174b919",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        16,
+        8,
+        368,
+        303
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/tiles/tile_dirt.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "4805e180d297378657837aac73148d5d8b1f0464ad21ab17afe214153cacab7b",
+      "metaSha256": "ab447d2d69e10bb5d3b5b20d9759754188b381fb4205e3deed3e721b768fb1d9",
+      "guid": "d2919a3e1cfff5f45ba9686f73d588dc",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        32,
+        32
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/tiles/tile_grass.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "0c4ed637429e06c66b13af080b9dd8dc99c786cd2ed9a1623a1c9bf54324e160",
+      "metaSha256": "da711fcb5a33d8cd64f7a019749ef630c12a2b8c33c7454a189d9a83be955ddb",
+      "guid": "16472975445eb1b48a4eadfa5056cf41",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        32,
+        32
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/tiles/tile_path.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "f21b9991ca97bb4aded5395b526c246cef50fd987b2bf3dd4369fda40349244e",
+      "metaSha256": "0ea3c7d39a20466fa15f970ab8af80c5be15e4fdf1cc4b0c18e70924bfd2fc8b",
+      "guid": "e79d15f6250ddff43b05da0f736afd99",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        32,
+        32
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/tiles/tile_water_0.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "90a10dd1a613f6ee3de2f71a75f50a1d9f7508c5b388504e696ae1d811651f29",
+      "metaSha256": "99b51c9f7e9fccd8edeb5ab38168cc031af793c3e24cdc256644f4af1e62263f",
+      "guid": "cff2ce59fd8f27b4ea47eee7fa268880",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        32,
+        32
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/tiles/tile_water_1.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "bc727d5aa0932c0384f8e596f72ba0434254ab2e3be88faf8675611b5f43df47",
+      "metaSha256": "b3095fa076e11a020e3f56348aad65792cd43b583759c99cdf1453d5e33bd437",
+      "guid": "2f602ae2703fc3740aa88474b2a56a40",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        32,
+        32
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/tiles/tile_water_2.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "180b9261d6d5cc1810d0180700bbc08a6a6e9d7a9fd9de80e6011394e6ae35fb",
+      "metaSha256": "5965b931c93439b82278f7c8ccccabf6cbdf9b416d35ef3091759be12956b078",
+      "guid": "260eb4a789a7c114f80b8137e844bb6c",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        32,
+        32
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/tiles/tile_water_3.png",
+      "category": "legacy-or-other",
+      "width": 32,
+      "height": 32,
+      "pngSha256": "e6f1e3bd3bc6631e738e0a50db69e35216b19b999bcc164fae976ad7edc64add",
+      "metaSha256": "131d603f317e04140d5793a4d0aaf514727175abfb23d7069d4158daf886873f",
+      "guid": "eab16a0600fb45848af4e5dcfa735ddb",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        32,
+        32
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/CozyGardenAssets/tiles/tile_water_strip.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 32,
+      "pngSha256": "4fcbf8cca243ce3a6781736146f3c8ae1ea8c5cb33eff1bfeb721bf22d4d27c9",
+      "metaSha256": "ddbcafe06a9a62ac7dc53b615d8127836b7514d9775c750062e715dd374ded71",
+      "guid": "0464c496acfc42a45a81c7c685a4d20a",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        128,
+        32
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_1_1.png",
+      "category": "pixel-item",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "c9737bf2ed83941035039242ffc403e74face196d09fa3ae34d8b7c9f8b41ae0",
+      "metaSha256": "e089802d3c546a48b7fb67510994388a09e6f93c9b6ae99e00b72579bc83ffba",
+      "guid": "c4ddaec55afbac040870997a37330de1",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        9,
+        26,
+        56,
+        59
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_1_2.png",
+      "category": "pixel-item",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "1cd3c3898879954d820873c9920e6ebd6939f04bfa28c31bdd44f0bbe620ab0d",
+      "metaSha256": "c05401a12f36f9aebc8726ddc554660ae84785bec2be2d095f759fd124613b29",
+      "guid": "6140000a2ea81344483baf5345cc60e9",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        6,
+        26,
+        59,
+        59
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_1_3.png",
+      "category": "pixel-item",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "da38780b65d28b27906b24557f42e3f2ccbfc0cc43778588fe361fd682208238",
+      "metaSha256": "7bc52642373a4f1ca4a32928cd519cfe5697eb50ebdbe9e7170c8970d3334ed2",
+      "guid": "88c58cf5a9928aa4891927adefe864db",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        13,
+        15,
+        56,
+        60
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_1_4.png",
+      "category": "pixel-item",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "cac29f20c50aca9a595a69839c756506be657e2d56576686ffe7cb569be4744f",
+      "metaSha256": "529a306a968d5eeda9144c9a57ea507cf80489e600bb0f6907db7b2ea7daf4ec",
+      "guid": "871617a539678bc4c83eafc5ba04dc07",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        11,
+        17,
+        55,
+        57
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_2_1.png",
+      "category": "pixel-item",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "e71966694d96d718468f466ef4ad4eb341b8a82f62fb0940d8c4ec2b2821a15c",
+      "metaSha256": "b8beb053bd27da4cd12dd3839ae2492d3d3dca53d8f79f60011f0d88f0d1d92a",
+      "guid": "9b4ee984e19f38849b169fadcd2509a5",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        9,
+        26,
+        56,
+        59
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_2_2.png",
+      "category": "pixel-item",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "27c35fbf1555bde8751cae1139423e03ceaab63cb9097bd25bbe0e51fa96e60e",
+      "metaSha256": "5f9e3f7fc8c3d62ea6bc9d4401ce851921e502c197f6a0de16c7b4423f81fe8d",
+      "guid": "4cd2f12851519224da3ff1fb69b5ed29",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        6,
+        26,
+        59,
+        59
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_2_3.png",
+      "category": "pixel-item",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "7702593cb4c5de1cf1825656eca34d07dd3edaa44daa81ab00260262304f4b8d",
+      "metaSha256": "a9efc97eac40f438718b3742568b80a594f4dbc8865cd789c83bd38d65892638",
+      "guid": "bc042643747a89d459bce03bc283b517",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        13,
+        15,
+        56,
+        60
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_2_4.png",
+      "category": "pixel-item",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "a2bcc93f1f0a40f73729a5648f5d8d83dd6bbb261897fefdce4e5b991bf82c23",
+      "metaSha256": "151dab35d13c79ec1f3e985aac69bffd055cc0cbca87217d53a326ba86bb1de1",
+      "guid": "8d7786f1ca57bc24f9fccf20fcdaf2f3",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        11,
+        17,
+        55,
+        57
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_3_1.png",
+      "category": "pixel-item",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "236db88aa282e4837a73ba777edc11b86b62c6031efd0b0b31ba583e7ce236b4",
+      "metaSha256": "789c40f4b42dd9ee6787c282488608b4c2551c2948711a63ab13890ded0c1d2e",
+      "guid": "463aad5c0ad772946a77938e602c0093",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        9,
+        26,
+        56,
+        59
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_3_2.png",
+      "category": "pixel-item",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "34c3122685308dbe7a0a18399c1b9d0e2b19b3323b9d454122c541850ce01f0d",
+      "metaSha256": "d1722e1ec66e59bf75a23e20cb8524624baa413475636305d504783a3e90680c",
+      "guid": "16f6f4028ac24884bbecaedda4f2c904",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        6,
+        26,
+        59,
+        59
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_3_3.png",
+      "category": "pixel-item",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "f4cd1d1a247bcba2292bf0a362fcf92444a8261a13eba10fd9e30ea66f067522",
+      "metaSha256": "6e775f14cf390ae5cdc8fcf29881ad33b61c09ded27c2f8fe95eea0201b35178",
+      "guid": "ac02c86df6466df45aa23756f3dcbcf5",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        13,
+        15,
+        56,
+        60
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_3_4.png",
+      "category": "pixel-item",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "2ee7490c6cf358290c966eeb04c0f2fb570676f203f53d4f8ed7266baf0d4729",
+      "metaSha256": "ed5a3ff698da11c105299f91144ef183f2d1d0b3002f247e2502396d4f335808",
+      "guid": "0a7e43225732d294296aa359e3dd0b44",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        11,
+        17,
+        55,
+        57
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_4_1.png",
+      "category": "pixel-item",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "eaea4d87632f364b89905c399642022af8d59ec433f5906e09c1ca1b72ac9ee4",
+      "metaSha256": "1a57f153591fbefc000a09fe138e68edc33b8e82c6792bdbe1703897758b2e43",
+      "guid": "75470f6a0d272924fbe150e56345fe6a",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        9,
+        26,
+        56,
+        59
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_4_2.png",
+      "category": "pixel-item",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "5d4bd3f689bd4e0ef8d857809c42b450718d76d6f9b10ad4f63a1a5c81856c6f",
+      "metaSha256": "21b9e5ce7eb317995ce36b571241360def9fead5bdc1d9d26007e3bad573f195",
+      "guid": "1273a2baede20f64d8097d921cd73a81",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        6,
+        26,
+        59,
+        59
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_4_3.png",
+      "category": "pixel-item",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "4bf789a544106b4251b159e4e539226f0de7e58b680944b3cb1f2b462d9f2dbb",
+      "metaSha256": "c6a3675d409b25dd029b7cf9f977a68d3bcd44ea87a155e48f51877bd01f3d85",
+      "guid": "57bec29a1f623fe44b1d8fee68fbd6c5",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        13,
+        15,
+        56,
+        60
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_4_4.png",
+      "category": "pixel-item",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "0e3af1b0d1afd5eb1e33ff08a0d0a17a44b4c0f88eda8af8d945b7a2bb160a81",
+      "metaSha256": "76c95306fd3af70b352f0d5704e1445df74729789196df9498d2094ca27c86c8",
+      "guid": "7c74dd30ae7b9e3439b5c9b8c19684b2",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        11,
+        17,
+        55,
+        57
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_5_1.png",
+      "category": "pixel-item",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "fc5ebfebf55d0027a86d75354d35e2f6e1af9125d8b2384f6bce07421bdbba8b",
+      "metaSha256": "61292f7e33a2e6bb8402ed4a5e8d4295ee2e29235c6904ada52c2d3a473a28e0",
+      "guid": "b8efe5b83adcec84da581f367d93373c",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        9,
+        26,
+        56,
+        59
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_5_2.png",
+      "category": "pixel-item",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "462d7eb42cfdb80b6188585c312fea1b2179e1452777cd8a6ff9d79c716311aa",
+      "metaSha256": "eef45f6a1eab7452dd4f34b103d3d2caace0d347a38bd082415ada634f5d2983",
+      "guid": "a22ab024cb9dacf4dac1c886339df8d5",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        6,
+        26,
+        59,
+        59
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_5_3.png",
+      "category": "pixel-item",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "4428551e40604acfba1840efc7222b9bacab2804a7d9c441aa945857e9de0a56",
+      "metaSha256": "4ee518d16fcd31009611c037cf42cd82126836bf66acdaff6bddc8388bb1d9f2",
+      "guid": "74a3b87e042d75b40acad1da05457ef4",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        13,
+        15,
+        56,
+        60
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/item_5_4.png",
+      "category": "pixel-item",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "3136b6a3be6325d10ba17ca318a37b9c959750db022711a2145b2c5fa66dda56",
+      "metaSha256": "8d85db18c3b765752ff0abbee1b034cc0a42e9cb5b3650284bcaca86ceea7c95",
+      "guid": "6f21bd5611d9b2f448d41fa05fafe3c0",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        11,
+        17,
+        55,
+        57
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Items/Pixel/rocket.png",
+      "category": "pixel-item",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "5979159e15197e414064bf35317c42eba0b22284a203574aa19bc63ac2f34ee6",
+      "metaSha256": "b029ed46d6a988376ed090ebde77b5c9db719a2339882f47aa5d191bb5392773",
+      "guid": "1e1f80ee565fb094e9d95d08cedc11dd",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        20,
+        6,
+        45,
+        58
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Room/Furnitures.png",
+      "category": "legacy-or-other",
+      "width": 512,
+      "height": 512,
+      "pngSha256": "4a060052f7c904b7f890917db301cf8a38df0849883628b2ccc40570bcf91804",
+      "metaSha256": "d3fdc0ee1508200bb67ee227e8523fd3b19b806b7a836d919930576adb20e394",
+      "guid": "183e695bc832baa48af84e6b240e9f79",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        12,
+        0,
+        503,
+        507
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Room/Pixel/architecture.png",
+      "category": "pixel-room",
+      "width": 512,
+      "height": 288,
+      "pngSha256": "655ae13be0877e8f6aefd49389f6c8d7237aa74ec545d3d145860797e380faaf",
+      "metaSha256": "a6250231616880b8d2f715ac8568ee0a078d7cd6366edbefbb207a1a92ecd122",
+      "guid": "ea14fc91328dc5844aee0b39ea4d589f",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        512,
+        288
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Room/Pixel/bookshelf_lower.png",
+      "category": "pixel-room",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "fe2ab23a998711df58aefee2dc9c07f990c32f18ef64fb798b87246c7e3db356",
+      "metaSha256": "d88fdf9c858d258eae9c4648cda153619b49776f47cde859f5470071f83b2782",
+      "guid": "2b0d8c2752698d24091af72abea86643",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        7,
+        0,
+        56,
+        59
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Room/Pixel/bookshelf_upper.png",
+      "category": "pixel-room",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "4258d52b5533d86fd5253c70b0a0551dcc94bdd11f92b96aec3e43293290ae4e",
+      "metaSha256": "6c0913a88ba2d8b065481743c53bfbfaee00e96fb62cd5892e08e77700ccb698",
+      "guid": "d2538c9305118b14c859d51f51187c86",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        7,
+        5,
+        56,
+        64
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Room/Pixel/cat_bed.png",
+      "category": "pixel-room",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "4f2c4401b266ffe6c87d39b71460f37a1690bf20cf9002995265eaeecf61d044",
+      "metaSha256": "5dd21c01db7dde9ce247dace09df6c6c89c4f0a12a55081f0f97130b0e98561e",
+      "guid": "fe61d29e921de9f4884dddca3ac340c7",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        5,
+        29,
+        60,
+        61
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Room/Pixel/plant.png",
+      "category": "pixel-room",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "40cdc16711f42418b5a76efad937550b5b7432e75eca3ea90e27fefff1d34219",
+      "metaSha256": "d8ce1e951737df709d8f6dc3bc8b7b898602cd3a62f1dd99fc797e1785b58b89",
+      "guid": "8117de92766a2254da1ea3abf18da32f",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        9,
+        5,
+        54,
+        58
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Room/Pixel/scratching_post.png",
+      "category": "pixel-room",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "957e1c0bbeb6520de81d5c534305d546aa5a20142960b937720d45d9dbfec01f",
+      "metaSha256": "46d8e38d0ba4ed3c141efd63999471e003d032e3403231d3973448edb32aa524",
+      "guid": "b904a1192efe7c94aa6bf5198e5c8ec2",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        8,
+        13,
+        55,
+        61
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Room/Pixel/window.png",
+      "category": "pixel-room",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "195a7588adf50eb040493e44418cf0a20c97f2d3f759f7948fddb81fcbe35e4c",
+      "metaSha256": "552c73f8b66c46ba4d77cad99383e8ef8848c2d6b60e7042667d21d525439a33",
+      "guid": "5e674ee644029a54f95f5de7dcaacfa6",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        7,
+        8,
+        58,
+        57
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Room/Room.png",
+      "category": "legacy-or-other",
+      "width": 512,
+      "height": 512,
+      "pngSha256": "516dd3ea67ee2e8b1e9c9b9b600ae132b869caab27511b9b8186244aa641d402",
+      "metaSha256": "dcfaccdbc5b25a002f3d33edb518558883e8771ed4d4b49f9d54d904d6c95c7f",
+      "guid": "ec60b74e781969a4e80ded1763539641",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        512,
+        512
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Room/RoomEmpty.png",
+      "category": "legacy-or-other",
+      "width": 512,
+      "height": 512,
+      "pngSha256": "ec4d344d68644361fe5e707d9b771540328759667a79322e30814a3690d78326",
+      "metaSha256": "b216b54302767ac296ca8aa64e5f8c3a23c11d7b4b5b0de151d850da8908661e",
+      "guid": "9b974fe3911148a4bad4f52f4bdb2652",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        9,
+        27,
+        505,
+        463
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Room/RoomPixel.png",
+      "category": "legacy-or-other",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "9c2a33a9bc65160b3fdf94f92de92fe29dfa3d521bd6aba41d9d2d2db20ca202",
+      "metaSha256": "446b73503c7b60a694182696904ec8b80ac10e1f939239f892b827a38cf64307",
+      "guid": "1e04fa4fafc2558428012df19246bc0e",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Sprout Lands - Sprites - Basic pack(1)/Sprout Lands - Sprites - Basic pack/Objects/Basic Grass Biom things 1.png",
+      "category": "legacy-or-other",
+      "width": 144,
+      "height": 80,
+      "pngSha256": "22938e24b511139f5552795429250fbdbbaeb6f5e849cab91bc83ac0a1f12586",
+      "metaSha256": "42683ab4280d1fcddb86e5230ec64b291f0f245df346e05aee73d12b1e9c3d2f",
+      "guid": "6968b4dc6265de64bb758b0c3f5f7f2f",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        144,
+        80
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Sprout Lands - Sprites - Basic pack(1)/Sprout Lands - Sprites - Basic pack/Objects/Free_Chicken_House.png",
+      "category": "legacy-or-other",
+      "width": 48,
+      "height": 48,
+      "pngSha256": "4f3b63af9e228d88916c452dc5401d77f321b98c523f274a3e388654d87d82d3",
+      "metaSha256": "842c4eec470387a91453af0dd04c6679d6feab28b6d1558fab0845179a8b3362",
+      "guid": "8973dcfedb477824d8b4bede4c5d7c99",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        5,
+        0,
+        43,
+        48
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Sprout Lands - Sprites - Basic pack(1)/Sprout Lands - Sprites - Basic pack/Objects/Paths.png",
+      "category": "legacy-or-other",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "b58d1330c3fb9334d5524ed108f9f068fa2c350dd54501ff59350ac4d471124a",
+      "metaSha256": "c2b0b01012db95b7d467fabb533f39e0c9ef377fa2ef4e8d3e5db9061a9d667d",
+      "guid": "937ceaf87631ad747b1726ea2e85cc8d",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        1,
+        4,
+        59,
+        63
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Sprout Lands - Sprites - Basic pack(1)/Sprout Lands - Sprites - Basic pack/Objects/Simple Milk and grass item.png",
+      "category": "legacy-or-other",
+      "width": 64,
+      "height": 16,
+      "pngSha256": "0d84a6f984a199a4d5a4abd30d34450551ced0472224ec4be13310f38dc424b3",
+      "metaSha256": "9737e837190e4c95cd4b8dbd112e4b4faa441f5decdb2b954c255bb3fcd94a7a",
+      "guid": "47d64c1d0a8db6e4db5a1435bc74a1be",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        2,
+        0,
+        64,
+        16
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Sprout Lands - Sprites - Basic pack(1)/Sprout Lands - Sprites - Basic pack/Objects/Simple_Milk_and_grass_item.png",
+      "category": "legacy-or-other",
+      "width": 64,
+      "height": 16,
+      "pngSha256": "0d84a6f984a199a4d5a4abd30d34450551ced0472224ec4be13310f38dc424b3",
+      "metaSha256": "d71036935044dc7aebdab067482f84e26fc787a0226e02d157d13590a06462f8",
+      "guid": "26563f01e7e962546bd2a99672ce32c8",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        2,
+        0,
+        64,
+        16
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Sprout Lands - Sprites - Basic pack(1)/Sprout Lands - Sprites - Basic pack/Objects/Wood Bridge.png",
+      "category": "legacy-or-other",
+      "width": 80,
+      "height": 48,
+      "pngSha256": "155a91eddb204f8e930158d1428528eb06cc17be9138fcc33b70fa5b83346d12",
+      "metaSha256": "638c27d244e7979ec9ebc2cb381fc00022753f5da850afc44fd0b865621e1db5",
+      "guid": "f573a8b0e47835f4c9592be4a3a18ad0",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        77,
+        45
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Sprout Lands - Sprites - Basic pack(1)/Sprout Lands - Sprites - Basic pack/Objects/Wood_Bridge.png",
+      "category": "legacy-or-other",
+      "width": 80,
+      "height": 48,
+      "pngSha256": "155a91eddb204f8e930158d1428528eb06cc17be9138fcc33b70fa5b83346d12",
+      "metaSha256": "eb68b3fc1f02629522f38c94860f137c6f0859b8e1462cf4bf81931fb2fa0d95",
+      "guid": "37430137f5a2c244a80d90938ff14c62",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        77,
+        45
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Sprout Lands - Sprites - Basic pack(1)/Sprout Lands - Sprites - Basic pack/Sprout Lands color pallet/Sprout Lands defautlt palette snip.PNG",
+      "category": "legacy-or-other",
+      "width": 236,
+      "height": 371,
+      "pngSha256": "26812a0a62402c98f6796c1df90a5768f404f71df21ea50605cbf9cafdff93d1",
+      "metaSha256": "8ef124e0da5af8e0e76ca2040c0c5bbe8d08d88afcd80335c532b29664ae5315",
+      "guid": "f3ccfce8d2eda6d48a74cf3579d2cf85",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        236,
+        371
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Sprout Lands - Sprites - Basic pack(1)/Sprout Lands - Sprites - Basic pack/Sprout Lands color pallet/Sprout Lands defautlt palette.png",
+      "category": "legacy-or-other",
+      "width": 16,
+      "height": 7,
+      "pngSha256": "f299ebfb5f4a1bbf9cbb3f94cf55e9c1736c0fccc6dd354947fc3a48f9ecd883",
+      "metaSha256": "1e4e1428b3ec05dc38545c2992042a19edd38edfb086f901102c6f0e8662e611",
+      "guid": "327c57f2b06f557488a03a9e27db2704",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        16,
+        7
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Sprout Lands - Sprites - Basic pack(1)/Sprout Lands - Sprites - Basic pack/Tilesets/Doors.png",
+      "category": "legacy-or-other",
+      "width": 16,
+      "height": 64,
+      "pngSha256": "26c28a634f3a439f00fa026f9e24055f359c4d9201c0118529d18b7f087ea34e",
+      "metaSha256": "bbb8a2c9b1725d4acf7b701f4f65bd54b00524cad8fcbf9009e95a2119c4a897",
+      "guid": "dc504f7f2d0e6d340b3bcf996c84c530",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        16,
+        64
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Sprout Lands - Sprites - Basic pack(1)/Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png",
+      "category": "legacy-or-other",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "211ecb752d2bc8cc434662440d6cd864d58d8ce4720063964cac27e59559c52b",
+      "metaSha256": "367e674bc875144e853fd74ae808ecbafd007b53d175bea5c44258c8f5e5d431",
+      "guid": "ddca6d481e996a74ba540cb4dca27a9d",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        5,
+        1,
+        59,
+        60
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Sprout Lands - Sprites - Basic pack(1)/Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png",
+      "category": "legacy-or-other",
+      "width": 176,
+      "height": 112,
+      "pngSha256": "97eedc32f4c33005ab2abb26a034ce1b32428da321e3052082c87d320c0e1cbe",
+      "metaSha256": "12628ce333384338e47bdf88ef721fea07aea09f6151b9a1902f728eec226625",
+      "guid": "7a0af48750519ab409b77819ba7f71cc",
+      "ppu": "32",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        176,
+        112
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Sprout Lands - Sprites - Basic pack(1)/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png",
+      "category": "legacy-or-other",
+      "width": 176,
+      "height": 144,
+      "pngSha256": "37ee6663235874daa235b290420b75e3de81e15e6459cfedfa225e288ee65d19",
+      "metaSha256": "55b1ab31736048cb0e33f848e11946e3ae26530ae7db37588b370714aaacb4b5",
+      "guid": "22139670b649ffb43a27ebbd6d40dcc7",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        176,
+        144
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Sprout Lands - Sprites - Basic pack(1)/Sprout Lands - Sprites - Basic pack/Tilesets/Tilled Dirt.png",
+      "category": "legacy-or-other",
+      "width": 128,
+      "height": 128,
+      "pngSha256": "4ac254268b4d2176a19340bd561f8a5cbb544ad13953ba2cd877812840266b52",
+      "metaSha256": "96a428405fce6f3285b4c6ca35f9fcd3fa004c7e3e7c3d6913826c26cc9d44f8",
+      "guid": "471d3f2f5f3ca02468ce411f73612bb7",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        128,
+        128
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Sprout Lands - Sprites - Basic pack(1)/Sprout Lands - Sprites - Basic pack/Tilesets/Water.png",
+      "category": "legacy-or-other",
+      "width": 64,
+      "height": 16,
+      "pngSha256": "02ce64243bb17f62fff0bd44abf661ab5efb8dd6a85fd7e304e73e2fd3188f95",
+      "metaSha256": "71f22bf1e3764c54ff54e94aae30ee2115e161a868f05ec416a94c0957983d0e",
+      "guid": "306ecdf8f41778145ac7dc8fe20dba0d",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        64,
+        16
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/AchievementCityLights_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "2bc2a0db3a9c8352a2a2b098734cfde854c617c2aacaad6985c7bdd73698bcad",
+      "metaSha256": "c3260e1811b7734b5a50064885653b85ccb0e5ae6301fc001585dd1ab3f03dfa",
+      "guid": "ac1427b7a27353f438f176dd7c0db885",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/AchievementCloudNest_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "0fcd77aa42d8dfc4684ba92fc75c00bf733e5e996bb488c1ca2782eec0a54d49",
+      "metaSha256": "50b5e7e6580aad37c534bb234d349e565ad96b693160b2c4734afb898eb245d3",
+      "guid": "e7b01308e441a09469b3fe3767593d2d",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/AchievementCrowdedNest_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "3c6eba1cc0735af9386edb554bd75e8213677d50fe0fd722cfd6c84b0f723779",
+      "metaSha256": "b3dddb3288122cc59eac95254ad833d5135ecb3aaeb54405c52b897711e2eb0e",
+      "guid": "f52b3d4fa09bd9f418fe89ef398d75d6",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/AchievementFamilyOfTen_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "cb0703ab0f0102df08aef3dc8965eb44d2f0d908508d9a33018efbc22957c8c7",
+      "metaSha256": "f4861b25534be0a86d906642ef05deb216fd268984ee3c6a3246aee0dc0b8949",
+      "guid": "ab28fb9328a41424d918b62778ea5ed8",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/AchievementFirstClick_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "2d0acacb68142c801a51d38235d617378aeba85030a1ac8f27d054ea2854debb",
+      "metaSha256": "66fe7018b7adc1c3185fd210bef195701986615975cf0c51575ea1ea2001fcc7",
+      "guid": "52dcd42d2475932449bc8841e2f7e544",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/AchievementFirstTuft_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "1f8214cfd7fa3f45180deaa1961b64ced8b2fbd672659b8ba5c4116253e3332a",
+      "metaSha256": "2b93545c54adc7559daad66e2cad1f9bfb47750f3c2eeab19aa633020182b54a",
+      "guid": "d3288dd195dd2274c9a7c3547aad38d0",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/AchievementHundredCats_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "4379157ef44b95676934148484d8041a0dfd68368906e2bd1672526910d6205e",
+      "metaSha256": "f284b02704ef4bbeafe00f1df40eb789079dd0c51a5a6764728dcdc0f1d34c8f",
+      "guid": "8c03b4a085a1afc45831ee33b92afd67",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/AchievementHundredThousand_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "0aa8b446e8bd423e8334426c77889c94463ba542a4c7c16b9ceace2f2d57eee3",
+      "metaSha256": "4b2e1398c66b61832d1af5aba1ed9fd6e1ef2bcc1be1bbf7cb291cd44851a752",
+      "guid": "d7cd4a5fcb5d3594893cdede8095ce03",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/AchievementLotsOfPoints_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "5cd63c99e8c870151dce71a9cbe631971e30b6ebbed930681b5346a9c1c79f1c",
+      "metaSha256": "3016a6ec1e8c9dcffd4cfec7776ff6aeb9502e335222c746e097a1dcadeaafc5",
+      "guid": "b4beeca9273b4f9488fee1c9f12ef4bd",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/AchievementMaxScratcher_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "d6dbf57a23cd62931fa9046ff8eefa76eae8c8574b9cbf0e11ca7d97ea4db44d",
+      "metaSha256": "f73437c80dece09ec99752ebc1e2704f5ec9c0f8e0d4d02df536f0c2fc818e6a",
+      "guid": "e34f95c472f5df7459cdb166e27584dc",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/AchievementMillionaire_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "f8168b1ed1b82129279f3e5e01a46bdb2443e915e731aea1dc4a688d34c7578b",
+      "metaSha256": "dd5674989cf7844964292d0c7a647b58319ae1b79437a51894b522a247feacb1",
+      "guid": "b572ff91fcf96164b8d5d7575128e030",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/AchievementNewNeighbor_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "4bcbc0a2fc878fd9036faf6e98db4d577a1ef0b40bb2f657b3a6f865c5244470",
+      "metaSha256": "2d1175abdc34c26f04a18feed83a831f680ed343b607e6633a6c04e2dbb8f3c2",
+      "guid": "caa9f02cb4cfedb45a00d356f0a4e9c6",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/AchievementTenThousand_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "e7c0cfc6daf25850be554e163eaa2122b4c1847237a3d5e8988d59e27009bd13",
+      "metaSha256": "3b87f1a83ccca12513ed7bb35ed033ecd57f841ea2dd1ee5ec4d4f86e20cb501",
+      "guid": "94fcec621921ae348aeec480fc81ef2c",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/AchievementThirtyCats_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "2e06d3f83e323590d9fceb19f8a9112f01f995b322104539292a69aba29e4d61",
+      "metaSha256": "4bdad301c9e0a5f73d2ba16190ab455e3b9c68a7946c9e29ac12946834e3609f",
+      "guid": "62a77d0b6a3f91a4198630a47a9bc33c",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/AchievementThousandClicks_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "73acdd40cbc7bbca762315a5deb9d9b8977edbe3b5ca2b26e8e8f5941a93f36d",
+      "metaSha256": "305e3fade27d61c7081f5342e8b04aab6782c1232e5c709ba4434b4f557aec69",
+      "guid": "d6e699e293f0d6746a15527a9ce7a29d",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/AchievementUnstoppable_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "8defcdbd04fa3923ae5dc557821d260cf0219596177a10fdda065f751e027b13",
+      "metaSha256": "77387d17eb3eee88c83cc47db348d197dcd80f40758e9ca8b214516ff648c7ed",
+      "guid": "5882465a5d5a90e478061f95298401ab",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/EndingRocket_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "a7f5521b3087566e469ca3b881acc92d33ee57593495a4dbf41c3bfc910af589",
+      "metaSha256": "0b1181efc177b7ac13ebdaaf09766842d5d8c34f019147d62a9907d0cc143722",
+      "guid": "8345854d40ee4fe4789a8ad719728259",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/MenuMomo_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "096542ef642f32c460b849c2c3dbfe64b98df09c4e425ded8b38e4a78317aa91",
+      "metaSha256": "a4b0bcf8225429336374554e32ee08e3f5a954d8c9f1461ad4e64514b782124e",
+      "guid": "d9e522442da3baf44a3b029350225646",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/MilestoneEleven_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "fc5dc30c33b134dc5576b1fac247d5198b3eb9a96b4ccb1450a33da77c53ec12",
+      "metaSha256": "530818ac9b2e74cd39ab3540c532f9a064d5548a66a28275e143d7202bfd31c5",
+      "guid": "8ede6955180bbca45ab2f5a3663b3d75",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/MilestonePlanet_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "6d5b96b62a0e1c30560d709eb72553a6055a055949147b181b865c982182c053",
+      "metaSha256": "879322dd7bb9bb20c43a2289af2269d9a39af9f6b0866ba86d801161bebdad72",
+      "guid": "f3c8f41699813034d8bbc5d40022f6aa",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/MilestoneSix_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "bd4037a37cf708b8f8b3eb4a6198c8b1c2f0a887bc78e9238bc7812404ecccc3",
+      "metaSha256": "cf8824bd7ed700d3a7741d3c63a08ee503926a37284692cb654ff41abba1458c",
+      "guid": "f74a97e1f5b7c9847882294a65d626ce",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/MilestoneThree_v1.png",
+      "category": "illustration",
+      "width": 1672,
+      "height": 941,
+      "pngSha256": "d61f6ab4ba74db0a73449e7bb819fc4b00f348c24471c270e4499a2c5c3b779a",
+      "metaSha256": "a4b847ddb0df34046247aecaaecb5b409b84453593ee0197c7fc157019c8f06e",
+      "guid": "71ff49af08c76934797552a7e71a3ea5",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Story/MomoPortrait_v1.png",
+      "category": "illustration",
+      "width": 1214,
+      "height": 1295,
+      "pngSha256": "4a3d87ddf28d759117ecc1fce130569c22fb7440c85f7a046a85940ce0e328e2",
+      "metaSha256": "1ac9ce4c475a568cddb8bcb27bcc2e4b39c546c40dfb8a8914e34de2e419401a",
+      "guid": "e6fddcdaac6a0b74fb3e612c74916249",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "1",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        1196,
+        1295
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/Tiles/spritesheet_x4.png",
+      "category": "legacy-or-other",
+      "width": 768,
+      "height": 512,
+      "pngSha256": "e6b86edeb444ee49c06b79cc70413a7546ef773fd3763a27aa8a857a46c97730",
+      "metaSha256": "b30793986c6dd27a3d82060b31c90981268f78e68bf122efb48dcc209975e9e8",
+      "guid": "d8cbcef358514bf47ab2bf6d3616f105",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        768,
+        512
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/UI/Kit.png",
+      "category": "legacy-or-other",
+      "width": 256,
+      "height": 128,
+      "pngSha256": "00abeaff7ebe15875a366c206d887eda5831ce350cd3208a683e45f48911c57b",
+      "metaSha256": "93a83b1e6e58766064aa1fa87c7797d791a1fd196301df3423103ea450f1eda4",
+      "guid": "850ac1c35e2953844b981c19f544efb1",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "2",
+      "alphaBoundsTopLeft": [
+        0,
+        1,
+        255,
+        127
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/UI/Pixel/circle.png",
+      "category": "pixel-ui",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "c9f7fff11e0b61056ebaddf56e56bc532f9a0698ff946baa60cc06d185aae5e3",
+      "metaSha256": "dfd14a3afe63768bd9ae189398bc12695ca41ff53dece84aa043dcd0532f4084",
+      "guid": "f9b7b64b930044b4babbff151856f8ec",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        2,
+        2,
+        62,
+        62
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/UI/Pixel/panel_pill.png",
+      "category": "pixel-ui",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "9737dd836557ceda93aef07986a5fce4ac101b3c2e5a41ef3618419f8dda9e31",
+      "metaSha256": "95d49bc2205e0c8ce27fe76227c355fd9dbb6d60a59a9bd14485fc9c85dcf667",
+      "guid": "b34feff0374de9b4db9fb11334528728",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "path": "Assets/Resources/Art/UI/Pixel/panel_soft.png",
+      "category": "pixel-ui",
+      "width": 64,
+      "height": 64,
+      "pngSha256": "d0fd24b4384c61d2991cc3439f01225403461f1e8467b5c5ea865ffe3f2fedee",
+      "metaSha256": "f4bae80ffa451de7477ad01538455c4371b190a1cd1b50f1a24ce8ecad30419d",
+      "guid": "8373f83d5930ff544b013603100bcbae",
+      "ppu": "100",
+      "pivot": "{x: 0.5, y: 0.5}",
+      "alignment": "0",
+      "filterMode": "0",
+      "mipmaps": "0",
+      "userData": "catgame-import-rules-v1",
+      "spriteMode": "1",
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        64,
+        64
+      ]
+    }
+  ]
+}
