@@ -51,6 +51,22 @@ assert debug['connected'] and debug['frozen'] and debug['pid'] > 0
 package = read('distribution/package-manifest.json')
 assert len(package['files']) == 152 and package['all152ZipFilesReadBack']
 assert package['apkSha256'] == upgrade['apkSha256']
+release = read('distribution/release-verified.json')
+assert release['tag_name'] == 'v1.1.0' and not release['draft'] and not release['prerelease']
+assert release['tagCommit'] == release['target_commitish'] == package['releaseSource']
+assert release['latestIsUnified'] and release['fourOldReleasesStillPublished']
+assets = {item['name']:item for item in release['assets']}
+assert assets['CatGame-Windows-x64-v1.1.0.zip']['digest'] == 'sha256:'+package['zipSha256']
+assert assets['CatGame-Android.apk']['digest'] == 'sha256:'+package['apkSha256']
+for name in ['SHA256SUMS.txt','Install-Android.txt']:
+    # The curated text may remove a UTF-8 BOM or redact paths. GitHub uploaded original bytes.
+    provenance = json.loads((ROOT/'provenance.json').read_text(encoding='utf-8-sig'))
+    row = next(item for item in provenance['files'] if item['path'] == 'evidence/f1/distribution/'+name)
+    assert assets[name]['digest'] == 'sha256:'+row['sourceSha256']
+    assert hashlib.sha256((BASE/'distribution'/name).read_bytes()).hexdigest() == row['publishedSha256']
+scope = read('distribution/scope-audit.json')
+assert scope['forbiddenPaths'] == scope['privateQaMarkers'] == []
+assert scope['onlyTagSourceDifference'] == ['README.md']
 cleanup = read('cleanup.json')
 assert cleanup['shutdownComplete'] and cleanup['remainingOwnedProcesses'] == []
 assert not cleanup['phoneOperated'] and not cleanup['mumuOperated']
@@ -60,3 +76,4 @@ for item in manifest['files']:
     assert 'windows-user-save-backup' not in item['path'] and '/registry/' not in item['path']
 print('PASS F1 red/green, full engine suites, native Player, upgrade, Appium touches/ending/cutout, packaging and cleanup')
 print('PASS public manifest SHA256:', len(manifest['files']), 'files; historical rows retained')
+print('PASS shared v1.1.0 release, actual tag commit, server attachment digests and preserved old releases')

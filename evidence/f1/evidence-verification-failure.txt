@@ -1,0 +1,6 @@
+公开回执核验首轮失败（从实际工具输出保留，2026-11-16）：
+来源代码586eee3；发行包/服务器核验已通过，失败是整理后的文本比较方式。
+verify_f1_evidence.py line62:
+assert assets[name]['digest'] == 'sha256:'+hashlib.sha256((BASE/'distribution'/name).read_bytes()).hexdigest()
+AssertionError
+原因：Install-Android.txt原附件含UTF-8 BOM，公开整理按utf-8-sig读取移除BOM，publishedSha不同于sourceSha。修正为服务器digest对sourceSha，公开副本对publishedSha，不改附件字节或已通过的摘要。

@@ -13697,8 +13697,8 @@
     {
       "source": "tools/art_audit/publish_f1_evidence.py",
       "path": "harness/f1/tools/art_audit/publish_f1_evidence.py",
-      "sourceSha256": "ede165d279ce235f8e81fb0bff24f5c21a9b30fa0e935c348897fcd435a2a453",
-      "publishedSha256": "bf7dfe81d0a40c0f7d990e0f5e884865aba52a7269fd34d108a156d01e05db3a",
+      "sourceSha256": "e1528a56d768568d6df47f9e1a28c36d97f6e27b56541940b411bce06354cc77",
+      "publishedSha256": "a289dba270e774651ccd8f786057bc3b63c8f3c5dc8b9d983bdd5999a94dab12",
       "transformed": true
     },
     {
@@ -13781,15 +13781,15 @@
     {
       "source": "docs/F1素材尺寸与像素显示统一方案.md",
       "path": "reports/f1-plan.md",
-      "sourceSha256": "10cf5d1e87cf54172ce9d430ba030b196e922c82331d396685c3acac2051d9d2",
-      "publishedSha256": "10cf5d1e87cf54172ce9d430ba030b196e922c82331d396685c3acac2051d9d2",
+      "sourceSha256": "67d8e3f10909c744349b69d09d8b77656675cc94fc583b9d725402bc11a6e52d",
+      "publishedSha256": "67d8e3f10909c744349b69d09d8b77656675cc94fc583b9d725402bc11a6e52d",
       "transformed": false
     },
     {
       "source": "docs/F1素材坐标与像素显示测试记录.md",
       "path": "reports/f1-test-history.md",
-      "sourceSha256": "d04797ef1e8868c465ec1d571f6351eaec2b7138d534d25f62bd948930dd9d3d",
-      "publishedSha256": "d04797ef1e8868c465ec1d571f6351eaec2b7138d534d25f62bd948930dd9d3d",
+      "sourceSha256": "5a77934ff97e2383fe402b74e39172804209bf5e67e4dc072ff6a6439b973a9e",
+      "publishedSha256": "5a77934ff97e2383fe402b74e39172804209bf5e67e4dc072ff6a6439b973a9e",
       "transformed": false
     },
     {
@@ -13802,8 +13802,8 @@
     {
       "source": "docs/版本与发行对应说明.md",
       "path": "reports/version-management.md",
-      "sourceSha256": "12492d4f7677ca2b7a948b05540b18d694ae4074545fc84ec4638f9769601a07",
-      "publishedSha256": "12492d4f7677ca2b7a948b05540b18d694ae4074545fc84ec4638f9769601a07",
+      "sourceSha256": "f1df5efd5933e73bb1c88aa667b0234770e01e5d3a3c7503b1ecfd91340c24fe",
+      "publishedSha256": "f1df5efd5933e73bb1c88aa667b0234770e01e5d3a3c7503b1ecfd91340c24fe",
       "transformed": false
     },
     {
@@ -13991,8 +13991,8 @@
     {
       "source": "tools/art_audit/verify_f1_evidence.py",
       "path": "harness/f1/tools/art_audit/verify_f1_evidence.py",
-      "sourceSha256": "e91372ed981090614271148ee63dfb2b1d1414c1715e621a5222a77eebfd9019",
-      "publishedSha256": "e91372ed981090614271148ee63dfb2b1d1414c1715e621a5222a77eebfd9019",
+      "sourceSha256": "fd09a364da951bb84b6a3b7bb39a18c5dbcdfcc826f57230508ccd6eb4c66e17",
+      "publishedSha256": "fd09a364da951bb84b6a3b7bb39a18c5dbcdfcc826f57230508ccd6eb4c66e17",
       "transformed": false
     },
     {
@@ -14075,8 +14075,8 @@
     {
       "source": "docs/F1素材统一交付报告.md",
       "path": "reports/f1-release-verification.md",
-      "sourceSha256": "c53648a4d64cda08eb311ed6fc0f33ac3accc3d5be63e6d3b2e9ecd40088f0a6",
-      "publishedSha256": "c53648a4d64cda08eb311ed6fc0f33ac3accc3d5be63e6d3b2e9ecd40088f0a6",
+      "sourceSha256": "c7c4bedc3ae83ea911453961240cada279d1b86578fe1702ee784b5cba727044",
+      "publishedSha256": "c7c4bedc3ae83ea911453961240cada279d1b86578fe1702ee784b5cba727044",
       "transformed": false
     },
     {
@@ -14091,6 +14091,27 @@
       "path": "evidence/f1/distribution/release-draft.json",
       "sourceSha256": "84a38343112b9060c26318e95ce65523cbc800bdc47c1413307559586f24bb74",
       "publishedSha256": "84a38343112b9060c26318e95ce65523cbc800bdc47c1413307559586f24bb74",
+      "transformed": false
+    },
+    {
+      "source": "Build/F1/distribution-v1.1.0/release-published.json",
+      "path": "evidence/f1/distribution/release-published.json",
+      "sourceSha256": "a3c02634b8b40ff4a6021d65a047338501f40a1d9db44914c8abef13ac7bd47c",
+      "publishedSha256": "a3c02634b8b40ff4a6021d65a047338501f40a1d9db44914c8abef13ac7bd47c",
+      "transformed": false
+    },
+    {
+      "source": "Build/F1/distribution-v1.1.0/release-verified.json",
+      "path": "evidence/f1/distribution/release-verified.json",
+      "sourceSha256": "18cebbd959ae0aedfe0eb62dc876b74d5df8c00ccd6b01a65ea8eb8c474486e0",
+      "publishedSha256": "18cebbd959ae0aedfe0eb62dc876b74d5df8c00ccd6b01a65ea8eb8c474486e0",
+      "transformed": false
+    },
+    {
+      "source": "Build/F1/evidence-verification-failure.txt",
+      "path": "evidence/f1/evidence-verification-failure.txt",
+      "sourceSha256": "cb74d88f4c0e14e4507a73bdd8e8c311205664ab2ac489c856f35c778b8e9398",
+      "publishedSha256": "cb74d88f4c0e14e4507a73bdd8e8c311205664ab2ac489c856f35c778b8e9398",
       "transformed": false
     }
   ],
@@ -14127,7 +14148,7 @@
     "runtimeGameSource": "f536871",
     "testsSource": "see source.txt / harness snapshot",
     "publicTagCommit": "1b82df94157bbcf370421207ed1d342ac272bb48",
-    "harnessSnapshotRootCommit": "d72dd8b5d69cd8f16dfe8f4d54b829164a5f3cd1",
+    "harnessSnapshotRootCommit": "becf537bc0dade8a701c0fd07dc6a49ef184d72f",
     "originalUserSavePublished": false,
     "debuggerRegistryPublished": false,
     "rawSuccessAndFailurePreserved": true

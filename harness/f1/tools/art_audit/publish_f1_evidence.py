@@ -52,7 +52,8 @@ runs += [f'android-touch-{i:02}' for i in range(1, 10)]
 runs += [f'android-safearea-{i:02}' for i in range(1, 8)]
 for run in runs:
     directory(LOCAL / run, 'evidence/f1/' + run)
-for name in ['migration-comparison.json', 'pure-source-staging.json', 'cleanup.json', 'privacy-scan.json', 'appium-http-steps.txt']:
+for name in ['migration-comparison.json', 'pure-source-staging.json', 'cleanup.json', 'privacy-scan.json',
+             'appium-http-steps.txt', 'evidence-verification-failure.txt']:
     publish(LOCAL / name, 'evidence/f1/' + name)
 for run in ['windows-release-probe-01', 'windows-release-probe-02']:
     for name in ['result.json', 'steps.json', 'debugger-smoke.json']:

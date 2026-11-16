@@ -118,3 +118,10 @@ android-safearea-07 Robot1/1通过普通f536871/code6。AVD原生2220×1080，Wi
 配合Windows三尺寸原生显示/点击、Unity2712×1220投影用例、Android1600/2000/1200×900触摸、上述真实切口，F1.4完成。F1.5引擎规则与真实对象（Edit81/81、Play92/92）、独立原生Player、普通Android Appium、普通Windows修改器和结局均有分层记录，进入证据整理及最终发行核验；短时百猫仅为边界/显示回归，不宣称小时级稳定性、真机性能或所有Android设备适配。
 
 逐步输入取证追加：本轮Appium服务端HTTP请求/响应813行按时间筛选到evidence/f1/appium-http-steps.txt，保留实际clickGesture坐标、键值、截图请求和返回状态；仅移除启动capabilities与替换会话标识，不改操作结果。完整服务端日志留本机。safearea-07对应最后一次会话：1854,446继续；1176,623关闭离线框；HOME后存档核对。它是从实际日志提取的证据，不伪称脚本当时新增了逐步打点。
+
+
+## F1.6最终发行与清理
+
+v1.1.0已公开，Git标签实际提交1b82df9，运行时代码f536871，唯一差异README。四附件在同一Release，服务器摘要与本机一致：Windows ZIP073a51f12cf38029e36051f44f14d6e0e2dc7bd9aab3c2c3aad7a44fed86fbc8；APK8e32a1f2b1192ac7fba2bb15bf904feaf8015b4cf730f8a6113026d9ffa44d9f。旧四发行仍公开。首次Git直连超时，改用本机已有代理完成推送，不强推或改旧标签。普通APK签名校验有效，保留apksigner对META-INF附加元数据未受JAR签名保护的警告，不宣称日志零警告。公开源476路径无测试/QA工具，原用户备份与连接令牌不公开。自有ADB/Appium/AVD退出并复查无残留，F1.6完成。历史待办及小时级/真机新性能不因此自动完成。
+
+最终证据核验补记：首轮公开回执核验将去BOM后的Install-Android公开副本直接对比GitHub原附件摘要而失败。源586eee3的异常留在Build/F1/evidence-verification-failure.txt；修正为服务器对provenance.sourceSha256、公开文本对publishedSha256，不重写已发行附件，也不降低摘要校验。该问题归于证据核验脚本，不计产品Bug。
