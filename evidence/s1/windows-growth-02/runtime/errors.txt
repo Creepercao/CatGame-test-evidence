@@ -1,0 +1,11 @@
+[PlayerVisualQA] owned QA window has foreground focus before any input
+UnityEngine.Debug:LogError (object)
+CatGame.PlayerVisualQA:Require (bool,string) (at PROJECT_ROOT/Assets/Scripts/PlayerVisualQA.cs:407)
+CatGame.PlayerVisualQA/<GrowthNativePet>d__56:MoveNext () (at PROJECT_ROOT/Assets/Scripts/PlayerRoomGrowthQA.cs:64)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+InvalidOperationException: owned QA window has foreground focus before any input
+CatGame.PlayerVisualQA.Require (System.Boolean condition, System.String message) (at PROJECT_ROOT/Assets/Scripts/PlayerVisualQA.cs:409)
+CatGame.PlayerVisualQA+<GrowthNativePet>d__56.MoveNext () (at PROJECT_ROOT/Assets/Scripts/PlayerRoomGrowthQA.cs:64)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at C:/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+

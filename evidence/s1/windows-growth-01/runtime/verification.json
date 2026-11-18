@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "source": "3067c8b94a8fbea54022ab354f0db4177b446062",
+  "artifacts": [
+    {
+      "path": "starter-1920x1080.png",
+      "sha256": "f489764f480c57b244f1953b0af65f9aa15ce75689c5a06b8f3b7ec5179e2563"
+    },
+    {
+      "path": "starter-1600x900.png",
+      "sha256": "6a105cf61b71da35d0c27991a0102c2114777b0eb7e31ea3df029f59231b11ab"
+    },
+    {
+      "path": "starter-2560x1440.png",
+      "sha256": "99741a7899fa5723f045556a2ddda9abaf5cac8ac1ea7633c3e389147be39212"
+    },
+    {
+      "path": "companions-1920x1080.png",
+      "sha256": "4447efa95051dfefe8f9fb5b176a5265bac7dd1def7f3af8c3ae000eeba86564"
+    },
+    {
+      "path": "companions-1600x900.png",
+      "sha256": "0a3a1ad47537c09b9abd40a141e464bee6e279330e101a482da6c0926f2a1424"
+    },
+    {
+      "path": "companions-2560x1440.png",
+      "sha256": "195d53b7f2cb91ea962fe8d54c497854c8a6197831a226cf7a8abe4c1d6e759d"
+    }
+  ],
+  "freshProcess": true,
+  "observationSeconds": 20.0054988861084
+}

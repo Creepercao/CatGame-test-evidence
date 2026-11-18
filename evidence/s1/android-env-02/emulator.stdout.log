@@ -1,0 +1,203 @@
+INFO         | Android emulator version 36.5.11.0 (build_id 15261927) (CL:N/A)
+INFO         | Graphics backend: gfxstream
+INFO         | Found systemPath C:/Users/USER/AppData/Local/Android/Sdk\system-images\android-34\google_apis\x86_64\
+INFO         | Changing default hw.initialOrientation to portrait
+
+INFO         | IPv4 server found: 211.136.192.6
+INFO         | Ignore IPv6 address: a853:8dc1:5302:0:2050:8dc1:5302:0
+INFO         | Ignore IPv6 address: a853:8dc1:5302:0:2050:8dc1:5302:0
+INFO         | Ignore IPv6 address: a853:8dc1:5302:0:2050:8dc1:5302:0
+INFO         | Ignore IPv6 address: 1861:8dc1:5302:0:2050:8dc1:5302:0
+INFO         | Ignore IPv6 address: 1861:8dc1:5302:0:2050:8dc1:5302:0
+INFO         | Ignore IPv6 address: 1861:8dc1:5302:0:2050:8dc1:5302:0
+INFO         | Ignore IPv6 address: 3067:8dc1:5302:0:2050:8dc1:5302:0
+INFO         | Ignore IPv6 address: 3067:8dc1:5302:0:2050:8dc1:5302:0
+INFO         | Ignore IPv6 address: 3067:8dc1:5302:0:2050:8dc1:5302:0
+INFO         | Ignore IPv6 address: 286d:8dc1:5302:0:2050:8dc1:5302:0
+INFO         | Ignore IPv6 address: 286d:8dc1:5302:0:2050:8dc1:5302:0
+INFO         | Ignore IPv6 address: 286d:8dc1:5302:0:2050:8dc1:5302:0
+INFO         | Ignore IPv6 address: 6073:8dc1:5302:0:2050:8dc1:5302:0
+INFO         | Ignore IPv6 address: 6073:8dc1:5302:0:2050:8dc1:5302:0
+INFO         | Ignore IPv6 address: 6073:8dc1:5302:0:2050:8dc1:5302:0
+INFO         | Ignore IPv6 address: 587e:8dc1:5302:0:2050:8dc1:5302:0
+INFO         | Ignore IPv6 address: 587e:8dc1:5302:0:2050:8dc1:5302:0
+INFO         | Ignore IPv6 address: 587e:8dc1:5302:0:2050:8dc1:5302:0
+INFO         | Ignore IPv6 address: 9084:8dc1:5302:0:2050:8dc1:5302:0
+INFO         | Ignore IPv6 address: 9084:8dc1:5302:0:2050:8dc1:5302:0
+INFO         | Ignore IPv6 address: 9084:8dc1:5302:0:2050:8dc1:5302:0
+INFO         | Guest GLES Driver: Auto (ext controls)
+INFO         | emuglConfig_init: vulkan_mode_selected:swiftshader gles_mode_selected:swiftshader
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasCompatibleHypervisor
+INFO         |      Ok: Hypervisor compatibility to run avd: `Pixel_3a_API_34` are met
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `Pixel_3a_API_34` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU compatibility checks are not required
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `Pixel_3a_API_34` are met
+INFO         | Storing crashdata in: C:\Users\USER\AppData\Local\Temp\\AndroidEmulator\emu-crash-36.5.11.db, detection is enabled for process: 136916
+INFO         | Initializing gfxstream backend
+INFO         | android_startOpenglesRenderer: gpu info
+INFO         | GPU #1
+  Make: 10de
+  Model: NVIDIA GeForce RTX 3050 Laptop GPU
+  Device ID: 25a2
+
+INFO         | initIcdPaths: ICD set to 'swiftshader', using Swiftshader ICD
+INFO         | Setting ICD filenames for the loader = C:\Users\USER\AppData\Local\Android\Sdk\emulator\lib64\vulkan\vk_swiftshader_icd.json
+INFO         | SharedLibrary::open for [C:\Users\USER\AppData\Local\Android\Sdk\emulator\qemu\windows-x86_64\lib64\vulkan\vulkan-1.dll]
+INFO         | SharedLibrary::open for [C:\Users\USER\AppData\Local\Android\Sdk\emulator\lib64\vulkan\vulkan-1.dll]
+INFO         | Added library: C:\Users\USER\AppData\Local\Android\Sdk\emulator\lib64\vulkan\vulkan-1.dll
+INFO         | Selecting Vulkan device: SwiftShader Device (LLVM 10.0.0), Version: 1.2.0
+INFO         | Initializing VkEmulation features:
+INFO         |     glInteropSupported: false
+INFO         |     useDeferredCommands: true
+INFO         |     createResourceWithRequirements: true
+INFO         |     useVulkanComposition: false
+INFO         |     useVulkanNativeSwapchain: false
+INFO         |     enable guestRenderDoc: false
+INFO         |     ASTC LDR emulation mode: Gpu
+INFO         |     enable ETC2 emulation: true
+INFO         |     enable Ycbcr emulation: false
+INFO         |     guestVulkanOnly: false
+INFO         |     useDedicatedAllocations: false
+INFO         |     guestVulkanMaxApiVersion: 1.3.0
+INFO         | Graphics Adapter Vendor Google (Google Inc.)
+INFO         | Graphics Adapter Android Emulator OpenGL ES Translator (Google SwiftShader)
+INFO         | Graphics API Version OpenGL ES 3.0 (OpenGL ES 3.0 SwiftShader 4.0.0.1)
+INFO         | Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_standard_derivatives GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 
+INFO         | Graphics Device Extensions N/A
+INFO         | Disabling sparse binding feature support
+INFO         | Sending adb public key [QAAAAHWzeQgju27hnESa4zBUxYX2m05KOtkQT5678L3NWP8F2FTaHTBfG3/MJztShVDR2TISQ4iB0zUx4XvT8GHYjdq22rXJcMJMCWC8GpIa7ueayiWExzcuGhV8Or3HL+goSvwCfK8cDzkOAr7Md3Dh0+EvrkzKy7mS2QbYLnDm0PRDArwyZZ4ggutkV7dGS4eyKRZZi1OJcSAq+Fa1FSYKNFZr98hei6qYbTUS8jjKiriaV06nckA4sB2E6tVTjaExTVnrw8zF8UwKGKzHRaji3ir4W7wcSlG/cOuzGSewQ7hku1blB6wsOcx2gA3XZWbjLiuD+pheps6bUbGdzInBBeARA8uz2910d62p7jxdiDstBvHI14b0A9bidZSp7l0mUhi9NY3khw65LPhpbC6Pc53+XYfDiP50lO8uUyl3Owx/A1bk40YSWoRaxuE+ckLJhTUgZ4RzgFkyN0gp7LAFL6Q11MK5Lou0HdUnrCH+9My3E+eeDIyjJtHdimQQo/Q0Cm1IdtW0l1XH/QOO5irgFBWi2H+6dDZNxTqKlHrozO7D1YVEGOJtzAwHbwbM8qFC+O8ntPiBjBn3vWJ7p1tDOhjLBsjxg8fCFemn8NUgv2dJ0wcFYTfCWVjs2PhGxY6n30yRRPCFwe/RgeW2AN9tJoKj1vohbxZef9H7DIllIRDz3sFbcQEAAQA= @unknown]
+INFO         | Userspace boot properties:
+INFO         |   androidboot.boot_devices=pci0000:00/0000:00:03.0 pci0000:00/0000:00:06.0
+INFO         |   androidboot.dalvik.vm.heapsize=576m
+INFO         |   androidboot.debug.hwui.renderer=skiagl
+INFO         |   androidboot.hardware=ranchu
+INFO         |   androidboot.hardware.gltransport=pipe
+INFO         |   androidboot.hardware.vulkan=ranchu
+INFO         |   androidboot.logcat=*:V
+INFO         |   androidboot.opengles.version=196608
+INFO         |   androidboot.qemu=1
+INFO         |   androidboot.qemu.adb.pubkey=QAAAAHWzeQgju27hnESa4zBUxYX2m05KOtkQT5678L3NWP8F2FTaHTBfG3/MJztShVDR2TISQ4iB0zUx4XvT8GHYjdq22rXJcMJMCWC8GpIa7ueayiWExzcuGhV8Or3HL+goSvwCfK8cDzkOAr7Md3Dh0+EvrkzKy7mS2QbYLnDm0PRDArwyZZ4ggutkV7dGS4eyKRZZi1OJcSAq+Fa1FSYKNFZr98hei6qYbTUS8jjKiriaV06nckA4sB2E6tVTjaExTVnrw8zF8UwKGKzHRaji3ir4W7wcSlG/cOuzGSewQ7hku1blB6wsOcx2gA3XZWbjLiuD+pheps6bUbGdzInBBeARA8uz2910d62p7jxdiDstBvHI14b0A9bidZSp7l0mUhi9NY3khw65LPhpbC6Pc53+XYfDiP50lO8uUyl3Owx/A1bk40YSWoRaxuE+ckLJhTUgZ4RzgFkyN0gp7LAFL6Q11MK5Lou0HdUnrCH+9My3E+eeDIyjJtHdimQQo/Q0Cm1IdtW0l1XH/QOO5irgFBWi2H+6dDZNxTqKlHrozO7D1YVEGOJtzAwHbwbM8qFC+O8ntPiBjBn3vWJ7p1tDOhjLBsjxg8fCFemn8NUgv2dJ0wcFYTfCWVjs2PhGxY6n30yRRPCFwe/RgeW2AN9tJoKj1vohbxZef9H7DIllIRDz3sFbcQEAAQA= @unknown
+INFO         |   androidboot.qemu.avd_name=Pixel_3a_API_34
+INFO         |   androidboot.qemu.camera_hq_edge_processing=0
+INFO         |   androidboot.qemu.camera_protocol_ver=1
+INFO         |   androidboot.qemu.cpuvulkan.version=4202496
+INFO         |   androidboot.qemu.gltransport.drawFlushInterval=800
+INFO         |   androidboot.qemu.gltransport.name=pipe
+INFO         |   androidboot.qemu.hwcodec.avcdec=2
+INFO         |   androidboot.qemu.hwcodec.hevcdec=2
+INFO         |   androidboot.qemu.hwcodec.vpxdec=2
+INFO         |   androidboot.qemu.settings.system.screen_off_timeout=2147483647
+INFO         |   androidboot.qemu.skin=pixel_3a
+INFO         |   androidboot.qemu.virtiowifi=1
+INFO         |   androidboot.qemu.vsync=60
+INFO         |   androidboot.serialno=EMULATOR36X5X11X0
+INFO         |   androidboot.vbmeta.digest=451e57ed688ff746d2c636d52169ade253e2bc5bb30a5c3ff23679ca15d3bcd3
+INFO         |   androidboot.vbmeta.hash_alg=sha256
+INFO         |   androidboot.vbmeta.size=6656
+INFO         |   androidboot.veritymode=enforcing
+WHPX on Windows 10.0.26200 detected.
+Windows Hypervisor Platform accelerator is operational
+INFO         | Monitoring duration of emulator setup.
+INFO         | Successfully initialized netsim WiFi
+INFO         | Activated packet streamer for bluetooth emulation
+INFO         | Setting display: 0 configuration to: 1080x2220, dpi: 440x440 
+INFO         | setDisplayActiveConfig: id:0, 1080x2220
+INFO         | emulatorSetupEnvironment: Setting up screen background view and display layout at env:1080x2220, lcd:1080x2220
+INFO         | emulatorSetupEnvironment: Environment scene is not required
+USER_INFO    | Emulator is performing a full startup. This may take upto two minutes, or more.
+INFO         | Boot completed in 76500 ms
+INFO         | Increasing screen off timeout, logcat buffer size to 2M.
+INFO         | IPv4 server found: 211.136.192.6
+INFO         | Ignore IPv6 address: b8f2:c99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: b8f2:c99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: b8f2:c99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 2800:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 2800:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 2800:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 4006:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 4006:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 4006:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 380c:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 380c:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 380c:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 7012:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 7012:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 7012:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 681d:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 681d:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 681d:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: a023:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: a023:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: a023:d99:5402:0:30ef:c99:5402:0
+INFO         | IPv4 server found: 211.136.192.6
+INFO         | Ignore IPv6 address: b8f2:c99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: b8f2:c99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: b8f2:c99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 2800:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 2800:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 2800:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 4006:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 4006:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 4006:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 380c:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 380c:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 380c:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 7012:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 7012:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 7012:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 681d:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 681d:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 681d:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: a023:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: a023:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: a023:d99:5402:0:30ef:c99:5402:0
+INFO         | IPv4 server found: 211.136.192.6
+INFO         | Ignore IPv6 address: b8f2:c99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: b8f2:c99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: b8f2:c99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 2800:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 2800:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 2800:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 4006:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 4006:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 4006:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 380c:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 380c:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 380c:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 7012:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 7012:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 7012:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 681d:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 681d:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: 681d:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: a023:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: a023:d99:5402:0:30ef:c99:5402:0
+INFO         | Ignore IPv6 address: a023:d99:5402:0:30ef:c99:5402:0
+INFO         | Created VkInstance:00000253A3DFC070 for application:'喵屋' engine:'Unity'.
+INFO         | Destroyed VkInstance:00000253A3DFC070 for application:'喵屋' engine:'Unity'.
+INFO         | Created VkInstance:00000253A8DE0AE0 for application:'喵屋' engine:'Unity'.
+INFO         | Destroyed VkInstance:00000253A8DE0AE0 for application:'喵屋' engine:'Unity'.
+INFO         | Created VkInstance:00000254AA5E8FF0 for application:'喵屋' engine:'Unity'.
+INFO         | Destroyed VkInstance:00000254AA5E8FF0 for application:'喵屋' engine:'Unity'.
+INFO         | Created VkInstance:00000254A5B1A470 for application:'喵屋' engine:'Unity'.
+INFO         | Destroyed VkInstance:00000254A5B1A470 for application:'喵屋' engine:'Unity'.
+INFO         | Created VkInstance:00000254ABED7130 for application:'喵屋' engine:'Unity'.
+INFO         | Destroyed VkInstance:00000254ABED7130 for application:'喵屋' engine:'Unity'.
+INFO         | Created VkInstance:000002539CC910A0 for application:'喵屋' engine:'Unity'.
+INFO         | Destroyed VkInstance:000002539CC910A0 for application:'喵屋' engine:'Unity'.
+INFO         | Created VkInstance:000002539CC910A0 for application:'喵屋' engine:'Unity'.
+INFO         | Destroyed VkInstance:000002539CC910A0 for application:'喵屋' engine:'Unity'.
+INFO         | Created VkInstance:000002539CC910A0 for application:'喵屋' engine:'Unity'.
+INFO         | Destroyed VkInstance:000002539CC910A0 for application:'喵屋' engine:'Unity'.
+INFO         | Created VkInstance:000002539CC910A0 for application:'喵屋' engine:'Unity'.
+INFO         | Destroyed VkInstance:000002539CC910A0 for application:'喵屋' engine:'Unity'.
+INFO         | Wait for emulator (pid 136916) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+
+WARNING      | Not saving state: RAM not mapped as shared
+INFO         | Saving snapshot 'default_boot' using 24 ms
+WARNING      | Emulator client has not yet been configured.. Call configure me first!
+WARNING      | Netsim Wifi localhost:6841 is gone due to CANCELLED

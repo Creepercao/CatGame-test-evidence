@@ -1,0 +1,108 @@
+[
+  {
+    "command": [
+      "getprop",
+      "ro.product.model"
+    ],
+    "exit": 0,
+    "output": "sdk_gphone64_x86_64",
+    "error": ""
+  },
+  {
+    "command": [
+      "getprop",
+      "sys.boot_completed"
+    ],
+    "exit": 0,
+    "output": "1",
+    "error": ""
+  },
+  {
+    "command": [
+      "pm",
+      "list",
+      "users"
+    ],
+    "exit": 0,
+    "output": "Users:\n\tUserInfo{0:Owner:4c13} running",
+    "error": ""
+  },
+  {
+    "command": [
+      "pm",
+      "create-user",
+      "CatGame-Appium-QA"
+    ],
+    "exit": 0,
+    "output": "Success: created user id 10",
+    "error": ""
+  },
+  {
+    "command": [
+      "settings",
+      "--user",
+      "10",
+      "put",
+      "secure",
+      "user_setup_complete",
+      "1"
+    ],
+    "exit": 0,
+    "output": "",
+    "error": ""
+  },
+  {
+    "command": [
+      "settings",
+      "--user",
+      "10",
+      "put",
+      "system",
+      "screen_off_timeout",
+      "2147483647"
+    ],
+    "exit": 0,
+    "output": "",
+    "error": ""
+  },
+  {
+    "command": [
+      "am",
+      "start-user",
+      "-w",
+      "10"
+    ],
+    "exit": 0,
+    "output": "Success: user started",
+    "error": ""
+  },
+  {
+    "command": [
+      "am",
+      "switch-user",
+      "10"
+    ],
+    "exit": 0,
+    "output": "",
+    "error": ""
+  },
+  {
+    "command": [
+      "wm",
+      "size",
+      "900x1600"
+    ],
+    "exit": 0,
+    "output": "",
+    "error": ""
+  },
+  {
+    "command": [
+      "am",
+      "get-current-user"
+    ],
+    "exit": 0,
+    "output": "10",
+    "error": ""
+  }
+]

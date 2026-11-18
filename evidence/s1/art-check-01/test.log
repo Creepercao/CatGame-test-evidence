@@ -1,0 +1,11 @@
+test_all_visible_furniture_pixels_fit_and_split_groups_share_ground_depth (__main__.GrowthTests.test_all_visible_furniture_pixels_fit_and_split_groups_share_ground_depth) ... ok
+test_json_pixel_sources_exactly_match_each_runtime_prop (__main__.GrowthTests.test_json_pixel_sources_exactly_match_each_runtime_prop) ... ok
+test_review_previews_use_integer_pixels_and_limited_palette (__main__.GrowthTests.test_review_previews_use_integer_pixels_and_limited_palette) ... PROJECT_ROOT\tools\pixel_art\room\verify_growth.py:59: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  self.assertEqual(1,len(set(preview.crop((x,y,x+2,y+2)).getdata())))
+ok
+test_themes_share_floor_geometry_and_have_no_transparent_architecture (__main__.GrowthTests.test_themes_share_floor_geometry_and_have_no_transparent_architecture) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 2.271s
+
+OK

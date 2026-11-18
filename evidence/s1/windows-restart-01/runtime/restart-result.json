@@ -1,0 +1,17 @@
+{
+    "source": "75fb26a9a002e7b3c0a92cbd840cc9c4fcba0571",
+    "fixture": "explicit QA checkpoint; not natural full-playthrough",
+    "theme": "companions",
+    "pid": 126924,
+    "visible": 100,
+    "owned": 440,
+    "footErrors": 0,
+    "depthErrors": 0,
+    "samples": 0,
+    "nativeHits": 0,
+    "clicks": 1,
+    "complete": true,
+    "restart": true,
+    "identitiesPreserved": false,
+    "screens": []
+}

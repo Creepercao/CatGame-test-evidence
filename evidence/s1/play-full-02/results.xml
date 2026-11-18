@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="99" result="Passed" total="99" passed="99" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-18 10:55:27Z" end-time="2026-11-18 10:58:13Z" duration="165.220246">
+  <test-suite type="TestSuite" id="1000" name="喵屋" fullname="喵屋" runstate="Runnable" testcasecount="99" result="Passed" start-time="2026-11-18 10:55:27Z" end-time="2026-11-18 10:58:13Z" duration="165.220246" total="99" passed="99" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1126" name="CatGame.Tests.dll" fullname="PROJECT_ROOT/Library/ScriptAssemblies/CatGame.Tests.dll" runstate="Runnable" testcasecount="99" result="Passed" start-time="2026-11-18 10:55:27Z" end-time="2026-11-18 10:58:13Z" duration="165.213601" total="99" passed="99" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="133464" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+      </properties>
+      <test-suite type="TestSuite" id="1127" name="CatGame" fullname="CatGame" runstate="Runnable" testcasecount="99" result="Passed" start-time="2026-11-18 10:55:27Z" end-time="2026-11-18 10:58:13Z" duration="165.213051" total="99" passed="99" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1128" name="Tests" fullname="CatGame.Tests" runstate="Runnable" testcasecount="99" result="Passed" start-time="2026-11-18 10:55:27Z" end-time="2026-11-18 10:58:13Z" duration="165.212466" total="99" passed="99" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="AchievementToastVisualTests" fullname="CatGame.Tests.AchievementToastVisualTests" classname="CatGame.Tests.AchievementToastVisualTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-18 10:55:27Z" end-time="2026-11-18 10:55:32Z" duration="4.073259" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1002" name="Achievement_toast_fades_and_next_queued_message_restores_opacity" fullname="CatGame.Tests.AchievementToastVisualTests.Achievement_toast_fades_and_next_queued_message_restores_opacity" methodname="Achievement_toast_fades_and_next_queued_message_restores_opacity" classname="CatGame.Tests.AchievementToastVisualTests" runstate="Runnable" seed="453320722" result="Passed" start-time="2026-11-18 10:55:27Z" end-time="2026-11-18 10:55:32Z" duration="4.061781" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1003" name="AnimationTests" fullname="CatGame.Tests.AnimationTests" classname="CatGame.Tests.AnimationTests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-11-18 10:55:32Z" end-time="2026-11-18 10:55:40Z" duration="8.094457" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1013" name="Assigning_open_walk_surface_preserves_initial_roaming_distance" fullname="CatGame.Tests.AnimationTests.Assigning_open_walk_surface_preserves_initial_roaming_distance" methodname="Assigning_open_walk_surface_preserves_initial_roaming_distance" classname="CatGame.Tests.AnimationTests" runstate="Runnable" seed="980495114" result="Passed" start-time="2026-11-18 10:55:32Z" end-time="2026-11-18 10:55:32Z" duration="0.046520" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1007" name="切到不存在的品种_拒绝并保持当前" fullname="CatGame.Tests.AnimationTests.切到不存在的品种_拒绝并保持当前" methodname="切到不存在的品种_拒绝并保持当前" classname="CatGame.Tests.AnimationTests" runstate="Runnable" seed="275977916" result="Passed" start-time="2026-11-18 10:55:32Z" end-time="2026-11-18 10:55:32Z" duration="0.067513" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1014" name="切回自动模式后恢复待机" fullname="CatGame.Tests.AnimationTests.切回自动模式后恢复待机" methodname="切回自动模式后恢复待机" classname="CatGame.Tests.AnimationTests" runstate="Runnable" seed="1111216981" result="Passed" start-time="2026-11-18 10:55:32Z" end-time="2026-11-18 10:55:32Z" duration="0.378044" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="切换预览品种不改变已拥有猫_绑定预览使用新品种帧" fullname="CatGame.Tests.AnimationTests.切换预览品种不改变已拥有猫_绑定预览使用新品种帧" methodname="切换预览品种不改变已拥有猫_绑定预览使用新品种帧" classname="CatGame.Tests.AnimationTests" runstate="Runnable" seed="1218062580" result="Passed" start-time="2026-11-18 10:55:32Z" end-time="2026-11-18 10:55:32Z" duration="0.106968" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1011" name="原地动作不会移动猫" fullname="CatGame.Tests.AnimationTests.原地动作不会移动猫" methodname="原地动作不会移动猫" classname="CatGame.Tests.AnimationTests" runstate="Runnable" seed="246327483" result="Passed" start-time="2026-11-18 10:55:32Z" end-time="2026-11-18 10:55:33Z" duration="0.624825" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="启动后加载三个品种并选中墨墨" fullname="CatGame.Tests.AnimationTests.启动后加载三个品种并选中墨墨" methodname="启动后加载三个品种并选中墨墨" classname="CatGame.Tests.AnimationTests" runstate="Runnable" seed="552910841" result="Passed" start-time="2026-11-18 10:55:33Z" end-time="2026-11-18 10:55:33Z" duration="0.083296" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1009" name="强制播放每个动作都能出帧" fullname="CatGame.Tests.AnimationTests.强制播放每个动作都能出帧" methodname="强制播放每个动作都能出帧" classname="CatGame.Tests.AnimationTests" runstate="Runnable" seed="1713831407" result="Passed" start-time="2026-11-18 10:55:33Z" end-time="2026-11-18 10:55:35Z" duration="2.271688" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="每个品种的七套动画都齐全" fullname="CatGame.Tests.AnimationTests.每个品种的七套动画都齐全" methodname="每个品种的七套动画都齐全" classname="CatGame.Tests.AnimationTests" runstate="Runnable" seed="1084273296" result="Passed" start-time="2026-11-18 10:55:35Z" end-time="2026-11-18 10:55:35Z" duration="0.083187" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1015" name="猫是按y排序的实体" fullname="CatGame.Tests.AnimationTests.猫是按y排序的实体" methodname="猫是按y排序的实体" classname="CatGame.Tests.AnimationTests" runstate="Runnable" seed="1525128430" result="Passed" start-time="2026-11-18 10:55:35Z" end-time="2026-11-18 10:55:35Z" duration="0.106460" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1008" name="猫默认在自动模式下播待机" fullname="CatGame.Tests.AnimationTests.猫默认在自动模式下播待机" methodname="猫默认在自动模式下播待机" classname="CatGame.Tests.AnimationTests" runstate="Runnable" seed="1665656183" result="Passed" start-time="2026-11-18 10:55:35Z" end-time="2026-11-18 10:55:35Z" duration="0.091915" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1012" name="自动模式下猫会自己走动" fullname="CatGame.Tests.AnimationTests.自动模式下猫会自己走动" methodname="自动模式下猫会自己走动" classname="CatGame.Tests.AnimationTests" runstate="Runnable" seed="1918684039" result="Passed" start-time="2026-11-18 10:55:35Z" end-time="2026-11-18 10:55:39Z" duration="3.308132" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1010" name="走路动作会让猫在地板里移动" fullname="CatGame.Tests.AnimationTests.走路动作会让猫在地板里移动" methodname="走路动作会让猫在地板里移动" classname="CatGame.Tests.AnimationTests" runstate="Runnable" seed="1401641640" result="Passed" start-time="2026-11-18 10:55:39Z" end-time="2026-11-18 10:55:40Z" duration="0.922515" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1016" name="CatRosterTests" fullname="CatGame.Tests.CatRosterTests" classname="CatGame.Tests.CatRosterTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-18 10:55:40Z" end-time="2026-11-18 10:57:05Z" duration="85.827343" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1017" name="Cat_frames_stay_inside_floor_at_all_four_edges" fullname="CatGame.Tests.CatRosterTests.Cat_frames_stay_inside_floor_at_all_four_edges" methodname="Cat_frames_stay_inside_floor_at_all_four_edges" classname="CatGame.Tests.CatRosterTests" runstate="Runnable" seed="1198697990" result="Passed" start-time="2026-11-18 10:55:40Z" end-time="2026-11-18 10:55:40Z" duration="0.799582" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1022" name="Cat_visuals_scale_32px_art_to_the_same_height_as_64px_art" fullname="CatGame.Tests.CatRosterTests.Cat_visuals_scale_32px_art_to_the_same_height_as_64px_art" methodname="Cat_visuals_scale_32px_art_to_the_same_height_as_64px_art" classname="CatGame.Tests.CatRosterTests" runstate="Runnable" seed="1854563134" result="Passed" start-time="2026-11-18 10:55:40Z" end-time="2026-11-18 10:55:41Z" duration="0.090234" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1023" name="Licking_a_cat_adds_click_value_and_shows_a_reward" fullname="CatGame.Tests.CatRosterTests.Licking_a_cat_adds_click_value_and_shows_a_reward" methodname="Licking_a_cat_adds_click_value_and_shows_a_reward" classname="CatGame.Tests.CatRosterTests" runstate="Runnable" seed="1961772576" result="Passed" start-time="2026-11-18 10:55:41Z" end-time="2026-11-18 10:55:42Z" duration="1.024358" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1021" name="Newly_purchased_breed_gets_a_visible_actor_when_roster_is_full" fullname="CatGame.Tests.CatRosterTests.Newly_purchased_breed_gets_a_visible_actor_when_roster_is_full" methodname="Newly_purchased_breed_gets_a_visible_actor_when_roster_is_full" classname="CatGame.Tests.CatRosterTests" runstate="Runnable" seed="1473676258" result="Passed" start-time="2026-11-18 10:55:42Z" end-time="2026-11-18 10:55:42Z" duration="0.095056" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1018" name="Roster_keeps_one_actor_per_owned_breed_and_caps_at_100" fullname="CatGame.Tests.CatRosterTests.Roster_keeps_one_actor_per_owned_breed_and_caps_at_100" methodname="Roster_keeps_one_actor_per_owned_breed_and_caps_at_100" classname="CatGame.Tests.CatRosterTests" runstate="Runnable" seed="2064183169" result="Passed" start-time="2026-11-18 10:55:42Z" end-time="2026-11-18 10:55:42Z" duration="0.105872" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1019" name="Stress_440_owned_cats_survive_100_roster_rebuilds" fullname="CatGame.Tests.CatRosterTests.Stress_440_owned_cats_survive_100_roster_rebuilds" methodname="Stress_440_owned_cats_survive_100_roster_rebuilds" classname="CatGame.Tests.CatRosterTests" runstate="Runnable" seed="1277428323" result="Passed" start-time="2026-11-18 10:55:42Z" end-time="2026-11-18 10:55:42Z" duration="0.160473" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+              <output><![CDATA[STR-01 roster stress: owned=440, visible=100, stacked=340, rebuilds=100, elapsedMs=46, managedBytesBefore=551702528, managedBytesAfter=553582592
+]]></output>
+            </test-case>
+            <test-case id="1020" name="Stress_ten_thousand_click_and_purchase_requests_apply_once" fullname="CatGame.Tests.CatRosterTests.Stress_ten_thousand_click_and_purchase_requests_apply_once" methodname="Stress_ten_thousand_click_and_purchase_requests_apply_once" classname="CatGame.Tests.CatRosterTests" runstate="Runnable" seed="2107174453" result="Passed" start-time="2026-11-18 10:55:42Z" end-time="2026-11-18 10:57:05Z" duration="83.533816" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+              <output><![CDATA[STR-04 input stress: requests=10000, clicks=5000, rejectedPurchases=5000, successfulPurchases=44, elapsedMs=83445, managedBytesBefore=556056576, managedBytesAfter=557977600
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1024" name="EditorDebuggerTests" fullname="CatGame.Tests.EditorDebuggerTests" classname="CatGame.Tests.EditorDebuggerTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-11-18 10:57:05Z" end-time="2026-11-18 10:57:07Z" duration="1.923484" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1027" name="Debugger_cat_and_item_edits_refresh_roster_income_and_enforce_caps_without_rewriting_ending" fullname="CatGame.Tests.EditorDebuggerTests.Debugger_cat_and_item_edits_refresh_roster_income_and_enforce_caps_without_rewriting_ending" methodname="Debugger_cat_and_item_edits_refresh_roster_income_and_enforce_caps_without_rewriting_ending" classname="CatGame.Tests.EditorDebuggerTests" runstate="Runnable" seed="290843986" result="Passed" start-time="2026-11-18 10:57:05Z" end-time="2026-11-18 10:57:06Z" duration="0.167391" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+              <output><![CDATA[DEBUGGER STEP 1: add Egypt, assert visible actor and income recalculation without currency drift.
+[CatGame Debugger] SetCat Egypt=3 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\roster-items-30f8238c917e4ce489ac0c817b86bfd4\20261118-105706060-c2fd66d0ef3f40c583da5ec335421595
+[CatGame Debugger] SetItem item_1_1=5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\roster-items-30f8238c917e4ce489ac0c817b86bfd4\20261118-105706077-42010f238c7a44f88a2c19492d919e8b
+DEBUGGER STEP 2: caps, invalid IDs and fractional quantities reject without mutation.
+DEBUGGER STEP 3: 440 owned / 100 visible, then one per breed, then all items max and zero.
+[CatGame Debugger] AllCats =40 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\roster-items-30f8238c917e4ce489ac0c817b86bfd4\20261118-105706086-8f1d27888a5e40998af344293448c6e7
+[CatGame Debugger] AllCats =1 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\roster-items-30f8238c917e4ce489ac0c817b86bfd4\20261118-105706115-02b9c8bc95854d2a88b87f3b137b910e
+[CatGame Debugger] AllItems =5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\roster-items-30f8238c917e4ce489ac0c817b86bfd4\20261118-105706125-782eaf83c952442294f7eca56b283b0b
+[CatGame Debugger] AllItems =0 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\roster-items-30f8238c917e4ce489ac0c817b86bfd4\20261118-105706133-129259ed80ce4710bc1f14b95a772b3b
+DEBUGGER EVIDENCE C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\roster-items-30f8238c917e4ce489ac0c817b86bfd4
+]]></output>
+            </test-case>
+            <test-case id="1026" name="Debugger_currency_keeps_lifetime_separate_rejects_bad_values_and_backs_up_each_change" fullname="CatGame.Tests.EditorDebuggerTests.Debugger_currency_keeps_lifetime_separate_rejects_bad_values_and_backs_up_each_change" methodname="Debugger_currency_keeps_lifetime_separate_rejects_bad_values_and_backs_up_each_change" classname="CatGame.Tests.EditorDebuggerTests" runstate="Runnable" seed="1911142384" result="Passed" start-time="2026-11-18 10:57:06Z" end-time="2026-11-18 10:57:06Z" duration="0.113192" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+              <output><![CDATA[DEBUGGER STEP 1: set balance 1e12 without increasing lifetime; inspect recovery file.
+[CatGame Debugger] SetHair =1000000000000 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\currency-26bed630af2447379a8931a518d1dc45\20261118-105706222-89e63be774bb416fa15070e6664279ad
+DEBUGGER STEP 2: grant 25 with lifetime enabled, lower balance without subtracting lifetime.
+[CatGame Debugger] AddHair =25 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\currency-26bed630af2447379a8931a518d1dc45\20261118-105706233-1f6b57ba8b2f4d29b8bcc7b008871b64
+[CatGame Debugger] SetHair =10 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\currency-26bed630af2447379a8931a518d1dc45\20261118-105706240-24f580ede8fc4248b34f15fdf875337f
+DEBUGGER STEP 3: invalid and overflow inputs leave state and backup count unchanged.
+[CatGame Debugger] SetHair =1.7976931348623157E+308 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\currency-26bed630af2447379a8931a518d1dc45\20261118-105706248-40394c4939a24614aa5cea31e74fcfb7
+DEBUGGER EVIDENCE C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\currency-26bed630af2447379a8931a518d1dc45
+]]></output>
+            </test-case>
+            <test-case id="1025" name="Debugger_menu_opens_window_and_commands_update_the_live_save_owner" fullname="CatGame.Tests.EditorDebuggerTests.Debugger_menu_opens_window_and_commands_update_the_live_save_owner" methodname="Debugger_menu_opens_window_and_commands_update_the_live_save_owner" classname="CatGame.Tests.EditorDebuggerTests" runstate="Runnable" seed="1386689606" result="Passed" start-time="2026-11-18 10:57:06Z" end-time="2026-11-18 10:57:07Z" duration="1.060131" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+              <output><![CDATA[DEBUGGER STEP 1: create isolated production save owner and open the actual Editor menu entry.
+DEBUGGER STEP 2: change live progress, use production save, reload and verify amounts/levels/backup.
+[CatGame Debugger] SetHair =12345 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\live-save-21a9e66421aa4ddb8492112e38ff4a1a\20261118-105707246-7197142aa3d545ff8c233d8c348ffa4e
+[CatGame Debugger] SetItem item_1_1=3 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\live-save-21a9e66421aa4ddb8492112e38ff4a1a\20261118-105707255-ebee64208e5b4fa0bb9ed6ac4033effd
+DEBUGGER EVIDENCE C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\live-save-21a9e66421aa4ddb8492112e38ff4a1a
+]]></output>
+            </test-case>
+            <test-case id="1028" name="Debugger_modal_pause_and_backup_failure_block_edits_then_normal_rocket_flow_still_works" fullname="CatGame.Tests.EditorDebuggerTests.Debugger_modal_pause_and_backup_failure_block_edits_then_normal_rocket_flow_still_works" methodname="Debugger_modal_pause_and_backup_failure_block_edits_then_normal_rocket_flow_still_works" classname="CatGame.Tests.EditorDebuggerTests" runstate="Runnable" seed="1701101490" result="Passed" start-time="2026-11-18 10:57:07Z" end-time="2026-11-18 10:57:07Z" duration="0.101248" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+              <output><![CDATA[DEBUGGER STEP 1: active modal and zero simulation speed reject without backup or state edits.
+DEBUGGER STEP 2: a file in place of the record directory must cancel before mutation.
+DEBUGGER STEP 3: funding is not a rocket purchase; original confirm performs the one-time transaction.
+[CatGame Debugger] SetHair =1000000000000 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\blocked-6b39bb4e3eab40d08d5efcd7ab19de27\20261118-105707401-67378b6b2cd6442ba4276618e26a1c50
+DEBUGGER EVIDENCE C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\blocked-6b39bb4e3eab40d08d5efcd7ab19de27
+]]></output>
+            </test-case>
+            <test-case id="1029" name="Debugger_repeated_item_edits_keep_auditable_backups_and_persist_reloadable_progress" fullname="CatGame.Tests.EditorDebuggerTests.Debugger_repeated_item_edits_keep_auditable_backups_and_persist_reloadable_progress" methodname="Debugger_repeated_item_edits_keep_auditable_backups_and_persist_reloadable_progress" classname="CatGame.Tests.EditorDebuggerTests" runstate="Runnable" seed="1682911105" result="Passed" start-time="2026-11-18 10:57:07Z" end-time="2026-11-18 10:57:07Z" duration="0.464305" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+              <output><![CDATA[DEBUGGER STEP 1: 40 alternating item commands, every request produces independent before/requested/applied records.
+[CatGame Debugger] AllItems =5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707505-5ca32d8005e64bd7a448044ab8b8d714
+[CatGame Debugger] AllItems =0 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707515-dd2375ac19ba4ca7b89750b0beafba58
+[CatGame Debugger] AllItems =5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707526-3380291250a2411d97b64aaa2a03e8f7
+[CatGame Debugger] AllItems =0 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707535-72f4d4553a534cf68a1e9ec2eb7c3799
+[CatGame Debugger] AllItems =5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707544-3bd597d73c244b368a33bd98cd8d478e
+[CatGame Debugger] AllItems =0 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707552-5186f3205f5b4f0887b9c9998404f85e
+[CatGame Debugger] AllItems =5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707561-536a09098eeb4138b4b239ce6c2322f3
+[CatGame Debugger] AllItems =0 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707567-2f5a69d633eb4d8197b9fb4c717df580
+[CatGame Debugger] AllItems =5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707575-f0619652cb51453e8b9183ea8e118700
+[CatGame Debugger] AllItems =0 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707581-641e985b505c40ac9ced3bdeda66758a
+[CatGame Debugger] AllItems =5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707591-41d76fa19fab4d3e8bc9dbfe0e274d44
+[CatGame Debugger] AllItems =0 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707597-4aff96cfa200413bb88166e459246d52
+[CatGame Debugger] AllItems =5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707605-a7a76fbfb92846f78ed25c4d1cc2cf7d
+[CatGame Debugger] AllItems =0 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707616-1aaeaf33613b4186992507ac49e7f6f6
+[CatGame Debugger] AllItems =5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707623-67e0f4bd73124a30a2b687c220c618da
+[CatGame Debugger] AllItems =0 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707633-fef1290a23124675b3cd1d835fbc1b4c
+[CatGame Debugger] AllItems =5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707642-acd522e45c314602af50a6f5f1360a5e
+[CatGame Debugger] AllItems =0 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707651-f05880a8f5484aa0bed8f6e45abfc9ca
+[CatGame Debugger] AllItems =5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707659-30fd1062fe3c41e59c011bed75a2e7f7
+[CatGame Debugger] AllItems =0 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707667-21571237f6084791a61bd94a9d7a20af
+[CatGame Debugger] AllItems =5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707675-23c1ca9a01814669893c5c5af3130705
+[CatGame Debugger] AllItems =0 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707688-257b7e480d5f46dbb70840f224c2491a
+[CatGame Debugger] AllItems =5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707700-577bb7c61d4b45c8b5e269cc5cbae3dc
+[CatGame Debugger] AllItems =0 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707711-b9f86465fd314fffa1ce1e1f5a9c680a
+[CatGame Debugger] AllItems =5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707720-e566e62594a945c985cb3a09650ad29d
+[CatGame Debugger] AllItems =0 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707731-da7cad194d0440a7bb8fb7f3fa7b62c6
+[CatGame Debugger] AllItems =5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707739-924700f9927a4aef9ea4817330233511
+[CatGame Debugger] AllItems =0 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707747-8d1b5a2482aa40329c0825be43c9f8f7
+[CatGame Debugger] AllItems =5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707755-ce0274aeb6e14ac3b0a53ee2c58d038d
+[CatGame Debugger] AllItems =0 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707764-8584ebabbab44409a1d105da360b4a2d
+[CatGame Debugger] AllItems =5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707773-523128216b6a4a6189c1afec6f309b19
+[CatGame Debugger] AllItems =0 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707782-7febfdb344474e79954521f6bb9491b0
+[CatGame Debugger] AllItems =5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707791-41e83f24f2cf4853ab23f57bf7281080
+[CatGame Debugger] AllItems =0 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707799-fe193874ce5a48a3858f21adf017e7be
+[CatGame Debugger] AllItems =5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707808-b6556f268638499cadeb58b0b681a7f1
+[CatGame Debugger] AllItems =0 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707816-12c3648b9b0f429494d462c44c4bc6c7
+[CatGame Debugger] AllItems =5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707823-473c1ebc4ac04ec69b0a6ea63b82b65e
+[CatGame Debugger] AllItems =0 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707833-6bcb90d22f4a456db1ae93d691788d2b
+[CatGame Debugger] AllItems =5 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707840-4ceefbfd68864989ae7686b32e351d3d
+[CatGame Debugger] AllItems =0 backup=C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7\20261118-105707849-b413938c5271454fb096a0effd9a70f9
+DEBUGGER STEP 2: save/reload with production SaveSystem; no quarantine and exact final item levels.
+DEBUGGER EVIDENCE C:/Users/USER/AppData/Local/Temp/CatGameStudio/喵屋\debugger-evidence\repeat-352a573de50f4537b19c6c95a7d8f5e7
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1030" name="F1ArtBaselineCaptureTests" fullname="CatGame.Tests.F1ArtBaselineCaptureTests" classname="CatGame.Tests.F1ArtBaselineCaptureTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-18 10:57:07Z" end-time="2026-11-18 10:57:17Z" duration="9.732890" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1031" name="All_eleven_breeds_render_four_complete_visible_poses" fullname="CatGame.Tests.F1ArtBaselineCaptureTests.All_eleven_breeds_render_four_complete_visible_poses" methodname="All_eleven_breeds_render_four_complete_visible_poses" classname="CatGame.Tests.F1ArtBaselineCaptureTests" runstate="Runnable" seed="1621947250" result="Passed" start-time="2026-11-18 10:57:07Z" end-time="2026-11-18 10:57:17Z" duration="9.716764" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1032" name="IntroDialogueTests" fullname="CatGame.Tests.IntroDialogueTests" classname="CatGame.Tests.IntroDialogueTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-11-18 10:57:17Z" end-time="2026-11-18 10:57:18Z" duration="0.735601" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1034" name="Finished_intro_does_not_repeat_and_interrupted_intro_restarts_without_marking_done" fullname="CatGame.Tests.IntroDialogueTests.Finished_intro_does_not_repeat_and_interrupted_intro_restarts_without_marking_done" methodname="Finished_intro_does_not_repeat_and_interrupted_intro_restarts_without_marking_done" classname="CatGame.Tests.IntroDialogueTests" runstate="Runnable" seed="1175848495" result="Passed" start-time="2026-11-18 10:57:17Z" end-time="2026-11-18 10:57:17Z" duration="0.133288" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1033" name="Fresh_intro_shows_Momo_teaches_both_incomes_and_blocks_gameplay_until_skip" fullname="CatGame.Tests.IntroDialogueTests.Fresh_intro_shows_Momo_teaches_both_incomes_and_blocks_gameplay_until_skip" methodname="Fresh_intro_shows_Momo_teaches_both_incomes_and_blocks_gameplay_until_skip" classname="CatGame.Tests.IntroDialogueTests" runstate="Runnable" seed="379523786" result="Passed" start-time="2026-11-18 10:57:17Z" end-time="2026-11-18 10:57:18Z" duration="0.444237" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1036" name="Modal_gate_restores_original_speed_only_for_its_owner" fullname="CatGame.Tests.IntroDialogueTests.Modal_gate_restores_original_speed_only_for_its_owner" methodname="Modal_gate_restores_original_speed_only_for_its_owner" classname="CatGame.Tests.IntroDialogueTests" runstate="Runnable" seed="669518002" result="Passed" start-time="2026-11-18 10:57:18Z" end-time="2026-11-18 10:57:18Z" duration="0.033150" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1035" name="Offline_summary_keeps_modal_ownership_then_pending_intro_can_open" fullname="CatGame.Tests.IntroDialogueTests.Offline_summary_keeps_modal_ownership_then_pending_intro_can_open" methodname="Offline_summary_keeps_modal_ownership_then_pending_intro_can_open" classname="CatGame.Tests.IntroDialogueTests" runstate="Runnable" seed="2923796" result="Passed" start-time="2026-11-18 10:57:18Z" end-time="2026-11-18 10:57:18Z" duration="0.107558" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1037" name="IntroSaveLifecycleTests" fullname="CatGame.Tests.IntroSaveLifecycleTests" classname="CatGame.Tests.IntroSaveLifecycleTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-18 10:57:18Z" end-time="2026-11-18 10:57:18Z" duration="0.188715" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1039" name="Quit_before_intro_completion_updates_clock_but_first_menu_does_not_create_save" fullname="CatGame.Tests.IntroSaveLifecycleTests.Quit_before_intro_completion_updates_clock_but_first_menu_does_not_create_save" methodname="Quit_before_intro_completion_updates_clock_but_first_menu_does_not_create_save" classname="CatGame.Tests.IntroSaveLifecycleTests" runstate="Runnable" seed="1565208016" result="Passed" start-time="2026-11-18 10:57:18Z" end-time="2026-11-18 10:57:18Z" duration="0.088554" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1038" name="Recovered_save_enables_continue_and_new_game_discards_previous_backup" fullname="CatGame.Tests.IntroSaveLifecycleTests.Recovered_save_enables_continue_and_new_game_discards_previous_backup" methodname="Recovered_save_enables_continue_and_new_game_discards_previous_backup" classname="CatGame.Tests.IntroSaveLifecycleTests" runstate="Runnable" seed="1585671137" result="Passed" start-time="2026-11-18 10:57:18Z" end-time="2026-11-18 10:57:18Z" duration="0.083180" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+              <output><![CDATA[Recovered CatGame progress from backup.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1040" name="ItemVisualTests" fullname="CatGame.Tests.ItemVisualTests" classname="CatGame.Tests.ItemVisualTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-18 10:57:18Z" end-time="2026-11-18 10:57:18Z" duration="0.190916" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1041" name="All_twenty_items_purchase_five_levels_and_share_card_marker_art" fullname="CatGame.Tests.ItemVisualTests.All_twenty_items_purchase_five_levels_and_share_card_marker_art" methodname="All_twenty_items_purchase_five_levels_and_share_card_marker_art" classname="CatGame.Tests.ItemVisualTests" runstate="Runnable" seed="1486514623" result="Passed" start-time="2026-11-18 10:57:18Z" end-time="2026-11-18 10:57:18Z" duration="0.174061" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1042" name="PerformanceGuardTests" fullname="CatGame.Tests.PerformanceGuardTests" classname="CatGame.Tests.PerformanceGuardTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-18 10:57:18Z" end-time="2026-11-18 10:57:22Z" duration="3.805362" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1043" name="Two_hundred_CG_pointer_closes_with_one_hundred_cats_block_modal_and_same_frame_inputs" fullname="CatGame.Tests.PerformanceGuardTests.Two_hundred_CG_pointer_closes_with_one_hundred_cats_block_modal_and_same_frame_inputs" methodname="Two_hundred_CG_pointer_closes_with_one_hundred_cats_block_modal_and_same_frame_inputs" classname="CatGame.Tests.PerformanceGuardTests" runstate="Runnable" seed="5841466" result="Passed" start-time="2026-11-18 10:57:18Z" end-time="2026-11-18 10:57:22Z" duration="3.788504" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+              <output><![CDATA[PERF GUARD STEP 1: first_tuft; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 2: ten_thousand; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 3: hundred_thousand; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 4: millionaire; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 5: lots_of_points; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 6: unstoppable; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 7: family_of_ten; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 8: thirty_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 9: hundred_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 10: crowded_nest; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 11: three_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 12: six_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 13: all_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 14: first_click; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 15: thousand_clicks; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 16: max_scratcher; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 17: stage_two; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 18: stage_three; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 19: stage_four; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 20: planet_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 21: first_tuft; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 22: ten_thousand; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 23: hundred_thousand; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 24: millionaire; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 25: lots_of_points; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 26: unstoppable; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 27: family_of_ten; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 28: thirty_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 29: hundred_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 30: crowded_nest; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 31: three_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 32: six_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 33: all_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 34: first_click; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 35: thousand_clicks; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 36: max_scratcher; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 37: stage_two; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 38: stage_three; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 39: stage_four; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 40: planet_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 41: first_tuft; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 42: ten_thousand; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 43: hundred_thousand; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 44: millionaire; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 45: lots_of_points; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 46: unstoppable; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 47: family_of_ten; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 48: thirty_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 49: hundred_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 50: crowded_nest; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 51: three_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 52: six_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 53: all_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 54: first_click; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 55: thousand_clicks; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 56: max_scratcher; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 57: stage_two; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 58: stage_three; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 59: stage_four; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 60: planet_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 61: first_tuft; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 62: ten_thousand; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 63: hundred_thousand; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 64: millionaire; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 65: lots_of_points; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 66: unstoppable; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 67: family_of_ten; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 68: thirty_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 69: hundred_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 70: crowded_nest; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 71: three_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 72: six_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 73: all_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 74: first_click; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 75: thousand_clicks; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 76: max_scratcher; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 77: stage_two; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 78: stage_three; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 79: stage_four; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 80: planet_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 81: first_tuft; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 82: ten_thousand; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 83: hundred_thousand; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 84: millionaire; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 85: lots_of_points; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 86: unstoppable; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 87: family_of_ten; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 88: thirty_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 89: hundred_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 90: crowded_nest; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 91: three_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 92: six_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 93: all_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 94: first_click; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 95: thousand_clicks; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 96: max_scratcher; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 97: stage_two; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 98: stage_three; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 99: stage_four; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 100: planet_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 101: first_tuft; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 102: ten_thousand; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 103: hundred_thousand; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 104: millionaire; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 105: lots_of_points; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 106: unstoppable; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 107: family_of_ten; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 108: thirty_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 109: hundred_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 110: crowded_nest; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 111: three_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 112: six_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 113: all_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 114: first_click; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 115: thousand_clicks; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 116: max_scratcher; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 117: stage_two; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 118: stage_three; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 119: stage_four; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 120: planet_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 121: first_tuft; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 122: ten_thousand; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 123: hundred_thousand; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 124: millionaire; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 125: lots_of_points; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 126: unstoppable; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 127: family_of_ten; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 128: thirty_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 129: hundred_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 130: crowded_nest; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 131: three_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 132: six_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 133: all_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 134: first_click; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 135: thousand_clicks; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 136: max_scratcher; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 137: stage_two; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 138: stage_three; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 139: stage_four; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 140: planet_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 141: first_tuft; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 142: ten_thousand; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 143: hundred_thousand; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 144: millionaire; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 145: lots_of_points; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 146: unstoppable; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 147: family_of_ten; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 148: thirty_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 149: hundred_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 150: crowded_nest; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 151: three_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 152: six_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 153: all_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 154: first_click; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 155: thousand_clicks; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 156: max_scratcher; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 157: stage_two; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 158: stage_three; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 159: stage_four; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 160: planet_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 161: first_tuft; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 162: ten_thousand; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 163: hundred_thousand; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 164: millionaire; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 165: lots_of_points; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 166: unstoppable; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 167: family_of_ten; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 168: thirty_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 169: hundred_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 170: crowded_nest; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 171: three_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 172: six_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 173: all_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 174: first_click; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 175: thousand_clicks; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 176: max_scratcher; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 177: stage_two; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 178: stage_three; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 179: stage_four; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 180: planet_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 181: first_tuft; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 182: ten_thousand; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 183: hundred_thousand; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 184: millionaire; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 185: lots_of_points; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 186: unstoppable; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 187: family_of_ten; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 188: thirty_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 189: hundred_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 190: crowded_nest; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 191: three_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 192: six_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 193: all_breeds; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 194: first_click; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 195: thousand_clicks; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 196: max_scratcher; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 197: stage_two; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 198: stage_three; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 199: stage_four; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD STEP 200: planet_cats; modal and closing-frame click/buy blocked; pointer close once.
+PERF GUARD COMPLETE: 200 pointer closes, 400 blocked click/buy pairs, 10 overlay cleanup checks, post-close purchase succeeds.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1044" name="PixelCatIntegrationTests" fullname="CatGame.Tests.PixelCatIntegrationTests" classname="CatGame.Tests.PixelCatIntegrationTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-18 10:57:22Z" end-time="2026-11-18 10:57:25Z" duration="2.720275" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1045" name="Pixel_Egypt_loads_all_new_frames_without_changing_other_breeds" fullname="CatGame.Tests.PixelCatIntegrationTests.Pixel_Egypt_loads_all_new_frames_without_changing_other_breeds" methodname="Pixel_Egypt_loads_all_new_frames_without_changing_other_breeds" classname="CatGame.Tests.PixelCatIntegrationTests" runstate="Runnable" seed="197545483" result="Passed" start-time="2026-11-18 10:57:22Z" end-time="2026-11-18 10:57:22Z" duration="0.033016" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1046" name="Pixel_Egypt_roams_with_Walk_stops_with_Idle_and_clicks_Jump_once" fullname="CatGame.Tests.PixelCatIntegrationTests.Pixel_Egypt_roams_with_Walk_stops_with_Idle_and_clicks_Jump_once" methodname="Pixel_Egypt_roams_with_Walk_stops_with_Idle_and_clicks_Jump_once" classname="CatGame.Tests.PixelCatIntegrationTests" runstate="Runnable" seed="168538612" result="Passed" start-time="2026-11-18 10:57:22Z" end-time="2026-11-18 10:57:24Z" duration="1.733153" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1047" name="Pixel_Egypt_runtime_capture_keeps_size_and_shows_each_action" fullname="CatGame.Tests.PixelCatIntegrationTests.Pixel_Egypt_runtime_capture_keeps_size_and_shows_each_action" methodname="Pixel_Egypt_runtime_capture_keeps_size_and_shows_each_action" classname="CatGame.Tests.PixelCatIntegrationTests" runstate="Runnable" seed="482144358" result="Passed" start-time="2026-11-18 10:57:24Z" end-time="2026-11-18 10:57:25Z" duration="0.936770" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1048" name="PixelCatSleepTests" fullname="CatGame.Tests.PixelCatSleepTests" classname="CatGame.Tests.PixelCatSleepTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-11-18 10:57:25Z" end-time="2026-11-18 10:57:34Z" duration="9.182975" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1050" name="Clicking_sleeping_Egypt_wakes_Jumps_once_and_resumes_Walk" fullname="CatGame.Tests.PixelCatSleepTests.Clicking_sleeping_Egypt_wakes_Jumps_once_and_resumes_Walk" methodname="Clicking_sleeping_Egypt_wakes_Jumps_once_and_resumes_Walk" classname="CatGame.Tests.PixelCatSleepTests" runstate="Runnable" seed="716826909" result="Passed" start-time="2026-11-18 10:57:25Z" end-time="2026-11-18 10:57:28Z" duration="3.133017" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1049" name="Egypt_long_rest_enters_Sleep_and_pause_freezes_it" fullname="CatGame.Tests.PixelCatSleepTests.Egypt_long_rest_enters_Sleep_and_pause_freezes_it" methodname="Egypt_long_rest_enters_Sleep_and_pause_freezes_it" classname="CatGame.Tests.PixelCatSleepTests" runstate="Runnable" seed="529412593" result="Passed" start-time="2026-11-18 10:57:28Z" end-time="2026-11-18 10:57:31Z" duration="3.016497" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1051" name="Legacy_forced_Idle_keeps_its_existing_rest_timer" fullname="CatGame.Tests.PixelCatSleepTests.Legacy_forced_Idle_keeps_its_existing_rest_timer" methodname="Legacy_forced_Idle_keeps_its_existing_rest_timer" classname="CatGame.Tests.PixelCatSleepTests" runstate="Runnable" seed="2099343406" result="Passed" start-time="2026-11-18 10:57:31Z" end-time="2026-11-18 10:57:32Z" duration="0.800304" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1052" name="Rest_expires_and_missing_Sleep_or_short_stops_do_not_sleep" fullname="CatGame.Tests.PixelCatSleepTests.Rest_expires_and_missing_Sleep_or_short_stops_do_not_sleep" methodname="Rest_expires_and_missing_Sleep_or_short_stops_do_not_sleep" classname="CatGame.Tests.PixelCatSleepTests" runstate="Runnable" seed="1159601352" result="Passed" start-time="2026-11-18 10:57:32Z" end-time="2026-11-18 10:57:34Z" duration="2.215908" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1053" name="PixelFinalIntegrationTests" fullname="CatGame.Tests.PixelFinalIntegrationTests" classname="CatGame.Tests.PixelFinalIntegrationTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-18 10:57:34Z" end-time="2026-11-18 10:57:41Z" duration="7.249734" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1054" name="All_eleven_breeds_use_new_four_clips_and_old_Calico_Walk_stays_deleted" fullname="CatGame.Tests.PixelFinalIntegrationTests.All_eleven_breeds_use_new_four_clips_and_old_Calico_Walk_stays_deleted" methodname="All_eleven_breeds_use_new_four_clips_and_old_Calico_Walk_stays_deleted" classname="CatGame.Tests.PixelFinalIntegrationTests" runstate="Runnable" seed="1054773203" result="Passed" start-time="2026-11-18 10:57:34Z" end-time="2026-11-18 10:57:34Z" duration="0.033019" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1056" name="Final_four_actions_render_with_patches_cowls_and_Santa_hat" fullname="CatGame.Tests.PixelFinalIntegrationTests.Final_four_actions_render_with_patches_cowls_and_Santa_hat" methodname="Final_four_actions_render_with_patches_cowls_and_Santa_hat" classname="CatGame.Tests.PixelFinalIntegrationTests" runstate="Runnable" seed="1530999212" result="Passed" start-time="2026-11-18 10:57:34Z" end-time="2026-11-18 10:57:37Z" duration="3.433186" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1055" name="Final_four_purchases_jump_click_once_and_use_new_Walk" fullname="CatGame.Tests.PixelFinalIntegrationTests.Final_four_purchases_jump_click_once_and_use_new_Walk" methodname="Final_four_purchases_jump_click_once_and_use_new_Walk" classname="CatGame.Tests.PixelFinalIntegrationTests" runstate="Runnable" seed="1473607568" result="Passed" start-time="2026-11-18 10:57:37Z" end-time="2026-11-18 10:57:41Z" duration="3.766296" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1057" name="PixelMilkIntegrationTests" fullname="CatGame.Tests.PixelMilkIntegrationTests" classname="CatGame.Tests.PixelMilkIntegrationTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-18 10:57:41Z" end-time="2026-11-18 10:57:43Z" duration="1.825180" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1058" name="Milk_preview_and_economy_share_new_four_action_frames" fullname="CatGame.Tests.PixelMilkIntegrationTests.Milk_preview_and_economy_share_new_four_action_frames" methodname="Milk_preview_and_economy_share_new_four_action_frames" classname="CatGame.Tests.PixelMilkIntegrationTests" runstate="Runnable" seed="1977960065" result="Passed" start-time="2026-11-18 10:57:41Z" end-time="2026-11-18 10:57:41Z" duration="0.033014" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1059" name="Milk_world_sleeps_produces_clicks_once_and_resumes_roaming" fullname="CatGame.Tests.PixelMilkIntegrationTests.Milk_world_sleeps_produces_clicks_once_and_resumes_roaming" methodname="Milk_world_sleeps_produces_clicks_once_and_resumes_roaming" classname="CatGame.Tests.PixelMilkIntegrationTests" runstate="Runnable" seed="1784015745" result="Passed" start-time="2026-11-18 10:57:41Z" end-time="2026-11-18 10:57:43Z" duration="1.775122" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1060" name="PixelPatternIntegrationTests" fullname="CatGame.Tests.PixelPatternIntegrationTests" classname="CatGame.Tests.PixelPatternIntegrationTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-18 10:57:43Z" end-time="2026-11-18 10:57:48Z" duration="5.455874" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1063" name="Patterned_breeds_four_actions_render_with_preserved_identity" fullname="CatGame.Tests.PixelPatternIntegrationTests.Patterned_breeds_four_actions_render_with_preserved_identity" methodname="Patterned_breeds_four_actions_render_with_preserved_identity" classname="CatGame.Tests.PixelPatternIntegrationTests" runstate="Runnable" seed="1342703370" result="Passed" start-time="2026-11-18 10:57:43Z" end-time="2026-11-18 10:57:46Z" duration="2.566351" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1062" name="Patterned_breeds_purchase_jump_click_once_and_walk" fullname="CatGame.Tests.PixelPatternIntegrationTests.Patterned_breeds_purchase_jump_click_once_and_walk" methodname="Patterned_breeds_purchase_jump_click_once_and_walk" classname="CatGame.Tests.PixelPatternIntegrationTests" runstate="Runnable" seed="1815927349" result="Passed" start-time="2026-11-18 10:57:46Z" end-time="2026-11-18 10:57:48Z" duration="2.839137" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1061" name="Seven_new_breeds_have_matching_frame_metadata_and_assets" fullname="CatGame.Tests.PixelPatternIntegrationTests.Seven_new_breeds_have_matching_frame_metadata_and_assets" methodname="Seven_new_breeds_have_matching_frame_metadata_and_assets" classname="CatGame.Tests.PixelPatternIntegrationTests" runstate="Runnable" seed="1951646016" result="Passed" start-time="2026-11-18 10:57:48Z" end-time="2026-11-18 10:57:48Z" duration="0.033229" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1064" name="PixelStarterIntegrationTests" fullname="CatGame.Tests.PixelStarterIntegrationTests" classname="CatGame.Tests.PixelStarterIntegrationTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-18 10:57:48Z" end-time="2026-11-18 10:57:52Z" duration="3.733620" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1065" name="All_three_starters_share_preview_economy_and_new_frame_contracts" fullname="CatGame.Tests.PixelStarterIntegrationTests.All_three_starters_share_preview_economy_and_new_frame_contracts" methodname="All_three_starters_share_preview_economy_and_new_frame_contracts" classname="CatGame.Tests.PixelStarterIntegrationTests" runstate="Runnable" seed="1219118101" result="Passed" start-time="2026-11-18 10:57:48Z" end-time="2026-11-18 10:57:49Z" duration="0.033125" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1067" name="Tabby_Snow_four_actions_render_with_their_color_roles" fullname="CatGame.Tests.PixelStarterIntegrationTests.Tabby_Snow_four_actions_render_with_their_color_roles" methodname="Tabby_Snow_four_actions_render_with_their_color_roles" classname="CatGame.Tests.PixelStarterIntegrationTests" runstate="Runnable" seed="2111703756" result="Passed" start-time="2026-11-18 10:57:49Z" end-time="2026-11-18 10:57:50Z" duration="1.749790" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1066" name="Tabby_Snow_purchases_click_once_and_resume_new_Walk" fullname="CatGame.Tests.PixelStarterIntegrationTests.Tabby_Snow_purchases_click_once_and_resume_new_Walk" methodname="Tabby_Snow_purchases_click_once_and_resume_new_Walk" classname="CatGame.Tests.PixelStarterIntegrationTests" runstate="Runnable" seed="622902784" result="Passed" start-time="2026-11-18 10:57:50Z" end-time="2026-11-18 10:57:52Z" duration="1.933532" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1068" name="PreferenceAndPointerTests" fullname="CatGame.Tests.PreferenceAndPointerTests" classname="CatGame.Tests.PreferenceAndPointerTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-18 10:57:52Z" end-time="2026-11-18 10:57:53Z" duration="0.398460" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1069" name="Both_settings_windows_share_preferences_and_resolution_survives_reapply" fullname="CatGame.Tests.PreferenceAndPointerTests.Both_settings_windows_share_preferences_and_resolution_survives_reapply" methodname="Both_settings_windows_share_preferences_and_resolution_survives_reapply" classname="CatGame.Tests.PreferenceAndPointerTests" runstate="Runnable" seed="1229014963" result="Passed" start-time="2026-11-18 10:57:52Z" end-time="2026-11-18 10:57:52Z" duration="0.216479" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+              <output><![CDATA[PREF STEP 1: menu format changes update already-open game settings and HUD.
+PREF STEP 2: game volume/format changes update menu; creating a fresh state does not reset preferences.
+PREF STEP 3: request window resolution, persist, and reapply startup settings.
+]]></output>
+            </test-case>
+            <test-case id="1070" name="CG_background_pointer_closes_once_blocks_same_frame_clicks_and_preserves_ending_choices" fullname="CatGame.Tests.PreferenceAndPointerTests.CG_background_pointer_closes_once_blocks_same_frame_clicks_and_preserves_ending_choices" methodname="CG_background_pointer_closes_once_blocks_same_frame_clicks_and_preserves_ending_choices" classname="CatGame.Tests.PreferenceAndPointerTests" runstate="Runnable" seed="1453967685" result="Passed" start-time="2026-11-18 10:57:52Z" end-time="2026-11-18 10:57:53Z" duration="0.164666" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+              <output><![CDATA[CG POINTER STEP 1: raycast image and empty background; dispatch a real pointer click to the overlay.
+CG POINTER STEP 2: ending background advances to statistics, which keeps explicit choices.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1071" name="PurchaseDurabilityTests" fullname="CatGame.Tests.PurchaseDurabilityTests" classname="CatGame.Tests.PurchaseDurabilityTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-18 10:57:53Z" end-time="2026-11-18 10:57:53Z" duration="0.111041" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="ParameterizedMethod" id="1074" name="Successful_purchase_is_on_disk_before_any_pause_or_next_frame" fullname="CatGame.Tests.PurchaseDurabilityTests.Successful_purchase_is_on_disk_before_any_pause_or_next_frame" classname="CatGame.Tests.PurchaseDurabilityTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-18 10:57:53Z" end-time="2026-11-18 10:57:53Z" duration="0.094259" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1072" name="Successful_purchase_is_on_disk_before_any_pause_or_next_frame(&quot;cat&quot;)" fullname="CatGame.Tests.PurchaseDurabilityTests.Successful_purchase_is_on_disk_before_any_pause_or_next_frame(&quot;cat&quot;)" methodname="Successful_purchase_is_on_disk_before_any_pause_or_next_frame" classname="CatGame.Tests.PurchaseDurabilityTests" runstate="Runnable" seed="1682998067" result="Passed" start-time="2026-11-18 10:57:53Z" end-time="2026-11-18 10:57:53Z" duration="0.041413" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1073" name="Successful_purchase_is_on_disk_before_any_pause_or_next_frame(&quot;item&quot;)" fullname="CatGame.Tests.PurchaseDurabilityTests.Successful_purchase_is_on_disk_before_any_pause_or_next_frame(&quot;item&quot;)" methodname="Successful_purchase_is_on_disk_before_any_pause_or_next_frame" classname="CatGame.Tests.PurchaseDurabilityTests" runstate="Runnable" seed="1487592089" result="Passed" start-time="2026-11-18 10:57:53Z" end-time="2026-11-18 10:57:53Z" duration="0.036191" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+          </test-suite>
+          <test-suite type="TestFixture" id="1075" name="RocketEndingTests" fullname="CatGame.Tests.RocketEndingTests" classname="CatGame.Tests.RocketEndingTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-18 10:57:53Z" end-time="2026-11-18 10:57:54Z" duration="1.403056" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1077" name="Interrupted_ending_recovers_from_both_screens_without_paying_again_and_menu_marks_done" fullname="CatGame.Tests.RocketEndingTests.Interrupted_ending_recovers_from_both_screens_without_paying_again_and_menu_marks_done" methodname="Interrupted_ending_recovers_from_both_screens_without_paying_again_and_menu_marks_done" classname="CatGame.Tests.RocketEndingTests" runstate="Runnable" seed="1599492478" result="Passed" start-time="2026-11-18 10:57:53Z" end-time="2026-11-18 10:57:53Z" duration="0.180705" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1076" name="Rocket_cancel_insufficient_balance_confirm_and_continue_preserve_progress" fullname="CatGame.Tests.RocketEndingTests.Rocket_cancel_insufficient_balance_confirm_and_continue_preserve_progress" methodname="Rocket_cancel_insufficient_balance_confirm_and_continue_preserve_progress" classname="CatGame.Tests.RocketEndingTests" runstate="Runnable" seed="1446573296" result="Passed" start-time="2026-11-18 10:57:53Z" end-time="2026-11-18 10:57:53Z" duration="0.259959" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1078" name="Rocket_shop_is_same_scroll_pixel_icon_and_fifty_confirmation_cancels_do_not_leak_modals" fullname="CatGame.Tests.RocketEndingTests.Rocket_shop_is_same_scroll_pixel_icon_and_fifty_confirmation_cancels_do_not_leak_modals" methodname="Rocket_shop_is_same_scroll_pixel_icon_and_fifty_confirmation_cancels_do_not_leak_modals" classname="CatGame.Tests.RocketEndingTests" runstate="Runnable" seed="851660254" result="Passed" start-time="2026-11-18 10:57:53Z" end-time="2026-11-18 10:57:54Z" duration="0.945418" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1079" name="RoomThemeTests" fullname="CatGame.Tests.RoomThemeTests" classname="CatGame.Tests.RoomThemeTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-18 10:57:54Z" end-time="2026-11-18 10:58:01Z" duration="6.402178" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1086" name="Actual_achievement_CG_finishes_before_the_room_transition" fullname="CatGame.Tests.RoomThemeTests.Actual_achievement_CG_finishes_before_the_room_transition" methodname="Actual_achievement_CG_finishes_before_the_room_transition" classname="CatGame.Tests.RoomThemeTests" runstate="Runnable" seed="371777651" result="Passed" start-time="2026-11-18 10:57:54Z" end-time="2026-11-18 10:57:55Z" duration="1.188259" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1080" name="Crossing_theme_preserves_state_actors_items_and_spending_does_not_revert" fullname="CatGame.Tests.RoomThemeTests.Crossing_theme_preserves_state_actors_items_and_spending_does_not_revert" methodname="Crossing_theme_preserves_state_actors_items_and_spending_does_not_revert" classname="CatGame.Tests.RoomThemeTests" runstate="Runnable" seed="799415537" result="Passed" start-time="2026-11-18 10:57:55Z" end-time="2026-11-18 10:57:56Z" duration="1.011045" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1081" name="Existing_modal_and_its_close_frame_take_priority_over_transition" fullname="CatGame.Tests.RoomThemeTests.Existing_modal_and_its_close_frame_take_priority_over_transition" methodname="Existing_modal_and_its_close_frame_take_priority_over_transition" classname="CatGame.Tests.RoomThemeTests" runstate="Runnable" seed="491849436" result="Passed" start-time="2026-11-18 10:57:56Z" end-time="2026-11-18 10:57:57Z" duration="0.956195" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1084" name="Hundred_actors_keep_identity_and_can_roam_after_the_room_change" fullname="CatGame.Tests.RoomThemeTests.Hundred_actors_keep_identity_and_can_roam_after_the_room_change" methodname="Hundred_actors_keep_identity_and_can_roam_after_the_room_change" classname="CatGame.Tests.RoomThemeTests" runstate="Runnable" seed="1414018216" result="Passed" start-time="2026-11-18 10:57:57Z" end-time="2026-11-18 10:57:59Z" duration="1.692285" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1085" name="Missing_next_theme_art_retains_the_old_room_and_releases_the_modal" fullname="CatGame.Tests.RoomThemeTests.Missing_next_theme_art_retains_the_old_room_and_releases_the_modal" methodname="Missing_next_theme_art_retains_the_old_room_and_releases_the_modal" classname="CatGame.Tests.RoomThemeTests" runstate="Runnable" seed="293066827" result="Passed" start-time="2026-11-18 10:57:59Z" end-time="2026-11-18 10:58:00Z" duration="1.137055" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+              <output><![CDATA[Room theme could not be applied: Missing room theme art: companions
+]]></output>
+            </test-case>
+            <test-case id="1083" name="Newly_covered_cat_foot_is_relocated_without_recreating_actor" fullname="CatGame.Tests.RoomThemeTests.Newly_covered_cat_foot_is_relocated_without_recreating_actor" methodname="Newly_covered_cat_foot_is_relocated_without_recreating_actor" classname="CatGame.Tests.RoomThemeTests" runstate="Runnable" seed="1858251180" result="Passed" start-time="2026-11-18 10:58:00Z" end-time="2026-11-18 10:58:00Z" duration="0.102446" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1082" name="Pending_story_is_not_skipped_and_transition_disable_releases_pause" fullname="CatGame.Tests.RoomThemeTests.Pending_story_is_not_skipped_and_transition_disable_releases_pause" methodname="Pending_story_is_not_skipped_and_transition_disable_releases_pause" classname="CatGame.Tests.RoomThemeTests" runstate="Runnable" seed="1305204543" result="Passed" start-time="2026-11-18 10:58:00Z" end-time="2026-11-18 10:58:01Z" duration="0.297016" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1087" name="RoomWalkTests" fullname="CatGame.Tests.RoomWalkTests" classname="CatGame.Tests.RoomWalkTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-18 10:58:01Z" end-time="2026-11-18 10:58:02Z" duration="1.003367" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1088" name="Floor_boundary_move_keeps_pixel_snapped_feet_on_floor" fullname="CatGame.Tests.RoomWalkTests.Floor_boundary_move_keeps_pixel_snapped_feet_on_floor" methodname="Floor_boundary_move_keeps_pixel_snapped_feet_on_floor" classname="CatGame.Tests.RoomWalkTests" runstate="Runnable" seed="962188606" result="Passed" start-time="2026-11-18 10:58:01Z" end-time="2026-11-18 10:58:01Z" duration="0.032995" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1090" name="One_hundred_cats_move_on_floor_without_crossing_furniture" fullname="CatGame.Tests.RoomWalkTests.One_hundred_cats_move_on_floor_without_crossing_furniture" methodname="One_hundred_cats_move_on_floor_without_crossing_furniture" classname="CatGame.Tests.RoomWalkTests" runstate="Runnable" seed="1585692784" result="Passed" start-time="2026-11-18 10:58:01Z" end-time="2026-11-18 10:58:01Z" duration="0.920192" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1089" name="Room_surface_rejects_walls_props_and_crossing_segments_after_resize" fullname="CatGame.Tests.RoomWalkTests.Room_surface_rejects_walls_props_and_crossing_segments_after_resize" methodname="Room_surface_rejects_walls_props_and_crossing_segments_after_resize" classname="CatGame.Tests.RoomWalkTests" runstate="Runnable" seed="1611685199" result="Passed" start-time="2026-11-18 10:58:01Z" end-time="2026-11-18 10:58:02Z" duration="0.033190" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1091" name="ShopAndItemUpgradeTests" fullname="CatGame.Tests.ShopAndItemUpgradeTests" classname="CatGame.Tests.ShopAndItemUpgradeTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-18 10:58:02Z" end-time="2026-11-18 10:58:02Z" duration="0.936521" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1093" name="Items_use_cat_sized_opaque_bounds_ground_anchors_and_feeder_depth" fullname="CatGame.Tests.ShopAndItemUpgradeTests.Items_use_cat_sized_opaque_bounds_ground_anchors_and_feeder_depth" methodname="Items_use_cat_sized_opaque_bounds_ground_anchors_and_feeder_depth" classname="CatGame.Tests.ShopAndItemUpgradeTests" runstate="Runnable" seed="1045592891" result="Passed" start-time="2026-11-18 10:58:02Z" end-time="2026-11-18 10:58:02Z" duration="0.124834" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1092" name="One_shop_scroll_jumps_sections_keeps_free_offset_and_partial_cards" fullname="CatGame.Tests.ShopAndItemUpgradeTests.One_shop_scroll_jumps_sections_keeps_free_offset_and_partial_cards" methodname="One_shop_scroll_jumps_sections_keeps_free_offset_and_partial_cards" classname="CatGame.Tests.ShopAndItemUpgradeTests" runstate="Runnable" seed="1994201466" result="Passed" start-time="2026-11-18 10:58:02Z" end-time="2026-11-18 10:58:02Z" duration="0.794418" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1094" name="StoryMenuLayoutTests" fullname="CatGame.Tests.StoryMenuLayoutTests" classname="CatGame.Tests.StoryMenuLayoutTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-18 10:58:02Z" end-time="2026-11-18 10:58:03Z" duration="0.099889" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1095" name="Main_menu_places_CG_left_and_existing_options_right" fullname="CatGame.Tests.StoryMenuLayoutTests.Main_menu_places_CG_left_and_existing_options_right" methodname="Main_menu_places_CG_left_and_existing_options_right" classname="CatGame.Tests.StoryMenuLayoutTests" runstate="Runnable" seed="1083329543" result="Passed" start-time="2026-11-18 10:58:02Z" end-time="2026-11-18 10:58:03Z" duration="0.083031" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1096" name="StoryPlayerTests" fullname="CatGame.Tests.StoryPlayerTests" classname="CatGame.Tests.StoryPlayerTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-11-18 10:58:03Z" end-time="2026-11-18 10:58:05Z" duration="2.553354" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1097" name="First_real_pet_unlocks_its_own_CG_and_returns_to_play_without_repeating" fullname="CatGame.Tests.StoryPlayerTests.First_real_pet_unlocks_its_own_CG_and_returns_to_play_without_repeating" methodname="First_real_pet_unlocks_its_own_CG_and_returns_to_play_without_repeating" classname="CatGame.Tests.StoryPlayerTests" runstate="Runnable" seed="1760439622" result="Passed" start-time="2026-11-18 10:58:03Z" end-time="2026-11-18 10:58:03Z" duration="0.294709" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+              <output><![CDATA[CG STEP: pet the actual Momo actor once, then await the production achievement tick.
+CG STEP: first pet memory completed once; simulation resumed.
+]]></output>
+            </test-case>
+            <test-case id="1101" name="Historical_seen_milestones_do_not_replay_but_new_one_still_opens" fullname="CatGame.Tests.StoryPlayerTests.Historical_seen_milestones_do_not_replay_but_new_one_still_opens" methodname="Historical_seen_milestones_do_not_replay_but_new_one_still_opens" classname="CatGame.Tests.StoryPlayerTests" runstate="Runnable" seed="1100768537" result="Passed" start-time="2026-11-18 10:58:03Z" end-time="2026-11-18 10:58:03Z" duration="0.131687" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1099" name="Interrupted_memory_remains_pending_and_reopens_before_later_memories" fullname="CatGame.Tests.StoryPlayerTests.Interrupted_memory_remains_pending_and_reopens_before_later_memories" methodname="Interrupted_memory_remains_pending_and_reopens_before_later_memories" classname="CatGame.Tests.StoryPlayerTests" runstate="Runnable" seed="1646793636" result="Passed" start-time="2026-11-18 10:58:03Z" end-time="2026-11-18 10:58:03Z" duration="0.166242" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1100" name="Offline_and_intro_ownership_precede_pending_memories" fullname="CatGame.Tests.StoryPlayerTests.Offline_and_intro_ownership_precede_pending_memories" methodname="Offline_and_intro_ownership_precede_pending_memories" classname="CatGame.Tests.StoryPlayerTests" runstate="Runnable" seed="1551288453" result="Passed" start-time="2026-11-18 10:58:03Z" end-time="2026-11-18 10:58:03Z" duration="0.150489" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1098" name="Simultaneous_memories_play_in_order_once_and_pause_all_gameplay" fullname="CatGame.Tests.StoryPlayerTests.Simultaneous_memories_play_in_order_once_and_pause_all_gameplay" methodname="Simultaneous_memories_play_in_order_once_and_pause_all_gameplay" classname="CatGame.Tests.StoryPlayerTests" runstate="Runnable" seed="797088800" result="Passed" start-time="2026-11-18 10:58:03Z" end-time="2026-11-18 10:58:05Z" duration="1.792658" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+              <output><![CDATA[CG STEP: verify pause, art, blocked inputs and completion for first_tuft
+CG STEP: verify pause, art, blocked inputs and completion for ten_thousand
+CG STEP: verify pause, art, blocked inputs and completion for hundred_thousand
+CG STEP: verify pause, art, blocked inputs and completion for millionaire
+CG STEP: verify pause, art, blocked inputs and completion for lots_of_points
+CG STEP: verify pause, art, blocked inputs and completion for unstoppable
+CG STEP: verify pause, art, blocked inputs and completion for family_of_ten
+CG STEP: verify pause, art, blocked inputs and completion for thirty_cats
+CG STEP: verify pause, art, blocked inputs and completion for hundred_cats
+CG STEP: verify pause, art, blocked inputs and completion for crowded_nest
+CG STEP: verify pause, art, blocked inputs and completion for three_breeds
+CG STEP: verify pause, art, blocked inputs and completion for six_breeds
+CG STEP: verify pause, art, blocked inputs and completion for all_breeds
+CG STEP: verify pause, art, blocked inputs and completion for first_click
+CG STEP: verify pause, art, blocked inputs and completion for thousand_clicks
+CG STEP: verify pause, art, blocked inputs and completion for max_scratcher
+CG STEP: verify pause, art, blocked inputs and completion for stage_two
+CG STEP: verify pause, art, blocked inputs and completion for stage_three
+CG STEP: verify pause, art, blocked inputs and completion for stage_four
+CG STEP: verify pause, art, blocked inputs and completion for planet_cats
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1102" name="UiFlowTests" fullname="CatGame.Tests.UiFlowTests" classname="CatGame.Tests.UiFlowTests" runstate="Runnable" testcasecount="20" result="Passed" start-time="2026-11-18 10:58:05Z" end-time="2026-11-18 10:58:13Z" duration="7.478576" total="20" passed="20" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1104" name="Revision_numbers_use_scientific_only_from_one_hundred_million" fullname="CatGame.Tests.UiFlowTests.Revision_numbers_use_scientific_only_from_one_hundred_million" methodname="Revision_numbers_use_scientific_only_from_one_hundred_million" classname="CatGame.Tests.UiFlowTests" runstate="Runnable" seed="393621367" result="Passed" start-time="2026-11-18 10:58:05Z" end-time="2026-11-18 10:58:05Z" duration="0.032936" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1103" name="Revision_price_gates_sidebar_and_hidden_grid" fullname="CatGame.Tests.UiFlowTests.Revision_price_gates_sidebar_and_hidden_grid" methodname="Revision_price_gates_sidebar_and_hidden_grid" classname="CatGame.Tests.UiFlowTests" runstate="Runnable" seed="1804148912" result="Passed" start-time="2026-11-18 10:58:05Z" end-time="2026-11-18 10:58:05Z" duration="0.135964" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1111" name="主菜单提供继续新游戏设置与退出入口" fullname="CatGame.Tests.UiFlowTests.主菜单提供继续新游戏设置与退出入口" methodname="主菜单提供继续新游戏设置与退出入口" classname="CatGame.Tests.UiFlowTests" runstate="Runnable" seed="152736920" result="Passed" start-time="2026-11-18 10:58:05Z" end-time="2026-11-18 10:58:05Z" duration="0.099857" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1120" name="成就条件满足时只解锁一次并排入提示" fullname="CatGame.Tests.UiFlowTests.成就条件满足时只解锁一次并排入提示" methodname="成就条件满足时只解锁一次并排入提示" classname="CatGame.Tests.UiFlowTests" runstate="Runnable" seed="1041804132" result="Passed" start-time="2026-11-18 10:58:05Z" end-time="2026-11-18 10:58:06Z" duration="0.734412" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1108" name="暂停面板图鉴列出全部猫咪" fullname="CatGame.Tests.UiFlowTests.暂停面板图鉴列出全部猫咪" methodname="暂停面板图鉴列出全部猫咪" classname="CatGame.Tests.UiFlowTests" runstate="Runnable" seed="587449697" result="Passed" start-time="2026-11-18 10:58:06Z" end-time="2026-11-18 10:58:06Z" duration="0.129243" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1109" name="暂停面板显示全部二十项成就" fullname="CatGame.Tests.UiFlowTests.暂停面板显示全部二十项成就" methodname="暂停面板显示全部二十项成就" classname="CatGame.Tests.UiFlowTests" runstate="Runnable" seed="137088953" result="Passed" start-time="2026-11-18 10:58:06Z" end-time="2026-11-18 10:58:06Z" duration="0.147687" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1117" name="有足够猫毛时购买按钮能完成升级" fullname="CatGame.Tests.UiFlowTests.有足够猫毛时购买按钮能完成升级" methodname="有足够猫毛时购买按钮能完成升级" classname="CatGame.Tests.UiFlowTests" runstate="Runnable" seed="1808584403" result="Passed" start-time="2026-11-18 10:58:06Z" end-time="2026-11-18 10:58:07Z" duration="0.740317" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1116" name="点击猫通过当前点击值增加猫毛" fullname="CatGame.Tests.UiFlowTests.点击猫通过当前点击值增加猫毛" methodname="点击猫通过当前点击值增加猫毛" classname="CatGame.Tests.UiFlowTests" runstate="Runnable" seed="1997325432" result="Passed" start-time="2026-11-18 10:58:07Z" end-time="2026-11-18 10:58:07Z" duration="0.098867" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1106" name="猫窝HUD保留暂停入口并移除公园场景入口" fullname="CatGame.Tests.UiFlowTests.猫窝HUD保留暂停入口并移除公园场景入口" methodname="猫窝HUD保留暂停入口并移除公园场景入口" classname="CatGame.Tests.UiFlowTests" runstate="Runnable" seed="1145913461" result="Passed" start-time="2026-11-18 10:58:07Z" end-time="2026-11-18 10:58:07Z" duration="0.103534" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1115" name="猫窝平台使用单个Tilemap渲染四十二格" fullname="CatGame.Tests.UiFlowTests.猫窝平台使用单个Tilemap渲染四十二格" methodname="猫窝平台使用单个Tilemap渲染四十二格" classname="CatGame.Tests.UiFlowTests" runstate="Runnable" seed="751426471" result="Passed" start-time="2026-11-18 10:58:07Z" end-time="2026-11-18 10:58:07Z" duration="0.097438" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1105" name="猫窝显示猫毛产量阶段及全部购买卡片" fullname="CatGame.Tests.UiFlowTests.猫窝显示猫毛产量阶段及全部购买卡片" methodname="猫窝显示猫毛产量阶段及全部购买卡片" classname="CatGame.Tests.UiFlowTests" runstate="Runnable" seed="642430610" result="Passed" start-time="2026-11-18 10:58:07Z" end-time="2026-11-18 10:58:08Z" duration="0.105831" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1122" name="猫达到四十只上限后购买卡禁用" fullname="CatGame.Tests.UiFlowTests.猫达到四十只上限后购买卡禁用" methodname="猫达到四十只上限后购买卡禁用" classname="CatGame.Tests.UiFlowTests" runstate="Runnable" seed="118359945" result="Passed" start-time="2026-11-18 10:58:08Z" end-time="2026-11-18 10:58:08Z" duration="0.734884" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1112" name="界面可以接收点击_事件系统与射线检测都在" fullname="CatGame.Tests.UiFlowTests.界面可以接收点击_事件系统与射线检测都在" methodname="界面可以接收点击_事件系统与射线检测都在" classname="CatGame.Tests.UiFlowTests" runstate="Runnable" seed="342819946" result="Passed" start-time="2026-11-18 10:58:08Z" end-time="2026-11-18 10:58:08Z" duration="0.098171" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1121" name="离线结算弹窗暂停产出并可收下奖励" fullname="CatGame.Tests.UiFlowTests.离线结算弹窗暂停产出并可收下奖励" methodname="离线结算弹窗暂停产出并可收下奖励" classname="CatGame.Tests.UiFlowTests" runstate="Runnable" seed="897764778" result="Passed" start-time="2026-11-18 10:58:08Z" end-time="2026-11-18 10:58:09Z" duration="0.417664" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1118" name="积累足够猫毛后可购买首件产量道具" fullname="CatGame.Tests.UiFlowTests.积累足够猫毛后可购买首件产量道具" methodname="积累足够猫毛后可购买首件产量道具" classname="CatGame.Tests.UiFlowTests" runstate="Runnable" seed="1769859897" result="Passed" start-time="2026-11-18 10:58:09Z" end-time="2026-11-18 10:58:11Z" duration="2.649237" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1110" name="设置页可以切换数字格式和音量" fullname="CatGame.Tests.UiFlowTests.设置页可以切换数字格式和音量" methodname="设置页可以切换数字格式和音量" classname="CatGame.Tests.UiFlowTests" runstate="Runnable" seed="1156634264" result="Passed" start-time="2026-11-18 10:58:11Z" end-time="2026-11-18 10:58:12Z" duration="0.105639" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1114" name="购买物品升级扣款并提升等级和产量" fullname="CatGame.Tests.UiFlowTests.购买物品升级扣款并提升等级和产量" methodname="购买物品升级扣款并提升等级和产量" classname="CatGame.Tests.UiFlowTests" runstate="Runnable" seed="1062452129" result="Passed" start-time="2026-11-18 10:58:12Z" end-time="2026-11-18 10:58:12Z" duration="0.101143" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1113" name="购买猫咪扣除价格并增加实体" fullname="CatGame.Tests.UiFlowTests.购买猫咪扣除价格并增加实体" methodname="购买猫咪扣除价格并增加实体" classname="CatGame.Tests.UiFlowTests" runstate="Runnable" seed="1876992556" result="Passed" start-time="2026-11-18 10:58:12Z" end-time="2026-11-18 10:58:12Z" duration="0.105393" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1119" name="超过实体上限时堆叠角标显示猫只数量" fullname="CatGame.Tests.UiFlowTests.超过实体上限时堆叠角标显示猫只数量" methodname="超过实体上限时堆叠角标显示猫只数量" classname="CatGame.Tests.UiFlowTests" runstate="Runnable" seed="1812560210" result="Passed" start-time="2026-11-18 10:58:12Z" end-time="2026-11-18 10:58:12Z" duration="0.718013" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1107" name="齿轮打开暂停菜单并能恢复游戏" fullname="CatGame.Tests.UiFlowTests.齿轮打开暂停菜单并能恢复游戏" methodname="齿轮打开暂停菜单并能恢复游戏" classname="CatGame.Tests.UiFlowTests" runstate="Runnable" seed="1670094063" result="Passed" start-time="2026-11-18 10:58:12Z" end-time="2026-11-18 10:58:13Z" duration="0.102197" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1123" name="WorldArtContractTests" fullname="CatGame.Tests.WorldArtContractTests" classname="CatGame.Tests.WorldArtContractTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-18 10:58:13Z" end-time="2026-11-18 10:58:13Z" duration="0.082901" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1125" name="Actor_click_collider_follows_body_after_action_and_facing_changes" fullname="CatGame.Tests.WorldArtContractTests.Actor_click_collider_follows_body_after_action_and_facing_changes" methodname="Actor_click_collider_follows_body_after_action_and_facing_changes" classname="CatGame.Tests.WorldArtContractTests" runstate="Runnable" seed="1955294029" result="Passed" start-time="2026-11-18 10:58:13Z" end-time="2026-11-18 10:58:13Z" duration="0.033017" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1124" name="Actor_origin_is_the_authored_foot_for_every_primary_action" fullname="CatGame.Tests.WorldArtContractTests.Actor_origin_is_the_authored_foot_for_every_primary_action" methodname="Actor_origin_is_the_authored_foot_for_every_primary_action" classname="CatGame.Tests.WorldArtContractTests" runstate="Runnable" seed="1290198773" result="Passed" start-time="2026-11-18 10:58:13Z" end-time="2026-11-18 10:58:13Z" duration="0.033189" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

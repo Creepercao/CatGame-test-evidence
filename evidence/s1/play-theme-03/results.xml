@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="6" result="Passed" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-18 10:19:33Z" end-time="2026-11-18 10:19:38Z" duration="5.2387462">
+  <test-suite type="TestSuite" id="1000" name="喵屋" fullname="喵屋" runstate="Runnable" testcasecount="98" result="Passed" start-time="2026-11-18 10:19:33Z" end-time="2026-11-18 10:19:38Z" duration="5.238746" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1125" name="CatGame.Tests.dll" fullname="PROJECT_ROOT/Library/ScriptAssemblies/CatGame.Tests.dll" runstate="Runnable" testcasecount="98" result="Passed" start-time="2026-11-18 10:19:33Z" end-time="2026-11-18 10:19:38Z" duration="5.230620" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="154100" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+      </properties>
+      <test-suite type="TestSuite" id="1126" name="CatGame" fullname="CatGame" runstate="Runnable" testcasecount="98" result="Passed" start-time="2026-11-18 10:19:33Z" end-time="2026-11-18 10:19:38Z" duration="5.214973" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1127" name="Tests" fullname="CatGame.Tests" runstate="Runnable" testcasecount="98" result="Passed" start-time="2026-11-18 10:19:33Z" end-time="2026-11-18 10:19:38Z" duration="5.213329" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1079" name="RoomThemeTests" fullname="CatGame.Tests.RoomThemeTests" classname="CatGame.Tests.RoomThemeTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-11-18 10:19:33Z" end-time="2026-11-18 10:19:38Z" duration="5.210172" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1080" name="Crossing_theme_preserves_state_actors_items_and_spending_does_not_revert" fullname="CatGame.Tests.RoomThemeTests.Crossing_theme_preserves_state_actors_items_and_spending_does_not_revert" methodname="Crossing_theme_preserves_state_actors_items_and_spending_does_not_revert" classname="CatGame.Tests.RoomThemeTests" runstate="Runnable" seed="1836397715" result="Passed" start-time="2026-11-18 10:19:33Z" end-time="2026-11-18 10:19:34Z" duration="1.277463" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1081" name="Existing_modal_and_its_close_frame_take_priority_over_transition" fullname="CatGame.Tests.RoomThemeTests.Existing_modal_and_its_close_frame_take_priority_over_transition" methodname="Existing_modal_and_its_close_frame_take_priority_over_transition" classname="CatGame.Tests.RoomThemeTests" runstate="Runnable" seed="1971320944" result="Passed" start-time="2026-11-18 10:19:34Z" end-time="2026-11-18 10:19:35Z" duration="0.969529" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1084" name="Hundred_actors_keep_identity_and_can_roam_after_the_room_change" fullname="CatGame.Tests.RoomThemeTests.Hundred_actors_keep_identity_and_can_roam_after_the_room_change" methodname="Hundred_actors_keep_identity_and_can_roam_after_the_room_change" classname="CatGame.Tests.RoomThemeTests" runstate="Runnable" seed="824828915" result="Passed" start-time="2026-11-18 10:19:35Z" end-time="2026-11-18 10:19:37Z" duration="1.458608" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1085" name="Missing_next_theme_art_retains_the_old_room_and_releases_the_modal" fullname="CatGame.Tests.RoomThemeTests.Missing_next_theme_art_retains_the_old_room_and_releases_the_modal" methodname="Missing_next_theme_art_retains_the_old_room_and_releases_the_modal" classname="CatGame.Tests.RoomThemeTests" runstate="Runnable" seed="1001061238" result="Passed" start-time="2026-11-18 10:19:37Z" end-time="2026-11-18 10:19:38Z" duration="1.122393" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+              <output><![CDATA[Room theme could not be applied: Missing room theme art: companions
+]]></output>
+            </test-case>
+            <test-case id="1083" name="Newly_covered_cat_foot_is_relocated_without_recreating_actor" fullname="CatGame.Tests.RoomThemeTests.Newly_covered_cat_foot_is_relocated_without_recreating_actor" methodname="Newly_covered_cat_foot_is_relocated_without_recreating_actor" classname="CatGame.Tests.RoomThemeTests" runstate="Runnable" seed="1873277819" result="Passed" start-time="2026-11-18 10:19:38Z" end-time="2026-11-18 10:19:38Z" duration="0.090805" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+            <test-case id="1082" name="Pending_story_is_not_skipped_and_transition_disable_releases_pause" fullname="CatGame.Tests.RoomThemeTests.Pending_story_is_not_skipped_and_transition_disable_releases_pause" methodname="Pending_story_is_not_skipped_and_transition_disable_releases_pause" classname="CatGame.Tests.RoomThemeTests" runstate="Runnable" seed="2050068828" result="Passed" start-time="2026-11-18 10:19:38Z" end-time="2026-11-18 10:19:38Z" duration="0.275396" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+              </properties>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

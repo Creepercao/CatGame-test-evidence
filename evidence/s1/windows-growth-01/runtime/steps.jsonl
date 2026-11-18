@@ -1,0 +1,34 @@
+{"step":1,"utc":"2026-11-18T10:33:16.5376108Z","scene":"Home","type":"assertion","message":"real Home scene has room growth controller","realtime":4.101844310760498,"timeScale":1.0,"passed":true}
+{"step":2,"utc":"2026-11-18T10:33:16.5457867Z","scene":"Home","type":"assertion","message":"new game starts in warm starter room","realtime":4.104345321655273,"timeScale":1.0,"passed":true}
+{"step":3,"utc":"2026-11-18T10:33:17.2520083Z","scene":"Home","type":"assertion","message":"actual room viewport 1920x1080","realtime":4.81034517288208,"timeScale":1.0,"passed":true}
+{"step":4,"utc":"2026-11-18T10:33:17.3249435Z","scene":"Home","type":"screenshot","message":"starter-1920x1080.png","realtime":4.883394241333008,"timeScale":1.0,"passed":true}
+{"step":5,"utc":"2026-11-18T10:33:18.0294978Z","scene":"Home","type":"assertion","message":"actual room viewport 1600x900","realtime":5.5877299308776859,"timeScale":1.0,"passed":true}
+{"step":6,"utc":"2026-11-18T10:33:18.0698205Z","scene":"Home","type":"screenshot","message":"starter-1600x900.png","realtime":5.627774238586426,"timeScale":1.0,"passed":true}
+{"step":7,"utc":"2026-11-18T10:33:19.2808686Z","scene":"Home","type":"assertion","message":"actual room viewport 2560x1440","realtime":6.838792324066162,"timeScale":1.0,"passed":true}
+{"step":8,"utc":"2026-11-18T10:33:19.3823443Z","scene":"Home","type":"screenshot","message":"starter-2560x1440.png","realtime":6.94099235534668,"timeScale":1.0,"passed":true}
+{"step":9,"utc":"2026-11-18T10:33:19.3848518Z","scene":"Home","type":"assertion","message":"hold foreground modal while income approaches threshold","realtime":6.942880153656006,"timeScale":0.0,"passed":true}
+{"step":10,"utc":"2026-11-18T10:33:19.6900620Z","scene":"Home","type":"assertion","message":"room defers behind foreground modal","realtime":7.2479729652404789,"timeScale":0.0,"passed":true}
+{"step":11,"utc":"2026-11-18T10:33:20.3559382Z","scene":"Home","type":"assertion","message":"live passive income crossed threshold and transitioned","realtime":7.914278984069824,"timeScale":1.0,"passed":true}
+{"step":12,"utc":"2026-11-18T10:33:20.3569601Z","scene":"Home","type":"assertion","message":"room swap preserved roster, actors, items and HUD","realtime":7.915781497955322,"timeScale":1.0,"passed":true}
+{"step":13,"utc":"2026-11-18T10:33:20.6619633Z","scene":"Home","type":"assertion","message":"empty wallet does not revert room","realtime":8.220026969909668,"timeScale":1.0,"passed":true}
+{"step":14,"utc":"2026-11-18T10:33:21.3633564Z","scene":"Home","type":"assertion","message":"actual room viewport 1920x1080","realtime":8.921228408813477,"timeScale":1.0,"passed":true}
+{"step":15,"utc":"2026-11-18T10:33:21.4290783Z","scene":"Home","type":"screenshot","message":"companions-1920x1080.png","realtime":8.98785400390625,"timeScale":1.0,"passed":true}
+{"step":16,"utc":"2026-11-18T10:33:22.1339178Z","scene":"Home","type":"assertion","message":"actual room viewport 1600x900","realtime":9.691779136657715,"timeScale":1.0,"passed":true}
+{"step":17,"utc":"2026-11-18T10:33:22.1792951Z","scene":"Home","type":"screenshot","message":"companions-1600x900.png","realtime":9.737563133239746,"timeScale":1.0,"passed":true}
+{"step":18,"utc":"2026-11-18T10:33:23.3911462Z","scene":"Home","type":"assertion","message":"actual room viewport 2560x1440","realtime":10.94929027557373,"timeScale":1.0,"passed":true}
+{"step":19,"utc":"2026-11-18T10:33:23.4952582Z","scene":"Home","type":"screenshot","message":"companions-2560x1440.png","realtime":11.053739547729493,"timeScale":1.0,"passed":true}
+{"step":20,"utc":"2026-11-18T10:33:24.2030774Z","scene":"Home","type":"assertion","message":"actual room viewport 1600x900","realtime":11.761364936828614,"timeScale":1.0,"passed":true}
+{"step":21,"utc":"2026-11-18T10:33:24.2063409Z","scene":"Home","type":"assertion","message":"native pointer target belongs to this Player","realtime":11.764863967895508,"timeScale":0.0,"passed":true}
+{"step":22,"utc":"2026-11-18T10:33:28.7469437Z","scene":"Home","type":"assertion","message":"owned QA window has foreground focus before any input","realtime":16.30508041381836,"timeScale":0.0,"passed":true}
+{"step":23,"utc":"2026-11-18T10:33:28.7479434Z","scene":"Home","type":"assertion","message":"native client point translated","realtime":16.305978775024415,"timeScale":0.0,"passed":true}
+{"step":24,"utc":"2026-11-18T10:33:28.7489449Z","scene":"Home","type":"assertion","message":"cursor positioned in owned Player","realtime":16.306886672973634,"timeScale":0.0,"passed":true}
+{"step":25,"utc":"2026-11-18T10:33:28.9542516Z","scene":"Home","type":"native-mouse-down","message":"body screen=(982.50, 460.00, 10.00) desktop=1142,541","realtime":16.512475967407228,"timeScale":0.0,"passed":true}
+{"step":26,"utc":"2026-11-18T10:33:29.3173356Z","scene":"Home","type":"assertion","message":"one native body click adds exactly one pet after room transition","realtime":16.875059127807618,"timeScale":0.0,"passed":true}
+{"step":27,"utc":"2026-11-18T10:33:30.4192416Z","scene":"Home","type":"assertion","message":"settled hundred-cat roster","realtime":17.977739334106447,"timeScale":1.0,"passed":true}
+{"step":28,"utc":"2026-11-18T10:33:50.4249726Z","scene":"Home","type":"assertion","message":"real-time hundred-cat feet and furniture depth remain valid","realtime":37.983238220214847,"timeScale":1.0,"passed":true}
+{"step":29,"utc":"2026-11-18T10:33:50.4690841Z","scene":"Home","type":"screenshot","message":"companions-hundred-1600x900.png","realtime":38.02705001831055,"timeScale":1.0,"passed":true}
+{"step":1,"utc":"2026-11-18T10:33:54.7512566Z","scene":"Home","type":"assertion","message":"real Home scene has room growth controller","realtime":3.433213233947754,"timeScale":0.0,"passed":true}
+{"step":2,"utc":"2026-11-18T10:33:54.7569531Z","scene":"Home","type":"assertion","message":"saved high progress starts directly in companion room","realtime":3.4344725608825685,"timeScale":0.0,"passed":true}
+{"step":3,"utc":"2026-11-18T10:33:54.7569531Z","scene":"Home","type":"assertion","message":"fresh Player restored saved cats and native pet","realtime":3.4353137016296388,"timeScale":0.0,"passed":true}
+{"step":4,"utc":"2026-11-18T10:33:55.4671675Z","scene":"Home","type":"assertion","message":"actual room viewport 1600x900","realtime":4.144726276397705,"timeScale":0.0,"passed":true}
+{"step":5,"utc":"2026-11-18T10:33:55.5116034Z","scene":"Home","type":"screenshot","message":"restart-companions-1600x900.png","realtime":4.189553737640381,"timeScale":0.0,"passed":true}

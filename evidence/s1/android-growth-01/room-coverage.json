@@ -1,0 +1,35 @@
+{
+  "standard": {
+    "imageSha256": "06d4b8fab9fee66ca198c70b5f611239143279051a212b453f3d13565950b325",
+    "width": 1600,
+    "height": 900,
+    "rightClearWidths": [
+      0,
+      0,
+      0
+    ],
+    "covered": true
+  },
+  "wide": {
+    "imageSha256": "db30b70a76c2d245e955df6d876d39b416b704d437cc7814c5141120a18caaab",
+    "width": 2000,
+    "height": 900,
+    "rightClearWidths": [
+      0,
+      0,
+      0
+    ],
+    "covered": true
+  },
+  "compact": {
+    "imageSha256": "46f9292790ff66c97a120b496a3836f5ffbd03cc07857719c5e7ffbfa9dc6ebe",
+    "width": 1200,
+    "height": 900,
+    "rightClearWidths": [
+      0,
+      0,
+      0
+    ],
+    "covered": true
+  }
+}

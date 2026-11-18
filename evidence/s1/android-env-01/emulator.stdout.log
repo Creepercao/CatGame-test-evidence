@@ -1,0 +1,8 @@
+INFO         | Android emulator version 36.5.11.0 (build_id 15261927) (CL:N/A)
+INFO         | Graphics backend: gfxstream
+INFO         | AVD Pixel_3a_API_34 has path C:\Users\USER\.android\avd\..\avd\Pixel_3a_API_34.avd
+INFO         | trying to check whether D:/Unity/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK is a valid sdk root
+WARNING      | D:/Unity/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK\system-images\android-34\google_apis\x86_64\ is not a valid directory.
+WARNING      | emulator has searched the above paths but found no valid sdk root directory.
+FATAL        | Broken AVD system path. Check your ANDROID_SDK_ROOT value [D:/Unity/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK]!
+

@@ -1,0 +1,38 @@
+[
+  {
+    "utc": "2026-11-18T11:05:37Z",
+    "action": "launch-ordinary-binary",
+    "data": {
+      "pid": 150804,
+      "sha256": "5ca1a0daa0946e4e01ddcd7aef415ac0d08c00302480f96a41888c69a785018b"
+    }
+  },
+  {
+    "utc": "2026-11-18T11:05:41Z",
+    "action": "discovered-ordinary-menu",
+    "data": {
+      "pid": 150804,
+      "blocked": true
+    }
+  },
+  {
+    "utc": "2026-11-18T11:05:44Z",
+    "action": "owned-unity-window",
+    "data": {
+      "handle": 6099162
+    }
+  },
+  {
+    "utc": "2026-11-18T11:05:44Z",
+    "action": "foreground-activation",
+    "data": {
+      "queueAttached": true,
+      "ownedWindowActive": false
+    }
+  },
+  {
+    "utc": "2026-11-18T11:06:29Z",
+    "action": "failure",
+    "data": "TimeoutError('Ordinary Player readiness or foreground timeout')"
+  }
+]

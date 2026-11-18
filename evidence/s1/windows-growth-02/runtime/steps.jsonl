@@ -1,0 +1,22 @@
+{"step":1,"utc":"2026-11-18T10:39:39.6599465Z","scene":"Home","type":"assertion","message":"real Home scene has room growth controller","realtime":3.3940560817718508,"timeScale":1.0,"passed":true}
+{"step":2,"utc":"2026-11-18T10:39:39.6659592Z","scene":"Home","type":"assertion","message":"new game starts in warm starter room","realtime":3.395674705505371,"timeScale":1.0,"passed":true}
+{"step":3,"utc":"2026-11-18T10:39:40.3754301Z","scene":"Home","type":"assertion","message":"actual room viewport 1920x1080","realtime":4.104931354522705,"timeScale":1.0,"passed":true}
+{"step":4,"utc":"2026-11-18T10:39:40.4396950Z","scene":"Home","type":"screenshot","message":"starter-1920x1080.png","realtime":4.169448375701904,"timeScale":1.0,"passed":true}
+{"step":5,"utc":"2026-11-18T10:39:41.1455161Z","scene":"Home","type":"assertion","message":"actual room viewport 1600x900","realtime":4.875308036804199,"timeScale":1.0,"passed":true}
+{"step":6,"utc":"2026-11-18T10:39:41.1844423Z","scene":"Home","type":"screenshot","message":"starter-1600x900.png","realtime":4.9146528244018559,"timeScale":1.0,"passed":true}
+{"step":7,"utc":"2026-11-18T10:39:42.3971079Z","scene":"Home","type":"assertion","message":"actual room viewport 2560x1440","realtime":6.126471996307373,"timeScale":1.0,"passed":true}
+{"step":8,"utc":"2026-11-18T10:39:42.4957951Z","scene":"Home","type":"screenshot","message":"starter-2560x1440.png","realtime":6.226374626159668,"timeScale":1.0,"passed":true}
+{"step":9,"utc":"2026-11-18T10:39:42.4978428Z","scene":"Home","type":"assertion","message":"hold foreground modal while income approaches threshold","realtime":6.228238105773926,"timeScale":0.0,"passed":true}
+{"step":10,"utc":"2026-11-18T10:39:42.8054471Z","scene":"Home","type":"assertion","message":"room defers behind foreground modal","realtime":6.535783767700195,"timeScale":0.0,"passed":true}
+{"step":11,"utc":"2026-11-18T10:39:43.4720881Z","scene":"Home","type":"assertion","message":"live passive income crossed threshold and transitioned","realtime":7.201959133148193,"timeScale":1.0,"passed":true}
+{"step":12,"utc":"2026-11-18T10:39:43.4731077Z","scene":"Home","type":"assertion","message":"room swap preserved roster, actors, items and HUD","realtime":7.203268051147461,"timeScale":1.0,"passed":true}
+{"step":13,"utc":"2026-11-18T10:39:43.7785205Z","scene":"Home","type":"assertion","message":"empty wallet does not revert room","realtime":7.507916450500488,"timeScale":1.0,"passed":true}
+{"step":14,"utc":"2026-11-18T10:39:44.4856773Z","scene":"Home","type":"assertion","message":"actual room viewport 1920x1080","realtime":8.215680122375489,"timeScale":1.0,"passed":true}
+{"step":15,"utc":"2026-11-18T10:39:44.5398619Z","scene":"Home","type":"screenshot","message":"companions-1920x1080.png","realtime":8.269719123840332,"timeScale":1.0,"passed":true}
+{"step":16,"utc":"2026-11-18T10:39:45.2426433Z","scene":"Home","type":"assertion","message":"actual room viewport 1600x900","realtime":8.972365379333496,"timeScale":1.0,"passed":true}
+{"step":17,"utc":"2026-11-18T10:39:45.2823399Z","scene":"Home","type":"screenshot","message":"companions-1600x900.png","realtime":9.011974334716797,"timeScale":1.0,"passed":true}
+{"step":18,"utc":"2026-11-18T10:39:46.4874075Z","scene":"Home","type":"assertion","message":"actual room viewport 2560x1440","realtime":10.217370986938477,"timeScale":1.0,"passed":true}
+{"step":19,"utc":"2026-11-18T10:39:46.5833569Z","scene":"Home","type":"screenshot","message":"companions-2560x1440.png","realtime":10.313007354736329,"timeScale":1.0,"passed":true}
+{"step":20,"utc":"2026-11-18T10:39:47.2908081Z","scene":"Home","type":"assertion","message":"actual room viewport 1600x900","realtime":11.021034240722657,"timeScale":1.0,"passed":true}
+{"step":21,"utc":"2026-11-18T10:39:47.2969422Z","scene":"Home","type":"assertion","message":"native pointer target belongs to this Player","realtime":11.026627540588379,"timeScale":0.0,"passed":true}
+{"step":22,"utc":"2026-11-18T10:41:17.6083321Z","scene":"Home","type":"assertion","message":"owned QA window has foreground focus before any input","realtime":101.33821105957031,"timeScale":0.0,"passed":false}

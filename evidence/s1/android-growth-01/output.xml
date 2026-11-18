@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-18T19:09:36.248118" rpa="false" schemaversion="5">
+<suite id="s1" name="S1 Android Growth" source="PROJECT_ROOT\Tests\robot\rooms\s1_android_growth.robot">
+<kw name="Open Appium" owner="S1Android" type="SETUP">
+<msg time="2026-11-18T19:09:44.834797" level="INFO">Appium session SESSION_ID, Android test user 10</msg>
+<status status="PASS" start="2026-11-18T19:09:36.505929" elapsed="8.329902"/>
+</kw>
+<test id="s1-t1" name="S1-GROWTH-01 Passive Earning Changes Room And Persists" line="8">
+<kw name="Prepare Explicit Near Threshold Fixture" owner="S1Android">
+<msg time="2026-11-18T19:09:45.223808" level="INFO">Appium Android key 3</msg>
+<msg time="2026-11-18T19:09:45.696977" level="INFO">CatGame is backgrounded; topResumedActivity=ActivityRecord{9704094 u10 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t1000002}</msg>
+<status status="PASS" start="2026-11-18T19:09:44.836828" elapsed="3.072195"/>
+</kw>
+<kw name="Start Cat Game" owner="S1Android">
+<msg time="2026-11-18T19:09:50.240431" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1936
+WaitTime: 1939
+Complete</msg>
+<status status="PASS" start="2026-11-18T19:09:47.909023" elapsed="2.331408"/>
+</kw>
+<kw name="Wait For Visual" owner="S1Android">
+<msg time="2026-11-18T19:10:00.922893" level="INFO">Visual check menu passed (RGB error 0.51): menu.png</msg>
+<arg>menu</arg>
+<arg>menu.png</arg>
+<arg>timeout=45</arg>
+<status status="PASS" start="2026-11-18T19:09:50.240431" elapsed="10.682462"/>
+</kw>
+<kw name="Tap" owner="S1Android">
+<msg time="2026-11-18T19:10:00.923893" level="INFO">Appium clickGesture (1320, 372)</msg>
+<arg>1320</arg>
+<arg>372</arg>
+<status status="PASS" start="2026-11-18T19:10:00.923893" elapsed="0.262890"/>
+</kw>
+<kw name="Wait For Visual" owner="S1Android">
+<msg time="2026-11-18T19:10:06.082410" level="INFO">Visual check two-cats passed (RGB error 0.92): loaded.png</msg>
+<arg>two-cats</arg>
+<arg>loaded.png</arg>
+<arg>timeout=20</arg>
+<status status="PASS" start="2026-11-18T19:10:01.187782" elapsed="4.895645"/>
+</kw>
+<kw name="Wait For Room Pixels" owner="S1Android">
+<arg>Starter</arg>
+<arg>starter.png</arg>
+<status status="PASS" start="2026-11-18T19:10:06.083427" elapsed="1.046473"/>
+</kw>
+<kw name="Wait For Room Pixels" owner="S1Android">
+<arg>Companions</arg>
+<arg>companions.png</arg>
+<status status="PASS" start="2026-11-18T19:10:07.130886" elapsed="10.142444"/>
+</kw>
+<kw name="Assert Saved Theme Progress" owner="S1Android">
+<msg time="2026-11-18T19:10:17.273330" level="INFO">Appium Android key 3</msg>
+<msg time="2026-11-18T19:10:20.219730" level="INFO">CatGame is backgrounded; topResumedActivity=ActivityRecord{9704094 u10 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t1000002}</msg>
+<arg>progress-after.json</arg>
+<status status="PASS" start="2026-11-18T19:10:17.273330" elapsed="3.198123"/>
+</kw>
+<kw name="Force Stop Cat Game" owner="S1Android">
+<status status="PASS" start="2026-11-18T19:10:20.471453" elapsed="0.278908"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-11-18T19:10:22.751283" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="PASS" start="2026-11-18T19:10:20.750361" elapsed="2.000922"/>
+</kw>
+<kw name="Start Cat Game" owner="S1Android">
+<msg time="2026-11-18T19:10:24.872448" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1979
+WaitTime: 1997
+Complete</msg>
+<status status="PASS" start="2026-11-18T19:10:22.751283" elapsed="2.121165"/>
+</kw>
+<kw name="Wait For Visual" owner="S1Android">
+<msg time="2026-11-18T19:10:35.158601" level="INFO">Visual check menu passed (RGB error 0.51): restart-menu.png</msg>
+<arg>menu</arg>
+<arg>restart-menu.png</arg>
+<arg>timeout=45</arg>
+<status status="PASS" start="2026-11-18T19:10:24.873962" elapsed="10.285629"/>
+</kw>
+<kw name="Tap" owner="S1Android">
+<msg time="2026-11-18T19:10:35.160594" level="INFO">Appium clickGesture (1320, 372)</msg>
+<arg>1320</arg>
+<arg>372</arg>
+<status status="PASS" start="2026-11-18T19:10:35.159591" elapsed="0.161300"/>
+</kw>
+<kw name="Wait For Visual" owner="S1Android">
+<msg time="2026-11-18T19:10:40.528155" level="INFO">Visual check offline passed (RGB error 0.35): restart-offline.png</msg>
+<arg>offline</arg>
+<arg>restart-offline.png</arg>
+<arg>timeout=20</arg>
+<status status="PASS" start="2026-11-18T19:10:35.320891" elapsed="5.209265"/>
+</kw>
+<kw name="Tap" owner="S1Android">
+<msg time="2026-11-18T19:10:40.530156" level="INFO">Appium clickGesture (800, 519)</msg>
+<arg>800</arg>
+<arg>519</arg>
+<status status="PASS" start="2026-11-18T19:10:40.530156" elapsed="0.150872"/>
+</kw>
+<kw name="Wait For Visual" owner="S1Android">
+<msg time="2026-11-18T19:10:41.275244" level="INFO">Visual check two-cats passed (RGB error 0.92): restart-playable.png</msg>
+<arg>two-cats</arg>
+<arg>restart-playable.png</arg>
+<arg>timeout=20</arg>
+<status status="PASS" start="2026-11-18T19:10:40.681028" elapsed="0.595219"/>
+</kw>
+<kw name="Wait For Room Pixels" owner="S1Android">
+<arg>Companions</arg>
+<arg>restart-companions.png</arg>
+<status status="PASS" start="2026-11-18T19:10:41.276247" elapsed="0.958963"/>
+</kw>
+<status status="PASS" start="2026-11-18T19:09:44.835831" elapsed="57.400376"/>
+</test>
+<test id="s1-t2" name="S1-TOUCH-01 Standard" line="27">
+<kw name="Check Native Touch">
+<kw name="Force Stop Cat Game" owner="S1Android">
+<status status="PASS" start="2026-11-18T19:10:42.246724" elapsed="0.494662"/>
+</kw>
+<kw name="Set Display Width" owner="S1Android">
+<msg time="2026-11-18T19:10:44.143444" level="INFO">Physical size: 1080x2220
+Override size: 900x1600</msg>
+<arg>${width}</arg>
+<status status="PASS" start="2026-11-18T19:10:42.741386" elapsed="1.402058"/>
+</kw>
+<kw name="Start Cat Game" owner="S1Android">
+<msg time="2026-11-18T19:10:46.457634" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1997
+WaitTime: 2001
+Complete</msg>
+<status status="PASS" start="2026-11-18T19:10:44.144442" elapsed="2.313192"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-11-18T19:10:46.467148" level="INFO">${menu_offset} = 0</msg>
+<var>${menu_offset}</var>
+<arg>int($menu_x) - 1320</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-11-18T19:10:46.458635" elapsed="0.008513"/>
+</kw>
+<kw name="Wait For Visual" owner="S1Android">
+<msg time="2026-11-18T19:10:56.412998" level="INFO">Visual check menu passed (RGB error 0.51): standard-menu.png</msg>
+<arg>menu</arg>
+<arg>${tag}-menu.png</arg>
+<arg>timeout=45</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${menu_offset}</arg>
+<status status="PASS" start="2026-11-18T19:10:46.467148" elapsed="9.948371"/>
+</kw>
+<kw name="Tap" owner="S1Android">
+<msg time="2026-11-18T19:10:56.415519" level="INFO">Appium clickGesture (1320, 372)</msg>
+<arg>${menu_x}</arg>
+<arg>372</arg>
+<status status="PASS" start="2026-11-18T19:10:56.415519" elapsed="0.211527"/>
+</kw>
+<kw name="Wait For Visual" owner="S1Android">
+<msg time="2026-11-18T19:11:01.486586" level="INFO">Visual check offline passed (RGB error 0.35): standard-offline.png</msg>
+<arg>offline</arg>
+<arg>${tag}-offline.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${modal_offset}</arg>
+<status status="PASS" start="2026-11-18T19:10:56.627046" elapsed="4.859540"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-11-18T19:11:01.488590" level="INFO">${center} = 800</msg>
+<var>${center}</var>
+<arg>int($width) // 2</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-11-18T19:11:01.487587" elapsed="0.001003"/>
+</kw>
+<kw name="Tap" owner="S1Android">
+<msg time="2026-11-18T19:11:01.488590" level="INFO">Appium clickGesture (800, 519)</msg>
+<arg>${center}</arg>
+<arg>519</arg>
+<status status="PASS" start="2026-11-18T19:11:01.488590" elapsed="0.161760"/>
+</kw>
+<kw name="Wait For Two Cats And Dismiss Pending Cg" owner="S1Android">
+<arg>${width}</arg>
+<arg>${tag}</arg>
+<status status="PASS" start="2026-11-18T19:11:01.650350" elapsed="0.654278"/>
+</kw>
+<kw name="Wait For Room Pixels" owner="S1Android">
+<arg>Companions</arg>
+<arg>${tag}-companions.png</arg>
+<arg>${width}</arg>
+<status status="PASS" start="2026-11-18T19:11:02.304628" elapsed="0.939096"/>
+</kw>
+<kw name="Pet Visible Milk And Verify Saved Click" owner="S1Android">
+<msg time="2026-11-18T19:11:43.837259" level="INFO">Appium clickGesture (814, 309)</msg>
+<msg time="2026-11-18T19:11:44.909363" level="INFO">Appium screenshot standard-body-after.png, 1600x900</msg>
+<msg time="2026-11-18T19:11:44.910337" level="INFO">Appium Android key 3</msg>
+<msg time="2026-11-18T19:11:47.939125" level="INFO">CatGame is backgrounded; topResumedActivity=ActivityRecord{9704094 u10 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t1000002}</msg>
+<msg time="2026-11-18T19:11:48.237196" level="INFO">standard: real touch saved clicks 0 -&gt; 1</msg>
+<arg>${tag}</arg>
+<status status="PASS" start="2026-11-18T19:11:03.243724" elapsed="44.994473"/>
+</kw>
+<kw name="Force Stop Cat Game" owner="S1Android">
+<status status="PASS" start="2026-11-18T19:11:48.239089" elapsed="0.296302"/>
+</kw>
+<kw name="Restore Display Size" owner="S1Android">
+<msg time="2026-11-18T19:11:48.746037" level="INFO">Restored device display: Physical size: 1080x2220
+Override size: 900x1600</msg>
+<status status="PASS" start="2026-11-18T19:11:48.535391" elapsed="0.210646"/>
+</kw>
+<arg>1600</arg>
+<arg>1320</arg>
+<arg>0</arg>
+<arg>standard</arg>
+<status status="PASS" start="2026-11-18T19:10:42.245713" elapsed="66.500324"/>
+</kw>
+<status status="PASS" start="2026-11-18T19:10:42.237207" elapsed="66.508830"/>
+</test>
+<test id="s1-t3" name="S1-TOUCH-02 Wide" line="29">
+<kw name="Check Native Touch">
+<kw name="Force Stop Cat Game" owner="S1Android">
+<status status="PASS" start="2026-11-18T19:11:48.747216" elapsed="0.195671"/>
+</kw>
+<kw name="Set Display Width" owner="S1Android">
+<msg time="2026-11-18T19:11:49.555442" level="INFO">Physical size: 1080x2220
+Override size: 900x2000</msg>
+<arg>${width}</arg>
+<status status="PASS" start="2026-11-18T19:11:48.942887" elapsed="0.612555"/>
+</kw>
+<kw name="Start Cat Game" owner="S1Android">
+<msg time="2026-11-18T19:11:52.383639" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 2491
+WaitTime: 2627
+Complete</msg>
+<status status="PASS" start="2026-11-18T19:11:49.555442" elapsed="2.828197"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-11-18T19:11:52.385633" level="INFO">${menu_offset} = 330</msg>
+<var>${menu_offset}</var>
+<arg>int($menu_x) - 1320</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-11-18T19:11:52.384638" elapsed="0.000995"/>
+</kw>
+<kw name="Wait For Visual" owner="S1Android">
+<msg time="2026-11-18T19:12:04.142148" level="INFO">Visual check menu passed (RGB error 0.55): wide-menu.png</msg>
+<arg>menu</arg>
+<arg>${tag}-menu.png</arg>
+<arg>timeout=45</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${menu_offset}</arg>
+<status status="PASS" start="2026-11-18T19:11:52.385633" elapsed="11.757518"/>
+</kw>
+<kw name="Tap" owner="S1Android">
+<msg time="2026-11-18T19:12:04.144146" level="INFO">Appium clickGesture (1650, 372)</msg>
+<arg>${menu_x}</arg>
+<arg>372</arg>
+<status status="PASS" start="2026-11-18T19:12:04.144146" elapsed="0.199713"/>
+</kw>
+<kw name="Wait For Visual" owner="S1Android">
+<msg time="2026-11-18T19:12:10.429089" level="INFO">Visual check offline passed (RGB error 0.42): wide-offline.png</msg>
+<arg>offline</arg>
+<arg>${tag}-offline.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${modal_offset}</arg>
+<status status="PASS" start="2026-11-18T19:12:04.343859" elapsed="6.085230"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-11-18T19:12:10.431103" level="INFO">${center} = 1000</msg>
+<var>${center}</var>
+<arg>int($width) // 2</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-11-18T19:12:10.430102" elapsed="0.001001"/>
+</kw>
+<kw name="Tap" owner="S1Android">
+<msg time="2026-11-18T19:12:10.432102" level="INFO">Appium clickGesture (1000, 519)</msg>
+<arg>${center}</arg>
+<arg>519</arg>
+<status status="PASS" start="2026-11-18T19:12:10.432102" elapsed="0.138511"/>
+</kw>
+<kw name="Wait For Two Cats And Dismiss Pending Cg" owner="S1Android">
+<arg>${width}</arg>
+<arg>${tag}</arg>
+<status status="PASS" start="2026-11-18T19:12:10.570613" elapsed="1.831967"/>
+</kw>
+<kw name="Wait For Room Pixels" owner="S1Android">
+<arg>Companions</arg>
+<arg>${tag}-companions.png</arg>
+<arg>${width}</arg>
+<status status="PASS" start="2026-11-18T19:12:12.404383" elapsed="1.104087"/>
+</kw>
+<kw name="Pet Visible Milk And Verify Saved Click" owner="S1Android">
+<msg time="2026-11-18T19:12:48.708886" level="INFO">Appium clickGesture (841, 493)</msg>
+<msg time="2026-11-18T19:12:49.824059" level="INFO">Appium screenshot wide-body-after.png, 2000x900</msg>
+<msg time="2026-11-18T19:12:49.826582" level="INFO">Appium Android key 3</msg>
+<msg time="2026-11-18T19:12:50.344381" level="INFO">CatGame is backgrounded; topResumedActivity=ActivityRecord{9704094 u10 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t1000002}</msg>
+<msg time="2026-11-18T19:12:50.980164" level="INFO">wide: real touch saved clicks 1 -&gt; 2</msg>
+<arg>${tag}</arg>
+<status status="PASS" start="2026-11-18T19:12:13.508470" elapsed="37.483299"/>
+</kw>
+<kw name="Force Stop Cat Game" owner="S1Android">
+<status status="PASS" start="2026-11-18T19:12:50.992767" elapsed="1.159377"/>
+</kw>
+<kw name="Restore Display Size" owner="S1Android">
+<msg time="2026-11-18T19:12:53.196529" level="INFO">Restored device display: Physical size: 1080x2220
+Override size: 900x1600</msg>
+<status status="PASS" start="2026-11-18T19:12:52.152144" elapsed="1.044385"/>
+</kw>
+<arg>2000</arg>
+<arg>1650</arg>
+<arg>200</arg>
+<arg>wide</arg>
+<status status="PASS" start="2026-11-18T19:11:48.747216" elapsed="64.449313"/>
+</kw>
+<status status="PASS" start="2026-11-18T19:11:48.746037" elapsed="64.451487"/>
+</test>
+<test id="s1-t4" name="S1-TOUCH-03 Compact" line="31">
+<kw name="Check Native Touch">
+<kw name="Force Stop Cat Game" owner="S1Android">
+<status status="PASS" start="2026-11-18T19:12:53.204086" elapsed="0.800938"/>
+</kw>
+<kw name="Set Display Width" owner="S1Android">
+<msg time="2026-11-18T19:12:55.201988" level="INFO">Physical size: 1080x2220
+Override size: 900x1200</msg>
+<arg>${width}</arg>
+<status status="PASS" start="2026-11-18T19:12:54.005024" elapsed="1.196964"/>
+</kw>
+<kw name="Start Cat Game" owner="S1Android">
+<msg time="2026-11-18T19:12:57.455163" level="INFO">Starting: Intent { cmp=com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catgamestudio.catgame/com.unity3d.player.UnityPlayerActivity
+TotalTime: 1979
+WaitTime: 2056
+Complete</msg>
+<status status="PASS" start="2026-11-18T19:12:55.201988" elapsed="2.253175"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-11-18T19:12:57.456677" level="INFO">${menu_offset} = -330</msg>
+<var>${menu_offset}</var>
+<arg>int($menu_x) - 1320</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-11-18T19:12:57.455163" elapsed="0.001514"/>
+</kw>
+<kw name="Wait For Visual" owner="S1Android">
+<msg time="2026-11-18T19:13:07.245863" level="INFO">Visual check menu passed (RGB error 0.51): compact-menu.png</msg>
+<arg>menu</arg>
+<arg>${tag}-menu.png</arg>
+<arg>timeout=45</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${menu_offset}</arg>
+<status status="PASS" start="2026-11-18T19:12:57.456677" elapsed="9.798293"/>
+</kw>
+<kw name="Tap" owner="S1Android">
+<msg time="2026-11-18T19:13:07.254970" level="INFO">Appium clickGesture (990, 372)</msg>
+<arg>${menu_x}</arg>
+<arg>372</arg>
+<status status="PASS" start="2026-11-18T19:13:07.254970" elapsed="0.212612"/>
+</kw>
+<kw name="Wait For Visual" owner="S1Android">
+<msg time="2026-11-18T19:13:11.447922" level="INFO">Visual check offline passed (RGB error 0.35): compact-offline.png</msg>
+<arg>offline</arg>
+<arg>${tag}-offline.png</arg>
+<arg>width=${width}</arg>
+<arg>offset_x=${modal_offset}</arg>
+<status status="PASS" start="2026-11-18T19:13:07.468662" elapsed="3.980857"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-11-18T19:13:11.450554" level="INFO">${center} = 600</msg>
+<var>${center}</var>
+<arg>int($width) // 2</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-11-18T19:13:11.450554" elapsed="0.000000"/>
+</kw>
+<kw name="Tap" owner="S1Android">
+<msg time="2026-11-18T19:13:11.450554" level="INFO">Appium clickGesture (600, 519)</msg>
+<arg>${center}</arg>
+<arg>519</arg>
+<status status="PASS" start="2026-11-18T19:13:11.450554" elapsed="0.126026"/>
+</kw>
+<kw name="Wait For Two Cats And Dismiss Pending Cg" owner="S1Android">
+<arg>${width}</arg>
+<arg>${tag}</arg>
+<status status="PASS" start="2026-11-18T19:13:11.576580" elapsed="0.485947"/>
+</kw>
+<kw name="Wait For Room Pixels" owner="S1Android">
+<arg>Companions</arg>
+<arg>${tag}-companions.png</arg>
+<arg>${width}</arg>
+<status status="PASS" start="2026-11-18T19:13:12.062527" elapsed="0.807187"/>
+</kw>
+<kw name="Pet Visible Milk And Verify Saved Click" owner="S1Android">
+<msg time="2026-11-18T19:13:23.968861" level="INFO">Appium clickGesture (978, 627)</msg>
+<msg time="2026-11-18T19:13:24.926727" level="INFO">Appium screenshot compact-body-after.png, 1200x900</msg>
+<msg time="2026-11-18T19:13:24.927807" level="INFO">Appium Android key 3</msg>
+<msg time="2026-11-18T19:13:27.555123" level="INFO">CatGame is backgrounded; topResumedActivity=ActivityRecord{9704094 u10 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t1000002}</msg>
+<msg time="2026-11-18T19:13:27.820663" level="INFO">compact: real touch saved clicks 2 -&gt; 3</msg>
+<arg>${tag}</arg>
+<status status="PASS" start="2026-11-18T19:13:12.869714" elapsed="14.951949"/>
+</kw>
+<kw name="Force Stop Cat Game" owner="S1Android">
+<status status="PASS" start="2026-11-18T19:13:27.822663" elapsed="0.299354"/>
+</kw>
+<kw name="Restore Display Size" owner="S1Android">
+<msg time="2026-11-18T19:13:28.505381" level="INFO">Restored device display: Physical size: 1080x2220
+Override size: 900x1600</msg>
+<status status="PASS" start="2026-11-18T19:13:28.122017" elapsed="0.383364"/>
+</kw>
+<arg>1200</arg>
+<arg>990</arg>
+<arg>-200</arg>
+<arg>compact</arg>
+<status status="PASS" start="2026-11-18T19:12:53.197524" elapsed="35.309117"/>
+</kw>
+<status status="PASS" start="2026-11-18T19:12:53.197524" elapsed="35.309117"/>
+</test>
+<kw name="Close Appium" owner="S1Android" type="TEARDOWN">
+<status status="PASS" start="2026-11-18T19:13:28.507646" elapsed="1.391307"/>
+</kw>
+<doc>Explicit QA near-threshold fixture; actual passive earning changes the room on the ordinary APK.</doc>
+<status status="PASS" start="2026-11-18T19:09:36.250120" elapsed="233.648833"/>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="S1 Android Growth" id="s1" pass="4" fail="0" skip="0">S1 Android Growth</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

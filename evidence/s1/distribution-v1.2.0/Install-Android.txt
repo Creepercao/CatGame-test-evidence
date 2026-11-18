@@ -1,0 +1,5 @@
+喵屋 CatGame 1.2.0 · Android ARM64 · code7
+横屏单机游戏，包名com.catgamestudio.catgame，沿用既有签名。
+允许浏览器/文件管理器安装APK，覆盖安装保留进度；不要先卸载旧版。
+新增累计产出驱动的两套像素房间，与Windows同一Release发布。
+本轮使用隔离Android14 AVD进行升级、场景和触摸验证，未重新测试真机性能。

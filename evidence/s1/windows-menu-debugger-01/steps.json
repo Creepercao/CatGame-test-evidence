@@ -1,0 +1,34 @@
+[
+  {
+    "utc": "2026-11-18T11:09:06Z",
+    "action": "launch-ordinary-binary",
+    "data": {
+      "pid": 152704,
+      "sha256": "5ca1a0daa0946e4e01ddcd7aef415ac0d08c00302480f96a41888c69a785018b"
+    }
+  },
+  {
+    "utc": "2026-11-18T11:09:09Z",
+    "action": "discovered-ordinary-menu",
+    "data": {
+      "pid": 152704,
+      "blocked": true
+    }
+  },
+  {
+    "utc": "2026-11-18T11:09:09Z",
+    "action": "ordinary-menu-write-protection",
+    "data": {
+      "blocked": true
+    }
+  },
+  {
+    "utc": "2026-11-18T11:09:19Z",
+    "action": "packaged-exe-auto-connect",
+    "data": {
+      "connected": true,
+      "pid": 152704,
+      "frozen": true
+    }
+  }
+]

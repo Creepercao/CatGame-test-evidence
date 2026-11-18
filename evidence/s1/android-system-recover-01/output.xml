@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-18T18:57:48.995507" rpa="false" schemaversion="5">
+<suite id="s1" name="S1 Avd Recover" source="PROJECT_ROOT\Tests\robot\rooms\s1_avd_recover.robot">
+<kw name="Open Appium" owner="F1ArtAndroid" type="SETUP">
+<msg time="2026-11-18T18:57:56.220653" level="INFO">Appium session SESSION_ID, Android test user 10</msg>
+<status status="PASS" start="2026-11-18T18:57:50.356692" elapsed="5.863961"/>
+</kw>
+<test id="s1-t1" name="Wait Once On Explicitly Reviewed AVD System UI ANR" line="7">
+<kw name="Dismiss One Avd System Ui Anr" owner="F1ArtAndroid">
+<msg time="2026-11-18T18:57:56.547384" level="INFO">Appium native hierarchy: system-ui-before.xml</msg>
+<msg time="2026-11-18T18:57:56.995702" level="INFO">Appium screenshot system-ui-before.png, 1600x900</msg>
+<msg time="2026-11-18T18:57:57.398103" level="INFO">Appium clickGesture (800, 599)</msg>
+<msg time="2026-11-18T18:57:58.730039" level="INFO">Appium native hierarchy: system-ui-after.xml</msg>
+<msg time="2026-11-18T18:57:59.082497" level="INFO">Appium screenshot system-ui-after.png, 1600x900</msg>
+<arg>${REFERENCE}</arg>
+<status status="PASS" start="2026-11-18T18:57:56.222188" elapsed="3.177622"/>
+</kw>
+<status status="PASS" start="2026-11-18T18:57:56.222188" elapsed="3.177622"/>
+</test>
+<kw name="Close Appium" owner="F1ArtAndroid" type="TEARDOWN">
+<status status="PASS" start="2026-11-18T18:57:59.401331" elapsed="1.386316"/>
+</kw>
+<status status="PASS" start="2026-11-18T18:57:48.998033" elapsed="11.789614"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="S1 Avd Recover" id="s1" pass="1" fail="0" skip="0">S1 Avd Recover</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,4 @@
+构建成功，但编辑器日志报告了以下错误：
+  [许可证] [Licensing::Client] Error: Code 10 while verifying Licensing Client signature (process Id: 157632, path: "D:/Unity/2022.3.21f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+  [许可证] [Licensing::Module] Error: LicensingClient has failed validation; ignoring
+  CS0246 Assets\Scripts\CatWorld.cs(38,16): The type or namespace name 'RoomThemeController' could not be found (are you missing a using directive or an assembly reference?)

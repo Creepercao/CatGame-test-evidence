@@ -1,0 +1,6 @@
+{"step":1,"utc":"2026-11-18T10:46:17.1642486Z","scene":"Home","type":"assertion","message":"real Home scene has room growth controller","realtime":4.119846820831299,"timeScale":0.0,"passed":true}
+{"step":2,"utc":"2026-11-18T10:46:17.1768109Z","scene":"Home","type":"assertion","message":"fresh Player resumed playable state after offline summary","realtime":4.126227378845215,"timeScale":1.0,"passed":true}
+{"step":3,"utc":"2026-11-18T10:46:17.1778111Z","scene":"Home","type":"assertion","message":"saved high progress starts directly in companion room","realtime":4.127330780029297,"timeScale":1.0,"passed":true}
+{"step":4,"utc":"2026-11-18T10:46:17.1778111Z","scene":"Home","type":"assertion","message":"fresh Player restored saved cats and native pet","realtime":4.127893924713135,"timeScale":1.0,"passed":true}
+{"step":5,"utc":"2026-11-18T10:46:17.8872017Z","scene":"Home","type":"assertion","message":"actual room viewport 1600x900","realtime":4.8367533683776859,"timeScale":1.0,"passed":true}
+{"step":6,"utc":"2026-11-18T10:46:17.9355956Z","scene":"Home","type":"screenshot","message":"restart-companions-1600x900.png","realtime":4.885295391082764,"timeScale":1.0,"passed":true}

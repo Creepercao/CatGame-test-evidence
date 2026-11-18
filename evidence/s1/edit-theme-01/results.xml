@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="7" result="Passed" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-18 10:13:53Z" end-time="2026-11-18 10:13:53Z" duration="0.1147119">
+  <test-suite type="TestSuite" id="1114" name="喵屋" fullname="喵屋" runstate="Runnable" testcasecount="88" result="Passed" start-time="2026-11-18 10:13:53Z" end-time="2026-11-18 10:13:53Z" duration="0.114712" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1220" name="CatGame.EditTests.dll" fullname="PROJECT_ROOT/Library/ScriptAssemblies/CatGame.EditTests.dll" runstate="Runnable" testcasecount="88" result="Passed" start-time="2026-11-18 10:13:53Z" end-time="2026-11-18 10:13:53Z" duration="0.084570" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="150080" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <test-suite type="TestSuite" id="1221" name="CatGame" fullname="CatGame" runstate="Runnable" testcasecount="88" result="Passed" start-time="2026-11-18 10:13:53Z" end-time="2026-11-18 10:13:53Z" duration="0.081786" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1222" name="Tests" fullname="CatGame.Tests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-18 10:13:53Z" end-time="2026-11-18 10:13:53Z" duration="0.080914" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1115" name="RoomThemeSettingsTests" fullname="CatGame.Tests.RoomThemeSettingsTests" classname="CatGame.Tests.RoomThemeSettingsTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-18 10:13:53Z" end-time="2026-11-18 10:13:53Z" duration="0.077520" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1123" name="All_configured_assets_match_world_grid_and_complete_layouts" fullname="CatGame.Tests.RoomThemeSettingsTests.All_configured_assets_match_world_grid_and_complete_layouts" methodname="All_configured_assets_match_world_grid_and_complete_layouts" classname="CatGame.Tests.RoomThemeSettingsTests" runstate="Runnable" seed="790516551" result="Passed" start-time="2026-11-18 10:13:53Z" end-time="2026-11-18 10:13:53Z" duration="0.056743" asserts="0">
+              <properties />
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1120" name="Cumulative_boundary_and_later_progress_resolve_existing_theme" fullname="CatGame.Tests.RoomThemeSettingsTests.Cumulative_boundary_and_later_progress_resolve_existing_theme" classname="CatGame.Tests.RoomThemeSettingsTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-11-18 10:13:53Z" end-time="2026-11-18 10:13:53Z" duration="0.004993" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1116" name="Cumulative_boundary_and_later_progress_resolve_existing_theme(0,0)" fullname="CatGame.Tests.RoomThemeSettingsTests.Cumulative_boundary_and_later_progress_resolve_existing_theme(0,0)" methodname="Cumulative_boundary_and_later_progress_resolve_existing_theme" classname="CatGame.Tests.RoomThemeSettingsTests" runstate="Runnable" seed="440789505" result="Passed" start-time="2026-11-18 10:13:53Z" end-time="2026-11-18 10:13:53Z" duration="0.001685" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1117" name="Cumulative_boundary_and_later_progress_resolve_existing_theme(99999.99d,0)" fullname="CatGame.Tests.RoomThemeSettingsTests.Cumulative_boundary_and_later_progress_resolve_existing_theme(99999.99d,0)" methodname="Cumulative_boundary_and_later_progress_resolve_existing_theme" classname="CatGame.Tests.RoomThemeSettingsTests" runstate="Runnable" seed="1296643214" result="Passed" start-time="2026-11-18 10:13:53Z" end-time="2026-11-18 10:13:53Z" duration="0.000150" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1118" name="Cumulative_boundary_and_later_progress_resolve_existing_theme(100000,1)" fullname="CatGame.Tests.RoomThemeSettingsTests.Cumulative_boundary_and_later_progress_resolve_existing_theme(100000,1)" methodname="Cumulative_boundary_and_later_progress_resolve_existing_theme" classname="CatGame.Tests.RoomThemeSettingsTests" runstate="Runnable" seed="1544391906" result="Passed" start-time="2026-11-18 10:13:53Z" end-time="2026-11-18 10:13:53Z" duration="0.000371" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1119" name="Cumulative_boundary_and_later_progress_resolve_existing_theme(1000000000000.0d,1)" fullname="CatGame.Tests.RoomThemeSettingsTests.Cumulative_boundary_and_later_progress_resolve_existing_theme(1000000000000.0d,1)" methodname="Cumulative_boundary_and_later_progress_resolve_existing_theme" classname="CatGame.Tests.RoomThemeSettingsTests" runstate="Runnable" seed="1290407485" result="Passed" start-time="2026-11-18 10:13:53Z" end-time="2026-11-18 10:13:53Z" duration="0.000083" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+            <test-case id="1121" name="Duplicate_ids_and_unordered_or_invalid_thresholds_are_rejected" fullname="CatGame.Tests.RoomThemeSettingsTests.Duplicate_ids_and_unordered_or_invalid_thresholds_are_rejected" methodname="Duplicate_ids_and_unordered_or_invalid_thresholds_are_rejected" classname="CatGame.Tests.RoomThemeSettingsTests" runstate="Runnable" seed="695869444" result="Passed" start-time="2026-11-18 10:13:53Z" end-time="2026-11-18 10:13:53Z" duration="0.002800" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1122" name="Invalid_observed_progress_does_not_silently_select_a_room" fullname="CatGame.Tests.RoomThemeSettingsTests.Invalid_observed_progress_does_not_silently_select_a_room" methodname="Invalid_observed_progress_does_not_silently_select_a_room" classname="CatGame.Tests.RoomThemeSettingsTests" runstate="Runnable" seed="251337728" result="Passed" start-time="2026-11-18 10:13:53Z" end-time="2026-11-18 10:13:53Z" duration="0.000551" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

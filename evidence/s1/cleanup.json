@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-18T11:18:37.7721753Z",
+  "shutdownComplete": true,
+  "remainingOwnedProcesses": [],
+  "remainingOwnedListeners": [],
+  "phoneOperated": false,
+  "mumuOperated": false,
+  "checkedProcessIds": [
+    154436,
+    143896,
+    136916
+  ]
+}

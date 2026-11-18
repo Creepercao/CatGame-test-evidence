@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-18T18:39:35.295137" rpa="false" schemaversion="5">
+<suite id="s1" name="Room Growth" source="PROJECT_ROOT\Tests\robot\rooms\room_growth.robot">
+<test id="s1-t1" name="S1-WIN-01 Room Growth Native Input And Fresh Process Restore" line="8">
+<kw name="Directory Should Not Exist" owner="OperatingSystem">
+<msg time="2026-11-18T18:39:35.364193" level="INFO" html="true">Directory '&lt;a href="file://PROJECT_ROOT\Build\S1\windows-growth-02\runtime"&gt;PROJECT_ROOT\Build\S1\windows-growth-02\runtime&lt;/a&gt;' does not exist.</msg>
+<arg>${OUTPUT DIR}/runtime</arg>
+<doc>Fails if the given path points to an existing file.</doc>
+<status status="PASS" start="2026-11-18T18:39:35.363195" elapsed="0.000998"/>
+</kw>
+<kw name="Create Directory" owner="OperatingSystem">
+<msg time="2026-11-18T18:39:35.365194" level="INFO" html="true">Created directory '&lt;a href="file://PROJECT_ROOT\Build\S1\windows-growth-02\runtime"&gt;PROJECT_ROOT\Build\S1\windows-growth-02\runtime&lt;/a&gt;'.</msg>
+<arg>${OUTPUT DIR}/runtime</arg>
+<doc>Creates the specified directory.</doc>
+<status status="PASS" start="2026-11-18T18:39:35.364193" elapsed="0.001001"/>
+</kw>
+<kw name="Run Process" owner="Process">
+<msg time="2026-11-18T18:39:35.366194" level="INFO">Starting process:
+PROJECT_ROOT/Build/S1/qa-windows-02/CatGameQA.exe -screen-fullscreen 0 -logFile PROJECT_ROOT\Build\S1\windows-growth-02/first-player.log</msg>
+<msg time="2026-11-18T18:39:35.381803" level="INFO">Waiting for process to complete.</msg>
+<msg time="2026-11-18T18:41:17.847295" level="INFO">Process completed.</msg>
+<msg time="2026-11-18T18:41:17.848322" level="INFO">${first} = &lt;result object with rc 1&gt;</msg>
+<var>${first}</var>
+<arg>${EXE}</arg>
+<arg>-screen-fullscreen</arg>
+<arg>0</arg>
+<arg>-logFile</arg>
+<arg>${OUTPUT DIR}/first-player.log</arg>
+<arg>env:CATGAME_PLAYER_QA_ROOT=${OUTPUT DIR}/runtime</arg>
+<arg>env:CATGAME_QA_ROOM_THEMES=1</arg>
+<arg>env:CATGAME_S1_SOURCE=${SOURCE}</arg>
+<arg>env:CATGAME_DEBUG_DISABLE=1</arg>
+<arg>stdout=${OUTPUT DIR}/first-stdout.txt</arg>
+<arg>stderr=${OUTPUT DIR}/first-stderr.txt</arg>
+<arg>timeout=180s</arg>
+<arg>on_timeout=terminate</arg>
+<doc>Runs a process and waits for it to complete.</doc>
+<status status="PASS" start="2026-11-18T18:39:35.365194" elapsed="102.483128"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-18T18:41:17.849320" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<msg time="2026-11-18T18:41:17.849320" level="FAIL">1 != 0</msg>
+<arg>${first.rc}</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="FAIL" start="2026-11-18T18:41:17.848322" elapsed="0.000998">1 != 0</status>
+</kw>
+<kw name="Run Process" owner="Process">
+<var>${second}</var>
+<arg>${EXE}</arg>
+<arg>-screen-fullscreen</arg>
+<arg>0</arg>
+<arg>-logFile</arg>
+<arg>${OUTPUT DIR}/restart-player.log</arg>
+<arg>env:CATGAME_PLAYER_QA_ROOT=${OUTPUT DIR}/runtime</arg>
+<arg>env:CATGAME_QA_ROOM_THEMES=1</arg>
+<arg>env:CATGAME_S1_SOURCE=${SOURCE}</arg>
+<arg>env:CATGAME_S1_RESTART=1</arg>
+<arg>env:CATGAME_DEBUG_DISABLE=1</arg>
+<arg>stdout=${OUTPUT DIR}/restart-stdout.txt</arg>
+<arg>stderr=${OUTPUT DIR}/restart-stderr.txt</arg>
+<arg>timeout=60s</arg>
+<arg>on_timeout=terminate</arg>
+<doc>Runs a process and waits for it to complete.</doc>
+<status status="NOT RUN" start="2026-11-18T18:41:17.852316" elapsed="0.000983"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<arg>${second.rc}</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="NOT RUN" start="2026-11-18T18:41:17.853299" elapsed="0.000000"/>
+</kw>
+<kw name="Verify Growth Evidence" owner="RoomGrowthEvidence">
+<arg>${OUTPUT DIR}/runtime</arg>
+<arg>${SOURCE}</arg>
+<status status="NOT RUN" start="2026-11-18T18:41:17.853299" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2026-11-18T18:39:35.363195" elapsed="102.490104">1 != 0</status>
+</test>
+<doc>Independent Windows Development Player: room growth, actual pointer, 100-cat observation, fresh-process load.</doc>
+<status status="FAIL" start="2026-11-18T18:39:35.297172" elapsed="102.558141"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Room Growth" id="s1" pass="0" fail="1" skip="0">Room Growth</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

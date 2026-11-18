@@ -1,0 +1,44 @@
+{"utc": "2026-11-18T11:09:47.907040+00:00", "action": "explicit-qa-fixture", "data": {"totalEarned": 99990, "catHair": 200, "seenStories": ["first_tuft", "ten_thousand", "hundred_thousand", "millionaire", "lots_of_points", "unstoppable", "family_of_ten", "thirty_cats", "hundred_cats", "crowded_nest", "three_breeds", "six_breeds", "all_breeds", "first_click", "thousand_clicks", "max_scratcher", "stage_two", "stage_three", "stage_four", "planet_cats"], "reason": "isolate scene transition, not natural progression"}}
+{"utc": "2026-11-18T11:10:07.128878+00:00", "action": "room-source-pixel", "data": {"theme": "Starter", "point": [1006, 100], "actual": [241, 221, 196], "expected": [241, 221, 196], "size": [1600, 900]}}
+{"utc": "2026-11-18T11:10:17.271389+00:00", "action": "room-source-pixel", "data": {"theme": "Companions", "point": [1006, 100], "actual": [193, 216, 211], "expected": [193, 216, 211], "size": [1600, 900]}}
+{"utc": "2026-11-18T11:10:20.471453+00:00", "action": "saved-theme-progress", "data": {"totalEarned": 100000.77599938562, "owned": 2, "clicks": 0}}
+{"utc": "2026-11-18T11:10:42.231740+00:00", "action": "room-source-pixel", "data": {"theme": "Companions", "point": [1006, 100], "actual": [193, 216, 211], "expected": [193, 216, 211], "size": [1600, 900]}}
+{"utc": "2026-11-18T11:11:03.242724+00:00", "action": "room-source-pixel", "data": {"theme": "Companions", "point": [1006, 100], "actual": [193, 216, 211], "expected": [193, 216, 211], "size": [1600, 900]}}
+{"utc": "2026-11-18T11:11:03.601232+00:00", "action": "sleep-source", "data": {"sha256": "dc0600c76f5de2128b414aecfa3862e38a4dc97878edf8f7bd36a99d11cf4034", "reason": "stable natural Sleep body avoids chasing a roaming target through screenshot latency"}}
+{"utc": "2026-11-18T11:11:06.326951+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-001.json", "bestMse": null}}
+{"utc": "2026-11-18T11:11:09.487899+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-002.json", "bestMse": null}}
+{"utc": "2026-11-18T11:11:12.620701+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-003.json", "bestMse": null}}
+{"utc": "2026-11-18T11:11:15.804592+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-004.json", "bestMse": null}}
+{"utc": "2026-11-18T11:11:18.997518+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-005.json", "bestMse": null}}
+{"utc": "2026-11-18T11:11:22.158593+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-006.json", "bestMse": null}}
+{"utc": "2026-11-18T11:11:25.190572+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-007.json", "bestMse": null}}
+{"utc": "2026-11-18T11:11:28.304976+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-008.json", "bestMse": null}}
+{"utc": "2026-11-18T11:11:31.566707+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-009.json", "bestMse": null}}
+{"utc": "2026-11-18T11:11:34.620272+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-010.json", "bestMse": null}}
+{"utc": "2026-11-18T11:11:37.618047+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-011.json", "bestMse": null}}
+{"utc": "2026-11-18T11:11:40.522937+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-012.json", "bestMse": null}}
+{"utc": "2026-11-18T11:11:43.745061+00:00", "action": "sleep-observation", "data": {"size": [1600, 900], "saveSnapshot": "standard-save-observation-013.json", "bestMse": 0.11490683229813664}}
+{"utc": "2026-11-18T11:11:43.837259+00:00", "action": "appium-pet", "data": {"size": [1600, 900], "point": [814, 309], "sleepFrame": 2, "flipped": false, "mse": 0.11490683229813664, "beforeClicks": 0}}
+{"utc": "2026-11-18T11:11:48.237196+00:00", "action": "saved-click-result", "data": {"before": 0, "after": 1}}
+{"utc": "2026-11-18T11:12:13.507511+00:00", "action": "room-source-pixel", "data": {"theme": "Companions", "point": [1258, 12], "actual": [193, 216, 211], "expected": [193, 216, 211], "size": [2000, 900]}}
+{"utc": "2026-11-18T11:12:13.858182+00:00", "action": "sleep-source", "data": {"sha256": "dc0600c76f5de2128b414aecfa3862e38a4dc97878edf8f7bd36a99d11cf4034", "reason": "stable natural Sleep body avoids chasing a roaming target through screenshot latency"}}
+{"utc": "2026-11-18T11:12:16.608163+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-001.json", "bestMse": null}}
+{"utc": "2026-11-18T11:12:19.796444+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-002.json", "bestMse": null}}
+{"utc": "2026-11-18T11:12:23.014577+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-003.json", "bestMse": null}}
+{"utc": "2026-11-18T11:12:26.276229+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-004.json", "bestMse": null}}
+{"utc": "2026-11-18T11:12:29.521337+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-005.json", "bestMse": null}}
+{"utc": "2026-11-18T11:12:32.794893+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-006.json", "bestMse": null}}
+{"utc": "2026-11-18T11:12:35.970912+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-007.json", "bestMse": null}}
+{"utc": "2026-11-18T11:12:39.195222+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-008.json", "bestMse": null}}
+{"utc": "2026-11-18T11:12:42.347375+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-009.json", "bestMse": null}}
+{"utc": "2026-11-18T11:12:45.454768+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-010.json", "bestMse": null}}
+{"utc": "2026-11-18T11:12:48.612317+00:00", "action": "sleep-observation", "data": {"size": [2000, 900], "saveSnapshot": "wide-save-observation-011.json", "bestMse": 0.5051572327044025}}
+{"utc": "2026-11-18T11:12:48.708886+00:00", "action": "appium-pet", "data": {"size": [2000, 900], "point": [841, 493], "sleepFrame": 0, "flipped": true, "mse": 0.5051572327044025, "beforeClicks": 1}}
+{"utc": "2026-11-18T11:12:50.980164+00:00", "action": "saved-click-result", "data": {"before": 1, "after": 2}}
+{"utc": "2026-11-18T11:13:12.868728+00:00", "action": "room-source-pixel", "data": {"theme": "Companions", "point": [806, 100], "actual": [193, 216, 211], "expected": [193, 216, 211], "size": [1200, 900]}}
+{"utc": "2026-11-18T11:13:13.189863+00:00", "action": "sleep-source", "data": {"sha256": "dc0600c76f5de2128b414aecfa3862e38a4dc97878edf8f7bd36a99d11cf4034", "reason": "stable natural Sleep body avoids chasing a roaming target through screenshot latency"}}
+{"utc": "2026-11-18T11:13:16.337018+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-001.json", "bestMse": null}}
+{"utc": "2026-11-18T11:13:20.147762+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-002.json", "bestMse": null}}
+{"utc": "2026-11-18T11:13:23.911745+00:00", "action": "sleep-observation", "data": {"size": [1200, 900], "saveSnapshot": "compact-save-observation-003.json", "bestMse": 0.3189937106918239}}
+{"utc": "2026-11-18T11:13:23.968861+00:00", "action": "appium-pet", "data": {"size": [1200, 900], "point": [978, 627], "sleepFrame": 0, "flipped": false, "mse": 0.3189937106918239, "beforeClicks": 2}}
+{"utc": "2026-11-18T11:13:27.819665+00:00", "action": "saved-click-result", "data": {"before": 2, "after": 3}}

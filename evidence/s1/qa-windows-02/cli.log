@@ -1,0 +1,4 @@
+构建成功，但编辑器日志报告了以下错误：
+  [许可证] [Licensing::IpcConnector] Connection attempt to the License Client on channel: "LicenseClient-Creep" failed because channel doesn't exist; code: "0x80000002"
+  [许可证] [Licensing::Client] Error: Code 10 while verifying Licensing Client signature (process Id: 156024, path: "D:/Unity/2022.3.21f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+  [许可证] [Licensing::Module] Error: LicensingClient has failed validation; ignoring

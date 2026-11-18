@@ -1,0 +1,21 @@
+Process is running in low integrity mode...
+Mono path[0] = 'PROJECT_ROOT/Build/S1/release-windows-02/player/CatGame_Data/Managed'
+Mono config path = 'PROJECT_ROOT/Build/S1/release-windows-02/player/MonoBleedingEdge/etc'
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+[Subsystems] Discovering subsystems at path PROJECT_ROOT/Build/S1/release-windows-02/player/CatGame_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.9159
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.196 seconds
+- Finished resetting the current domain, in  0.003 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.641500 ms
+[Live Debug] Local session enabled: PROJECT_ROOT\Build\S1\windows-release-probe-04\registry\session-155152-2e132f8eefbe4588bc52d91a4aa4f618\connection.json

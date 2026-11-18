@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.0 on win32)" generated="2026-11-18T18:46:11.813870" rpa="false" schemaversion="5">
+<suite id="s1" name="Room Growth Restart" source="PROJECT_ROOT\Tests\robot\rooms\room_growth_restart.robot">
+<test id="s1-t1" name="S1-WIN-02 Fresh Playable Load From The Recorded Checkpoint" line="7">
+<kw name="Prepare Restart Checkpoint" owner="RoomGrowthEvidence">
+<arg>${ORIGINAL}</arg>
+<arg>${OUTPUT DIR}/runtime</arg>
+<status status="PASS" start="2026-11-18T18:46:11.896599" elapsed="0.006999"/>
+</kw>
+<kw name="Run Process" owner="Process">
+<msg time="2026-11-18T18:46:11.905109" level="INFO">Starting process:
+PROJECT_ROOT/Build/S1/qa-windows-02/CatGameQA.exe -screen-fullscreen 0 -logFile PROJECT_ROOT\Build\S1\windows-restart-01/restart-player.log</msg>
+<msg time="2026-11-18T18:46:11.920193" level="INFO">Waiting for process to complete.</msg>
+<msg time="2026-11-18T18:46:18.143425" level="INFO">Process completed.</msg>
+<msg time="2026-11-18T18:46:18.143425" level="INFO">${run} = &lt;result object with rc 0&gt;</msg>
+<var>${run}</var>
+<arg>${EXE}</arg>
+<arg>-screen-fullscreen</arg>
+<arg>0</arg>
+<arg>-logFile</arg>
+<arg>${OUTPUT DIR}/restart-player.log</arg>
+<arg>env:CATGAME_PLAYER_QA_ROOT=${OUTPUT DIR}/runtime</arg>
+<arg>env:CATGAME_QA_ROOM_THEMES=1</arg>
+<arg>env:CATGAME_S1_SOURCE=${SOURCE}</arg>
+<arg>env:CATGAME_S1_RESTART=1</arg>
+<arg>env:CATGAME_DEBUG_DISABLE=1</arg>
+<arg>stdout=${OUTPUT DIR}/stdout.txt</arg>
+<arg>stderr=${OUTPUT DIR}/stderr.txt</arg>
+<arg>timeout=60s</arg>
+<arg>on_timeout=terminate</arg>
+<doc>Runs a process and waits for it to complete.</doc>
+<status status="PASS" start="2026-11-18T18:46:11.903598" elapsed="6.239827"/>
+</kw>
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-11-18T18:46:18.144685" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<arg>${run.rc}</arg>
+<arg>0</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="PASS" start="2026-11-18T18:46:18.143425" elapsed="0.001260"/>
+</kw>
+<kw name="Verify Restart Probe" owner="RoomGrowthEvidence">
+<arg>${ORIGINAL}</arg>
+<arg>${OUTPUT DIR}/runtime</arg>
+<arg>${SOURCE}</arg>
+<status status="PASS" start="2026-11-18T18:46:18.144685" elapsed="0.025810"/>
+</kw>
+<status status="PASS" start="2026-11-18T18:46:11.895598" elapsed="6.274897"/>
+</test>
+<doc>Recheck fresh playable load using the already observed native-input checkpoint; never repeat desktop input unnecessarily.</doc>
+<status status="PASS" start="2026-11-18T18:46:11.820049" elapsed="6.351438"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Room Growth Restart" id="s1" pass="1" fail="0" skip="0">Room Growth Restart</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

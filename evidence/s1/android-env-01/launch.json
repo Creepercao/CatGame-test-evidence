@@ -1,0 +1,11 @@
+{
+  "emulatorPid": 153648,
+  "appiumPid": 154436,
+  "adbPort": 15037,
+  "serial": "emulator-5564",
+  "appiumPort": 14723,
+  "uiaPort": 18326,
+  "readOnly": true,
+  "phoneOperated": false,
+  "mumuOperated": false
+}

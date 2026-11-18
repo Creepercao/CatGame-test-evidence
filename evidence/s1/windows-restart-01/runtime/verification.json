@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "originalSource": "3067c8b94a8fbea54022ab354f0db4177b446062",
+  "restartSource": "75fb26a9a002e7b3c0a92cbd840cc9c4fcba0571",
+  "sourceBoundary": "production code unchanged; only QA offline-modal checks differ",
+  "originalNativeInputRetained": true,
+  "freshPlayableLoad": true
+}

@@ -1,0 +1,11 @@
+adb.exe I 11-18 18:37:46 143896 152624 auth.cpp:417] adb_auth_init...
+adb.exe I 11-18 18:37:46 143896 152624 auth.cpp:152] loaded new key from 'C:\Users\USER\.android\adbkey' with fingerprint 2400FE8DBAEE5CE333301CBBFCED538F74B93210E1159292337022774B6AB4FC
+adb.exe I 11-18 18:41:23 143896 152360 transport.cpp:332] emulator-5564: read thread spawning
+adb.exe I 11-18 18:41:23 143896 154808 transport.cpp:304] emulator-5564: write thread spawning
+adb.exe I 11-18 18:41:49 143896 152624 adb.cpp:171] emulator-5564: already offline
+adb server killed by remote request
+adb.exe I 11-18 19:18:31 143896 152624 transport.cpp:1134] kicking transport 0113eba0 emulator-5564
+adb.exe I 11-18 19:18:31 143896 152624 transport.cpp:404] BlockingConnectionAdapter(emulator-5564): stopping
+adb.exe I 11-18 19:18:31 143896 152360 transport.cpp:336] emulator-5564: read failed: Invalid argument
+adb.exe I 11-18 19:18:31 143896 152360 transport.cpp:1225] emulator-5564: connection terminated: read failed
+adb.exe I 11-18 19:18:31 143896 152624 transport.cpp:422] BlockingConnectionAdapter(emulator-5564): stopped

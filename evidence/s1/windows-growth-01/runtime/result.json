@@ -1,0 +1,78 @@
+{
+    "source": "3067c8b94a8fbea54022ab354f0db4177b446062",
+    "fixture": "explicit QA checkpoint; not natural full-playthrough",
+    "theme": "companions",
+    "pid": 119640,
+    "visible": 100,
+    "owned": 440,
+    "footErrors": 0,
+    "depthErrors": 0,
+    "samples": 2881,
+    "nativeHits": 1,
+    "clicks": 1,
+    "complete": true,
+    "restart": false,
+    "identitiesPreserved": true,
+    "screens": [
+        {
+            "theme": "starter",
+            "width": 1920,
+            "height": 1080,
+            "frame": 169,
+            "worldRaster": {
+                "x": 640,
+                "y": 360
+            }
+        },
+        {
+            "theme": "starter",
+            "width": 1600,
+            "height": 900,
+            "frame": 269,
+            "worldRaster": {
+                "x": 640,
+                "y": 360
+            }
+        },
+        {
+            "theme": "starter",
+            "width": 2560,
+            "height": 1440,
+            "frame": 435,
+            "worldRaster": {
+                "x": 640,
+                "y": 360
+            }
+        },
+        {
+            "theme": "companions",
+            "width": 1920,
+            "height": 1080,
+            "frame": 716,
+            "worldRaster": {
+                "x": 640,
+                "y": 360
+            }
+        },
+        {
+            "theme": "companions",
+            "width": 1600,
+            "height": 900,
+            "frame": 817,
+            "worldRaster": {
+                "x": 640,
+                "y": 360
+            }
+        },
+        {
+            "theme": "companions",
+            "width": 2560,
+            "height": 1440,
+            "frame": 986,
+            "worldRaster": {
+                "x": 640,
+                "y": 360
+            }
+        }
+    ]
+}
