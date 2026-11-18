@@ -21,6 +21,19 @@ restart=read('windows-restart-01/runtime/verification.json')
 assert restart['passed'] and restart['freshPlayableLoad'] and restart['originalNativeInputRetained']
 for n in ['02','03','04']:
     r=read(f'windows-release-probe-{n}/result.json');assert not r['passed'] and r['restored']
+for n in ['05','06','07']:
+    robot('windows-live-'+n,0,1)
+    r=read(f'windows-live-{n}/runtime/result.json');assert not r['passed'] and r['restored']
+robot('windows-live-08',1)
+live=read('windows-live-08/runtime/result.json')
+assert all(live[k] for k in ['passed','restored','nativeMenuInput','sharedClientLiveEdits','distributedDebuggerConnected','gameAutosaved','coldRestartVerified'])
+assert live['runtimeGameSource']==read('distribution-v1.2.0/package-manifest.json')['runtimeGameSource']
+steps=read('windows-live-08/runtime/steps.json')
+clicks=[s['data'] for s in steps if s['action']=='native-owned-window-click']
+assert len(clicks)==3 and all(c['foregroundAtRelease'] for c in clicks)
+restored_live=read('windows-live-08/final-audit.json');assert restored_live['currentFilesRestored'] and restored_live['fileCount']==4
+loaded=next(s['data'] for s in steps if s['action']=='fresh-process-restored-live-edits')
+assert loaded['firstPid']!=loaded['restartPid'] and loaded['ownedCats']==3 and loaded['unblocked']
 ordinary=read('windows-menu-debugger-01/result.json');assert ordinary['passed'] and ordinary['restored']
 debug=read('windows-menu-debugger-01/debugger-smoke.json');assert debug['connected'] and debug['frozen']
 upgrade=read('android-upgrade-01/upgrade.json')

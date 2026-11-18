@@ -1,0 +1,376 @@
+[
+  {
+    "utc": "2026-11-18T12:50:23Z",
+    "action": "private-current-snapshot",
+    "data": {
+      "fileCount": 4,
+      "originalContentsPublished": false
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:23Z",
+    "action": "explicit-qa-fixture",
+    "data": {
+      "totalEarned": 90000,
+      "catHair": 200,
+      "owned": 2,
+      "allStoryCgsSeen": true,
+      "naturalPlaythrough": false
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:23Z",
+    "action": "launch-ordinary-release",
+    "data": {
+      "phase": "first",
+      "pid": 143308,
+      "exeSha256": "5ca1a0daa0946e4e01ddcd7aef415ac0d08c00302480f96a41888c69a785018b"
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:30Z",
+    "action": "await-owned-foreground",
+    "data": {
+      "pid": 143308,
+      "title": "CatGame 1.2.0 S1R - first-continue - PID 143308",
+      "phase": "first-continue",
+      "active": false
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:32Z",
+    "action": "foreground-confirmed",
+    "data": {
+      "pid": 143308,
+      "phase": "first-continue",
+      "owned": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:33Z",
+    "action": "native-owned-window-click",
+    "data": {
+      "phase": "first-continue",
+      "pid": 143308,
+      "client": [
+        1320,
+        372
+      ],
+      "screen": [
+        1480,
+        473
+      ]
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:33Z",
+    "action": "foreground-confirmed",
+    "data": {
+      "pid": 143308,
+      "phase": "capture-starter.png",
+      "owned": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:33Z",
+    "action": "owned-window-screenshot",
+    "data": {
+      "file": "starter.png",
+      "size": [
+        1600,
+        900
+      ],
+      "pid": 143308
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:33Z",
+    "action": "room-source-pixel-match",
+    "data": {
+      "theme": "Starter",
+      "point": [
+        1006,
+        100
+      ],
+      "actual": [
+        241,
+        221,
+        196
+      ],
+      "expected": [
+        241,
+        221,
+        196
+      ]
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:33Z",
+    "action": "set-balance-command-reply",
+    "data": {
+      "catHair": 1000000.0,
+      "totalEarned": 90000.42718357575
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:34Z",
+    "action": "foreground-confirmed",
+    "data": {
+      "pid": 143308,
+      "phase": "capture-balance-only-starter.png",
+      "owned": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:34Z",
+    "action": "owned-window-screenshot",
+    "data": {
+      "file": "balance-only-starter.png",
+      "size": [
+        1600,
+        900
+      ],
+      "pid": 143308
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:34Z",
+    "action": "room-source-pixel-match",
+    "data": {
+      "theme": "Starter",
+      "point": [
+        1006,
+        100
+      ],
+      "actual": [
+        241,
+        221,
+        196
+      ],
+      "expected": [
+        241,
+        221,
+        196
+      ]
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:34Z",
+    "action": "balance-only-does-not-grow-room",
+    "data": {
+      "balance": 1000000
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:34Z",
+    "action": "add-earned-command-reply",
+    "data": {
+      "catHair": 1020000.4332845242,
+      "totalEarned": 110000.86046810265
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:35Z",
+    "action": "foreground-confirmed",
+    "data": {
+      "pid": 143308,
+      "phase": "capture-earned-companions.png",
+      "owned": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:35Z",
+    "action": "owned-window-screenshot",
+    "data": {
+      "file": "earned-companions.png",
+      "size": [
+        1600,
+        900
+      ],
+      "pid": 143308
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:35Z",
+    "action": "room-source-pixel-match",
+    "data": {
+      "theme": "Companions",
+      "point": [
+        1006,
+        100
+      ],
+      "actual": [
+        193,
+        216,
+        211
+      ],
+      "expected": [
+        193,
+        216,
+        211
+      ]
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:36Z",
+    "action": "foreground-confirmed",
+    "data": {
+      "pid": 143308,
+      "phase": "capture-spent-companions.png",
+      "owned": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:36Z",
+    "action": "owned-window-screenshot",
+    "data": {
+      "file": "spent-companions.png",
+      "size": [
+        1600,
+        900
+      ],
+      "pid": 143308
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:36Z",
+    "action": "room-source-pixel-match",
+    "data": {
+      "theme": "Companions",
+      "point": [
+        1006,
+        100
+      ],
+      "actual": [
+        193,
+        216,
+        211
+      ],
+      "expected": [
+        193,
+        216,
+        211
+      ]
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:36Z",
+    "action": "live-debug-commands",
+    "data": {
+      "sharedClientWithExternalDebugger": true,
+      "actualDebuggerGuiFieldsClicked": false,
+      "ownedCats": 3,
+      "totalEarned": 110002.21602545801
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:41Z",
+    "action": "distributed-debugger-auto-connect",
+    "data": {
+      "connected": true,
+      "pid": 143308,
+      "frozen": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:44Z",
+    "action": "game-autosaved-live-edits",
+    "data": {
+      "ownedCats": 3,
+      "totalEarned": 110011.88255786728,
+      "catHair": 10.391670841723753
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:44Z",
+    "action": "owned-player-stopped",
+    "data": {
+      "pid": 143308,
+      "exitCode": 0
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:46Z",
+    "action": "launch-ordinary-release",
+    "data": {
+      "phase": "restart",
+      "pid": 153972,
+      "exeSha256": "5ca1a0daa0946e4e01ddcd7aef415ac0d08c00302480f96a41888c69a785018b"
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:54Z",
+    "action": "foreground-confirmed",
+    "data": {
+      "pid": 153972,
+      "phase": "restart-continue",
+      "owned": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:54Z",
+    "action": "native-owned-window-click",
+    "data": {
+      "phase": "restart-continue",
+      "pid": 153972,
+      "client": [
+        1320,
+        372
+      ],
+      "screen": [
+        1480,
+        473
+      ]
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:54Z",
+    "action": "foreground-confirmed",
+    "data": {
+      "pid": 153972,
+      "phase": "capture-restart-modal.png",
+      "owned": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:54Z",
+    "action": "owned-window-screenshot",
+    "data": {
+      "file": "restart-modal.png",
+      "size": [
+        1600,
+        900
+      ],
+      "pid": 153972
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:54Z",
+    "action": "offline-reference-error",
+    "data": {
+      "meanRgbError": 47.85215759849907
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:54Z",
+    "action": "failure",
+    "data": "AssertionError('Unknown modal; no dismissal click sent')"
+  },
+  {
+    "utc": "2026-11-18T12:50:55Z",
+    "action": "owned-player-stopped",
+    "data": {
+      "pid": 153972,
+      "exitCode": 0
+    }
+  },
+  {
+    "utc": "2026-11-18T12:50:55Z",
+    "action": "final-private-restoration",
+    "data": {
+      "restored": true,
+      "fileCount": 4,
+      "ownedPlayerExited": true
+    }
+  }
+]

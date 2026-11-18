@@ -1,0 +1,20 @@
+[main 0766e62] test: verify published 1.2.0 receipts and close test-save isolation audit
+ 24 files changed, 1727 insertions(+), 9 deletions(-)
+ create mode 100644 evidence/s1/distribution-v1.2.0/draft-command.log
+ create mode 100644 evidence/s1/distribution-v1.2.0/publish-command.log
+ create mode 100644 evidence/s1/distribution-v1.2.0/push-evidence.log
+ create mode 100644 evidence/s1/distribution-v1.2.0/push-game.log
+ create mode 100644 evidence/s1/distribution-v1.2.0/release-draft.json
+ create mode 100644 evidence/s1/distribution-v1.2.0/release-published.json
+ create mode 100644 evidence/s1/distribution-v1.2.0/release-verified.json
+ create mode 100644 evidence/s1/distribution-v1.2.0/verify-command.log
+ create mode 100644 evidence/s1/play-theme-07/Editor.log
+ create mode 100644 evidence/s1/play-theme-07/cli.log
+ create mode 100644 evidence/s1/play-theme-07/exit-code.txt
+ create mode 100644 evidence/s1/play-theme-07/isolation.json
+ create mode 100644 evidence/s1/play-theme-07/results.xml
+ create mode 100644 evidence/s1/play-theme-07/source.txt
+ create mode 100644 evidence/s1/privacy-scan.json
+ create mode 100644 evidence/s1/private-restoration-summary.json
+ create mode 100644 harness/s1/tools/qa/run_isolated_unity_tests.py
+ create mode 100644 reports/s1-version-management.md

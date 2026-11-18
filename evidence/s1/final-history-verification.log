@@ -1,0 +1,25 @@
+PASS public hashes and structured formats: 2393
+PASS NUnit: PlayMode 86, EditMode 51
+PASS roaming defect red/green results
+PASS failed CI gates and successful delivery records
+PASS real process restart evidence
+PASS round 1 hundred-cat P95=16.730901ms, frames=5377
+PASS round 2 hundred-cat P95=16.762599ms, frames=5365
+PASS Android Robot outcomes, lock/wake continuity, and v1 to v2 save retention
+PASS save recovery red/green and runtime lifecycle evidence
+PASS Android v3 Player recovery after corrupt and missing primary
+PASS Android v3 ending in two aspect ratios with both exit branches
+PASS Android performance probe, insufficient sample, and 60-second retry evidence
+PASS Android purchase original failure, immediate-stop comparisons, and Robot rerun
+PASS native phone functional reruns, six frame samples, and 300-second idle evidence
+PASS viewport red/green, retained save-stress failures, phone upgrade and three AVD ratios
+PASS QA v4 six 60-second samples, measured-room images, and retained startup failure/probe
+PASS QA v4 300-second foreground idle, roster persistence and playtime progression
+PASS published Android prerelease target and all three attachment digests
+PASS Windows save failure snapshots, native reproduction and explicit bounded-retry diagnostic
+PASS Windows save fix red/green, three stress reruns, process restart and debugger/package checks
+PASS published Windows v1.0.1 source and both uploaded attachment digests
+PASS performance save contract actual red/green, seven analyzer tests and full sample reanalysis
+PASS Android purchase actual failure, immediate-save red/green, retained timing failures, ordinary APK upgrade and fresh install
+PASS Android 1.0.2 published assets, retained previous releases and owned-process shutdown receipt
+All evidence checks passed; no new Unity/Robot execution performed.

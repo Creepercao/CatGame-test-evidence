@@ -14957,8 +14957,8 @@
     {
       "source": "Build/S1/distribution-v1.2.0/release-notes.md",
       "path": "evidence/s1/distribution-v1.2.0/release-notes.md",
-      "sourceSha256": "e624f2ac19e695a02458237ac8a9cb8797b10c5aa0dd8203fc25f39bdf91ff19",
-      "publishedSha256": "e624f2ac19e695a02458237ac8a9cb8797b10c5aa0dd8203fc25f39bdf91ff19",
+      "sourceSha256": "9ff1627a28221d1759aa1898afc2410219f521b926ecd80df176aab4a64efd27",
+      "publishedSha256": "9ff1627a28221d1759aa1898afc2410219f521b926ecd80df176aab4a64efd27",
       "transformed": false
     },
     {
@@ -16546,8 +16546,8 @@
     {
       "source": "docs/S1场景切换测试记录.md",
       "path": "reports/s1-test-history.md",
-      "sourceSha256": "7cafd40cb368808477e4968d35d6e041a810cb926f2c9799ab99790787cd6b1a",
-      "publishedSha256": "7cafd40cb368808477e4968d35d6e041a810cb926f2c9799ab99790787cd6b1a",
+      "sourceSha256": "c4364d901da29cbe3da7992e562fbfae2efbc3a4369546792c63da4a8294f641",
+      "publishedSha256": "c4364d901da29cbe3da7992e562fbfae2efbc3a4369546792c63da4a8294f641",
       "transformed": false
     },
     {
@@ -16560,8 +16560,8 @@
     {
       "source": "docs/S1场景成长交付报告.md",
       "path": "reports/s1-delivery.md",
-      "sourceSha256": "475b648078906105fa8c66a5a58b7d8c7b6b10f6441323b93df9fff50d3034e1",
-      "publishedSha256": "475b648078906105fa8c66a5a58b7d8c7b6b10f6441323b93df9fff50d3034e1",
+      "sourceSha256": "9dbf402697cd1dd468be1875845a2ee7adb14fe06bf5f6dab669794ae9daad20",
+      "publishedSha256": "9dbf402697cd1dd468be1875845a2ee7adb14fe06bf5f6dab669794ae9daad20",
       "transformed": false
     },
     {
@@ -16752,6 +16752,538 @@
       "sourceSha256": "884e80a499cff2e0c5b6f46471302c9081f82554cff4967ebb7485861f7af349",
       "publishedSha256": "884e80a499cff2e0c5b6f46471302c9081f82554cff4967ebb7485861f7af349",
       "transformed": false
+    },
+    {
+      "source": "Build/S1/distribution-v1.2.0/release-notes-s1r-updated.json",
+      "path": "evidence/s1/distribution-v1.2.0/release-notes-s1r-updated.json",
+      "sourceSha256": "0134f534e92d2a422aefe223bd9bd7b75b6a40ccf84060892bbc148795f34324",
+      "publishedSha256": "0134f534e92d2a422aefe223bd9bd7b75b6a40ccf84060892bbc148795f34324",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-05/harness-source.txt",
+      "path": "evidence/s1/windows-live-05/harness-source.txt",
+      "sourceSha256": "52cff5ee60f83fc45f6bb9660447c8970ca58fa598ca72e3183923617df229be",
+      "publishedSha256": "52cff5ee60f83fc45f6bb9660447c8970ca58fa598ca72e3183923617df229be",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-05/output.xml",
+      "path": "evidence/s1/windows-live-05/output.xml",
+      "sourceSha256": "42aed82b9c10fcd8183d977c4410b9c9e3808d1fa13ec398ce0c5a39a5b0bbd5",
+      "publishedSha256": "9a3c7933b376fbd4bb4d4c25782330a8e55223ac33881368ce782ba8d2239501",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/windows-live-05/runtime/balance-only-starter.png",
+      "path": "evidence/s1/windows-live-05/runtime/balance-only-starter.png",
+      "sourceSha256": "dd19884c35f6be6ac79f6aaae6f7e577d1df619de85c6205e58697666c982ca3",
+      "publishedSha256": "dd19884c35f6be6ac79f6aaae6f7e577d1df619de85c6205e58697666c982ca3",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-05/runtime/command-records/20261118-124905279-688fcad33ba24534a35a5a6a21af720b/operation.json",
+      "path": "evidence/s1/windows-live-05/runtime/command-records/20261118-124905279-688fcad33ba24534a35a5a6a21af720b/operation.json",
+      "sourceSha256": "6ce18d18964a5deb82cfaec0dbe1c352b39b02fab312b5f32abc2470fa4113b2",
+      "publishedSha256": "ddcfe889419f11e7a44775a21bda95029b5d5845dfd8d5e7c7bff8bd3f371790",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/windows-live-05/runtime/command-records/20261118-124905790-2c7776c591d646d0937a68538a4d645d/operation.json",
+      "path": "evidence/s1/windows-live-05/runtime/command-records/20261118-124905790-2c7776c591d646d0937a68538a4d645d/operation.json",
+      "sourceSha256": "30db22d17f9cca44f4e7f953804f527787e0cf172f7704b779dc40c1c3aac929",
+      "publishedSha256": "dadc6c0f081f9d1c3af828537e9329e9bd61440757927132f8af6303545893ed",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/windows-live-05/runtime/earned-companions.png",
+      "path": "evidence/s1/windows-live-05/runtime/earned-companions.png",
+      "sourceSha256": "dd19884c35f6be6ac79f6aaae6f7e577d1df619de85c6205e58697666c982ca3",
+      "publishedSha256": "dd19884c35f6be6ac79f6aaae6f7e577d1df619de85c6205e58697666c982ca3",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-05/runtime/explicit-fixture.json",
+      "path": "evidence/s1/windows-live-05/runtime/explicit-fixture.json",
+      "sourceSha256": "41da2654a1f57abc4d055c5a17675d21a3b087e3b5399e1cf903f0e190456664",
+      "publishedSha256": "41da2654a1f57abc4d055c5a17675d21a3b087e3b5399e1cf903f0e190456664",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-05/runtime/first-player.log",
+      "path": "evidence/s1/windows-live-05/runtime/first-player.log",
+      "sourceSha256": "db997950e8a356a565fac3de3a8c4c5001e8712b76e06f546ea6c8fde59acc82",
+      "publishedSha256": "3a74b79c8db4964058026245f19b3666b342a3c0b85b4f5808e28eb0e6542bf7",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/windows-live-05/runtime/result.json",
+      "path": "evidence/s1/windows-live-05/runtime/result.json",
+      "sourceSha256": "bc47e372227369045525b0067ee20e21c77f001d8e001dbb4a6e6f14ae16bd7b",
+      "publishedSha256": "bc47e372227369045525b0067ee20e21c77f001d8e001dbb4a6e6f14ae16bd7b",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-05/runtime/starter.png",
+      "path": "evidence/s1/windows-live-05/runtime/starter.png",
+      "sourceSha256": "dd19884c35f6be6ac79f6aaae6f7e577d1df619de85c6205e58697666c982ca3",
+      "publishedSha256": "dd19884c35f6be6ac79f6aaae6f7e577d1df619de85c6205e58697666c982ca3",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-05/runtime/steps.json",
+      "path": "evidence/s1/windows-live-05/runtime/steps.json",
+      "sourceSha256": "5dc61cc827ec252b736f3d176caa6c0693ba337452acb4e777f229aa7d416587",
+      "publishedSha256": "5dc61cc827ec252b736f3d176caa6c0693ba337452acb4e777f229aa7d416587",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-05/stderr.txt",
+      "path": "evidence/s1/windows-live-05/stderr.txt",
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "publishedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-05/stdout.txt",
+      "path": "evidence/s1/windows-live-05/stdout.txt",
+      "sourceSha256": "625b0df4df39d46c60ab70448bc250e72f466cc31da1dc27ef9fa067e9b17e66",
+      "publishedSha256": "625b0df4df39d46c60ab70448bc250e72f466cc31da1dc27ef9fa067e9b17e66",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-06/harness-source.txt",
+      "path": "evidence/s1/windows-live-06/harness-source.txt",
+      "sourceSha256": "d4afdfbd88808ee19889a2af5257541c8a8763b6491a4718451c978955a9ad8c",
+      "publishedSha256": "d4afdfbd88808ee19889a2af5257541c8a8763b6491a4718451c978955a9ad8c",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-06/output.xml",
+      "path": "evidence/s1/windows-live-06/output.xml",
+      "sourceSha256": "7207dd24f04fb900817b1d5055ddb07877b08fc210a00cc7e0b1cd0f8d1be716",
+      "publishedSha256": "0d0316cd4aacd9d1b0ebe2a2448980dfd75bb4c5d32ca0c8bae923c9e1b81cf8",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/windows-live-06/runtime/autosaved-state.json",
+      "path": "evidence/s1/windows-live-06/runtime/autosaved-state.json",
+      "sourceSha256": "964e79b76e5cbdbea02c265cfc537e467e2f7c47821d5cca73a1c1bedc53f143",
+      "publishedSha256": "964e79b76e5cbdbea02c265cfc537e467e2f7c47821d5cca73a1c1bedc53f143",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-06/runtime/balance-only-starter.png",
+      "path": "evidence/s1/windows-live-06/runtime/balance-only-starter.png",
+      "sourceSha256": "95862f142a900ebf694fb06ce543d1958f1ea1e04b629f34d059253b5cfa304f",
+      "publishedSha256": "95862f142a900ebf694fb06ce543d1958f1ea1e04b629f34d059253b5cfa304f",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-06/runtime/command-records/20261118-125033735-114775e361084a93b0d08a48e19cfef2/operation.json",
+      "path": "evidence/s1/windows-live-06/runtime/command-records/20261118-125033735-114775e361084a93b0d08a48e19cfef2/operation.json",
+      "sourceSha256": "158051a73ef2dc6b7aa3f895e32065c6c39550bd9642097fb9d70b78fb1461aa",
+      "publishedSha256": "c8a9c932d967434bb8faec6adb8c579a3d7b326179c91ba946dee065e4ea7d44",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/windows-live-06/runtime/command-records/20261118-125034275-eced6a53e453439aa8f1d3d2b3a608e5/operation.json",
+      "path": "evidence/s1/windows-live-06/runtime/command-records/20261118-125034275-eced6a53e453439aa8f1d3d2b3a608e5/operation.json",
+      "sourceSha256": "eae3986060e3246e28c1700cc67693c1a22e1b9a099381d458d4e28f3c40dea3",
+      "publishedSha256": "b058605b9328a27c9d06b1e61131a32fd34327c61b3bce798598afc661174fa5",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/windows-live-06/runtime/command-records/20261118-125035623-31b58bab5f7140c8a767de7479ec3675/operation.json",
+      "path": "evidence/s1/windows-live-06/runtime/command-records/20261118-125035623-31b58bab5f7140c8a767de7479ec3675/operation.json",
+      "sourceSha256": "3427a04ad57611588032fa38b6973203540b4a5b19bc02e65dd5a8ddaafe14c3",
+      "publishedSha256": "c73ebf9408a16986db1889bc72c63e6bffb7a14a1e7d24d969c0050c305644a0",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/windows-live-06/runtime/command-records/20261118-125035656-a8869888c17947de8192064df4b60d69/operation.json",
+      "path": "evidence/s1/windows-live-06/runtime/command-records/20261118-125035656-a8869888c17947de8192064df4b60d69/operation.json",
+      "sourceSha256": "a87baddfaec634e1eb457d174ddb054bc78d715a74752fb71283e64c187a038b",
+      "publishedSha256": "1c78afda680c43661cc31ef88d2cc1a88dcf4da4e4a405d417937522c1f44b63",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/windows-live-06/runtime/debugger-smoke.json",
+      "path": "evidence/s1/windows-live-06/runtime/debugger-smoke.json",
+      "sourceSha256": "b7f1606f432a8ef0083f4f3ea64104a4bb6cda1a90f236e16ff19fadbaf73054",
+      "publishedSha256": "b7f1606f432a8ef0083f4f3ea64104a4bb6cda1a90f236e16ff19fadbaf73054",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-06/runtime/earned-companions.png",
+      "path": "evidence/s1/windows-live-06/runtime/earned-companions.png",
+      "sourceSha256": "1ff06f7da1bd77c453197de40f364ed813e65a20f7991f93623ded54fa972e4c",
+      "publishedSha256": "1ff06f7da1bd77c453197de40f364ed813e65a20f7991f93623ded54fa972e4c",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-06/runtime/explicit-fixture.json",
+      "path": "evidence/s1/windows-live-06/runtime/explicit-fixture.json",
+      "sourceSha256": "41da2654a1f57abc4d055c5a17675d21a3b087e3b5399e1cf903f0e190456664",
+      "publishedSha256": "41da2654a1f57abc4d055c5a17675d21a3b087e3b5399e1cf903f0e190456664",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-06/runtime/first-player.log",
+      "path": "evidence/s1/windows-live-06/runtime/first-player.log",
+      "sourceSha256": "2d88c706b7b3be37b6d98b76f3779a2570ed800053613e73ff0af99ade852594",
+      "publishedSha256": "3705fa2f4c286dd338193c5ee955b006e7e79ffbd2232627b4d0d4d89205ad12",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/windows-live-06/runtime/focus-needed.json",
+      "path": "evidence/s1/windows-live-06/runtime/focus-needed.json",
+      "sourceSha256": "745b125ef358fbdf0717662dd7b0eb343bb745970798bca0614a4da2b0f3317f",
+      "publishedSha256": "745b125ef358fbdf0717662dd7b0eb343bb745970798bca0614a4da2b0f3317f",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-06/runtime/restart-modal.png",
+      "path": "evidence/s1/windows-live-06/runtime/restart-modal.png",
+      "sourceSha256": "c132bd0c55065a3353ec694f17263b18cba97112fe7c1324a8f0bdfaec524e1f",
+      "publishedSha256": "c132bd0c55065a3353ec694f17263b18cba97112fe7c1324a8f0bdfaec524e1f",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-06/runtime/restart-player.log",
+      "path": "evidence/s1/windows-live-06/runtime/restart-player.log",
+      "sourceSha256": "45a3cf2f9b599d2d7453680b54b9e3d29193120dc743797e80423672ae659358",
+      "publishedSha256": "2df080adaf8482fdefef590631ed581980c84bac1e4173f787af4da5d1dfe421",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/windows-live-06/runtime/result.json",
+      "path": "evidence/s1/windows-live-06/runtime/result.json",
+      "sourceSha256": "a61db7a4d0997a331701557283f58e9bc0a46f0b5aa07da986b74bbb82c31140",
+      "publishedSha256": "a61db7a4d0997a331701557283f58e9bc0a46f0b5aa07da986b74bbb82c31140",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-06/runtime/spent-companions.png",
+      "path": "evidence/s1/windows-live-06/runtime/spent-companions.png",
+      "sourceSha256": "24e81b73f465368411588732ab301080177ab1b5dbd00eb12826034507b3c2f3",
+      "publishedSha256": "24e81b73f465368411588732ab301080177ab1b5dbd00eb12826034507b3c2f3",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-06/runtime/starter.png",
+      "path": "evidence/s1/windows-live-06/runtime/starter.png",
+      "sourceSha256": "710d00762fe84d85f01801a70a616591e072c4671fc19ed5465568b56d1f2f6a",
+      "publishedSha256": "710d00762fe84d85f01801a70a616591e072c4671fc19ed5465568b56d1f2f6a",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-06/runtime/steps.json",
+      "path": "evidence/s1/windows-live-06/runtime/steps.json",
+      "sourceSha256": "a4f86a4651a9594c4cd7e1711c81dff17c1d658054216c279b6915b8e89d23de",
+      "publishedSha256": "a4f86a4651a9594c4cd7e1711c81dff17c1d658054216c279b6915b8e89d23de",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-06/stderr.txt",
+      "path": "evidence/s1/windows-live-06/stderr.txt",
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "publishedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-06/stdout.txt",
+      "path": "evidence/s1/windows-live-06/stdout.txt",
+      "sourceSha256": "a022c32e7024bbea8b74913f1fd3c236f3a0b86c4bfd3f29e8930346b8b5788c",
+      "publishedSha256": "a022c32e7024bbea8b74913f1fd3c236f3a0b86c4bfd3f29e8930346b8b5788c",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-07/harness-source.txt",
+      "path": "evidence/s1/windows-live-07/harness-source.txt",
+      "sourceSha256": "0362939e1e7fe67b86bae0906ed5b91897eea3adfb3e74555dd3473b5c22e1eb",
+      "publishedSha256": "0362939e1e7fe67b86bae0906ed5b91897eea3adfb3e74555dd3473b5c22e1eb",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-07/output.xml",
+      "path": "evidence/s1/windows-live-07/output.xml",
+      "sourceSha256": "02c42961d81611d13b22958e9bc8bbbe595754aeab144f2915efa1c5afa585ea",
+      "publishedSha256": "92903cee6a7c0d4c3e6c6ca5cf7f851323fd155b3635b5c235d07c1bcd1bfe36",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/windows-live-07/runtime/explicit-fixture.json",
+      "path": "evidence/s1/windows-live-07/runtime/explicit-fixture.json",
+      "sourceSha256": "41da2654a1f57abc4d055c5a17675d21a3b087e3b5399e1cf903f0e190456664",
+      "publishedSha256": "41da2654a1f57abc4d055c5a17675d21a3b087e3b5399e1cf903f0e190456664",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-07/runtime/first-modal.png",
+      "path": "evidence/s1/windows-live-07/runtime/first-modal.png",
+      "sourceSha256": "1b9df7b45c9130da253578126821f65c2dd0db23212d73f2e97976fe0956ec3c",
+      "publishedSha256": "1b9df7b45c9130da253578126821f65c2dd0db23212d73f2e97976fe0956ec3c",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-07/runtime/first-player.log",
+      "path": "evidence/s1/windows-live-07/runtime/first-player.log",
+      "sourceSha256": "c69cea63fc891ee1beaa2189f8885ba7ba7871ae3581ff2a3f08819ba72718b9",
+      "publishedSha256": "910862b2bb1d88140da93b9316147023f79e33a915d81913041d330cb4a1a361",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/windows-live-07/runtime/focus-needed.json",
+      "path": "evidence/s1/windows-live-07/runtime/focus-needed.json",
+      "sourceSha256": "0c5ad9379ef9b1a7df7626c365b73b877f3c145777e227a5de83642c5ac1d6c7",
+      "publishedSha256": "0c5ad9379ef9b1a7df7626c365b73b877f3c145777e227a5de83642c5ac1d6c7",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-07/runtime/result.json",
+      "path": "evidence/s1/windows-live-07/runtime/result.json",
+      "sourceSha256": "a61db7a4d0997a331701557283f58e9bc0a46f0b5aa07da986b74bbb82c31140",
+      "publishedSha256": "a61db7a4d0997a331701557283f58e9bc0a46f0b5aa07da986b74bbb82c31140",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-07/runtime/steps.json",
+      "path": "evidence/s1/windows-live-07/runtime/steps.json",
+      "sourceSha256": "05dc82f13c5b3a5dea0ca50a2331fc7af7c8543cfdf78af951f6e8a3f2f688f8",
+      "publishedSha256": "05dc82f13c5b3a5dea0ca50a2331fc7af7c8543cfdf78af951f6e8a3f2f688f8",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-07/stderr.txt",
+      "path": "evidence/s1/windows-live-07/stderr.txt",
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "publishedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-07/stdout.txt",
+      "path": "evidence/s1/windows-live-07/stdout.txt",
+      "sourceSha256": "d36f5ffda645ab0b7eaff9ec4731e0c1f82e8e5ec5a2454011a6b276065ef88f",
+      "publishedSha256": "d36f5ffda645ab0b7eaff9ec4731e0c1f82e8e5ec5a2454011a6b276065ef88f",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-08/final-audit.json",
+      "path": "evidence/s1/windows-live-08/final-audit.json",
+      "sourceSha256": "7721b9cf32cb62edd1c256c63501df9933232ba1aa69cdb33bf699138485fd79",
+      "publishedSha256": "7721b9cf32cb62edd1c256c63501df9933232ba1aa69cdb33bf699138485fd79",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-08/harness-source.txt",
+      "path": "evidence/s1/windows-live-08/harness-source.txt",
+      "sourceSha256": "fb4067050c5fa5fc34a35ced83e97a432b698e8c30348f156c38b1f15430d0bc",
+      "publishedSha256": "fb4067050c5fa5fc34a35ced83e97a432b698e8c30348f156c38b1f15430d0bc",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-08/output.xml",
+      "path": "evidence/s1/windows-live-08/output.xml",
+      "sourceSha256": "e89c136abc04a21e9b756cf74b9010cf08de108a3159da177c5a3bbc4b7e68c5",
+      "publishedSha256": "6d6c6b57711193e80019416efdef6846e16a06e56a7c6faab2f00d6a5fb41158",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/windows-live-08/runtime/autosaved-state.json",
+      "path": "evidence/s1/windows-live-08/runtime/autosaved-state.json",
+      "sourceSha256": "97310034c0f35cd4b424d81333a983e0f3ef2da5e723885285558ed41efb4d71",
+      "publishedSha256": "97310034c0f35cd4b424d81333a983e0f3ef2da5e723885285558ed41efb4d71",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-08/runtime/balance-only-starter.png",
+      "path": "evidence/s1/windows-live-08/runtime/balance-only-starter.png",
+      "sourceSha256": "d488edbfde4fec2a7a04ba2e2ff231ded036afebf01d991f918c21b39aa80ee9",
+      "publishedSha256": "d488edbfde4fec2a7a04ba2e2ff231ded036afebf01d991f918c21b39aa80ee9",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-08/runtime/command-records/20261118-125741357-94170dc296b247828d3e6f01234bcf57/operation.json",
+      "path": "evidence/s1/windows-live-08/runtime/command-records/20261118-125741357-94170dc296b247828d3e6f01234bcf57/operation.json",
+      "sourceSha256": "e311a6ff50250da44f48ae989f41d75657144c00d86a40c25765f6efac28f50a",
+      "publishedSha256": "b7a4367804b68d27ab64a17d4b529e3306f4cf269a7a00d39260a0c5780a54f2",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/windows-live-08/runtime/command-records/20261118-125742118-53f06b87d8754b8fb9acad3cee7a6f91/operation.json",
+      "path": "evidence/s1/windows-live-08/runtime/command-records/20261118-125742118-53f06b87d8754b8fb9acad3cee7a6f91/operation.json",
+      "sourceSha256": "cd319b7d516deae1a348d2e12cc83b15e309cce4cb634355b41737547b266572",
+      "publishedSha256": "65b67ab06bd652735a11e8799a5ad0afcf7a62815c0295a8912883bad48eb00c",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/windows-live-08/runtime/command-records/20261118-125743689-eaf51d7978454ad4b581e3895d357534/operation.json",
+      "path": "evidence/s1/windows-live-08/runtime/command-records/20261118-125743689-eaf51d7978454ad4b581e3895d357534/operation.json",
+      "sourceSha256": "e8e29a19183e29f6981731c088017899926706848f9635b1308e583d573bb245",
+      "publishedSha256": "931f0350b54a3baaa410b559684d2d2fbb0c28dcacde2bec00e3d781c6934deb",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/windows-live-08/runtime/command-records/20261118-125743708-dc796f5ba6354376ace5c26ab2e7d531/operation.json",
+      "path": "evidence/s1/windows-live-08/runtime/command-records/20261118-125743708-dc796f5ba6354376ace5c26ab2e7d531/operation.json",
+      "sourceSha256": "97b9ad524a1c3ebda6a2d0e8fbc46513110686d72c30e015b4fc69cb48e1ac04",
+      "publishedSha256": "f7145972492a08082082d32a2953da44f6d1e1b9a1a1e8752e1dd28c1f47a7c4",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/windows-live-08/runtime/debugger-smoke.json",
+      "path": "evidence/s1/windows-live-08/runtime/debugger-smoke.json",
+      "sourceSha256": "14bee28c06608636bf4d7d3fa9bfed0eadce31e68a7697e6adef0a42e4e1d126",
+      "publishedSha256": "14bee28c06608636bf4d7d3fa9bfed0eadce31e68a7697e6adef0a42e4e1d126",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-08/runtime/earned-companions.png",
+      "path": "evidence/s1/windows-live-08/runtime/earned-companions.png",
+      "sourceSha256": "d1c1b39710bfe7ffa0e68424a3b3549120be31a5ee9e694ea6d9f591cfb52b74",
+      "publishedSha256": "d1c1b39710bfe7ffa0e68424a3b3549120be31a5ee9e694ea6d9f591cfb52b74",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-08/runtime/explicit-fixture.json",
+      "path": "evidence/s1/windows-live-08/runtime/explicit-fixture.json",
+      "sourceSha256": "41da2654a1f57abc4d055c5a17675d21a3b087e3b5399e1cf903f0e190456664",
+      "publishedSha256": "41da2654a1f57abc4d055c5a17675d21a3b087e3b5399e1cf903f0e190456664",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-08/runtime/first-player.log",
+      "path": "evidence/s1/windows-live-08/runtime/first-player.log",
+      "sourceSha256": "67fe98fe818447cc45138bfb8415b12b054c992c41b1fd20ac60d916e96807d1",
+      "publishedSha256": "1d75494c45f3e82de432d94dc8787800a343957cb6971d01f4a7ae4ef99598ae",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/windows-live-08/runtime/restart-companions.png",
+      "path": "evidence/s1/windows-live-08/runtime/restart-companions.png",
+      "sourceSha256": "db70766ec851a3561d3c5534e5fdde1c445b32b585f1d73a01e4cced348f2cbb",
+      "publishedSha256": "db70766ec851a3561d3c5534e5fdde1c445b32b585f1d73a01e4cced348f2cbb",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-08/runtime/restart-modal.png",
+      "path": "evidence/s1/windows-live-08/runtime/restart-modal.png",
+      "sourceSha256": "adedb8b0f94a7790b9b04d93e89d1118c13d22bb8dd1fc1e99e373201893d233",
+      "publishedSha256": "adedb8b0f94a7790b9b04d93e89d1118c13d22bb8dd1fc1e99e373201893d233",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-08/runtime/restart-player.log",
+      "path": "evidence/s1/windows-live-08/runtime/restart-player.log",
+      "sourceSha256": "b0e9a489681aea7a826dac4a66cbc2585c9e71702ea6b8df664c9a2b29c82930",
+      "publishedSha256": "439619292b6ec6f0242c7a9afaf4408936a5ca8ec4e5c26d7431ad9291a96409",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/windows-live-08/runtime/result.json",
+      "path": "evidence/s1/windows-live-08/runtime/result.json",
+      "sourceSha256": "edbb9e576bf2469b1dccbe09d9f0128946b07a43f43726d343804010b206e304",
+      "publishedSha256": "edbb9e576bf2469b1dccbe09d9f0128946b07a43f43726d343804010b206e304",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-08/runtime/spent-companions.png",
+      "path": "evidence/s1/windows-live-08/runtime/spent-companions.png",
+      "sourceSha256": "c6e528a0240374779d23c4442bc0d87affaa0d7b4f96f26d02f9fd54130488ba",
+      "publishedSha256": "c6e528a0240374779d23c4442bc0d87affaa0d7b4f96f26d02f9fd54130488ba",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-08/runtime/starter.png",
+      "path": "evidence/s1/windows-live-08/runtime/starter.png",
+      "sourceSha256": "f6f94416890793dbbddec1ee547fdbaed137e46f0ab11027cea4d098368df293",
+      "publishedSha256": "f6f94416890793dbbddec1ee547fdbaed137e46f0ab11027cea4d098368df293",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-08/runtime/steps.json",
+      "path": "evidence/s1/windows-live-08/runtime/steps.json",
+      "sourceSha256": "e39c2b23372b3a21b9adb15a51ff35d4dc610c2c63b4275926a3ab4ffd979b7a",
+      "publishedSha256": "e39c2b23372b3a21b9adb15a51ff35d4dc610c2c63b4275926a3ab4ffd979b7a",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-08/stderr.txt",
+      "path": "evidence/s1/windows-live-08/stderr.txt",
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "publishedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/windows-live-08/stdout.txt",
+      "path": "evidence/s1/windows-live-08/stdout.txt",
+      "sourceSha256": "bc2ba187d07febece2f09554e3ab2a84181c87d1d23525e9dcc565aec28030b2",
+      "publishedSha256": "bc2ba187d07febece2f09554e3ab2a84181c87d1d23525e9dcc565aec28030b2",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/final-evidence-commit.log",
+      "path": "evidence/s1/final-evidence-commit.log",
+      "sourceSha256": "0137351b4a1dc059fd949dfeaf40368389ebd891595e858f4a16e861c6405f5e",
+      "publishedSha256": "0137351b4a1dc059fd949dfeaf40368389ebd891595e858f4a16e861c6405f5e",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/final-history-verification.log",
+      "path": "evidence/s1/final-history-verification.log",
+      "sourceSha256": "aec8291d1d2f6ec0db57521b09153c3c933433cc0d009e686f1687cf7fd307c9",
+      "publishedSha256": "aec8291d1d2f6ec0db57521b09153c3c933433cc0d009e686f1687cf7fd307c9",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/rooms/s1_windows_live.robot",
+      "path": "harness/s1/Tests/robot/rooms/s1_windows_live.robot",
+      "sourceSha256": "7e4867169835ae19ae83dd6ebfca2d4c5494476630a212d830486b466e097a4e",
+      "publishedSha256": "7e4867169835ae19ae83dd6ebfca2d4c5494476630a212d830486b466e097a4e",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/rooms/windows_references/menu-continue.png",
+      "path": "harness/s1/Tests/robot/rooms/windows_references/menu-continue.png",
+      "sourceSha256": "3acfe6dd63409def2acc10d3b65f85e0f784e0d2f7ac4f10bd203c2e56aaf6c4",
+      "publishedSha256": "3acfe6dd63409def2acc10d3b65f85e0f784e0d2f7ac4f10bd203c2e56aaf6c4",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/rooms/windows_references/menu-title.png",
+      "path": "harness/s1/Tests/robot/rooms/windows_references/menu-title.png",
+      "sourceSha256": "17ef88eb9303d139b9dcd71a90ac5043956ee33aac2258ad2d0ecf637e1e853d",
+      "publishedSha256": "17ef88eb9303d139b9dcd71a90ac5043956ee33aac2258ad2d0ecf637e1e853d",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/rooms/windows_references/offline-button.png",
+      "path": "harness/s1/Tests/robot/rooms/windows_references/offline-button.png",
+      "sourceSha256": "e7241eae4c31d8532650e4a2ef35af35109df918838aef9608c7fcfff0a1c4bd",
+      "publishedSha256": "e7241eae4c31d8532650e4a2ef35af35109df918838aef9608c7fcfff0a1c4bd",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/rooms/windows_references/offline-title.png",
+      "path": "harness/s1/Tests/robot/rooms/windows_references/offline-title.png",
+      "sourceSha256": "6e9ed511413e3412944345d188e3b55286b02bada041d18feeb6bf9884a36ec4",
+      "publishedSha256": "6e9ed511413e3412944345d188e3b55286b02bada041d18feeb6bf9884a36ec4",
+      "transformed": false
+    },
+    {
+      "source": "Tests/robot/rooms/windows_references/provenance.json",
+      "path": "harness/s1/Tests/robot/rooms/windows_references/provenance.json",
+      "sourceSha256": "b2713c0f228109a51996a9c2686d738097f08d15086daac597572e6473ae49b8",
+      "publishedSha256": "b2713c0f228109a51996a9c2686d738097f08d15086daac597572e6473ae49b8",
+      "transformed": false
+    },
+    {
+      "source": "tools/art_audit/windows_s1_live_acceptance.py",
+      "path": "harness/s1/tools/art_audit/windows_s1_live_acceptance.py",
+      "sourceSha256": "ac8ea0a9a6b507b1c7d7044ff92eebbb359621f585682e21b64dcc500bd78195",
+      "publishedSha256": "ac8ea0a9a6b507b1c7d7044ff92eebbb359621f585682e21b64dcc500bd78195",
+      "transformed": false
     }
   ],
   "androidOriginCommits": {
@@ -16795,7 +17327,7 @@
   "s1": {
     "runtimeGameSource": "d25e3c31415e69e9107544f6214244e6d086cc7a",
     "releaseSource": "5a0f4376bd04723a2b8e38cd42974dec23a2ebc4",
-    "harnessSnapshotRootCommit": "f7c7774c23c32114478ff3a25dc54a219094ec3e",
+    "harnessSnapshotRootCommit": "160430e7ae7792f8d09098302dd26dec75c02e80",
     "originalUserSavePublished": false,
     "debuggerRegistryPublished": false,
     "rawSuccessAndFailurePreserved": true

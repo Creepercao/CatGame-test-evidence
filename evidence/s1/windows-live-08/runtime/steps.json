@@ -1,0 +1,465 @@
+[
+  {
+    "utc": "2026-11-18T12:57:31Z",
+    "action": "private-current-snapshot",
+    "data": {
+      "fileCount": 4,
+      "originalContentsPublished": false
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:31Z",
+    "action": "explicit-qa-fixture",
+    "data": {
+      "totalEarned": 90000,
+      "catHair": 200,
+      "owned": 2,
+      "allStoryCgsSeen": true,
+      "naturalPlaythrough": false
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:31Z",
+    "action": "launch-ordinary-release",
+    "data": {
+      "phase": "first",
+      "pid": 149752,
+      "exeSha256": "5ca1a0daa0946e4e01ddcd7aef415ac0d08c00302480f96a41888c69a785018b"
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:39Z",
+    "action": "foreground-confirmed",
+    "data": {
+      "pid": 149752,
+      "phase": "first-continue",
+      "owned": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:40Z",
+    "action": "native-owned-window-click",
+    "data": {
+      "phase": "first-continue",
+      "pid": 149752,
+      "client": [
+        1320,
+        372
+      ],
+      "screen": [
+        1480,
+        473
+      ],
+      "foregroundAtRelease": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:40Z",
+    "action": "menu-entry-observation",
+    "data": {
+      "attempt": 1,
+      "visibleCats": 2,
+      "blocked": false
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:41Z",
+    "action": "foreground-confirmed",
+    "data": {
+      "pid": 149752,
+      "phase": "capture-starter.png",
+      "owned": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:41Z",
+    "action": "owned-window-screenshot",
+    "data": {
+      "file": "starter.png",
+      "size": [
+        1600,
+        900
+      ],
+      "pid": 149752
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:41Z",
+    "action": "room-source-pixel-match",
+    "data": {
+      "theme": "Starter",
+      "point": [
+        1006,
+        100
+      ],
+      "actual": [
+        241,
+        221,
+        196
+      ],
+      "expected": [
+        241,
+        221,
+        196
+      ]
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:41Z",
+    "action": "set-balance-command-reply",
+    "data": {
+      "catHair": 1000000.0,
+      "totalEarned": 90000.62171596037
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:41Z",
+    "action": "foreground-confirmed",
+    "data": {
+      "pid": 149752,
+      "phase": "capture-balance-only-starter.png",
+      "owned": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:42Z",
+    "action": "owned-window-screenshot",
+    "data": {
+      "file": "balance-only-starter.png",
+      "size": [
+        1600,
+        900
+      ],
+      "pid": 149752
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:42Z",
+    "action": "room-source-pixel-match",
+    "data": {
+      "theme": "Starter",
+      "point": [
+        1006,
+        100
+      ],
+      "actual": [
+        241,
+        221,
+        196
+      ],
+      "expected": [
+        241,
+        221,
+        196
+      ]
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:42Z",
+    "action": "balance-only-does-not-grow-room",
+    "data": {
+      "balance": 1000000
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:42Z",
+    "action": "add-earned-command-reply",
+    "data": {
+      "catHair": 1020000.6110256932,
+      "totalEarned": 110001.2327416571
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:43Z",
+    "action": "foreground-confirmed",
+    "data": {
+      "pid": 149752,
+      "phase": "capture-earned-companions.png",
+      "owned": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:43Z",
+    "action": "owned-window-screenshot",
+    "data": {
+      "file": "earned-companions.png",
+      "size": [
+        1600,
+        900
+      ],
+      "pid": 149752
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:43Z",
+    "action": "room-source-pixel-match",
+    "data": {
+      "theme": "Companions",
+      "point": [
+        1006,
+        100
+      ],
+      "actual": [
+        193,
+        216,
+        211
+      ],
+      "expected": [
+        193,
+        216,
+        211
+      ]
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:44Z",
+    "action": "foreground-confirmed",
+    "data": {
+      "pid": 149752,
+      "phase": "capture-spent-companions.png",
+      "owned": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:44Z",
+    "action": "owned-window-screenshot",
+    "data": {
+      "file": "spent-companions.png",
+      "size": [
+        1600,
+        900
+      ],
+      "pid": 149752
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:44Z",
+    "action": "room-source-pixel-match",
+    "data": {
+      "theme": "Companions",
+      "point": [
+        1006,
+        100
+      ],
+      "actual": [
+        193,
+        216,
+        211
+      ],
+      "expected": [
+        193,
+        216,
+        211
+      ]
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:44Z",
+    "action": "live-debug-commands",
+    "data": {
+      "sharedClientWithExternalDebugger": true,
+      "actualDebuggerGuiFieldsClicked": false,
+      "ownedCats": 3,
+      "totalEarned": 110003.03261173177
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:48Z",
+    "action": "distributed-debugger-auto-connect",
+    "data": {
+      "connected": true,
+      "pid": 149752,
+      "frozen": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:52Z",
+    "action": "game-autosaved-live-edits",
+    "data": {
+      "ownedCats": 3,
+      "totalEarned": 110012.32403240007,
+      "catHair": 10.307907289266636
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:52Z",
+    "action": "owned-player-stopped",
+    "data": {
+      "pid": 149752,
+      "exitCode": 0
+    }
+  },
+  {
+    "utc": "2026-11-18T12:57:54Z",
+    "action": "launch-ordinary-release",
+    "data": {
+      "phase": "restart",
+      "pid": 146236,
+      "exeSha256": "5ca1a0daa0946e4e01ddcd7aef415ac0d08c00302480f96a41888c69a785018b"
+    }
+  },
+  {
+    "utc": "2026-11-18T12:58:02Z",
+    "action": "foreground-confirmed",
+    "data": {
+      "pid": 146236,
+      "phase": "restart-continue",
+      "owned": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:58:03Z",
+    "action": "native-owned-window-click",
+    "data": {
+      "phase": "restart-continue",
+      "pid": 146236,
+      "client": [
+        1320,
+        372
+      ],
+      "screen": [
+        1480,
+        473
+      ],
+      "foregroundAtRelease": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:58:03Z",
+    "action": "menu-entry-observation",
+    "data": {
+      "attempt": 1,
+      "visibleCats": 3,
+      "blocked": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:58:03Z",
+    "action": "foreground-confirmed",
+    "data": {
+      "pid": 146236,
+      "phase": "capture-restart-modal.png",
+      "owned": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:58:04Z",
+    "action": "owned-window-screenshot",
+    "data": {
+      "file": "restart-modal.png",
+      "size": [
+        1600,
+        900
+      ],
+      "pid": 146236
+    }
+  },
+  {
+    "utc": "2026-11-18T12:58:04Z",
+    "action": "offline-reference-error",
+    "data": {
+      "platform": "Windows",
+      "meanRgbErrors": {
+        "offline-title": 0.0,
+        "offline-button": 0.0
+      },
+      "limit": 2.5
+    }
+  },
+  {
+    "utc": "2026-11-18T12:58:04Z",
+    "action": "foreground-confirmed",
+    "data": {
+      "pid": 146236,
+      "phase": "restart-offline-collect",
+      "owned": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:58:05Z",
+    "action": "native-owned-window-click",
+    "data": {
+      "phase": "restart-offline-collect",
+      "pid": 146236,
+      "client": [
+        800,
+        519
+      ],
+      "screen": [
+        960,
+        620
+      ],
+      "foregroundAtRelease": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:58:05Z",
+    "action": "foreground-confirmed",
+    "data": {
+      "pid": 146236,
+      "phase": "capture-restart-companions.png",
+      "owned": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:58:05Z",
+    "action": "owned-window-screenshot",
+    "data": {
+      "file": "restart-companions.png",
+      "size": [
+        1600,
+        900
+      ],
+      "pid": 146236
+    }
+  },
+  {
+    "utc": "2026-11-18T12:58:05Z",
+    "action": "room-source-pixel-match",
+    "data": {
+      "theme": "Companions",
+      "point": [
+        1006,
+        100
+      ],
+      "actual": [
+        193,
+        216,
+        211
+      ],
+      "expected": [
+        193,
+        216,
+        211
+      ]
+    }
+  },
+  {
+    "utc": "2026-11-18T12:58:05Z",
+    "action": "fresh-process-restored-live-edits",
+    "data": {
+      "firstPid": 149752,
+      "restartPid": 146236,
+      "ownedCats": 3,
+      "totalEarned": 110015.4822713192,
+      "unblocked": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:58:05Z",
+    "action": "owned-player-stopped",
+    "data": {
+      "pid": 146236,
+      "exitCode": 0
+    }
+  },
+  {
+    "utc": "2026-11-18T12:58:05Z",
+    "action": "final-private-restoration",
+    "data": {
+      "restored": true,
+      "fileCount": 4,
+      "ownedPlayerExited": true
+    }
+  }
+]

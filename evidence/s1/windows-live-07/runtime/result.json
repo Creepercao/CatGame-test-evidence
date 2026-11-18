@@ -1,0 +1,7 @@
+{
+  "passed": false,
+  "restored": true,
+  "runtimeGameSource": "d25e3c31415e69e9107544f6214244e6d086cc7a",
+  "releaseSource": "5a0f4376bd04723a2b8e38cd42974dec23a2ebc4",
+  "error": "AssertionError('Unknown modal; no dismissal click sent')"
+}

@@ -1,0 +1,120 @@
+[
+  {
+    "utc": "2026-11-18T12:52:22Z",
+    "action": "private-current-snapshot",
+    "data": {
+      "fileCount": 4,
+      "originalContentsPublished": false
+    }
+  },
+  {
+    "utc": "2026-11-18T12:52:22Z",
+    "action": "explicit-qa-fixture",
+    "data": {
+      "totalEarned": 90000,
+      "catHair": 200,
+      "owned": 2,
+      "allStoryCgsSeen": true,
+      "naturalPlaythrough": false
+    }
+  },
+  {
+    "utc": "2026-11-18T12:52:22Z",
+    "action": "launch-ordinary-release",
+    "data": {
+      "phase": "first",
+      "pid": 156052,
+      "exeSha256": "5ca1a0daa0946e4e01ddcd7aef415ac0d08c00302480f96a41888c69a785018b"
+    }
+  },
+  {
+    "utc": "2026-11-18T12:52:30Z",
+    "action": "await-owned-foreground",
+    "data": {
+      "pid": 156052,
+      "title": "CatGame 1.2.0 S1R - first-continue - PID 156052",
+      "phase": "first-continue",
+      "active": false
+    }
+  },
+  {
+    "utc": "2026-11-18T12:53:41Z",
+    "action": "foreground-confirmed",
+    "data": {
+      "pid": 156052,
+      "phase": "first-continue",
+      "owned": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:53:41Z",
+    "action": "native-owned-window-click",
+    "data": {
+      "phase": "first-continue",
+      "pid": 156052,
+      "client": [
+        1320,
+        372
+      ],
+      "screen": [
+        1480,
+        473
+      ]
+    }
+  },
+  {
+    "utc": "2026-11-18T12:53:42Z",
+    "action": "foreground-confirmed",
+    "data": {
+      "pid": 156052,
+      "phase": "capture-first-modal.png",
+      "owned": true
+    }
+  },
+  {
+    "utc": "2026-11-18T12:53:42Z",
+    "action": "owned-window-screenshot",
+    "data": {
+      "file": "first-modal.png",
+      "size": [
+        1600,
+        900
+      ],
+      "pid": 156052
+    }
+  },
+  {
+    "utc": "2026-11-18T12:53:42Z",
+    "action": "offline-reference-error",
+    "data": {
+      "platform": "Windows",
+      "meanRgbErrors": {
+        "offline-title": 86.04602876797999,
+        "offline-button": 45.14163333333334
+      },
+      "limit": 2.5
+    }
+  },
+  {
+    "utc": "2026-11-18T12:53:42Z",
+    "action": "failure",
+    "data": "AssertionError('Unknown modal; no dismissal click sent')"
+  },
+  {
+    "utc": "2026-11-18T12:53:42Z",
+    "action": "owned-player-stopped",
+    "data": {
+      "pid": 156052,
+      "exitCode": 0
+    }
+  },
+  {
+    "utc": "2026-11-18T12:53:42Z",
+    "action": "final-private-restoration",
+    "data": {
+      "restored": true,
+      "fileCount": 4,
+      "ownedPlayerExited": true
+    }
+  }
+]

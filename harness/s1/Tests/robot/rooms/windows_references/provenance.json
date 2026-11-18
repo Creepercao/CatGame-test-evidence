@@ -1,0 +1,36 @@
+{
+  "source": "Build/S1/windows-live-06/runtime/restart-modal.png",
+  "sourceSha256": "c132bd0c55065a3353ec694f17263b18cba97112fe7c1324a8f0bdfaec524e1f",
+  "review": "Visually reviewed the real Windows offline summary before allowing one native collect click",
+  "regions": {
+    "offline-title": [
+      735,
+      373,
+      865,
+      414
+    ],
+    "offline-button": [
+      700,
+      492,
+      900,
+      542
+    ]
+  },
+  "meanRgbErrorLimit": 2.5,
+  "menuRegions": {
+    "menu-title": [
+      1243,
+      198,
+      1400,
+      273
+    ],
+    "menu-continue": [
+      1170,
+      341,
+      1470,
+      403
+    ]
+  },
+  "menuSource": "Build/S1/windows-live-07/runtime/first-modal.png",
+  "menuSourceSha256": "1b9df7b45c9130da253578126821f65c2dd0db23212d73f2e97976fe0956ec3c"
+}
