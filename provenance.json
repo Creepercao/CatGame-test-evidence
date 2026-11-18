@@ -16546,22 +16546,22 @@
     {
       "source": "docs/S1场景切换测试记录.md",
       "path": "reports/s1-test-history.md",
-      "sourceSha256": "0c8d4cf5c398acaf1a0d57ee57f77e1b9353a8c57f5d73dbd1704a151d3b5e62",
-      "publishedSha256": "0c8d4cf5c398acaf1a0d57ee57f77e1b9353a8c57f5d73dbd1704a151d3b5e62",
+      "sourceSha256": "7cafd40cb368808477e4968d35d6e041a810cb926f2c9799ab99790787cd6b1a",
+      "publishedSha256": "7cafd40cb368808477e4968d35d6e041a810cb926f2c9799ab99790787cd6b1a",
       "transformed": false
     },
     {
       "source": "docs/S1场景成长切换实施方案.md",
       "path": "reports/s1-plan.md",
-      "sourceSha256": "fb6bb49bf01d501d634e54fe34b4da51a8b730ea9a9780f335e2c062f1c418e7",
-      "publishedSha256": "fb6bb49bf01d501d634e54fe34b4da51a8b730ea9a9780f335e2c062f1c418e7",
+      "sourceSha256": "0d68da708eb10874b51ae43d5115776183878e6adab8fc6c826745f58ef6badf",
+      "publishedSha256": "0d68da708eb10874b51ae43d5115776183878e6adab8fc6c826745f58ef6badf",
       "transformed": false
     },
     {
       "source": "docs/S1场景成长交付报告.md",
       "path": "reports/s1-delivery.md",
-      "sourceSha256": "9ce41b488aaa73898c3f8a18fe664b4b75363e18829b90d19193fe09cc180479",
-      "publishedSha256": "9ce41b488aaa73898c3f8a18fe664b4b75363e18829b90d19193fe09cc180479",
+      "sourceSha256": "475b648078906105fa8c66a5a58b7d8c7b6b10f6441323b93df9fff50d3034e1",
+      "publishedSha256": "475b648078906105fa8c66a5a58b7d8c7b6b10f6441323b93df9fff50d3034e1",
       "transformed": false
     },
     {
@@ -16626,6 +16626,132 @@
       "sourceSha256": "8761262794f6a3ef238f57774fa090addb0394874454ed071bb1a3f4791b0f26",
       "publishedSha256": "cde69cf5779f15ca7379156e02ea4716dc0a74934c183173a54924d9ab940d2e",
       "transformed": true
+    },
+    {
+      "source": "Build/S1/distribution-v1.2.0/draft-command.log",
+      "path": "evidence/s1/distribution-v1.2.0/draft-command.log",
+      "sourceSha256": "902878e5f8fbb39019b43d1b631d5ad856feb8bac3090f36ac052e3d2246d83e",
+      "publishedSha256": "902878e5f8fbb39019b43d1b631d5ad856feb8bac3090f36ac052e3d2246d83e",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/distribution-v1.2.0/publish-command.log",
+      "path": "evidence/s1/distribution-v1.2.0/publish-command.log",
+      "sourceSha256": "abab7a26f5132fff5153ae49238a2581e4857da02603c1739a416177bee3282f",
+      "publishedSha256": "abab7a26f5132fff5153ae49238a2581e4857da02603c1739a416177bee3282f",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/distribution-v1.2.0/push-evidence.log",
+      "path": "evidence/s1/distribution-v1.2.0/push-evidence.log",
+      "sourceSha256": "fa6a843a2a1980cd25363aaa942e283e924cd296cc3352486ed6a54f6f626b56",
+      "publishedSha256": "fa6a843a2a1980cd25363aaa942e283e924cd296cc3352486ed6a54f6f626b56",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/distribution-v1.2.0/push-game.log",
+      "path": "evidence/s1/distribution-v1.2.0/push-game.log",
+      "sourceSha256": "c11b8efac6804e7cc8dde86aa95562560b254e2f72eee184603d188c49d01217",
+      "publishedSha256": "c11b8efac6804e7cc8dde86aa95562560b254e2f72eee184603d188c49d01217",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/distribution-v1.2.0/release-draft.json",
+      "path": "evidence/s1/distribution-v1.2.0/release-draft.json",
+      "sourceSha256": "e9a420470cb95af6cbc3e1123dfe85598d123b06a5639332a65f4f5418721bbd",
+      "publishedSha256": "e9a420470cb95af6cbc3e1123dfe85598d123b06a5639332a65f4f5418721bbd",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/distribution-v1.2.0/release-published.json",
+      "path": "evidence/s1/distribution-v1.2.0/release-published.json",
+      "sourceSha256": "03f7e8ac4f987e8f244847db17716025d91b8c447c674cca386883f9a4e025e7",
+      "publishedSha256": "03f7e8ac4f987e8f244847db17716025d91b8c447c674cca386883f9a4e025e7",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/distribution-v1.2.0/release-verified.json",
+      "path": "evidence/s1/distribution-v1.2.0/release-verified.json",
+      "sourceSha256": "95a140926cc572cde6b4f7d6b6b2bff0c8cd72c57359f9624069e6e1f726a3b2",
+      "publishedSha256": "95a140926cc572cde6b4f7d6b6b2bff0c8cd72c57359f9624069e6e1f726a3b2",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/distribution-v1.2.0/verify-command.log",
+      "path": "evidence/s1/distribution-v1.2.0/verify-command.log",
+      "sourceSha256": "281e873a8e2911d4e99aef1a6c72e2320016847656d141bf2915df688fdcc7c0",
+      "publishedSha256": "281e873a8e2911d4e99aef1a6c72e2320016847656d141bf2915df688fdcc7c0",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/play-theme-07/cli.log",
+      "path": "evidence/s1/play-theme-07/cli.log",
+      "sourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "publishedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/play-theme-07/Editor.log",
+      "path": "evidence/s1/play-theme-07/Editor.log",
+      "sourceSha256": "1a217ea4643724fd58ee0db02a4a5309efae147dea9732f71259397abe9d7484",
+      "publishedSha256": "394373f38313b4555e7d35ca134fb9144803b6ee31f198d8c580c05d2adf1571",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/play-theme-07/exit-code.txt",
+      "path": "evidence/s1/play-theme-07/exit-code.txt",
+      "sourceSha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+      "publishedSha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/play-theme-07/isolation.json",
+      "path": "evidence/s1/play-theme-07/isolation.json",
+      "sourceSha256": "d719b3819f8f1425a0f8c0cde7a53e62e5c7baf0d888f46c9836a1dc3f3f6690",
+      "publishedSha256": "d698d99fb6db8ad76508a16c43ae54b6699fd644c2e170999a8a27298aafd0e3",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/play-theme-07/results.xml",
+      "path": "evidence/s1/play-theme-07/results.xml",
+      "sourceSha256": "7b21e466378867472a0ce4421f156ad3dee84073d91910398b6560e7a787c571",
+      "publishedSha256": "020ddcde6639787d89e45b5730ce4d7a62288dd59f858d9df941d1dea2d49570",
+      "transformed": true
+    },
+    {
+      "source": "Build/S1/play-theme-07/source.txt",
+      "path": "evidence/s1/play-theme-07/source.txt",
+      "sourceSha256": "7f404e61c3de2f571b939e96855e9e89fddddf11b63c2cc4617e7accacae3010",
+      "publishedSha256": "7f404e61c3de2f571b939e96855e9e89fddddf11b63c2cc4617e7accacae3010",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/privacy-scan.json",
+      "path": "evidence/s1/privacy-scan.json",
+      "sourceSha256": "346e42cbb6d73ee17dba91e09027f03a223260c75a66f8c3d0a7aaa5b3d7058e",
+      "publishedSha256": "346e42cbb6d73ee17dba91e09027f03a223260c75a66f8c3d0a7aaa5b3d7058e",
+      "transformed": false
+    },
+    {
+      "source": "Build/S1/private-restoration-summary.json",
+      "path": "evidence/s1/private-restoration-summary.json",
+      "sourceSha256": "158036d4f2a8c8bdff065d6030cdfcf61c8ba8c323c7a5ba4ecacc26795b7a4f",
+      "publishedSha256": "158036d4f2a8c8bdff065d6030cdfcf61c8ba8c323c7a5ba4ecacc26795b7a4f",
+      "transformed": false
+    },
+    {
+      "source": "tools/qa/run_isolated_unity_tests.py",
+      "path": "harness/s1/tools/qa/run_isolated_unity_tests.py",
+      "sourceSha256": "0fafa2194d104c678c7acebb1937035cda6a23b13449b1a56061b0f05b1798cc",
+      "publishedSha256": "0fafa2194d104c678c7acebb1937035cda6a23b13449b1a56061b0f05b1798cc",
+      "transformed": false
+    },
+    {
+      "source": "docs/版本与发行对应说明.md",
+      "path": "reports/s1-version-management.md",
+      "sourceSha256": "884e80a499cff2e0c5b6f46471302c9081f82554cff4967ebb7485861f7af349",
+      "publishedSha256": "884e80a499cff2e0c5b6f46471302c9081f82554cff4967ebb7485861f7af349",
+      "transformed": false
     }
   ],
   "androidOriginCommits": {
@@ -16669,7 +16795,7 @@
   "s1": {
     "runtimeGameSource": "d25e3c31415e69e9107544f6214244e6d086cc7a",
     "releaseSource": "5a0f4376bd04723a2b8e38cd42974dec23a2ebc4",
-    "harnessSnapshotRootCommit": "b8def77395fe01658bcf327b613a879d4969f99e",
+    "harnessSnapshotRootCommit": "f7c7774c23c32114478ff3a25dc54a219094ec3e",
     "originalUserSavePublished": false,
     "debuggerRegistryPublished": false,
     "rawSuccessAndFailurePreserved": true

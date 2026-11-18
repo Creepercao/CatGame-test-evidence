@@ -1,0 +1,13 @@
+{
+  "privateFilesChecked": 4,
+  "allCurrentFilesRestored": true,
+  "finalAuditInitiallyFailed": true,
+  "changedAfterEarlierRestore": [
+    "CatGame\\save.json",
+    "CatGame\\save.json.bak"
+  ],
+  "originalContentsPublished": false,
+  "isolatedRerunPending": false,
+  "isolatedRerun": "play-theme-07",
+  "normalFilesUnchangedAcrossIsolatedRerun": true
+}

@@ -8,7 +8,7 @@ def read(name):return json.loads((BASE/name).read_text(encoding='utf-8-sig'))
 def robot(run,passed,failed=0):
     s=E.parse(BASE/run/'output.xml').find('.//statistics/total/stat')
     assert (int(s.get('pass')),int(s.get('fail')))==(passed,failed),run
-for run,n in [('edit-full-01',89),('play-full-02',99),('play-theme-06',8)]:
+for run,n in [('edit-full-01',89),('play-full-02',99),('play-theme-06',8),('play-theme-07',8)]:
     r=E.parse(BASE/run/'results.xml').getroot();assert int(r.get('passed'))==n and int(r.get('failed'))==0
 red=E.parse(BASE/'play-theme-05/results.xml').getroot();assert red.get('failed')=='1'
 assert (BASE/'play-theme-04/exit-code.txt').read_text(encoding='utf-8-sig').strip()=='6'
@@ -38,7 +38,7 @@ assert not scope['forbiddenPaths'] and not scope['privateQaMarkers'] and scope['
 manifest=json.loads((ROOT/'provenance.json').read_text(encoding='utf-8-sig'))
 for row in manifest['files']:
     assert hashlib.sha256((ROOT/row['path']).read_bytes()).hexdigest()==row['publishedSha256'],row['path']
-    assert 'windows-user-save-backup' not in row['path'] and '/registry/' not in row['path']
+    assert 'windows-user-save-backup' not in row['path'] and '/registry/' not in row['path'] and '/private-after-editor-tests/' not in row['path']
 release=BASE/'distribution-v1.2.0/release-verified.json'
 if release.exists():
     r=json.loads(release.read_text(encoding='utf-8-sig'))
@@ -48,5 +48,8 @@ if release.exists():
     assert assets['CatGame-Windows-x64-v1.2.0.zip']['digest']=='sha256:'+package['zipSha256']
 cleanup=read('cleanup.json');assert cleanup['shutdownComplete'] and not cleanup['remainingOwnedProcesses']
 assert not cleanup['phoneOperated'] and not cleanup['mumuOperated']
+restored=read('private-restoration-summary.json')
+assert restored['allCurrentFilesRestored'] and not restored['isolatedRerunPending']
+assert restored['normalFilesUnchangedAcrossIsolatedRerun']
 print('PASS S1 scope/source, engine, qualified Windows input/restart, ordinary startup/debugger, Android upgrade/touches, retained failures, package and cleanup')
 print('Manifest SHA256 verified:',len(manifest['files']),'files; F1 history retained. This is a consistency check, not a test rerun.')
