@@ -2,6 +2,8 @@
 
 面向游戏自动化测试岗位的项目作品：展示需求与风险如何转化为用例、失败如何定位、版本如何放行，以及性能结论如何由数据支撑。游戏源码与发行版见 [Creepercao/CatGame](https://github.com/Creepercao/CatGame)。
 
+**v1.2.0 双端发布验收**：Windows 正式包通过 Robot 补测，覆盖前台鼠标进入、通过共享客户端实时改值、自动存档，以及冷启动后恢复 3 只猫和伙伴客厅。Android 验证了覆盖安装后保留旧档，以及三种屏幕比例下的 Appium 触摸操作。[Windows 补测记录](evidence/s1/windows-live-08/runtime/result.json) · [双端交付报告](reports/s1-delivery.md) · [发布说明](https://github.com/Creepercao/CatGame/releases/tag/v1.2.0)
+
 本仓库由本人利用AI辅助整理设计、实现与执行材料。项目数据来自真实运行记录，不将AI协作成果表述为全部独立手写；个人掌握程度需通过解释和复现说明。此仓库没有商业项目或线上生产经验声明。
 
 2026-11-18追加：[S1房间成长与双端交付](reports/s1-delivery.md)，[逐轮测试与失败记录](reports/s1-test-history.md)。本轮Edit89/89、Play99/99，随后新增修改器命令集成并定向8/8；Windows QA实际鼠标/百猫/新进程恢复、普通APK自然旧档code6→7升级及Appium三比例触摸。普通Windows仅启动/主菜单写保护/独立修改器自动连接通过，前台进入后的编辑全链路受焦点环境限制未复测成功。新增用例的编译和夹具错误、AVD系统ANR、构建日志错误均保留，不计产品Bug。
